@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pidatacenters.com/sitemap.xml
