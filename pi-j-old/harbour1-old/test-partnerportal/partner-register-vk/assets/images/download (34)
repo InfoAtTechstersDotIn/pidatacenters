@@ -1,0 +1,572 @@
+<?php
+if(isset($_GET['utm_source'])) {$utm_source = $_GET['utm_source'];} else {   $utm_source = '';}
+if(isset($_GET['utm_medium'])) {$utm_medium = $_GET['utm_medium'];} else {$utm_medium = '';}
+if(isset($_GET['utm_campaign'])) { $utm_campaign = $_GET['utm_campaign'];} else {$utm_campaign = '';}
+if(isset($_GET['utm_term'])) { $utm_term = $_GET['utm_term'];} else {$utm_term = '';}
+?>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="keywords" content=" ">
+      <meta name="description" content=" ">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <!-- SET: Title -->
+      <title>Vanadhara</title>
+      <!-- SET: Favicon -->
+      <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+      <!-- SET: Stylesheet -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+      <link href="css/bootstrap4hack.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">
+      
+      <link rel="stylesheet" type="text/css" href="css/dd.css">
+      <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
+      <link rel="stylesheet" href="https://github.com/fontello/fontello.git">
+      <link rel="stylesheet" type="text/css" href="css/animate.css">
+      <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick.css">
+      <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css">
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css"
+         />
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link href="css/responsive.css" rel="stylesheet" type="text/css">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+         nav ul li a {fo}
+      </script>
+      <style></style>
+      <![endif]-->
+   </head>
+   <body>
+      <!-- wrapper starts -->
+      <div class="wrapper">
+         <!-- header-blcok -->
+         <!-- main starts here -->
+         <div class="banner-blk">
+         <!-- header starts-->
+         <header>
+            <div class="header-block">
+               <div class="container">
+                  <div class="header-dtls">
+                     <div class="header-lt animated fadeInUp wow">
+                        <a href="#"><img src="images/logo.png" alt="img" width="164" height="72"></a>
+                     </div>
+                     <div class="header-rt">
+                        <nav>
+                           <ul class="clear">
+                              <li class="animated fadeInUp wow"><a href="#">Home</a></li>
+                              <li class="animated fadeInUp wow"><a href="#about">About</a></li>
+                              <li class="animated fadeInUp wow"><a href="#amenities">Amenities</a></li>
+                              <li class="animated fadeInUp wow"><a href="#gallery">Gallery</a></li>
+                              <li class="animated fadeInUp wow"><a href="#spec">Specifications</a></li>
+                              <li class="animated fadeInUp wow"><a href="#loc">Location Highlights</a></li>
+                              <li class="animated fadeInUp wow get"><a href="#popup1"><i class="fa fa-download" aria-hidden="true"></i> Download Brochure</a></li>
+                           </ul>
+                        </nav>
+                     </div>
+                     <div class="clear"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="menu">
+               <div id="nav-icon">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </div>
+            </div>
+         </header>
+         <div class="side_bar"></div>
+         <!-- banner starts-->
+            <div class="container">
+               <div class="banner-in d-flex flex-wrap">
+                  <div class="banner-lt col-lg-8 col-md-10">
+                     <h1 class="animated fadeInUp wow">  Invest in a life of peace  </h1>
+                     <h6 class="animated fadeInUp wow">Away from chaos, closer to nature!</h6>
+                     <p class="animated fadeInUp wow">Vanadhara at JP Darga, Kothur, Silpa Group’s first-ever concept-based & largest Farm Land Venture! A community of farmlands that bring together the joy of good old farm living along with required modern amenities, to give you a truly enriching lifestyle. </p>
+                     <div class="btn-blk animated fadeInUp wow">
+                        <a href="#contact"><i class="fa fa-download" aria-hidden="true"></i> Get the cost sheet & brochure</a>
+                     </div>
+                  </div>
+                  <div class="banner-rt col-md-6 animated fadeInRight wow">
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- video -->
+         <div class="video-blk">
+            <div class="video-in animated fadeInUp wow">
+                 <iframe width="100%" height="415" src="https://www.youtube.com/embed/XBSYGr8cYZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-cnt d-flex flex-wrap" id="about">
+               <div class="video-lt col-md-6 animated fadeInUp wow">
+                   <h2>Let Nature Reap Returns For You </h2>
+                   <p>Vanadhara is an expanse of 103 acres, a farmland venture at JP Darga Kothur with access to all right social amenities like multiple well-developed access roads, well-connected to schools, access to hospitals and village markets, it is located in a promising micro-market with great scope for property appreciation. Project is spread with red fertile soil to support large-scale green plantation and water reserves to nurture acres of green belt.</p>
+               </div>
+               <div class="video-rt col-md-6 animated fadeInUp wow">
+                  <p>A distinct farmland project that inspires imagination and revamps the way you live!</p>
+                  <div class="btn-blk animated fadeInUp wow">
+                     <a href="#popup1"><i class="fa fa-download" aria-hidden="true"></i> Download Brochure</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- feature block start -->
+         <div class="village-blk">
+            <div class="container">
+               <div class="village-in d-flex flex-wrap">
+                   <div class="village-lt col-lg-6">
+                       <div class="village-cnt">
+                          <h2 class="animated fadeInUp wow">Make Nature A Part Of You!</h2>
+                          <p class="animated fadeInUp wow">Want to experience the village lifestyle, have the joy of farm stay, be part of community celebrations, throw parties, invite friends and family for a weekend getaway? Do you wish to rejuvenate your health, spend quality time in a serene atmosphere, pluck fruits and vegetables, water plants and preserve nature and also create wealth and prosperity for future generations? Vanadhara ticks off all your needs & desires!
+                        </p>
+                          <p class="animated fadeInUp wow">As much as the project is close to nature, it's also close to where you come from- the city life. We have meticulously planned this project ensuring that our investors get the best of both worlds!</p>
+                          <div class="btn-blk animated fadeInUp wow">
+                           <a href="#popup1">Live The Village Life <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+                          </div>
+                       </div>
+                   </div>
+                   <div class="village-rt col-lg-6">
+                      <img src="images/village.jpg" alt="img" class="animated fadeInUp wow">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- amenities start -->
+         <div class="amenities-blk" id="amenities">
+             <div class="container">
+                <div class="amenities-in d-flex flex-wrap">
+                    <div class="amenities-lt col-lg-6">
+                        <h2 class="animated fadeInUp wow">Amenities</h2>
+                        <ul class="d-flex flex-wrap">
+                           <li class="col-md-4">
+                              <div class="am-img">
+                                  <img src="images/amenities/clubhouse.png"  class="wow rotateIn"
+                                  data-wow-delay=".5s" alt="img"/>
+                               </div>
+                              <p>State-of-the-art clubhouse</p>
+                           </li>
+                           <li class="col-md-4">
+                              <div class="am-img">
+                                 <img src="images/amenities/library.png" class="wow rotateIn"
+                                 data-wow-delay=".5s" alt="img"/>
+                              </div>
+                              <p>library/reading lounge</p>
+                           </li>
+                           <li class="col-md-4">
+                              <div class="am-img">
+                                 <img src="images/amenities/multihall.png" class="wow rotateIn"
+                                 data-wow-delay=".5s" alt="img"/>
+                              </div>
+                              <p>Multipurpose hall</p>
+                           </li>
+                           <li class="col-md-4">
+                              <div class="am-img">
+                                 <img src="images/amenities/home-theater.png" class="wow rotateIn"
+                                 data-wow-delay=".5s" alt="img"/>
+                              </div>
+                              <p>Home theatre</p>
+                           </li>
+                           <li class="col-md-4">
+                              <div class="am-img">
+                                 <img src="images/amenities/indoor.png" class="wow rotateIn"
+                                 data-wow-delay=".5s" alt="img"/>
+                              </div>
+                              <p>Dedicated rooms for indoor games</p>
+                           </li>
+                           <li class="col-md-4">
+                              <div class="am-img">
+                                 <img src="images/amenities/outdoor.png" class="wow rotateIn"
+                                 data-wow-delay=".5s" alt="img"/>
+                              </div>
+                              <p>Dedicated courts for outdoor games</p>
+                           </li>
+                           <li class="col-md-4">
+                              <div class="am-img">
+                                 <img src="images/amenities/restaurent.png" class="wow rotateIn"
+                                 data-wow-delay=".5s" alt="img"/>
+                              </div>
+                              <p>Restaurant</p>
+                           </li>
+                           <li class="col-md-4">
+                              <div class="am-img">
+                                 <img src="images/amenities/senior-citizen.png" class="wow rotateIn"
+                                 data-wow-delay=".5s" alt="img"/>
+                              </div>
+                              <p>Senior citizen’s plaza</p>
+                           </li>
+                           <li class="col-md-4">
+                              <div class="am-img">
+                                 <img src="images/amenities/amphi.png" class="wow rotateIn"
+                                 data-wow-delay=".5s" alt="img"/>
+                              </div>
+                              <p>Amphitheatre</p>
+                           </li>
+                           <li class="col-md-4">
+                              <div class="am-img">
+                                 <img src="images/amenities/guest.png" class="wow rotateIn"
+                                 data-wow-delay=".5s" alt="img"/>
+                              </div>
+                              <p>Guest rooms</p>
+                           </li>
+                          
+                        </ul>
+                        
+                    </div>
+                    <div class="amenities-rt col-lg-6">
+                       <div class="aminity-in d-flex flex-wrap">
+                          <div class="aminity-lt col-md-6">
+                             <img src="images/amenity1.png" alt="img" class="animated fadeInUp wow">
+                             <img src="images/amenity2.png" alt="img" class="animated fadeInUp wow">
+                          </div>
+                          <div class="aminity-rt col-md-6">
+                           <img src="images/amenity3.png" alt="img" class="animated fadeInUp wow">
+                          </div>
+                       </div>
+                  </div>
+                </div>
+             </div>
+         </div>
+         <!-- specifications -->
+         <div class="spec-blk" id="spec">
+             <div class="container">
+                <div class="spec-in">
+                   <h2 class="animated fadeInUp wow">Specifications:</h2>
+                   <div class="spec-inner slider">
+                     <ul>
+                        <li>
+                           <p><b>Lotus pond</b> – Large water pond with lotus and fishes will bring cheer and refreshing experience as you enter urban forest </p>
+                        </li>
+                        <li>
+                          <p><b>Amphitheatre</b> – Developing an open-air venue for your entertainment, performances, evening gatherings and sports activities </p>
+                       </li>
+                       <li>
+                          <p><b>Coconut Grove</b> – Enjoy the walk under lush-green trees and quench your thrust with refreshing coconut water</p>
+                       </li>
+                       <li>
+                          <p><b>Sculpture Garden</b> – Land art, installations, sculptures and landscape garden, find all of them in Vanadhara sculpture garden</p>
+                       </li>
+                       <li>
+                          <p><b>Rock Garden</b> – Have a casual walk in our rock garden and discover many small objects carefully installed across the garden</p>
+                       </li>
+                       <li>
+                        <p><b>Free club membership</b> – Get free life club membership for all plot owners</p>
+                     </li>
+                       
+                     </ul>
+                     <ul>
+                        <li>
+                           <p><b>Almondwood Park</b> – Pluck, crack and relish fresh almonds from our wood park, carry a home handful of country almonds to Share it with your friends and family</p>
+                        </li>
+                        <li>
+                           <p><b>Tranquil Park</b> – Mediate, relax, rejuvenate , clear your lungs and have me time for yourself and your life partner</p>
+                        </li>
+                        <li>
+                           <p><b>Jogging and walking track</b> – Do you enjoy jogging or having a long walk, 103 acres of open spaces with lush green surrounding will enthrall you and push you to go the extra mile</p>
+                        </li>
+                        <li>
+                          <p><b>Cycling Track</b> – Cycle around, explore wide varieties of parks, open spaces, boulevard of trees, vegetable gardens and get lost in nature </p>
+                       </li>
+                       <li>
+                          <p><b>Children’s Play area with sandpit</b> – Children can play, swing, try their hands on gymnastics in sandpits.</p>
+                       </li>
+                     </ul>
+                     <ul>
+                        <li>
+                           <p><b>Central Boulevard</b> – Long 60FT road connecting all parts of the site with palm trees dotted across the whole of the boulevard</p>
+                        </li>
+                        <li>
+                           <p><b>Grand entry with security post</b> – Around the clock security and access to authorized persons will be strictly followed. All staff will be trained on security protocols and procedures thoroughly</p>
+                        </li>
+                        <li>
+                           <p><b>A boundary wall with solar-powered fencing</b> – Over 5 Kms of boundary wall running across the project with solar-powered fencing will protect from any intrusion and trespassing</p>
+                        </li>
+                        <li>
+                         <p><b>Elevated decks</b> – Enjoy the fresh air, scenic views, have evening high tea and gaze into sky at night to watch falling stars and the moon shining bright</p>
+                      </li>
+                      <li>
+                         <p><b>Clubhouse with state-of-art facilities</b> – Clubhouse compound will have wide-open spaces with all required amenities for large gatherings, organizing meetings, throwing parties and  have a fun-filled day outing</p>
+                      </li>
+                     </ul>
+                   </div>
+                </div>
+             </div>
+         </div>
+         <!-- friut -->
+         <div class="fruit-blk">
+            <div class="fruit-inner">
+                 <div class="fruit-cnt">
+                     <h2  class="animated fadeInUp wow">Exquisite Fruit Plantation </h2>
+                     <p  class="animated fadeInUp wow">While the green of nature is the predominant feature at Vanadhara, the entire project has been designed to offer you an enriching and village-like experience. Fruit Plantation being the most important of our offerings. Several types of fruit plants will be planted in every farmland and one can enjoy eating naturally grown fruits and can also take home the fresh farm produce. </p>
+                 </div>
+                 <ul>
+                    <li  class="animated fadeInUp wow">
+                       <img src="images/fruit1.png" alt="img">
+                    </li>
+                    <li  class="animated fadeInUp wow">
+                     <img src="images/fruit2.png" alt="img">
+                  </li>
+                  <li  class="animated fadeInUp wow">
+                     <img src="images/fruit3.png" alt="img">
+                  </li>
+                  <li  class="animated fadeInUp wow">
+                     <img src="images/fruit4.png" alt="img">
+                  </li>
+                  <li  class="animated fadeInUp wow">
+                     <img src="images/fruit5.png" alt="img">
+                  </li>
+                 </ul>
+            </div>
+         </div>
+         <!-- location -->
+         <div class="location-blk" id="loc">
+            <div class="location-inner">
+                 
+                 <div class="location-in d-flex flex-wrap">
+                     <div class="location-lt col-lg-7">
+                       <img src="images/loc.jpg" alt="img">
+                     </div>
+                     <div class="location-rt col-lg-5">
+                         <h2 class="animated fadeInUp wow">Location Highlights</h2>
+                          <ul  class="animated fadeInUp wow">
+                             <li>20 mins drive to Shamshabad International Airport and near to Chinna Jeeyar Swamy Ashram</li>
+                             <li>Swarna Bharat Trust</li>
+                             <li>Close proximity to JP Darga (Jahangir Pir Darga)</li>
+                             <li>National Remote Sensing Center – NRSC</li>
+                             <li>LV Prasad Eye Hospital</li>
+                             <li>NATCO Pharma School</li>
+                             <li>P&amp;G Warehouse</li>
+                             <li>Amazon Warehouse</li>
+                             <li>JCK Embassy Industrial Park</li>
+                             <li>Papyrus Port Resort</li>
+                             <li>Symbiosis Institute of Business Management</li>
+                             <li>Sahiya Housing</li>
+                             <li>Cristal County</li>
+                            
+                          </ul>
+                     </div>
+                 </div>
+            </div>
+         </div>
+         <!-- gallery -->
+         <div class="gallery-blk" id="gallery">
+            <div class="container">
+               <div class="gallery-in">
+                  <div class="gallery-cnt">
+                     <h2 class="animated fadeInUp wow">Experience the joy of real living!</h2>
+                     <p class="animated fadeInUp wow">Farmhouses are not always meant to be far away from the city, your own farmhouse can now be just 20 mins away from you! It is here that you are assured a life of comfort, with lots of amenities and features.  With several fruit plantations and a village ambiance, your weekends and family parties are sorted for life! 
+                     </p>
+                  </div>
+                  <ul class="d-flex flex-wrap">
+                     <li class="col-md-3 animated fadeInUp wow">
+                        <img src="images/gallery-1.png" alt="img">
+                     </li>
+                     <li class="col-md-3 animated fadeInUp wow">
+                        <img src="images/gallery-2.png" alt="img">
+                     </li>
+                     <li class="col-md-3 animated fadeInUp wow">
+                        <img src="images/gallery-3.png" alt="img">
+                     </li>
+                     <li class="col-md-3 animated fadeInUp wow">
+                        <img src="images/gallery-4.png" alt="img">
+                     </li>
+                     <li class="col-md-3 animated fadeInUp wow">
+                        <img src="images/gallery-5.png" alt="img">
+                     </li>
+                     <li class="col-md-3 animated fadeInUp wow">
+                        <img src="images/gallery-6.png" alt="img">
+                     </li>
+                     <li class="col-md-3 animated fadeInUp wow">
+                        <img src="images/gallery-7.png" alt="img">
+                     </li>
+                     <li class="col-md-3 animated fadeInUp wow">
+                        <img src="images/gallery-8.png" alt="img">
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <!-- contcat -->
+         <div class="contact-blk">
+            <div class="container">
+               <div class="contact-in d-flex flex-wrap">
+                  <div class="contact-lt">
+                      <h2 class="animated fadeInUp wow">Owning a Farm House isn’t a Dream Anymore. </h2>
+                  </div>
+                  <div class="contact-rt ml-auto">
+                     <a href="#popup1" class="animated fadeInUp wow">INVEST NOW  <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+        <!-- footer -->
+       <!-- footer -->
+        <footer>
+           <div class="footer-in">
+               <h2>Vanadhara at JP Darga, Kothur.</h2>
+            <div class="form-in" id="form">
+            <form class="mobile-form" method="POST" action="data-new/send.php">
+		         <input type="hidden" name="utm_source" value="<?php echo $utm_source ?>">
+                 <input type="hidden" name="utm_medium" value="<?php echo $utm_medium ?>">
+                  <input type="hidden" name="utm_campaign" value="<?php echo $utm_campaign ?>">
+                  <input type="hidden" name="utm_term" value="<?php echo $utm_term ?>">
+             <ul style="padding: 0 !important;">
+               <li>
+                   <input required pattern="[A-Za-z. ]+" type="text" value="" name="name" id="name" placeholder="Name" class="form-control">
+               </li>
+               <li>
+                   <input required name="email" id="email" type="email" value="" placeholder="Email" class="form-control">
+               </li>
+               <li>
+                  <input required name="phone" id="phone" pattern="^[0-9]{10}$" type="text" value="" placeholder="Phone Number" class="form-control">
+               </li>
+              <!--  <li>-->
+              <!--    <textarea name="message" id="message" placeholder="Message" class="form-control ctrl1 effect-9"></textarea>-->
+              <!--</li>-->
+               <li class="button">
+                    <button type="submit" name="submit" class="btn-in">Submit</button>
+                </li>
+            </ul>
+               </form>
+            </div>
+            <div class="social-icon">
+               <ul>
+                  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="#"> <i class="fa fa-google" aria-hidden="true"></i></a></li>
+               </ul>
+            </div>
+           </div>
+        </footer>
+      </div>
+      <!-- <a href="#" id="scroll" style="display: none;"><span></span></a> -->
+
+      <div id="popup1" class="overlay1">
+         <div class="popup">
+             <a class="close" href="#">&times;</a>
+             <div class="content1">
+                  <div class="pop-up">
+                     <h2>Download Brochure</h2>
+                     <div class="form-in">
+                       
+                        <div class="form-in" id="form">
+                           <form class="mobile-form" method="POST" action="data-new/send.php">
+                            <ul style="padding: 0 !important;">
+                             <input type="hidden" name="utm_source" value="">
+                              <input type="hidden" name="utm_medium" value="">
+                              <input type="hidden" name="utm_campaign" value="">
+                              <input type="hidden" name="utm_term" value="">
+                             <li><input required pattern="[A-Za-z. ]+" type="text" value="" name="name" placeholder="Name" class="form-control effect-9">
+                                  <span class="focus-border"><i></i></span>
+                              </li>
+                              <li><input required name="email" type="email" value="" placeholder="Email" class="form-control effect-9">
+                                  <span class="focus-border"><i></i></span>
+                              </li>
+                              <li><input required name="phone" pattern="^[0-9]{10}$" type="text" value="" placeholder="Phone" class="form-control effect-9">
+                                  <span class="focus-border"><i></i></span>
+                              </li>
+                             <!--  <li>-->
+                             <!--    <textarea name="message" placeholder="Message" class="form-control ctrl1 effect-9"></textarea>-->
+                             <!--      <span class="focus-border"><i></i></span>-->
+                             <!--</li>-->
+                             <li class="button">
+                               <button type="submit" name="submit" class="btn-in">Submit</button>
+                               </li>
+                                 </ul>
+                              </form>
+                           </div>
+                         </div>
+                  </div>
+             </div>
+         </div>
+     </div>
+      <!-- wrapper ends -->
+      <script src="js/wow.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+      <script type="text/javascript" src="js/jquery.dd.js"></script>
+      <script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      
+      <script>
+         $(document).ready(function() {
+                 $('.slider1').slick({
+                 dots: false,
+                 arrows:true,
+                 slidesToShow: 1,
+                 slidesToScroll: 1,
+                 autoplay: false,
+                 autoplaySpeed: 4000,  
+         }); 
+             
+             
+             $('[data-fancybox]').fancybox({});
+             $('[gallery]').fancybox({});
+              //animation
+             wow = new WOW(
+                       {
+                           animateClass: 'animated',
+                           offset: 100,
+                           mobile: true
+                       }
+               );
+               wow.init(); 
+             }); 
+              
+      </script>
+       <script>
+         $(document).ready(function(){ 
+             $(window).scroll(function(){ 
+                 if ($(this).scrollTop() > 100) { 
+                     $('#scroll').fadeIn(); 
+                 } else { 
+                     $('#scroll').fadeOut(); 
+                 } 
+             }); 
+             $('#scroll').click(function(){ 
+                 $("html, body").animate({ scrollTop: 0 }, 600); 
+                 return false; 
+             }); 
+         });
+       </script>
+      <script>
+         $(document).ready(function(){
+              $( 'nav ul li' ).on( 'click', function() {
+            $( this ).parent().find( 'li.active' ).removeClass( 'active' );
+            $( this ).addClass( 'active' );
+      });
+             // Sticky Header
+         $(window).scroll(function(e){
+          if($(window).scrollTop() > 0)
+          {
+              $('body').addClass('sticky');						
+          }
+          else{
+              $('body').removeClass('sticky');	
+          }
+         });
+           });
+      </script>
+      <script type="application/javascript" src="https://sdki.truepush.com/sdk/v2.0.3/app.js" async></script>
+    <script>
+    var truepush = window.truepush || [];
+            
+    truepush.push(function(){
+        truepush.Init({
+            id: "60db3d5f2ef94a9b3cd5048e"
+        },function(error){
+          if(error) console.error(error);
+        })
+    })
+    </script>
+   </body>
+</html>
