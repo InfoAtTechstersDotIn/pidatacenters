@@ -1,2 +1,0 @@
-User-Agent: *
-Sitemap: https://pi-cloud.in/sitemap.xml

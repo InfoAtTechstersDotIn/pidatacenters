@@ -1,3 +1,0 @@
-[20-Jul-2023 11:29:27 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'harbourdash'@'localhost' (using password: YES) in /home1/search8c/public_html/pidata-live/pi-cloud/includes/db-config.php on line 9
-[20-Jul-2023 11:29:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home1/search8c/public_html/pidata-live/pi-cloud/includes/db-config.php on line 20
-[20-Jul-2023 11:29:27 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home1/search8c/public_html/pidata-live/pi-cloud/includes/db-config.php on line 21
