@@ -165,7 +165,7 @@
               <a href="How-Do-Multi-Cloud-Solutions-Transform-Business-Agility-and-Innovation.php"><img src="images/kh-multi cloud.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
               <a href="How-Do-Multi-Cloud-Solutions-Transform-Business-Agility-and-Innovation.php" class="pres-rel">How Do Multi-Cloud Solutions Transform Business Agility and Innovation? </a>
               <div class="readmore-btn"><a href="How-Do-Multi-Cloud-Solutions-Transform-Business-Agility-and-Innovation.php">Read More</a></div>
-            </li> 
+            </li>
 
             <!-- ends here -->
 
