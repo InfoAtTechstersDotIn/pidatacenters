@@ -1,0 +1,76 @@
+table td , table th{
+	line-height: 35px!important;
+	font-size: 16px!important;
+	vertical-align: middle!important;
+	
+}
+.table.table-bordered thead tr:not(.enable-border) th {
+     border-left: 1px solid #ccc!important; 
+     border-right: 1px solid #ccc!important; 
+     font-weight:bold;
+     cursor: pointer;
+ }
+ .btn-info {
+    color: #fff;
+    background-color: #6837d8!important;
+    border-color: #6837d8!important;
+}
+.table-hover tbody tr:hover {
+    color: #212529;
+    background-color: rgb(210 217 253);
+}
+.sidebar > .nav:not(.sub-menu) > .nav-item:hover:not(.nav-profile):not(.hover-open) > .nav-link:not([aria-expanded="true"]) , li.nav-item.active > .nav-link {
+    background: #0f25d5!important;
+    padding-left: 65px;
+}
+.db-popup{
+	position: fixed;
+	background-color: #545bada8;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999999;
+}
+.pop-cont{
+	position: fixed;
+	top: 0px;
+	z-index: 999999;
+	width: 800px;
+	height: 600px;
+	left: 0;
+	top: 20px;
+	border-radius: 12px;
+	right: 0;
+	margin: 0px auto;
+	overflow: auto;
+	margin: 0px auto;
+	border-radius: 10px;
+}
+.hide{
+	display: none;
+}
+.form-group {
+    margin-bottom: 2rem;
+}
+#pending-registrtaion .btn.btn-icons {
+    width: 30px!important;
+    height: 30px!important;
+    text-align: center;
+    padding: 4px 7px!important;
+    margin: 0px 2px!important;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    /* margin: 0px auto; */
+}
+.img-res{
+	width: 72px;
+	height: 72px;
+	text-align-last: center;
+	border-radius: 50%;
+	display: block;
+	margin: 0px auto;
+	margin-bottom:12px;
+}
