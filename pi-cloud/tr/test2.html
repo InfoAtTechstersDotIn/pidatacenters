@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="descrption" content="">
+	<meta name="kewords" content="">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css
+">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- 	<link rel="stylesheet" type="text/css" href="css/index.css"> -->
+<style type="text/css">
+	body{
+		background-color: #ccc;
+	}
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	.popup{
+		position: fixed;
+		left: 0;
+		width: 600px;
+		height: 500px;
+		overflow: auto;
+		right: 0;
+		margin: 0px auto;
+		background-color: red;
+	}
+.pop-header {
+	padding: 24px;
+	border-bottom: 1px solid #ccc;}
+	.hide{
+		display: none;
+	}
+	table {
+	  font-family: arial, sans-serif;
+	  border-collapse: collapse;
+	  width: 100%;
+	}
+
+	td, th {
+	  border: 1px solid #dddddd;
+	  text-align: left;
+	  padding: 8px;
+	}
+
+	tr:nth-child(even) {
+	  background-color: #dddddd;
+	}
+
+	.dms-popup{
+		position: fixed;
+		width: 600px;
+		height: 600px;
+		overflow: auto;
+		margin: 0px auto;
+		left: 0;
+		right: 0;
+		padding: 24px;
+		top: 0px;
+		background-color: #fff;
+	}
+	.dms-table{
+		margin-top: 36px;
+	}
+	td:last-child{
+		text-align: center;
+		font-size: 24px;
+		color: blue;
+	}
+	
+</style>
+</head>
+<body>
+
+
+<div class="dms-popup">
+	<div class="dms-header">
+		<div class="dms-search">
+			<input type="test" name="test">
+			<button class="serc">search</button>
+			<div class="clear">clear</div>
+		</div>
+		<div class="dms-table hide">
+			<div class="container">
+   <table id="userTable" border="1" >
+      <thead>
+        <tr>
+          <th id="t_seller">Seller<span></span></th>
+               <th  id="t_cust">Customer #</th>
+               <th  id="t_name">Name</th>
+               <th  id="t_street">Street</th>
+                <th  id="t_street">Street</th>
+              
+        </tr>
+      </thead>
+      <tbody></tbody>
+   </table>
+</div>
+			
+		</div>
+	</div>
+</div>
+
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+	<script>
+
+		$('.serc').on('click' , () =>{
+			let InputValue =  $('input').val();
+			$('#userTable tbody tr').remove();
+			$('.dms-table').removeClass('hide')
+		    $.ajax({
+		        url: '/js/'+InputValue,
+		        type: 'get',
+		        dataType: 'JSON',
+		        success: function(response){
+		        	console.log(response)
+		            var len = response.length;
+		           
+		            for(var i=0; i<len; i++){
+		                var id = response[i].id;
+		                var username = response[i].username;
+		                var name = response[i].name;
+		                var email = response[i].email;
+
+		                 
+		                var tr_str = '<tr>' +
+		                    '<td>' + (i+1) + '</td>' +
+		                    '<td>' + username + '</td>' +
+		                    '<td>' + name +'</td>' +
+		                    '<td>'+ email + '</td>' +
+		                    '<td class=dms-move-forward data-href='+ username +'>' + '>' + '</td>' +
+		                    '</tr>';
+
+		                $('#userTable tbody').append(tr_str);
+		            }
+
+		        }
+		    });
+		    });
+		$(document).on('click' , '.dms-move-forward', function(e){
+			let dataInput = new Object();
+			 console.log(dataInput)
+		 	let $row = $(e.currentTarget).closest("tr");
+		    let test3 = $row.find('td:nth-child(1)').text();
+	        let test0 = $row.find('td:nth-child(2)').text();
+	        let test1 = $row.find('td:nth-child(3)').text();
+	        let test2 = $row.find('td:nth-child(4)').text();
+	        // let test3 = $row.find('td:nth-child(5)').text();
+
+	         dataInput = {
+	        	 "name" : test0,
+			     "desc" : test1,
+			     "number" : test2,
+			     "email" : test3,
+	        }
+	        console.log(dataInput)
+	        $.ajax({
+	        	url: "https://signature-data-default-rtdb.firebaseio.com/resf.json",
+                type: "POST",
+                data: JSON.stringify(dataInput),
+                crossDomain: true,
+                headers: {  'Access-Control-Allow-Origin': '*' },
+                dataType: 'json',
+                ContentType: 'application/json; charset=utf-8',
+                success: function (data) {
+                console.log(data)  
+                },
+	        })
+
+
+           
+           
+		})
+						
+
+
+	
+
+
+
+
+
+
+
+             
+
+		// $('.clear').on('click' , () =>{
+		// 	var tbody = $('.dms-table').children('tbody');
+		// 	$('input').val('').focus();
+		// 	$('tbody').append('<tr><td class="a">fffterstwkd</td><td class="b">terdfdfdfstwkd</td><td class="c">terstwkd</td><td class="d">terstwkdd</td><td class="e">terstwkd</td><td class="f">terstwkd</td><td class="g"> >df </td></tr>');
+		// })
+
+	
+
+// $('body').on("click" , '.serc' , function(){
+
+// 			let dummy = $('input').val();
+//    		var table = $('#example').DataTable( {
+// 	        "ajax": "https://harbour1.in/js/"+dummy+'.js',
+// 	        "crossDomain": true,
+// 	        "destroy": true,
+// 	        "header":('Access-Control-Allow-Origin: *'),
+
+// 	        "columnDefs": [ {
+// 	            "targets": -1,
+// 	            "data": null,
+// 	            "defaultContent": "<button class='button'>Click!</button>"
+// 	        } ]
+	        
+// 	    } );
+ 
+// 	    $('body').on( 'click', '.button', function () {
+// 	        var data = table.row( $(this).parents('tr') ).data();
+// 	        alert( data[0] +"'s salary is: "+ data[ 5 ] );
+// 	    } );
+// 	} );
+
+
+	</script>
+	 <script type="text/javascript">
+
+
+         function sortTable(f,n){
+         var rows = $('#userTable tbody  tr').get();
+         
+         rows.sort(function(a, b) {
+         
+             var A = getVal(a);
+             var B = getVal(b);
+         
+             if(A < B) {
+                 return -1*f;
+             }
+             if(A > B) {
+                 return 1*f;
+             }
+             return 0;
+         });
+         
+         function getVal(elm){
+             var v = $(elm).children('td').eq(n).text().toUpperCase();
+             if($.isNumeric(v)){
+                 v = parseInt(v,10);
+             }
+             return v;
+         }
+         
+         $.each(rows, function(index, row) {
+             $('#userTable').children('tbody').append(row);
+         });
+         }
+             var f_s1 = 1;
+             var f_s2 = 1;
+             var f_s3 = 1;
+             var f_s4 = 1;
+            
+         
+         
+         
+         $("#t_seller").click(function(){
+         f_s1 *= -1;
+         var n = $(this).prevAll().length;
+         sortTable(f_s1,n);
+         });
+         $("#t_cust").click(function(){
+         f_s2 *= -1;
+         var n = $(this).prevAll().length;
+         sortTable(f_s2,n);
+         });
+         $("#t_name").click(function(){
+         f_s3 *= -1;
+         var n = $(this).prevAll().length;
+         sortTable(f_s3,n);
+         });
+         $("#t_street").click(function(){
+         f_s4 *= -1;
+         var n = $(this).prevAll().length;
+         sortTable(f_s4,n);
+         });
+        
+      </script>
+</body>
+</html>
