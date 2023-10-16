@@ -5647,7 +5647,7 @@ p.paraclass:before {
     background-size: contain;
 }
 
-.amaravathi-dc-top ul li:nth-child(4):before {
+.amaravathi-dc-top ul li:nth-child(5):before {
     position: absolute;
     top: -6px;
     right: auto;
@@ -5659,7 +5659,7 @@ p.paraclass:before {
     background-size: contain;
 }
 
-.amaravathi-dc-top ul li:nth-child(5):before {
+.amaravathi-dc-top ul li:nth-child(6):before {
     position: absolute;
     top: -6px;
     right: auto;
@@ -5671,7 +5671,7 @@ p.paraclass:before {
     background-size: contain;
 }
 
-.amaravathi-dc-top ul li:nth-child(6):before {
+.amaravathi-dc-top ul li:nth-child(7):before {
     position: absolute;
     top: -6px;
     right: auto;
@@ -5719,7 +5719,7 @@ p.paraclass:before {
 .features-of-amaravathi-btm p {
     color: #000000;
     padding: 0 0 10px;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 .features-of-amaravathi-btm h3 {
@@ -7605,7 +7605,7 @@ article.tabs section:target h2 {
 }
 
 
-.amaravathi-dc-top ul li:nth-child(7):before {
+.amaravathi-dc-top ul li:nth-child(8):before {
     position: absolute;
     top: -3px;
     right: auto;
@@ -7616,6 +7616,19 @@ article.tabs section:target h2 {
     left: 14px;
     background-size: contain;
 }
+
+.amaravathi-dc-top ul li:nth-child(4):before {
+    position: absolute;
+    top: -6px;
+    right: auto;
+    background: url(../images/dc-icon8.png) no-repeat;
+    width: 35px;
+    height: 35px;
+    content: "";
+    left: 13px;
+    background-size: contain;
+}
+
 
 .amaravathi-dc-top h3.hyderabad:before {
     position: absolute;
@@ -7635,26 +7648,9 @@ article.tabs section:target h2 {
 }
 
 .hyd-dc {
-    height: 240px !important;
+    height: 220px !important;
 }
 
-
-.hyd-img img {
-    height: 250px;
-}
-
-.datacenter-main {
-    margin-top: 25px !important;
-}
-
-.datacenter-main.center-block .know-more a.dc {
-    margin-top: 20px !important;
-}
-
-.datacenter-blk {
-    top: 45% !important;
-}
-
-.strategic-core-council-cnt2 p {
-    margin-top: 8px;
+.features-of-amaravathi-btm p {
+    font-size: 15px !important;
 }

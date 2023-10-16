@@ -792,7 +792,7 @@
                     </div>
                 </div>
                 <!-- block 2-->
-                <div>
+                <!-- <div>
                     <div class="block-1 block-2">
                         <div class="backdround-bg">
                             <div class="product-blk d-flex flex-wrap flex-row-reverse">
@@ -842,7 +842,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- block3 -->
                 <div>
                     <div class="block-1">
@@ -872,7 +872,7 @@
 
                                             </li>
                                             <li class="col-md-4 hyd-img">
-                                                <img src="images/hyderabad-dc-2.jpg" alt="amaravati" width="656" height="316">
+                                                <img src="images/hyderabad-dc-3.jpg" alt="amaravati" width="656" height="316">
                                                 <div class="strategic-core-council-cnt2">
                                                     <p>Hyderabad Data Center <br> (Financial District)</p>
                                                     <p> Uptime Institute Tier III Design Compliant Data Center
@@ -907,6 +907,60 @@
                             </div>
                         </div>
 
+                    </div>
+                </div>
+
+                <!-- block4 -->
+
+                <div>
+                    <div class="block-1 block-2">
+                        <div class="backdround-bg">
+                            <div class="product-blk d-flex flex-wrap flex-row-reverse">
+                                <div class="mobile-headings">
+                                    <span style="color:#ffffff;font-size:17px;line-height:26px;"> Who We Are</span>
+                                    <h2>Architecting the Digital Future of Businesses</h2>
+                                </div>
+                                <div class="product-rt col-lg-4">
+                                    <img src="images/pi-datacenters.webp" alt="who-we-are" width="531" height="557">
+                                </div>
+                                <div class="product-lt col-lg-8 ">
+                                    <div class="desktop-headings">
+                                        <span style="color:#ffffff;font-size:17px;line-height:26px;"> Who We Are</span>
+                                        <h2>Architecting the Digital Future of Businesses</h2>
+                                    </div>
+                                    <p>UPTIME INSTITUTE TIER IV-Certified Infrastructure makes it robust and resilient while providing a transformative experience to our customers.</p>
+                                    <ul class="row">
+                                        <li>
+                                            <span>#1</span>
+                                            <p>100% Automated
+                                                <br> SCADA/DCIM
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <span>#2</span>
+                                            <p>8 Levels of <br> Stringent Security</p>
+                                        </li>
+                                        <li>
+                                            <span>#3</span>
+                                            <p>Dedicated <br> Customer NOCs</p>
+                                        </li>
+                                        <li>
+                                            <span>#4</span>
+                                            <p>Rapid Deployment <br> & Assistance
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <span>#5</span>
+                                            <p>Low Cost <br> Of Ownership</p>
+                                        </li>
+                                    </ul>
+                                    <div class="know-more">
+                                        <a href="about.php">Know More</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- block5 -->

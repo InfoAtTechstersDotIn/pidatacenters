@@ -63,7 +63,8 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
 
   article.tabs section:nth-child(3) h2 {
     left: 200px;
-    bottom: -5px;
+    /* bottom: -5px; */
+    bottom: -17px;
   }
 
   article.tabs section:nth-child(4) h2 {
@@ -116,6 +117,22 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
   article.tabs section:target h2 a {
     background-color: #2680EB !important;
     color: #ffffff !important;
+  }
+
+  /* .scroll-link .color {
+    background-color: #acb8c3;
+    background-color: #2680EB;
+  } */
+
+  .scroll-link .active {
+    background-color: #2680EB;
+  }
+
+  @media only screen and (min-width: 1200px) and (max-width: 1350px) {
+    article.tabs section:nth-child(3) h2 {
+      left: 200px;
+      bottom: -55px;
+    }
   }
 </style>
 
@@ -266,7 +283,7 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
 
 
     <section id="tab1/title/Product-Portfolio">
-      <h2 class="scroll-link"><a href="#tab1/title/Product-Portfolio" onclick="scrollToTop(); return false;">1</a></h2>
+      <h2 class="scroll-link"><a href="#tab1/title/Product-Portfolio" class="active" onclick="scrollToTop(); return false;">1</a></h2>
       <div class="brochure-main-cnt row row-reverse">
         <div class="brochure-main-cnt-rt col-md-6">
           <img src="images/brochure-img-1.png" alt="brochure-img-1" width="661" height="446">
@@ -275,7 +292,7 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
           <h3>Product Portfolio:</h3>
           <p style="color:#242424 !important;">Are you looking for a reliable and secure datacenter and cloud provider for your business? </p>
           <p style="color:#242424 !important;">Look no further than Pi DATACENTERS®! Our team of experts has put together a comprehensive product portfolio featuring state-of-the-art datacenters and a range of cloud services. From colocation to managed services, we have a solution to fit the needs of your organization.</p>
-          <a href="images/corporate-brochure-14.pdf" target="_blank">Download Brochure</a>
+          <a href="images/new-corporate-brochure.pdf" target="_blank">Download Brochure</a>
 
         </div>
 
@@ -283,7 +300,7 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
     </section>
 
     <section id="tab2/title/Data-Center-Services-Portfolio">
-      <h2><a href="#tab2/title/Data-Center-Services-Portfolio" class="don">2</a></h2>
+      <h2 class="scroll-link"><a href="#tab2/title/Data-Center-Services-Portfolio" class="don">2</a></h2>
       <div class="brochure-main-cnt row row-reverse">
         <div class="brochure-main-cnt-rt col-md-6">
           <img src="images/brochure-img-2.png" alt="brochure-img-1" width="661" height="446">
@@ -292,31 +309,31 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
           <h3 style="line-height:48px">Data Center Services Portfolio:</h3>
           <p style="color:#242424 !important;">Want to unlock a wealth of options for your business? </p>
           <p style="color:#242424 !important;">Find out about Pi DATACENTERS® Advisory, Colocation, Operator Design, Build, and PMC services. We have a wide range of services to meet the diverse needs of different businesses. Our state-of-the-art data center infrastructure is equipped with advanced technology to ensure zero downtime & comprehensive security needed.</p>
-          <a href="images/Pi DataCenter Services Portfolio_Final Version_11 Pages.pdf" target="_blank">Download Brochure</a>
+          <a href="images/new-data-center-services-portfolio-2.2.pdf" target="_blank">Download Brochure</a>
 
         </div>
 
       </div>
     </section>
     <section id="tab3/title/Ready-to-take-your-business-to-new-heights">
-      <h2><a href="#tab3/title/Ready-to-take-your-business-to-new-heights" class="don">3</a></h2>
+      <h2 class="scroll-link"><a href="#tab3/title/Ready-to-take-your-business-to-new-heights" class="don">3</a></h2>
       <div class="brochure-main-cnt row row-reverse">
         <div class="brochure-main-cnt-rt col-md-6">
           <img src="images/multi-cloud-copy.png" alt="brochure-img-1" width="661" height="446">
         </div>
         <div class="brochure-main-cnt-lt col-md-6">
-          <h3 style="line-height:48px">Ready to take your business to new heights? </h3>
+          <h3 style="line-height:48px">Multi-Cloud Services:</h3>
+          <p style="color:#242424 !important;">Ready to take your business to new heights? </p>
+          <!-- <h3 style="line-height:48px">Ready to take your business to new heights? </h3> -->
           <p style="color:#242424 !important;">Explore our comprehensive range of cloud services and experience the power of seamless integration, a single pane of glass view, quick time-to-market, flexibility, scalability, resiliency, business continuity, and cost-efficiency without compromising critical security or regulatory compliance with Pi Managed Multi Cloud Ecosystem, Powered by Pi DATACENTERS®!
           </p>
           <p style="color:#242424 !important;">Discover the limitless possibilities for your organization's success. Get started with us today by downloading our brochure to discover more about the individualized multi-cloud solutions we offer.</p>
-          <a href="images/Multi-Cloud-Brochure.pdf" target="_blank">Download Brochure</a>
+          <a href="images/new-multi-cloud-brochure-2.pdf" target="_blank">Download Brochure</a>
 
         </div>
 
       </div>
     </section>
-
-
 
     <!--<section id="tab3?keyword='fastest-technology'">
     <h2><a href="#tab3?keyword='fastest-technology'">3</a></h2>
@@ -436,6 +453,8 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 <script src="js/custom.js"></script>
 <script src="js/main-pi.js"></script>
+
+
 <script>
   $(document).ready(function() {
     $('.slider1').slick({

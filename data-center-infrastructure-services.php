@@ -317,7 +317,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                     <img src="images/feature.png" alt="feature" width="852" height="432">
                                 </div>
                                 <div class="features-of-amaravathi-btm">
-                                    <h3>Features of <span style="color: #7BBC42;font-weight: 400;">Vijayawada</span></h3>
+                                    <h3>Salient Features</h3>
 
                                     <p>1. 2N fault tolerant modular architecture providing at least 48 hours’ power outage protection.</p>
                                     <p>2. Utility power through independent routes from dual substations</p>
@@ -363,7 +363,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                     <img src="images/kochi-img.jpg" alt="feature" width="852" height="432">
                                 </div>
                                 <div class="features-of-amaravathi-btm">
-                                    <h3>Features of <span style="color: #7BBC42;font-weight: 400;">Kochi </span></h3>
+                                    <h3>Salient Features</h3>
 
                                     <p>1.N+1 fault-tolerant modular architecture provides at least 48 hours of power outage protection.</p>
                                     <p>2.Utility power through independent routes from dual substations</p>
@@ -415,6 +415,9 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                             <p>White Tile Area: 2,100 sq. Ft. </p>
                                         </li>
                                         <li>
+                                            <p>Expandable Rack Capacity: 200 (Additional) </p>
+                                        </li>
+                                        <li>
                                             <p>Expandable White Tile Area: 5000 sq. Ft. (Additional Capacity) </p>
                                         </li>
                                         <li>
@@ -435,11 +438,13 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                     <img src="images/hyderabad-dc-2.jpg" class="hyd-dc" alt="feature" width="852" height="432">
                                 </div>
                                 <div class="features-of-amaravathi-btm">
-                                    <h3>Features of <span style="color: #7BBC42;font-weight: 400;">Hyderabad</span></h3>
+                                    <h3>Salient Features </h3>
 
                                     <p>1. N+1 Fault Tolerant Modular Architecture provides at least 48 hours’ Power Outage Protection. </p>
                                     <p>2. Utility Power through Independent Routes from Dual Substations </p>
                                     <p>3. 2N Uninterruptible UPS, DG set and Redundant Utility Power </p>
+                                    <p>4. N+1 cooling system redundancy for better temperature management </p>
+                                    <p>5. Global standard uptime of 99.95% </p>
 
                                     <a href="#modal-3">Read more</a>
                                 </div>
@@ -1030,7 +1035,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                 <div class="modal-body">
                     <div class=" row">
                         <div class="fill-your-details-cnt features">
-                            <h3>Features of <span style="color: #7BBC42;font-weight: 400;font-size:38px">Vijayawada</span></h3>
+                            <h3>Salient Features </h3>
                             <p>1. 2N fault tolerant modular architecture providing at least 48 hours’ power outage protection.</p>
                             <p>2. Utility power through independent routes from dual substations</p>
                             <p>3. Lowest power cost in the Industry</p>
@@ -1060,7 +1065,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                 <div class="modal-body">
                     <div class=" row">
                         <div class="fill-your-details-cnt features">
-                            <h3>Features of <span style="color: #7BBC42;font-weight: 400;">Kochi</span></h3>
+                            <h3>Salient Features </h3>
                             <p>1. N+1 fault-tolerant modular architecture provides at least 48 hours of power outage protection.</p>
                             <p>2.Utility power through independent routes from dual substations</p>
                             <p>3. 2N ups and N+1 generator provisioning</p>
@@ -1094,7 +1099,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                 <div class="modal-body">
                     <div class=" row">
                         <div class="fill-your-details-cnt features">
-                            <h3>Features of <span style="color: #7BBC42;font-weight: 400;">Hyderabad</span></h3>
+                            <h3>Salient Features </h3>
 
                             <p>1. N+1 Fault Tolerant Modular Architecture provides at least 48 hours’ Power Outage Protection. </p>
                             <p>2. Utility Power through Independent Routes from Dual Substations </p>
@@ -1103,10 +1108,9 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             <p>5. Global standard uptime of 99.95% </p>
                             <p>6. World-class DCIM, BMS, & VESDA systems for Automated Monitoring & Analytics </p>
                             <p>7. FAS, VESDA, NOVEC 1230 Fire Suppression, IBMS, CCTV, WLD & Rodent Monitoring. </p>
-                            <p>8. Heterogenous ISP interconnects through dual meet-me rooms (All major ISPs operating in India) </p>
-                            <p>9. Each ISP connected to the data center with 50 Gigabytes of clear connectivity through Dual Redundant Routes </p>
-                            <p>10. Business Continuity Bay areas for enterprises for Zero Operational Disruption </p>
-                            <p>11. A datacenter connected to both Local and Global Command Centers for Seamless Operation </p>
+                            <p>8. Heterogeneous Multi Gig ISP interconnected through dual meet-me rooms (All major ISP operating in India)</p>
+                            <p>9. Business Continuity Bay Areas for Enterprises for Zero Operational Disruption </p>
+                            <p>10. A datacenter connected to both Local and Global Command Centers for Seamless Operation </p>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: yellow;
+}
+
+.get_in {
+    margin-top: 20px;
+}
+
+.questions p {
+    text-align: center;
+    padding: 20px 12px;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.questions p button {
+    padding: 0px 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: #fff;
+    color: #2680EB;
+    font-weight: 400;
+    margin-left: 100px;
+}
+
+.get_in_touch {
+    background-color: #fff;
+    margin: 0px 150px;
+    border-radius: 70px;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.questions {
+    background-color: #2680EB;
+    margin: 0px 0px;
+    border-radius: 70px;
+    padding: 0 20px;
+}
+
+.footer-block {
+    background-image: url('../images/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -65px;
+}
+
+.footer {
+    text-align: center;
+    padding: 70px 0 0 0;
+    font-size: 18px;
+}
+
+.footer ul li,
+.icons ul li {
+    list-style-type: none;
+    line-height: 35px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+
+.copy_rights {
+    text-align: center;
+    color: #fff;
+}
+
+.copy_rights p {
+    margin: 15px 0 0 0;
+    font-weight: 400;
+}
+
+.icons_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font_icons li {
+    padding: 5px 15px;
+}
+
+.font_icons li a {
+    font-size: 20px;
+    color: #9e9e9e;
+}
+
+.font_icons .fa-whatsapp {
+    color: #216733;
+}
+
+@media screen and (max-width: 480px) {
+    .get_in_touch {
+        margin: 0;
+    }
+
+    .questions p {
+        font-size: 18px;
+    }
+
+    .questions p button {
+        margin-left: 0;
+    }
+
+}
