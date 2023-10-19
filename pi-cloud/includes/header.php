@@ -711,7 +711,7 @@
                                     <div class="drop-down">
                                         <ul>
                                             <li>
-                                                <a href="./pi-cloud/multicloud-2">Public Cloud</a>
+                                                <a href="./pi-cloud/multi-cloud">Public Cloud</a>
                                             </li>
                                             <li>
                                                 <a href="./pi-cloud/compute">Private Cloud</a>

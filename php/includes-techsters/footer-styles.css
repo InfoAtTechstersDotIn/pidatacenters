@@ -40,6 +40,9 @@ body {
     border-radius: 70px;
     padding: 15px 20px;
     position: relative;
+    position: absolute;
+    top: -85px;
+    /* margin-top: -93px; */
 }
 
 .questions {
@@ -51,10 +54,14 @@ body {
 
 .footer-block {
     background-image: url('../images/footer-bg.png');
+    background-image: url(https://pidatacenters.com/images/footer-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-top: -50px;
+    position: relative;
+    margin-top: 100px;
+    border: 1px solid red;
+    padding: 25px 0px 0px 0px;
 }
 
 .footer {
@@ -104,27 +111,41 @@ body {
     color: #216733;
 }
 
+h1 {
+    font-size: 8rem;
+    text-align: center;
+    font-weight: 900;
+}
+
+.footer-block ul li {
+    text-align: center;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+.footer-block ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+
 @media (max-width: 480px) {
     .get_in_touch {
         margin: 0;
     }
-
     .questions p {
         font-size: 17px;
         padding: 12px 17px;
     }
-
     .questions p button {
         margin-left: 0;
     }
-
 }
 
 @media (max-width: 950px) {
     .get_in_touch {
         margin: 0;
     }
-
     .questions p button {
         margin-left: 0;
     }

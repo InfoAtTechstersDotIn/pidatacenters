@@ -59,9 +59,9 @@
                     <div class="col-md-3 footer">
                         <ul>
                             <li>
-                                <a href="#">Partners</a><br>
-                                <a href="#">Reach Us</a><br>
-                                <a href="#">Policies</a>
+                                <a href="https://pidatacenters.com/pi-cloud/partners">Partners</a><br>
+                                <a href="../contact-us.php">Reach Us</a><br>
+                                <a href="privacy-policy.php">Policies</a>
                             </li>
                         </ul>
                     </div>
@@ -74,27 +74,27 @@
                     <ul class="icons_footer">
                         <div class="font_icons">
                             <li>
-                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="https://www.linkedin.com/company/pidatacenters/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                             </li>
                         </div>
                         <div class="font_icons">
                             <li>
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="https://twitter.com/Pi_DATACENTERS" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                             </li>
                         </div>
                         <div class="font_icons">
                             <li>
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="https://www.facebook.com/PiDATACENTERS/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                             </li>
                         </div>
                         <div class="font_icons">
                             <li>
-                                <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                                <a href="https://www.youtube.com/@pi_datacenters" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
                             </li>
                         </div>
                         <div class="font_icons">
                             <li>
-                                <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                                <a href="https://api.whatsapp.com/send?phone=+918712630334&amp;text=Hi, I need more information on Pidatacenters" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
                             </li>
                         </div>
                     </ul>

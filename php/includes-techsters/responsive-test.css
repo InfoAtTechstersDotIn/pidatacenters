@@ -1,0 +1,845 @@
+1
+@media (max-width:2100px){
+    /* .container{max-width:1800px;} */
+     h2 {font-size: 45px;line-height: 50px;}
+     .strategic-core-council-cnt1{padding:55px 0 0 0;}
+    
+}
+@media (max-width:1900px){
+     h2 {font-size: 45px;line-height: 50px;}
+     .strategic-core-council-cnt1{padding:0px 0 0 0;}
+    
+}
+@media (max-width:1800px){
+   /* .container{max-width:1800px;} */
+    .header-rt ul li a{font-size: 15px;}
+    .footer-about.footer-bg a{font-size:12px;}
+      .great-rt-in{max-width: 500px;}
+}
+@media (max-width:1600px){
+    
+    .datacenter-blk p{font-size:18px;line-height:20px;padding:5px 0;}
+     .strategic-core-council-cnt1{padding:15px 0 0 0;}
+     .center1 .slick-list.draggable{padding:0px 0 90px !important;}
+     .center1 .slick-list{top:-26px;}
+     .know-more a.dc {margin:10px auto;}
+}
+@media (max-width:1400px){
+    .great-rt-in.dc{height: 400px;padding: 12px 0 0;max-width: 400px;margin: 0 auto;}
+    .great-blk{padding:0 0 30px;}
+    .center1{padding:0;}
+    .datacenter-blk p {padding: 5px 0px;font-size: 15px;line-height: 18px;}
+    .great-rt-in{max-width: 360px;margin: 0 auto;}
+   /* .container{max-width:1300px;} */
+   .datacenter-blk 
+   /* .container{max-width:1100px;} */
+   .center1 .slick-list.draggable {padding: 0px 0 107px !important;top: -40px;}
+   .datacenter-blk{}
+   .datacenter-blk .center1.slick-slider .slick-slide.slick-center p{padding:55px 0 0;}
+   .datacenter-main.center-block .know-more a.dc{margin:15px auto;}
+}
+
+@media (max-width:1450px){
+    .great-lt{padding: 30px 30px 0 0px;}
+    .lifeatpi-top h3{font-size: 35px;}
+    .meet-lt {padding: 20px 150px 0 0;}
+   
+    .data-center-img {width: 130px !important;}
+    .great-lt span{font-size: 16px;line-height: 20px;}
+    .contact-blk-rt ul li input{height: 40px;line-height: 40px;margin: 0 0 15px;}
+    .contact-blk-rt ul li button{height: 35px;line-height: 35px;}
+    .contact-blk-rt ul li textarea{height:100px;line-height: 40px;margin: 0 0 15px;}
+    .great-lt h2{padding: 0 0 10px;}
+    .know-more-btn a{margin: 10px auto 0;}
+    .know-more a.dc { margin: 0px auto;}
+    .datacenter-blk .center1.slick-slider .slick-slide.slick-center .strategic-core-council-cnt1 h3{padding: 35px 0 10px;}
+}
+@media (max-width:1350px){
+    
+    .datacenter-main .center1 img{width: 40% !important;}
+    .what-drives-vission-right h3{font-size: 40px;}
+    .backdround-bg{padding: 100px 60px 0;}
+    .phone-call{right: 20px;}
+    .block-1{padding: 0;}
+    /* .container{max-width: 100%;height: auto;padding: 0 20px;}   */
+    .slick-dots{left: 25px;}
+    h1 {font-size: 55px;line-height: 62px;}
+    .product-rt {padding: 0 18px;}
+    .meet-lt {padding: 20px 50px 0 0;}
+    h2 {font-size: 38px;line-height: 40px;}
+    .datacenter-blk{padding:0;}
+    .datacenter-blk p{font-size: 12px;line-height: 16px;padding:0px 0;}
+    .great-lt {padding: 40px 30px 0 0px;}
+    
+    
+}
+@media (max-width:1250px){
+    .great-lt p small{display: none;}
+    .great-rt-in.dc{height: 320px;max-width: 290px;margin: 0 auto;}
+    .board-of-directors-in img{margin:0 auto;}
+    .foot-menu li {width:33.33%;padding: 1px 3px;}
+    .foot-menu li:nth-child(3), .foot-menu li:nth-child(6){
+        border-right:0;
+    }
+     .foot-menu li:nth-child(1), .foot-menu li:nth-child(2), .foot-menu li:nth-child(3){
+        border-bottom:1px solid white;
+    }
+    .get-in-touch-lft p{font-size: 15px;}
+    .get-in-touch-rit a{font-size: 15px;}
+    .case-block-main.greenshape1{max-width: 95%;padding: 60px;}
+    .great-rt-in{}
+    .great-blk{padding: 0px 0 0;}
+    .ceos{}
+    p{font-size: 13px;line-height: 17px;}
+    .great-rt {padding: 18px 10px;}
+    .header-rt ul li a {font-size: 15px;line-height: 20px;}
+    .header-rt ul li {padding: 12px 0px;}
+    h1{font-size: 35px;line-height: 45px;}
+    .great-lt h1{padding: 0 0 25px 100px;}
+    .product-lt {padding: 0px 40px 0px 15px;}
+    .product-rt {padding: 0 0px;}
+    .banner-blk{}
+    .slick-dots{left: 20px;}
+    .product-blk .slick-next{right: -12px;}
+    .who-lt {padding: 0px 30px 0 10px;}
+    .meet-lt {padding: 6px 4px 0 0;}
+    .meet-rt {padding: 0 5px 0 22px;}
+    h2{font-size: 26px;line-height: 30px;}
+    .green-lt {padding: 0 15px;}
+    .green-rt {padding: 0 6px 0 16px;}
+    .green-lt ul li h5 {font-size: 22px;line-height: 25px;}
+    .green-lt p {font-size: 14px;}
+    .green-lt ul li {padding: 0 0 14px 68px;}
+    .con a {font-size: 14px;}
+    .great-rt img{}
+    .great-rt ul{}
+    .great-rt ul.ceo-image2{margin-right: auto;margin-top: -30px;margin-left: -38px;}
+    .great-rt ul.ceo-image3{margin-left: -96px;margin-top: -34px;}
+    .btn-blk ul li:last-child a:before{background-size: 50%;top: 2px;left: 8px;}
+    .computer-network-main{padding: 0 15px 35px;}
+    
+      .our-rim-services{padding: 30px 15px 0;}
+   .computer-network-white-bg {padding: 10px 0;}
+   .computer-network-grey-bg {padding: 10px 0;}
+    .computer-network-left {padding: 0px 15px 0 30px;}
+   .scc-block ul li{width:33.33%;    padding: 0 15px 30px;}
+   .top-foot{margin-top:0;}
+   .board-of-directors-in img{width:200px;}
+   .board-of-directors h2{padding:0 0 30px;}
+    .about-banner h2{font-size:24px;line-height:28px;}
+    .btn-blk a{padding: 5px 15px 5px 30px;font-size: 13px;}
+     .btn-blk ul li:first-child a:before{background-size: 50%;top: 9px;left: 10px;}
+    .great-rt-in {max-width: 280px;margin: 0 auto;}
+    .product-rt img{width: 90%;margin: 0 auto;}
+    .footer-copy-rights p{font-size: 10px;}
+    .know-more-btn a{width: 120px;height: 35px;line-height: 35px;font-size: 14px;}
+    p.dcsi{font-size: 17px;padding: 10px 0 0;}
+    .testimonial-block1 .tabBlock-tabs{top: -75px;}
+    
+
+}
+@media (max-width:1200px){
+    
+    .great-lt span.dc{display: block !important;}
+    .great-lt p{}
+    .testimonial-block .tabBlock-tabs.dcis .nav-link{padding: 0 15px;}
+    .testimonial-block-main{padding: 40px 0;}
+    .inner-teli241{margin: 5px 0;padding: 5px;}
+    .knowledge-hub-videos1{padding: 50px 25px;}
+    .inner-teli242{margin: -50px 0 0;}
+    .icon-css{width: 50px;}
+}
+@media (max-width:1024px){
+    .clients{width: 660px;left: 0;right: 0;margin: 0 auto;}
+    .clients ul li:nth-child(7) img{width: 75px;}
+    .personal-information label{font-size: 18px;line-height: 22px;}
+    .l-content span{font-size: 18px;line-height: 22px;}
+    .personal-information a{font-size: 18px;line-height: 22px;}
+    .amaravathi-dc-top h3{font-size:25px;}
+    .amaravathi-dc-top ul li{padding:0 0 12px 60px;}
+     .testimonial-block1 .tabBlock-tabs{left: 0;top: -165px;}
+    .testimonial-block1 .tabBlock-tab .nav-link{width: 120px;}
+    .testimonial-block1 .tabBlock-tab.is-active .nav-link{width: 120px;}
+    
+}
+
+
+@media (max-width:991px){
+    .brochure-main-cnt{padding: 0;}
+    .product-lt p{text-align: center;padding: 0 0 10px !important;}
+    .slick-dots li a{font-size: 12px;}
+    .harbourfront-services-blk{padding: 10px 0;}
+    .great-rtt h3{font-size:18px;}
+    .great-lt span{text-align:center; display: block;}
+    .product-lt span{text-align:center; display: block;}
+    .great-rtt .slick-prev{left: 0px;}
+     .great-rtt .slick-next{right: 0px;}
+    .board-of-directors-in p{text-align:center;}
+    .top-foot ul{float:none;padding: 5px;}
+        .our-rim-services .tabBlock-tabs li img{width:50px;}
+    .our-rim-services .tabBlock-tab.is-active .nav-link{padding:5px;}
+    .our-rim-services .tabBlock-tab .nav-link{padding:5px !important;}
+    .rims-services-cnt{padding: 15px;}
+    
+    .our-video-main iframe{height:350px !important;}
+    .our-video-main{margin:0;}
+    .footer-about.footer-bg a{font-size: 9px;text-align: center !important;line-height: 12px;}
+    .footer-links ul li a i{width: 20px;height: 20px;font-size: 12px;padding: 4px 0 0 0;}
+    .harbour{padding-top:0px !important;}
+    .last-img{padding:0;}
+    .about-banner-blk-key p br{display:none;}
+    .meity-home-rt a{margin-top:7px;margin:0px auto 10px;}
+    .key-inp{padding:0 0 25px;}
+    .write-to-us-rt ul li{width:100%;}
+    .write-to-us-rt ul li button{display:block;margin:0 auto;}
+    .head-off{width:100%;}
+    .sel-top{width: 100%;padding: 30px 20px 20px;}
+    .write-to-us{z-index:9;}
+    .knowledge-gallery1{margin:-40px auto 0;border-top-left-radius: 50px;}
+    .fill-your-details ul li label{width:100%;}
+    .fill-your-details ul li input{width:100%;}
+    .workwithus-main h3{font-size:30px;padding:0 0 20px;}
+    .knowledge-hub-videos-top h3{font-size:30px;padding:0 0 20px;line-height:32px;}
+    .personal-information form button{margin:0 auto;}
+    .seniour-uxui-designer-main a.apply{margin:30px auto 0;}
+    .career-opportunities2 span{padding:0 0 15px;}
+    .workwithus-main strong{text-align:center;}
+    .partnering{padding:30px 0;}
+    .data-center-ser{padding-bottom: 20px;}
+    .about-banner-blk1 p{text-align:center;}
+    .testimonial-block .tabBlock-tab.is-active .nav-link{font-size:14px;width:130px;}
+    .testimonial-block .tabBlock-tab .nav-link{font-size:14px;width:130px;}
+    .awards-block{padding:30px 0;}
+    .all-value{padding:0;}
+    .who-we-are-main{padding: 20px 0 0;}
+    .fir-icon-incor{padding:0px 10px;}
+    .our-features ul li{padding-bottom:12px;}
+    .star-one {
+    box-shadow: 0px 0px 6px #0000003d;
+    padding: 12px 0px 0px 0px;
+    margin: 10px 10px;
+    border-radius: 4px;
+    background: #c8c2c2;
+    display: none;
+    position: absolute;
+    bottom: -195px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 999;
+    }
+    .partnership-main ul li:before{display:none;}
+    .partnership-main ul li{width:50%;padding:40px 10px;}
+    .partnership-points {padding:20px;}
+    .it-departmen-para {padding: 15px 0;}
+    .partnering h3{font-size:28px;}
+    .partnership {padding: 100px 15px;background-size:cover;}
+    .why-work-with-us-main ul{margin:0;}
+    .our-technology-cnt{min-height:auto;margin:0 0 10px;}
+    .what-is-noc-main h3{font-size:30px;}
+    .harbourfront-services-main{padding:30px 0;}
+    .inner-teli2{min-height:auto;}
+    .third-class{padding:0 0 30px;}
+    .what-meity{font-size:30px;line-height:36px;}
+    .about-banner.meity{padding:100px 15px;}
+    .about-banner1.knowledge111{padding:100px 0;}
+    .contact-information { margin-top: 10px;padding: 30px 50px 20px 20px;}
+    .write-to-us-main.branches{padding:15px;}
+    .write-to-us{margin:0 auto 30px;}
+    .about-banner1.knowledge11{padding:100px 15px;}
+    .knowledge-hub-faqs-cnt-in:after{width:23px;height:23px;}
+    .knowledge-hub-faqs-cnt h4:after{top:26px;width:23px;height:23px;}
+    .knowledge-hub-faqs-cnt h4{padding:20px 40px 20px 20px;font-size:14px;}
+    .article-blk-main .tabBlock-tab { padding: 0 5px;}
+    .article-blk{margin:80px 0 0;}
+   
+    .what-drives-vission {padding:0px;}
+    .all-infor ul li{padding-bottom:5px;}
+    .what-meity {padding:20px 0 30px;}
+    .key-resources{margin-top:40px;}
+    .about-banner-blk-key h2{font-size:30px;}
+    .about-banner.identi {background: url(../images/all-india.png)no-repeat center;padding: 54px 100px;background-size: contain;
+    }
+    .inner-teli2 {margin-bottom:15px;}
+    .multi li{padding-bottom:15px;}
+        .fill-your-details-cnt h3{font-size: 25px;line-height: 30px;}
+    .features-of-amaravathi-btm h3{font-size: 30px;}
+    .amaravathi-dc-btm{margin: 20px 0;}
+    .amaravathi-dc-btm ul li img{width: 35px;}
+    .amaravathi-dc-top{padding: 20px;}
+    .amaravathi-dc-top h3{font-size: 22px;line-height: 32px;
+    padding: 0 0 10px 75px;}
+   .our-video {padding:20px 0;}
+    .about-data-center-infrastructure-blk {padding: 0 0 20px;}
+    .infrastructure-lt.dc {padding: 0 15px 0;}
+    .about-banner.data-center-infrastructure{padding:100px 15px;}
+    .write-to-us-rt h2 {padding: 20px 0 30px 15px;}
+     .pi-work-benefits{padding: 30px 0;}
+    .about-pi-workspaces-main {padding: 10px;}
+    .about-banner.pi-work-spaces{padding:100px 15px;}
+    .youtube-al {width: 100%;height: 360px;}
+     .data-center-design-planing{padding: 25px 0 0 0;}
+    .about-banner.dc-operate{padding: 100px 15px;}
+    .about-banner.dc-build{padding: 100px 15px;}
+    .harbourfront.dc-design-planning{padding: 0;}
+    .harbourfront-right.dc-design-planning {padding: 25px 20px 0;}
+    .about-banner.dc-design-planning{padding: 100px 15px;}
+    .explore-our-photo-gallary ul li{padding: 10px;}
+    .footer-copy-rights {max-width: 300px;margin: 0 auto;padding: 0;}
+    footer {width: 100%;padding: 0;}
+    .footer-copy-rights p {text-align: center !important;}
+    .this-foot .footer-links {float: unset;text-align: center;margin: 2px auto;}
+    .mobile-nav{display:none;}
+	.mobile-only_dd{display:none;}
+    .harbourfront-services-main h3{font-size: 22px;line-height: 32px;}
+    .web-acceleration-main {padding: 30px 0 0;}
+    .web-acceleration-cnt {padding: 15px 0px 0;}
+    .start-your-journey-main a{font-size: 16px;line-height: 60px;height: 60px;border-radius: 35px;width: 230px;}
+    .harbourfront-right {padding: 0px 15px 0;}
+    .start-your-journey {padding: 40px 15px;}
+    .about-banner.harbourfront-services{padding: 100px 15px;}
+      #news-1 
+      .modal-container{width: 100%;}
+    .press-releases-blk-main h2{font-size: 30px;}
+    .about-banner.press-releases{padding:100px 15px;}
+    .brochure-main-cnt-lt h3{font-size: 30px;line-height: 32px;}
+    .about-banner.brochure{padding: 100px 15px 150px;}
+    .knowledge-hub-videos ul li{padding: 0 0 20px;}
+    .knowledge-hub-videos{background-size: cover;background-position: center;padding: 35px 0;}
+    .podcast-top{border-radius: 30px;margin:0;}
+    .podcast-top-rt {padding: 20px 15px 0;}
+    .latest-block-left{padding: 0 0 20px;}
+    .latest-block-right{padding: 0 0 20px;}
+    .article-blk-main .tabBlock-tab .nav-link{font-size: 14px;}
+    .article-blk-main .tabBlock-tab.is-active .nav-link{font-size: 14px;}
+    .about-banner.knowledge{padding: 70px 15px 0;height: 470px;}
+    .blog-ceo-rt ul li{padding: 10px 0 0 20px !important;}
+    .case-block-main.greenshape1{padding: 25px;}
+    .case-block-main.greenshape {padding: 75px 15px;}
+    .about-banner.blogs{padding: 100px 0 200px;}
+    .about-banner.case-studie{padding: 75px 10px 170px;}
+    .case-content p{font-size: 14px;line-height: 18px;}
+    .case-content h4{font-size: 18px;line-height: 22px;}
+    .case-content a.download:after{right: -40px;}
+    .case-block-main ul li {padding: 5px;}
+    .case-block-main h3{font-size: 30px;line-height: 32px;}
+    .case-block-main{padding: 15px;}
+    .privacy-policy-main{padding: 20px;}
+    .about-banner.acceptable-policy{padding: 100px 5px;background-size: cover;background-position: center;margin: 0;}
+    .about-banner.privacy-policy{padding: 100px 0 130px;border-bottom-left-radius: 50%;border-bottom-right-radius: 50%;}
+    .about-banner.rims{padding: 100px 20px;}
+    .execution-team-structure h4{font-size: 25px;text-align: center;}
+    .execution-team-structure h5{font-size: 18px;text-align: center;}
+    .incident-management-main.major{margin: 0 20px;}
+    .incident-management-main.problem{margin: 0 20px;}
+    .our-rim-services-tab {padding: 50px 15px;}
+    .computer-network {padding: 20px 0 0;}
+    .computer-network-main.network {padding: 0 15px 35px;}
+    .computer-network-left {padding: 20px 10px;}
+     .computer-network-main h3{padding: 20px 0 !important;}
+    .our-rim-services .nav-tabs .nav-link{font-size: 15px;padding: 10px 17px;}
+    .our-rim-services h3{padding: 0 0 20px 0px;font-size: 30px;text-align: center;}
+    .why-rims ul li {width: 50%;padding: 0 5px 10px;}
+    .why-rims h3{font-size: 50px;}
+    .why-rims h3 span{font-size: 40px;}
+    .why-rims{margin-left: 0;border-radius:180px 0 0 180px;padding: 55px;}
+    .what-is-rims { padding: 0 0px 30px;}
+    .about-banner.job-details{padding: 100px 10px;}
+    .career-opportunities ul li{padding: 0 15px 15px;}
+    .apply-for-position-main h4{font-size: 30px;}
+    .apply-for-position{padding:50px 10px;}
+    .about-banner-img {max-width: 800px;margin: -42px 20px 0;}
+    .about-banner.work{padding: 100px 10px;}
+    .about-banner.lifeatpi{height: auto;padding: 120px 10px;}
+    .about-lifeatpi {padding: 50px 0 0;}
+    .lifeatpi-top h3 {font-size: 30px;text-align: center;}
+    .seniour-uxui-designer-main h3 {font-size: 30px;text-align: center;}
+    .about-lifeatpi h3 {font-size: 30px;text-align: center;}
+    .what-is-noc-lt {padding: 30px 5px;}
+    .what-is-noc-main {margin: 0px auto;}
+    .about-banner.noc {padding: 100px 20px;}
+    .board-of-directors .slick-prev{left: -40px;bottom: 10px;top: auto;right: 0;margin: 0 auto;}
+    .board-of-directors .slick-next{left: 0;bottom: 10px;top: auto;right: -40px;margin: 0 auto;}
+     .board-of-directors .slick-prev:before{font-family: "FontAwesome";content: "\f104";color: #223F97;font-size: 25px;border: 1px solid #223F97;width: 30px;height: 30px;padding: 1px;border-radius: 100%;display: block;}
+     .board-of-directors .slick-next:before{font-family: "FontAwesome";content: "\f105";color: #223F97;font-size: 25px;border: 1px solid #223F97;width: 30px;height: 30px;padding: 1px;border-radius: 100%;display: block;}
+    .strategic-core-council h2{padding: 0;}
+    .strategic-core-council-cnt h3{font-size: 23px;line-height: 25px;}
+.strategic-core-council-cnt p{font-size: 20px;line-height: 22px;}
+    .board-of-directors-in img{margin: 0 auto;width: 100%;}
+    .board-of-directors h2{padding: 0 0 40px;}
+    .drop-arrow:before{right: 20px;top:12px;}
+    .drop-arrow:before{color: #ffffff;}
+    .side_bar ul li.active .drop-down{display: block;}
+    .drop-down ul li a{padding: 5px 0px 0px 35px !important;}
+    .drop-down {position: static; background: #162068;}
+    .product-lt ul li:nth-child(4), .product-lt ul li:nth-child(5){width: 50%;}
+    .get-in-touch {margin: 0 0 -20px 0;}
+    .side_bar ul li:last-child{display: none;}
+    .address-map {display:none;}
+    .datacenter-blk .center1.slick-slider .slick-slide.slick-center .strategic-core-council-cnt1 p{font-size: 14px;line-height: 20px;}
+  
+    .contact-blk-rt ul li textarea{height:80px;line-height: 30px;border-radius: 10px;margin: 0 0 15px;}
+    .contact-blk-rt ul li input{height: 30px;line-height: 30px;margin: 0 0 15px;border-radius: 10px;}
+    .contact-blk-rt ul li button{height: 30px;line-height: 30px;border-radius: 10px;}
+    .great-rtt img{width: 200px;margin: 0 auto;}
+    .story{display: none;}
+    .address-map-lt{padding: 0 0 0 15px;}
+    .address-map-rt{padding: 0 5px;}
+    .great-lt h2{padding: 0 0 10px;text-align: center;}
+    .datacenter-blk .center1.slick-slider .slick-slide.slick-center .strategic-core-council-cnt1 h3{line-height: 22px;font-size: 18px;padding: 30px 0 0;}
+    .contact-blk{padding: 0;}
+    .contact-blk-top h2{padding: 0 0 10px;}
+    .datacenter-blk p{padding: 10px 0 10px;font-size: 12px;line-height: 14px;}
+    .phone-call{right: 23px;top:65px;}
+    .phone-call ul li{padding: 10px 0 0;}
+    .backdround-bg1{height: auto;}
+    .contact-blk-top{padding: 0;}
+    .great-rtt{padding: 5px 0px;}
+    .footer-about{padding: 0px 0px 0;}
+    .footer-about ul li a{text-align: center;margin: 0 0 12px;font-size: 14px;}
+    .footer-about p{padding: 3px 0 0;}
+    .phone-call img {width: 45px;}
+    .btn-blk {padding: 10px 5px 0px;width: 220px;margin: 0 auto;}
+   
+    
+    .great-rt {max-width: 250px;margin: 0 auto;padding: 20px 0;}
+    .datacenter-blk{padding: 0px 0 0;}
+    .desk{}
+    .mob{display: block !important;}
+    .header-lt a img{width: 70px;}
+    .side_bar .drop_down{top: 34px;z-index: 999999;position: static;}
+    .side_bar .drop_down ul li:hover{background:#162068;}
+    .side_bar .drop_down ul li:hover a{color: #fff !important;}
+    .side_bar .drop_down ul li a{color: #000 !important;}
+    .header-rt{float: none !important;width:250px;position:  fixed;top: 0;right:  -250px;height:  100%;overflow:  auto;z-index: 9999;background:  #2481be;transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -web-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;}
+   nav{display: none;}       
+   #nav-icon{display:block;position:absolute;top: 35px;right: 10px;}
+    .sticky #nav-icon{top: 34px;}
+    .side_bar{display:block;width:240px;background:#162068;height:100%; position:fixed;top:0;right:-240px;z-index:9;transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;-o-transition:all 0.3s ease-in-out;-webkit-transition:all 0.3s ease-in-out;-ms-transition:all 0.3s ease-in-out;overflow:auto;padding: 44px 0;}
+	.side_bar ul{padding:0;}   
+	.side_bar ul li{padding: 0  0; float:none; display:block; width:100%;margin:0;background:none;border:none;position: relative;} 
+	.side_bar ul li a{display:block;padding: 13px 35px;font-size: 15px;color:#fff !important;text-align: left;}
+	.menu{text-align: center;margin: 0 auto;position:absolute;right: 14px;top:0px;z-index:999;padding:4px 0;}
+	.side_bar nav ul{display:block!important;position:static; padding:0; box-sizing:border-box; }
+    .side_bar nav{display: block;}
+    .side_bar nav ul li.book a{color: #000;}
+	.side_bar nav ul{width:100%; padding:0;position: relative;}
+	.wrapper{position:relative; top:0; right:0; transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;-o-transition:all 0.3s ease-in-out;-web-transition:all 0.3s ease-in-out;-ms-transition:all 0.3s ease-in-out;}    
+	body.open{overflow:hidden;}
+	.open .wrapper{right:240px;top:0px;position: fixed;}   
+    .open .side_bar{right:0}
+	.open #nav-icon{top: 42px;}
+    /*---------- main satrs --------------------*/
+    .banner-blk{height: auto;}
+    .great-lt {padding:5px 0px 0 0;}
+    .great-lt h1 br{display: none;}
+    .great-lt p {
+    text-align: center;
+}
+    .product-blk {
+    padding: 0px 20px 0;
+    top: 43%;
+}
+    .product-lt {padding: 20px 0 0;}
+    .services-blk p br{display: none;}
+    .meet-lt {padding: 0px 0px 35px 0;}
+    .meet-rt {padding: 0 121px;}
+    .banner-blk {padding: 0px 0 0;}
+    .who-rt {padding: 0 101px;}
+    .who-in{padding: 0;}
+    .green-blk{padding: 0;}
+    .green-lt {padding: 0 0 30px 0;}
+    .green-rt {padding: 0 52px;}
+    .head{padding: 0;}
+    .con-rt{padding: 0;}
+    .con-lt {padding: 0 0 25px 0;}
+    .contact-rt{padding: 30px 0 0 0;}
+    .great-rt img{}
+    .great-blk {padding: 0px 0 0;}
+    .clients{
+    display: none;
+}
+    .product-lt ul li{padding: 0 5px 5px;width: 33.33%;}
+    .product-rt img{width: 200px;margin: 5px auto;}
+    .board-of-directors ul li{padding: 0 15px 35px;}
+    .strategic-core-council-cnt{padding: 70px 0 0 0;}
+    .strategic-core-council .center{padding: 0;}
+    .strategic-core-council .center .slick-slide.slick-current.slick-active.slick-center img{width:45%;}
+    .board-of-directors {padding: 60px 0 0;}
+    .social-icons li{padding: 0 0 0 8px !important;}
+    .modal-content {position: relative;background: transparent;width: 100%;border: 0;margin: 0 auto;}
+    .director-lt-cnt h3 { font-size: 20px;line-height: 30px;padding: 10px 0 0;}
+    .testimonial-content-rt{padding: 0;}
+    .testimonial-content{padding: 15px;}
+    .about-banner1.knowledge1 {background: url(../images/pi-gallery-banner.png)no-repeat;padding: 100px 15px;height: auto;}
+    .about-banner-blk1 p br{display:none;}
+    .about-banner11.knowledge1 {background: url(../images/pi-videos-banner.png)no-repeat;padding: 100px 0px;height: auto;}
+    .knowledge-hub-videos-top p br{display:none;}
+    .ga-vd ul li{padding:12px 0px;}
+    .about-banner-blk p br{display:none;}
+    .pi-work-benefits-cnt{min-height:auto;margin:0 0 10px;}
+    .why-work-with-us-main ul li {padding: 0px;}
+    .why-work-with-us{padding:30px 0;}
+    .brochure-main-cnt-rt{padding:0;}
+    .brochure-main-cnt-lt{padding:10px;}
+    .brochure-main-cnt-lt a{margin:0;}
+    .brochure-main{padding:20px;}
+    .press-releases-blk-main{padding:30px 0;}
+    .press-releases-blk-main ul{padding:20px 0;}
+    .knowledge-galleryd{padding:30px 0;}
+    .inner-teli241 br{display:none;}
+    .inner-teli244{}
+    .apply-for-position-main form{padding:30px 15px;}
+    .apply-for-position-main form input{padding: 10px; border-radius: 10px;}
+    header.white-bg{height:75px;}
+    .about-banner{margin-top:75px;margin-bottom:0;}
+    h2.ceo-corner {text-align: left;padding: 0px 0 20px;}
+    .testimonial-block-main .slider ul { padding: 5px;}
+    .brochure-blk .tabBlock-tab.is-active .nav-link{width:50px;}
+    .brochure-blk .tabBlock-tab .nav-link{width:50px;}
+    .certi ul li img{min-height:85px;width:85px;margin:0 auto;}
+    .great-rt-in.dc{height: 330px;}
+    h2 {font-size: 22px;line-height: 24px;text-align: center;}
+    .product-lt h2 { padding: 0 0 10px 0;}
+    
+    /*--block--*/
+   
+    article.tabs section:nth-child(3) h2 {left:-40px !important;}
+    article.tabs section:nth-child(4) h2 {left:60px !important;}
+    article.tabs section:nth-child(5) h2 {left:160px !important;}
+    article.tabs section:nth-child(6) h2 {left:260px !important;}
+    article.tabs section h2{width: 35px !important;height: 35px !important;}
+    article.tabs section h2 a{width: 35px !important;height: 35px !important;line-height: 35px !important;}
+     article.tabs section{min-height: 408px;padding: 10px 20px 10px;}
+    article.tabs{height: 520px !important;}
+    .desktop-headings{display: none;}
+    .mobile-headings{display: block;width: 100%;text-align: center;}
+    .mobile-headings span {font-size: 13px !important;line-height: 20px !important;color: #ffffff;}
+    .datacenter-services-img{height:100px;object-fit:cover;}
+    .testimonial-block .tabBlock-tabs{padding:0;}
+    .testimonial-block .tabBlock-tab {padding: 5px 5px;}
+     .what-drives-mission-right{padding:0px;}
+    .great-rt-in.dc{height: 200px;}
+    .case-content.ceo-corner {min-height: auto; margin: 0 0 10px;min-height: 475px;}
+    .our-rim-services .nav-link p{font-size:11px;padding:10px 0 0;}
+    .about-banner-blk h2 span{display:none;font-size: 10px !important;line-height: 12px;}
+    .our-rim-services-tab{padding:0;}
+    .custom-scheduled-reporting h4{font-size: 20px;}
+    .custom-scheduled-reporting{padding: 30px 10px;}
+    .custom-scheduled-reporting h2{font-size: 30px;line-height: 40px;}
+    .incident-management-wf ul li span{font-size: 14px;}
+    .incident-management-wf{padding: 20px 0;}
+    .computer-network-right{padding:0;}
+    .computer-network-main{padding: 0;}
+    .computer-network-main.network{padding: 0 15px;}
+    .why-rims{padding: 0;}
+    .avg-productivity-blk-right{padding: 20px;}
+    .resource-distribution-left{padding: 0;width: 100%;}
+    .resource-distribution-right.table img{width: 100%;}
+    .resource-distribution-right{padding: 0 0 20px;}
+    .resource-distribution-left ul li:after {left: -25px;transform: rotate(90deg);right: 0;margin: 0 auto;bottom: -16px;top: auto;}
+    .resource-distribution.grey{padding: 20px;}
+    .resource-distribution-left ul li{padding: 0 0 60px;}
+    .resource-distribution-right.table{padding: 0;}
+    .resource-distribution-left h2{padding: 0 0 20px;}
+    .resource-distribution-right p{text-align: center;}
+    
+    .lifeatpi-top ul li {padding: 0 15px 15px;}
+     .lifeatpi-top ul li iframe{height:250px;}
+    header.white-bg{height:75px;padding:10px 0;}
+    .lifeatpi-top ul li iframe{height:250px;margin:0 0 10px;}
+    .workwithus-main {padding: 30px 0;}
+    .apply-for-position{padding:20px 0;}
+    .datacenter-blk p br{display:none;}
+    .inner-teli24 br{display:none;}
+    .modal-container{overflow: scroll;height: 500px;}
+    .testimonial-block{padding:0 0 20px;}
+    .locations-cnt-lt{padding:0 15px 20px;}
+    .about-locations-main .tabBlock-tabs{width:100%;margin: 10px 0;}
+    .meity-home-lt p{text-align:center;}
+    .our-technology-cnt{text-align:center;}
+    .our-technology-cnt img{margin:0 auto;}
+    .our-technology-cntt img{margin:0 auto;}
+     .our-technology-cntt{text-align:center;}
+    .knowledge-hub-videos1{padding:30px;}
+    .awards-block .tabBlock-tab.is-active .nav-link{width: 110px;}
+    .awards-block .tabBlock-tab .nav-link{width: 110px;}
+    .awards-block .tabBlock-pane ul li img{min-height: auto;width: 100%;}
+    .certifications-desktop{display: none;}
+    .certifications-mbl{display: block;}
+    .certifications-block{padding: 20px 0;}
+    .about-banner.certifications {padding: 50px 15px;margin: 0;background-position: center;}
+    .testimonial-block-main{padding: 20px 0px;}
+    .about-banner.testimonial {padding: 70px 15px;height: 700px;}
+    .about-banner.award {
+    padding: 110px 0;
+    margin: 0;
+    height: 300px;
+    background-position: center;}
+    .strategic-core-council-cnt1{margin: 0;}
+    .missin-blk1{display: none;}
+    .missin-blk{display: block;}
+    .about-banner{margin: 75px 0 0;}
+    .what-drives-mission{padding: 0;}
+    .get-in-touch-blk{border-radius: 50px;padding: 10px;}
+    .get-in-touch-rit a{line-height: 38px;height: 38px;width: 150px;margin: 0 auto;font-size: 16px;}
+    .get-in-touch-lft p {font-size: 15px;line-height: 21px;padding: 0 0 10px;text-align: center;}
+    .what-drives-vission { padding:0px 0 0;}
+    .about-banner h2{font-size: 18px;line-height:22px; max-width: 220px;}
+   .what-drives-mission-left h3, .what-drives-vission-right h3{font-size: 30px;}
+    .what-drives-us {padding: 63px 0;}
+    .what-drives-vission-right,.what-drives-mission-left {padding: 0px 10px;}
+    .head p br{display: none;}
+    .banner-blk {}
+    .who-lt ul li {width: 32%;}
+    .who-lt {padding: 0;}
+    .seniour-uxui-designer-main{padding: 30px 0 0;}
+    .center1 .slick-list.draggable{padding:0px 0 102px !important;top:-68px;}.datacenter-blk .center1.slick-slider .slick-slide.slick-center p{padding: 45px 0 0;font-size: 20px;}
+    .pi-certificates ul li img{width:35px;height:35px;}
+    .pi-certificates{width:120px;left:15px;bottom: 170px;}
+    .pi-certificates.right{right:15px;}
+    .pi-certificates ul li{padding:0 5px;}
+    .banner-blk.desk .slick-dots{top: 50%;}
+    .product-lt span{text-align:center; display: block;}
+    .great-lt p{text-align:center;}
+    .locations-cnt-rt {margin: 0px 0 0;}
+    .features-of-amaravathi-btm h3 {font-size: 20px;}
+    .our-features{padding:50px 0 0;}
+    .dc-download-brochure{padding:20px;}
+    .dc-download-brochure-left p {font-size: 24px;line-height: 26px;}
+    .inner-teli241{}
+    .start-your-journey-main h3 {font-size: 15px;line-height: 25px;}
+    .product-lt ul li span{font-size: 20px;}
+    .product-lt h2 { padding: 0 0 10px 0;}
+    .great-rt ul{max-width: 170px;margin: 0 auto;}
+      p.dcsi {font-size: 15px;padding: 12px 0 0;}
+    .know-more-btn a{font-size: 12px;line-height: 30px;height: 30px;border-radius: 20px; width: 100px;margin: 0 auto 0;}
+    .testimonial-content{min-height: auto;}
+    .mobile-headings p{text-align: center;padding: 10px;}
+    .strategic-core-council-cnt2 p br{display: block;}
+    .get-in-touch-rit{padding: 0;}
+    .resource-distribution-left img{width: 100%;}
+    .resource-distribution-left ul li img{width: auto;}
+    .case-block-main.greenshape:before{top:55px;width:45px;height: 45px;}
+    .about-pi-workspaces-main-rt {padding: 0px 10px 0px;}
+    .this-foot{padding:10px 0 0;}
+     .all-value{margin: -45px auto 0;}
+    .mission-data p{font-size: 12px;line-height: 16px;}
+    .dc-advisory-block-rt h3{font-size: 30px;line-height: 40px;}
+    .case-content a.download{width: 150px;font-size: 13px;}
+}
+@media (max-width:767px){
+.design-con{min-height:auto;}
+   .knowledge-galleryde ul li{padding:10px;}
+    .case-block-main.greenshape .case-content {min-height: auto;}
+    .inner-teli244{height: auto;}
+    .testimonial-block-main{padding: 0 0px 40px !important;}
+    .testimonial-block1 .tabBlock-tabs{position: static;padding: 0 0 10px;}
+    article.tabs section:nth-child(3) h2 {left:-40px !important;}
+    article.tabs section:nth-child(4) h2 {left:60px !important;}
+    article.tabs section:nth-child(5) h2 {left:160px !important;}
+    article.tabs section:nth-child(6) h2 {left:260px !important;}
+    article.tabs section h2{width: 35px !important;height: 35px !important;bottom: -38px !important;}
+    article.tabs section h2 a{width: 35px !important;height: 35px !important;line-height: 35px !important;}
+    article.tabs section{min-height: 700px;padding: 10px 20px 10px !important;}
+    article.tabs{height: 800px !important;}
+    .desktop-headings{display: none;}
+    .mobile-headings{display: block;width: 100%;text-align: center;}
+    .mobile-headings span {font-size: 13px !important;line-height: 20px !important;color: #ffffff;}
+    .datacenter-services-img{height:100px;object-fit:cover;}
+    .testimonial-block .tabBlock-tabs{padding:0;}
+    .testimonial-block .tabBlock-tab {padding: 5px 5px;}
+     .what-drives-mission-right{padding:0px;}
+    .great-rt-in.dc{height: 200px;}
+    .case-content.ceo-corner {min-height: auto; margin: 0 0 10px;}
+    .our-rim-services .nav-link p{font-size:11px;padding:10px 0 0;}
+    .about-banner-blk h2 span{display:none;font-size: 10px !important;line-height: 12px;}
+    .our-rim-services-tab{padding:0;}
+    .custom-scheduled-reporting h4{font-size: 20px;}
+    .custom-scheduled-reporting{padding: 30px 10px;}
+    .custom-scheduled-reporting h2{font-size: 30px;line-height: 40px;}
+    .incident-management-wf ul li span{font-size: 14px;}
+    .incident-management-wf{padding: 20px 0;}
+    .computer-network-right{padding:0;}
+    .computer-network-main{padding: 0;}
+    .computer-network-main.network{padding: 0 15px;}
+    .why-rims{padding: 0;}
+    .avg-productivity-blk-right{padding: 20px;}
+    .resource-distribution-left{padding: 0;width: 100%;}
+    .resource-distribution-right.table img{width: 100%;}
+    .resource-distribution-right{padding: 0 0 20px;}
+    .resource-distribution-left ul li:after {left: -25px;transform: rotate(90deg);right: 0;margin: 0 auto;bottom: -16px;top: auto;}
+    .resource-distribution.grey{padding: 20px;}
+    .resource-distribution-left ul li{padding: 0 0 60px;}
+    .resource-distribution-right.table{padding: 0;}
+    .resource-distribution-left h2{padding: 0 0 20px;}
+    .resource-distribution-right p{text-align: center;}
+    
+    .lifeatpi-top ul li {padding: 0 15px 15px;}
+     .lifeatpi-top ul li iframe{height:250px;}
+    header.white-bg{height:75px;padding:10px 0;}
+    .lifeatpi-top ul li iframe{height:250px;margin:0 0 10px;}
+    .workwithus-main {padding: 30px 0;}
+    .apply-for-position{padding:20px 0;}
+    .datacenter-blk p br{display:none;}
+    .inner-teli24 br{display:none;}
+    .modal-container{overflow: scroll;height: 500px;}
+    .testimonial-block{padding:0 0 20px;}
+    .locations-cnt-lt{padding:0 15px 20px;}
+    .about-locations-main .tabBlock-tabs{width:100%;margin: 10px 0;}
+    .meity-home-lt p{text-align:center;}
+    .our-technology-cnt{text-align:center;}
+    .our-technology-cnt img{margin:0 auto;}
+    .our-technology-cntt img{margin:0 auto;}
+     .our-technology-cntt{text-align:center;}
+    .knowledge-hub-videos1{padding:30px 0;}
+    .awards-block .tabBlock-tab.is-active .nav-link{width: 110px;}
+    .awards-block .tabBlock-tab .nav-link{width: 110px;}
+    .awards-block .tabBlock-pane ul li img{min-height: auto;width: 280px !important;margin: 0 auto 30px;}
+    .certifications-desktop{display: none;}
+    .certifications-mbl{display: block;}
+    .certifications-block{padding: 20px 0;}
+    .about-banner.certifications {padding: 50px 15px;margin: 0;background-position: center;}
+    .testimonial-block-main{padding: 20px 0px;}
+    .about-banner.testimonial {padding: 70px 15px;height: 700px;}
+    .about-banner.award {
+    padding: 110px 0;
+    margin: 0;
+    height: 300px;
+    background-position: center;}
+    .strategic-core-council-cnt1{margin: 0;}
+    .missin-blk1{display: none;}
+    .missin-blk{display: block;}
+    .about-banner{margin: 75px 0 0;}
+    .what-drives-mission{padding: 0;}
+    .get-in-touch-blk{border-radius: 50px;padding: 10px;}
+    .get-in-touch-rit a{line-height: 38px;height: 38px;width: 150px;margin: 0 auto;font-size: 16px;}
+    .get-in-touch-lft p {font-size: 15px;line-height: 21px;padding: 0 0 10px;text-align: center;}
+    .what-drives-vission { padding:0px 0 0;}
+    .about-banner h2{font-size: 18px;line-height:22px; max-width: 220px;}
+   .what-drives-mission-left h3, .what-drives-vission-right h3{font-size: 30px;}
+    .what-drives-us {padding: 63px 0;}
+    .what-drives-vission-right,.what-drives-mission-left {padding: 40px 15px;}
+    .head p br{display: none;}
+    .banner-blk {}
+    .who-lt ul li {width: 32%;}
+    .who-lt {padding: 0;}
+    .seniour-uxui-designer-main{padding: 30px 0 0;}
+    .center1 .slick-list.draggable{padding:0px 0 102px !important;top:-68px;}.datacenter-blk .center1.slick-slider .slick-slide.slick-center p{padding: 45px 0 0;font-size: 20px;}
+    .pi-certificates ul li img{width:35px;height:35px;}
+    .pi-certificates{width:120px;left:15px;bottom: 170px;}
+    .pi-certificates.right{right:15px;}
+    .pi-certificates ul li{padding:0 5px;}
+    .banner-blk.desk .slick-dots{top: 50%;}
+    .product-lt span{text-align:center; display: block;}
+    .great-lt p{text-align:center;}
+    .locations-cnt-rt {margin: 0px 0 0;}
+    .features-of-amaravathi-btm h3 {font-size: 20px;}
+    .our-features{padding:50px 0 0;}
+    .dc-download-brochure{padding:20px;}
+    .dc-download-brochure-left p {font-size: 24px;line-height: 26px;}
+    .inner-teli241{min-height:auto;}
+    .start-your-journey-main h3 {font-size: 15px;line-height: 25px;}
+    .product-lt ul li span{font-size: 22px;}
+    .product-lt h2 { padding: 0 0 10px 0;}
+    .great-rt ul{max-width: 170px;margin: 0 auto;}
+      p.dcsi {font-size: 15px;padding: 12px 0 0;}
+    .know-more-btn a{font-size: 12px;line-height: 30px;height: 30px;border-radius: 20px; width: 100px;margin: 0 auto 0;}
+    .testimonial-content{min-height: auto;}
+    .mobile-headings p{text-align: center;padding: 10px;}
+    .strategic-core-council-cnt2 p br{display: block;}
+    .get-in-touch-rit{padding: 0;}
+    .resource-distribution-left img{width: 100%;}
+    .resource-distribution-left ul li img{width: auto;}
+    .case-block-main.greenshape:before{top:55px;width:45px;height: 45px;}
+    .about-pi-workspaces-main-rt {padding: 0px 0 0 0px;}
+    .hover-award{left: 0;right: 0;margin: 0 auto;}
+    .datacenter-main.center-block .slick-prev{bottom: -45px;}
+    .datacenter-main.center-block .slick-next{bottom: -45px;}
+    
+}
+@media (max-width:599px){
+.center1 .slick-list.draggable{padding:0px 0 75px !important; top:-55px;}
+    .know-more a.dc{margin: 10px auto;}
+    .datacenter-blk .center1.slick-slider .slick-slide.slick-center .strategic-core-council-cnt1 h3{padding: 18px 0 0;}
+    .product-lt {padding: 3px 0 0;}
+    .product-lt ul li p{padding: 2px 0;}
+   .great-lt p small{display: none;}
+    .datacenter-main .center img{width:60% !important;}
+    .great-blk{width: 86%;top: 43%;}
+    .datacenter-blk{width: 90%;left: 0;right: 0;top: 40%;}
+    .datacenter-blk p{font-size: 13px;line-height: 17px;}
+    .great-rtt h3{bottom:-5px;font-size:16px;}
+    .about-data-center-infrastructure-blk.dc{padding:20px 0;}
+    .about-data-center-infrastructure-main h2{padding:0 0;}
+    .fill-your-details .modal-container{width:100%;}
+    .privacy-policy-main h3{font-size: 25px;}
+    .footer-about.about {padding: 50px 0 0;}
+    .footer-social-icons .container{padding: 0;}
+    .contact-blk-lt{padding: 0 0;}
+    .contact-blk-rt{padding: 0 0;}
+    .contact-blk-rt ul li button{margin: 0 auto;}
+    .who-we-are h2:before{top:-20px;}
+    .who-we-are {padding:0px 0px;}
+    .about-banner-blk p{text-align: center;}
+    .great-rt-in {
+        }
+    .product-lt ul li p{font-size: 10px;line-height: 12px;}
+    .backdround-bg {padding: 75px 25px 0;}
+    .slick-dots{left: 8px;}
+    .product-lt p{text-align: center;padding: 0 0 5px 0;}
+    .btn-blk {padding: 10px 0 0px;max-width: 220px;margin: 0 auto;}
+    .great-lt span{font-size: 13px !important;text-align: center;display: block;}
+    .contact-blk-lt p a.second{padding: 0 0 0 5px;}
+    .contact-blk-lt p a{font-size: 10px;padding: 0 5px;}
+    .footer-social-icons {position: fixed;bottom: 0;background: #000000;padding: 8px 0;border-radius: 20px;left: 0px;width: 45px;}
+    .datacenter-main .center1 img{width: 22% !important;}
+    .hurbour1-img1{width: 140px !important;}
+    .know-more a {font-size: 13px;line-height: 30px;height: 30px;border-radius: 20px;width: 100px;margin: 10px auto 0;}
+    
+    .great-rt ul li{padding: 0;}
+    .great-rt ul.ceo-image3{margin-left: -74px;margin-top: -21px;}
+    .great-rt ul.ceo-image2 {margin-right: 22px;margin-top: -22px;}
+    .great-rt img{margin: 0 auto;}
+    .who-rt {padding: 0;}
+    .who-lt h2 {padding: 0 0 20px 0;}
+    .meet-rt {padding: 0 80px;}
+    h2 {font-size: 20px;line-height: 22px;text-align: center;}
+    .footer-links ul li{padding: 3px;}
+  
+    .great-rt{padding:5px 0;}
+    .certi ul li img{min-height:80px;width:80px;margin:0 auto;}
+       
+    article.tabs section:nth-child(3) h2 {left:-40px !important;}
+    article.tabs section:nth-child(4) h2 {left:60px !important;}
+    article.tabs section:nth-child(5) h2 {left:160px !important;}
+    article.tabs section:nth-child(6) h2 {left:260px !important;}
+    .product-rt img { width: 120px;}
+    .this-foot{padding: 0;}
+    .brochure-main-cnt-lt h3 {font-size: 20px;line-height: 22px !important;}
+    article.tabs section { min-height: 600px;}
+    article.tabs {height: 750px !important;}
+}
+@media (max-width:478px){
+    article.tabs {height: 660px !important;}
+    article.tabs section {min-height: 527px;}
+    .strategic-core-council-cnt1 p br{display: block;}
+    .great-rt-in{}
+    .banner-blk{}
+    .great-lt p {padding: 20px 0 30px 0;}
+    h1{font-size: 26px;line-height: 35px;}
+    .contact-lt{padding: 0;}
+    .slick-dots {}
+    .meet-rt{padding: 0 8px;}
+    .green-rt{padding: 0;}
+    .great-lt h1 {padding: 25px 0 25px 100px;}
+    .great-lt p {padding: 0px 0 0px 0;text-align: center;}
+}
+
+   
+
+
+

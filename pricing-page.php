@@ -15,8 +15,7 @@
     <meta name="viewport" content="width=device-width">
     <!-- Fonts  -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
-    <!-- SET: Favicon -->
-    <!-- <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"> -->
+
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.css?v123">
     <link rel="stylesheet" href="https://pricing.pidatacenters.com/pidata/p/css/menu.css?v123">
@@ -294,7 +293,7 @@
     <div class="hb-headCount">
         <div class="hb-logo">
             <a href="https://pidatacenters.com/">
-                <img src="https://pidatacenters.com/images/logo-wt.png" alt="Harbour1®">
+                <img src="https://pidatacenters.com/images/logo-wt.png" alt="Harbour1Â®">
             </a>
         </div>
 

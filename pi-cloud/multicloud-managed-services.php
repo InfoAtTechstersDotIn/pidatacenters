@@ -232,6 +232,11 @@ include_once('includes/header.php');
 			display: none !important;
 		}
 
+		.range {
+			display: block;
+		}
+
+
 	}
 
 	.hb-boxCont {
@@ -255,7 +260,7 @@ include_once('includes/header.php');
 	.content_1 .para {
 		font-size: 16px;
 		margin: 30px 50px;
-		text-align: center;
+		text-align: justify;
 	}
 
 	.content_1 h2 {
@@ -305,6 +310,97 @@ include_once('includes/header.php');
 		text-align: center;
 	}
 
+	.hb-childProducts2 .tabBlock-tab.is-active,
+	.tabBlock-tab.is-active:after,
+	.tabBlock-tab.is-active:before {
+		background-color: #223f97 !important;
+	}
+
+	.hb-childProducts2 .tabBlock-tab:hover,
+	.tabBlock-tab:hover:after,
+	.tabBlock-tab:hover:before {
+		background-color: #223f97 !important;
+	}
+
+	.hb-childProducts2 .tabline {
+		border-bottom: solid #76b543 !important;
+	}
+
+
+	.points {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.cards {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.card {
+		margin: 40px;
+		position: relative;
+		max-width: 425px;
+		max-height: 425px;
+		box-shadow: 1px 0px 20px -6px #76b543;
+		cursor: pointer;
+	}
+
+	.card-title {
+		display: block;
+		text-align: center;
+		color: #76b543;
+		background-color: #80808038;
+		padding: 2%;
+		border-top-right-radius: 4px;
+		border-top-left-radius: 4px;
+	}
+
+	.card img {
+		width: 80%;
+		height: 80%;
+		object-fit: contain;
+		display: block;
+		padding: 0 0 0 30px;
+		position: relative;
+	}
+
+	.card-desc {
+		display: block;
+		font-size: 1rem;
+		line-height: 1.4rem;
+		position: absolute;
+		height: 0;
+		top: 0;
+		opacity: 0;
+		padding: 15px 8%;
+		background-color: white;
+		/* overflow-y: scroll; */
+		transition: 0.8s ease;
+		color: #223f97;
+	}
+
+	.desc-2 {
+		padding: 80px 8%;
+	}
+
+	.card:hover .card-desc {
+		opacity: 1;
+		height: 100%;
+		/* border: 1px solid #76b543; */
+	}
+
+	h1 {
+		font-size: 2.8rem;
+		color: #fff;
+		margin: 40px 0 20px 0;
+		text-align: center;
+	}
+
 	@media only screen and (min-width: 1200px) and (max-width: 1450px) {
 		.change {
 			padding: 15px;
@@ -329,39 +425,20 @@ include_once('includes/header.php');
 
 	}
 
-	.range .change:nth-child(1):before {
-		position: absolute;
-		left: 65px;
-		top: 7px;
-		content: "";
-		background: url("../images/managed-services-icons/CM.svg") no-repeat;
-		background-size: contain;
-		width: 60px;
-		height: 60px;
+	.appoinment {
+		background-color: #223f97 !important;
 	}
 
-
-	.range .change:nth-child(2):before {
-		position: absolute;
-		left: 65px;
-		top: 7px;
-		content: "";
-		background: url("../images/managed-services-icons/SM.svg") no-repeat;
-		background-size: contain;
-		width: 60px;
-		height: 60px;
+	.hb-productSec>li {
+		margin: 10px auto !important;
 	}
 
+	.sch-your {
+		width: 400px !important;
+	}
 
-	.range .change:nth-child(3):before {
-		position: absolute;
-		left: 65px;
-		top: 7px;
-		content: "";
-		background: url("../images/managed-services-icons/BM.svg") no-repeat;
-		background-size: contain;
-		width: 60px;
-		height: 60px;
+	.hb-featuresList>li {
+		border-top: 5px solid #223f97 !important;
 	}
 </style>
 
@@ -381,108 +458,94 @@ include_once('includes/header.php');
 	</div>
 </div>
 
-
 <div class="content_1 col-md-12">
-	<p class="para">
+	<!-- <p class="para">
 		Pi Datacenters take pride in offering comprehensive Multi Cloud Managed Services that empower your organization with unparalleled control, security, and efficiency in the digital realm. Our team of experts is dedicated to optimizing your cloud infrastructure, ensuring its performance, and safeguarding your data.
+	</p> -->
+	<p class="para">
+		Pi Datacenters takes pride in offering comprehensive Multi Cloud Managed Services that empower your organization with unparalleled control, security, and efficiency in the digital realm. Pi represents the foundation upon which your organization's digital dreams are realized. We don't just offer services; we offer solutions that redefine the very essence of cloud management. Our team of experienced experts is committed to your digital journey's success. We understand that in the digital world, control is not just an option; it's imperative. With Pi Datacenters, you gain the ability to harness unparalleled control over your cloud infrastructure.
+
 	</p>
+	<p class="para">
+		We recognize the critical role that security plays in maintaining your online fortress, and hence, we employ advanced security protocols to safeguard your data against the myriad threats that loom in the digital world. With Pi Datacenters, your data remains impervious to ever-evolving challenges, ensuring that your business operations are uninterrupted. Your cloud infrastructure's performance directly influences your business's success. Our team, well-versed in the intricate world of cloud computing, meticulously fine-tunes your setup. With Pi Datacenters, you can expect nothing less than unparalleled performance, ensuring a seamless user experience and the ability to meet your customers' demands effectively.
+	</p>
+	<p class="para">In a world fueled by data and connectivity, Pi Datacenters is not just a service provider; we are your strategic partner in achieving digital excellence. Our Multi Cloud Managed Services are meticulously crafted to not only meet your requirements but to exceed them. We are dedicated to your success, and our expertise is your competitive edge in the digital arena. Welcome to a new era of cloud management with Pi Datacenters. Your journey to digital greatness begins here.</p>
 	<h2>Our Range Of Services </h2>
 
 </div>
 
 <div class="container content_1">
 	<div class="row range">
-		<ul>
-			<li>
-				<div class="col-md-4 change">
-					<p class="head"><b>Compute Management </b></p>
-					<p class="para-2">Efficiently manage the availability, performance, and fine-tuning of your cloud resources. We specialize in setting up high availability, managing licensing, monitoring, alerting, reporting, logging, analysis, dashboarding, health checks, and more. </P>
+		<div class="col-md-4 change">
 
-				</div>
-			</li>
-			<li>
-				<div class="col-md-4 change">
+			<span><img src="../images/managed-services-icons/CM.svg" class="img" width="70"></span>
+			<p class="head"><b>Compute Management </b></p>
+			<p class="para-2">Efficiently manage the availability, performance, and fine-tuning of your cloud resources. We specialize in setting up high availability, managing licensing, monitoring, alerting, reporting, logging, analysis, dashboarding, health checks, and more. </P>
 
-					<span><img src="../images/managed-services-icons/SM.svg" class="img" class="img" width="70"></span>
-					<p class="head"><b>Security Management </b></p>
-					<p class="para-2">Rest easy with our robust security management services. We identify and mitigate unsanctioned apps, enforce policies, and monitor your cloud data. Our services include anti-virus and anti-malware updates to keep your infrastructure secure.</P>
+		</div>
+		<div class="col-md-4 change">
 
-				</div>
-			</li>
-			<li>
-				<div class="col-md-4 change">
+			<span><img src="../images/managed-services-icons/SM.svg" class="img" class="img" width="70"></span>
+			<p class="head"><b>Security Management </b></p>
+			<p class="para-2">Rest easy with our robust security management services. We identify and mitigate unsanctioned apps, enforce policies, and monitor your cloud data. Our services include anti-virus and anti-malware updates to keep your infrastructure secure.</P>
 
-					<span><img src="../images/managed-services-icons/BM.svg" class="img" width="70"></span>
-					<p class="head"><b>Backup Management </b></p>
-					<p class="para-2">Protect your critical assets with our comprehensive backup solutions. We ensure backups for all your applications, workloads, and data. Our self-serve and on-demand restore options come with robust SLAs.</P>
+		</div>
+		<div class="col-md-4 change">
 
-				</div>
-			</li>
-			<li>
-				<div class="col-md-4 change">
+			<span><img src="../images/managed-services-icons/BM.svg" class="img" width="70"></span>
+			<p class="head"><b>Backup Management </b></p>
+			<p class="para-2">Protect your critical assets with our comprehensive backup solutions. We ensure backups for all your applications, workloads, and data. Our self-serve and on-demand restore options come with robust SLAs.</P>
 
-					<span><img src="../images/managed-services-icons/NM.svg" class="img" width="70"></span>
-					<p class="head"><b>Network Management </b></p>
-					<p class="para-2">Optimize your virtual network for seamless communication among VMs and the internet. We handle subnet management, NSG (Network Security Group) management, and firewall management. </P>
+		</div>
+		<div class="col-md-4 change">
 
-				</div>
-			</li>
-			<li>
-				<div class="col-md-4 change">
+			<span><img src="../images/managed-services-icons/NM.svg" class="img" width="70"></span>
+			<p class="head"><b>Network Management </b></p>
+			<p class="para-2">Optimize your virtual network for seamless communication among VMs and the internet. We handle subnet management, NSG (Network Security Group) management, and firewall management. </P>
 
-					<span><img src="../images/managed-services-icons/IM.svg" class="img" class="img" width="70"></span>
-					<p class="head"><b>Identity Management </b></p>
-					<p class="para-2">Effortlessly manage user accounts, federate identities across your organization's LOB (Line of Business) apps, and implement role-based access controls.</p>
-				</div>
-			</li>
-			<li>
-				<div class="col-md-4 change">
-					<span><img src="../images/managed-services-icons/STORAGE-M.svg" class="img" class="img" width="70"></span>
-					<p class="head"><b>Storage Management </b></p>
-					<p class="para-2">Optimize data usage and access patterns to maximize cost savings. Identify and move stale data to more economical storage areas, helping you manage your storage budget effectively. </P>
+		</div>
+		<div class="col-md-4 change">
 
-				</div>
-			</li>
-			<li>
-				<div class="col-md-4 change">
-					<span><img src="../images/managed-services-icons/SOM.svg" class="img" class="img" width="70"></span>
-					<p class="head"><b>Server OS Management </b></p>
-					<p class="para-2">Ensure the continuous updating and troubleshooting of server operating systems for peak performance. </p>
+			<span><img src="../images/managed-services-icons/IM.svg" class="img" class="img" width="70"></span>
+			<p class="head"><b>Identity Management </b></p>
+			<p class="para-2">Effortlessly manage user accounts, federate identities across your organization's LOB (Line of Business) apps, and implement role-based access controls.</p>
+		</div>
+		<div class="col-md-4 change">
+			<span><img src="../images/managed-services-icons/STORAGE-M.svg" class="img" class="img" width="70"></span>
+			<p class="head"><b>Storage Management </b></p>
+			<p class="para-2">Optimize data usage and access patterns to maximize cost savings. Identify and move stale data to more economical storage areas, helping you manage your storage budget effectively. </P>
 
-				</div>
-			</li>
-			<li>
-				<div class="col-md-4 change">
-					<span><img src="../images/managed-services-icons/MM.svg" class="img" class="img" width="70"></span>
-					<p class="head"><b>Monitoring Management </b></p>
-					<p class="para-2">Gain insights into your VMs with complete monitoring of CPU utilization, memory usage, storage IOPS, and OS performance. </P>
+		</div>
+		<div class="col-md-4 change">
+			<span><img src="../images/managed-services-icons/SOM.svg" class="img" class="img" width="70"></span>
+			<p class="head"><b>Server OS Management </b></p>
+			<p class="para-2">Ensure the continuous updating and troubleshooting of server operating systems for peak performance. </p>
 
-				</div>
-			</li>
-			<div class="col-md-4 change">
-				<span><img src="../images/managed-services-icons/CONFIG-M.svg" class="img" width="70"></span>
-				<p class="head"><b>Configuration Management </b></p>
-				<p class="para-2">Keep your software up-to-date, enforce configuration and security policies, and manage patching, updates, password resets, and resource right-sizing. </P>
+		</div>
+		<div class="col-md-4 change">
+			<span><img src="../images/managed-services-icons/MM.svg" class="img" class="img" width="70"></span>
+			<p class="head"><b>Monitoring Management </b></p>
+			<p class="para-2">Gain insights into your VMs with complete monitoring of CPU utilization, memory usage, storage IOPS, and OS performance. </P>
 
-			</div>
-			</li>
-			<li>
-				<div class="col-md-4 change">
-					<span><img src="../images/managed-services-icons/BSA.svg" class="img" width="70"></span>
-					<p class="head"><b>Basic Support Availability </b></p>
-					<p class="para-2">Benefit from our 8x5 support for billing and invoicing inquiries, as well as 24x7 L1/L2 support for break-fix issues. Reach out through phone, email, or web support tickets. </P>
+		</div>
+		<div class="col-md-4 change">
+			<span><img src="../images/managed-services-icons/CONFIG-M.svg" class="img" width="70"></span>
+			<p class="head"><b>Configuration Management </b></p>
+			<p class="para-2">Keep your software up-to-date, enforce configuration and security policies, and manage patching, updates, password resets, and resource right-sizing. </P>
 
-				</div>
-			</li>
-			<li>
-				<div class="col-md-4 change">
-					<span><img src="../images/managed-services-icons/CHANGE-M.svg" class="img" width="70"></span>
-					<p class="head"><b>Change Management </b></p>
-					<p class="para-2"> We ensure that proposed changes are scheduled based on business priorities, infrastructure impact, and service risk, minimizing disruptions to your IT services. </P>
+		</div>
+		<div class="col-md-4 change">
+			<span><img src="../images/managed-services-icons/BSA.svg" class="img" width="70"></span>
+			<p class="head"><b>Basic Support Availability </b></p>
+			<p class="para-2">Benefit from our 8x5 support for billing and invoicing inquiries, as well as 24x7 L1/L2 support for break-fix issues. Reach out through phone, email, or web support tickets. </P>
 
-				</div>
-			</li>
-		</ul>
+		</div>
+		<div class="col-md-4 change">
+			<span><img src="../images/managed-services-icons/CHANGE-M.svg" class="img" width="70"></span>
+			<p class="head"><b>Change Management </b></p>
+			<p class="para-2"> We ensure that proposed changes are scheduled based on business priorities, infrastructure impact, and service risk, minimizing disruptions to your IT services. </P>
+
+		</div>
 	</div>
 
 </div>
@@ -490,22 +553,26 @@ include_once('includes/header.php');
 
 
 
-<h1 class="text-center mt-5" style="padding:0px 0 0;color:#1a1a1a;font-size:45px; margin-top: 30px;">Managed Services </h1>
-<ul class="hb-productSec list-inline">
-	<li>
-		<div class="hb-leftCont hb_ppCont">
-			<span>
-				<img src="./pi-cloud/images/product-images/Managed-Services-Models.png" alt="tickmark">
-			</span>
-		</div>
-	</li>
-	<li>
-		<div class="hb-rightCont hb_ppCont">
 
-			<p style="text-align:left;">Our Managed Services offer varied models to cater to unique business needs of enterprises. These include the A La Carte, Dedicated Resource, Tiered, Elastic (Pay-Per-Use), and Monitoring Only models. This is to ensure that businesses could focus on their core activities while our managed services ecosystem takes care of the smooth operations and service availability of the IT infrastructure landscape.</p>
-		</div>
-	</li>
-</ul>
+
+
+<div>
+	<h1 class="text-center mt-5" style="padding:0px 0 0;color:#1a1a1a;font-size:45px; margin-top: 90px;">Managed Services Models</h1>
+	<ul class="hb-productSec list-inline">
+		<li>
+			<div class="hb-leftCont hb_ppCont">
+				<span>
+					<img src="./pi-cloud/images/product-images/Managed-Services-Models.png" alt="tickmark">
+				</span>
+			</div>
+		</li>
+		<li>
+			<div class="hb-rightCont hb_ppCont">
+
+				<p style="text-align:left;">Our Managed Services offer varied models to cater to unique business needs of enterprises. These include the A La Carte, Dedicated Resource, Tiered, Elastic (Pay-Per-Use), and Monitoring Only models. This is to ensure that businesses could focus on their core activities while our managed services ecosystem takes care of the smooth operations and service availability of the IT infrastructure landscape.</p>
+			</div>
+		</li>
+	</ul>
 </div>
 
 
@@ -544,7 +611,7 @@ include_once('includes/header.php');
 				<ul class="hb-productSec list-inline">
 					<div class="hb-leftCont hb_ppCont">
 						<p style="text-align:center">
-							Provides different tiers of service levels based on the business's needs, ensuring that you pay only for the services you require. 
+							Provides different tiers of service levels based on the business's needs, ensuring that you pay only for the services you require.Â 
 						</p>
 						<!--<span>
 			            				<img src="images/product-images/TIERED-MODEL.png" alt="advanced">
@@ -554,100 +621,51 @@ include_once('includes/header.php');
 					</div>
 
 				</ul>
-				<ul class="hb-productSec list-inline">
-					<li class="hb-block1">
-						<div class="hb-leftCont hb_ppCont">
-							<span>
-								<img src="./pi-cloud/images/product-images/essesntials28.png" alt="tickmark" class="essent">
-							</span>
-						</div>
-					</li>
-					<li>
-						<div class="hb-rightCont hb_ppCont">
-							<!--<b>Essentials</b><br>-->
+				<div class="points">
+					<div class="cards">
+						<div class="card">
+							<h2 class="card-title">ESSENTIALS</h2>
+							<img src="../images/managed-services-icons/dashboard-ms.svg" alt="">
+							<p class="card-desc desc-2">
+								&#187; 24 X 7 support with 2 hours critical response<br>
+								&#187; Basic IT support (OS Patching, OS Updates, OS Management, Virtual Machines, Disks, Basic Configuration Management, &Incident<br> Management)<br>
+								&#187; 30 days backup<br>
+								&#187; Proactive infrastructure monitoring and alerting<br>
+								&#187; Monthly health reports and dashboards<br>
 
-							<ul style=" list-style-type: circle;list-style-position:outside;font-size: 15px;
-    line-height: 22px;word-break: break-all;">
-								<li>24 X 7 support with 2 hours critical response</li>
-								<li>Basic IT support (OS Patching, OS Updates, OS Management, Virtual Machines, Disks, Basic Configuration Management, Incident<br> Management)</li>
-								<li>30 days backup</li>
-								<li>Proactive infrastructure monitoring and alerting</li>
-								<li>Monthly health reports and dashboards</li>
-								<li>Basic anti-virus and anti-malware support</li>
-							</ul>
+								&#187; Basic anti-virus and anti-malware support<br>
+							</p>
 						</div>
-					</li>
-					<li class="hb-block2">
-						<div class="hb-leftCont hb_ppCont">
-							<span>
-								<img src="./pi-cloud/images/product-images/essesntials28.png" alt="tickmark" class="essent">
-							</span>
+						<div class="card">
+							<h2 class="card-title">ADVANCED</h2>
+							<img src="../images/managed-services-icons/city-ms.svg" alt="">
+							<p class="card-desc">
+								&#187; 24 X 7 support with 1 hour critical response<br>
+								&#187; Advanced IT Support (OS Patching, OS Updates, OS Management, Virtual Machines, Virtual Machine scales, Availability Sets, Disks, Virtual <br>Networks, WAF, Identity Management, Configuration Management,<br> Incident Management, Problem Management, Change Management)<br>
+								&#187; Shared TAM and architect support<br>
+								&#187; Unlimited backup, self-serve point-in-time restore<br>
+								&#187; Proactive infrastructure monitoring and alerting<br>
+								&#187; Monthly health reports and dashboards.<br>
+								&#187; Advanced anti-virus and anti-malware support</p>
 						</div>
-					</li>
-				</ul>
-				<ul class="hb-productSec list-inline" style="margin-top:30px">
-
-					<li>
-						<div class="hb-leftCont hb_ppCont">
-							<span>
-								<img src="./pi-cloud/images/product-images/Advanced28.png" alt="tickmark" style="width:auto;">
-							</span>
+						<div class="card">
+							<h2 class="card-title">PREMIUM</h2>
+							<img src="../images/managed-services-icons/premium-service-ms.svg" alt="">
+							<p class="card-desc">
+								&#187; 24 X 7 support with 30 minutes critical response</br>
+								&#187; Level-3 escalation advanced support</br>
+								&#187; Proactive capacity planning, performance and cost optimization</br>
+								&#187; Shared TAM and architect support</br>
+								&#187; Unbrmited backup, self-serve point-in-time restore</br>
+								&#187; Proactive infrastructure monitoring and alerting</br>
+								&#187; Monthly health reports and dashboards</br>
+								&#187; Deep security (WAF, DDoS, Threat analytics, anti-virus, anti-malware, email and web protection)</br>
+								&#187; Proactive run book authoring</br>
+								&#187; Advanced operational intelligence and custom dashboard on usage, performance, governance, and cost
+							</p>
 						</div>
-					</li>
-					<li>
-						<div class="hb-rightCont hb_ppCont">
-							<!--<b>Advanced:</b>-->
-
-							<ul style=" list-style-type: circle;list-style-position:outside;font-size: 14px;
-    line-height: 22px;" class="only-support">
-								<li>24 X 7 support with 1 hour critical response</li>
-								<li>Advanced IT Support (OS Patching, OS Updates, OS Management, Virtual Machines, Virtual Machine scales, Availability Sets, Disks, Virtual <br>Networks, WAF, Identity Management, Configuration Management,<br> Incident Management, Problem Management, Change Management)</li>
-
-								<li>Shared TAM and architect support</li>
-								<li>Unlimited backup, self-serve point-in-time restore</li>
-								<li>Proactive infrastructure monitoring and alerting</li>
-								<li>Monthly health reports and dashboards.</li>
-								<li>Advanced anti-virus and anti-malware support</li>
-							</ul>
-						</div>
-					</li>
-
-				</ul>
-				<ul class="hb-productSec list-inline">
-					<li class="hb-block1">
-						<div class="hb-leftCont hb_ppCont">
-							<span>
-								<img src="./pi-cloud/images/product-images/Premium28.png" alt="tickmark" class="prem" style="">
-							</span>
-						</div>
-					</li>
-					<li>
-						<div class="hb-rightCont hb_ppCont" style="margin-top:70px;">
-							<!--<b>Premium</b><br>-->
-
-							<ul style=" list-style-type: circle;list-style-position:outside;font-size: 15px;
-    line-height: 22px;word-break: break-all;">
-								<li>24 X 7 support with 30 minutes critical response</li>
-								<li>Level-3 escalation advanced support</li>
-								<li>Proactive capacity planning, performance and cost optimization</li>
-								<li>Shared TAM and architect support</li>
-								<li>Unlimited backup, self-serve point-in-time restore</li>
-								<li>Proactive infrastructure monitoring and alerting</li>
-								<li>Monthly health reports and dashboards</li>
-								<li>Deep security (WAF, DDoS, Threat analytics, anti-virus, anti-malware, email and web protection)</li>
-								<li>Proactive run book authoring</li>
-								<li>Advanced operational intelligence and custom dashboard on usage, performance, governance, and cost</li>
-							</ul>
-						</div>
-					</li>
-					<li class="hb-block2">
-						<div class="hb-leftCont hb_ppCont">
-							<span>
-								<img src="./pi-cloud/images/product-images/Premium28.png" alt="tickmark" class="prem" style="">
-							</span>
-						</div>
-					</li>
-				</ul>
+					</div>
+				</div>
 			</div>
 			<div class="tabBlock-pane">
 				<ul class="hb-productSec list-inline">
@@ -1085,7 +1103,7 @@ Provides businesses with monitoring services while allowing them to manage their
 <!--<ul class="hb-productSec list-inline appoinment">
 			            	<li>
 			            		<div class="hb-leftCont hb_ppCont">
-			            			<h2>Let’s Book Your Appointment With us Now!</h2>
+			            			<h2>Letâ€™s Book Your Appointment With us Now!</h2>
                     <a href="#">Schedule A Visit</a>
 			            		</div>
 			            	</li>

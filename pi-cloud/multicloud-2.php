@@ -431,7 +431,7 @@ include_once('includes/header.php');
             <div class="hb-journeyCont icons-1">
                 <h3 class="text-center">Why Choose Pi Public Cloud Services? </h3>
                 <ul class="hb-journeyList list-inline">
-                    <li class="hb-ListJouney">
+                    <li class="hb-ListJouney box1">
                         <div class="hb-Jimg">
                             <!--<p>
                             <img src="./pi-cloud/images/homepage/1.png" alt="onesize">
@@ -442,7 +442,7 @@ include_once('includes/header.php');
                             <p>Our public cloud services offer a vast global network of data centers, ensuring low-latency access to your applications and data from anywhere in the world. Enjoy the freedom to reach a broader audience and expand your business on a global scale. </p>
                         </div>
                     </li>
-                    <li class="hb-ListJouney">
+                    <li class="hb-ListJouney box2">
                         <div class="hb-Jimg">
                             <!--<p>
                             <img src="./pi-cloud/images/homepage/2.png" alt="migration">
@@ -702,12 +702,12 @@ include_once('includes/header.php');
                             <div class="owl-carousel" id="cloudinfo">
                                 <div class="item" style="">
 
-                                    <a href="https://pi-cloud.in/multi-cloud#cloudinfo"> <img src="./pi-cloud/images/product-images/AWS28.png" alt="certfication" style="max-width:100%;margin-top: 70px;"></a>
+                                    <a href="https://pi-cloud.in/multi-cloud#cloudinfo"> <img src="./pi-cloud/images/product-images/AWS28.png" alt="certfication" style="max-width:100%;"></a>
 
                                 </div>
                                 <div class="item" style="">
 
-                                    <a href="https://pi-cloud.in/multi-cloud#cloudinfo"><img src="dashboard/uploads/services/8-infographics-2-latest.png" alt="certfication" style="max-width:100%;margin-top: 70px;"></a>
+                                    <a href="https://pi-cloud.in/multi-cloud#cloudinfo"><img src="dashboard/uploads/services/8-infographics-2-latest.png" alt="certfication" style="max-width:100%;"></a>
 
                                 </div>
                                 <div class="item" style="">
@@ -718,7 +718,7 @@ include_once('includes/header.php');
 
                                 <div class="item" style="">
                                     <a href="https://pi-cloud.in/multi-cloud#cloudinfo">
-                                        <img src="./pi-cloud/images/product-images/Oracle28.png" alt="certfication" style="max-width:100%;margin-top:70px;">
+                                        <img src="./pi-cloud/images/product-images/Oracle28.png" alt="certfication" style="max-width:100%;">
                                     </a>
                                 </div>
 
@@ -1021,60 +1021,11 @@ include_once('includes/header.php');
         </div>
     </div>
 
-    <!-- <ul class="hb-productSec list-inline appoinment">
-        <li>
-            <div class="hb-leftCont hb_ppCont">
-                <h2>Letâ€™s Book Your Appointment With us Now!</h2>
-                <a href="#">Schedule A Visit</a>
-            </div>
-        </li>
-        <li>
-            <div class="hb-rightCont hb_ppCont">
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque laoreet, ipsum a laoreet malesuada, ipsum mauris ultrices libero, vitae efficitur lacus enim a arcu. </p>
-            </div>
-        </li>
-    </ul> -->
-
-
-    <!--<h1 class="text-center" style="padding:30px 0 0;color:#545454;">Technology Partners</h1>-->
-    <!--<ul class="hb-productSec list-inline"> -->
-    <!-- <div class="hb-leftCont hb_ppCont">
-
-        <ul class="list-inline multi-cld-key2">
-            <li>
-                <div class="hb-featureBox" style="text-align:center">
-                    <img src="./pi-cloud/images/product-images/AES212.png" alt="A-La-Carte-Model-1" style="width:100px">
-                </div>
-            </li>
-            <li>
-                <div class="hb-featureBox" style="text-align:center">
-                    <img src="./pi-cloud/images/product-images/Oracle288.png" alt="A-La-Carte-Model-2" style="width:150px">
-                </div>
-            </li>
-            <li>
-                <div class="hb-featureBox" style="text-align:center">
-                    <img src="./pi-cloud/images/product-images/Google212.png" alt="A-La-Carte-Model-3" style="width:100px">
-                </div>
-            </li>
-            <li>
-                <div class="hb-featureBox" style="text-align:center">
-                    <img src="./<?= $config['subFolderName'] ?>/images/product-images/azure28.png" alt="A-La-Carte-Model-4" style="width:100px">
-                </div>
-            </li>
-
-        </ul>
-
-
-    </div>
-
-    </ul> -->
     <a href="images/Multi-Cloud-Brochure.pdf" class="sch-your" target="_blank">
         <ul class="hb-productSec list-inline appoinment stick">
             <li>
                 <div class="hb-leftCont hb_ppCont">
                     <h2>Download Brochure</h2>
-                    <!--<a href="#">Schedule A Visit</a>-->
                 </div>
             </li>
 
