@@ -70,10 +70,10 @@ a>img {
                         <td style="padding-left: 6pt;padding-right: 6px;padding: 6px">
                            <table>
                               <tr>
-                                 <td style="padding:0px 4pt"> <a href="https://www.linkedin.com/company/6437312/admin/" target="_blank" class="smc-link" style="display: inline-block;text-align: center; vertical-align: middle;"> <img src="images/menu-icons/linkedin_ico.svg" height="33" width="33"> </a> </td>
-                                 <td><a href="https://twitter.com/Pi_DATACENTERS" class="smctwi" target="_blank" style="display: inline-block;text-align: center; vertical-align: middle;"> <img src="images/menu-icons/twitter_ico.svg"  height="33" width="33"> </a></td>
-                                 <td style="padding:0px 4pt"><a href="https://www.facebook.com/PiDATACENTERS/" target="_blank" style="display: inline-block;text-align: center; vertical-align: middle;"> <img src="images/menu-icons/facebook_ico.svg" height="33" width="33"> </a> </td>
-                                 <td><a href="https://www.youtube.com/channel/UCcrUri8y8maUmz3P_9uCeJg" target="_blank" style="display: inline-block;text-align: center; vertical-align: middle;"> <img src="images/menu-icons/youtube_ico.svg" height="33" width="33"> </a></td>
+                                 <td style="padding:0px 4pt"> <a href="https://www.linkedin.com/company/6437312/admin/" target="_blank" class="smc-link" style="display: inline-block;text-align: center; vertical-align: middle;"> <img src="images/menu-icons/linkedin_ico.png" height="33" width="33"> </a> </td>
+                                 <td><a href="https://twitter.com/Pi_DATACENTERS" class="smctwi" target="_blank" style="display: inline-block;text-align: center; vertical-align: middle;"> <img src="images/menu-icons/twitter_ico.png"  height="33" width="33"> </a></td>
+                                 <!-- <td style="padding:0px 4pt"><a href="https://www.facebook.com/PiDATACENTERS/" target="_blank" style="display: inline-block;text-align: center; vertical-align: middle;"> <img src="images/menu-icons/facebook_ico.png" height="33" width="33"> </a> </td>
+                                 <td><a href="https://www.youtube.com/channel/UCcrUri8y8maUmz3P_9uCeJg" target="_blank" style="display: inline-block;text-align: center; vertical-align: middle;"> <img src="images/menu-icons/youtube_ico.png" height="33" width="33"> </a></td> -->
                               </tr>
                            </table>
                         </td>
