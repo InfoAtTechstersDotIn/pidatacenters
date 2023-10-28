@@ -2461,7 +2461,7 @@ font-s .director-lt-cnt h3 {
 }
 
 .certifications-block h3:before {
-    background: #2680EB;
+    /* background: #2680EB; */
     width: 100px;
     height: 3px;
     left: 0;
@@ -7653,4 +7653,8 @@ article.tabs section:target h2 {
 
 .features-of-amaravathi-btm p {
     font-size: 15px !important;
+}
+
+.board-of-directors-in p {
+    min-height: 75px !important;
 }

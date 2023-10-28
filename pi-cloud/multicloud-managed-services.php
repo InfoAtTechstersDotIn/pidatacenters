@@ -4,6 +4,15 @@ include_once('includes/header.php');
 ?>
 
 <style>
+	.hb-bannerImg h2 {
+		left: 2% !important;
+		font-size: 45px !important;
+	}
+
+	.hb-leftCont>span>img {
+		max-height: 345px !important;
+	}
+
 	.hb-productHead {
 		max-width: 80%;
 		margin: 0 auto;
@@ -100,7 +109,7 @@ include_once('includes/header.php');
 	}
 
 	.hb-productSec {
-		max-width: 80% !important;
+		max-width: 88% !important;
 	}
 
 	.hb-featLogo {
@@ -243,89 +252,16 @@ include_once('includes/header.php');
 		box-shadow: none;
 	}
 
-
-
 	/*Newly added styles*/
 
 	body {
 		font-family: 'Roboto', sans-serif !important;
 	}
 
-	.content_1 {
-		max-width: 80%;
-		margin: 0 auto;
-
-	}
-
-	.content_1 .para {
-		font-size: 16px;
-		margin: 30px 50px;
-		text-align: justify;
-	}
-
-	.content_1 h2 {
-		text-align: center;
-		font-size: 32px;
-		color: #76b543;
-	}
-
-	.range {
-		display: grid;
-		grid-template-columns: auto auto auto;
-		align-content: space-between;
-		gap: 30px;
-		margin: 30px 0;
-	}
-
-	.range h2 {
-		color: #535353;
-		font-size: 19px;
-	}
-
-	.range p {
-		margin: 20px 0 18px 0;
-		font-size: 16px;
-	}
-
-	.change {
-		padding: 19px;
-		box-shadow: 1px 2px 3px #5e9c42;
-	}
-
-	.content_1 span {
-		position: absolute;
-	}
-
-	.head {
-		position: relative;
-		text-align: center;
-	}
-
-	.head b {
-		padding-left: 55px;
-		font-size: 22px;
-	}
-
-	.para-2 {
-		text-align: center;
-	}
-
-	.hb-childProducts2 .tabBlock-tab.is-active,
-	.tabBlock-tab.is-active:after,
-	.tabBlock-tab.is-active:before {
-		background-color: #223f97 !important;
-	}
-
-	.hb-childProducts2 .tabBlock-tab:hover,
-	.tabBlock-tab:hover:after,
-	.tabBlock-tab:hover:before {
-		background-color: #223f97 !important;
-	}
 
 	.hb-childProducts2 .tabline {
-		border-bottom: solid #76b543 !important;
+		border-bottom: solid #216733 !important;
 	}
-
 
 	.points {
 		display: flex;
@@ -337,15 +273,15 @@ include_once('includes/header.php');
 	.cards {
 		width: 100%;
 		display: flex;
-		flex-wrap: wrap;
+		/* flex-wrap: wrap; */
 		justify-content: space-around;
 	}
 
 	.card {
-		margin: 40px;
+		margin: 20px;
 		position: relative;
 		max-width: 425px;
-		max-height: 425px;
+		min-height: 425px;
 		box-shadow: 1px 0px 20px -6px #76b543;
 		cursor: pointer;
 	}
@@ -361,7 +297,7 @@ include_once('includes/header.php');
 	}
 
 	.card img {
-		width: 80%;
+		width: 100%;
 		height: 80%;
 		object-fit: contain;
 		display: block;
@@ -381,17 +317,23 @@ include_once('includes/header.php');
 		background-color: white;
 		/* overflow-y: scroll; */
 		transition: 0.8s ease;
-		color: #223f97;
+		color: #000;
+		text-indent: -0.7rem;
+		/* background: linear-gradient(#223f97, #76b543); */
+		background: #e3e3e3;
 	}
 
-	.desc-2 {
-		padding: 80px 8%;
+	.card ul li {
+		list-style-type: none;
 	}
 
 	.card:hover .card-desc {
 		opacity: 1;
 		height: 100%;
-		/* border: 1px solid #76b543; */
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+
 	}
 
 	h1 {
@@ -401,29 +343,7 @@ include_once('includes/header.php');
 		text-align: center;
 	}
 
-	@media only screen and (min-width: 1200px) and (max-width: 1450px) {
-		.change {
-			padding: 15px;
-		}
-
-		.range h2 {
-			font-size: 16px;
-		}
-
-		.range p {
-			margin: 15px 0 18px 0;
-			font-size: 15px;
-		}
-
-		.img {
-			width: 60px;
-		}
-
-		.head b {
-			font-size: 18px;
-		}
-
-	}
+	/* @media only screen and (min-width: 1200px) and (max-width: 1450px) {} */
 
 	.appoinment {
 		background-color: #223f97 !important;
@@ -440,6 +360,476 @@ include_once('includes/header.php');
 	.hb-featuresList>li {
 		border-top: 5px solid #223f97 !important;
 	}
+
+	.hb-childProducts2 .tabBlock-tab {
+		background-color: #223f97 !important;
+	}
+
+	.hb-childProducts2 .tabBlock-tab:hover,
+	.tabBlock-tab:hover:after,
+	.tabBlock-tab:hover:before {
+		background-color: #223f97 !important;
+	}
+
+	.hb-childProducts2 .tabBlock-tab:after,
+	.tabBlock-tab:before {
+		background-color: #223f97 !important;
+	}
+
+	.hb-childProducts2 .tabBlock-tab.is-active,
+	.tabBlock-tab.is-active:after,
+	.tabBlock-tab.is-active:before {
+		background-color: #76b543 !important;
+	}
+
+	.hb-childProducts2 .tabBlock-tab:hover,
+	.tabBlock-tab:hover:after,
+	.tabBlock-tab:hover:before {
+		background-color: #76b543 !important;
+	}
+
+	.hb-childProducts2 .nav-link {
+		color: #fff;
+	}
+
+	.card p {
+		text-align: center;
+		background-color: #e3e3e3;
+		padding: 10px;
+		color: #223f97;
+		font-size: 18px;
+		font-weight: bold;
+		border-bottom-right-radius: 4px;
+		border-bottom-left-radius: 4px;
+		bottom: 0;
+
+	}
+
+	.hb-featureBox h3,
+	.hb-featureBox h5 {
+		text-align: center;
+	}
+
+
+	.services {
+		position: relative;
+		font-family: 'Roboto', sans-serif !important;
+	}
+
+	.boxes {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+
+	.boxes li {
+		list-style-type: none;
+		width: 30%;
+		margin: 10px 9px;
+		vertical-align: top;
+		font-size: 14px;
+		box-shadow: 3px 3px 4px #76b543;
+		background-color: #fff;
+		cursor: pointer;
+	}
+
+	.card-box {
+		padding: 12px;
+	}
+
+	.box-icon {
+		position: relative;
+		font-size: 0px;
+		margin: 10px auto;
+	}
+
+	.card-icon {
+		width: 23% !important;
+	}
+
+	.card-icon,
+	.card-head {
+		display: inline-block;
+		width: 70%;
+		vertical-align: top;
+		/* font-size: 14px; */
+	}
+
+	.card-icon>img {
+		max-width: 70px;
+		vertical-align: bottom;
+	}
+
+	.card-head>h6 {
+		font-size: 18px;
+		padding-top: 20px;
+	}
+
+	.card-head>h6 {
+		min-height: 40px;
+		text-align: center;
+
+	}
+
+	.content_1 .para {
+		font-size: 16px;
+		margin: 30px 50px;
+		text-align: justify;
+	}
+
+	.content_1 h2 {
+		text-align: center;
+		font-size: 32px;
+		color: #76b543;
+		margin: 20px;
+	}
+
+	.content_1 {
+		max-width: 90%;
+		margin: 0 auto;
+
+	}
+
+	.main-mon {
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+	}
+
+	.mon {
+		width: 20%;
+	}
+
+
+	.mon-model {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 10px;
+	}
+
+	.Monitoring {
+		width: 1000px;
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.Monitoring .card-2 {
+		position: relative;
+		cursor: pointer;
+	}
+
+	.Monitoring .card-2 .face {
+		width: 300px;
+		height: 200px;
+		transition: 0.5s;
+	}
+
+	.Monitoring .card-2 .face.face1 {
+		position: relative;
+		background-color: #fff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: 1;
+		transform: translateY(100px);
+	}
+
+	.Monitoring .card-2:hover .face.face1 {
+		transform: translateY(0);
+		background-color: #76b543;
+	}
+
+	.Monitoring .card-2:hover .face.face1 .content .hide {
+		display: block;
+	}
+
+	.Monitoring .card-2:hover .face.face1 .content .show {
+		display: none;
+	}
+
+	.Monitoring .card-2:hover h3 {
+		color: #fff !important;
+	}
+
+
+	.Monitoring .card-2 .face.face1 .content {
+		text-align: center;
+		transition: 0.5s;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.Monitoring .card-2:hover .face.face1 .content {
+		opacity: 1;
+	}
+
+	.Monitoring .card-2 .face.face1 .content img {
+		max-width: 80px;
+		border-radius: 10px;
+	}
+
+	.Monitoring .card-2 .face.face1 .content .show {
+		display: block;
+	}
+
+	.Monitoring .card-2 .face.face1 .content .hide {
+		display: none;
+	}
+
+	.Monitoring .card-2 .face.face1 .content h3 {
+		margin: 10px 0 0;
+		padding: 0;
+		color: #000;
+		text-align: center;
+		font-size: 1.5em;
+	}
+
+
+	.Monitoring .card-2 .face.face2 {
+		position: relative;
+		background: #fff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 30px;
+		box-sizing: border-box;
+		box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.8);
+		transform: translateY(-100px);
+	}
+
+	.Monitoring .card-2:hover .face.face2 {
+		transform: translateY(0);
+	}
+
+	.Monitoring .card-2 .face.face2 .content p {
+		margin: 0;
+		padding: 0;
+	}
+
+	.content a {
+		display: inline-block;
+		text-decoration: none;
+		font-weight: 600;
+		color: #fff;
+		padding: 5px 10px;
+		background-color: #223f97;
+		margin-top: 10px;
+		border-radius: 20px;
+		font-size: 15px;
+	}
+
+	.Monitoring .card-2:hover .content a {
+		display: none !important;
+	}
+
+	.Monitoring .card-2 .face.face2 .content a:hover {
+		background: #333;
+		color: #fff;
+	}
+
+	.content ul li {
+		padding: 5px 0;
+	}
+
+
+
+	.flipping {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		flex-direction: row;
+		margin: 30px;
+	}
+
+	.flip-card {
+		background-color: transparent;
+		width: 300px;
+		height: 300px;
+		perspective: 1000px;
+	}
+
+	.flip-card-inner {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		transition: transform 0.6s;
+		transform-style: preserve-3d;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	}
+
+	.flip-card:hover .flip-card-inner {
+		transform: rotateY(180deg);
+	}
+
+	.flip-card-front,
+	.flip-card-back {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+
+	.flip-card-front {
+		color: black;
+		border: 2px solid #76b543;
+	}
+
+	.flip-card-back {
+		background-color: #223f97;
+		color: white;
+		transform: rotateY(180deg);
+	}
+
+	.new-list {
+		list-style-type: circle;
+		list-style-position: outside;
+		width: 100% !important;
+		margin: 0 auto;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		text-align: left;
+		padding: 30px;
+		line-height: 1.5rem;
+	}
+
+	.carte-model {
+		margin-top: 30px;
+	}
+
+	.model-2 {
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		justify-content: center;
+		margin: 70px;
+		gap: 55px;
+	}
+
+	.carte-content {
+		box-shadow: 0px 0px 15px grey;
+		border-radius: 40px 40px;
+		width: 275px;
+	}
+
+	.carte-head {
+		background: linear-gradient(to left, #223f97, #0000ff8c);
+		padding: 15px;
+		color: #fff;
+		height: 105px;
+		text-align: center;
+		border-radius: 40px 40px 0 0;
+	}
+
+	.read {
+		padding: 10px 15px;
+		overflow: hidden;
+		width: 100%;
+	}
+
+	.read ul {
+		text-align: justify;
+		list-style: none;
+	}
+
+	.read ul li::before {
+		content: "\2022";
+		color: #76b543;
+		font-size: 25px;
+		font-weight: bold;
+		display: inline-block;
+		width: 1em;
+	}
+
+	.read li span {
+		color: grey;
+		font-size: 12px;
+	}
+
+	.elastic-model {
+		display: grid;
+		justify-content: center;
+		align-items: center;
+		grid-template-columns: auto auto;
+		gap: 40px;
+		padding: 20px;
+		margin: 40px;
+	}
+
+	.elastic {
+		background-color: #fff;
+		padding: 25px;
+		text-align: center;
+		height: 150px;
+		width: 380px;
+		border-radius: 60px;
+		box-shadow: -1px 0px 11px 1px #223f97;
+		position: relative;
+	}
+
+	.elastic-2 {
+		background-color: #fff;
+		padding: 25px;
+		text-align: center;
+		height: 150px;
+		width: 380px;
+		border-radius: 60px;
+		box-shadow: -1px 0px 11px 1px #76b543;
+		position: relative;
+	}
+
+	.circle {
+		position: absolute;
+		width: 100px;
+		height: 100px;
+		color: #fff;
+		bottom: -55px;
+		background-color: #223f97;
+		right: 265px;
+		border-radius: 100%;
+		text-align: center;
+		padding: 5px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.circle-2 {
+		position: absolute;
+		width: 100px;
+		height: 100px;
+		background-color: #76b543;
+		color: #fff;
+		border-radius: 100%;
+		text-align: center;
+		padding: 5px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		bottom: -55px;
+		right: 15px;
+	}
+
+	.hb-btn_cl>a {
+		background-color: #223f97;
+		padding: 12px 19px;
+		color: #fff;
+		font-size: 16px;
+		text-transform: capitalize;
+		font-weight: bold;
+		text-align: center;
+		border-radius: 6px;
+		z-index: 1;
+		margin: 0 10px;
+	}
 </style>
 
 <div class="hb-bannerCont">
@@ -450,8 +840,8 @@ include_once('includes/header.php');
 			      <img  src="./pi-cloud/images/banners/Web-banner-Ai.png" alt="pi cloud Cloud Backup as a Service Banner" style="width:100%">
       		</picture>-->
 			<picture>
-				<source media="(max-width: 768px)" srcset="./<?= $config['subFolderName'] ?>/images/banners/multi-cloud-img.jpg">
-				<img src="./<?= $config['subFolderName'] ?>/images/banners/multi-cloud-img.jpg" alt="pi cloud Cloud Backup as a Service Banner" style="width:100%">
+				<source media="(max-width: 768px)" srcset="./<?= $config['subFolderName'] ?>/images/banners/Multi-cloud-managed-services-models-banner.jpg">
+				<img src="./<?= $config['subFolderName'] ?>/images/banners/Multi-cloud-managed-services-models-banner.jpg" alt="pi cloud Cloud Backup as a Service Banner" style="width:100%">
 				<h2>Multi Cloud Managed Services </h2>
 			</picture>
 		</div>
@@ -474,80 +864,167 @@ include_once('includes/header.php');
 
 </div>
 
-<div class="container content_1">
-	<div class="row range">
-		<div class="col-md-4 change">
 
-			<span><img src="../images/managed-services-icons/CM.svg" class="img" width="70"></span>
-			<p class="head"><b>Compute Management </b></p>
-			<p class="para-2">Efficiently manage the availability, performance, and fine-tuning of your cloud resources. We specialize in setting up high availability, managing licensing, monitoring, alerting, reporting, logging, analysis, dashboarding, health checks, and more. </P>
 
-		</div>
-		<div class="col-md-4 change">
+<div class="services content_1">
+	<ul class="boxes">
+		<li>
+			<div class="card-box">
+				<div class="box-icon">
+					<p class="card-icon">
+						<img src="../images/managed-services-icons/CM.svg" class="img" width="70">
+					</p>
+					<div class="card-head">
+						<h6>Compute Management</h6>
 
-			<span><img src="../images/managed-services-icons/SM.svg" class="img" class="img" width="70"></span>
-			<p class="head"><b>Security Management </b></p>
-			<p class="para-2">Rest easy with our robust security management services. We identify and mitigate unsanctioned apps, enforce policies, and monitor your cloud data. Our services include anti-virus and anti-malware updates to keep your infrastructure secure.</P>
+					</div>
+				</div>
+				<p style="text-align:center; font-size: 17px;">Efficiently manage the availability, performance, and fine-tuning of your cloud resources. We specialize in setting up high availability, managing licensing, monitoring, alerting, reporting, logging, analysis, dashboarding, health checks, and more.</p>
+			</div>
+		</li>
+		<li>
+			<div class="card-box">
+				<div class="box-icon">
+					<p class="card-icon">
+						<img src="../images/managed-services-icons/SM.svg" class="img" width="70">
+					</p>
+					<div class="card-head">
+						<h6>Security Management</h6>
 
-		</div>
-		<div class="col-md-4 change">
+					</div>
+				</div>
+				<p style="text-align:center; font-size: 17px;">Rest easy with our robust security management services. We identify and mitigate unsanctioned apps, enforce policies, and monitor your cloud data. Our services include anti-virus and anti-malware updates to keep your infrastructure secure.</p>
+			</div>
+		</li>
+		<li>
+			<div class="card-box">
+				<div class="box-icon">
+					<p class="card-icon">
+						<img src="../images/managed-services-icons/BM.svg" class="img" width="70">
+					</p>
+					<div class="card-head">
+						<h6>Backup Management</h6>
 
-			<span><img src="../images/managed-services-icons/BM.svg" class="img" width="70"></span>
-			<p class="head"><b>Backup Management </b></p>
-			<p class="para-2">Protect your critical assets with our comprehensive backup solutions. We ensure backups for all your applications, workloads, and data. Our self-serve and on-demand restore options come with robust SLAs.</P>
+					</div>
+				</div>
+				<p style="text-align:center; font-size: 17px;">Protect your critical assets with our comprehensive backup solutions. We ensure backups for all your applications, workloads, and data. Our self-serve and on-demand restore options come with robust SLAs.</p>
+			</div>
+		</li>
+		<li>
+			<div class="card-box">
+				<div class="box-icon">
+					<p class="card-icon">
+						<img src="../images/managed-services-icons/NM.svg" class="img" width="70">
+					</p>
+					<div class="card-head">
+						<h6>Network Management</h6>
 
-		</div>
-		<div class="col-md-4 change">
+					</div>
+				</div>
+				<p style="text-align:center; font-size: 17px;">Optimize your virtual network for seamless communication among VMs and the internet. We handle subnet management, NSG (Network Security Group) management, and firewall management.</p>
+			</div>
+		</li>
+		<li>
+			<div class="card-box">
+				<div class="box-icon">
+					<p class="card-icon">
+						<img src="../images/managed-services-icons/IM.svg" class="img" width="70">
+					</p>
+					<div class="card-head">
+						<h6>Identity Management</h6>
 
-			<span><img src="../images/managed-services-icons/NM.svg" class="img" width="70"></span>
-			<p class="head"><b>Network Management </b></p>
-			<p class="para-2">Optimize your virtual network for seamless communication among VMs and the internet. We handle subnet management, NSG (Network Security Group) management, and firewall management. </P>
+					</div>
+				</div>
+				<p style="text-align:center; font-size: 17px;">Effortlessly manage user accounts, federate identities across your organization's LOB (Line of Business) apps, and implement role-based access controls.</p>
+			</div>
+		</li>
+		<li>
+			<div class="card-box">
+				<div class="box-icon">
+					<p class="card-icon">
+						<img src="../images/managed-services-icons/STORAGE-M.svg" class="img" width="70">
+					</p>
+					<div class="card-head">
+						<h6>Storage Management</h6>
 
-		</div>
-		<div class="col-md-4 change">
+					</div>
+				</div>
+				<p style="text-align:center; font-size: 17px;">Optimize data usage and access patterns to maximize cost savings. Identify and move stale data to more economical storage areas, helping you manage your storage budget effectively.</p>
+			</div>
+		</li>
+		<li>
+			<div class="card-box">
+				<div class="box-icon">
+					<p class="card-icon">
+						<img src="../images/managed-services-icons/SOM.svg" class="img" width="70">
+					</p>
+					<div class="card-head">
+						<h6>Server OS Management</h6>
 
-			<span><img src="../images/managed-services-icons/IM.svg" class="img" class="img" width="70"></span>
-			<p class="head"><b>Identity Management </b></p>
-			<p class="para-2">Effortlessly manage user accounts, federate identities across your organization's LOB (Line of Business) apps, and implement role-based access controls.</p>
-		</div>
-		<div class="col-md-4 change">
-			<span><img src="../images/managed-services-icons/STORAGE-M.svg" class="img" class="img" width="70"></span>
-			<p class="head"><b>Storage Management </b></p>
-			<p class="para-2">Optimize data usage and access patterns to maximize cost savings. Identify and move stale data to more economical storage areas, helping you manage your storage budget effectively. </P>
+					</div>
+				</div>
+				<p style="text-align:center; font-size: 17px;">Ensure the continuous updating and troubleshooting of server operating systems for peak performance.</p>
+			</div>
+		</li>
+		<li>
+			<div class="card-box">
+				<div class="box-icon">
+					<p class="card-icon">
+						<img src="../images/managed-services-icons/MM.svg" class="img" width="70">
+					</p>
+					<div class="card-head">
+						<h6>Monitoring Management</h6>
 
-		</div>
-		<div class="col-md-4 change">
-			<span><img src="../images/managed-services-icons/SOM.svg" class="img" class="img" width="70"></span>
-			<p class="head"><b>Server OS Management </b></p>
-			<p class="para-2">Ensure the continuous updating and troubleshooting of server operating systems for peak performance. </p>
+					</div>
+				</div>
+				<p style="text-align:center; font-size: 17px;">Gain insights into your VMs with complete monitoring of CPU utilization, memory usage, storage IOPS, and OS performance.</p>
+			</div>
+		</li>
+		<li>
+			<div class="card-box">
+				<div class="box-icon">
+					<p class="card-icon">
+						<img src="../images/managed-services-icons/CONFIG-M.svg" class="img" width="70">
+					</p>
+					<div class="card-head">
+						<h6>Configuration Management</h6>
 
-		</div>
-		<div class="col-md-4 change">
-			<span><img src="../images/managed-services-icons/MM.svg" class="img" class="img" width="70"></span>
-			<p class="head"><b>Monitoring Management </b></p>
-			<p class="para-2">Gain insights into your VMs with complete monitoring of CPU utilization, memory usage, storage IOPS, and OS performance. </P>
+					</div>
+				</div>
+				<p style="text-align:center; font-size: 17px;">Keep your software up-to-date, enforce configuration and security policies, and manage patching, updates, password resets, and resource right-sizing.</p>
+			</div>
+		</li>
+	</ul>
+	<ul class="boxes">
+		<li>
+			<div class="card-box">
+				<div class="box-icon">
+					<p class="card-icon">
+						<img src="../images/managed-services-icons/BSA.svg" class="img" width="70">
+					</p>
+					<div class="card-head">
+						<h6>Basic Support Availability</h6>
 
-		</div>
-		<div class="col-md-4 change">
-			<span><img src="../images/managed-services-icons/CONFIG-M.svg" class="img" width="70"></span>
-			<p class="head"><b>Configuration Management </b></p>
-			<p class="para-2">Keep your software up-to-date, enforce configuration and security policies, and manage patching, updates, password resets, and resource right-sizing. </P>
+					</div>
+				</div>
+				<p style="text-align:center; font-size: 17px;">Benefit from our 8x5 support for billing and invoicing inquiries, as well as 24x7 L1/L2 support for break-fix issues. Reach out through phone, email, or web support tickets.</p>
+			</div>
+		</li>
+		<li>
+			<div class="card-box">
+				<div class="box-icon">
+					<p class="card-icon">
+						<img src="../images/managed-services-icons/CHANGE-M.svg" class="img" width="70">
+					</p>
+					<div class="card-head">
+						<h6>Change Management</h6>
 
-		</div>
-		<div class="col-md-4 change">
-			<span><img src="../images/managed-services-icons/BSA.svg" class="img" width="70"></span>
-			<p class="head"><b>Basic Support Availability </b></p>
-			<p class="para-2">Benefit from our 8x5 support for billing and invoicing inquiries, as well as 24x7 L1/L2 support for break-fix issues. Reach out through phone, email, or web support tickets. </P>
-
-		</div>
-		<div class="col-md-4 change">
-			<span><img src="../images/managed-services-icons/CHANGE-M.svg" class="img" width="70"></span>
-			<p class="head"><b>Change Management </b></p>
-			<p class="para-2"> We ensure that proposed changes are scheduled based on business priorities, infrastructure impact, and service risk, minimizing disruptions to your IT services. </P>
-
-		</div>
-	</div>
-
+					</div>
+				</div>
+				<p style="text-align:center; font-size: 17px;">We ensure that proposed changes are scheduled based on business priorities, infrastructure impact, and service risk, minimizing disruptions to your IT services.</p>
+			</div>
+		</li>
+	</ul>
 </div>
 
 
@@ -562,7 +1039,7 @@ include_once('includes/header.php');
 		<li>
 			<div class="hb-leftCont hb_ppCont">
 				<span>
-					<img src="./pi-cloud/images/product-images/Managed-Services-Models.png" alt="tickmark">
+					<img src="../pi-cloud/images/product-images/Managed-Services-Models-New.png" alt="tickmark">
 				</span>
 			</div>
 		</li>
@@ -575,7 +1052,11 @@ include_once('includes/header.php');
 	</ul>
 </div>
 
+<div class="hb-btn_cl" style="text-align: center; margin-top: 20px;"><a href="images/new-multi-cloud-brochure-2.pdf" class="global-button" target="_blank">
+		Download Brochure
+	</a>
 
+</div>
 
 
 <div class="hb-childProducts2">
@@ -625,550 +1106,349 @@ include_once('includes/header.php');
 					<div class="cards">
 						<div class="card">
 							<h2 class="card-title">ESSENTIALS</h2>
-							<img src="../images/managed-services-icons/dashboard-ms.svg" alt="">
-							<p class="card-desc desc-2">
-								&#187; 24 X 7 support with 2 hours critical response<br>
-								&#187; Basic IT support (OS Patching, OS Updates, OS Management, Virtual Machines, Disks, Basic Configuration Management, &Incident<br> Management)<br>
-								&#187; 30 days backup<br>
-								&#187; Proactive infrastructure monitoring and alerting<br>
-								&#187; Monthly health reports and dashboards<br>
+							<img src="../images/managed-services-icons/essesntials-new.png" alt="">
+							<p>Know More</p>
+							<ul class="card-desc col-md-4">
+								<li><span>&#187;</span> 24 X 7 support with 2 hours critical response</li>
+								<li><span>&#187;</span> Basic IT support (OS Patching, OS Updates, OS Management, Virtual Machines, Disks, Basic Configuration Management, &Incident Management)
+								<li><span>&#187;</span> 30 days backup</li>
+								<li><span>&#187;</span> Proactive infrastructure monitoring and alerting</li>
+								<li><span>&#187;</span> Monthly health reports and dashboards</li>
 
-								&#187; Basic anti-virus and anti-malware support<br>
-							</p>
+								<li><span>&#187;</span> Basic anti-virus and anti-malware support</li>
+							</ul>
 						</div>
 						<div class="card">
 							<h2 class="card-title">ADVANCED</h2>
-							<img src="../images/managed-services-icons/city-ms.svg" alt="">
-							<p class="card-desc">
-								&#187; 24 X 7 support with 1 hour critical response<br>
-								&#187; Advanced IT Support (OS Patching, OS Updates, OS Management, Virtual Machines, Virtual Machine scales, Availability Sets, Disks, Virtual <br>Networks, WAF, Identity Management, Configuration Management,<br> Incident Management, Problem Management, Change Management)<br>
-								&#187; Shared TAM and architect support<br>
-								&#187; Unlimited backup, self-serve point-in-time restore<br>
-								&#187; Proactive infrastructure monitoring and alerting<br>
-								&#187; Monthly health reports and dashboards.<br>
-								&#187; Advanced anti-virus and anti-malware support</p>
+							<img src="../images/managed-services-icons/Advanced-new.png" alt="">
+							<p>Know More</p>
+							<ul class="card-desc col-md-4">
+								<li><span>&#187;</span> 24 X 7 support with 1 hour critical response</li>
+								<li><span>&#187;</span> Advanced IT Support (OS Patching, OS Updates, OS Management, Virtual Machines, Virtual Machine scales, Availability Sets, Disks, Virtual Networks, WAF, Identity Management, Configuration Management, Incident Management, Problem Management, Change Management)</li>
+								<li><span>&#187;</span> Shared TAM and architect support</li>
+								<li><span>&#187;</span> Unlimited backup, self-serve point-in-time restore</li>
+								<li><span>&#187;</span> Proactive infrastructure monitoring and alerting</li>
+								<li><span>&#187;</span> Monthly health reports and dashboards.</li>
+								<li><span>&#187;</span> Advanced anti-virus and anti-malware support</li>
+							</ul>
 						</div>
 						<div class="card">
 							<h2 class="card-title">PREMIUM</h2>
-							<img src="../images/managed-services-icons/premium-service-ms.svg" alt="">
-							<p class="card-desc">
-								&#187; 24 X 7 support with 30 minutes critical response</br>
-								&#187; Level-3 escalation advanced support</br>
-								&#187; Proactive capacity planning, performance and cost optimization</br>
-								&#187; Shared TAM and architect support</br>
-								&#187; Unbrmited backup, self-serve point-in-time restore</br>
-								&#187; Proactive infrastructure monitoring and alerting</br>
-								&#187; Monthly health reports and dashboards</br>
-								&#187; Deep security (WAF, DDoS, Threat analytics, anti-virus, anti-malware, email and web protection)</br>
-								&#187; Proactive run book authoring</br>
-								&#187; Advanced operational intelligence and custom dashboard on usage, performance, governance, and cost
-							</p>
+							<img src="../images/managed-services-icons/Premium-New.png" alt="">
+							<p>Know More</p>
+							<ul class="card-desc col-md-4">
+								<li><span>&#187;</span> 24 X 7 support with 30 minutes critical response</li>
+								<li><span>&#187;</span> Level-3 escalation advanced support</li>
+								<li><span>&#187;</span> Proactive capacity planning, performance and cost optimization</li>
+								<li><span>&#187;</span> Shared TAM and architect support</li>
+								<li><span>&#187;</span> Unbrmited backup, self-serve point-in-time restore</li>
+								<li><span>&#187;</span> Proactive infrastructure monitoring and alerting</li>
+								<li><span>&#187;</span> Monthly health reports and dashboards</li>
+								<li><span>&#187;</span> Deep security (WAF, DDoS, Threat analytics, anti-virus, anti-malware, email and web protection)</li>
+								<li><span>&#187;</span> Proactive run book authoring</li>
+								<li><span>&#187;</span> Advanced operational intelligence and custom dashboard on usage, performance, governance, and cost</li>
+							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="tabBlock-pane">
-				<ul class="hb-productSec list-inline">
-					<div class="hb-leftCont hb_ppCont">
-						<p style="text-align:center">
-							Allows businesses to pay only for what they use, making it a cost-effective model.
-						</p>
-						<span>
-							<img src="./pi-cloud/images/product-images/Elastic-Model28.png" alt="advanced">
-						</span>
+				<p style="text-align:center">
+					Allows businesses to pay only for what they use, making it a cost-effective model.
+				</p>
+				<div class="elastic-model">
+					<div class="elastic" style="border-radius: 90px 30px 30px 90px;">
+						<div class="circle">
 
+							<img src="../images/managed-services-icons/subscribe.svg" width="60">
 
+						</div>
+						<div class="elastic-head">
+							<h2 style="margin-bottom: 10px;">Subscription Fee</h2>
+						</div>
+						<div class="elastic-content">
+							<p>Subscribe to the elastic model with a nominal monthly fee that provides access to all kinds of cloud services</p>
+						</div>
 					</div>
+					<div class="elastic-2" style="border-radius: 30px 90px 90px 30px;">
+						<div class="circle-2">
 
-				</ul>
+							<img src="../images/managed-services-icons/hand.svg" width="60">
+
+						</div>
+						<div class="elastic-head">
+							<h2 style="margin-bottom: 10px;">Pay-Per-Use</h2>
+						</div>
+						<div class="elastic-content">
+							<p>Pay only for the services used, and the billing is done only for the number of hours used</p>
+						</div>
+					</div>
+				</div>
 
 			</div>
 
 			<div class="tabBlock-pane">
-				<ul class="hb-productSec list-inline">
-					<div class="hb-leftCont hb_ppCont">
-						<p style="text-align:center">
-							This model provides businesses with devoted resources for managing their workloads, ensuring they receive the necessary attention.
-						</p>
-						<!--<span>
-			            				<img src="images/product-images/Monitoring-Only-Model-new-d.png" alt="advanced">
-			            			</span>-->
+				<p style="text-align:center">
+					This model provides businesses with devoted resources for managing their workloads, ensuring they receive the necessary attention.
+				</p>
+				<div class="flipping">
+					<div class="flip-card">
+						<div class="flip-card-inner">
+							<div class="flip-card-front">
+								<img src="../pi-cloud/images/Service-Monitoring11.png" alt="scale" style="max-width:50%; margin-top: 30px;">
+								<h2 style="margin-bottom: 20px;">Service Monitoring</h2>
+								<a style="background-color: #223f97; color: #fff; padding: 5px 10px; border-radius: 15px;">Know More</a>
+							</div>
+							<div class="flip-card-back">
+								<ul class="new-list">
+									<li>Numerous dashboards and logs, records the status of resources.</li>
+									<li>In daily work, a consolidated monitoring of the systems and services operated is achieved by means of service monitoring.</li>
 
-						<br>
-						<br>
-						<ul class="list-inline hb-featuresList multi-cld-key" style="margin-top:40px;">
-							<li>
-								<div class="hb-featureBox">
-									<div class="hb-featTopHeader">
-										<p class="hb-featLogo" style="width:auto !important;text-align:center">
-											<img src="./pi-cloud/images/Service-Monitoring11.png" alt="scale" style="max-width:50%;">
-										</p>
-										<div class="hb-featCont" style="width:100%;text-align:Center">
-											<h6 style="min-height:50px">Service Monitoring</h6>
+								</ul>
+							</div>
+						</div>
+					</div>
 
-										</div>
-									</div>
-									<ul style=" list-style-type: circle;list-style-position:outside;width: 100% !important;margin: 0 auto;">
+					<div class="flip-card">
+						<div class="flip-card-inner">
+							<div class="flip-card-front">
+								<img src="../pi-cloud/images/Hourly-Support11.png" alt="scale" style="max-width:50%; margin-top: 30px;">
+								<h2 style="margin-bottom: 20px;">Hourly Support</h2>
+								<a style="background-color: #223f97; color: #fff; padding: 5px 10px; border-radius: 15px;">Know More</a>
+							</div>
+							<div class="flip-card-back">
+								<ul class="new-list list-2">
+									<p style="text-align:center; color: #fff; padding-top: 40px;">Monitoring has three models of support:</p>
+									<li>24/7</li>
+									<li>16/7</li>
+									<li>8/7</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="flip-card">
+						<div class="flip-card-inner">
+							<div class="flip-card-front">
+								<img src="../pi-cloud/images/Third-Party-Integration11.png" style="max-width:50%; margin-top: 30px;">
+								<h2 style="margin-bottom: 20px;">Third Party Integration</h2>
+								<a style="background-color: #223f97; color: #fff; padding: 5px 10px; border-radius: 15px;">Know More</a>
+							</div>
+							<div class="flip-card-back">
+								<ul class="new-list">
+									<li>Monitoring includes three unique parameters around Performance Metrics, Log Analytics, and Application Insights.</li>
+									<li>Provide powerful end-to-end monitoring of applications and other crucial components.</li>
+									<li>Third party applications can also be integrated for monitoring.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="tabBlock-pane">
+
+
+				<p style="text-align:center">
+					Allows businesses to select specific services they require, providing flexibility in the services chosen.
+				</p>
+				<div class="carte-model">
+					<div class="model-2">
+						<div class="carte-content">
+							<div class="carte-head">
+								<h3 style="margin: 5px 0 10px 0;">Application & DB Migration</h3>
+								<h5>Depending on business requirements, a
+									fully customized app and database
+									migration model is available.
+								</h5>
+							</div>
+							<div class="read">
+								<ul style="text-align: justify;">
+									<li>Add-On Service <span>(Service Type)</span></li>
+									<li>PER VM/NODE <span>(Pricing Model)</span></li>
+									<li>Monthly <span>(Pricing Type)</span></li>
+								</ul>
+							</div>
+						</div>
+						<div class="carte-content">
+							<div class="carte-head">
+								<h3 style="margin: 5px 0 10px 0;">Database Services</h3>
+								<h5>Cosmos DB, MySQL, MS-SQL, Maria DB,
+									PostgreSQL, Redies, Data Factories
+								</h5>
+							</div>
+							<div class="read">
+								<ul>
+									<li>Add-On Service <span>(Service Type)</span></li>
+									<li>PER Service/NODE <span>(Pricing Model)</span></li>
+									<li>Monthly <span>(Pricing Type)</span></li>
+								</ul>
+							</div>
+						</div>
+						<div class="carte-content">
+							<div class="carte-head">
+								<h3 style="margin: 25px;">Container Services</h3>
+							</div>
+							<div class="read">
+								<ul>
+									<li>Add-On Service <span>(Service Type)</span></li>
+									<li>PER Service/NODE <span>(Pricing Model)</span></li>
+									<li>Monthly <span>(Pricing Type)</span></li>
+								</ul>
+							</div>
+						</div>
+						<div class="carte-content">
+							<div class="carte-head">
+								<h3 style="margin: 10px 0 10px 0;">Analytics</h3>
+								<h5>(Data Engineering Services)
+								</h5>
+							</div>
+							<div class="read">
+								<ul>
+									<li>Add-On Service <span>(Service Type)</span></li>
+									<li>PER Service/NODE <span>(Pricing Model)</span></li>
+									<li>Monthly <span>(Pricing Type)</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="model-2">
+						<div class="carte-content">
+							<div class="carte-head">
+								<h3 style="margin: 25px;">DevOps Services</h3>
+							</div>
+							<div class="read">
+								<ul>
+									<li>Add-On Service <span>(Service Type)</span></li>
+									<li>PER Project/APP <span>(Pricing Model)</span></li>
+									<li>Monthly <span>(Pricing Type)</span></li>
+								</ul>
+							</div>
+						</div>
+						<div class="carte-content">
+							<div class="carte-head">
+								<h3 style="margin: 25px;">Managed Application Services</h3>
+							</div>
+							<div class="read">
+								<ul>
+									<li>Add-On Service <span>(Service Type)</span></li>
+									<li>PER VM/NODE <span>(Pricing Model)</span></li>
+									<li>Monthly <span>(Pricing Type)</span></li>
+								</ul>
+							</div>
+						</div>
+						<div class="carte-content">
+							<div class="carte-head">
+								<h3 style="margin: 25px;">Disaster Recovery Services</h3>
+							</div>
+							<div class="read">
+								<ul>
+									<li>Add-On Service <span>(Service Type)</span></li>
+									<li>PER VM/NODE <span>(Pricing Model)</span></li>
+									<li>Monthly <span>(Pricing Type)</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="tabBlock-pane">
+				<p style="text-align:center">
+					This model provides businesses with devoted resources for managing their workloads, ensuring they receive the necessary attention.
+				</p>
+				<div class="small-content" style="text-align: center; max-width: 65%; margin: 20px auto; color: #223f97; font-weight: 600; padding: 25px; background: #8080801f; box-shadow: 2px 0px 14px 0px #76b543;">
+					<p style="padding: 20px 0 0 0;">Offers IT professionals/engineers that will fully concentrate on the client's needs. Client has full management control over the project and IT professionals / engineers. These resources come at a fixed cost based on the level of experience.</p>
+					<p style="padding: 10px; color: #000;">These resources can be aligned for all three models of support: </p>
+					<ul style="list-style-type: none; max-width: 95%; margin: 0 auto; display: grid; grid-template-columns: auto auto auto; justify-content: center;">
+						<!-- <li>24/7</li>
+						<li>16/7</li>
+						<li>8/7</li> -->
+						<li style="width: 45px; padding: 4px; box-shadow: 0px 1px 3px 1px grey; background-color: #223f97; color: #fff; margin: 5px;">24/7</li>
+						<li style="width: 45px; padding: 4px; box-shadow: 0px 1px 3px 1px grey; background-color: #76b543; color: #fff; margin: 5px;">16/7</li>
+						<li style="width: 45px; padding: 4px; box-shadow: 0px 1px 3px 1px grey; background-color: #223f97; color: #fff; margin: 5px;">8/7</li>
+					</ul>
+				</div>
+				<div class="mon-model">
+					<div class="Monitoring">
+						<div class="card-2">
+							<div class="face face1">
+								<div class="content">
+									<img class="show" src="../images/managed-services-icons/service-monitoring-new.png">
+									<img class="hide" src="../images/managed-services-icons/service-monitoring2-new.png">
+									<h3>Service Monitoring</h3>
+									<a>Read More</a>
+								</div>
+							</div>
+							<div class="face face2">
+								<div class="content">
+									<ul style=" list-style-type: circle;list-style-position:outside;width: 100% !important;margin: 0 auto; color: #223f97;">
 										<li>Numerous dashboards and logs, records the status of resources.</li>
 										<li>In daily work, a consolidated monitoring of the systems and services operated is achieved by means of service monitoring.</li>
 
 									</ul>
-								</div>
-							</li>
-							<li>
-								<div class="hb-featureBox">
-									<div class="hb-featTopHeader">
-										<p class="hb-featLogo" style="width:auto !important;text-align:center">
-											<img src="./pi-cloud/images/Hourly-Support11.png" alt="scale" style="max-width:50%;">
-										</p>
-										<div class="hb-featCont" style="width:100%;text-align:Center">
-											<h6 style="min-height:50px">Hourly Support</h6>
 
-										</div>
-									</div>
-									<p style="text-align:center;">Monitoring has three models of support:</p>
-									<ul style="list-style-type: circle;list-style-position: inside;width: 100% !important;margin: 0 auto;padding: 10px 8px;">
+								</div>
+							</div>
+						</div>
+						<div class="card-2">
+							<div class="face face1">
+								<div class="content">
+									<img class="show" src="../images/managed-services-icons/hourly-support-new.png">
+									<img class="hide" src="../images/managed-services-icons/hourly-support2-new.png">
+									<h3>Hourly Support</h3>
+									<a>Read More</a>
+								</div>
+							</div>
+							<div class="face face2">
+								<div class="content">
+									<p style="text-align:center; color: #223f97;">Monitoring has three models of support:</p>
+									<ul style="list-style-type: circle;list-style-position: inside;width: 100% !important;margin: 0 auto;padding: 10px 8px; color: #223f97;">
 										<li>24/7</li>
 										<li>16/7</li>
 										<li>8/7</li>
 									</ul>
 								</div>
-							</li>
-							<li>
-								<div class="hb-featureBox">
-									<div class="hb-featTopHeader">
-										<p class="hb-featLogo" style="width:auto !important;text-align:center">
-											<img src="./pi-cloud/images/Third-Party-Integration11.png" alt="scale" style="max-width:50%;">
-										</p>
-										<div class="hb-featCont" style="width:100%;text-align:Center">
-											<h6 style="min-height:50px">Third Party Integration</h6>
-
-										</div>
-									</div>
-									<ul style="list-style-type: circle;list-style-position:outside;width: 100% !important;margin: 0 auto;text-align:left;">
+							</div>
+						</div>
+						<div class="card-2">
+							<div class="face face1">
+								<div class="content">
+									<img class="show" src="../images/managed-services-icons/third-party-new.png">
+									<img class="hide" src="../images/managed-services-icons/third-party2-new.png">
+									<h3>Third Party Integration</h3>
+									<a>Read More</a>
+								</div>
+							</div>
+							<div class="face face2">
+								<div class="content">
+									<ul style="list-style-type: circle;list-style-position:outside;width: 100% !important;margin: 0 auto;text-align:left; color: #223f97;">
 										<li>Monitoring includes three unique parameters around Performance Metrics, Log Analytics, and Application Insights.</li>
 										<li>Provide powerful end-to-end monitoring of applications and other crucial components.</li>
 										<li>Third party applications can also be integrated for monitoring.</li>
 									</ul>
+
 								</div>
-							</li>
-
-
-
-						</ul>
+							</div>
+						</div>
 					</div>
-
-				</ul>
-
+				</div>
 			</div>
-
-			<div class="tabBlock-pane">
-				<ul class="hb-productSec list-inline" style="max-width:100%;">
-					<div class="hb-leftCont hb_ppCont">
-						<p style="text-align:center">
-							Allows businesses to select specific services they require, providing flexibility in the services chosen.
-						</p>
-						<!--<span>
-			            				<img src="images/product-images/A-La-Carte-Model.png" alt="advanced">
-			            			</span>-->
-						<ul class="list-inline multi-cld-key2">
-							<li>
-								<div class="hb-featureBox">
-									<img src="./pi-cloud/images/product-images/A-La-Carte-Model-128.png" alt="A-La-Carte-Model-1" style="max-width:240px">
-								</div>
-							</li>
-							<li>
-								<div class="hb-featureBox">
-									<img src="./pi-cloud/images/product-images/A-La-Carte-Model-228.png" alt="A-La-Carte-Model-2" style="max-width:240px">
-								</div>
-							</li>
-							<li>
-								<div class="hb-featureBox">
-									<img src="./pi-cloud/images/product-images/A-La-Carte-Model-328.png" alt="A-La-Carte-Model-3" style="max-width:240px">
-								</div>
-							</li>
-							<li>
-								<div class="hb-featureBox">
-									<img src="./pi-cloud/images/product-images/A-La-Carte-Model-428.png" alt="A-La-Carte-Model-4" style="max-width:240px">
-								</div>
-							</li>
-							<li class=" emty-blk"></li>
-							<li>
-								<div class="hb-featureBox">
-									<img src="./pi-cloud/images/product-images/A-La-Carte-Model-528.png" alt="A-La-Carte-Model-5" style="max-width:240px">
-								</div>
-							</li>
-							<li>
-								<div class="hb-featureBox">
-									<img src="./pi-cloud/images/product-images/A-La-Carte-Model-628.png" alt="A-La-Carte-Model-6" style="max-width:240px">
-								</div>
-							</li>
-							<li>
-								<div class="hb-featureBox">
-									<img src="./pi-cloud/images/product-images/A-La-Carte-Model-728.png" alt="A-La-Carte-Model-7" style="max-width:240px">
-								</div>
-							</li>
-							<li class="emty-blk"></li>
-						</ul>
-
-
-					</div>
-
-				</ul>
-
-			</div>
-
-			<div class="tabBlock-pane">
-				<!--<ul class="hb-productSec list-inline">
-			            		<div class="hb-leftCont hb_ppCont">
-                                    <p style="text-align:center">
-Provides businesses with monitoring services while allowing them to manage their workloads themselves.
-</p>
-			            			<span>
-			            				<img src="images/product-images/Dedicated-Model.png" alt="advanced">
-			            			</span>
-                                    
-                                    
-			            		</div>
-			            	
-			            </ul>-->
-				<p style="text-align:center">
-					Provides businesses with monitoring services while allowing them to manage their workloads themselves.
-				</p>
-				<ul class="hb-productSec list-inline" style="margin-top:30px">
-
+			<!-- <a href="images/Multi-Cloud-Brochure.pdf" class="sch-your" target="_blank">
+				<ul class="hb-productSec list-inline appoinment stick">
 					<li>
 						<div class="hb-leftCont hb_ppCont">
-							<span>
-								<img src="./pi-cloud/images/product-images/Dedicated-Model.png" alt="tickmark" style="width:auto;">
-							</span>
+							<h2>Download Brochure</h2>
 						</div>
 					</li>
-					<li>
-						<div class="hb-rightCont hb_ppCont">
-							<!--<b>Advanced:</b>-->
-							<p> Offers IT professionals/engineers that will fully concentrate on the client's needs. Client has full management control over the project and IT professionals / engineers. These resources come at a fixed cost based on the level of experience. </p>
-							<p>These resources can be aligned for all three models of support:</p><br>
-
-							<ul style=" list-style-type: circle;list-style-position:outside;font-size: 18px;
-    line-height: 22px;padding:0px 16px;">
-								<li>24/7</li>
-								<li>16/7</li>
-								<li>8/7 </li>
-
-							</ul>
-						</div>
-					</li>
-
+					
 				</ul>
+			</a> -->
 
-			</div>
-		</div>
-
-	</div>
-</div>
-<!--   <div class="hb-certication">
-    <div class="container">
-        <div class="hb-CerSetion">
-            <h4 class="text-center">Technology Partners</h4>
-
-            <ul class="list-inline hb-boxLists slider-info">
-                <li>
-                    <div class="hb-boxCont text-center" style="min-height:auto">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-     								<span>
-     									<img src="./<?= $config['subFolderName'] ?>/images/logo/1.png" alt="data">
-     								</span>
-
-                        </a>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="hb-boxCont text-center" style="min-height:auto">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-							<span>
-							  <img src="./<?= $config['subFolderName'] ?>/images/logo/2.png" alt="scale">
-							</span>
-
-
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="hb-boxCont text-center" style="min-height:auto">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-							<span>
-							  <img src="./<?= $config['subFolderName'] ?>/images/logo/3.png" alt="scale">
-							</span>
-
-
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="hb-boxCont text-center" style="min-height:auto">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-							<span>
-							  <img src="./<?= $config['subFolderName'] ?>/images/logo/4.png" alt="scale">
-							</span>
-
-
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="hb-boxCont text-center" style="min-height:auto">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-						  	<span>
-							  <img src="./<?= $config['subFolderName'] ?>/images/logo/5.png" alt="multi">
-							</span>
-
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="hb-boxCont text-center" style="min-height:auto">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-								<span>
-								  <img src="./<?= $config['subFolderName'] ?>/images/logo/6.png" alt="uptime">
-								</span>
-
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="hb-boxCont text-center" style="min-height:auto">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-								<span>
-								  <img src="./<?= $config['subFolderName'] ?>/images/logo/7.png" alt="uptime">
-								</span>
-
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="hb-boxCont text-center" style="min-height:auto">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-								<span>
-								  <img src="./<?= $config['subFolderName'] ?>/images/logo/8.png" alt="uptime">
-								</span>
-
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="hb-boxCont text-center" style="min-height:auto">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-								<span>
-								  <img src="./<?= $config['subFolderName'] ?>/images/logo/9.png" alt="uptime">
-								</span>
-
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="hb-boxCont text-center" style="min-height:auto">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-								<span>
-								  <img src="./<?= $config['subFolderName'] ?>/images/logo/10.png" alt="uptime">
-								</span>
-
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="hb-boxCont text-center" style="min-height:auto">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-								<span>
-								  <img src="./<?= $config['subFolderName'] ?>/images/logo/11.png" alt="uptime">
-								</span>
-
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="hb-boxCont text-center" style="min-height:auto">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-								<span>
-								  <img src="./<?= $config['subFolderName'] ?>/images/logo/12.png" alt="uptime">
-								</span>
-
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="hb-boxCont text-center" style="min-height:auto">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-								<span>
-								  <img src="./<?= $config['subFolderName'] ?>/images/logo/13.png" alt="uptime">
-								</span>
-
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="hb-boxCont text-center" style="min-height:auto">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-								<span>
-								  <img src="./<?= $config['subFolderName'] ?>/images/logo/14.png" alt="uptime">
-								</span>
-
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="hb-boxCont text-center" style="min-height:auto">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-								<span>
-								  <img src="./<?= $config['subFolderName'] ?>/images/logo/15.png" alt="uptime">
-								</span>
-
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="hb-boxCont text-center" style="min-height:auto">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-								<span>
-								  <img src="./<?= $config['subFolderName'] ?>/images/logo/16.png" alt="uptime">
-								</span>
-
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="hb-boxCont text-center" style="min-height:auto">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-								<span>
-								  <img src="./<?= $config['subFolderName'] ?>/images/logo/17.png" alt="uptime">
-								</span>
-
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="hb-boxCont text-center" style="min-height:auto">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-								<span>
-								  <img src="./<?= $config['subFolderName'] ?>/images/logo/18.png" alt="uptime">
-								</span>
-
-                        </a>
-                    </div>
-                </li>
-   <li>
-                    <div class="hb-boxCont text-center" style="min-height:auto">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-								<span>
-								  <img src="./<?= $config['subFolderName'] ?>/images/product-images/azure28.png" alt="A-La-Carte-Model-4" style="width:100px">
-
-
-								</span>
-
-                        </a>
-                    </div>
-                </li>
- <li>
-                    <div class="hb-boxCont text-center" style="min-height:auto">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-								<span>
-								 <img src="./pi-cloud/images/product-images/Google212.png" alt="A-La-Carte-Model-3" style="width:100px">
-
-
-								</span>
-
-                        </a>
-                    </div>
-                </li>
-<li>
-                    <div class="hb-boxCont text-center" style="min-height:auto">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-								<span>
-								  <img src="./pi-cloud/images/product-images/AES212.png" alt="A-La-Carte-Model-1" style="width:100px">
-
-								</span>
-
-                        </a>
-                    </div>
-                </li>
-
-
-
-            </ul>
-        </div>
-    </div>
-</div> -->
-
-<!--<ul class="hb-productSec list-inline appoinment">
-			            	<li>
-			            		<div class="hb-leftCont hb_ppCont">
-			            			<h2>Letâ€™s Book Your Appointment With us Now!</h2>
-                    <a href="#">Schedule A Visit</a>
-			            		</div>
-			            	</li>
-			            	<li>
-			            		<div class="hb-rightCont hb_ppCont">
-			            			
-			            			 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque laoreet, ipsum a laoreet malesuada, ipsum mauris ultrices libero, vitae efficitur lacus enim a arcu. </p>
-			            		</div>
-			            	</li>
-			            </ul> -->
-
-
-<!--<h1 class="text-center" style="padding:30px 0 0;color:#545454;">Technology Partners</h1>-->
-<!--<ul class="hb-productSec list-inline">
-			            		<div class="hb-leftCont hb_ppCont">
-                                
-			            												<ul class="list-inline multi-cld-key2">
-			            		<li>
-			            			<div class="hb-featureBox" style="text-align:center">
-			            				<img src="./pi-cloud/images/product-images/AES212.png" alt="A-La-Carte-Model-1" style="width:100px">
-			            			</div>
-			            		</li>
-			            		<li>
-			            			<div class="hb-featureBox" style="text-align:center">
-			            				<img src="./pi-cloud/images/product-images/Oracle288.png" alt="A-La-Carte-Model-2" style="width:150px">
-			            			</div>
-			            		</li>
-			            		<li>
-			            			<div class="hb-featureBox" style="text-align:center">
-			            				<img src="./pi-cloud/images/product-images/Google212.png" alt="A-La-Carte-Model-3" style="width:100px">
-			            			</div>
-			            		</li>
-                                <li>
-			            			<div class="hb-featureBox" style="text-align:center">
-			            				<img src="./<?= $config['subFolderName'] ?>/images/product-images/azure28.png" alt="A-La-Carte-Model-4" style="width:100px">
-			            			</div>
-			            		</li>
-                                       
-			            	</ul>
-                                    
-                                    
-			            		</div>
-			            	
-			            </ul> -->
-<a href="images/Multi-Cloud-Brochure.pdf" class="sch-your" target="_blank">
-	<ul class="hb-productSec list-inline appoinment stick">
-		<li>
-			<div class="hb-leftCont hb_ppCont">
-				<h2>Download Brochure</h2>
-				<!--<a href="#">Schedule A Visit</a>-->
-			</div>
-		</li>
-		<!--<li>
-			            		<div class="hb-rightCont hb_ppCont">
-			            			
-			            			  <div class="get-in-touch-rit">
-                                   <a href="https://pi-cloud.in/contact-us">Click Here</a>
-                            
-                                </div>
-			            		</div>
-			            	</li>-->
-	</ul>
-</a>
-
-<!--<div class="get-in-touch">
+			<!--<div class="get-in-touch">
                   <div class="get-in-touch-main">
                        <div class="container">
                            <div class="get-in-touch-blk row">
@@ -1185,95 +1465,95 @@ Provides businesses with monitoring services while allowing them to manage their
               </div>
           </div>-->
 
-</div>
+		</div>
 
 
-</section>
-<?php
-include_once('includes/footer.php');
-?>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/owl.carousel.min.js'></script>
-<script src='./pi-cloud/js/index.js'></script>
-<script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
+		</section>
+		<?php
+		include_once('includes/footer.php');
+		?>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/owl.carousel.min.js'></script>
+		<script src='./pi-cloud/js/index.js'></script>
+		<script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
 
-<script>
-	$(document).ready(function(e) {
-		var TabBlock = {
-			s: {
-				animLen: 200
-			},
+		<script>
+			$(document).ready(function(e) {
+				var TabBlock = {
+					s: {
+						animLen: 200
+					},
 
-			init: function() {
-				TabBlock.bindUIActions();
-				TabBlock.hideInactive();
-			},
+					init: function() {
+						TabBlock.bindUIActions();
+						TabBlock.hideInactive();
+					},
 
-			bindUIActions: function() {
-				$('.tabBlock-tabs').on('click', '.tabBlock-tab', function() {
-					TabBlock.switchTab($(this));
+					bindUIActions: function() {
+						$('.tabBlock-tabs').on('click', '.tabBlock-tab', function() {
+							TabBlock.switchTab($(this));
+						});
+					},
+
+					hideInactive: function() {
+						var $tabBlocks = $('.tabBlock');
+
+						$tabBlocks.each(function(i) {
+							var
+								$tabBlock = $($tabBlocks[i]),
+								$panes = $tabBlock.find('.tabBlock-pane'),
+								$activeTab = $tabBlock.find('.tabBlock-tab.is-active');
+
+							$panes.hide();
+							$($panes[$activeTab.index()]).show();
+						});
+					},
+
+					switchTab: function($tab) {
+						var $context = $tab.closest('.tabBlock');
+
+						if (!$tab.hasClass('is-active')) {
+							$tab.siblings().removeClass('is-active');
+							$tab.addClass('is-active');
+
+							TabBlock.showPane($tab.index(), $context);
+						}
+					},
+
+					showPane: function(i, $context) {
+						var $panes = $context.find('.tabBlock-pane');
+
+						// Normally I'd frown at using jQuery over CSS animations, but we can't transition between unspecified variable heights, right? If you know a better way, I'd love a read it in the comments or on Twitter @johndjameson
+						$panes.slideUp(TabBlock.s.animLen);
+						$($panes[i]).slideDown(TabBlock.s.animLen);
+					}
+				};
+
+				$(function() {
+					TabBlock.init();
 				});
-			},
+			});
+		</script>
+		<script>
+			$(document).ready(function() {
+				$('.slider-info').slick({
+					dots: false,
+					arrows: true,
+					slidesToShow: 4,
+					slidesToScroll: 1,
+					vertical: false,
+					verticalSwiping: false,
+					autoplay: true,
+					autoplaySpeed: 1000,
+					responsive: [{
+						breakpoint: 768,
+						settings: {
+							slidesToShow: 2,
+							slidesToScroll: 1
+						}
+					}]
 
-			hideInactive: function() {
-				var $tabBlocks = $('.tabBlock');
-
-				$tabBlocks.each(function(i) {
-					var
-						$tabBlock = $($tabBlocks[i]),
-						$panes = $tabBlock.find('.tabBlock-pane'),
-						$activeTab = $tabBlock.find('.tabBlock-tab.is-active');
-
-					$panes.hide();
-					$($panes[$activeTab.index()]).show();
 				});
-			},
 
-			switchTab: function($tab) {
-				var $context = $tab.closest('.tabBlock');
-
-				if (!$tab.hasClass('is-active')) {
-					$tab.siblings().removeClass('is-active');
-					$tab.addClass('is-active');
-
-					TabBlock.showPane($tab.index(), $context);
-				}
-			},
-
-			showPane: function(i, $context) {
-				var $panes = $context.find('.tabBlock-pane');
-
-				// Normally I'd frown at using jQuery over CSS animations, but we can't transition between unspecified variable heights, right? If you know a better way, I'd love a read it in the comments or on Twitter @johndjameson
-				$panes.slideUp(TabBlock.s.animLen);
-				$($panes[i]).slideDown(TabBlock.s.animLen);
-			}
-		};
-
-		$(function() {
-			TabBlock.init();
-		});
-	});
-</script>
-<script>
-	$(document).ready(function() {
-		$('.slider-info').slick({
-			dots: false,
-			arrows: true,
-			slidesToShow: 4,
-			slidesToScroll: 1,
-			vertical: false,
-			verticalSwiping: false,
-			autoplay: true,
-			autoplaySpeed: 1000,
-			responsive: [{
-				breakpoint: 768,
-				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 1
-				}
-			}]
-
-		});
-
-	});
-</script>
+			});
+		</script>

@@ -69,6 +69,12 @@
             color: #223f97;
         }
 
+        .card ul li {
+            list-style-type: none;
+            padding-left: 1em;
+            text-indent: -1.4em;
+        }
+
         .card:hover .card-desc {
             opacity: 1;
             height: 100%;
@@ -80,6 +86,10 @@
             margin: 40px 0 20px 0;
             text-align: center;
         }
+
+        .card-desc span {
+            padding: 0 10px 0 0;
+        }
     </style>
 </head>
 
@@ -89,43 +99,44 @@
             <div class="card">
                 <h2 class="card-title">ESSENTIALS</h2>
                 <img src="../images/managed-services-icons/dashboard-ms.svg" alt="">
-                <p class="card-desc">
-                    &#187; 24 X 7 support with 2 hours critical response<br>
-                    &#187; Basic IT support (OS Patching, OS Updates, OS Management, Virtual Machines, Disks, Basic Configuration Management, &Incident<br> Management)<br>
-                    &#187; 30 days backup<br>
-                    &#187; Proactive infrastructure monitoring and alerting<br>
-                    &#187; Monthly health reports and dashboards<br>
+                <ul class="card-desc">
+                    <li><span>&#187;</span> 24 X 7 support with 2 hours critical response</li>
+                    <li><span>&#187;</span> Basic IT support (OS Patching, OS Updates, OS Management, Virtual Machines, Disks, Basic Configuration Management, &Incident Management)</li>
+                    <li><span>&#187;</span> 30 days backup</li>
+                    <li><span>&#187;</span> Proactive infrastructure monitoring and alerting</li>
+                    <li><span>&#187;</span> Monthly health reports and dashboards</li>
 
-                    &#187; Basic anti-virus and anti-malware support<br>
-                </p>
+                    <li><span>&#187;</span> Basic anti-virus and anti-malware support</li>
+                </ul>
             </div>
             <div class="card">
                 <h2 class="card-title">ADVANCED</h2>
                 <img src="../images/managed-services-icons/city-ms.svg" alt="">
-                <p class="card-desc">
-                    &#187; 24 X 7 support with 1 hour critical response<br>
-                    &#187; Advanced IT Support (OS Patching, OS Updates, OS Management, Virtual Machines, Virtual Machine scales, Availability Sets, Disks, Virtual <br>Networks, WAF, Identity Management, Configuration Management,<br> Incident Management, Problem Management, Change Management)<br>
-                    &#187; Shared TAM and architect support<br>
-                    &#187; Unlimited backup, self-serve point-in-time restore<br>
-                    &#187; Proactive infrastructure monitoring and alerting<br>
-                    &#187; Monthly health reports and dashboards.<br>
-                    &#187; Advanced anti-virus and anti-malware support</p>
+                <ul class="card-desc">
+                    <li><span>&#187;</span> 24 X 7 support with 1 hour critical response</li>
+                    <li><span>&#187;</span> Advanced IT Support (OS Patching, OS Updates, OS Management, Virtual Machines, Virtual Machine scales, Availability Sets, Disks, Virtual Networks, WAF, Identity Management, Configuration Management, Incident Management, Problem Management, Change Management)</li>
+                    <li><span>&#187;</span> Shared TAM and architect support</li>
+                    <li><span>&#187;</span> Unlimited backup, self-serve point-in-time restore</li>
+                    <li><span>&#187;</span> Proactive infrastructure monitoring and alerting</li>
+                    <li><span>&#187;</span> Monthly health reports and dashboards.</li>
+                    <li><span>&#187;</span> Advanced anti-virus and anti-malware support</li>
+                </ul>
             </div>
             <div class="card">
                 <h2 class="card-title">PREMIUM</h2>
                 <img src="../images/managed-services-icons/premium-service-ms.svg" alt="">
-                <p class="card-desc">
-                    &#187; 24 X 7 support with 30 minutes critical response</br>
-                    &#187; Level-3 escalation advanced support</br>
-                    &#187; Proactive capacity planning, performance and cost optimization</br>
-                    &#187; Shared TAM and architect support</br>
-                    &#187; Unbrmited backup, self-serve point-in-time restore</br>
-                    &#187; Proactive infrastructure monitoring and alerting</br>
-                    &#187; Monthly health reports and dashboards</br>
-                    &#187; Deep security (WAF, DDoS, Threat analytics, anti-virus, anti-malware, email and web protection)</br>
-                    &#187; Proactive run book authoring</br>
-                    &#187; Advanced operational intelligence and custom dashboard on usage, performance, governance, and cost
-                </p>
+                <ul class="card-desc">
+                    <li><span>&#187;</span> 24 X 7 support with 30 minutes critical response</li>
+                    <li><span>&#187;</span> Level-3 escalation advanced support</li>
+                    <li><span>&#187;</span> Proactive capacity planning, performance and cost optimization</li>
+                    <li><span>&#187;</span> Shared TAM and architect support</li>
+                    <li><span>&#187;</span> Unbrmited backup, self-serve point-in-time restore</li>
+                    <li><span>&#187;</span> Proactive infrastructure monitoring and alerting</li>
+                    <li><span>&#187;</span> Monthly health reports and dashboards</li>
+                    <li><span>&#187;</span> Deep security (WAF, DDoS, Threat analytics, anti-virus, anti-malware, email and web protection)</li>
+                    <li><span>&#187;</span> Proactive run book authoring</li>
+                    <li><span>&#187;</span> Advanced operational intelligence and custom dashboard on usage, performance, governance, and cost</li>
+                </ul>
             </div>
         </div>
     </div>

@@ -3,73 +3,10 @@ include_once('includes/header.php');
 
 ?>
 
-<!-- <?php include('php/inner-header.php'); ?> -->
-<!-- <style>
-    .box ul li:nth-child(1):before {
-        position: absolute;
-        left: 10px;
-        top: 8px;
-        content: "";
-        background: url("../images/public-cloud-icons/GRA.svg") no-repeat;
-        background-size: contain;
-        width: 65px;
-        height: 65px;
-    }
-
-    .box ul li:nth-child(2):before {
-        position: absolute;
-        left: 55px;
-        top: 16px;
-        content: "";
-        background: url("../images/public-cloud-icons/US.svg") no-repeat;
-        background-size: contain;
-        width: 60px;
-        height: 60px;
-
-    }
-
-    .box ul li:nth-child(3):before {
-        position: absolute;
-        left: 55px;
-        top: 8px;
-        content: "";
-        background: url("../images/public-cloud-icons/CE.svg") no-repeat;
-        background-size: contain;
-        width: 65px;
-        height: 65px;
-    }
-
-    .box ul li:nth-child(4):before {
-        position: absolute;
-        left: 55px;
-        top: 8px;
-        content: "";
-        background: url("../images/public-cloud-icons/HP.svg") no-repeat;
-        background-size: contain;
-        width: 65px;
-        height: 65px;
-    }
-
-    .box ul li:nth-child(5):before {
-        position: absolute;
-        left: 150px;
-        top: 11px;
-        content: "";
-        background: url("../images/public-cloud-icons/SAC.svg") no-repeat;
-        background-size: contain;
-        width: 65px;
-        height: 65px;
-    }
-
-
-    .hb-jCont>p {
-        margin-top: 30px !important;
-    }
-</style> -->
-
 <style>
     .product {
-        max-width: 1200px;
+        /* max-width: 1365px; */
+        max-width: 1453px;
         padding: 30px 0;
     }
 
@@ -90,17 +27,19 @@ include_once('includes/header.php');
     .jCont h4 {
         font-size: 19px;
         min-height: 50px;
+        color: #76b543;
     }
 
     .jCont {
         box-shadow: 0px 0px 6px 0px grey;
-        padding: 25px 10px;
+        padding: 25px 8px;
         text-align: center;
     }
 
     .jCont:hover {
         box-shadow: 0px 0px 6px 0px #223f97;
-        transform: scale(1.1);
+        transform: scale(1.05);
+        transition: all 0.5s ease-in-out;
     }
 
     .jCont img {
@@ -121,22 +60,29 @@ include_once('includes/header.php');
     .skltbs-tab-item.current,
     .skltbs-tab-item.current:after,
     .skltbs-tab-item.current:before {
-        background-color: #223f97 !important;
+        background-color: #76b543 !important;
     }
 
     .skltbs-tab-item:hover,
     .skltbs-tab-item:hover:after,
     .skltbs-tab-item:hover:before {
-        background-color: #223f97 !important;
+        background-color: #76b543 !important;
     }
 
     .skltbs-tab-group {
-        border-bottom: solid #76b543 !important;
+        border-bottom: solid #216733 !important;
     }
 
     .hb-productHead {
-        max-width: 80%;
+        max-width: 85%;
         margin: 0 auto;
+        text-align: justify;
+    }
+
+    .hb-productHead>.main-text {
+        font-size: 19px !important;
+        font-weight: bold;
+        text-align: center;
     }
 
     .hb-block2 {
@@ -380,8 +326,25 @@ include_once('includes/header.php');
         margin: 10px auto !important;
     }
 
+    /*.sch-your {
+    width: 400px !important;
+} */
+
     .sch-your {
-        width: 400px !important;
+        width: 180px !important;
+    }
+
+    .hb-btn_cl>a {
+        background-color: #223f97;
+        padding: 12px 19px;
+        color: #fff;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 6px;
+        z-index: 1;
+        margin: 0 10px;
     }
 
     @media (max-width: 450px) {
@@ -398,6 +361,49 @@ include_once('includes/header.php');
             transform: scale(1);
         }
 
+        .owl-dots {
+            top: -10px;
+        }
+    }
+
+    .jCont2 h4 {
+        color: #223f97;
+    }
+
+    .skltbs-tab-item {
+        background-color: #223f97 !important;
+    }
+
+    .skltbs-tab-item:after,
+    .skltbs-tab-item:before {
+        background-color: #223f97 !important;
+    }
+
+    .skltbs-tab-item>button {
+        color: #fff !important;
+    }
+
+    .owl-dot>span {
+        background-color: #223f97 !important;
+    }
+
+    .hb-CerSetion>h4 {
+        margin-top: 30px !important;
+    }
+
+    .owl-dot.active>span {
+        opacity: 1;
+        background-color: #76b543 !important;
+    }
+
+    .owl-dot>span {
+        background-color: #223f97 !important;
+        opacity: 1 !important;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: black !important;
     }
 </style>
 
@@ -421,43 +427,45 @@ include_once('includes/header.php');
 <div class="container">
 </div>
 <br>
+<h3 class="text-center" style="font-size: 28px; margin: 20px 0;">Why Choose <span style="color: #76b543;">Pi Public Cloud Services</span>?</h3>
 
-<div class="hb-productHead text-center">
-    <p>Pi Multi Cloud, the flagship offering from Pi DATACENTERSÂ®, presents a distinctive proposition to enterprises seeking an optimized cloud hosting strategy. By seamlessly orchestrating diverse workloads across multiple premier cloud providers, it empowers businesses to harness the full spectrum of advantages each provider offers while effectively counterbalancing any inherent limitations. </p><br>
-    <p>This dynamic multi-cloud hosting approach stands as a testament to our commitment to innovation and client-centric solutions. It's a strategy designed to amplify the operational strengths of each cloud provider, allowing enterprises to capitalize on a finely tuned ecosystem that enhances their operational efficiency. </p><br>
-    <p>In the pursuit of technological excellence, Pi Multi Cloud casts a wide net of services and features, thus providing clients with an expansive toolkit to craft their cloud environment precisely as per their requirements. This abundance translates into augmented flexibility and scalability, two attributes that have become paramount in navigating the fluid landscape of modern business. </p><br>
-    <p>At the heart of the Pi Multi Cloud computing paradigm lie several integral elements, each meticulously integrated to bolster our clients' capabilities in today's dynamic business landscape. The fusion of cutting-edge technology, strategic vision, and unwavering commitment to excellence creates an environment where businesses can not only thrive but also pioneer new horizons of success. </p><br>
-    <p>In the ever-changing realm of cloud technology, Pi emerges not just as a solution but as a strategyâ€”one that is primed to propel enterprises forward by harnessing the collective power of multiple cloud providers. It's a paradigm shift that redefines the boundaries of what's possible, equipping businesses with a competitive edge that is as adaptable as it is resilient. </p>
+<div class="hb-productHead">
+    <p>Pi Multi Cloud, the flagship offering from Pi DATACENTERSÂ®, presents a distinctive proposition to enterprises seeking an optimized cloud hosting strategy. By seamlessly orchestrating diverse workloads across multiple premier cloud providers, it empowers businesses to harness the full spectrum of advantages each provider offers while effectively counterbalancing any inherent limitations.
+        This dynamic multi-cloud hosting approach stands as a testament to our commitment to innovation and client-centric solutions. It's a strategy designed to amplify the operational strengths of each cloud provider, allowing enterprises to capitalize on a finely tuned ecosystem that enhances their operational efficiency. </p><br>
+
+    <p>In the pursuit of technological excellence, Pi Multi Cloud casts a wide net of services and features, thus providing clients with an expansive toolkit to craft their cloud environment precisely as per their requirements. This abundance translates into augmented flexibility and scalability, two attributes that have become paramount in navigating the fluid landscape of modern business.
+        At the heart of the Pi Multi Cloud computing paradigm lie several integral elements, each meticulously integrated to bolster our clients' capabilities in today's dynamic business landscape. The fusion of cutting-edge technology, strategic vision, and unwavering commitment to excellence creates an environment where businesses can not only thrive but also pioneer new horizons of success.
+        In the ever-changing realm of cloud technology, Pi emerges not just as a solution but as a strategyâ€”one that is primed to propel enterprises forward by harnessing the collective power of multiple cloud providers. It's a paradigm shift that redefines the boundaries of what's possible, equipping businesses with a competitive edge that is as adaptable as it is resilient. </p>
 
 </div>
 
 
 <div class="container product">
     <div class="row">
-        <h3 class="text-center" style="font-size: 28px; margin: 20px 0;">Why Choose Pi Public Cloud Services? </h3>
+        <!-- <h3 class="text-center" style="font-size: 28px; margin: 20px 0;">Why Choose Pi Public Cloud Services? </h3> -->
 
         <div class="box">
-            <div class="jCont">
+            <div class="jCont col-md-2">
                 <h4>Global Reach and Accessibility</h4>
                 <img src="../images/public-cloud-icons/GRA.svg">
                 <p>Our public cloud services offer a vast global network of data centers, ensuring low-latency access to your applications and data from anywhere in the world. Enjoy the freedom to reach a broader audience and expand your business on a global scale. </p>
             </div>
-            <div class="jCont">
+            <div class="jCont jCont2 col-md-2">
                 <h4>Unmatched Scalability </h4>
                 <img src="../images/public-cloud-icons/US.svg">
                 <p>Experience unparalleled scalability with our public cloud solutions. As your business grows, our cloud infrastructure seamlessly adapts to handle increasing workloads and user demands, allowing you to stay agile and responsive. </p>
             </div>
-            <div class="jCont">
+            <div class="jCont col-md-2">
                 <h4>Cost-Efficiency</h4>
                 <img src="../images/public-cloud-icons/CE.svg">
                 <p>Eliminate the need for expensive hardware and infrastructure investments. With our pay-as-you-go pricing model, you only pay for the resources you consume, optimizing your IT budget and reducing operational costs. </p>
             </div>
-            <div class="jCont">
+            <div class="jCont jCont2 col-md-2">
                 <h4>High Performance</h4>
                 <img src="../images/public-cloud-icons/HP.svg">
                 <p>Enjoy blazing-fast performance and reliability with our state-of-the-art public cloud infrastructure. Our cutting-edge technologies and robust data centers ensure that your applications and services perform at their best. </p>
             </div>
-            <div class="jCont">
+            <div class="jCont col-md-2">
                 <h4>Security and Compliance</h4>
                 <img src="../images/public-cloud-icons/SAC.svg">
                 <p>Security is our top priority. Rest assured that your data and applications are protected by multiple layers of security controls, encryption, and regular security updates. We comply with industry standards and regulations to keep your data safe. </p>
@@ -475,36 +483,36 @@ include_once('includes/header.php');
 
 <div class="container product">
     <div class="row">
-        <h3 class="text-center" style="font-size: 28px; margin: 20px 0;">Pi Public Cloud Services Offerings: </h3>
+        <h3 class="text-center" style="font-size: 28px; margin: 20px 0;">Service <span style="color: #76b543;">Offerings</span> </h3>
 
         <div class="box">
-            <div class="jCont">
+            <div class="jCont col-sm-2">
                 <h4>Infrastructure</h4>
                 <img src="../images/public-cloud-icons/PCI-2.svg">
                 <p>Leverage our secure and scalable public cloud infrastructure to deploy and manage your applications, websites, and databases. Experience the flexibility and power of the cloud with a wide range of compute, storage, and networking options. </p>
             </div>
-            <div class="jCont">
+            <div class="jCont jCont2 col-sm-2">
                 <h4>Storage </h4>
                 <img src="../images/public-cloud-icons/PCS.svg">
                 <p>Store, backup, and share your data with ease using our reliable public cloud storage solutions. Enjoy high availability, data redundancy, and automatic backups to safeguard your critical information. </p>
             </div>
-            <div class="jCont">
+            <div class="jCont col-sm-2">
                 <h4>Computing</h4>
                 <img src="../images/public-cloud-icons/PCC.svg">
                 <p>Take advantage of our on-demand computing resources to run applications and workloads without the need for physical servers. Our public cloud computing services offer flexibility and cost-effectiveness for your business. </p>
             </div>
-            <div class="jCont">
+            <div class="jCont jCont2 col-sm-2">
 
                 <h4>Analytics</h4>
                 <img src="../images/public-cloud-icons/PCA.svg">
                 <p>Unlock valuable insights from your data with our public cloud analytics services. Analyze large datasets, gain actionable intelligence, and make data-driven decisions to fuel your business growth. </p>
             </div>
-            <div class="jCont">
+            <div class="jCont col-sm-2">
                 <h4>AI and Machine Learning</h4>
                 <img src="../images/public-cloud-icons/PC-AI-ML (1).svg">
                 <p> Embrace the power of artificial intelligence and machine learning with our public cloud AI services. Build smart applications, automate processes, and enhance user experiences using cutting-edge AI technologies. </p>
             </div>
-            <div class="jCont">
+            <div class="jCont jCont2 col-sm-2">
                 <h4>Security and Compliance</h4>
                 <img src="../images/public-cloud-icons/PCS-C.svg">
                 <p>Trust in our robust security measures to protect your data and applications. Our public cloud security services include identity and access management, threat detection, and compliance support. </p>
@@ -517,10 +525,15 @@ include_once('includes/header.php');
 
 
 <div class="hb-productHead text-center">
-    <p>Experience the limitless possibilities of the cloud with Pi Public Cloud Services. Let our cloud experts guide you on your digital transformation journey. Discover how our public cloud solutions can accelerate your business success. Unleash innovation and agility with the power of the public cloud!</p>
+    <p class="main-text">Experience the limitless possibilities of the cloud with Pi Public Cloud Services. Let our cloud experts guide you on your digital transformation journey.</p>
+</div>
+<div class="hb-btn_cl" style="text-align: center; margin-top: 20px;"><a href="images/new-multi-cloud-brochure-2.pdf" class="global-button" target="_blank">
+        Download Brochure
+    </a>
+
 </div>
 <div class="hb-features">
-    <h3 class="text-center">Key Features</h3>
+    <h3 class="text-center">Key <span style="color: #76b543;">Features</span></h3>
     <ul class="list-inline hb-featuresList multi-cld-key">
         <li>
             <div class="hb-featureBox">
@@ -609,7 +622,11 @@ include_once('includes/header.php');
     </ul>
 </div>
 
-<div style="text-align: center;"><a href="contact-us.php" style="background-color: yellow;background-color: #223f97; padding: 10px 10px;border-radius: 10px; color: #fff;font-weight: bold;font-size: 18px; margin: 30px 0 0 0;">Contact Us</a> </div>
+<div class="hb-btn_cl" style="text-align: center; margin-top: 20px;"><a href="contact-us.php" class="global-button">Contact Us</a>
+    <!-- <span><a href="images/Multi-Cloud-Brochure.pdf" class="sch-your global-button" target="_blank">
+                Download Brochure
+    </a></span> -->
+</div>
 
 <div class="hb-childProducts" id="Managed">
 
@@ -623,7 +640,7 @@ include_once('includes/header.php');
                 <button class="skltbs-tab tab-link" data-tab="tab-2">Single Pane Of Glass</button>
             </li>
             <li class="skltbs-tab-item">
-                <button class="skltbs-tab tab-link" data-tab="tab-3">Why Multi-Cloud On Pi Cloud</button>
+                <button class="skltbs-tab tab-link" data-tab="tab-3">Why Multi-Cloud @Pi</button>
             </li>
 
         </ul>
@@ -679,13 +696,13 @@ include_once('includes/header.php');
             <div class="skltbs-panel" id="tab-2">
                 <ul class="hb-productSec list-inline">
                     <div class="hb-leftCont hb_ppCont">
-                        <p>The Pi Cloud Multi-Cloud Ecosystem simplifies the management of cloud environments by providing a centralized view of your workloads across multiple clouds. This platform allows you to monitor performance and optimize your environment for cost control.</p>
+                        <p>The Pi Multi-Cloud Ecosystem simplifies the management of cloud environments by providing a centralized view of your workloads across multiple clouds. This platform allows you to monitor performance and optimize your environment for cost control.</p>
 
-                        <p>By streamlining cloud management and reducing complexity, Pi Cloud enhances operational efficiency, freeing up valuable resources for innovation and growth. With a unified view of your cloud environments, you can focus on achieving your business objectives without getting bogged down in day-to-day tasks.</p>
-                        <p>Whether you're migrating to the cloud, optimizing your existing cloud infrastructure, or managing multiple clouds, Pi Cloud provides the tools and unified view you need to succeed in today's digital landscape. With Harbour 1Â®, you can simplify cloud management, improve ROI, and achieve business objectives with ease.</p>
+                        <p>By streamlining cloud management and reducing complexity, it enhances operational efficiency, freeing up valuable resources for innovation and growth. With a unified view of your cloud environments, you can focus on achieving your business objectives without getting bogged down in day-to-day tasks.</p>
+                        <p>Whether you're migrating to the cloud, optimizing your existing cloud infrastructure, or managing multiple clouds, it provides the tools and a unified view you need to succeed in today's digital landscape. With Pi Cloud, you can simplify cloud management, improve ROI, and achieve business objectives with ease.</p>
                         <span>
                             <!--<img src="images/product-images/containers_img.png" alt="workspace">-->
-                            <img src="./pi-cloud/images/product-images/single-pane-of-glass.png" alt="workspace">
+                            <img src="../pi-cloud/images/product-images/single-pane-of-glass-new.png" alt="workspace">
                         </span>
                     </div>
 
@@ -698,12 +715,12 @@ include_once('includes/header.php');
                     <div class="hb-leftCont hb_ppCont">
 
 
-                        <p>In today's fast-paced business landscape, it's critical for organizations to be able to quickly adapt and scale to keep up with changing market demands. That's where Pi Cloud Multi-Cloud Ecosystem comes in: by providing a unified view for workload management across various cloud environments, businesses can streamline their operations, improve data sovereignty and compliance, and optimize their costs. </p>
+                        <p>In today's fast-paced business landscape, it's critical for organizations to be able to quickly adapt and scale to keep up with changing market demands. That's where Pi Multi-Cloud Ecosystem comes in: by providing a unified view for workload management across various cloud environments, businesses can streamline their operations, improve data sovereignty and compliance, and optimize their costs. </p>
                         <p>With Pi Cloud's platform-agnostic approach, businesses have the flexibility to choose the best cloud environment for each workload while still maintaining complete control and visibility. The seamless integration of private and public clouds means there's no need to sacrifice security or privacy for affordability.</p>
-                        <p>The Pi Cloud Multi-Cloud Ecosystem offers a comprehensive platform for efficient workload management, giving businesses the tools they need to stay agile and competitive in today's digital age. Choose pi cloud and experience the benefits of a single pane of glass view for your business.</p>
+                        <p>The Pi Multi-Cloud Ecosystem offers a comprehensive platform for efficient workload management, giving businesses the tools they need to stay agile and competitive in today's digital age. Choose Pi Cloud and experience the benefits of a single pane of glass view for your business.</p>
 
                         <span>
-                            <img src="./pi-cloud/images/product-images/Managed-Services-Models-c.png" alt="workspace">
+                            <img src="../pi-cloud/images/product-images/why-multi-cloud-new.png" alt="workspace">
                         </span>
                     </div>
 
@@ -724,7 +741,7 @@ include_once('includes/header.php');
     <div class="hb-certication">
         <div class="container">
             <div class="hb-CerSetion">
-                <h4 class="text-center">Technology Partners</h4>
+                <h4 class="text-center">Technology <span style="color: #76b543;">Partners</span></h4>
 
                 <ul class="list-inline hb-boxLists slider-info">
                     <li>
@@ -915,8 +932,8 @@ include_once('includes/header.php');
                         <div class="hb-boxCont text-center" style="min-height:auto">
                             <a href="javascript:void(0)" style="cursor: auto;">
                                 <span>
-                                    <img src="./<?= $config['subFolderName'] ?>/images/logo/18.png" alt="uptime">
-                                    <img src="./<?= $config['subFolderName'] ?>/images/product-images/azure28.png" alt="A-La-Carte-Model-4" style="width:100px">
+                                    <!--  <img src="./<?= $config['subFolderName'] ?>/images/logo/18.png" alt="uptime"> -->
+                                    <img src="./<?= $config['subFolderName'] ?>/images/product-images/azure28.png" alt="A-La-Carte-Model-4" style="width: 85px;">
 
 
                                 </span>
@@ -928,8 +945,9 @@ include_once('includes/header.php');
                         <div class="hb-boxCont text-center" style="min-height:auto">
                             <a href="javascript:void(0)" style="cursor: auto;">
                                 <span>
-                                    <img src="./<?= $config['subFolderName'] ?>/images/logo/18.png" alt="uptime">
-                                    <img src="./pi-cloud/images/product-images/Google212.png" alt="A-La-Carte-Model-3" style="width:100px">
+                                    <!--  <img src="./<?= $config['subFolderName'] ?>/images/logo/18.png" alt="uptime">  -->
+
+                                    <img src="./pi-cloud/images/product-images/Google212.png" alt="A-La-Carte-Model-3" style="width: 85px;">
 
 
                                 </span>
@@ -941,8 +959,9 @@ include_once('includes/header.php');
                         <div class="hb-boxCont text-center" style="min-height:auto">
                             <a href="javascript:void(0)" style="cursor: auto;">
                                 <span>
-                                    <img src="./<?= $config['subFolderName'] ?>/images/logo/18.png" alt="uptime">
-                                    <img src="./pi-cloud/images/product-images/AES212.png" alt="A-La-Carte-Model-1" style="width:100px">
+                                    <!--  <img src="./<?= $config['subFolderName'] ?>/images/logo/18.png" alt="uptime"> -->
+
+                                    <img src="./pi-cloud/images/product-images/AES212.png" alt="A-La-Carte-Model-1" style="width: 85px;">
 
                                 </span>
 
@@ -957,7 +976,7 @@ include_once('includes/header.php');
         </div>
     </div>
 
-    <a href="images/Multi-Cloud-Brochure.pdf" class="sch-your" target="_blank">
+    <!-- <a href="images/Multi-Cloud-Brochure.pdf" class="sch-your" target="_blank">
         <ul class="hb-productSec list-inline appoinment stick">
             <li>
                 <div class="hb-leftCont hb_ppCont">
@@ -966,7 +985,7 @@ include_once('includes/header.php');
             </li>
 
         </ul>
-    </a>
+    </a>   -->
 
 
 
@@ -1051,7 +1070,7 @@ include_once('includes/footer.php');
         $('.slider-info').slick({
             dots: false,
             arrows: true,
-            slidesToShow: 4,
+            slidesToShow: 5,
             slidesToScroll: 1,
             vertical: false,
             verticalSwiping: false,
