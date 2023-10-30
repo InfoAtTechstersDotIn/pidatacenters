@@ -137,117 +137,6 @@ include_once('includes/header.php');
 		float: right !important;
 	}
 
-	@media (max-width:767px) {
-		.hb-block1 {
-			display: block !important;
-		}
-
-		.hb-block2 {
-			display: none !important;
-		}
-
-		.get-in-touch-lft:first-child {
-			width: 100% !important;
-			max-width: 100% !important;
-		}
-
-		.get-in-touch-lft p {
-			font-size: 15px !important;
-			line-height: 21px !important;
-			padding: 0 0 10px !important;
-			text-align: center !important;
-		}
-
-		.get-in-touch-rit a {
-			line-height: 38px !important;
-			height: 38px !important;
-			width: 150px !important;
-			margin: 10px auto !important;
-			font-size: 16px !important;
-			display: block;
-		}
-
-		.footer-about .col-md-3 {
-			-webkit-flex: 0 0 100% !important;
-			float: none !important;
-			width: 100% !important;
-			text-align: center !important;
-			max-width: 100% !important;
-		}
-
-		h1 {
-			font-size: 25px !important;
-			padding: 0 !important;
-		}
-	}
-
-	@media (max-width:599px) {
-		.hb-navmenu {
-			left: -360px;
-		}
-
-		.hb-childProducts2 .tabBlock-tab {
-			width: 100% !important;
-			text-align: center;
-			margin: 5px 0px;
-		}
-
-		.multi-cld-key2 li {
-			width: 100%;
-			text-align: center;
-		}
-
-		.hb-leftCont>span>img {
-			display: block;
-		}
-
-		.sch-your {
-			width: 400px;
-			margin: 0 auto;
-			display: block;
-		}
-
-		.hb-logo {
-			width: 50% !important;
-		}
-
-		.hb-featTopHeader {
-			text-align: center;
-		}
-
-		.templine>li {
-			width: 100% !important;
-			display: block !important;
-			;
-			margin: 10px 0px !important;
-		}
-
-		.essent {
-			margin-top: 50px;
-			float: none !important;
-			width: auto;
-		}
-
-		.prem {
-			width: auto !important;
-			float: none !important;
-		}
-
-		.only-support li {
-			word-break: break-all;
-		}
-
-		.only-support li br {
-			display: none !important;
-		}
-
-		.range {
-			display: block;
-		}
-
-
-	}
-
 	.hb-boxCont {
 		box-shadow: none;
 	}
@@ -275,6 +164,7 @@ include_once('includes/header.php');
 		display: flex;
 		/* flex-wrap: wrap; */
 		justify-content: space-around;
+		margin-bottom: 20px;
 	}
 
 	.card {
@@ -343,8 +233,6 @@ include_once('includes/header.php');
 		text-align: center;
 	}
 
-	/* @media only screen and (min-width: 1200px) and (max-width: 1450px) {} */
-
 	.appoinment {
 		background-color: #223f97 !important;
 	}
@@ -395,7 +283,7 @@ include_once('includes/header.php');
 	.card p {
 		text-align: center;
 		background-color: #e3e3e3;
-		padding: 10px;
+		padding: 11px;
 		color: #223f97;
 		font-size: 18px;
 		font-weight: bold;
@@ -416,7 +304,8 @@ include_once('includes/header.php');
 		font-family: 'Roboto', sans-serif !important;
 	}
 
-	.boxes {
+	.boxes,
+	.boxes-2 {
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
@@ -424,7 +313,8 @@ include_once('includes/header.php');
 	}
 
 
-	.boxes li {
+	.boxes li,
+	.boxes-2 li {
 		list-style-type: none;
 		width: 30%;
 		margin: 10px 9px;
@@ -714,6 +604,14 @@ include_once('includes/header.php');
 		gap: 55px;
 	}
 
+	.model-3 {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		justify-content: center;
+		margin: 70px;
+		gap: 55px;
+	}
+
 	.carte-content {
 		box-shadow: 0px 0px 15px grey;
 		border-radius: 40px 40px;
@@ -761,12 +659,12 @@ include_once('includes/header.php');
 		grid-template-columns: auto auto;
 		gap: 40px;
 		padding: 20px;
-		margin: 40px;
+		margin: 40px 40px 45px 40px;
 	}
 
 	.elastic {
 		background-color: #fff;
-		padding: 25px;
+		padding: 20px;
 		text-align: center;
 		height: 150px;
 		width: 380px;
@@ -829,6 +727,301 @@ include_once('includes/header.php');
 		border-radius: 6px;
 		z-index: 1;
 		margin: 0 10px;
+	}
+
+	@media (max-width:599px) {
+		.hb-navmenu {
+			left: -360px;
+		}
+
+		.hb-childProducts2 .tabBlock-tab {
+			width: 100% !important;
+			text-align: center;
+			margin: 5px 0px;
+		}
+
+		.multi-cld-key2 li {
+			width: 100%;
+			text-align: center;
+		}
+
+		.hb-leftCont>span>img {
+			display: block;
+		}
+
+		.sch-your {
+			width: 400px;
+			margin: 0 auto;
+			display: block;
+		}
+
+		.hb-logo {
+			width: 50% !important;
+		}
+
+		.hb-featTopHeader {
+			text-align: center;
+		}
+
+		.templine>li {
+			width: 100% !important;
+			display: block !important;
+			;
+			margin: 10px 0px !important;
+		}
+
+		.essent {
+			margin-top: 50px;
+			float: none !important;
+			width: auto;
+		}
+
+		.prem {
+			width: auto !important;
+			float: none !important;
+		}
+
+		.only-support li {
+			word-break: break-all;
+		}
+
+		.only-support li br {
+			display: none !important;
+		}
+
+		.range {
+			display: block;
+		}
+
+		/* newly added */
+		.cards {
+			flex-wrap: wrap !important;
+		}
+
+		.elastic-model {
+			grid-template-columns: auto;
+			gap: 65px;
+		}
+
+		.elastic,
+		.elastic-2 {
+			width: 350px;
+			margin: 15px 10px 0 10px;
+		}
+
+		.circle {
+			right: 259px;
+		}
+
+		.flipping {
+			display: block;
+			margin: 35px;
+		}
+
+		.flip-card {
+			margin: 10px;
+		}
+
+		.model-2 {
+			display: block;
+			margin: 20px 50px;
+		}
+
+		.model-3 {
+			display: block;
+			margin: 20px 50px;
+		}
+
+		.carte-content {
+			margin: 15px 0;
+		}
+
+		.Monitoring {
+			display: block;
+		}
+
+		.hb-bannerImg h2 {
+			left: 2% !important;
+			font-size: 18px !important;
+		}
+
+		.content_1 .para {
+			margin: 30px 20px;
+		}
+
+		.boxes,
+		.boxes-2 {
+			display: block;
+		}
+
+		.card-box {
+			box-shadow: -3px 0px 8px #76b543;
+		}
+
+		.model-2,
+		.model-3 {
+			justify-content: center;
+			align-items: center;
+			display: flex;
+			flex-direction: column;
+			gap: 0;
+		}
+
+		.card-head>h6 {
+			font-size: 16px;
+		}
+
+		.card-icon {
+			width: 20% !important;
+		}
+
+		.Monitoring {
+			width: auto;
+		}
+
+		.points {
+			margin-bottom: 20px;
+		}
+
+		.card {
+			min-height: 460px;
+		}
+
+		.card p {
+			padding: 15px;
+		}
+	}
+
+	@media only screen and (max-width: 650px) {
+
+		.boxes li,
+		.boxes-2 li {
+			list-style-type: none;
+			width: 95% !important;
+			margin: 10px 12px;
+
+		}
+
+	}
+
+	@media (min-width:650px) and (max-width:768px) {
+		.hb-bannerImg h2 {
+			left: 2% !important;
+			font-size: 35px !important;
+		}
+	}
+
+	@media (min-width:768px) and (max-width:990px) {
+		.hb-bannerImg h2 {
+			left: 2% !important;
+			font-size: 35px !important;
+		}
+	}
+
+
+	@media (max-width:768px) {
+		.hb-block1 {
+			display: block !important;
+		}
+
+		.hb-block2 {
+			display: none !important;
+		}
+
+		.get-in-touch-lft:first-child {
+			width: 100% !important;
+			max-width: 100% !important;
+		}
+
+		.get-in-touch-lft p {
+			font-size: 15px !important;
+			line-height: 21px !important;
+			padding: 0 0 10px !important;
+			text-align: center !important;
+		}
+
+		.get-in-touch-rit a {
+			line-height: 38px !important;
+			height: 38px !important;
+			width: 150px !important;
+			margin: 10px auto !important;
+			font-size: 16px !important;
+			display: block;
+		}
+
+		.footer-about .col-md-3 {
+			-webkit-flex: 0 0 100% !important;
+			float: none !important;
+			width: 100% !important;
+			text-align: center !important;
+			max-width: 100% !important;
+		}
+
+		h1 {
+			font-size: 25px !important;
+			padding: 0 !important;
+		}
+
+		.elastic,
+		.elastic-2 {
+			width: 320px;
+			padding: 10px;
+
+		}
+
+		.circle {
+			bottom: -61px;
+			right: 208px;
+		}
+
+		.new-list {
+			padding: 25px;
+		}
+
+		.card-icon>img {
+			max-width: 50px;
+		}
+
+	}
+
+	/* newly added */
+	@media (max-width:990px) {
+		.cards {
+			flex-wrap: wrap;
+		}
+
+		.flip-card {
+			margin: 15px 5px;
+		}
+
+		.model-2,
+		.model-3 {
+			grid-template-columns: auto auto;
+		}
+
+		.card-icon>img {
+			max-width: 50px;
+		}
+
+		.Monitoring .card-2 .face {
+			width: 235px;
+			height: 284px;
+			margin: 0px 10px;
+		}
+
+		.Monitoring .card-2 .face.face1 {
+			transform: translateY(180px);
+		}
+
+		.Monitoring .card-2 .face.face1 .content h3 {
+			font-size: 1.3em;
+		}
+	}
+
+	@media (max-width:1024px) {
+		.card-icon>img {
+			max-width: 50px;
+		}
 	}
 </style>
 
@@ -995,7 +1188,7 @@ include_once('includes/header.php');
 			</div>
 		</li>
 	</ul>
-	<ul class="boxes">
+	<ul class="boxes-2">
 		<li>
 			<div class="card-box">
 				<div class="box-icon">
@@ -1092,7 +1285,7 @@ include_once('includes/header.php');
 				<ul class="hb-productSec list-inline">
 					<div class="hb-leftCont hb_ppCont">
 						<p style="text-align:center">
-							Provides different tiers of service levels based on the business's needs, ensuring that you pay only for the services you require.Â 
+							Provides different tiers of service levels based on the business's needs, ensuring that you pay only for the services you require.Ã‚Â 
 						</p>
 						<!--<span>
 			            				<img src="images/product-images/TIERED-MODEL.png" alt="advanced">
@@ -1314,7 +1507,7 @@ include_once('includes/header.php');
 						</div>
 					</div>
 
-					<div class="model-2">
+					<div class="model-3">
 						<div class="carte-content">
 							<div class="carte-head">
 								<h3 style="margin: 25px;">DevOps Services</h3>

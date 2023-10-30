@@ -427,7 +427,7 @@ include_once('includes/header.php');
 <div class="container">
 </div>
 <br>
-<h3 class="text-center" style="font-size: 28px; margin: 20px 0;">Why Choose <span style="color: #76b543;">Pi Public Cloud Services</span>?</h3>
+<!-- <h3 class="text-center" style="font-size: 28px; margin: 20px 0;">Why Choose <span style="color: #76b543;">Pi Public Cloud Services</span>?</h3> -->
 
 <div class="hb-productHead">
     <p>Pi Multi Cloud, the flagship offering from Pi DATACENTERSÂ®, presents a distinctive proposition to enterprises seeking an optimized cloud hosting strategy. By seamlessly orchestrating diverse workloads across multiple premier cloud providers, it empowers businesses to harness the full spectrum of advantages each provider offers while effectively counterbalancing any inherent limitations.
@@ -442,7 +442,7 @@ include_once('includes/header.php');
 
 <div class="container product">
     <div class="row">
-        <!-- <h3 class="text-center" style="font-size: 28px; margin: 20px 0;">Why Choose Pi Public Cloud Services? </h3> -->
+        <h3 class="text-center" style="font-size: 28px; margin: 20px 0;">Why Choose <span style="color: #76b543;">Pi Public Cloud Services</span>?</h3>
 
         <div class="box">
             <div class="jCont col-md-2">
@@ -648,7 +648,7 @@ include_once('includes/header.php');
             <div class="skltbs-panel current " id="tab-1">
                 <ul class="hb-productSec list-inline">
                     <div class="hb-leftCont hb_ppCont">
-                        <p>Pi Cloud Managed Multi-Cloud Services offer businesses the flexibility to choose from multiple cloud providers, including AWS, Azure, Google Cloud, and Oracle, while ensuring seamless integration and efficient management of all cloud services.</p>
+                        <p>Pi Managed Multi-Cloud Services offer businesses the flexibility to choose from multiple cloud providers, including AWS, Azure, Google Cloud, and Oracle, while ensuring seamless integration and efficient management of all cloud services.</p>
                         <p>Our managed multi-cloud services are designed to meet the growing demand for scalable, secure, and high-performance cloud computing solutions. Our team of cloud specialists has extensive expertise in designing, implementing, and managing multi-cloud environments, helping businesses optimize their cloud infrastructure to achieve their desired outcomes.</p>
                         <p>Our managed multi-cloud services offer businesses the peace of mind they need to focus on their core activities while we manage their cloud environment. If you're looking for a reliable and efficiently managed multi-cloud service provider, Pi Cloud is the perfect partner for your business.</p><br>
                         <!--<span>

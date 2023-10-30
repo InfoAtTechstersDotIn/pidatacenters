@@ -44,7 +44,6 @@
     <!-- SET: Stylesheet -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link href="css/bootstrap4hack.css" rel="stylesheet" type="text/css">
-    <link href="press-style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -54,6 +53,8 @@
     <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="press-style.css" rel="stylesheet">
+
     <link href="css/responsive.css" rel="stylesheet" type="text/css">
     <link rel="canonical" href="<?php echo $seo_canonical; ?>" />
     <!--[if lt IE 9]>
@@ -148,24 +149,24 @@
                 <div class="container">
                     <div class="header-dtls">
                         <div class="header-lt ">
-                            <a href="https://pidatacenters.com" target="_blank">
+                            <a href="https://pidatacenters.com">
                                 <img src="images/logo-wt.png" alt="logo" width="186" height="76">
                             </a>
                         </div>
                         <div class="header-rt">
                             <nav>
                                 <ul class="clear">
-                                    <li class=""><a href="https://pidatacenters.com/" target="_blank"><i class="fa fa-home" style="color:black"></i></a></li>
+                                    <li class=""><a href="https://pidatacenters.com/"><i class="fa fa-home" style="color:black"></i></a></li>
 
 
                                     <li><a href="JavaScript:void(0);" class=" drop-arrow">DATA CENTER</a>
                                         <div class="drop-down">
                                             <ul>
                                                 <li>
-                                                    <a href="https://pidatacenters.com/data-center-infrastructure-services.php" target="_blank">Colocation</a>
+                                                    <a href="data-center-infrastructure-services.php">Colocation</a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://pidatacenters.com/data-center-infrastructure-services-advisory.php" target="_blank">Data Center Infrastructure & Services</a>
+                                                    <a href="data-center-infrastructure-services-advisory.php">Data Center Infrastructure & Services</a>
                                                 </li>
 
                                                 <li class="down-ar">
@@ -174,10 +175,10 @@
                                                     <div class="drop-down2">
                                                         <ul>
                                                             <li>
-                                                                <a href="https://pidatacenters.com/dc-design-planning.php" target="_blank">Data Center Design & Planning</a>
+                                                                <a href="dc-design-planning.php">Data Center Design & Planning</a>
                                                             </li>
                                                             <li>
-                                                                <a href="https://pidatacenters.com/dc-build.php" target="_blank">Data Center Build & Operate</a>
+                                                                <a href="dc-build.php">Data Center Build & Operate</a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -187,26 +188,28 @@
                                     </li>
                                     <!--<li><a href="https://pi-cloud.in/" target="_blank">CLOUD</a></li>-->
 
-                                    <li class=""><a href="https://pidatacenters.com/pi-cloud/" target="_blank" class=" drop-arrow">CLOUD</a>
+                                    <li class=""><a href="./pi-cloud/" class=" drop-arrow">CLOUD</a>
                                         <div class="drop-down">
                                             <ul>
                                                 <li>
-                                                    <a href="https://pidatacenters.com/pi-cloud/multi-cloud" target="_blank">Public Cloud</a>
+                                                    <!--<a href="./pi-cloud/multi-cloud">Public Cloud</a>-->
+                                                    <a href="./pi-cloud/public-cloud">Public Cloud</a>
+
                                                 </li>
                                                 <li>
-                                                    <a href="https://pidatacenters.com/pi-cloud/compute" target="_blank">Private Cloud</a>
+                                                    <a href="./pi-cloud/compute">Private Cloud</a>
                                                 </li>
-                                                <li><a href="https://pidatacenters.com/pi-cloud/sap" target="_blank">SAP on Cloud</a></li>
-                                                <li><a href="https://pidatacenters.com/pi-cloud/products-home" target="_blank">Other Could Services</a></li>
+                                                <li><a href="./pi-cloud/sap">SAP on Cloud</a></li>
+                                                <li><a href="./pi-cloud/products-home">Other Could Services</a></li>
                                                 <li>
-                                                    <a href="https://pidatacenters.com/certifications.php" target="_blank"> Cloud Certifications</a>
+                                                    <a href="certifications.php"> Cloud Certifications</a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://pidatacenters.com/pi-cloud/industry-solutions" target="_blank">Industry Solutions</a>
+                                                    <a href="./pi-cloud/industry-solutions">Industry Solutions</a>
                                                 </li>
 
                                                 <li>
-                                                    <a href="https://pidatacenters.com/pi-cloud/managed-services" target="_blank">Cloud Enablement</a>
+                                                    <a href="./pi-cloud/managed-services">Cloud Enablement</a>
                                                 </li>
 
                                                 <!--<li>
@@ -221,13 +224,18 @@
                                         <div class="drop-down">
                                             <ul>
                                                 <li>
-                                                    <a href="https://pidatacenters.com/pi-cloud/multi-cloud#servicemodel" target="_blank">Public Cloud
+                                                    <!-- <a href="./pi-cloud/multi-cloud#servicemodel">Public Cloud
+Managed
+
+Services</a>    -->
+
+                                                    <a href="./pi-cloud/multicloud-managed-services">Multi Cloud
                                                         Managed
 
                                                         Services</a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://pidatacenters.com/rims.php" target="_blank">RIMS</a>
+                                                    <a href="rims.php">RIMS</a>
                                                 </li>
                                                 <!--
                                     <li>
@@ -235,13 +243,13 @@
                                     </li>
 -->
                                                 <li>
-                                                    <a href="https://pidatacenters.com/noc.php" target="_blank">NOC</a>
+                                                    <a href="noc.php">NOC</a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://pidatacenters.com/soc.php" target="_blank">SOC</a>
+                                                    <a href="soc.php">SOC</a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://pidatacenters.com/devops.php" target="_blank">DevOps</a>
+                                                    <a href="devops.php">DevOps</a>
                                                 </li>
 
                                             </ul>
@@ -253,13 +261,13 @@
                                         <a href="JavaScript:void(0);" class=" drop-arrow">PRODUCTS</a>
                                         <div class="drop-down">
                                             <ul>
-                                                <li><a href="https://pidatacenters.com/pi-cloud/security" target="_blank">Cyber Security</a></li>
-                                                <li><a href="https://pidatacenters.com/pi-cloud/ip-exchange" target="_blank">Internet Exchange (IPX)</a></li>
+                                                <li><a href="./pi-cloud/security">Cyber Security</a></li>
+                                                <li><a href="./pi-cloud/ip-exchange">Internet Exchange (IPX)</a></li>
                                                 <li>
-                                                    <a href="https://pidatacenters.com/harbourfront-services.php" target="_blank">HarbourFront (CDN)</a>
+                                                    <a href="harbourfront-services.php">HarbourFront (CDN)</a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://pidatacenters.com/pi-work-spaces.php" target="_blank">Pi Workspaces (VDI)</a>
+                                                    <a href="pi-work-spaces.php">Pi Workspaces (VDI)</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -270,13 +278,13 @@
                                         <div class="drop-down">
                                             <ul>
                                                 <li>
-                                                    <a href="https://pidatacenters.com/pi-cloud/pricing/#/cloudServers" target="_blank">Cloud Servers</a>
+                                                    <a href="./pi-cloud/pricing/#/cloudServers">Cloud Servers</a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://pidatacenters.com/pi-cloud/pricing/#/cloudStorage" target="_blank">Cloud Storage</a>
+                                                    <a href="./pi-cloud/pricing/#/cloudStorage">Cloud Storage</a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://pidatacenters.com/rent-server.php" target="_blank">Rent A Server</a>
+                                                    <a href="rent-server.php">Rent A Server</a>
                                                 </li>
                                                 <li>
                                                     <a href="https://picloud.ai/">Rent GPU Servers</a>
@@ -294,22 +302,22 @@
                                                     <div class="drop-down2 drop-down4">
                                                         <ul>
                                                             <li>
-                                                                <a href="https://pidatacenters.com/about.php" target="_blank">About us</a>
+                                                                <a href="about.php">About us</a>
                                                             </li>
 
                                                             <li>
-                                                                <a href="https://pidatacenters.com/leadership.php" target="_blank">Leadership</a>
+                                                                <a href="leadership.php">Leadership</a>
                                                             </li>
 
                                                             <li>
-                                                                <a href="https://pidatacenters.com/awards-recognition.php" target="_blank">Awards &amp; Recognition</a>
+                                                                <a href="awards-recognition.php">Awards &amp; Recognition</a>
                                                             </li>
 
                                                             <li>
-                                                                <a href="https://pidatacenters.com/testimonial.php" target="_blank">Testimonials</a>
+                                                                <a href="testimonial.php">Testimonials</a>
                                                             </li>
                                                             <li>
-                                                                <a href="https://pidatacenters.com/certifications.php" target="_blank">Certifications</a>
+                                                                <a href="certifications.php">Certifications</a>
                                                             </li>
 
 
@@ -319,13 +327,13 @@
                                                     </div>
                                                 </li>
                                                 <li>
-                                                    <a href="https://pidatacenters.com/ceo-corner.php" target="_blank">
+                                                    <a href="ceo-corner.php">
                                                         CEO Corner
                                                     </a>
 
                                                 </li>
                                                 <li>
-                                                    <a href="https://pidatacenters.com/pi-cloud/partners" target="_blank">Partner Portal</a>
+                                                    <a href="./pi-cloud/partners">Partner Portal</a>
                                                 </li>
 
                                                 <li class="down-ar">
@@ -333,21 +341,21 @@
                                                     <div class="drop-down2 drop-down4">
                                                         <ul>
                                                             <li>
-                                                                <a href="https://pidatacenters.com/case-studies.php" target="_blank">Case Studies</a>
+                                                                <a href="case-studies.php">Case Studies</a>
                                                             </li>
                                                             <li>
-                                                                <a href="https://pidatacenters.com/blogs.php" target="_blank">Blogs</a>
-                                                            </li>
-
-                                                            <li>
-                                                                <a href="https://pidatacenters.com/whitepapers.php" target="_blank">Whitepapers</a>
+                                                                <a href="blogs.php">Blogs</a>
                                                             </li>
 
                                                             <li>
-                                                                <a href="https://pidatacenters.com/brochure.php" target="_blank">Brochure</a>
+                                                                <a href="whitepapers.php">Whitepapers</a>
+                                                            </li>
+
+                                                            <li>
+                                                                <a href="brochure.php">Brochure</a>
                                                             </li>
                                                             <li>
-                                                                <a href="https://pidatacenters.com/knowledge-hub" target="_blank">Knowledge Hub</a>
+                                                                <a href="knowledge-hub">Knowledge Hub</a>
                                                             </li>
 
 
@@ -360,13 +368,13 @@
                                                     <div class="drop-down2 drop-down4">
                                                         <ul>
                                                             <li>
-                                                                <a href="https://pidatacenters.com/press-releases.php" target="_blank">Press Release</a>
+                                                                <a href="press-releases.php">Press Release</a>
                                                             </li>
                                                             <li>
-                                                                <a href="https://pidatacenters.com/gallery.php" target="_blank">Gallery</a>
+                                                                <a href="gallery.php">Gallery</a>
                                                             </li>
                                                             <li>
-                                                                <a href="https://pidatacenters.com/videos.php" target="_blank">Videos</a>
+                                                                <a href="videos.php">Videos</a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -376,10 +384,10 @@
                                                     <div class="drop-down2 drop-down4">
                                                         <ul>
                                                             <li>
-                                                                <a href="https://pidatacenters.com/privacy-policy.php" target="_blank">Privacy Policy</a>
+                                                                <a href="https://pidatacenters.com/privacy-policy.php">Privacy Policy</a>
                                                             </li>
                                                             <li>
-                                                                <a href="https://pidatacenters.com/acceptable-use-policy.php" target="_blank">Acceptable Use Policy</a>
+                                                                <a href="https://pidatacenters.com/acceptable-use-policy.php">Acceptable Use Policy</a>
                                                             </li>
 
                                                         </ul>
@@ -390,17 +398,17 @@
                                                     <div class="drop-down2 drop-down4">
                                                         <ul>
                                                             <li>
-                                                                <a href="https://pidatacenters.com/life-at-pi.php" target="_blank">Life at Pi</a>
+                                                                <a href="life-at-pi.php">Life at Pi</a>
                                                             </li>
                                                             <li>
-                                                                <a href="https://pidatacenters.com/work-with-us.php" target="_blank">Openings</a>
+                                                                <a href="work-with-us.php">Openings</a>
                                                             </li>
 
                                                         </ul>
                                                     </div>
                                                 </li>
                                                 <li>
-                                                    <a href="https://pidatacenters.com/contact-us.php" target="_blank">Contact us</a>
+                                                    <a href="contact-us.php">Contact us</a>
 
                                                 </li>
 
@@ -446,7 +454,8 @@
                     </li>
                     <li id="nav-menu-item-14" class="main-menu-item  menu-item-even menu-item-depth-0 single-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a title="ABOUT US" href="./pi-cloud/" class="menu-link main-menu-link">CLOUD</a><span class="sub-menu-icon"></span>
                         <ul class="sub-menu menu-odd  menu-depth-1">
-                            <li id="nav-menu-item-172" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page"><a title="Leadership" href="./pi-cloud/multi-cloud" class="menu-link sub-menu-link">Public Cloud</a></li>
+                            <li id="nav-menu-item-172" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page"><!--<a title="Leadership" href="./pi-cloud/multi-cloud" class="menu-link sub-menu-link">Public Cloud</a>--> <a href="./pi-cloud/public-cloud">Public Cloud</a>
+                            </li>
                             <li id="nav-menu-item-843" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom"><a title="News" href="./pi-cloud/compute" class="menu-link sub-menu-link">Private Cloud</a></li>
                             <li id="nav-menu-item-843" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom"><a title="News" href="./pi-cloud/sap" class="menu-link sub-menu-link">SAP on Cloud</a></li>
                             <li id="nav-menu-item-843" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom"><a title="News" href="./pi-cloud/products-home" class="menu-link sub-menu-link">Other Could Services</a></li>
@@ -478,10 +487,14 @@
 
                     <li id="nav-menu-item-3445" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="JavaScript:void(0);" class="menu-link sub-menu-link">MANAGED SERVICES</a><span class="sub-menu-icon"></span>
                         <ul class="sub-menu menu-even sub-sub-menu menu-depth-2">
-                            <li id="nav-menu-item-3870" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom"><a href="./pi-cloud/multi-cloud#servicemodel" class="menu-link sub-menu-link">Public Cloud
+                            <li id="nav-menu-item-3870" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom"><!--<a href="./pi-cloud/multi-cloud#servicemodel" class="menu-link sub-menu-link">Public Cloud
+Managed
+
+Services</a>--> <a href="./pi-cloud/multicloud-managed-services">Multi Cloud
                                     Managed
 
-                                    Services</a></li>
+                                    Services</a>
+                            </li>
                             <li id="nav-menu-item-3869" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom"><a href="rims.php" class="menu-link sub-menu-link">RIMS</a></li>
                             <!--		<li id="nav-menu-item-3870" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom"><a href="#" class="menu-link sub-menu-link">Public Cloud Support</a></li>-->
                             <li id="nav-menu-item-3871" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom"><a href="noc.php" class="menu-link sub-menu-link">NOC</a></li>
