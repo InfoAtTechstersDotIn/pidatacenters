@@ -5,7 +5,7 @@ $seo_keywords = "Data center services, cloud services, data center sercices prov
 ?>
 
 <?php ob_start(); ?>
-<?php include('php/inner-header.php'); ?>
+<?php include('php/includes-techsters/header.php'); ?>
 <!-- main starts here -->
 <?php
 $servername = "localhost";
@@ -337,10 +337,6 @@ if (isset($_POST['button']) && isset($_FILES['attachment'])) {
                     <input type="file" name="attachment" required style="background-color:none !important;">
                 </li>
                 <li class="col-12">
-                    <!-- <iframe src="//searchmarketingsolved.com/Forms/gfembed/?f=25" width="100%" height="500" frameBorder="0" class="gfiframe"></iframe>
-                    <script src="//searchmarketingsolved.com/Forms/wp-content/plugins/gravity-forms-iframe-develop/assets/scripts/gfembed.min.js" type="text/javascript"></script> -->
-                </li>
-                <li class="col-12">
                     <textarea name="message" placeholder="Massage About You"></textarea>
                 </li>
                 <li class="col-12">
@@ -353,7 +349,7 @@ if (isset($_POST['button']) && isset($_FILES['attachment'])) {
 
 
 
-<?php include('php/footer.php'); ?>
+<?php include('php/includes-techsters/footer.php'); ?>
 
 
 

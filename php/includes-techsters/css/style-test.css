@@ -1177,7 +1177,7 @@ header.white-bg .header-rt ul li a {
 }
 
 .footer-about {
-    background: url(../images/footer-bg.png) no-repeat center;
+    background: url(https://pidatacenters.com/images/footer-bg.png) no-repeat center;
     width: 100%;
     padding: 10px 0 0;
     background-size: cover;
@@ -2571,7 +2571,7 @@ font-s .director-lt-cnt h3 {
     position: absolute;
     top: 0;
     right: 0;
-    color: #ffffff;
+    color: black;
     content: "\f107";
     font-family: "FontAwesome";
     font-size: 22px;
@@ -5615,7 +5615,7 @@ p.paraclass:before {
     position: absolute;
     top: -6px;
     right: auto;
-    background: url(../images/dc-icon-1.png) no-repeat;
+    background: url(https://picloud.ai/images/dc-icon-1.png) no-repeat;
     width: 35px;
     height: 35px;
     content: "";
@@ -5719,7 +5719,7 @@ p.paraclass:before {
 .features-of-amaravathi-btm p {
     color: #000000;
     padding: 0 0 10px;
-   /* text-align: justify; */
+    /* text-align: justify; */
 }
 
 .features-of-amaravathi-btm h3 {
@@ -6566,7 +6566,7 @@ h2.ceo-corner {
 }
 
 .dc-download-brochure {
-    background: url(../images/dc-db.png) no-repeat center;
+    background: url(https://pidatacenters.com/images/dc-db.png) no-repeat center;
     width: 100%;
     padding: 60px;
     background-size: cover;
@@ -7652,5 +7652,5 @@ article.tabs section:target h2 {
 }
 
 .features-of-amaravathi-btm p {
-       font-size: 15px !important;
+    font-size: 15px !important;
 }

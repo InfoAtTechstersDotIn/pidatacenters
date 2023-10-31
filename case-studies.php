@@ -4,7 +4,7 @@ $seo_description = "Pi Datacenters' case studies on successful implementation of
 $seo_keywords = "data center Case Studies, cloud migration, cyber security, data center services, best data ceenters, data center networking";
 ?>
 
-<?php include('php/inner-header.php'); ?>
+<?php include('php/includes-techsters/header.php'); ?>
 <!-- main starts here -->
 <?php
 $servername = "localhost";
@@ -232,7 +232,7 @@ while($row=mysqli_fetch_array($g))
                                 <figure>
                                     <img src="dashboard/uploads/services/Cybersecurity1.png" alt="case-studies-1" width="450" height="248">
                                 </figure>
-                                <h4>Cybersecurity @Pi®</h4>
+                                <h4>Cybersecurity @Pi&#174</h4>
 
                                 <a href="cybersecurity-harbour1-case-study.php" class="download">Download case study</a>
                             </div>
@@ -502,7 +502,7 @@ while($row=mysqli_fetch_array($g))
         </div>
     </div>
 </div>
-<?php include('php/footer.php'); ?>
+<?php include('php/includes-techsters/footer.php'); ?>
 
 <div id="modal-1" class="modalDialog">
     <div class="fill-your-details">

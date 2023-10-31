@@ -60,7 +60,7 @@ $seo_title = "Get in Touch with Us - Pi Datacenters | Data Center Networking Pro
 $seo_description = "Contact our experts today at Pi Datacenters and explore possibilities for your data storage, management & analytics needs with India's best data center networking provider. Get expert solutions for every data storage, server & cloud requirement.";
 $seo_keywords = "Contact Us, best data centers, data center services,  Data center networking provider in india";
 ?>
-<?php include('php/inner-header.php'); ?>
+<?php include('php/includes-techsters/header.php'); ?>
 
 
 
@@ -108,7 +108,7 @@ $seo_keywords = "Contact Us, best data centers, data center services,  Data cent
                 <h3 class=" cont">Contact Information</h3>
                 <p class="paraclass "><b style="color:#ffffff;">Vijayawada DC</b> <br> Survey # 49/P, Plot no -12. IT<br> Park, Autonagar, Mangalagiri,<br> Andhra Pradesh 522503</p>
                 <p class="paraclass "><b style="color:#ffffff;">Kochi DC</b> <br> Kottapuram Road, Aroor<br> Kochi - Kerala <br> Pin: 682042</p>
-                <p class="paraclass "><b style="color:#ffffff;">Hyderabad DC</b> <br> 12th Floor, Vijaya Krishna Towers, <br>Besides Fairfield by Marriott, <br> Financial District Gachibowli, <br>near Golf Edge Residence Road,<br> Apartments, Hyderabad, Telangana 500032</p>
+                <p class="paraclass "><b style="color:#ffffff;">Hyderabad DC</b> <br> 12th Floor, Vijaya Krishna Towers, <br>Besides Fairfield by Marriott, <br> Financial District Gachibowli, <br>Near Golf Edge Residence Road,<br> Apartments, Hyderabad, Telangana&nbsp500032</p>
                 <ul>
 
                   <li>
@@ -132,13 +132,14 @@ SRR Middle East FZCO Technology Park, Mina-Jebel Ali, National Industrial Park,D
             <div id="tab-2" class="tab-content">
               <div class="contact-information">
                 <h3 class=" cont">Contact Information</h3>
-                <!-- <p class="paraclass ">Pi DataCenters Pvt. Ltd.
+                <!--<p class="paraclass ">Pi DataCenters Pvt. Ltd.
 B904 & 905
 The Platina, Gachibowli,
-Hyderabad, Telangana.Pin: 500032</p> -->
-                <p class="paraclass ">
-                  Pi DataCenters Pvt. Ltd. 12th Floor, <br> Vijay Krishna Tower, Financial District, <br>Gachibowli, Next To Hotel Fairfield,500008
-                </p>
+Hyderabad, Telangana.Pin: 500032</p>-->
+
+                <p class="paraclass ">Pi DataCenters Pvt. Ltd.
+                  12th Floor, Vijaya Krishna Towers, <br>Besides Fairfield by Marriott, <br> Financial District Gachibowli, <br>Near Golf Edge Residence Road,<br> Apartments, Hyderabad, Telangana&nbsp500032</p>
+
                 <ul>
 
                   <li>
@@ -217,7 +218,7 @@ SRR Middle East FZCO Technology Park, Mina-Jebel Ali, National Industrial Park,D
 
 
 
-<?php include('php/footer.php'); ?>
+<?php include('php/includes-techsters/footer.php'); ?>
 
 
 <!--footer ends-->

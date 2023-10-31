@@ -46,7 +46,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="./<?= $config['subFolderName'] ?>/css/minified/darkmode.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost/pidatacenters/pi-cloud/css/minified/darkmode.css">
     <link rel="stylesheet" type="text/css" href="./<?= $config['subFolderName'] ?>/css/minified/common.min.css?v=1.1">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick.css">

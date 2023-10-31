@@ -4,7 +4,7 @@ $seo_description = "Pi Datacenters - World-Class Data Center Infrastructure & Co
 $seo_keywords = "Data Center Infrastructure, colocation data center services, colocation services, Colocation data center providers, data center solution providers, data center management, data center solutions, data centers";
 ?>
 
-<?php include('php/inner-header.php'); ?>
+<?php include('php/includes-techsters/header.php'); ?>
 <!-- main starts here -->
 <div class="about-banner">
     <div class="about-banner-blk">
@@ -438,8 +438,9 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                     <p>1. N+1 Fault Tolerant Modular Architecture provides at least 48 hours of Power Outage Protection. </p>
                                     <p>2. Utility Power through Independent Routes from Dual Substations </p>
                                     <p>3. 2N Uninterruptible UPS, DG set and Redundant Utility Power </p>
-                                    <p>4. N+1 cooling system redundancy for better temperature management </p>
-                                    <p>5. Global standard uptime of 99.95% </p>
+                                    <p>4. N+1 cooling system redundancy for better temperature management</p>
+                                    <p>5. Global standard uptime of 99.982%</p>
+
 
                                     <a href="#modal-3">Read more</a>
                                 </div>
@@ -582,7 +583,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
     </div>
 </div>
 <div class="our-features">
-    <div class="container">
+    <div class="container-fluid">
         <div class="our">
             <h2 style="text-align:center;color:black">Our <span style="color:#7BBC42">Features</span></h2><br>
         </div>
@@ -1019,7 +1020,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
 
 
 <!--footer block starts -->
-<?php include('php/footer.php'); ?>
+<?php include('php/includes-techsters/footer.php'); ?>
 
 <div id="modal-1" class="modalDialog">
     <div class="fill-your-details">

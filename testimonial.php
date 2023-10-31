@@ -5,7 +5,7 @@ $seo_description = "Testimonials from our clients say about us. Being the most r
 $seo_keywords = "Data Center & Cloud related services, reliable Data Center & Cloud Partner, best datacenters in india, pi datacenters, professional Hyperscale Data Center, Data centers";
 ?>
 
-<?php include('php/inner-header.php'); ?>
+<?php include('php/includes-techsters/header.php'); ?>
 <?php
 $servername = "localhost";
 $username = "marcom";
@@ -346,7 +346,7 @@ if ($conn->connect_error) {
         </div>
     </div>
 </div>
-<?php include('php/footer.php'); ?>
+<?php include('php/includes-techsters/footer.php'); ?>
 <div id="modal-1" class="modalDialog">
     <div>
         <a href="#close" title="Close" class="close">x</a>
@@ -360,7 +360,7 @@ if ($conn->connect_error) {
                         </div>
                         <div class="director-rt col-md-8">
 
-                            <p>"As a Business IT owner for one of the largest fertilizer manufacturing companies in India and pioneer in providing need-based solutions for the farming community throughout the country, I can attest to the power of technology in streamlining processes, managing employee records, and cost optimization. At SPIC we made the decision to go with Pi as our cloud partner after thorough industry research and our experience with other Indian and global cloud players. Pi has been delivering exemplary service experience through its commitment to best practices and cost-effective solutions. It has been a magnificent journey with Pi. We highly recommend them to other industry peers as a reliable Data Center & Cloud Partner for hosting their mission-critical business data."</p>
+                            <p>&#8220; As a Business IT owner for one of the largest fertilizer manufacturing companies in India and pioneer in providing need-based solutions for the farming community throughout the country, I can attest to the power of technology in streamlining processes, managing employee records, and cost optimization. At SPIC we made the decision to go with Pi as our cloud partner after thorough industry research and our experience with other Indian and global cloud players. Pi has been delivering exemplary service experience through its commitment to best practices and cost-effective solutions. It has been a magnificent journey with Pi. We highly recommend them to other industry peers as a reliable Data Center & Cloud Partner for hosting their mission-critical business data."</p>
                             <h3> N Rajagopalan</h3>
                             <h4> Head IT</h4>
                             <h5> Southern Petrochemical Industries Corporation</h5>
@@ -384,7 +384,7 @@ if ($conn->connect_error) {
                         </div>
                         <div class="director-rt col-md-8">
 
-                            <p>"We have been extremely impressed with the team at Pi Data Centers and their outstanding support in Data Center & Cloud related services availed by us. From the moment we started working with them, they have consistently demonstrated reliability, thoroughness, intelligence, availability, excellent communication, and a friendly demeanor. We highly recommend Pi Data Centers to anyone seeking a productivity-oriented and solution-driven team to manage critical data. We plan to continue working with them as part of our retail outlet expansions and associated long-term vision."</p>
+                            <p>&#8220; We have been extremely impressed with the team at Pi Data Centers and their outstanding support in Data Center & Cloud related services availed by us. From the moment we started working with them, they have consistently demonstrated reliability, thoroughness, intelligence, availability, excellent communication, and a friendly demeanor. We highly recommend Pi Data Centers to anyone seeking a productivity-oriented and solution-driven team to manage critical data. We plan to continue working with them as part of our retail outlet expansions and associated long-term vision. &#8221;</p>
                             <h3> Sanketh Chukkapalli</h3>
                             <h4> Managing Director</h4>
                             <h5> Popular Shoe Mart</h5>
@@ -407,7 +407,7 @@ if ($conn->connect_error) {
                         </div>
                         <div class="director-rt col-md-8">
 
-                            <p>"Pi helped us enhance our cloud journey and gave us a robust platform for our DR, UAT, and Test environments for both SAP & Non- SAP. When we transformed our digital journey with Pi Datacenters, Our business growth improved with its flexibility, scalability, and accessibility with a solution. Our Expected TCO turned into reality over the past four years."</p>
+                            <p>&#8220; Pi helped us enhance our cloud journey and gave us a robust platform for our DR, UAT, and Test environments for both SAP & Non- SAP. When we transformed our digital journey with Pi Datacenters, Our business growth improved with its flexibility, scalability, and accessibility with a solution. Our Expected TCO turned into reality over the past four years. &#8221;</p>
                             <!--<h3>Niyogin Fintech</h3>-->
                             <h3>Chandrakant Ovhal</h3>
                             <h4> Head of IT Infrastructure </h4>
@@ -432,7 +432,7 @@ if ($conn->connect_error) {
                         </div>
                         <div class="director-rt col-md-8">
 
-                            <p>"Pi Datacenters, with their proven experience in working with banks and NBFCs, made it simple for us to colocate our servers to their Data Centers. They began helping us plan our journey from On-premise to Hosting on a professional Hyperscale Data Center. From the moment we signed up, we knew we made the right choice. Pi had a proper SOP in place to analyze our current environment, a thorough migration plan, and a quick go-live with near ZERO downtime. This gave us, as a bank and our customers, a seamless experience. To date, their account management and post-delivery support gave us no reason to complain. We would be more than happy to recommend Pi Data Centers to other banks and companies."</p>
+                            <p>&#8220; Pi Datacenters, with their proven experience in working with banks and NBFCs, made it simple for us to colocate our servers to their Data Centers. They began helping us plan our journey from On-premise to Hosting on a professional Hyperscale Data Center. From the moment we signed up, we knew we made the right choice. Pi had a proper SOP in place to analyze our current environment, a thorough migration plan, and a quick go-live with near ZERO downtime. This gave us, as a bank and our customers, a seamless experience. To date, their account management and post-delivery support gave us no reason to complain. We would be more than happy to recommend Pi Data Centers to other banks and companies. &#8221;</p>
                             <!--<h3>PDCC</h3>-->
                             <h3>Vijay Pawar</h3>
                             <h4> DGM IT </h4>
@@ -457,7 +457,7 @@ if ($conn->connect_error) {
                         </div>
                         <div class="director-rt col-md-8">
 
-                            <p>"Kirloskar Management Services values technology as a key factor in driving business growth and has adopted the cloud to enhance efficiency and provide seamless solutions. We chose Pi as our cloud partner due to their technical proficiency, expertise in handling complex PLM workloads, excellent account management, and quick resolution of issues. Our experience with Pi has been outstanding, with consistent delivery on promises and minimal change requests. We highly recommend them to our industry peers as true partners for any data center needs."</p>
+                            <p>&#8220; Kirloskar Management Services values technology as a key factor in driving business growth and has adopted the cloud to enhance efficiency and provide seamless solutions. We chose Pi as our cloud partner due to their technical proficiency, expertise in handling complex PLM workloads, excellent account management, and quick resolution of issues. Our experience with Pi has been outstanding, with consistent delivery on promises and minimal change requests. We highly recommend them to our industry peers as true partners for any data center needs. &#8221;</p>
                             <h3>Mandar Sahasrabudhe</h3>
                             <h4>Group CTO</h4>
                             <h5>Kirloskar Management Services</h5>
@@ -519,7 +519,7 @@ if ($conn->connect_error) {
                         </div>
                         <div class="director-rt col-md-8">
 
-                            <p>"As a rapidly expanding cooperative bank celebrating its 25th anniversary, we found an indispensable partner in Pi Datacenters. Their cutting-edge design and build approach, combined with quick time-to-market enablement capabilities, helped us build a robust in-house data center infrastructure within the defined timeline. Their stringent security protocols and seamless migration process empowered us to navigate regulatory mandates, upgrade legacy systems, and elevate operational efficiency. Pi Datacenters' commitment to operational excellence and innovative approach fortified our position as a leading financial institution in the region. With utmost appreciation, we commend Pi Datacenters for their outstanding work and look forward to sustained success through this invaluable partnership."</p>
+                            <p>&#8220; As a rapidly expanding cooperative bank celebrating its 25th anniversary, we found an indispensable partner in Pi Datacenters. Their cutting-edge design and build approach, combined with quick time-to-market enablement capabilities, helped us build a robust in-house data center infrastructure within the defined timeline. Their stringent security protocols and seamless migration process empowered us to navigate regulatory mandates, upgrade legacy systems, and elevate operational efficiency. Pi Datacenters' commitment to operational excellence and innovative approach fortified our position as a leading financial institution in the region. With utmost appreciation, we commend Pi Datacenters for their outstanding work and look forward to sustained success through this invaluable partnership. &#8221;</p>
                             <h3>Satish Ayalwar </h3>
                             <h4>CEO</h4>
                             <h5>GDCC Bank</h5>
@@ -722,8 +722,6 @@ if ($conn->connect_error) {
 
 <!--footer ends-->
 </div>
-
-
 
 
 <!-- wrapper ends -->

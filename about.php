@@ -4,7 +4,11 @@ $seo_description = "Pi Datacenters is India's First Greenfield and World's 4th L
 ";
 $seo_keywords = "About datacenters, Data center provider, leading data center, Best Multi-Tenant Data Center, Pi Datacenters,  Data center networking provider in india";
 ?>
-<?php include('php/inner-header.php'); ?>
+
+
+
+<?php include('php/includes-techsters/header.php'); ?>
+
 <!-- main starts here -->
 <div class="about-banner">
     <div class="about-banner-blk">
@@ -143,7 +147,9 @@ $seo_keywords = "About datacenters, Data center provider, leading data center, B
     </div>
 </div>
 
-<?php include('php/footer.php'); ?>
+<?php include('php/includes-techsters/footer.php'); ?>
+
+
 <!-- wrapper ends -->
 <script src="js/wow.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

@@ -30,9 +30,10 @@
         nav ul li {
             list-style-type: none;
             position: relative;
-            padding: 10px 20px;
+            padding: 12px 13px;
             transition: all 0.3s ease-out 0s;
             -webkit-transition: all 0.3s ease-out 0s;
+            margin: 0 5px !important;
         }
 
         nav ul li a {
@@ -42,6 +43,7 @@
             font-family: 'Poppins', sans-serif;
             transition: all 0.3s ease-out 0s;
             -webkit-transition: all 0.3s ease-out 0s;
+            font-size: 15px;
         }
 
         nav ul li .drop-down {
@@ -154,11 +156,32 @@
 
         .fa-bars {
             display: block;
+
+            font-size: 23px;
         }
+
 
         .logo img {
             width: 100%;
             max-width: 120px;
+        }
+
+
+        .fonts {
+            font-size: 23px !important;
+        }
+
+
+
+        .nav_items_ul {
+            /* display: block; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        i.fa.fa-home {
+            font-size: 23px;
         }
 
         @media only screen and (max-width: 991px) {
