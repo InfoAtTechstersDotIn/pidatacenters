@@ -925,7 +925,7 @@
                                 </div>
                                 <div class="product-lt col-lg-8 ">
                                     <div class="desktop-headings">
-                                        <span style="color:#ffffff;font-size:17px;line-height:26px;"> Who We Are</span>
+                                        <span style="color:#000;font-size:17px;line-height:26px;"> Who We Are</span>
                                         <h2>Architecting the Digital Future of Businesses</h2>
                                     </div>
                                     <p>UPTIME INSTITUTE TIER IV-Certified Infrastructure makes it robust and resilient while providing a transformative experience to our customers.</p>
@@ -1232,7 +1232,7 @@
 
         <div class="backdround-bg1">
             <footer>
-                <div class="footer-about footer-bg" style="background:black">
+                <div class="footer-about footer-bg" style="background:white">
                     <div class="container-fluid">
                         <div class="row">
 
@@ -1253,7 +1253,7 @@
                                         <li><a href="https://twitter.com/Pi_DATACENTERS" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                                         <li><a href="https://www.facebook.com/PiDATACENTERS/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                         <li><a href="https://youtube.com/@pi_datacenters" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://api.whatsapp.com/send?phone=+918712630334&amp;text=Hi, I need more information on Pidatacenters" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true" style="background:#00a82d;color:white"></i></a></li>
+                                        <li><a href="https://api.whatsapp.com/send?phone=+918712630334&amp;text=Hi, I need more information on Pidatacenters" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
 
                                     </ul>
                                 </div>

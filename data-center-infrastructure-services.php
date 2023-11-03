@@ -4,9 +4,29 @@ $seo_description = "Pi Datacenters - World-Class Data Center Infrastructure & Co
 $seo_keywords = "Data Center Infrastructure, colocation data center services, colocation services, Colocation data center providers, data center solution providers, data center management, data center solutions, data centers";
 ?>
 
+<!-- <a href="" data-toggle="modal" data-target="#myModal">REACH US</a> -->
 
+<?php include('php/inner-header.php'); ?>
+<style>
+    .anchor-tag {
+        background-color: blue;
+        color: white;
+        width: 100px;
+        text-align: center;
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 5px;
+        position: absolute;
+        top: 120px;
+        left: 40px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
 
-<?php include('php/includes-techsters/header.php'); ?>
+    .anchor-tag:hover {
+        color: white;
+    }
+</style>
 
 <!-- main starts here -->
 <div class="about-banner">
@@ -24,6 +44,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                     <li class="tabBlock-tab  animatable fadeInUp is-active">
                         <a class="nav-link" data-toggle="tab">Colocation
                         </a>
+
                     </li>
                     <li class="tabBlock-tab  animatable fadeInUp">
                         <a class="nav-link" data-toggle="tab">Advisory
@@ -253,6 +274,13 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                     <img src="images/green-amaravati.png" alt="dc-icon-img-1" width="80" height="80">
 
                                 </div>
+
+
+                                <div class="flip-box-back">
+                                    <h2>Back Side</h2>
+                                </div>
+
+
                                 <div class="hide-icon2">
                                     <img src="images/blue-amaravati.png" alt="dc-icon-img-1" width="80" height="80">
 
@@ -1206,6 +1234,12 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
             modalBox.style = "display: none;";
         }
     });
+</script>
+
+
+<script>
+    $(".about-banner-blk").append('<a href="https://pidatacenters.com">Reach Us</a>');
+    $(".about-banner-blk a").addClass("anchor-tag");
 </script>
 </body>
 

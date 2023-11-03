@@ -102,7 +102,7 @@ include_once('includes/header.php');
 								<div class="hb-leftCont hb_ppCont">
 									<h3>Web Application Firewall (WAF)</h3>
 									<h5><strong>Filter , monitor and block unsolicited http traffic</strong></h5>
-									<p>WAF service on Pi Cloud<sup></sup> monitors, logs and analyses the HTTP traffic between enterprise application and internet. It aims to protect against vulnerabilities in the application by filtering out malicious traffic. WAF on pi-cloud<sup>®</sup> protects web applications from cross-site forgery, cross-site-scripting (XSS), file inclusion, and SQL injection, among others that may sabotage important transactions and steal sensitive data. </p>
+									<p>WAF service on Pi Cloud<sup></sup> monitors, logs and analyses the HTTP traffic between enterprise application and internet. It aims to protect against vulnerabilities in the application by filtering out malicious traffic. WAF on pi-cloud<sup>Â®</sup> protects web applications from cross-site forgery, cross-site-scripting (XSS), file inclusion, and SQL injection, among others that may sabotage important transactions and steal sensitive data. </p>
 								</div>
 							</li>
 							<li>
@@ -223,9 +223,6 @@ include_once('includes/header.php');
 		</div>
 	</div>
 </section>
-<?php include("./php/footer.php") ?>
-
 <?php
-// include_once('includes/footer.php');
-include_once('./php/footer.php');
+include_once('includes/footer.php');
 ?>

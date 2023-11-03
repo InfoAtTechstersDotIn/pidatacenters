@@ -1,20 +1,20 @@
 <?php
-   include_once('includes/header.php');
-   ?>
-<!-- header section ends here --> 
-<!-- banner section starts here --> 
+include_once('includes/header.php');
+?>
+<!-- header section ends here -->
+<!-- banner section starts here -->
 <div class="hb-bannerCont">
    <div class="hb-bannerImgCont">
       <div class="hb-bannerImg">
          <picture>
             <source media="(max-width: 767px)" srcset="./<?= $config['subFolderName'] ?>/images/banners/Products-new.png">
-            <img  src="./<?= $config['subFolderName'] ?>/images/banners/Products-new.png" alt="pi-cloud Cloud Backup as a Service Banner" style="width:100%">
-             <h2>Other Cloud Services</h2>
+            <img src="./<?= $config['subFolderName'] ?>/images/banners/Products-new.png" alt="pi-cloud Cloud Backup as a Service Banner" style="width:100%">
+            <h2>Other Cloud Services</h2>
          </picture>
       </div>
    </div>
 </div>
-<!-- banner section end here --> 
+<!-- banner section end here -->
 <div id="banner-content" style="display: none;">
    <div class="container">
       <div class="hb-bannerInfo">
@@ -24,7 +24,7 @@
       <ul class="hb-bannerList list-inline">
          <li>
             <h3>Customized solution</h3>
-            <p>Enterprises who require to host Enterprise  workloads closer to last mile can choose products, services &  Availability Zone(s) that suits Enterprise  needs</p>
+            <p>Enterprises who require to host Enterprise workloads closer to last mile can choose products, services & Availability Zone(s) that suits Enterprise needs</p>
          </li>
          <li>
             <h3>Business Continuity</h3>
@@ -37,16 +37,16 @@
       </ul>
    </div>
 </div>
-<!-- banner section ends here --> 
+<!-- banner section ends here -->
 <div class="explore-dept" style="margin: 48px auto 12px;">
    <div class="container">
       <div class="ex-deptCont">
-         <div class="ex-dept-Left" >
+         <div class="ex-dept-Left">
             <h1 class="heading_text"> Explore Wide Range of<span style="display: block;">Products</h1>
             <p class="heading-para">Platform agnostic product stack on Pi Cloud is designed and developed keeping in mind the business challenges faced by enterprises. Now businesses can pick suitable products to scale, grow and meet industry demands with ease, efficiency and optimised TCO.
-</p>
+            </p>
          </div>
-         <div  class="ex-dept-Right" id="test">
+         <div class="ex-dept-Right" id="test">
             <ul class="list-inline ">
                <!--<li class="dept-list-group eg-heiAuto">
                   <div class="dept-list">
@@ -58,15 +58,15 @@
                      <div class="full-cont hwi">
                         <div class="dep-moreInfp">
                            <h2>Top Picks</h2>
-                           <p>Most featured products and services on pi-cloud<sup>®</sup></p>
+                           <p>Most featured products and services on pi-cloud<sup>Â®</sup></p>
                         </div>
                         <ul class="list-inline child_deptCont">
                            <li>
-                                   <h3><a href="./<?= $config['subFolderName']?>/compute">Virtual Machines</a></h3>
+                                   <h3><a href="./<?= $config['subFolderName'] ?>/compute">Virtual Machines</a></h3>
                                         <p>Develop, deploy & scale enterprise workloads on cloud</p>
                                              </li>
                                               <li>
-                                                <h3><a href="#">pi-cloud<sup>®</sup> @ The Edge</a></h3>
+                                                <h3><a href="#">pi-cloud<sup>Â®</sup> @ The Edge</a></h3>
                                                 <p>Bring  agility and innovation to last mile</p>
                                              </li>
                                             
@@ -123,14 +123,14 @@
                <li class="dept-list-group eg-heiAuto">
                   <div class="dept-list">
                      <div class="grid_view">
-                        <p class="plus_ico"><img src="./pi-cloud/images/Network.svg" alt="Network"/></p>
-                        <h2>Network  </h2>
+                        <p class="plus_ico"><img src="./pi-cloud/images/Network.svg" alt="Network" /></p>
+                        <h2>Network </h2>
                         <p class="hb-grHead"> Connect | Scale | Secure</p>
                      </div>
                      <div class="full-cont hwi">
                         <div class="dep-moreInfp">
                            <h2>Network </h2>
-                           <p>Connect, scale and  secure  enterprise networks.. <a href="./<?= $config['subFolderName'] ?>/network">Learn More ></a></p>
+                           <p>Connect, scale and secure enterprise networks.. <a href="./<?= $config['subFolderName'] ?>/network">Learn More ></a></p>
                         </div>
                         <ul class="list-inline child_deptCont">
                            <li>
@@ -142,8 +142,8 @@
                               <p>Distribute enterprise traffic to achieve fault tolerance</p>
                            </li>
                            <li>
-                              <h3><a href="./<?= $config['subFolderName'] ?>/network">Virtual Private Network  </a></h3>
-                              <p>Remote access & site-site VPN for  enterprise</p>
+                              <h3><a href="./<?= $config['subFolderName'] ?>/network">Virtual Private Network </a></h3>
+                              <p>Remote access & site-site VPN for enterprise</p>
                            </li>
                            <li>
                               <h3><a href="./<?= $config['subFolderName'] ?>/network">SD-WAN</a></h3>
@@ -172,8 +172,8 @@
                <li class="dept-list-group eg-heiAuto">
                   <div class="dept-list">
                      <div class="grid_view">
-                        <p class="plus_ico"><img src="./pi-cloud/images/Storage.svg" alt="Storage"/></p>
-                        <h2>Storage  </h2>
+                        <p class="plus_ico"><img src="./pi-cloud/images/Storage.svg" alt="Storage" /></p>
+                        <h2>Storage </h2>
                         <p class="hb-grHead"> Object | Block | File | Backup</p>
                      </div>
                      <div class="full-cont hwi">
@@ -201,9 +201,9 @@
                <li class="dept-list-group eg-heiAuto">
                   <div class="dept-list">
                      <div class="grid_view">
-                        <p class="plus_ico"><img src="./pi-cloud/images/Security.svg" alt="Security"/></p>
-                        <h2> Cyber Security  </h2>
-                        <p class="hb-grHead">  Infra | End-point | Apps | Manage</p>
+                        <p class="plus_ico"><img src="./pi-cloud/images/Security.svg" alt="Security" /></p>
+                        <h2> Cyber Security </h2>
+                        <p class="hb-grHead"> Infra | End-point | Apps | Manage</p>
                      </div>
                      <div class="full-cont hwi">
                         <div class="dep-moreInfp">
@@ -299,9 +299,9 @@
                <li class="dept-list-group eg-heiAuto">
                   <div class="dept-list">
                      <div class="grid_view">
-                        <p class="plus_ico"><img src="./pi-cloud/images/BCP.svg" alt="BCP"/></p>
-                        <h2>Business Continuity  </h2>
-                        <p class="hb-grHead"> HA | DR | People | Processes  </p>
+                        <p class="plus_ico"><img src="./pi-cloud/images/BCP.svg" alt="BCP" /></p>
+                        <h2>Business Continuity </h2>
+                        <p class="hb-grHead"> HA | DR | People | Processes </p>
                      </div>
                      <div class="full-cont hwi">
                         <div class="dep-moreInfp">
@@ -328,9 +328,9 @@
                <li class="dept-list-group eg-heiAuto">
                   <div class="dept-list">
                      <div class="grid_view">
-                        <p class="plus_ico"><img src="./pi-cloud/images/DevOps.svg" alt="DevOps"/></p>
-                        <h2>DevOps  </h2>
-                        <p class="hb-grHead"> HA | DR | People | Processes  </p>
+                        <p class="plus_ico"><img src="./pi-cloud/images/DevOps.svg" alt="DevOps" /></p>
+                        <h2>DevOps </h2>
+                        <p class="hb-grHead"> HA | DR | People | Processes </p>
                      </div>
                      <div class="full-cont hwi">
                         <div class="dep-moreInfp">
@@ -339,29 +339,29 @@
                         </div>
                         <ul class="list-inline child_deptCont">
                            <li>
-                                                <h3> <a href="./<?= $config['subFolderName'] ?>/devops">Continuous Integration</a></h3>
-                                                <p>For developers to merge and integrate their code changes into central repository, real-time</p>
-                                             </li>
-                                             <li>
-                                                <h3> <a href="./<?= $config['subFolderName'] ?>/devops">Continuous Delivery</a></h3>
-                                                <p>Code changes are automatically built, tested, and prepared for production releases</p>
-                                             </li>
-                                            <li>
-                                                <h3> <a href="./<?= $config['subFolderName'] ?>/devops">Microservices</a></h3>
-                                                <p>Design approach to build single application, as set of small services</p>
-                                             </li>
-                                             <li>
-                                                <h3> <a href="./<?= $config['subFolderName'] ?>/devops">Infrastructure as Code</a></h3>
-                                                <p>Infrastructure is provisioned and managed through code minimizing manual interventions and errors</p>
-                                             </li>
-                                             <li>
-                                                <h3> <a href="./<?= $config['subFolderName'] ?>/devops">Monitoring & Logging</a></h3>
-                                                <p>Monitor logs and metrics to track applications and infrastructure performance</p>
-                                             </li>
-                                             <li>
-                                                <h3> <a href="./<?= $config['subFolderName'] ?>/devops">Communication & Collaboration</a></h3>
-                                                <p>Bringing together the workflows and responsibilities of development and operations</p>
-                                             </li>
+                              <h3> <a href="./<?= $config['subFolderName'] ?>/devops">Continuous Integration</a></h3>
+                              <p>For developers to merge and integrate their code changes into central repository, real-time</p>
+                           </li>
+                           <li>
+                              <h3> <a href="./<?= $config['subFolderName'] ?>/devops">Continuous Delivery</a></h3>
+                              <p>Code changes are automatically built, tested, and prepared for production releases</p>
+                           </li>
+                           <li>
+                              <h3> <a href="./<?= $config['subFolderName'] ?>/devops">Microservices</a></h3>
+                              <p>Design approach to build single application, as set of small services</p>
+                           </li>
+                           <li>
+                              <h3> <a href="./<?= $config['subFolderName'] ?>/devops">Infrastructure as Code</a></h3>
+                              <p>Infrastructure is provisioned and managed through code minimizing manual interventions and errors</p>
+                           </li>
+                           <li>
+                              <h3> <a href="./<?= $config['subFolderName'] ?>/devops">Monitoring & Logging</a></h3>
+                              <p>Monitor logs and metrics to track applications and infrastructure performance</p>
+                           </li>
+                           <li>
+                              <h3> <a href="./<?= $config['subFolderName'] ?>/devops">Communication & Collaboration</a></h3>
+                              <p>Bringing together the workflows and responsibilities of development and operations</p>
+                           </li>
                         </ul>
                      </div>
                   </div>
@@ -369,9 +369,9 @@
                <li class="dept-list-group eg-heiAuto">
                   <div class="dept-list">
                      <div class="grid_view">
-                        <p class="plus_ico"><img src="./pi-cloud/images/EUC.svg" alt="EUC"/></p>
-                        <h2>End User Computing  </h2>
-                        <p class="hb-grHead"> VDI | Secure Access | Thin-clients  </p>
+                        <p class="plus_ico"><img src="./pi-cloud/images/EUC.svg" alt="EUC" /></p>
+                        <h2>End User Computing </h2>
+                        <p class="hb-grHead"> VDI | Secure Access | Thin-clients </p>
                      </div>
                      <div class="full-cont hwi">
                         <div class="dep-moreInfp">
@@ -404,7 +404,7 @@
 </div>
 </div>
 </div>
-<!--       **************Footer*************-->      
+<!--       **************Footer*************-->
 <?php
-   include_once('includes/footer.php');
-   ?>
+include_once('includes/footer.php');
+?>

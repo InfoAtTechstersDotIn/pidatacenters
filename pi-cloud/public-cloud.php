@@ -7,7 +7,7 @@ include_once('includes/header.php');
     .product {
         /* max-width: 1365px; */
         max-width: 1453px;
-        padding: 30px 0;
+        /* padding: 30px 0; */
     }
 
     .hb-productHead {
@@ -56,7 +56,7 @@ include_once('includes/header.php');
         border-top: 5px solid #223f97 !important;
     }
 
-    .skltbs-tab-item.current,
+    /* .skltbs-tab-item.current,
     .skltbs-tab-item.current,
     .skltbs-tab-item.current:after,
     .skltbs-tab-item.current:before {
@@ -71,7 +71,7 @@ include_once('includes/header.php');
 
     .skltbs-tab-group {
         border-bottom: solid #216733 !important;
-    }
+    } */
 
     .hb-productHead {
         max-width: 85%;
@@ -405,6 +405,10 @@ include_once('includes/header.php');
     .slick-next:before {
         color: black !important;
     }
+
+    .hb-features>h3 {
+        margin: 30px auto 36px !important;
+    }
 </style>
 
 <div class="hb-bannerCont">
@@ -433,16 +437,16 @@ include_once('includes/header.php');
     <p>Pi Multi Cloud, the flagship offering from Pi DATACENTERSÂ®, presents a distinctive proposition to enterprises seeking an optimized cloud hosting strategy. By seamlessly orchestrating diverse workloads across multiple premier cloud providers, it empowers businesses to harness the full spectrum of advantages each provider offers while effectively counterbalancing any inherent limitations.
         This dynamic multi-cloud hosting approach stands as a testament to our commitment to innovation and client-centric solutions. It's a strategy designed to amplify the operational strengths of each cloud provider, allowing enterprises to capitalize on a finely tuned ecosystem that enhances their operational efficiency. </p><br>
 
-    <p>In the pursuit of technological excellence, Pi Multi Cloud casts a wide net of services and features, thus providing clients with an expansive toolkit to craft their cloud environment precisely as per their requirements. This abundance translates into augmented flexibility and scalability, two attributes that have become paramount in navigating the fluid landscape of modern business.
-        At the heart of the Pi Multi Cloud computing paradigm lie several integral elements, each meticulously integrated to bolster our clients' capabilities in today's dynamic business landscape. The fusion of cutting-edge technology, strategic vision, and unwavering commitment to excellence creates an environment where businesses can not only thrive but also pioneer new horizons of success.
-        In the ever-changing realm of cloud technology, Pi emerges not just as a solution but as a strategyâ€”one that is primed to propel enterprises forward by harnessing the collective power of multiple cloud providers. It's a paradigm shift that redefines the boundaries of what's possible, equipping businesses with a competitive edge that is as adaptable as it is resilient. </p>
+    <!-- <p>In the pursuit of technological excellence, Pi Multi Cloud casts a wide net of services and features, thus providing clients with an expansive toolkit to craft their cloud environment precisely as per their requirements. This abundance translates into augmented flexibility and scalability, two attributes that have become paramount in navigating the fluid landscape of modern business.
+      At the heart of the Pi Multi Cloud computing paradigm lie several integral elements, each meticulously integrated to bolster our clients' capabilities in today's dynamic business landscape. The fusion of cutting-edge technology, strategic vision, and unwavering commitment to excellence creates an environment where businesses can not only thrive but also pioneer new horizons of success.
+        In the ever-changing realm of cloud technology, Pi emerges not just as a solution but as a strategyâ€”one that is primed to propel enterprises forward by harnessing the collective power of multiple cloud providers. It's a paradigm shift that redefines the boundaries of what's possible, equipping businesses with a competitive edge that is as adaptable as it is resilient. </p> -->
 
 </div>
 
 
 <div class="container product">
     <div class="row">
-        <h3 class="text-center" style="font-size: 28px; margin: 20px 0;">Why Choose <span style="color: #76b543;">Pi Public Cloud Services</span>?</h3>
+        <h3 class="text-center" style="font-size: 28px; margin: 15px 0;">Why Choose <span style="color: #76b543;">Pi Public Cloud Services</span>?</h3>
 
         <div class="box">
             <div class="jCont col-md-2">
@@ -475,6 +479,11 @@ include_once('includes/header.php');
 
 </div>
 
+<div class="hb-btn_cl" style="text-align: center;"><a href="images/new-multi-cloud-brochure-2.pdf" class="global-button" target="_blank">
+        Download Brochure
+    </a>
+
+</div>
 
 
 
@@ -527,11 +536,11 @@ include_once('includes/header.php');
 <div class="hb-productHead text-center">
     <p class="main-text">Experience the limitless possibilities of the cloud with Pi Public Cloud Services. Let our cloud experts guide you on your digital transformation journey.</p>
 </div>
-<div class="hb-btn_cl" style="text-align: center; margin-top: 20px;"><a href="images/new-multi-cloud-brochure-2.pdf" class="global-button" target="_blank">
-        Download Brochure
+<!-- <div class="hb-btn_cl" style="text-align: center; margin-top: 20px;"><a href="images/new-multi-cloud-brochure-2.pdf" class="global-button" target="_blank">
+                Download Brochure
     </a>
-
-</div>
+    
+</div> -->
 <div class="hb-features">
     <h3 class="text-center">Key <span style="color: #76b543;">Features</span></h3>
     <ul class="list-inline hb-featuresList multi-cld-key">
@@ -622,7 +631,7 @@ include_once('includes/header.php');
     </ul>
 </div>
 
-<div class="hb-btn_cl" style="text-align: center; margin-top: 20px;"><a href="contact-us.php" class="global-button">Contact Us</a>
+<div class="hb-btn_cl" style="text-align: center; margin-top: 10px;"><a href="contact-us.php" class="global-button">Contact Us</a>
     <!-- <span><a href="images/Multi-Cloud-Brochure.pdf" class="sch-your global-button" target="_blank">
                 Download Brochure
     </a></span> -->

@@ -103,13 +103,13 @@
                                             <a href="#">Other Could Services</a>
                                         </li>
                                         <li>
-                                            <a href="#">Cloud Certifications</a>
+                                            <a href="#">Cloud Enablement</a>
                                         </li>
                                         <li>
                                             <a href="#">Industry Solutions</a>
                                         </li>
                                         <li>
-                                            <a href="#">Cloud Enablement</a>
+                                            <a href="#">Cloud Certifications</a>
                                         </li>
                                     </ul>
                                 </div>

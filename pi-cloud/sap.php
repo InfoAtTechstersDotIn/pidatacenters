@@ -91,9 +91,12 @@ include_once('includes/header.php');
 				</li>
 				<li>
 					<div class="hb-leftCont hb_ppCont">
-						<a href="../images/new-pi-sap.pdf" style="color:white;" target="_blank">
+						<a href="./images/new-pi-sap.pdf" style="color:white;" target="_blank">
 							<h2>Download Brochure</h2>
 						</a>
+
+						<!--  <a href="https://pidatacenters.com/images/sap.pdf" style="color:white;" target="_blank"><h2>Download Brochure</h2></a> -->
+
 						<!--<a href="#">Schedule A Visit</a>-->
 					</div>
 				</li>
@@ -134,7 +137,7 @@ include_once('includes/header.php');
 				<li>
 					<div class="hb-sapListInfo">
 						<h2>SAP Fiori</h2>
-						<p>The SAP Fiori user experience has redefined the way enterprise users work. Fiori designers and developers with Pi Cloud can build applications for any platform faster than ever – providing a consistent, innovative experience for both creators and users. </p>
+						<p>The SAP Fiori user experience has redefined the way enterprise users work. Fiori designers and developers with Pi Cloud can build applications for any platform faster than ever â€“ providing a consistent, innovative experience for both creators and users. </p>
 					</div>
 				</li>
 				<li>

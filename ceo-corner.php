@@ -18,26 +18,67 @@ $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hypers
   <div class="container">
     <div class="who-we-are-main">
       <div class="what-drives-vission row align-middle">
-        <div class="what-drives-vission-left col-md-5">
-          <ul class="slider-ceo">
-            <li>
-              <img src="images/ceo-corner-img.jpg" alt="ceo-corner-img" width="806" height="613">
-            </li>
-            <li>
-              <img src="images/ceo-corner-img-2.jpg" alt="ceo-corner-img-2" width="806" height="613">
-            </li>
-            <!--
-                                  <li>
-                                      <img src="images/ceo-corner-img-3.jpg" alt="ceo-corner-img-3" width="806" height="613"> 
-                                  </li>
--->
-            <li>
-              <img src="images/ceo-corner-img-4.jpg" alt="ceo-corner-img-4" width="806" height="613">
-            </li>
-            <li>
-              <img src="images/ceo-corner-img-5.jpg" alt="ceo-corner-img-5" width="806" height="613">
-            </li>
-          </ul>
+        <div class="what-drives-vission-left col-md-5"> <!--1,2,4,5,width="806" height="613"-->
+          <style>
+            .mySlides {
+              display: none;
+            }
+
+            .side-btn {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+            }
+
+            .display-right {
+              width: 30px;
+              height: 30px;
+              background-color: transparent;
+              border: 1px solid #2680EB;
+              font-size: 20px;
+              position: absolute;
+              top: 35%;
+              color: #2680EB;
+              border-radius: 100%;
+              outline: none !important;
+              right: 10px;
+            }
+
+            .display-left {
+              width: 30px;
+              height: 30px;
+              background-color: transparent;
+              border: 1px solid #2680EB;
+              font-size: 20px;
+              position: absolute;
+              top: 35%;
+              color: #2680EB;
+              border-radius: 100%;
+              outline: none !important;
+              left: 10px;
+            }
+
+            @media (max-width:576px) {
+
+              .display-right,
+              .display-left {
+                top: 45%;
+              }
+            }
+          </style>
+
+
+          <div class="content display-container">
+            <img class="mySlides" src="images/ceo-corner-img.jpg" style="width:100%">
+            <img class="mySlides" src="images/ceo-corner-img-2.jpg" style="width:100%">
+            <img class="mySlides" src="images/ceo-corner-img-4.jpg" style="width:100%">
+            <img class="mySlides" src="images/ceo-corner-img-5.jpg" style="width:100%">
+            <div class="side-btn">
+              <button class="button black display-left" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="button black display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+
+          </div>
           <!-- <ul class="blog-videos row">
                                 <li class="col-6">
                                     <a href="#bvi">
@@ -965,6 +1006,32 @@ $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hypers
     return this.className && new RegExp("(^|\\s)" + className + "(\\s|$)").test(this.className);
   };
 </script>
+
+<script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {
+      slideIndex = 1
+    }
+    if (n < 1) {
+      slideIndex = x.length
+    }
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    x[slideIndex - 1].style.display = "block";
+    setTimeout(showDivs, 2000);
+  }
+</script>
+
 </body>
 
 </html>

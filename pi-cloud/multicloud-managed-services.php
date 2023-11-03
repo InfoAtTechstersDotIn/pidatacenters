@@ -1285,7 +1285,7 @@ include_once('includes/header.php');
 				<ul class="hb-productSec list-inline">
 					<div class="hb-leftCont hb_ppCont">
 						<p style="text-align:center">
-							Provides different tiers of service levels based on the business's needs, ensuring that you pay only for the services you require.Ã‚Â 
+							Provides different tiers of service levels based on the business's needs, ensuring that you pay only for the services you require.Â 
 						</p>
 						<!--<span>
 			            				<img src="images/product-images/TIERED-MODEL.png" alt="advanced">
