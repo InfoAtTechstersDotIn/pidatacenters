@@ -3,7 +3,7 @@ $seo_title = "Press Release Updates - Pi Datacenters | Latest News";
 $seo_description = "Check Out the Latest News from India's Leading Data Storage & Management Service. Hear the Most Recent Stories About Hyper-Scale Data Centers, Enterprise Cloud Fabric, Data Center Industry News in India & Many More.";
 $seo_keywords = "data center news, enterprise cloud fabric, Hyperscale datacenter, data center industry in India, data center in India, ";
 ?>
-<?php include('php/inner-header.php'); ?>
+<?php include('php/includes-techsters/header.php'); ?>
 <!-- main starts here -->
 <div class="about-banner">
   <div class="about-banner-blk">
@@ -24,8 +24,8 @@ $seo_keywords = "data center news, enterprise cloud fabric, Hyperscale datacente
             <div class="latest-block-left">
               <img src="images/press/Press-news-11.jpg" alt="article-img-2" width="430" height="278">
               <span>21 September, 2023</span>
-              <h4>Pi DATACENTERS® Inaugurates Its Headquarters in Hyderabad's Financial District. </h4>
-              <p>Hyderabad, Telangana, September 15, 2023, Pi DATACENTERS®, a trailblazing player in the technology infrastructure sector, unveiled its brand-new headquarters in the bustling Financial District of Hyderabad on September 15, 2023. This event witnessed the convergence of industry luminaries and thought leaders, making it a momentous occasion in the technology landscape. </p>
+              <h4>Pi DATACENTERS&#174 Inaugurates Its Headquarters in Hyderabad's Financial District. </h4>
+              <p>Hyderabad, Telangana, September 15, 2023, Pi DATACENTERS&#174, a trailblazing player in the technology infrastructure sector, unveiled its brand-new headquarters in the bustling Financial District of Hyderabad on September 15, 2023. This event witnessed the convergence of industry luminaries and thought leaders, making it a momentous occasion in the technology landscape. </p>
               <a href="./press-news11.php">Read more</a>
 
             </div>
@@ -40,8 +40,8 @@ $seo_keywords = "data center news, enterprise cloud fabric, Hyperscale datacente
             </div>
             <div class="new-tranding-rt col-md-12">
               <span>14-Oct-2021, Thursday</span>
-              <h3>India’s Best Workplaces for Women 2021</h3>
-              <p>Hyderabad, 25-09-2021 – Pi DATACENTERS® has been recognized by Great Place to Work® India among the Top 50 – India’s Best Workplaces™ for Women 2021 (Mid-size Companies Category)!</p>
+              <h3>India&#8217;s Best Workplaces for Women 2021</h3>
+              <p>Hyderabad, 25-09-2021 &#8211; Pi DATACENTERS&#174; has been recognized by Great Place to Work&#174; India among the Top 50 &#8211; India&#8217;s Best Workplaces&#8482; for Women 2021 (Mid-size Companies Category)!</p>
               <a href="./press-news1.php">Read more</a>
             </div>
           </div>
@@ -51,7 +51,7 @@ $seo_keywords = "data center news, enterprise cloud fabric, Hyperscale datacente
             </div>
             <div class="new-tranding-rt col-md-12">
               <span>21-Jul-2021, Wednesday</span>
-              <h3>Pi DATACENTERS® announces ‘Strategic Core Council (SCC)’, as part of its organisation restructuring.</h3>
+              <h3>Pi DATACENTERS&#174; announces &#8216;Strategic Core Council (SCC)&#8217;, as part of its organisation restructuring.</h3>
               <a href="./press-news2.php">Read more</a>
             </div>
           </div>
@@ -63,8 +63,8 @@ $seo_keywords = "data center news, enterprise cloud fabric, Hyperscale datacente
           <div class="latest-block">
             <img src="images/press/press-news-3.jpeg" alt="press-news-10" width="430" height="278">
             <span>26-Apr-2021, Monday</span>
-            <h3>Pi Continues to be a Great Place to Work®</h3>
-            <p>Pi® has synonymized work culture activism. It fosters employees to open up to new challenges and learning as they take up the trajectory of the work life. It nurtures each employee through unique learning vectors, depending on the employee’s, personality and aptitude.</p>
+            <h3>Pi Continues to be a Great Place to Work&#174;</h3>
+            <p>Pi&#174; has synonymized work culture activism. It fosters employees to open up to new challenges and learning as they take up the trajectory of the work life. It nurtures each employee through unique learning vectors, depending on the employee&#8217s, personality and aptitude.</p>
             <a href="./press-news3.php">Read more</a>
           </div>
         </li>
@@ -73,7 +73,7 @@ $seo_keywords = "data center news, enterprise cloud fabric, Hyperscale datacente
             <img src="images/press/press-news-5.png" alt="press-news-5" width="1920" height="1006">
             <span>30-Mar-2021, Tuesday</span>
             <h3>Our current and future datacenters and enterprise cloud fabric are modularly designed keeping dynamic data surge in the formula</h3>
-            <p>Data center growth in India: From a Hyperscale datacenter perspective, there are two key elements that matter the most – Availability of on-demand scalable space and power. Out of these two, Power, takes the podium.</p>
+            <p>Data center growth in India: From a Hyperscale datacenter perspective, there are two key elements that matter the most &#8211 Availability of on-demand scalable space and power. Out of these two, Power, takes the podium.</p>
             <a href="./press-news5.php">Read more</a>
 
           </div>
@@ -83,7 +83,7 @@ $seo_keywords = "data center news, enterprise cloud fabric, Hyperscale datacente
             <img src="images/press/press-news-6.png" alt="article-img-6" width="430" height="278">
             <span>07-Oct-2020, Wednesday</span>
             <h3>Pi & Yotta Collaborate</h3>
-            <p>Pi DATACENTERS® Pvt. Ltd. and Yotta Infrastructure Solutions have come together in collaboration for offering data center & cloud services to their customers. This collaboration is a landmark and the first of its kind strategic initiative taken up in the history of the data center industry in India. Both Pi and Yotta are Uptime Institute Certified Tier IV Data Center organizations that guarantee an SLA of 99.995% Availability of their customer’s workloads.</p>
+            <p>i DATACENTERS&#174; Pvt. Ltd. and Yotta Infrastructure Solutions have come together in collaboration for offering data center & cloud services to their customers. This collaboration is a landmark and the first of its kind strategic initiative taken up in the history of the data center industry in India. Both Pi and Yotta are Uptime Institute Certified Tier IV Data Center organizations that guarantee an SLA of 99.995% Availability of their customer&#8217;s workloads.</p>
             <a href="./press-news6.php">Read more</a>
 
           </div>
@@ -93,8 +93,7 @@ $seo_keywords = "data center news, enterprise cloud fabric, Hyperscale datacente
             <img src="images/press/press-news-7.png" alt="article-img-7" width="430" height="278">
             <span>03-Feb-2020, Monday</span>
             <h3>Economic Times featured a recent interview of Kalyan Muppaneni about India achieving the goal of $5 trillion economy</h3>
-            <p>In October last year, Mrs. Nirmala Sitharaman, the Finance Minister of India acknowledged the Prime Minister’s vision of transforming India into a $5 trillion economy and a global economic powerhouse by 2024-25, as “challenging” but “realizable.”</p>
-            <a href="./press-news7.php">Read more</a>
+            <p>In October last year, Mrs. Nirmala Sitharaman, the Finance Minister of India acknowledged the Prime Minister&#8217;s vision of transforming India into a $5 trillion economy and a global economic powerhouse by 2024-25, as &#8220;challenging&#8221; but &#8220;realizable.&#8221;</p> <a href="./press-news7.php">Read more</a>
 
           </div>
         </li>
@@ -103,7 +102,7 @@ $seo_keywords = "data center news, enterprise cloud fabric, Hyperscale datacente
             <img src="images/press/press-news-8.png" alt="press-news-8" width="430" height="278">
             <span>05-Nov-2019, Tuesday</span>
             <h3>Kalyan Muppaneni, Founder & CEO, Pi explains how the captive model of data center in India is being overtaken by colocation model at a significant rate</h3>
-            <p>“Most of the demand coming currently is geared towards cloud, as clients are clearly looking for speed of delivery and an OPEX model. Given this market scenario, we have several products around cloud offerings.</p>
+            <p> &#8220;Most of the demand coming currently is geared towards cloud, as clients are clearly looking for speed of delivery and an OPEX model. Given this market scenario, we have several products around cloud offerings.</p>
             <a href="./press-news8.php">Read more</a>
 
           </div>
@@ -112,9 +111,8 @@ $seo_keywords = "data center news, enterprise cloud fabric, Hyperscale datacente
           <div class="latest-block">
             <img src="images/press/press-news-9.png" alt="press-news-9" width="430" height="278">
             <span>22-Jul-2019, Monday</span>
-            <h3>Great Place To Work® Institute Recognized Pi As One Of The Top 50 Great Mid-Size Workplaces in India !</h3>
-            <p>Mumbai, 19th July 2019: The glittering event hosted by Great Place To Work® Institute at Four Seasons, Mumbai was filled with cheering buzz and applauds ! The Great Place to Work® Institute (GPTW) recognized India’s best mid-sized companies for building High-Trust, High-Performance Culture™ workplaces.</p>
-            <a href="./press-news9.php">Read more</a>
+            <h3>Great Place To Work&#174; Institute Recognized Pi As One Of The Top 50 Great Mid-Size Workplaces in India !</h3>
+            <p>Mumbai, 19th July 2019: The glittering event hosted by Great Place To Work&#174; Institute at Four Seasons, Mumbai was filled with cheering buzz and applauds ! The Great Place to Work&#174; Institute (GPTW) recognized India&#8217s best mid-sized companies for building High-Trust, High-Performance Culture&#8482; workplaces.</p> <a href="./press-news9.php">Read more</a>
 
           </div>
         </li>
@@ -122,7 +120,7 @@ $seo_keywords = "data center news, enterprise cloud fabric, Hyperscale datacente
           <div class="latest-block">
             <img src="images/press/press-news-10.png" alt="press-news-10" width="430" height="278">
             <span>19-Jul-2019, Friday</span>
-            <h3>DatacenterDynamics (DCD) Recognized Pi As India’s Best Multi-Tenant Data Center Service Provider !</h3>
+            <h3>DatacenterDynamics (DCD) Recognized Pi As India&#8217s Best Multi-Tenant Data Center Service Provider !</h3>
             <p>Bengaluru, 18th July 2019: Pi hits another milestone in its ongoing journey towards perpetuating positive disruption in technology and innovation.</p>
             <a href="./press-news10.php">Read more</a>
 
@@ -135,7 +133,7 @@ $seo_keywords = "data center news, enterprise cloud fabric, Hyperscale datacente
 
 
 
-<?php include('php/footer.php'); ?>
+<?php include('php/includes-techsters/footer.php'); ?>
 
 <!--footer ends-->
 </div>

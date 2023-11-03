@@ -1,4 +1,4 @@
-<?php include('php/inner-header.php'); ?>
+<?php include('php/includes-techsters/header.php'); ?>
 <!-- main starts here -->
 
 <div class="about-banner">
@@ -52,6 +52,7 @@
                                 <!--<a href="#modal-1" class="download">Download case study</a>-->
                                 <!--<a href="case-study-download.php" download class="download">Download case study</a>-->
                                 <a href="pi-intel" class="download" tabindex="0">Download Whitepapers</a>
+
                             </div>
                         </li>
                         <li class="col-md-4">
@@ -336,7 +337,7 @@
         </div>
     </div>
 </div>
-<?php include('php/footer.php'); ?>
+<?php include('php/includes-techsters/footer.php'); ?>
 
 <div id="modal-1" class="modalDialog">
     <div class="fill-your-details">

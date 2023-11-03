@@ -8,16 +8,19 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://103.210.75.115/php/includes-techsters/header-styles.css">
+    <link rel="stylesheet" type="text/css" href="php/includes-techsters/header-styles.css">
+    <link rel="stylesheet" type="text/css" href="php/includes-techsters/footer-styles.css">
+
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="https://103.210.75.115/text/css" href="css/animate.css">
+    <link rel="stylesheet" href="css/animate.css" type="https://103.210.75.115/text/css">
     <link rel="stylesheet" href="https://103.210.75.115/css/menu.css" type="text/css">
     <link rel="stylesheet" href="https://103.210.75.115/css/main-test.css" type="text/css">
-    <link rel="stylesheet" type="https://103.210.75.115/text/css" href="https://kenwheeler.github.io/slick/slick/slick.css">
-    <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css">
-    <link rel="stylesheet" type="text/css" href="https://103.210.75.115/css/style-test.css">
+    <link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick.css" type="https://103.210.75.115/text/css">
+    <link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick-theme.css" type="text/css">
+    <link rel="stylesheet" href="https://103.210.75.115/css/style-test.css" type="text/css">
     <link href="https://103.210.75.115/press-style.css" rel="stylesheet">
     <link href="https://103.210.75.115/css/responsive-test.css" rel="stylesheet" type="text/css">
     <link rel="canonical" href="<?php echo $seo_canonical; ?>" />
@@ -29,8 +32,8 @@
 <body>
 
     <div class="header desktop">
-        <div class="container">
-            <div class="row">
+        <div class="container-fluid">
+            <div class="row px-2">
                 <div class="col-lg-3">
                     <div class="logo">
                         <a href="https://pidatacenters.com">
@@ -40,15 +43,18 @@
                 </div>
 
 
-                <div class="col-lg-9 d-flex  justify-content-center  align-items-center ">
-                    <nav id="" class="">
-                        <ul>
+                <div class="col-lg-9 d-flex  justify-content-end  align-items-center ">
+                    <nav id="" class="nav_items">
+                        <ul class="nav_items_ul">
                             <li>
                                 <a href="#" class="fonts"></a>
                             </li>
+
+                            <li class=""><a href="https://pidatacenters.com/"><i class="fa fa-home" style="color:black"></i></a></li>
+
                             <li>
-                                <a href="#" class="arrow ">
-                                    DATA CENTER <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                <a href="#" class="drop-arrow ">
+                                    newDATA CENTER
 
 
                                 </a>
@@ -76,8 +82,12 @@
                                     </ul>
                                 </div>
                             </li>
+
                             <li>
-                                <a href="#" class="arrow">CLOUD</a>
+                                <a href="https://pidatacenters.com/data-center-infrastructure-services.php">COLOCATION</a>
+                            </li>
+                            <li>
+                                <a href="#" class="drop-arrow">CLOUD</a>
                                 <div class="drop-down">
                                     <ul>
                                         <li>
@@ -93,23 +103,23 @@
                                             <a href="#">Other Could Services</a>
                                         </li>
                                         <li>
-                                            <a href="#">Cloud Certifications</a>
+                                            <a href="#">Cloud Enablement</a>
                                         </li>
                                         <li>
                                             <a href="#">Industry Solutions</a>
                                         </li>
                                         <li>
-                                            <a href="#">Cloud Enablement</a>
+                                            <a href="#">Cloud Certifications</a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li>
-                                <a href="#" class="arrow">MANAGED SERVICES</a>
+                                <a href="#" class="drop-arrow">MANAGED SERVICES</a>
                                 <div class="drop-down">
                                     <ul>
                                         <li>
-                                            <a href="#">Public Cloud Managed Services</a>
+                                            <a href="#">Multi Cloud Managed Services</a>
                                         </li>
                                         <li>
                                             <a href="#">RIMS</a>
@@ -127,7 +137,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#" class="arrow">PRODUCTS</a>
+                                <a href="#" class="drop-arrow">PRODUCTS</a>
                                 <div class="drop-down">
                                     <ul>
                                         <li>
@@ -146,7 +156,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#" class="arrow">PRICING</a>
+                                <a href="#" class="drop-arrow">PRICING</a>
                                 <div class="drop-down">
                                     <ul>
                                         <li>
@@ -302,7 +312,7 @@
                                 <a href="index.php" class="fonts">HOME</a>
                             </li>
                             <li class="accordion">
-                                <a href="#" class="arrow ">
+                                <a href="#" class="drop-arrow ">
                                     DATA CENTER <i class="fa fa-caret-down" aria-hidden="true"></i>
 
 
@@ -334,7 +344,7 @@
                             </div>
                             </li>
                             <li class="accordion">
-                                <a href="#" class="arrow">CLOUD</a>
+                                <a href="#" class="drop-arrow">CLOUD</a>
 
                             </li>
                             <div class="panel ">
@@ -364,12 +374,12 @@
                             </div>
 
                             <li class="accordion">
-                                <a href="#" class="arrow">MANAGED SERVICES</a>
+                                <a href="#" class="drop-arrow">MANAGED SERVICES</a>
                             </li>
                             <div class=" panel">
                                 <ul>
                                     <li>
-                                        <a href="#">Public Cloud Managed Services</a>
+                                        <a href="#">Multi Cloud Managed Services</a>
                                     </li>
                                     <li>
                                         <a href="#">RIMS</a>
@@ -387,7 +397,7 @@
                             </div>
 
                             <li class="accordion">
-                                <a href="#" class="arrow">PRODUCTS</a>
+                                <a href="#" class="drop-arrow">PRODUCTS</a>
                             </li>
 
                             <div class="panel">
@@ -407,7 +417,7 @@
                                 </ul>
                             </div>
                             <li class="accordion">
-                                <a href="#" class="arrow">PRICING</a>
+                                <a href="#" class="drop-arrow">PRICING</a>
                             </li>
                             <div class="panel">
                                 <ul>
@@ -640,7 +650,7 @@ function closeNav() {
     </script>
 
 
-    <?php include('footer3.php') ?>
+    <!-- <?php include('footer3.php') ?> -->
 
 </body>
 

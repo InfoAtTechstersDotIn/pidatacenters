@@ -4,7 +4,30 @@ $seo_description = "Pi Datacenters - World-Class Data Center Infrastructure & Co
 $seo_keywords = "Data Center Infrastructure, colocation data center services, colocation services, Colocation data center providers, data center solution providers, data center management, data center solutions, data centers";
 ?>
 
+<!-- <a href="" data-toggle="modal" data-target="#myModal">REACH US</a> -->
+
 <?php include('php/inner-header.php'); ?>
+<style>
+    .anchor-tag {
+        background-color: blue;
+        color: white;
+        width: 100px;
+        text-align: center;
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 5px;
+        position: absolute;
+        top: 120px;
+        left: 40px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .anchor-tag:hover {
+        color: white;
+    }
+</style>
+
 <!-- main starts here -->
 <div class="about-banner">
     <div class="about-banner-blk">
@@ -21,6 +44,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                     <li class="tabBlock-tab  animatable fadeInUp is-active">
                         <a class="nav-link" data-toggle="tab">Colocation
                         </a>
+
                     </li>
                     <li class="tabBlock-tab  animatable fadeInUp">
                         <a class="nav-link" data-toggle="tab">Advisory
@@ -250,11 +274,17 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                     <img src="images/green-amaravati.png" alt="dc-icon-img-1" width="80" height="80">
 
                                 </div>
+
+
+                                <div class="flip-box-back">
+                                    <h2>Back Side</h2>
+                                </div>
+
+
                                 <div class="hide-icon2">
                                     <img src="images/blue-amaravati.png" alt="dc-icon-img-1" width="80" height="80">
 
                                 </div>
-
                             </a>
                         </li>
                         <li class="tabBlock-tab  animatable fadeInUp col-4" style="cursor:pointer">
@@ -268,7 +298,6 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                     <img src="images/blue-kochi.png" alt="dc-icon-img-1" width="80" height="80">
 
                                 </div>
-
                             </a>
                         </li>
                         <li class="tabBlock-tab animatable fadeInUp col-4" style="cursor:pointer">
@@ -319,7 +348,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                 <div class="features-of-amaravathi-btm">
                                     <h3>Salient Features</h3>
 
-                                    <p>1. 2N fault tolerant modular architecture providing at least 48 hours’ power outage protection.</p>
+                                    <p>1. 2N fault tolerant modular architecture providing at least 48 hoursâ€™ power outage protection.</p>
                                     <p>2. Utility power through independent routes from dual substations</p>
                                     <p>3. Lowest power cost in the Industry</p>
 
@@ -374,8 +403,6 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             </div>
                         </div>
                     </div>
-
-
                     <!--<div class="amaravathi-dc-btm">
                             <ul class="row">
                                 <li>
@@ -395,7 +422,6 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                 </li>
                             </ul>
                         </div>-->
-
                     <div class="tabBlock-pane">
                         <div class="locations-cnt row">
                             <div class="locations-cnt-lt col-md-6">
@@ -440,11 +466,12 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                 <div class="features-of-amaravathi-btm">
                                     <h3>Salient Features </h3>
 
-                                    <p>1. N+1 Fault Tolerant Modular Architecture provides at least 48 hours’ Power Outage Protection. </p>
+                                    <p>1. N+1 Fault Tolerant Modular Architecture provides at least 48 hours of Power Outage Protection. </p>
                                     <p>2. Utility Power through Independent Routes from Dual Substations </p>
                                     <p>3. 2N Uninterruptible UPS, DG set and Redundant Utility Power </p>
-                                    <p>4. N+1 cooling system redundancy for better temperature management </p>
-                                    <p>5. Global standard uptime of 99.95% </p>
+                                    <p>4. N+1 cooling system redundancy for better temperature management</p>
+                                    <p>5. Global standard uptime of 99.982%</p>
+
 
                                     <a href="#modal-3">Read more</a>
                                 </div>
@@ -587,7 +614,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
     </div>
 </div>
 <div class="our-features">
-    <div class="container">
+    <div class="container-fluid">
         <div class="our">
             <h2 style="text-align:center;color:black">Our <span style="color:#7BBC42">Features</span></h2><br>
         </div>
@@ -636,7 +663,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                     </div>
                     <br>
                     <p class="paraclass1">VESDA and Multiple Fire Detection System</p>
-                    <p class="paraclass1">Clean Agent – Novec 1230 Gas suppression</p>
+                    <p class="paraclass1">Clean Agent â€“ Novec 1230 Gas suppression</p>
 
 
                 </div>
@@ -1024,7 +1051,12 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
 
 
 <!--footer block starts -->
-<?php include('php/footer.php'); ?>
+
+
+
+
+<?php include('php/includes-techsters/footer.php'); ?>
+
 
 <div id="modal-1" class="modalDialog">
     <div class="fill-your-details">
@@ -1035,8 +1067,8 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                 <div class="modal-body">
                     <div class=" row">
                         <div class="fill-your-details-cnt features">
-                            <h3>Salient Features </h3>
-                            <p>1. 2N fault tolerant modular architecture providing at least 48 hours’ power outage protection.</p>
+                            <h3>Salient Features</h3>
+                            <p>1. 2N fault tolerant modular architecture providing at least 48 hoursâ€™ power outage protection.</p>
                             <p>2. Utility power through independent routes from dual substations</p>
                             <p>3. Lowest power cost in the Industry</p>
                             <p>4. 2N UPS and generator provisioning</p>
@@ -1065,7 +1097,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                 <div class="modal-body">
                     <div class=" row">
                         <div class="fill-your-details-cnt features">
-                            <h3>Salient Features </h3>
+                            <h3>Salient Features</h3>
                             <p>1. N+1 fault-tolerant modular architecture provides at least 48 hours of power outage protection.</p>
                             <p>2.Utility power through independent routes from dual substations</p>
                             <p>3. 2N ups and N+1 generator provisioning</p>
@@ -1088,8 +1120,6 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
         </div>
     </div>
 </div>
-
-
 <div id="modal-3" class="modalDialog">
     <div class="fill-your-details">
 
@@ -1099,9 +1129,9 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                 <div class="modal-body">
                     <div class=" row">
                         <div class="fill-your-details-cnt features">
-                            <h3>Salient Features </h3>
+                            <h3>Salient Features</h3>
 
-                            <p>1. N+1 Fault Tolerant Modular Architecture provides at least 48 hours’ Power Outage Protection. </p>
+                            <p>1. N+1 Fault Tolerant Modular Architecture provides at least 48 hours&#8217 Power Outage Protection. </p>
                             <p>2. Utility Power through Independent Routes from Dual Substations </p>
                             <p>3. 2N Uninterruptible UPS, DG set and Redundant Utility Power </p>
                             <p>4. N+1 cooling system redundancy for better temperature management </p>
@@ -1204,6 +1234,12 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
             modalBox.style = "display: none;";
         }
     });
+</script>
+
+
+<script>
+    $(".about-banner-blk").append('<a href="https://pidatacenters.com">Reach Us</a>');
+    $(".about-banner-blk a").addClass("anchor-tag");
 </script>
 </body>
 

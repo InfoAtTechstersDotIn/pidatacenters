@@ -10,39 +10,39 @@
             <li>
                <img src="images/rank-1-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
                <img src="images/rank-1-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
-               <a href="#">Buy Now</a>
+               <a href="#">BUY NOW</a>
             </li>
             <li>
                <img src="images/rank-2-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
                <img src="images/rank-2-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
-               <a href="#">Buy Now</a>
+               <a href="#">BUY NOW</a>
             </li>
             <li>
                <img src="images/rank-3-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
                <img src="images/rank-3-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
-               <a href="#">Buy Now</a>
+               <a href="#">BUY NOW</a>
             </li>
             <li>
                <img src="images/rank-4-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
                <img src="images/rank-4-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
-               <a href="#">Buy Now</a>
+               <a href="#">BUY NOW</a>
 
             </li>
             <li>
                <img src="images/rank-5-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
                <img src="images/rank-5-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
-               <a href="#">Buy Now</a>
+               <a href="#">BUY NOW</a>
             </li>
             <li>
                <img src="images/rank-6-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
                <img src="images/rank-6-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
-               <a href="#">Buy Now</a>
+               <a href="#">BUY NOW</a>
             </li>
 
             <li>
                <img src="images/rank-7-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
                <img src="images/rank-7-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
-               <a href="#">Buy Now</a>
+               <a href="#">BUY NOW</a>
             </li>
 
          </ul>

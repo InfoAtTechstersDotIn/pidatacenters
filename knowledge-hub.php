@@ -1,4 +1,4 @@
-<?php include('php/inner-header.php'); ?>
+<?php include('php/includes-techsters/header.php'); ?>
 <!-- main starts here -->
 
 <div class="about-banner">
@@ -142,29 +142,29 @@
                                       <div class="readmore-btn"><a href="press-release-1.php">Read More</a></div>
                                   </li>-->
             <li class="col-md-3">
-              <a href="unveiling-the-powerhouse-exploring-the-types-and-importance-of-data-centers-in-modern-business-operations.php"><img src="images/kh-img-2.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="unveiling-the-powerhouse-exploring-the-types-and-importance-of-data-centers-in-modern-business-operations.php" class="pres-rel">Unveiling the Powerhouse: Exploring the Types and Importance of Data Centers in Modern Business Operations</a>
-              <div class="readmore-btn"><a href="unveiling-the-powerhouse-exploring-the-types-and-importance-of-data-centers-in-modern-business-operations.php">Read More</a></div>
+              <a href="https://pidatacenters.com/unveiling-the-powerhouse-exploring-the-types-and-importance-of-data-centers-in-modern-business-operations.php"><img src="images/kh-img-2.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="https://pidatacenters.com/unveiling-the-powerhouse-exploring-the-types-and-importance-of-data-centers-in-modern-business-operations.php" class="pres-rel">Unveiling the Powerhouse: Exploring the Types and Importance of Data Centers in Modern Business Operations</a>
+              <div class="readmore-btn"><a href="https://pidatacenters.com/unveiling-the-powerhouse-exploring-the-types-and-importance-of-data-centers-in-modern-business-operations.php">Read More</a></div>
             </li>
 
             <!--Added new articles-->
 
             <li class="col-md-3">
-              <a href="What-Is-Data-Center-Security-Why-Is-It-Important.php"><img src="images/kh-dc.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="What-Is-Data-Center-Security-Why-Is-It-Important.php" class="pres-rel">
+              <a href="https://pidatacenters.com/What-Is-Data-Center-Security-Why-Is-It-Important.php"><img src="images/kh-dc.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="https://pidatacenters.com/What-Is-Data-Center-Security-Why-Is-It-Important.php" class="pres-rel">
 
                 What Is Data Center Security? Why Is It Important? </a>
-              <div class="readmore-btn"><a href="What-Is-Data-Center-Security-Why-Is-It-Important.php">Read More</a></div>
+              <div class="readmore-btn"><a href="https://pidatacenters.com/What-Is-Data-Center-Security-Why-Is-It-Important.php">Read More</a></div>
             </li>
             <li class="col-md-3">
-              <a href="What-Are-the-Different-Types-of-Data-Centers-in-Cloud-Computing.php"><img src="images/kh-types of dc.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="What-Are-the-Different-Types-of-Data-Centers-in-Cloud-Computing.php" class="pres-rel">What Are the Different Types of Data Centers in Cloud Computing? </a>
-              <div class="readmore-btn"><a href="What-Are-the-Different-Types-of-Data-Centers-in-Cloud-Computing.php">Read More</a></div>
+              <a href="https://pidatacenters.com/What-Are-the-Different-Types-of-Data-Centers-in-Cloud-Computing.php"><img src="images/kh-types of dc.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="https://pidatacenters.com/What-Are-the-Different-Types-of-Data-Centers-in-Cloud-Computing.php" class="pres-rel">What Are the Different Types of Data Centers in Cloud Computing? </a>
+              <div class="readmore-btn"><a href="https://pidatacenters.com/What-Are-the-Different-Types-of-Data-Centers-in-Cloud-Computing.php">Read More</a></div>
             </li>
             <li class="col-md-3">
-              <a href="How-Do-Multi-Cloud-Solutions-Transform-Business-Agility-and-Innovation.php"><img src="images/kh-multi cloud.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="How-Do-Multi-Cloud-Solutions-Transform-Business-Agility-and-Innovation.php" class="pres-rel">How Do Multi-Cloud Solutions Transform Business Agility and Innovation? </a>
-              <div class="readmore-btn"><a href="How-Do-Multi-Cloud-Solutions-Transform-Business-Agility-and-Innovation.php">Read More</a></div>
+              <a href="https://pidatacenters.com/How-Do-Multi-Cloud-Solutions-Transform-Business-Agility-and-Innovation.php"><img src="images/kh-multi cloud.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="https://pidatacenters.com/How-Do-Multi-Cloud-Solutions-Transform-Business-Agility-and-Innovation.php" class="pres-rel">How Do Multi-Cloud Solutions Transform Business Agility and Innovation? </a>
+              <div class="readmore-btn"><a href="https://pidatacenters.com/How-Do-Multi-Cloud-Solutions-Transform-Business-Agility-and-Innovation.php">Read More</a></div>
             </li>
 
             <!-- ends here -->
@@ -212,8 +212,7 @@
 </div>
 
 
-
-<?php include('php/footer.php'); ?>
+<?php include('php/includes-techsters/footer.php'); ?>
 
 <!--footer ends-->
 </div>

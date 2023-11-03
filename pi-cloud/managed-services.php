@@ -97,7 +97,7 @@ include_once('includes/header.php');
 			<li>
 				<div class="hb-service-INfo">
 					<h4> Professional Services</h4>
-					<p>Professional Services on Pi Cloud<sup></sup> brings you expertise for applications, data architectures and technologies, and security best practices – best practices across all global cloud platforms</p>
+					<p>Professional Services on Pi Cloud<sup></sup> brings you expertise for applications, data architectures and technologies, and security best practices â€“ best practices across all global cloud platforms</p>
 				</div>
 
 			</li>

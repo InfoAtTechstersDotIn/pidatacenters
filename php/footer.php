@@ -18,7 +18,7 @@
         <footer>
             <div class="footer-about about">
                 <div class="container">
-                    <ul class="row">
+                    <ul class="row ">
                         <li class="col-md-3">
                             <a href="case-studies.php">Case Studies </a>
                             <a href="blogs.php">Blogs</a>

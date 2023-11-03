@@ -3,7 +3,7 @@ $seo_title = "Download Brochure - Pi Datacenters | Explore our Product Portfolio
 $seo_description = "Download the Pi Datacenters' latest brochure and explore everything you need to know about data center services, infrastructure, and management in India. Get to know about our unique solutions and advanced product range. Download the brochure today!";
 $seo_keywords = "Product Portfolio, Data Center Services, data center infrastructure, data centers in india";
 ?>
-<?php include('php/inner-header.php'); ?>
+<?php include('php/includes-techsters/header.php'); ?>
 <style>
   article.tabs {
     position: relative;
@@ -119,14 +119,12 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
     color: #ffffff !important;
   }
 
-  /* .scroll-link .color {
-    background-color: #acb8c3;
-    background-color: #2680EB;
-  } */
 
-  .scroll-link .active {
-    background-color: #2680EB;
-  }
+
+
+
+
+
 
   @media only screen and (min-width: 1200px) and (max-width: 1350px) {
     article.tabs section:nth-child(3) h2 {
@@ -188,7 +186,7 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
                          <div class="brochure-main-cnt-lt col-md-6">
                              <h3>Product Portfolio</h3>
                              <p>Are you looking for a reliable and secure datacenter and cloud provider for your business? </p>
-                             <p>Look no further than Pi Datacenters®! Our team of experts has put together a comprehensive product portfolio featuring state-of-the-art datacenters and a range of cloud services. From colocation to managed services, we have a solution to fit the needs of your organization.</p>
+                             <p>Look no further than Pi DatacentersÂ®! Our team of experts has put together a comprehensive product portfolio featuring state-of-the-art datacenters and a range of cloud services. From colocation to managed services, we have a solution to fit the needs of your organization.</p>
                              <a href="images/data-center-services-portfolio-2.pdf" target="_blank">Download Brochure</a>
                              
                             </div>
@@ -203,7 +201,7 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
                          <div class="brochure-main-cnt-lt col-md-6">
                              <h3>Data Center Portfolio</h3>
                              <p>Want to unlock a wealth of options for your business? </p>
-                             <p>Find out about Pi Datacenters® Advisory, Colocation, Operator Design, Build, and PMC services. We have a wide range of services to meet the diverse needs of different businesses. Our state-of-the-art data center infrastructure is equipped with advanced technology to ensure zero downtime & comprehensive security needed.</p>
+                             <p>Find out about Pi DatacentersÂ® Advisory, Colocation, Operator Design, Build, and PMC services. We have a wide range of services to meet the diverse needs of different businesses. Our state-of-the-art data center infrastructure is equipped with advanced technology to ensure zero downtime & comprehensive security needed.</p>
                              <a href="images/corporate-brochure%20-5.pdf" target="_blank">Download Brochure</a>
 
                             </div>
@@ -258,8 +256,8 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
                             </div>
                          <div class="brochure-main-cnt-lt col-md-6">
                              <h3>Digitizing All Walks of Life</h3>
-                             <p>Today’s fast-paced world has a digital answer and an on-demand solution, for every walk of life, making digitization the way of life. With the recent exponential growth in smartphone penetration and affordable internet services owing to competition in the telecom market. There is a significant increase in the availability and popularity of digital services.</p>
-                             <p>Planning your trip – avoiding long queues and dependencies on agents, having a cuisine of choice at the comfort of your home, accessing government records – to take the informed call, booking the doctor appointment – without having to hear the ‘always busy’ tone on phones, all of these and many more, are today just a click away…</p>
+                             <p>Todayâ€™s fast-paced world has a digital answer and an on-demand solution, for every walk of life, making digitization the way of life. With the recent exponential growth in smartphone penetration and affordable internet services owing to competition in the telecom market. There is a significant increase in the availability and popularity of digital services.</p>
+                             <p>Planning your trip â€“ avoiding long queues and dependencies on agents, having a cuisine of choice at the comfort of your home, accessing government records â€“ to take the informed call, booking the doctor appointment â€“ without having to hear the â€˜always busyâ€™ tone on phones, all of these and many more, are today just a click awayâ€¦</p>
                              <a href="#">Download Brochure</a>
                             </div>
                           
@@ -283,7 +281,7 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
 
 
     <section id="tab1/title/Product-Portfolio">
-      <h2 class="scroll-link"><a href="#tab1/title/Product-Portfolio" class="active" onclick="scrollToTop(); return false;">1</a></h2>
+      <h2 class="scroll-link"><a href="#tab1/title/Product-Portfolio" onclick="scrollToTop(); return false;">1</a></h2>
       <div class="brochure-main-cnt row row-reverse">
         <div class="brochure-main-cnt-rt col-md-6">
           <img src="images/brochure-img-1.png" alt="brochure-img-1" width="661" height="446">
@@ -291,7 +289,7 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
         <div class="brochure-main-cnt-lt col-md-6">
           <h3>Product Portfolio:</h3>
           <p style="color:#242424 !important;">Are you looking for a reliable and secure datacenter and cloud provider for your business? </p>
-          <p style="color:#242424 !important;">Look no further than Pi DATACENTERS®! Our team of experts has put together a comprehensive product portfolio featuring state-of-the-art datacenters and a range of cloud services. From colocation to managed services, we have a solution to fit the needs of your organization.</p>
+          <p style="color:#242424 !important;">Look no further than Pi DATACENTERSÂ®! Our team of experts has put together a comprehensive product portfolio featuring state-of-the-art datacenters and a range of cloud services. From colocation to managed services, we have a solution to fit the needs of your organization.</p>
           <a href="images/new-corporate-brochure.pdf" target="_blank">Download Brochure</a>
 
         </div>
@@ -300,7 +298,7 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
     </section>
 
     <section id="tab2/title/Data-Center-Services-Portfolio">
-      <h2 class="scroll-link"><a href="#tab2/title/Data-Center-Services-Portfolio" class="don">2</a></h2>
+      <h2><a href="#tab2/title/Data-Center-Services-Portfolio" class="don">2</a></h2>
       <div class="brochure-main-cnt row row-reverse">
         <div class="brochure-main-cnt-rt col-md-6">
           <img src="images/brochure-img-2.png" alt="brochure-img-1" width="661" height="446">
@@ -308,7 +306,7 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
         <div class="brochure-main-cnt-lt col-md-6">
           <h3 style="line-height:48px">Data Center Services Portfolio:</h3>
           <p style="color:#242424 !important;">Want to unlock a wealth of options for your business? </p>
-          <p style="color:#242424 !important;">Find out about Pi DATACENTERS® Advisory, Colocation, Operator Design, Build, and PMC services. We have a wide range of services to meet the diverse needs of different businesses. Our state-of-the-art data center infrastructure is equipped with advanced technology to ensure zero downtime & comprehensive security needed.</p>
+          <p style="color:#242424 !important;">Find out about Pi DATACENTERSÂ® Advisory, Colocation, Operator Design, Build, and PMC services. We have a wide range of services to meet the diverse needs of different businesses. Our state-of-the-art data center infrastructure is equipped with advanced technology to ensure zero downtime & comprehensive security needed.</p>
           <a href="images/new-data-center-services-portfolio-2.2.pdf" target="_blank">Download Brochure</a>
 
         </div>
@@ -316,16 +314,19 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
       </div>
     </section>
     <section id="tab3/title/Ready-to-take-your-business-to-new-heights">
-      <h2 class="scroll-link"><a href="#tab3/title/Ready-to-take-your-business-to-new-heights" class="don">3</a></h2>
+      <h2><a href="#tab3/title/Ready-to-take-your-business-to-new-heights" class="don">3</a></h2>
       <div class="brochure-main-cnt row row-reverse">
         <div class="brochure-main-cnt-rt col-md-6">
           <img src="images/multi-cloud-copy.png" alt="brochure-img-1" width="661" height="446">
         </div>
         <div class="brochure-main-cnt-lt col-md-6">
           <h3 style="line-height:48px">Multi-Cloud Services:</h3>
+
+
+
           <p style="color:#242424 !important;">Ready to take your business to new heights? </p>
           <!-- <h3 style="line-height:48px">Ready to take your business to new heights? </h3> -->
-          <p style="color:#242424 !important;">Explore our comprehensive range of cloud services and experience the power of seamless integration, a single pane of glass view, quick time-to-market, flexibility, scalability, resiliency, business continuity, and cost-efficiency without compromising critical security or regulatory compliance with Pi Managed Multi Cloud Ecosystem, Powered by Pi DATACENTERS®!
+          <p style="color:#242424 !important;">Explore our comprehensive range of cloud services and experience the power of seamless integration, a single pane of glass view, quick time-to-market, flexibility, scalability, resiliency, business continuity, and cost-efficiency without compromising critical security or regulatory compliance with Pi Managed Multi Cloud Ecosystem, Powered by Pi DATACENTERSÂ®!
           </p>
           <p style="color:#242424 !important;">Discover the limitless possibilities for your organization's success. Get started with us today by downloading our brochure to discover more about the individualized multi-cloud solutions we offer.</p>
           <a href="images/new-multi-cloud-brochure-2.pdf" target="_blank">Download Brochure</a>
@@ -334,6 +335,8 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
 
       </div>
     </section>
+
+
 
     <!--<section id="tab3?keyword='fastest-technology'">
     <h2><a href="#tab3?keyword='fastest-technology'">3</a></h2>
@@ -387,8 +390,8 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
                             </div>
                          <div class="brochure-main-cnt-lt col-md-6">
                              <h3>Digitizing All Walks of Life</h3>
-                             <p>Today’s fast-paced world has a digital answer and an on-demand solution, for every walk of life, making digitization the way of life. With the recent exponential growth in smartphone penetration and affordable internet services owing to competition in the telecom market. There is a significant increase in the availability and popularity of digital services.</p>
-                             <p>Planning your trip – avoiding long queues and dependencies on agents, having a cuisine of choice at the comfort of your home, accessing government records – to take the informed call, booking the doctor appointment – without having to hear the ‘always busy’ tone on phones, all of these and many more, are today just a click away…</p>
+                             <p>Todayâ€™s fast-paced world has a digital answer and an on-demand solution, for every walk of life, making digitization the way of life. With the recent exponential growth in smartphone penetration and affordable internet services owing to competition in the telecom market. There is a significant increase in the availability and popularity of digital services.</p>
+                             <p>Planning your trip â€“ avoiding long queues and dependencies on agents, having a cuisine of choice at the comfort of your home, accessing government records â€“ to take the informed call, booking the doctor appointment â€“ without having to hear the â€˜always busyâ€™ tone on phones, all of these and many more, are today just a click awayâ€¦</p>
                              <a href="#">Download Brochure</a>
                             </div>
                           
@@ -400,7 +403,7 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
   </article>
 </div>
 
-<?php include('php/footer.php'); ?>
+<?php include('php/includes-techsters/footer.php'); ?>
 
 <div id="modal-1" class="modalDialog">
   <div class="fill-your-details">
@@ -453,8 +456,6 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 <script src="js/custom.js"></script>
 <script src="js/main-pi.js"></script>
-
-
 <script>
   $(document).ready(function() {
     $('.slider1').slick({

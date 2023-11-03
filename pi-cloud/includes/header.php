@@ -46,7 +46,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="./<?= $config['subFolderName'] ?>/css/minified/darkmode.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost/pidatacenters/pi-cloud/css/minified/darkmode.css">
     <link rel="stylesheet" type="text/css" href="./<?= $config['subFolderName'] ?>/css/minified/common.min.css?v=1.1">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick.css">
@@ -711,7 +711,8 @@
                                     <div class="drop-down">
                                         <ul>
                                             <li>
-                                                <a href="./pi-cloud/multi-cloud">Public Cloud</a>
+                                                <!-- <a href="./pi-cloud/multi-cloud">Public Cloud</a> -->
+                                                <a href="./pi-cloud/public-cloud">Public Cloud</a>
                                             </li>
                                             <li>
                                                 <a href="./pi-cloud/compute">Private Cloud</a>
@@ -741,7 +742,9 @@
                                     <div class="drop-down">
                                         <ul>
                                             <li>
-                                                <a href="./pi-cloud/multicloud-managed-services">Public Cloud
+
+
+                                                <a href="./pi-cloud/multicloud-managed-services">Multi Cloud
                                                     Managed
 
                                                     Services</a>
@@ -966,7 +969,8 @@
                 </li>
                 <li id="nav-menu-item-14" class="main-menu-item  menu-item-even menu-item-depth-0 single-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a title="ABOUT US" href="./pi-cloud/" class="menu-link main-menu-link">CLOUD</a><span class="sub-menu-icon"></span>
                     <ul class="sub-menu menu-odd  menu-depth-1">
-                        <li id="nav-menu-item-172" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page"><a title="Leadership" href="./pi-cloud/multi-cloud" class="menu-link sub-menu-link">Public Cloud</a></li>
+                        <li id="nav-menu-item-172" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page"> <a href="./pi-cloud/public-cloud">Public Cloud</a>
+                        </li>
                         <li id="nav-menu-item-843" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom"><a title="News" href="./pi-cloud/compute" class="menu-link sub-menu-link">Private Cloud</a></li>
                         <li id="nav-menu-item-843" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom"><a title="News" href="./pi-cloud/sap" class="menu-link sub-menu-link">SAP on Cloud</a></li>
                         <li id="nav-menu-item-843" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom"><a title="News" href="./pi-cloud/products-home" class="menu-link sub-menu-link">Other Could Services</a></li>
@@ -998,10 +1002,15 @@
 
                 <li id="nav-menu-item-3445" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="JavaScript:void(0);" class="menu-link sub-menu-link">MANAGED SERVICES</a><span class="sub-menu-icon"></span>
                     <ul class="sub-menu menu-even sub-sub-menu menu-depth-2">
-                        <li id="nav-menu-item-3870" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom"><a href="./pi-cloud/multi-cloud#servicemodel" class="menu-link sub-menu-link">Public Cloud
+                        <li id="nav-menu-item-3870" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom">
+
+
+                            <a href="./pi-cloud/multicloud-managed-services">Multi Cloud
                                 Managed
 
-                                Services</a></li>
+                                Services</a>
+
+                        </li>
                         <li id="nav-menu-item-3869" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom"><a href="rims.php" class="menu-link sub-menu-link">RIMS</a></li>
                         <!--		<li id="nav-menu-item-3870" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom"><a href="#" class="menu-link sub-menu-link">Public Cloud Support</a></li>-->
                         <li id="nav-menu-item-3871" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom"><a href="noc.php" class="menu-link sub-menu-link">NOC</a></li>

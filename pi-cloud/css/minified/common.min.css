@@ -3990,3 +3990,16 @@ footer>div>p {
 .hb-certication {
     margin: 0 auto !important;
 }
+
+.skltbs-tab-item {
+    padding: 8px 15px !important;
+}
+
+.full-cont {
+    display: block !important;
+}
+
+.hwi {
+    position: relative !important;
+    width: 200% !important;
+}

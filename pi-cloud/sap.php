@@ -1,31 +1,39 @@
-
 <?php
 include_once('includes/header.php');
 ?>
 
 <style>
-.hb-leftCont{text-align: center;
-    background: #2680eb;
-    width: 70%;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 35px;
-    color: white;
-    margin-top: 30px;
-}
+	.hb-leftCont {
+		text-align: center;
+		background: #2680eb;
+		width: 70%;
+		margin: 0 auto;
+		padding: 20px;
+		border-radius: 35px;
+		color: white;
+		margin-top: 30px;
+	}
 
-@media (max-width: 768px){
-.sap_certFicats>li {
-    display: inline-block !important;
-    width: 100% !important;
-    vertical-align: middle !important;
-    padding: 10px 0 !important;
-    text-align: center !important;
-}
-.hb-leftCont{width: 230px !important;margin-top:0 !important;}
-.hb-sapLists { margin: 0px auto !important;padding: 0px 0 20px !important;}
+	@media (max-width: 768px) {
+		.sap_certFicats>li {
+			display: inline-block !important;
+			width: 100% !important;
+			vertical-align: middle !important;
+			padding: 10px 0 !important;
+			text-align: center !important;
+		}
 
-}
+		.hb-leftCont {
+			width: 230px !important;
+			margin-top: 0 !important;
+		}
+
+		.hb-sapLists {
+			margin: 0px auto !important;
+			padding: 0px 0 20px !important;
+		}
+
+	}
 </style>
 <div class="hb-bannerCont">
 	<div class="hb-bannerImgCont">
@@ -34,28 +42,28 @@ include_once('includes/header.php');
 			     <source media="(max-width: 768px)" srcset="./pi-cloud/images/banners/sap_mbanner.png">
 			      <img  src="./pi-cloud/images/banners/sap_banner.png" alt="pi-cloud Cloud Backup as a Service Banner" style="width:100%">
       		</picture>-->
-      		 <picture>
-			     <source media="(max-width: 768px)" srcset="./<?= $config['subFolderName'] ?>/images/banners/SAP-banner-new.jpg">
-			      <img  src="./<?= $config['subFolderName'] ?>/images/banners/sap-banner.jpg" alt="pi-cloud Cloud Backup as a Service Banner" style="width:100%">
-      		</picture>
-      		<h2>SAP On Cloud</h2>
-		</div>		
+			<picture>
+				<source media="(max-width: 768px)" srcset="./<?= $config['subFolderName'] ?>/images/banners/SAP-banner-new.jpg">
+				<img src="./<?= $config['subFolderName'] ?>/images/banners/sap-banner.jpg" alt="pi-cloud Cloud Backup as a Service Banner" style="width:100%">
+			</picture>
+			<h2>SAP On Cloud</h2>
+		</div>
 	</div>
 </div>
 
-	<section id="hb_products_Lists">
-		<div class="container">
-			<div class="hb-productHead text-center">
-				<h1>End-to-End SAP Hosting on Cloud</h1>
-				<p>Enable digital transformation across your enterprise, for smooth and secured operation of business-critical processes. Pi Cloud<sup></sup> offers end to end SAP solution to assess, migrate, run & optimize SAP workloads. Enterprises can also leverage SAP basis skillsets to solve complex business process challenges. Pi Cloud<sup></sup> is certified by SAP to host and operate critical enterprise workloads at scale.</p>
-			</div>
-
+<section id="hb_products_Lists">
+	<div class="container">
+		<div class="hb-productHead text-center">
+			<h1>End-to-End SAP Hosting on Cloud</h1>
+			<p>Enable digital transformation across your enterprise, for smooth and secured operation of business-critical processes. Pi Cloud<sup></sup> offers end to end SAP solution to assess, migrate, run & optimize SAP workloads. Enterprises can also leverage SAP basis skillsets to solve complex business process challenges. Pi Cloud<sup></sup> is certified by SAP to host and operate critical enterprise workloads at scale.</p>
 		</div>
-	</section>
 
-	<section>
-		<div class="container">
-			<ul class="list-inline sap_certFicats">
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<ul class="list-inline sap_certFicats">
 			<li>
 				<a href="#" download>
 					<img src="./pi-cloud/images/product-images/sap1.png" alt="sap1">
@@ -71,29 +79,34 @@ include_once('includes/header.php');
 					<img src="./pi-cloud/images/product-images/sap3.png" alt="sap1">
 				</a>
 			</li>
-			
+
 		</ul>
-		</div>
+	</div>
 	</secction>
-<section>
-    <div class="container">
+	<section>
+		<div class="container">
 			<ul class="list-inline sap_certFicats">
-			<li>
-			
-			</li>
-			<li>
-		<div class="hb-leftCont hb_ppCont">
-                                   <a href="https://pidatacenters.com/images/sap.pdf" style="color:white;" target="_blank"><h2>Download Brochure</h2></a>
-                    <!--<a href="#">Schedule A Visit</a>-->
-			            		</div>
-			</li>
-			<li>
-			
-			</li>
-			
-		</ul>
+				<li>
+
+				</li>
+				<li>
+					<div class="hb-leftCont hb_ppCont">
+						<a href="./images/new-pi-sap.pdf" style="color:white;" target="_blank">
+							<h2>Download Brochure</h2>
+						</a>
+
+						<!--  <a href="https://pidatacenters.com/images/sap.pdf" style="color:white;" target="_blank"><h2>Download Brochure</h2></a> -->
+
+						<!--<a href="#">Schedule A Visit</a>-->
+					</div>
+				</li>
+				<li>
+
+				</li>
+
+			</ul>
 		</div>
-</section>
+	</section>
 	<div class="hb-sapLists">
 		<div class="container">
 			<ul class="hb-listInfos_">
@@ -120,10 +133,11 @@ include_once('includes/header.php');
 						<h2>ERP Central Component (ECC)</h2>
 						<p>Optimize ERP processes with SAP ECC or transition to modern ERP system of SAP S/4HANA. Take full advantage of technologies like cloud, machine learning, advanced analytics, and the SAP HANA in-memory database. Pi Cloud can be the cloud platform of choice for enterprises to transition from SAP ECC to next generation, SAP ERP system. </p>
 					</div>
-				</li><li>
+				</li>
+				<li>
 					<div class="hb-sapListInfo">
 						<h2>SAP Fiori</h2>
-						<p>The SAP Fiori user experience has redefined the way enterprise users work. Fiori designers and developers with Pi Cloud can build applications for any platform faster than ever – providing a consistent, innovative experience for both creators and users.  </p>
+						<p>The SAP Fiori user experience has redefined the way enterprise users work. Fiori designers and developers with Pi Cloud can build applications for any platform faster than ever â€“ providing a consistent, innovative experience for both creators and users. </p>
 					</div>
 				</li>
 				<li>
@@ -141,6 +155,6 @@ include_once('includes/header.php');
 			</ul>
 		</div>
 	</div>
-<?php
-include_once('includes/footer.php');
-?>
+	<?php
+	include_once('includes/footer.php');
+	?>

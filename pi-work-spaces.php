@@ -140,7 +140,7 @@ $seo_keywords = "Pi Workspaces, virtual desktop infrastructure, virtual desktops
                 <li class="col-md-4">
                     <div class="pi-work-benefits-cnt">
                         <span>Protect Your Data</span>
-                        <p>Pi Workspaces is deployed within a VPN that is powered by pi-cloud® - the enterprise cloud platform @Pi®, known for its ultra-secure environment.</p>
+                        <p>Pi Workspaces is deployed within a VPN that is powered by pi-cloudÂ® - the enterprise cloud platform @PiÂ®, known for its ultra-secure environment.</p>
                     </div>
                 </li>
                 <li class="col-md-4">

@@ -381,7 +381,8 @@ header {
 }
 
 .slick-dots li a {
-    color: #fff !important;
+    color: #000 !important;
+    /* newly changed */
 }
 
 .slick-dots li.slick-active a:after {
@@ -875,7 +876,8 @@ header {
     font-size: 16px;
     padding: 7px 0 0 0;
     border-radius: 100%;
-    background: #fff;
+    background: #000;
+    /*newly added*/
     color: #000;
 }
 
@@ -2461,7 +2463,7 @@ font-s .director-lt-cnt h3 {
 }
 
 .certifications-block h3:before {
-    background: #2680EB;
+    /* background: #2680EB; */
     width: 100px;
     height: 3px;
     left: 0;
@@ -7653,4 +7655,214 @@ article.tabs section:target h2 {
 
 .features-of-amaravathi-btm p {
     font-size: 15px !important;
+}
+
+.board-of-directors-in p {
+    min-height: 75px !important;
+}
+
+/* HOME PAGE CHANGES */
+header {
+    background: #fff !important;
+}
+
+.header-rt ul li a i {
+    color: #000 !important;
+}
+
+.header-rt ul li a {
+    color: #000 !important;
+}
+
+.drop-arrow:before {
+    color: #000 !important;
+}
+
+.drop-down ul li a:hover {
+    color: #2680EB !important;
+}
+
+.backdround-bg1 footer {
+    /* background-color: #fff; */
+}
+
+.footer-copy-rights p {
+    color: #000;
+}
+
+.fa-whatsapp:before {
+    color: #00a82d;
+}
+
+.fa-youtube-play:before {
+    color: red;
+}
+
+.fa-facebook-f:before,
+.fa-facebook:before {
+    color: #3b5998;
+}
+
+.fa-twitter:before {
+    color: #00acee;
+}
+
+.fa-linkedin:before {
+    color: #0072b1;
+}
+
+.fa-whatsapp:before {
+    color: #00a82d;
+}
+
+.footer-links ul li a i {
+    background: white !important;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+
+}
+
+.footer-about.footer-bg a {
+    background-color: white !important;
+}
+
+.backdround-bg1 footer {
+    background-color: #fff;
+    box-shadow: 1px 2px 8px #0000005c;
+}
+
+.foot-menu li {
+    border-right: 1px solid #000 !important;
+}
+
+.footer-copy-rights p a {
+    color: #000 !important;
+}
+
+.footer-about ul li a {
+    color: #000 !important;
+}
+
+.backdround-bg {
+    background: none !important;
+}
+
+.great-lt span {
+    color: #000 !important;
+}
+
+.great-lt h2 {
+    color: #000 !important;
+}
+
+.great-lt p {
+    color: #000 !important;
+}
+
+p.dcsi {
+    color: #000 !important;
+}
+
+.datacenter-blk h2 {
+    color: #000 !important;
+}
+
+.datacenter-blk p {
+    color: #000 !important;
+}
+
+.know-more a {
+    background: #223f97 !important;
+    color: #fff !important;
+}
+
+.know-more-btn a {
+    background: #223f97 !important;
+    color: #fff !important;
+}
+
+.datacenter-blk .slick-prev:before {
+    color: #000 !important;
+    border: 2px solid #76b543 !important;
+}
+
+.datacenter-blk .slick-next:before {
+    color: #000 !important;
+    border: 2px solid #76b543 !important;
+}
+
+.slider>.slick-next:before {
+    color: #000 !important;
+    border: 2px solid #76b543 !important;
+}
+
+.product-lt h2 {
+    color: #000 !important;
+}
+
+.product-lt p {
+    color: #000 !important;
+}
+
+.product-lt ul li span {
+    color: #000 !important;
+}
+
+.great-rtt .slick-prev:before {
+    color: #000 !important;
+    border: 2px solid #76b543 !important;
+}
+
+.great-rtt .slick-next:before {
+    color: #000 !important;
+    border: 2px solid #76b543 !important;
+}
+
+.datacenter-blk h3 {
+    color: #000 !important;
+}
+
+.datacenter-main.hurbour1 img {
+    background-color: black;
+    border-radius: 30px;
+}
+
+.slick-dots li a {
+    color: #000 !important;
+}
+
+.slick-dots li.slick-active a:after {
+    background: #000 !important;
+}
+
+.great-rtt h3 {
+    position: relative !important;
+    background: rgb(0 0 0 / 92%) !important;
+}
+
+.great-rtt img {
+    border-top-right-radius: 50px !important;
+    border-top-left-radius: 50px !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.great-rtt h3 {
+    position: relative !important;
+    background: rgb(0 0 0 / 92%) !important;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    line-height: 50px !important;
+}
+
+
+/* In slick theme css*/
+.slick-prev:before,
+.slick-next:before {
+    color: #76b543 !important;
+}
+
+/* In menu css */
+nav .nav-icon1:after {
+    background: url(../images/nav-icon.png) no-repeat !important;
 }
