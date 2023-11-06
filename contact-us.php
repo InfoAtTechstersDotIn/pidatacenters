@@ -200,8 +200,20 @@ SRR Middle East FZCO Technology Park, Mina-Jebel Ali, National Industrial Park,D
                                 </li>
                             </ul>
                             </form>-->
-        <iframe src="//searchmarketingsolved.com/Forms/gfembed/?f=25" width="100%" height="500" frameBorder="0" class="gfiframe"></iframe>
-        <script src="//searchmarketingsolved.com/Forms/wp-content/plugins/gravity-forms-iframe-develop/assets/scripts/gfembed.min.js" type="text/javascript"></script>
+
+        <form id="contactForm" action="https://clientele.techsters.in/public/api/client_forms" method="post">
+          <input class="" type="text" name="name" style="width: 100%;border-radius:5px" placeholder=" Full Name" required=""><br /><br />
+          <input class="" type="tel" name="number" style="width: 100%;border-radius:5px" placeholder=" Phone" pattern="[0-9]{10}" required=""><br /><br />
+          <input class="" type="email" name="email" style="width: 100%;border-radius:5px" placeholder=" Email Address" required=""><br /><br />
+          <input class="" type="text" name="name" style="width: 100%;border-radius:5px" placeholder=" Company Website" required=""><br /><br />
+          <textarea class="" name="message" style="width: 100%;border-radius:5px" rows="4" placeholder=" Message" required=""></textarea><br /><br />
+          <input class="btn" style="width: 100%;border-radius:5px"  type="submit" value="Submit">
+          
+          <input type="hidden" name="techsters_subject" value="PiDataCenters - Contact Us">
+          <input type="hidden" name="form_unique_id" value="1ef13057-52fd-11ee-a4b0-525400b78afc">
+        </form>
+        <!-- <iframe src="//searchmarketingsolved.com/Forms/gfembed/?f=25" width="100%" height="500" frameBorder="0" class="gfiframe"></iframe>
+        <script src="//searchmarketingsolved.com/Forms/wp-content/plugins/gravity-forms-iframe-develop/assets/scripts/gfembed.min.js" type="text/javascript"></script> -->
       </div>
     </div>
   </div>
