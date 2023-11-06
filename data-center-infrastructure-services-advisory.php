@@ -4,7 +4,9 @@ $seo_description = "Pi Datacenters - World-Class Data Center Infrastructure & Co
 $seo_keywords = "Data Center Infrastructure, colocation data center services, colocation services, Colocation data center providers, data center solution providers, data center management, data center solutions, data centers";
 ?>
 
-<?php include('php/includes-techsters/header.php'); ?>
+<?php include('php/inner-header.php'); ?>
+
+
 <!-- main starts here -->
 <div class="about-banner">
     <div class="about-banner-blk">
@@ -244,15 +246,17 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
 
                 <div class="tab-content tabBlock-content">
                     <ul class="tabBlock-tabs nav-tabs feature-tab  border-bottom-0 d-flex flex-wrap justify-content-center" data-tabs="tabs">
-                        <li class="tabBlock-tab is-active animatable fadeInUp col-4" style="cursor:pointer">
-                            <a class="nav-link" data-toggle="tab">
-                                <div class="hide-icon1">
+                        <li class="tabBlock-tab is-active animatable fadeInUp col-4" style="cursor:pointer"> <!--flip-box-->
+                            <a class="nav-link" data-toggle="tab"> <!--flip-box-inner-->
+                                <div class="hide-icon1"> <!--flip-box-front-->
                                     <img src="images/green-amaravati.png" alt="dc-icon-img-1" width="80" height="80">
-
+                                    <h6>Vijayawada</h6>
                                 </div>
-                                <div class="hide-icon2">
+                                <!-- <div class="flip-box-back">
+                                                                    </div> -->
+                                <div class="hide-icon2 front-image">
                                     <img src="images/blue-amaravati.png" alt="dc-icon-img-1" width="80" height="80">
-
+                                    <h6>Vijayawada</h6>
                                 </div>
                             </a>
                         </li>
@@ -261,11 +265,13 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
 
                                 <div class="hide-icon1">
                                     <img src="images/green-kochi.png" alt="dc-icon-img-1" width="80" height="80">
-
+                                    <h6>Kochi</h6>
                                 </div>
-                                <div class="hide-icon2">
+                                <!-- <div class="flip-box-back">
+                                                                   </div> -->
+                                <div class="hide-icon2 front-image">
                                     <img src="images/blue-kochi.png" alt="dc-icon-img-1" width="80" height="80">
-
+                                    <h6>Kochi</h6>
                                 </div>
                             </a>
                         </li>
@@ -273,11 +279,14 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             <a class="nav-link" data-toggle="tab">
                                 <div class="hide-icon1">
                                     <img src="images/charminar-green.svg" class="hyd" alt="dc-icon-img-1" width="80" height="80">
-
+                                    <h6>Hyderabad</h6>
                                 </div>
-                                <div class="hide-icon2">
+                                <!-- <div class="flip-box-back">
+                                    <h2>Hyderabad</h2>
+                                </div> -->
+                                <div class="hide-icon2 front-image">
                                     <img src="images/charminar-blue.svg" class="hyd" alt="dc-icon-img-1" width="80" height="80">
-
+                                    <h6>Hyderabad</h6>
                                 </div>
                             </a>
                         </li>
@@ -1020,7 +1029,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
 
 
 <!--footer block starts -->
-<?php include('php/includes-techsters/footer.php'); ?>
+<?php include('php/footer.php'); ?>
 
 <div id="modal-1" class="modalDialog">
     <div class="fill-your-details">

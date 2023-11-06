@@ -8,6 +8,10 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
 
 <?php include('php/inner-header.php'); ?>
 <style>
+    body {
+        font-family: 'Roboto', sans-serif !important;
+    }
+
     .anchor-tag {
         background-color: blue;
         color: white;
@@ -255,35 +259,26 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
     </div>
 </div>
 <!--why-work-with-us starts here -->
-
-
 <div class="about-locations-blk">
     <div class="container">
         <div class="about-locations-main">
             <h2>About Locations</h2>
 
-
-
             <div class="tabBlock">
 
                 <div class="tab-content tabBlock-content">
                     <ul class="tabBlock-tabs nav-tabs feature-tab  border-bottom-0 d-flex flex-wrap justify-content-center" data-tabs="tabs">
-                        <li class="tabBlock-tab is-active animatable fadeInUp col-4" style="cursor:pointer">
-                            <a class="nav-link" data-toggle="tab">
-                                <div class="hide-icon1">
+                        <li class="tabBlock-tab is-active animatable fadeInUp col-4" style="cursor:pointer"> <!--flip-box-->
+                            <a class="nav-link" data-toggle="tab"> <!--flip-box-inner-->
+                                <div class="hide-icon1"> <!--flip-box-front-->
                                     <img src="images/green-amaravati.png" alt="dc-icon-img-1" width="80" height="80">
-
+                                    <h6>Vijayawada</h6>
                                 </div>
-
-
-                                <div class="flip-box-back">
-                                    <h2>Back Side</h2>
-                                </div>
-
-
-                                <div class="hide-icon2">
+                                <!-- <div class="flip-box-back">
+                                                                    </div> -->
+                                <div class="hide-icon2 front-image">
                                     <img src="images/blue-amaravati.png" alt="dc-icon-img-1" width="80" height="80">
-
+                                    <h6>Vijayawada</h6>
                                 </div>
                             </a>
                         </li>
@@ -292,11 +287,13 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
 
                                 <div class="hide-icon1">
                                     <img src="images/green-kochi.png" alt="dc-icon-img-1" width="80" height="80">
-
+                                    <h6>Kochi</h6>
                                 </div>
-                                <div class="hide-icon2">
+                                <!-- <div class="flip-box-back">
+                                                                   </div> -->
+                                <div class="hide-icon2 front-image">
                                     <img src="images/blue-kochi.png" alt="dc-icon-img-1" width="80" height="80">
-
+                                    <h6>Kochi</h6>
                                 </div>
                             </a>
                         </li>
@@ -304,11 +301,14 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             <a class="nav-link" data-toggle="tab">
                                 <div class="hide-icon1">
                                     <img src="images/charminar-green.svg" class="hyd" alt="dc-icon-img-1" width="80" height="80">
-
+                                    <h6>Hyderabad</h6>
                                 </div>
-                                <div class="hide-icon2">
+                                <!-- <div class="flip-box-back">
+                                    <h2>Hyderabad</h2>
+                                </div> -->
+                                <div class="hide-icon2 front-image">
                                     <img src="images/charminar-blue.svg" class="hyd" alt="dc-icon-img-1" width="80" height="80">
-
+                                    <h6>Hyderabad</h6>
                                 </div>
                             </a>
                         </li>
@@ -1236,11 +1236,6 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
     });
 </script>
 
-
-<script>
-    $(".about-banner-blk").append('<a href="https://pidatacenters.com">Reach Us</a>');
-    $(".about-banner-blk a").addClass("anchor-tag");
-</script>
 </body>
 
 </html>

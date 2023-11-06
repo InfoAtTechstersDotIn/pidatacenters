@@ -916,7 +916,12 @@ include_once('includes/header.php');
 			left: 2% !important;
 			font-size: 35px !important;
 		}
+
+		.card-head>h6 {
+			font-size: 15px;
+		}
 	}
+
 
 
 	@media (max-width:768px) {
@@ -960,6 +965,10 @@ include_once('includes/header.php');
 		h1 {
 			font-size: 25px !important;
 			padding: 0 !important;
+		}
+
+		.card-head>h6 {
+			font-size: 15px;
 		}
 
 		.elastic,
@@ -1020,7 +1029,7 @@ include_once('includes/header.php');
 
 	@media (max-width:1024px) {
 		.card-icon>img {
-			max-width: 50px;
+			max-width: 48px;
 		}
 	}
 </style>
@@ -1187,8 +1196,6 @@ include_once('includes/header.php');
 				<p style="text-align:center; font-size: 17px;">Keep your software up-to-date, enforce configuration and security policies, and manage patching, updates, password resets, and resource right-sizing.</p>
 			</div>
 		</li>
-	</ul>
-	<ul class="boxes-2">
 		<li>
 			<div class="card-box">
 				<div class="box-icon">
@@ -1217,6 +1224,79 @@ include_once('includes/header.php');
 				<p style="text-align:center; font-size: 17px;">We ensure that proposed changes are scheduled based on business priorities, infrastructure impact, and service risk, minimizing disruptions to your IT services.</p>
 			</div>
 		</li>
+		<li>
+			<div class="card-box">
+				<div class="box-icon">
+					<p class="card-icon">
+						<img src="../images/managed-services-icons/BR.svg" class="img" width="70">
+					</p>
+					<div class="card-head">
+						<h6>Basic Response/Resolution</h6>
+
+					</div>
+				</div>
+				<p style="text-align:center; font-size: 17px;">Expect swift responses and resolutions with our support services. We offer PIL1/L2 support for break-fix issues with prompt initial responses based on severity levels.</p>
+			</div>
+		</li>
+		<li>
+			<div class="card-box">
+				<div class="box-icon">
+					<p class="card-icon">
+						<img src="../images/managed-services-icons/PROBLEM-M.svg" class="img" width="70">
+					</p>
+					<div class="card-head">
+						<h6>Problem Management</h6>
+
+					</div>
+				</div>
+				<p style="text-align:center; font-size: 17px;"> Our incident management process includes root cause analysis, allowing us to identify and address problems in your IT infrastructure efficiently.</p>
+			</div>
+		</li>
+		<li>
+			<div class="card-box">
+				<div class="box-icon">
+					<p class="card-icon">
+						<img src="../images/managed-services-icons/BSL.svg" class="img" width="70">
+					</p>
+					<div class="card-head">
+						<h6>Basic Support Level</h6>
+
+					</div>
+				</div>
+				<p style="text-align:center; font-size: 17px;">We provide L1 customer support services and advanced L2 troubleshooting, escalating to L3 for break-fix issues when necessary.</p>
+			</div>
+		</li>
+		<li>
+			<div class="card-box">
+				<div class="box-icon">
+					<p class="card-icon">
+						<img src="../images/managed-services-icons/INCIDENT-M.svg" class="img" width="70">
+					</p>
+					<div class="card-head">
+						<h6>Incident Management</h6>
+
+					</div>
+				</div>
+				<p style="text-align:center; font-size: 17px;">Our incident management encompasses reporting, initial response, categorization, service impact analysis, affected services, resolution/fix, and thorough root cause analysis.</p>
+			</div>
+		</li>
+	</ul>
+	<ul class="boxes-2">
+		<li>
+			<div class="card-box">
+				<div class="box-icon">
+					<p class="card-icon">
+						<img src="../images/managed-services-icons/GOVERNANCE.svg" class="img" width="70">
+					</p>
+					<div class="card-head">
+						<h6>Governance</h6>
+
+					</div>
+				</div>
+				<p style="text-align:center; font-size: 17px;">Stay informed with monthly reports and account reviews. For added support, our Technical Account Managers (TAMs) are available for monthly account reviews and consultations.</p>
+			</div>
+		</li>
+
 	</ul>
 </div>
 
