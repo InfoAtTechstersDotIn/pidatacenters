@@ -4,8 +4,15 @@ $seo_description = "Work with us at Pi Datacenters - India's Best Data Center Se
 $seo_keywords = "Data center services, cloud services, data center sercices provider, cloud services provider in india";
 ?>
 
+<head>
+    <style>
+        #myBtn2 {
+            display: none;
+        }
+    </style>
+</head>
 <?php ob_start(); ?>
-<?php include('php/includes-techsters/header.php'); ?>
+<?php include('php/inner-header.php'); ?>
 <!-- main starts here -->
 <?php
 $servername = "localhost";
@@ -348,8 +355,7 @@ if (isset($_POST['button']) && isset($_FILES['attachment'])) {
 </div>
 
 
-
-<?php include('php/includes-techsters/footer.php'); ?>
+<?php include('php/footer.php'); ?>
 
 
 

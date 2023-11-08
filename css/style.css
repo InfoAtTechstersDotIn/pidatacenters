@@ -7875,12 +7875,18 @@ nav .nav-icon1:after {
     background: url(../images/nav-icon.png) no-repeat !important;
 }
 
-.about-locations-main .tabBlock-tab a {
-    border: 0;
-    box-shadow: 5px 2px 8px 0px #000000 !important;
-}
+
 
 /* Colocation page styles*/
+.about-locations-main .tabBlock-tab a {
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px -4px 20px, inset rgba(0, 0, 0, 0.3) 7px -7px 20px -3px, rgba(0, 0, 0, 0.2) 1px -5px 20px inset, black 0px 2px 20px !important;
+}
+
+.about-locations-main .tabBlock-tab a {
+    background: rgb(237 237 237 / 88%);
+}
+
 .hide-icon1 h6,
 .hide-icon2 h6 {
     text-align: center;
@@ -7888,6 +7894,11 @@ nav .nav-icon1:after {
     color: #223f97;
 }
 
-.hide-icon2 h6 {
-    color: #76b543;
+.article-blk-main {
+    margin: -35px auto 0 !important;
+}
+
+/*leadership page*/
+.scc-block img {
+    height: auto !important;
 }

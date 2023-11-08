@@ -1,4 +1,11 @@
-<?php include('php/includes-techsters/header.php'); ?>
+<head>
+  <style>
+    #myBtn2 {
+      display: none;
+    }
+  </style>
+</head>
+<?php include('php/inner-header.php'); ?>
 <?php
 $servername = "localhost";
 $username = "marcom";
@@ -132,7 +139,7 @@ if ($conn->connect_error) {
 </div>
 <br>
 <br>
-<?php include('php/includes-techsters/footer.php'); ?>
+<?php include('php/footer.php'); ?>
 
 
 

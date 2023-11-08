@@ -4,7 +4,7 @@ $seo_description = "Data Center Building Guidance by Pi Datacenters | Get Comple
 $seo_keywords = "Data center build, data center technology, network security, IT infrastructure, Data center network ";
 ?>
 
-<?php include('php/includes-techsters/header.php'); ?>
+<?php include('php/inner-header.php'); ?>
 <!-- main starts here -->
 
 <div class="about-banner">
@@ -104,7 +104,7 @@ $seo_keywords = "Data center build, data center technology, network security, IT
 
 <!--footer block starts -->
 
-<?php include('php/includes-techsters/footer.php'); ?>
+<?php include('php/footer.php'); ?>
 
 
 <!--footer ends-->

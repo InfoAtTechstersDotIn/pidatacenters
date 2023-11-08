@@ -4151,3 +4151,11 @@ footer>div>p {
         width: 100% !important;
     }
 }
+
+.skltbs-tab-item>button {
+    font-size: 14px !important;
+}
+
+.skltbs-tab-group {
+    margin: 25px auto !important;
+}

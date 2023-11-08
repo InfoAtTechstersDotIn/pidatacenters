@@ -60,7 +60,15 @@ $seo_title = "Get in Touch with Us - Pi Datacenters | Data Center Networking Pro
 $seo_description = "Contact our experts today at Pi Datacenters and explore possibilities for your data storage, management & analytics needs with India's best data center networking provider. Get expert solutions for every data storage, server & cloud requirement.";
 $seo_keywords = "Contact Us, best data centers, data center services,  Data center networking provider in india";
 ?>
-<?php include('php/includes-techsters/header.php'); ?>
+
+<head>
+  <style>
+    #myBtn2 {
+      display: none;
+    }
+  </style>
+</head>
+<?php include('php/inner-header.php'); ?>
 
 
 
@@ -207,8 +215,8 @@ SRR Middle East FZCO Technology Park, Mina-Jebel Ali, National Industrial Park,D
           <input class="" type="email" name="email" style="width: 100%;border-radius:5px" placeholder=" Email Address" required=""><br /><br />
           <input class="" type="text" name="name" style="width: 100%;border-radius:5px" placeholder=" Company Website" required=""><br /><br />
           <textarea class="" name="message" style="width: 100%;border-radius:5px" rows="4" placeholder=" Message" required=""></textarea><br /><br />
-          <input class="btn" style="width: 100%;border-radius:5px"  type="submit" value="Submit">
-          
+          <input class="btn" style="width: 100%;border-radius:5px" type="submit" value="Submit">
+
           <input type="hidden" name="techsters_subject" value="PiDataCenters - Contact Us">
           <input type="hidden" name="form_unique_id" value="1ef13057-52fd-11ee-a4b0-525400b78afc">
         </form>
@@ -230,7 +238,7 @@ SRR Middle East FZCO Technology Park, Mina-Jebel Ali, National Industrial Park,D
 
 
 
-<?php include('php/includes-techsters/footer.php'); ?>
+<?php include('php/footer.php'); ?>
 
 
 <!--footer ends-->

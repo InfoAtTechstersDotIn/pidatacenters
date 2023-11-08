@@ -4,7 +4,15 @@ $seo_description = "Pi Datacenters' certification boutique comprises 15+ certifi
 $seo_keywords = "Datacenter certifications, meity certified cloud service providers, SAP certified datacenters, sap cloud operations, sap infrastructure, information security controls";
 ?>
 
-<?php include('php/includes-techsters/header.php'); ?>
+<head>
+  <style>
+    #myBtn2 {
+      display: none;
+    }
+  </style>
+</head>
+
+<?php include('php/inner-header.php'); ?>
 <!-- main starts here -->
 <div class="about-banner">
   <div class="about-banner-blk">
@@ -168,7 +176,7 @@ $seo_keywords = "Datacenter certifications, meity certified cloud service provid
     </div>
   </div>
 </div>
-<?php include('php/includes-techsters/footer.php'); ?>
+<?php include('php/footer.php'); ?>
 
 <!--footer ends-->
 </div>

@@ -197,7 +197,7 @@ include_once('includes/header.php');
 
 	.card-desc {
 		display: block;
-		font-size: 1rem;
+		font-size: 0.85rem;
 		line-height: 1.4rem;
 		position: absolute;
 		height: 0;
@@ -1058,10 +1058,6 @@ include_once('includes/header.php');
 		Pi Datacenters takes pride in offering comprehensive Multi Cloud Managed Services that empower your organization with unparalleled control, security, and efficiency in the digital realm. Pi represents the foundation upon which your organization's digital dreams are realized. We don't just offer services; we offer solutions that redefine the very essence of cloud management. Our team of experienced experts is committed to your digital journey's success. We understand that in the digital world, control is not just an option; it's imperative. With Pi Datacenters, you gain the ability to harness unparalleled control over your cloud infrastructure.
 
 	</p>
-	<p class="para">
-		We recognize the critical role that security plays in maintaining your online fortress, and hence, we employ advanced security protocols to safeguard your data against the myriad threats that loom in the digital world. With Pi Datacenters, your data remains impervious to ever-evolving challenges, ensuring that your business operations are uninterrupted. Your cloud infrastructure's performance directly influences your business's success. Our team, well-versed in the intricate world of cloud computing, meticulously fine-tunes your setup. With Pi Datacenters, you can expect nothing less than unparalleled performance, ensuring a seamless user experience and the ability to meet your customers' demands effectively.
-	</p>
-	<p class="para">In a world fueled by data and connectivity, Pi Datacenters is not just a service provider; we are your strategic partner in achieving digital excellence. Our Multi Cloud Managed Services are meticulously crafted to not only meet your requirements but to exceed them. We are dedicated to your success, and our expertise is your competitive edge in the digital arena. Welcome to a new era of cloud management with Pi Datacenters. Your journey to digital greatness begins here.</p>
 	<h2>Our Range Of Services </h2>
 
 </div>
@@ -1737,6 +1733,14 @@ include_once('includes/header.php');
                       
               </div>
           </div>-->
+
+		</div>
+
+		<div class="content_1 col-md-12">
+			<p class="para">
+				With Pi Datacenters, your data remains impervious to ever-evolving challenges, ensuring that your business operations are uninterrupted. We recognize the critical role that security plays in maintaining your online fortress, and hence, we employ advanced security protocols to safeguard your data against the myriad threats that loom in the digital world. Your cloud infrastructure's performance directly influences your business's success. Hence, our team, well-versed in the intricate world of cloud computing, meticulously fine-tunes your setup. With Pi, you can expect nothing less than unparalleled performance, ensuring a seamless user experience and the ability to meet your customers' demands effectively.
+			</p>
+			<p class="para">In a world fueled by data and connectivity, Pi Datacenters is not just a service provider; we are your strategic partner in achieving digital excellence. Our Multi Cloud Managed Services are meticulously crafted to not only meet your requirements but to exceed them. We are dedicated to your success, and our expertise is your competitive edge in the digital arena. Welcome to a new era of cloud management with Pi Datacenters. Your journey to digital greatness begins here.</p>
 
 		</div>
 

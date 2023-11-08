@@ -1,4 +1,4 @@
-<?php include('php/includes-techsters/header.php'); ?>
+<?php include('php/inner-header.php'); ?>
 <!-- main starts here -->
 
 <div class="about-banner">
@@ -60,7 +60,7 @@
   </div>
 </div>
 
-<?php include('php/includes-techsters/footer.php'); ?>
+<?php include('php/footer.php'); ?>
 
 <!--footer ends-->
 

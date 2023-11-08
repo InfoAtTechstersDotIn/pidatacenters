@@ -6,8 +6,15 @@ $seo_keywords = "About datacenters, Data center provider, leading data center, B
 ?>
 
 
+<head>
+    <style>
+        #myBtn2 {
+            display: none;
+        }
+    </style>
+</head>
 
-<?php include('php/includes-techsters/header.php'); ?>
+<?php include('php/inner-header.php'); ?>
 
 <!-- main starts here -->
 <div class="about-banner">
@@ -147,8 +154,7 @@ $seo_keywords = "About datacenters, Data center provider, leading data center, B
     </div>
 </div>
 
-<?php include('php/includes-techsters/footer.php'); ?>
-
+<?php include('php/footer.php'); ?>
 
 <!-- wrapper ends -->
 <script src="js/wow.min.js"></script>

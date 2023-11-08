@@ -5,7 +5,14 @@ $seo_description = "Testimonials from our clients say about us. Being the most r
 $seo_keywords = "Data Center & Cloud related services, reliable Data Center & Cloud Partner, best datacenters in india, pi datacenters, professional Hyperscale Data Center, Data centers";
 ?>
 
-<?php include('php/includes-techsters/header.php'); ?>
+<head>
+    <style>
+        #myBtn2 {
+            display: none;
+        }
+    </style>
+</head>
+<?php include('php/inner-header.php'); ?>
 <?php
 $servername = "localhost";
 $username = "marcom";
@@ -346,7 +353,7 @@ if ($conn->connect_error) {
         </div>
     </div>
 </div>
-<?php include('php/includes-techsters/footer.php'); ?>
+<?php include('php/footer.php'); ?>
 <div id="modal-1" class="modalDialog">
     <div>
         <a href="#close" title="Close" class="close">x</a>

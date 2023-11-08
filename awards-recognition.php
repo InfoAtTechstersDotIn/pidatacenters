@@ -4,10 +4,16 @@ $seo_description = "Pi Datacenters' award & recognition as India's best cloud in
 $seo_keywords = "Fast Growing Data Center in India, Best Cloud Infrastructure, Best Data Center Service Provider, Multi Tenant Datacenter Awards, Data Cloud Global Awards, India's Best Multi-Tenant Data Center, Awards, Awards and Recognition";
 ?>
 
+<head>
+  <style>
+    #myBtn2 {
+      display: none;
+    }
+  </style>
+</head>
 
 
-
-<?php include('php/includes-techsters/header.php'); ?>
+<?php include('php/inner-header.php'); ?>
 
 <?php
 $servername = "localhost";
@@ -336,8 +342,7 @@ if ($conn->connect_error) {
   <!--footer block starts -->
 
 
-
-  <?php include('php/includes-techsters/footer.php'); ?>
+  <?php include('php/footer.php'); ?>
 
 
   <!--footer ends-->
