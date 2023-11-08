@@ -1,4 +1,12 @@
-<?php include('php/includes-techsters/header.php'); ?>
+<head>
+    <style>
+        #myBtn2 {
+            display: none;
+        }
+    </style>
+</head>
+
+<?php include('php/inner-header.php'); ?>
 
 <!-- main starts here -->
 <div class="about-banner">
@@ -44,7 +52,7 @@
     </div>
 </div>
 
-<?php include('php/includes-techsters/footer.php'); ?>
+<?php include('php/footer.php'); ?>
 <!-- wrapper ends -->
 <script src="js/wow.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

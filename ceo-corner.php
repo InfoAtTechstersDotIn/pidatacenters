@@ -4,7 +4,14 @@ $seo_description = "Kalyan Muppineni - the CEO of Pi Datacenters| Business Leade
 $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hyperscale data center in India, Pi Datacenters";
 ?>
 
-<?php include('php/includes-techsters/header.php'); ?>
+<head>
+  <style>
+    #myBtn2 {
+      display: none;
+    }
+  </style>
+</head>
+<?php include('php/inner-header.php'); ?>
 <!-- main starts here -->
 <div class="about-banner">
   <div class="about-banner-blk">
@@ -452,7 +459,7 @@ $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hypers
 
 </div>
 
-<?php include('php/includes-techsters/footer.php'); ?>
+<?php include('php/footer.php'); ?>
 <div id="modal-1" class="modalDialog">
   <div>
     <a href="#close" title="Close" class="close">x</a>

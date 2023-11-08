@@ -4,7 +4,14 @@ $seo_description = "Check out the latest blogs by Pi Datacenters. Here's a blog 
 $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global market for data centers, data center market, data center physical security, data centers in india, data center network";
 ?>
 
-<?php include('php/includes-techsters/header.php'); ?>
+<head>
+    <style>
+        #myBtn2 {
+            display: none;
+        }
+    </style>
+</head>
+<?php include('php/inner-header.php'); ?>
 
 <?php
 $servername = "localhost";
@@ -611,7 +618,7 @@ if ($conn->connect_error) {
 </div>
 
 <!--footer block starts -->
-<?php include('php/includes-techsters/footer.php'); ?>
+<?php include('php/footer.php'); ?>
 
 <div id="modal-1" class="modalDialog">
     <div class="fill-your-details">

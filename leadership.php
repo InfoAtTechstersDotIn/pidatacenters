@@ -1,5 +1,13 @@
-<?php include('php/includes-techsters/header.php'); ?>
+<head>
+  <style>
+    #myBtn2 {
+      display: none;
+    }
+  </style>
+</head>
 
+
+<?php include('php/inner-header.php'); ?>
 <!-- main starts here -->
 
 <div class="about-banner">
@@ -11,7 +19,7 @@
 </div>
 <!--board-of-directors starts here -->
 <div class="board-of-directors">
-  <div class="container-fluid">
+  <div class="container">
     <div class="board-of-directors-main">
       <h2 class="bod">Board of Directors</h2>
       <ul class="row certifications-desktop">
@@ -262,7 +270,7 @@
 <!--who-we-are starts here -->
 <!--board-of-directors starts here -->
 <div class="board-of-directors">
-  <div class="container-fluid">
+  <div class="container">
     <div class="board-of-directors-main board2">
       <h2 class=" management">Strategic Management Core (SMC)</h2>
       <div class="smc-directors">
@@ -540,9 +548,9 @@
 
 
 
-<?php include('php/includes-techsters/footer.php'); ?>
 
 
+<?php include('php/footer.php'); ?>
 
 
 <!--

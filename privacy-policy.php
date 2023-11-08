@@ -1,4 +1,11 @@
-<?php include('php/includes-techsters/header.php'); ?>
+<head>
+   <style>
+      #myBtn2 {
+         display: none;
+      }
+   </style>
+</head>
+<?php include('php/inner-header.php'); ?>
 <!-- main starts here -->
 
 <div class="about-banner">
@@ -42,7 +49,7 @@
 
 
    <!--footer block starts -->
-   <?php include('php/includes-techsters/footer.php'); ?>
+   <?php include('php/footer.php'); ?>
 
 
 

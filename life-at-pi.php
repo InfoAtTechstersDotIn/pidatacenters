@@ -4,7 +4,15 @@ $seo_description = "Best data center work culture. Explore our work culture at P
 $seo_keywords = "Life At Pi, work culture at pi datacenters, best data centers, Data center networking, data center service providers";
 ?>
 
-<?php include('php/includes-techsters/header.php'); ?>
+<head>
+  <style>
+    #myBtn2 {
+      display: none;
+    }
+  </style>
+</head>
+
+<?php include('php/inner-header.php'); ?>
 <!-- main starts here -->
 
 <div class="about-banner">
@@ -88,7 +96,7 @@ $seo_keywords = "Life At Pi, work culture at pi datacenters, best data centers, 
     </div>
   </div>
 </div>
-<?php include('php/includes-techsters/footer.php'); ?>
+<?php include('php/footer.php'); ?>
 
 
 

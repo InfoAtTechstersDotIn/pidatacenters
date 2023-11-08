@@ -3,7 +3,7 @@ $seo_title = "Download Brochure - Pi Datacenters | Explore our Product Portfolio
 $seo_description = "Download the Pi Datacenters' latest brochure and explore everything you need to know about data center services, infrastructure, and management in India. Get to know about our unique solutions and advanced product range. Download the brochure today!";
 $seo_keywords = "Product Portfolio, Data Center Services, data center infrastructure, data centers in india";
 ?>
-<?php include('php/includes-techsters/header.php'); ?>
+<?php include('php/inner-header.php'); ?>
 <style>
   article.tabs {
     position: relative;
@@ -403,7 +403,7 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
   </article>
 </div>
 
-<?php include('php/includes-techsters/footer.php'); ?>
+<?php include('php/footer.php'); ?>
 
 <div id="modal-1" class="modalDialog">
   <div class="fill-your-details">

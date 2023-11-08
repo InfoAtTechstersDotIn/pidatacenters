@@ -60,7 +60,15 @@ $seo_title = "Get in Touch with Us - Pi Datacenters | Data Center Networking Pro
 $seo_description = "Contact our experts today at Pi Datacenters and explore possibilities for your data storage, management & analytics needs with India's best data center networking provider. Get expert solutions for every data storage, server & cloud requirement.";
 $seo_keywords = "Contact Us, best data centers, data center services,  Data center networking provider in india";
 ?>
-<?php include('php/includes-techsters/header.php'); ?>
+
+<head>
+  <style>
+    #myBtn2 {
+      display: none;
+    }
+  </style>
+</head>
+<?php include('php/inner-header.php'); ?>
 
 
 
@@ -230,7 +238,7 @@ SRR Middle East FZCO Technology Park, Mina-Jebel Ali, National Industrial Park,D
 
 
 
-<?php include('php/includes-techsters/footer.php'); ?>
+<?php include('php/footer.php'); ?>
 
 
 <!--footer ends-->

@@ -56,23 +56,6 @@ include_once('includes/header.php');
         border-top: 5px solid #223f97 !important;
     }
 
-    /* .skltbs-tab-item.current,
-    .skltbs-tab-item.current,
-    .skltbs-tab-item.current:after,
-    .skltbs-tab-item.current:before {
-        background-color: #76b543 !important;
-    }
-
-    .skltbs-tab-item:hover,
-    .skltbs-tab-item:hover:after,
-    .skltbs-tab-item:hover:before {
-        background-color: #76b543 !important;
-    }
-
-    .skltbs-tab-group {
-        border-bottom: solid #216733 !important;
-    } */
-
     .hb-productHead {
         max-width: 85%;
         margin: 0 auto;
@@ -370,19 +353,6 @@ include_once('includes/header.php');
         color: #223f97;
     }
 
-    .skltbs-tab-item {
-        background-color: #223f97 !important;
-    }
-
-    .skltbs-tab-item:after,
-    .skltbs-tab-item:before {
-        background-color: #223f97 !important;
-    }
-
-    .skltbs-tab-item>button {
-        color: #fff !important;
-    }
-
     .owl-dot>span {
         background-color: #223f97 !important;
     }
@@ -434,8 +404,7 @@ include_once('includes/header.php');
 <!-- <h3 class="text-center" style="font-size: 28px; margin: 20px 0;">Why Choose <span style="color: #76b543;">Pi Public Cloud Services</span>?</h3> -->
 
 <div class="hb-productHead">
-    <p>Pi Multi Cloud, the flagship offering from Pi DATACENTERSÂ®, presents a distinctive proposition to enterprises seeking an optimized cloud hosting strategy. By seamlessly orchestrating diverse workloads across multiple premier cloud providers, it empowers businesses to harness the full spectrum of advantages each provider offers while effectively counterbalancing any inherent limitations.
-        This dynamic multi-cloud hosting approach stands as a testament to our commitment to innovation and client-centric solutions. It's a strategy designed to amplify the operational strengths of each cloud provider, allowing enterprises to capitalize on a finely tuned ecosystem that enhances their operational efficiency. </p><br>
+    <p>The Pi Public Cloud Services helps businesses devise strategies & appropriate planning for building a technology-proficient environment by fostering Flexibility, Scalability, Multi-Tiered Security, and High Redundancy. It brings the best of both worlds for businesses to co-leverage the flexibility of Public Clouds, along with Pi&#8217;s seamless integration and comprehensive management suite. It's all about gaining the trust of customers through the safekeeping of their data across agnostic cloud platforms with a fully integrated products and services stack under one umbrella. </p><br>
 
     <!-- <p>In the pursuit of technological excellence, Pi Multi Cloud casts a wide net of services and features, thus providing clients with an expansive toolkit to craft their cloud environment precisely as per their requirements. This abundance translates into augmented flexibility and scalability, two attributes that have become paramount in navigating the fluid landscape of modern business.
       At the heart of the Pi Multi Cloud computing paradigm lie several integral elements, each meticulously integrated to bolster our clients' capabilities in today's dynamic business landscape. The fusion of cutting-edge technology, strategic vision, and unwavering commitment to excellence creates an environment where businesses can not only thrive but also pioneer new horizons of success.
@@ -541,97 +510,9 @@ include_once('includes/header.php');
     </a>
     
 </div> -->
-<div class="hb-features">
-    <h3 class="text-center">Key <span style="color: #76b543;">Features</span></h3>
-    <ul class="list-inline hb-featuresList multi-cld-key">
-        <li>
-            <div class="hb-featureBox">
-                <div class="hb-featTopHeader">
-                    <p class="hb-featLogo">
-                        <img src="./pi-cloud/images/combination25.png" alt="scale">
-                    </p>
-                    <div class="hb-featCont">
-                        <h6>Combination of Private and Public Cloud</h6>
 
-                    </div>
-                </div>
-                <p style="text-align:center;">Our approach to cloud computing consists of both private and public clouds, allowing clients to simultaneously leverage the flexibility of the public cloud and the robustness of the private cloud for their diverse workloads in a fully managed environment with a single pane of glass view.</p>
-            </div>
-        </li>
-        <li>
-            <div class="hb-featureBox">
-                <div class="hb-featTopHeader">
-                    <p class="hb-featLogo">
-                        <img src="./pi-cloud/images/diverse25.png" alt="economics">
-                    </p>
-                    <div class="hb-featCont">
-                        <h6>Diverse Workload Hosting Locations</h6>
 
-                    </div>
-                </div>
-                <p style="text-align:center;">Our platform enables customers to diversify their workload hosting locations, providing them with the flexibility and scalability necessary to succeed in today's competitive market.</p>
-            </div>
-        </li>
-        <li>
-            <div class="hb-featureBox">
-                <div class="hb-featTopHeader">
-                    <p class="hb-featLogo">
-                        <img src="./pi-cloud/images/cross25.png" alt="Self">
-                    </p>
-                    <div class="hb-featCont">
-                        <h6>Cross-Geographical Cloud Integration</h6>
-
-                    </div>
-                </div>
-                <p style="text-align:center;">We provide cross-geographical cloud integration to enable seamless workload management for our customers across various locations.</p>
-            </div>
-        </li>
-        <li>
-            <div class="hb-featureBox">
-                <div class="hb-featTopHeader">
-                    <p class="hb-featLogo">
-                        <img src="./pi-cloud/images/self25.png" alt="scale">
-                    </p>
-                    <div class="hb-featCont">
-                        <h6>Self-Service Provision</h6>
-
-                    </div>
-                </div>
-                <p style="text-align:center;">Our self-service provision enables customers to scale and manage their workloads via self-service, granting them complete control over their resources.</p>
-            </div>
-        </li>
-        <li>
-            <div class="hb-featureBox">
-                <div class="hb-featTopHeader">
-                    <p class="hb-featLogo">
-                        <img src="./pi-cloud/images/cost25.png" alt="economics">
-                    </p>
-                    <div class="hb-featCont">
-                        <h6>Cost Optimization and Competitive Pricing</h6>
-
-                    </div>
-                </div>
-                <p style="text-align:center;">At Pi Cloud, we understand the importance of cost optimization and competitive pricing. We work closely with our customers to ensure that they are getting the best value for their investment without sacrificing the quality of our services.</p>
-            </div>
-        </li>
-        <li>
-            <div class="hb-featureBox">
-                <div class="hb-featTopHeader">
-                    <p class="hb-featLogo">
-                        <img src="./pi-cloud/images/optimal25.png" alt="Self">
-                    </p>
-                    <div class="hb-featCont">
-                        <h6>Optimal Mix Of Services From Multiple Cloud Platforms</h6>
-
-                    </div>
-                </div>
-                <p style="text-align:center;">Our team is well-versed in the latest technologies and can help you find the optimal mix of services from across cloud platforms to meet your specific business needs. This strategy ensures that you do not overspend on unnecessary services while still having access to the tools and resources you need to succeed in the current digital landscape.</p>
-            </div>
-        </li>
-    </ul>
-</div>
-
-<div class="hb-btn_cl" style="text-align: center; margin-top: 10px;"><a href="contact-us.php" class="global-button">Contact Us</a>
+<div class="hb-btn_cl" style="text-align: center; margin-top: 20px;"><a href="contact-us.php" class="global-button">Reach Us</a>
     <!-- <span><a href="images/Multi-Cloud-Brochure.pdf" class="sch-your global-button" target="_blank">
                 Download Brochure
     </a></span> -->
@@ -643,13 +524,13 @@ include_once('includes/header.php');
     <div id="outer" class="skltbs-theme-light" data-skeletabs='{ "startIndex": 3 }'>
         <ul class="skltbs-tab-group list-inline text-center templine">
             <li class="skltbs-tab-item current">
-                <button class="skltbs-tab tab-link" data-tab="tab-1">Managed Multi-Cloud Services </button>
+                <button class="skltbs-tab tab-link" data-tab="tab-1">Managed Public Cloud Services </button>
             </li>
             <li class="skltbs-tab-item">
                 <button class="skltbs-tab tab-link" data-tab="tab-2">Single Pane Of Glass</button>
             </li>
             <li class="skltbs-tab-item">
-                <button class="skltbs-tab tab-link" data-tab="tab-3">Why Multi-Cloud @Pi</button>
+                <button class="skltbs-tab tab-link" data-tab="tab-3">Why Public Cloud @Pi</button>
             </li>
 
         </ul>
@@ -657,9 +538,11 @@ include_once('includes/header.php');
             <div class="skltbs-panel current " id="tab-1">
                 <ul class="hb-productSec list-inline">
                     <div class="hb-leftCont hb_ppCont">
-                        <p>Pi Managed Multi-Cloud Services offer businesses the flexibility to choose from multiple cloud providers, including AWS, Azure, Google Cloud, and Oracle, while ensuring seamless integration and efficient management of all cloud services.</p>
-                        <p>Our managed multi-cloud services are designed to meet the growing demand for scalable, secure, and high-performance cloud computing solutions. Our team of cloud specialists has extensive expertise in designing, implementing, and managing multi-cloud environments, helping businesses optimize their cloud infrastructure to achieve their desired outcomes.</p>
-                        <p>Our managed multi-cloud services offer businesses the peace of mind they need to focus on their core activities while we manage their cloud environment. If you're looking for a reliable and efficiently managed multi-cloud service provider, Pi Cloud is the perfect partner for your business.</p><br>
+                        <p>Pi Managed Public Cloud Services offer businesses the flexibility to choose from multiple cloud providers, including AWS, Azure, Google Cloud, and Oracle, while ensuring seamless integration and efficient management of all cloud services.</p>
+                        <p>These services are designed to meet the growing demand for scalable, secure, and high-performance cloud computing solutions. Our team of cloud specialists has extensive expertise in designing, implementing, and managing Public Cloud environments, helping businesses optimize their cloud infrastructure to achieve their desired outcomes.
+                        </p>
+                        <p>
+                            Our services offer businesses the peace of mind they need to focus on their core activities while we manage their cloud environment. If you're looking for a reliable and efficiently managed Public Cloud service provider, Pi Cloud is the perfect partner for your business.</p><br>
                         <!--<span>
                           <img src="images/product-images/Managed-multi-cloud-system-new.png" alt="multi-cloud-ecosystem" class="multi-cloud-ecosystem">
                           
@@ -705,7 +588,7 @@ include_once('includes/header.php');
             <div class="skltbs-panel" id="tab-2">
                 <ul class="hb-productSec list-inline">
                     <div class="hb-leftCont hb_ppCont">
-                        <p>The Pi Multi-Cloud Ecosystem simplifies the management of cloud environments by providing a centralized view of your workloads across multiple clouds. This platform allows you to monitor performance and optimize your environment for cost control.</p>
+                        <p>The Pi Public Cloud Ecosystem simplifies the management of cloud environments by providing a centralized view of your workloads across multiple clouds. This platform allows you to monitor performance and optimize your environment for cost control.</p>
 
                         <p>By streamlining cloud management and reducing complexity, it enhances operational efficiency, freeing up valuable resources for innovation and growth. With a unified view of your cloud environments, you can focus on achieving your business objectives without getting bogged down in day-to-day tasks.</p>
                         <p>Whether you're migrating to the cloud, optimizing your existing cloud infrastructure, or managing multiple clouds, it provides the tools and a unified view you need to succeed in today's digital landscape. With Pi Cloud, you can simplify cloud management, improve ROI, and achieve business objectives with ease.</p>
@@ -724,9 +607,9 @@ include_once('includes/header.php');
                     <div class="hb-leftCont hb_ppCont">
 
 
-                        <p>In today's fast-paced business landscape, it's critical for organizations to be able to quickly adapt and scale to keep up with changing market demands. That's where Pi Multi-Cloud Ecosystem comes in: by providing a unified view for workload management across various cloud environments, businesses can streamline their operations, improve data sovereignty and compliance, and optimize their costs. </p>
+                        <p>In today's fast-paced business landscape, it's critical for organizations to be able to quickly adapt and scale to keep up with changing market demands. That's where Pi Public Cloud Ecosystem comes in: by providing a unified view for workload management across various cloud environments, businesses can streamline their operations, improve data sovereignty and compliance, and optimize their costs. </p>
                         <p>With Pi Cloud's platform-agnostic approach, businesses have the flexibility to choose the best cloud environment for each workload while still maintaining complete control and visibility. The seamless integration of private and public clouds means there's no need to sacrifice security or privacy for affordability.</p>
-                        <p>The Pi Multi-Cloud Ecosystem offers a comprehensive platform for efficient workload management, giving businesses the tools they need to stay agile and competitive in today's digital age. Choose Pi Cloud and experience the benefits of a single pane of glass view for your business.</p>
+                        <p>The Pi Public Cloud Ecosystem offers a comprehensive platform for efficient workload management, giving businesses the tools they need to stay agile and competitive in today's digital age. Choose Pi Cloud and experience the benefits of a single pane of glass view for your business.</p>
 
                         <span>
                             <img src="../pi-cloud/images/product-images/why-multi-cloud-new.png" alt="workspace">
@@ -746,7 +629,95 @@ include_once('includes/header.php');
 
     </div>
 
+    <div class="hb-features">
+        <h3 class="text-center">Key <span style="color: #76b543;">Features</span></h3>
+        <ul class="list-inline hb-featuresList multi-cld-key">
+            <li>
+                <div class="hb-featureBox">
+                    <div class="hb-featTopHeader">
+                        <p class="hb-featLogo">
+                            <img src="./pi-cloud/images/combination25.png" alt="scale">
+                        </p>
+                        <div class="hb-featCont">
+                            <h6>Combination of Private and Public Cloud</h6>
 
+                        </div>
+                    </div>
+                    <p style="text-align:center;">Our approach to cloud computing consists of both private and public clouds, allowing clients to simultaneously leverage the flexibility of the public cloud and the robustness of the private cloud for their diverse workloads in a fully managed environment with a single pane of glass view.</p>
+                </div>
+            </li>
+            <li>
+                <div class="hb-featureBox">
+                    <div class="hb-featTopHeader">
+                        <p class="hb-featLogo">
+                            <img src="./pi-cloud/images/diverse25.png" alt="economics">
+                        </p>
+                        <div class="hb-featCont">
+                            <h6>Diverse Workload Hosting Locations</h6>
+
+                        </div>
+                    </div>
+                    <p style="text-align:center;">Our platform enables customers to diversify their workload hosting locations, providing them with the flexibility and scalability necessary to succeed in today's competitive market.</p>
+                </div>
+            </li>
+            <li>
+                <div class="hb-featureBox">
+                    <div class="hb-featTopHeader">
+                        <p class="hb-featLogo">
+                            <img src="./pi-cloud/images/cross25.png" alt="Self">
+                        </p>
+                        <div class="hb-featCont">
+                            <h6>Cross-Geographical Cloud Integration</h6>
+
+                        </div>
+                    </div>
+                    <p style="text-align:center;">We provide cross-geographical cloud integration to enable seamless workload management for our customers across various locations.</p>
+                </div>
+            </li>
+            <li>
+                <div class="hb-featureBox">
+                    <div class="hb-featTopHeader">
+                        <p class="hb-featLogo">
+                            <img src="./pi-cloud/images/self25.png" alt="scale">
+                        </p>
+                        <div class="hb-featCont">
+                            <h6>Self-Service Provision</h6>
+
+                        </div>
+                    </div>
+                    <p style="text-align:center;">Our self-service provision enables customers to scale and manage their workloads via self-service, granting them complete control over their resources.</p>
+                </div>
+            </li>
+            <li>
+                <div class="hb-featureBox">
+                    <div class="hb-featTopHeader">
+                        <p class="hb-featLogo">
+                            <img src="./pi-cloud/images/cost25.png" alt="economics">
+                        </p>
+                        <div class="hb-featCont">
+                            <h6>Cost Optimization and Competitive Pricing</h6>
+
+                        </div>
+                    </div>
+                    <p style="text-align:center;">At Pi Cloud, we understand the importance of cost optimization and competitive pricing. We work closely with our customers to ensure that they are getting the best value for their investment without sacrificing the quality of our services.</p>
+                </div>
+            </li>
+            <li>
+                <div class="hb-featureBox">
+                    <div class="hb-featTopHeader">
+                        <p class="hb-featLogo">
+                            <img src="./pi-cloud/images/optimal25.png" alt="Self">
+                        </p>
+                        <div class="hb-featCont">
+                            <h6>Optimal Mix Of Services From Multiple Cloud Platforms</h6>
+
+                        </div>
+                    </div>
+                    <p style="text-align:center;">Our team is well-versed in the latest technologies and can help you find the optimal mix of services from across cloud platforms to meet your specific business needs. This strategy ensures that you do not overspend on unnecessary services while still having access to the tools and resources you need to succeed in the current digital landscape.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
     <div class="hb-certication">
         <div class="container">
             <div class="hb-CerSetion">
