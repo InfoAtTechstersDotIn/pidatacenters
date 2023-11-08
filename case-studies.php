@@ -7,10 +7,15 @@ $seo_keywords = "data center Case Studies, cloud migration, cyber security, data
 <?php include('php/includes-techsters/header.php'); ?>
 <!-- main starts here -->
 <?php
+// $servername = "localhost";
+// $username = "marcom";
+// $password = "TR*viv3mo?!q";
+// $dbname = "search8c_pi";
+
 $servername = "localhost";
-$username = "marcom";
-$password = "TR*viv3mo?!q";
-$dbname = "search8c_pi";
+$username = "root";
+$password = "";
+$dbname = "pi_website";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -37,468 +42,28 @@ if ($conn->connect_error) {
                     <ul class="row">
                         <?php
 
-                        /*$r="SELECT * from service ORDER BY id DESC";
-$g=mysqli_query($conn,$r)or die(mysql_error());
-if(mysqli_num_rows($g)>0)
-{
-while($row=mysqli_fetch_array($g))
-{
-	$id="$row[id]";
-	$service_title="$row[service_title]";
-	$service_desc= "$row[service_desc]";
-	$case_study_title = "$row[case_study_title]";
- $ufile="$row[ufile]";
- $cfile="$row[cfile]";*/
-
-
+                        $r = "SELECT * from case_studies ORDER BY id";
+                        $g = mysqli_query($conn, $r);
+                        if (mysqli_num_rows($g) > 0) {
+                            while ($row = mysqli_fetch_array($g)) {
                         ?>
-
-                        <li class="col-md-4">
-                            <div class="case-content">
-                                <figure>
-                                    <img src="dashboard/uploads/services/Empowering-Financial-2.png" alt="case-studies-1" width="450" height="248">
-                                </figure>
-                                <h4>In-house Datacenter Specialist for a Leading Cooperative Bank</h4>
-
-                                <br> <br>
-                                <a href="empowering-financial-institution's-infrastructure-with-expert-datacenter-solutions.php" class="download">Download case study</a>
-                            </div>
-                        </li>
-                        <li class="col-md-4">
-                            <div class="case-content">
-                                <figure>
-                                    <img src="dashboard/uploads/services/Clou-migration.png" alt="case-studies-1" width="450" height="248">
-                                </figure>
-                                <h4> Cloud Migration
-                                    Public Cloud to Pi-Cloud</h4>
-                                <br> <br> <br>
-                                <a href="cloud-migration-public-cloud-to-privatecloud-harbour1-case-study.php" class="download" style="margin-top:25px">Download case study</a>
-                            </div>
-                        </li>
-                        <li class="col-md-4">
-                            <div class="case-content">
-                                <figure>
-                                    <img src="dashboard/uploads/services/Advanced-banking-new.png" alt="advanced-banking" width="450" height="248">
-                                </figure>
-                                <h4>Enabling Advanced Banking Procesess</h4>
-
-                                <br> <br> <br>
-                                <a href="enabling-advanced-banking-processess.php" class="download" style="margin-top:25px">Download case study</a>
-                            </div>
-                        </li>
-                        <li class="col-md-4">
-                            <div class="case-content">
-                                <figure>
-                                    <img src="dashboard/uploads/services/agro-chemical.png" alt="case-studies-1" width="450" height="248">
-                                </figure>
-                                <h4>Agro Chemical Enterprise</h4>
-
-                                <br> <br>
-                                <a href="agro-chemical-enterprise.php" class="download">Download case study</a>
-                            </div>
-                        </li>
-                        <li class="col-md-4">
-                            <div class="case-content">
-                                <figure>
-                                    <img src="dashboard/uploads/services/digital1.png" alt="case-studies-1" width="450" height="248">
-                                </figure>
-                                <h4> Enabling Digital Banking</h4>
-
-                                <br> <br>
-                                <a href="enabling-digital-banking.php" class="download">Download case study</a>
-                            </div>
-                        </li>
-                        <li class="col-md-4">
-                            <div class="case-content">
-                                <figure>
-                                    <img src="dashboard/uploads/services/dr-solutions1.png" alt="case-studies-1" width="450" height="248">
-                                </figure>
-                                <h4> DR Solution Enabling Business Continuity During COVID-19</h4>
-                                <br>
-                                <a href="manufacturing-industry-drsolution-businesscontinuity-case-study.php" class="download">Download case study</a>
-                            </div>
-                        </li>
-                        <li class="col-md-4">
-                            <div class="case-content">
-                                <figure>
-                                    <img src="dashboard/uploads/services/On-Premise-DC-Built.png" alt="case-studies-1" width="450" height="248">
-                                </figure>
-                                <h4>Premier Educational Institution (On-Premise DC Built)</h4>
-                                <br>
-
-                                <a href="educationalsector-dc-build-dc-design-case-study.php" class="download">Download case study</a>
-                            </div>
-                        </li>
-                        <li class="col-md-4">
-                            <div class="case-content">
-                                <figure>
-                                    <img src="dashboard/uploads/services/genus1.png" alt="case-studies-1" width="450" height="248">
-                                </figure>
-                                <h4>Genus Power Infrastructure Ltd </h4>
-
-                                <br><br>
-                                <a href="power-utility-api-managed-services-case-study.php" class="download">Download case study</a>
-                            </div>
-                        </li>
-                        <li class="col-md-4">
-                            <div class="case-content">
-                                <figure>
-                                    <img src="dashboard/uploads/services/globally1.png" alt="case-studies-1" width="450" height="248">
-                                </figure>
-                                <h4>Globally Acclaimed FinTech Organization</h4>
-                                <br><br>
-                                <a href="banking-fintech-colocation-digital-security-case-study.php" class="download">Download case study</a>
-                            </div>
-                        </li>
-                        <li class="col-md-4">
-                            <div class="case-content">
-                                <figure>
-                                    <img src="dashboard/uploads/services/infrastructure1.png" alt="case-studies-1" width="450" height="248">
-                                </figure>
-                                <h4>Infrastructure for Implementing & Hosting SAP HANA®</h4>
-                                <br>
-
-                                <a href="retail-industry-sap-hana-infrastructure-case-study.php" class="download">Download case study</a>
-                            </div>
-                        </li>
-                        <li class="col-md-4">
-                            <div class="case-content">
-                                <figure>
-                                    <img src="dashboard/uploads/services/making1.png" alt="case-studies-1" width="450" height="248">
-                                </figure>
-                                <h4> Making A Bank Digitally Powerful</h4>
-                                <br><br>
-                                <a href="banking-opex-model-cloud-harbour1-case-study.php" class="download">Download case study</a>
-                            </div>
-                        </li>
-                        <li class="col-md-4">
-                            <div class="case-content">
-                                <figure>
-                                    <img src="dashboard/uploads/services/leading1.png" alt="case-studies-1" width="450" height="248">
-                                </figure>
-                                <h4>Leading NBFC</h4>
-
-                                <br><br>
-                                <a href="leading-nbfc.php" class="download">Download case study</a>
-                            </div>
-                        </li>
-
-                        <li class="col-md-4">
-                            <div class="case-content">
-                                <figure>
-                                    <img src="dashboard/uploads/services/healthcare1.png" alt="case-studies-1" width="450" height="248">
-                                </figure>
-                                <h4>Healthcare Industry</h4>
-
-
-                                <a href="healthcare-sap-managed-services-dr-case-study.php" class="download">Download case study</a>
-                            </div>
-                        </li>
-
-                        <li class="col-md-4">
-                            <div class="case-content">
-                                <figure>
-                                    <img src="dashboard/uploads/services/Premier-Technology-Education-Institute.png" alt="case-studies-1" width="450" height="248">
-                                </figure>
-                                <h4> Premier Technology Education Institute</h4>
-
-
-                                <a href="premium-technology-education-institute.php" class="download">Download case study</a>
-                            </div>
-                        </li>
-                        <li class="col-md-4">
-                            <div class="case-content">
-                                <figure>
-                                    <img src="dashboard/uploads/services/robert1.png" alt="case-studies-1" width="450" height="248">
-                                </figure>
-                                <h4>Robert Bosch</h4>
-
-                                <a href="manufacturing-industry-cloud-infrastructure-case-study.php" class="download">Download case study</a>
-                            </div>
-                        </li>
-
-                        <li class="col-md-4">
-                            <div class="case-content">
-                                <figure>
-                                    <img src="dashboard/uploads/services/small1.png" alt="case-studies-1" width="450" height="248">
-                                </figure>
-                                <h4>Small Finance Bank</h4>
-
-                                <a href="banking-cloud-infrastructure-disaster-recovery-case-study.php" class="download">Download case study</a>
-                            </div>
-                        </li>
-                        <li class="col-md-4">
-                            <div class="case-content">
-                                <figure>
-                                    <img src="dashboard/uploads/services/Cybersecurity1.png" alt="case-studies-1" width="450" height="248">
-                                </figure>
-                                <h4>Cybersecurity @Pi&#174</h4>
-
-                                <a href="cybersecurity-harbour1-case-study.php" class="download">Download case study</a>
-                            </div>
-                        </li>
-                        <!--<li class="col-md-4">
-                                <div class="case-content">
-                                <figure>
-                                    <img src="dashboard/uploads/services/59472.jpg" alt="case-studies-1" width="450" height="248">
-                                </figure>
-                                    <h4>Biotech Enterprise</h4>
-                                  
- 									
-									<a href="biotechnology-data-migration-cloud-case-study.php"  class="download">Download case study</a> 
-                                 </div>
-                             </li>
-							 
-							  
-							 
-							 
-							 
-							 
-							  <li class="col-md-4">
-                                <div class="case-content">
-                                <figure>
-                                    <img src="dashboard/uploads/services/35510.jpg" alt="case-studies-1" width="450" height="248">
-                                </figure>
-                                    <h4>Enabling Advanced  Banking Processes</h4>
-                                    
-									<a href="banking-hybrid-cloud-harbour1-case-study.php"  class="download">Download case study</a> 
-                                 </div>
-                             </li>
-							 
-							  
-							 
-							 
-							 
-							
-							 
-							 
-							  <li class="col-md-4">
-                                <div class="case-content">
-                                <figure>
-                                    <img src="dashboard/uploads/services/22614.jpg" alt="case-studies-1" width="450" height="248">
-                                </figure>
-                                    <h4> Wi-Fi ON Cloud</h4>
-                                   
- 									
-									<a href="educational-institution-wifi-on-cloud-case-study.php"  class="download">Download case study</a> 
-                                 </div>
-                             </li>
-							 
-							 
-							 
-							 -->
-
-
-
-
-
-                        <!--<li class="col-md-4">
-                                 <div class="case-content">
-                                <figure>
-                                    <img src="images/case-studies-2.png" alt="case-studies-2" width="450" height="248">
-                                </figure>
-                                    <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
-                                    <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
-                                 </div>
-                             </li>
-                                 <li class="col-md-4">
-                                <div class="case-content">
-                                <figure>
-                                    <img src="images/case-studies-3.png" alt="case-studies-3" width="450" height="248">
-                                </figure>
-                                    <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
-                                    <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
-                                 </div>
-                             </li>
-                                 <li class="col-md-4">
-                                <div class="case-content">
-                                <figure>
-                                    <img src="images/case-studies-4.png" alt="case-studies-4" width="450" height="248">
-                                </figure>
-                                    <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
-                                    <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
-                                 </div>
-                             </li>
-                                 <li class="col-md-4">
-                               <div class="case-content">
-                                <figure>
-                                    <img src="images/case-studies-5.png" alt="case-studies-5" width="450" height="248">
-                                </figure>
-                                    <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
-                                    <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
-                                 </div>
-                             </li>
-                                 <li class="col-md-4">
-                                <div class="case-content">
-                                <figure>
-                                    <img src="images/case-studies-6.png" alt="case-studies-6" width="450" height="248">
-                                </figure>
-                                    <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
-                                    <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
-                                 </div>
-                             </li>-->
-
+                                <li class="col-md-4">
+                                    <div class="case-content">
+                                        <figure>
+                                            <img src="case_study_files/<?php echo $row['text'] ?>.png" alt="<?php echo $row['text'] ?>" width="450" height="248">
+                                        </figure>
+                                        <h4><?php echo $row['text'] ?></h4>
+                                        <br> <br>
+                                        <a href="#modal-1" onclick="document.getElementById('File_Downloaded').value = '<?php echo $row['text'] ?>';" class="download">Download case study</a>
+                                    </div>
+                                </li>
+                        <?php
+                            }
+                        }
+                        ?>
                     </ul>
                 </li>
-                <!--<li>
-                             <ul class="row">
-                             <li class="col-md-4">
-                                <div class="case-content">
-                                <figure>
-                                    <img src="images/case-studies-1.png" alt="case-studies-1" width="450" height="248">
-                                </figure>
-                                    <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
-                                    <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
-                                 </div>
-                             </li>
-                             <li class="col-md-4">
-                                  <a href="#modal-video-2">
-                                 <div class="case-content">
-                                <figure>
-                                    <img src="images/case-studies-2.png" alt="case-studies-2" width="450" height="248">
-                                </figure>
-                                    <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
-                                    <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
-                                 </div>
-                                 </a>
-                             </li>
-                                 <li class="col-md-4">
-                                      <a href="#modal-video-3">
-                                <div class="case-content">
-                                <figure>
-                                    <img src="images/case-studies-3.png" alt="case-studies-3" width="450" height="248">
-                                </figure>
-                                    <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
-                                    <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
-                                 </div>
-                                     </a>
-                             </li>
-                                 <li class="col-md-4">
-                                      <a href="#modal-video-4">
-                                <div class="case-content">
-                                <figure>
-                                    <img src="images/case-studies-4.png" alt="case-studies-4" width="450" height="248">
-                                </figure>
-                                    <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
-                                    <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
-                                 </div>
-                                     </a>
-                             </li>
-                                 <li class="col-md-4">
-                                      <a href="#modal-video-5">
-                               <div class="case-content">
-                                <figure>
-                                    <img src="images/case-studies-5.png" alt="case-studies-5" width="450" height="248">
-                                </figure>
-                                    <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
-                                    <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
-                                 </div>
-                                     </a>
-                             </li>
-                                 <li class="col-md-4">
-                                      <a href="#modal-video-6">
-                                <div class="case-content">
-                                <figure>
-                                    <img src="images/case-studies-6.png" alt="case-studies-6" width="450" height="248">
-                                </figure>
-                                    <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
-                                    <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
-                                 </div>
-                                     </a>
-                             </li>
-                             
-                         </ul>
-                             </li>-->
-                <!--<li>
-                             <ul class="row">
-                             <li class="col-md-4">
-                                <div class="case-content">
-                                <figure>
-                                    <img src="images/case-studies-1.png" alt="case-studies-1" width="450" height="248">
-                                </figure>
-                                    <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
-                                    <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
-                                 </div>
-                             </li>
-                             <li class="col-md-4">
-                                  <a href="#modal-video-2">
-                                 <div class="case-content">
-                                <figure>
-                                    <img src="images/case-studies-2.png" alt="case-studies-2" width="450" height="248">
-                                </figure>
-                                    <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
-                                    <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
-                                 </div>
-                                 </a>
-                             </li>
-                                 <li class="col-md-4">
-                                      <a href="#modal-video-3">
-                                <div class="case-content">
-                                <figure>
-                                    <img src="images/case-studies-3.png" alt="case-studies-3" width="450" height="248">
-                                </figure>
-                                    <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
-                                    <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
-                                 </div>
-                                     </a>
-                             </li>
-                                 <li class="col-md-4">
-                                      <a href="#modal-video-4">
-                                <div class="case-content">
-                                <figure>
-                                    <img src="images/case-studies-4.png" alt="case-studies-4" width="450" height="248">
-                                </figure>
-                                    <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
-                                    <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
-                                 </div>
-                                     </a>
-                             </li>
-                                 <li class="col-md-4">
-                                      <a href="#modal-video-5">
-                               <div class="case-content">
-                                <figure>
-                                    <img src="images/case-studies-5.png" alt="case-studies-5" width="450" height="248">
-                                </figure>
-                                    <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
-                                    <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
-                                 </div>
-                                     </a>
-                             </li>
-                                 <li class="col-md-4">
-                                      <a href="#modal-video-6">
-                                <div class="case-content">
-                                <figure>
-                                    <img src="images/case-studies-6.png" alt="case-studies-6" width="450" height="248">
-                                </figure>
-                                    <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
-                                    <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
-                                 </div>
-                                     </a>
-                             </li>
-                             
-                         </ul>
-                             </li>-->
             </ul>
-
-
-
         </div>
     </div>
 </div>
@@ -512,31 +77,36 @@ while($row=mysqli_fetch_array($g))
                 <a href="#close" title="Close" class="close">x</a>
                 <div class="modal-body">
                     <div class=" row">
-                        <div class="fill-your-details-cnt">
+                        <div class="fill-your-details-cnt" style="width: 100%;">
                             <h4>Fill Your Details</h4>
-                            <form>
-                                <ul class="row">
-                                    <li class="col-md-6">
-                                        <label>Full Name</label>
-                                        <input type="text">
-                                    </li>
-                                    <li class="col-md-6">
-                                        <label>Company Name</label>
-                                        <input type="text">
-                                    </li>
-                                    <li class="col-md-6">
-                                        <label>Mobile No</label>
-                                        <input type="text">
-                                    </li>
-                                    <li class="col-md-6">
-                                        <label>Email Address</label>
-                                        <input type="text">
-                                    </li>
-                                    <li class="col-12">
-                                        <button>Download case study</button>
-                                    </li>
-                                </ul>
+                            <form onsubmit="return myFunction()" id="contactForm" action="https://clientele.techsters.in/public/api/client_forms" method="post">
+                                <input type="text" name="name" style="width: 100%;border-radius:5px" placeholder=" Full Name" required=""><br /><br />
+                                <input type="tel" name="number" style="width: 100%;border-radius:5px" placeholder=" Phone" pattern="[0-9]{10}" required=""><br /><br />
+                                <input id="email_address" type="email" name="email" style="width: 100%;border-radius:5px" placeholder=" Email Address" required=""><br /><br />
+                                <input type="text" name="website" style="width: 100%;border-radius:5px" placeholder=" Company Website" required=""><br /><br />
+                                <textarea name="message" style="width: 100%;border-radius:5px" rows="4" placeholder=" Message" required=""></textarea><br /><br />
+                                <input class="btn" style="width: 100%;border-radius:5px" type="submit" value="Submit">
+
+                                <input type="hidden" name="downloaded" id="File_Downloaded" value="">
+                                <input type="hidden" name="techsters_subject" value="PiDataCenters - Case Studies">
+                                <input type="hidden" name="form_unique_id" value="1ef13057-52fd-11ee-a4b0-525400b78afc">
                             </form>
+                            <script>
+                                function myFunction() {
+                                    debugger;
+                                    let email_address = document.getElementById('email_address').value;
+
+                                    if (email_address.includes('gmail') || email_address.includes('yahoo') || email_address.includes('outlook') ||
+                                        email_address.includes('hotmail') || email_address.includes('live') || email_address.includes('aol')) {
+                                        alert('Invalid Email Address, Please use your Work Email');
+                                        return false;
+                                    } else {
+                                        let File_Downloaded = document.getElementById('File_Downloaded').value;
+                                        let URL = 'case_study_files/' + File_Downloaded + '.pdf';
+                                        window.open(URL);
+                                    }
+                                }
+                            </script>
                         </div>
                     </div>
                 </div>

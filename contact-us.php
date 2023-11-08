@@ -207,8 +207,8 @@ SRR Middle East FZCO Technology Park, Mina-Jebel Ali, National Industrial Park,D
           <input class="" type="email" name="email" style="width: 100%;border-radius:5px" placeholder=" Email Address" required=""><br /><br />
           <input class="" type="text" name="name" style="width: 100%;border-radius:5px" placeholder=" Company Website" required=""><br /><br />
           <textarea class="" name="message" style="width: 100%;border-radius:5px" rows="4" placeholder=" Message" required=""></textarea><br /><br />
-          <input class="btn" style="width: 100%;border-radius:5px"  type="submit" value="Submit">
-          
+          <input class="btn" style="width: 100%;border-radius:5px" type="submit" value="Submit">
+
           <input type="hidden" name="techsters_subject" value="PiDataCenters - Contact Us">
           <input type="hidden" name="form_unique_id" value="1ef13057-52fd-11ee-a4b0-525400b78afc">
         </form>
