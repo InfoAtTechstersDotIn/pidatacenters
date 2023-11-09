@@ -4070,7 +4070,7 @@ footer>div>p {
 .jdh_ddksd>p {
     width: 80px;
     height: 80px;
-    background: #76b543;
+   background: #76b543;
     border-radius: 8px;
     padding: 12px;
 }
@@ -4151,11 +4151,12 @@ footer>div>p {
         width: 100% !important;
     }
 }
-
 .skltbs-tab-item>button {
     font-size: 14px !important;
-}
-
+ }
 .skltbs-tab-group {
     margin: 25px auto !important;
+}
+.dep-active>.dept-list {
+    background-color: #76b543 !important;
 }

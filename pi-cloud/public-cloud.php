@@ -404,11 +404,11 @@ include_once('includes/header.php');
 <!-- <h3 class="text-center" style="font-size: 28px; margin: 20px 0;">Why Choose <span style="color: #76b543;">Pi Public Cloud Services</span>?</h3> -->
 
 <div class="hb-productHead">
-    <p>The Pi Public Cloud Services helps businesses devise strategies & appropriate planning for building a technology-proficient environment by fostering Flexibility, Scalability, Multi-Tiered Security, and High Redundancy. It brings the best of both worlds for businesses to co-leverage the flexibility of Public Clouds, along with Pi&#8217;s seamless integration and comprehensive management suite. It's all about gaining the trust of customers through the safekeeping of their data across agnostic cloud platforms with a fully integrated products and services stack under one umbrella. </p><br>
+    <p>The Pi Public Cloud Services helps businesses devise strategies & appropriate planning for building a technology-proficient environment by fostering Flexibility, Scalability, Multi-Tiered Security, and High Redundancy. It brings the best of both worlds for businesses to co-leverage the flexibility of Public Clouds across Oracle (OCI), Azure, AWS, Google (GCP), along with Pi&#8217;s seamless integration and comprehensive management suite. It's all about gaining the trust of customers through the safekeeping of their data across agnostic cloud platforms with a fully integrated products and services stack under one umbrella. </p><br>
 
     <!-- <p>In the pursuit of technological excellence, Pi Multi Cloud casts a wide net of services and features, thus providing clients with an expansive toolkit to craft their cloud environment precisely as per their requirements. This abundance translates into augmented flexibility and scalability, two attributes that have become paramount in navigating the fluid landscape of modern business.
       At the heart of the Pi Multi Cloud computing paradigm lie several integral elements, each meticulously integrated to bolster our clients' capabilities in today's dynamic business landscape. The fusion of cutting-edge technology, strategic vision, and unwavering commitment to excellence creates an environment where businesses can not only thrive but also pioneer new horizons of success.
-        In the ever-changing realm of cloud technology, Pi emerges not just as a solution but as a strategyâ€”one that is primed to propel enterprises forward by harnessing the collective power of multiple cloud providers. It's a paradigm shift that redefines the boundaries of what's possible, equipping businesses with a competitive edge that is as adaptable as it is resilient. </p> -->
+        In the ever-changing realm of cloud technology, Pi emerges not just as a solution but as a strategy—one that is primed to propel enterprises forward by harnessing the collective power of multiple cloud providers. It's a paradigm shift that redefines the boundaries of what's possible, equipping businesses with a competitive edge that is as adaptable as it is resilient. </p> -->
 
 </div>
 
@@ -527,7 +527,7 @@ include_once('includes/header.php');
                 <button class="skltbs-tab tab-link" data-tab="tab-1">Managed Public Cloud Services </button>
             </li>
             <li class="skltbs-tab-item">
-                <button class="skltbs-tab tab-link" data-tab="tab-2">Single Pane Of Glass</button>
+                <button class="skltbs-tab tab-link" data-tab="tab-2">One Stop Shop</button>
             </li>
             <li class="skltbs-tab-item">
                 <button class="skltbs-tab tab-link" data-tab="tab-3">Why Public Cloud @Pi</button>

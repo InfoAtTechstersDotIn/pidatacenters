@@ -368,7 +368,7 @@ nav .pricing-menu li a {padding: 10px 20px !important}
                                         <a href="./pi-cloud/compute">Private Cloud</a>
                                     </li>
                                     <li><a href="./pi-cloud/sap">SAP on Cloud</a></li>
-                                      <li><a href="./pi-cloud/products-home">Other Could Services</a></li>
+                                     <!-- <li><a href="./pi-cloud/products-home">Other Could Services</a></li> -->
                                                                              <li>
                                         <a href="./pi-cloud/industry-solutions">Industry Solutions</a>
                                     </li>
@@ -2552,29 +2552,29 @@ z-index: 2;
 
  <style>
         .banners_content a {
-            background-color: #007bfc;
-            padding: 50x 10px;
-            width: 180px;
-            height: 45px;
-            color: #fff;
-            text-align: center;
-            line-height: 2.8;
-            border-radius: 5px;
-            font-size: 17px;
-            /* margin: 0px 10px; */
-            display: inline-flex;
-            text-align: center;
-            justify-content: center;
-            text-decoration: none !important;
-            font-weight: 600;
-            letter-spacing: 1px;
+             background-color: #fff;
+    color: #223f97;
+    padding: 50x 10px;
+    width: 130px;
+   height: 35px;
+    text-align: center;
+    line-height: 2.5;
+    border-radius: 5px;
+    font-size: 14px;
+    /* margin: 0px 10px; */
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none !important;
+    font-weight: bold;
+    /* letter-spacing: 1px; */
 
 
         }
 
         .banners_content {
             position: absolute;
-            top: 110px;
+            top: 90px;
             left: 60px;
             z-index: 9;
             font-size: 35px;
@@ -2606,7 +2606,7 @@ cursor: pointer;
         .modal {
             display: none;
             position: fixed;
-            z-index: 1;
+           /* z-index: 1; */
             left: 0;
             top: 15% !important;
             width: 100%;
@@ -2636,7 +2636,12 @@ cursor: pointer;
 
         .pop_up form label {
             display: flex;
+margin-bottom: 10px;
         }
+
+#contactForm {
+    padding: 10px;
+}
 
         .pop_up form input {
             width: 100%;
@@ -2644,7 +2649,7 @@ cursor: pointer;
             border: 1px solid #0000002e;
             border-radius: 10px;
             outline: none;
-            padding: 8px 10px;
+            padding: 12px 10px;
             margin-bottom: 10px;
             /* border: none; */
             text-align: left;
@@ -2700,6 +2705,7 @@ cursor: pointer;
             justify-content: center;
             align-items: center;
             color: #fff !important;
+font-size: 18px;
         }
 
         .pop_up .modal-title {
@@ -2712,9 +2718,9 @@ cursor: pointer;
         .modal {
             display: none;
             position: fixed;
-            z-index: 1;
+          /*  z-index: 1; */
             left: 0;
-            top: 15% !important;
+            top: 0 !important;
             width: 100%;
             height: 100%;
             overflow: unset;
@@ -2824,16 +2830,113 @@ cursor: pointer;
             font-size: 20px;
             cursor: pointer;
         }
+
+
+        /* ************************************ */
+
+        /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+ /* z-index: 1; */ /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  /*  margin: 15% auto; */ /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.modal-dialog {
+    max-width: 520px;
+    margin: 1.75rem auto;
+}
+
+.close2{
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    color: #fff;
+    height: 30px;
+    border-radius: 100px;
+    margin-top: 15px;
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fade:not(.show) {
+    opacity: 1 !important;
+}
+
+
+.modal-dialog {
+    margin-top: 7%;
+}
+.modal-header h4{
+text-align: center;
+}
+.modal-content {
+    margin: 0 auto;
+   }
+.modal-body {
+    padding: 0.5rem !important;
+}
+
+
+
     </style>
 
 
     <!-- BANNERS BUTTONS -->
 
-    <div class="banners_content gpu_hide" style=>
+    <div class="banners_content gpu_hide">
         <p>
-            <a>Request For Quote</a>
-            <a data-toggle="modal" data-target="#myModal">Reach Us</a>
+            <a id="myBtn2">Request For Quote</a>
+            <a  id="myBtn">Reach Us</a>
+      
+            <!-- <button id="myBtnn">Open Modal</button> -->
+
+
+
+
         </p>
+
+        
+
     </div>
 
     <!-- Modal -->
@@ -2843,32 +2946,68 @@ cursor: pointer;
             <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">GPU On Cloud</h4>
+                    <h4 class="modal-title">Reach Us</h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <form id="contactForm" action="https://clientele.techsters.in/public/api/client_forms" method="post">
+                    <form action="https://clientele.techsters.in/public/api/client_forms" method="post" enctype="multipart/form-data">
                         <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
-                        <span class="error" id="nameError"></span><br>
+                        <input type="text" id="name" name="Name" required>
 
                         <label for="number">Mobile:</label>
-                        <input type="tel" id="number" name="number" pattern="[0-9]{10}" required>
-                        <span class="error" id="numberError"></span><br>
+                        <input type="tel" id="number" name="Number" pattern="[0-9]{10}" required>
 
                         <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
-                        <span class="error" id="emailError"></span><br>
+                        <input type="email" id="email" name="Email" required>
 
                         <label for="message">Message:</label>
-                        <textarea id="message" name="message" rows="4" required></textarea>
-                        <span class="error" id="messageError"></span><br><br>
+                        <textarea id="message" name="Message" rows="4" required></textarea>
 
                         <input class="sub_mit" type="submit" value="Submit">
 
-                        <input type="hidden" name="package" id="package" value="" />
-                        <input type="hidden" name="techsters_subject" value="GPU" />
-                        <input type="hidden" name="form_unique_id" value="1ef13057-52fd-11ee-a4b0-525400b78afc"   />
+               
+                        <input type="hidden" name="techsters_subject" value="Reach Us Form Leads" />
+                        <input type="hidden" name="form_unique_id" value="1ef13057-52fd-11ee-a4b0-525400b78afc"/>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+       <!-- Modal two-->
+       <div class="modal pop_up fade" id="myModal2" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title"> Request For Quote</h4>
+                    <button type="button" class="close2" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form action="https://clientele.techsters.in/public/api/client_forms" method="post" enctype="multipart/form-data">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name2" name="Name" required>
+
+                        <label for="number">Company Name</label>
+                        <input type="text" id="companyname" name="CompanyName" required>
+
+                        <label for="email">Professional Email:</label>
+                        <input type="email" id="email2" name="Email" required>
+
+                        <label for="number">Mobile:</label>
+                        <input type="tel" id="number2" name="Number" pattern="[0-9]{10}" required>
+
+
+                        <label for="message">Upload Configuration Document</label>
+                        <input type="file" required name="Configuration Document">
+
+                        <input class="sub_mit" type="submit" value="Submit">
+
+                        <input type="hidden" name="techsters_subject" value="Request For Quote Form Leads" />
+                        <input type="hidden" name="form_unique_id" value="86497a91-7e3b-11ee-a0ca-525400b78afc"/>
                     </form>
                 </div>
             </div>
@@ -2878,3 +3017,62 @@ cursor: pointer;
 
 
 
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+</script>
+<!-- ******************************************************************************************************** -->
+<script>
+// Get the modal
+var modall = document.getElementById("myModal2");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn2");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close2")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modall.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modall.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modall) {
+    modall.style.display = "none";
+  }
+}
+
+</script>
+<!-- ******************************************************************************************** -->

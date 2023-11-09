@@ -17,30 +17,70 @@
 
    </div>
 </div>
-<!-- banner section end here -->
-<!--       <div id="banner-content" style="display: none;">
-         <div class="container">
-            <div class="hb-bannerInfo">
-               <p class="text-center">pi-cloud offers a broad set of global cloud-based products including compute, storage, databases, analytics, networking, mobile, developer tools, management tools, IoT, security and enterprise applications. pi-cloud is trusted by the many enterprises, governments and startups to power a wide variety of workloads including: web and mobile applications, data processing and warehousing, storage, disaster recovery and many others.
-             </p>
-            </div>
-            <ul class="hb-bannerList list-inline">
-               <li>
-                  <h3>Customized solution</h3>
-                  <p>Enterprises who require to host your workloads closer to last mile can choose products, services &  Availability Zone(s) that suits your needs</p>
-               </li>
-               <li>
-                  <h3>Business Continuity</h3>
-                  <p>Be prepared for the unexpected with pi-cloud enabling DR, secure remote work etc to ensure your business is up and running all time</p>
-               </li>
-                <li>
-                  <h3>Internet exchange @ pi-cloud</h3>
-                  <p>IX peering at our data centers ensures our customers are directly connected to the global fiber backbone thereby reducing latency and data transfer costs</p>
-               </li>
-            </ul>
-         </div>
-      </div> -->
-<!-- banner section ends here -->
+
+
+<style>
+.grid_view:hover {
+    background-color: #76b543 !important;
+}
+   .pop-up-btns a {
+      background-color: #fff;
+      color: #223f97;
+      padding: 50x 10px;
+      width: 130px;
+      height: 35px;
+      text-align: center;
+      line-height: 2.5;
+      border-radius: 5px;
+      font-size: 14px;
+      /* margin: 0px 10px; */
+      display: inline-flex;
+      text-align: center;
+      justify-content: center;
+      text-decoration: none !important;
+      font-weight: bold;
+      /* letter-spacing: 1px; */
+
+
+   }
+
+   .pop-up-btns {
+      position: absolute;
+      top: 40px;
+      right: 35px;
+      z-index: 9;
+      font-size: 20px;
+      cursor: pointer;
+   }
+
+
+   .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+   }
+
+   .modal-content {
+      background-color: #fff;
+      width: 50%;
+      margin: 20% auto;
+      padding: 20px;
+      border: 1px solid #333;
+      box-shadow: none;
+      text-align: center;
+   }
+
+   .close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+   }
+</style>
 <div class="explore-dept" style="margin: 48px auto 12px;">
    <div class="container">
       <div class="ex-deptCont">
@@ -55,14 +95,19 @@
                      <div class="grid_view">
                         <p class="plus_ico"><img src="./pi-cloud/images/BFSI.svg" alt="TopPicks" /></p>
                         <h2>BFSI </h2>
-
                      </div>
+
                      <div class="full-cont hwi">
                         <div class="dep-moreInfp">
                            <h2>BFSI </h2>
                            <p>Cloud solutions focused on compliance, innovation & cyber security</p>
-
                         </div>
+                        <div class="pop-up-btns">
+                           <a class="modal-btn1">Request For Quote</a>
+                           <a class="modal-btn2">Reach Us</a>
+                        </div>
+
+
                         <ul class="list-inline child_deptCont">
                            <li>
                               <h3>Comply with RBI guidelines</h3>
@@ -102,7 +147,10 @@
                         <div class="dep-moreInfp">
                            <h2>e-Commerce</h2>
                            <p>Scalable and secured resources to beat the peak with enhanced user experience and customer satisfaction</p>
-
+                        </div>
+                        <div class="pop-up-btns">
+                           <a class="modal-btn1">Request For Quote</a>
+                           <a class="modal-btn2">Reach Us</a>
                         </div>
                         <ul class="list-inline child_deptCont">
                            <li>
@@ -137,6 +185,10 @@
                            <h2>IT / ITES </h2>
                            <p>Adopt more agile development processes, including decentralized development teams</p>
 
+                        </div>
+                        <div class="pop-up-btns">
+                           <a class="modal-btn1">Request For Quote</a>
+                           <a class="modal-btn2">Reach Us</a>
                         </div>
                         <ul class="list-inline child_deptCont">
                            <li>
@@ -175,6 +227,10 @@
                            <h2>Manufacturing </h2>
                            <p>Optimize your production and achieve faster go to market with Pi-Cloud<sup></sup></p>
 
+                        </div>
+                        <div class="pop-up-btns">
+                           <a class="modal-btn1">Request For Quote</a>
+                           <a class="modal-btn2">Reach Us</a>
                         </div>
                         <ul class="list-inline child_deptCont">
                            <li>
@@ -217,6 +273,10 @@
                            <p>Migrate from legacy systems and as you transform into e-learning with enhanced research and innovation</p>
 
                         </div>
+                        <div class="pop-up-btns">
+                           <a class="modal-btn1">Request For Quote</a>
+                           <a class="modal-btn2">Reach Us</a>
+                        </div>
                         <ul class="list-inline child_deptCont">
                            <li>
                               <h3>Virtualize your labs</h3>
@@ -224,7 +284,7 @@
                            </li>
                            <li>
                               <h3>Access desktop from any device</h3>
-                              <p>Support remote work and remote learning with Workspace on pi-cloud<sup>Â®</sup></p>
+                              <p>Support remote work and remote learning with Workspace on pi-cloud<sup>®</sup></p>
                            </li>
                            <li>
                               <h3>Security & Compliance</h3>
@@ -252,6 +312,10 @@
                            <p>Improve your compliance and safeguard your workloads, research & customer data</p>
 
                         </div>
+                        <div class="pop-up-btns">
+                           <a class="modal-btn1">Request For Quote</a>
+                           <a class="modal-btn2">Reach Us</a>
+                        </div>
                         <ul class="list-inline child_deptCont">
                            <li>
                               <h3>Support regulatory compliance</h3>
@@ -276,11 +340,6 @@
                </li>
 
 
-
-
-
-
-
             </ul>
          </div>
       </div>
@@ -291,6 +350,78 @@
 </div>
 </div>
 
+
+
+<!-- BANNERS BUTTONS -->
+
+<!-- ******************************************************************************************** -->
+
+<script>
+   // Get the modal and buttons
+   const modals = document.getElementById("myModal");
+   const modalBtns1 = document.querySelectorAll(".modal-btn2");
+   const closeModalBtn1 = document.getElementById("close");
+
+   // Function to open the modal
+   function openModal() {
+      modals.style.display = "block";
+   }
+
+   // Function to close the modal
+   function closeModal() {
+      modals.style.display = "none";
+   }
+
+   // Event listeners for modal buttons
+   modalBtns1.forEach((btn) => {
+      btn.addEventListener("click", openModal);
+   });
+
+   // Event listener for the close button
+   closeModalBtn1.addEventListener("click", closeModal);
+
+   // Close the modal if the user clicks outside of it
+   window.addEventListener("click", (event) => {
+      if (event.target === modals) {
+         closeModal();
+      }
+   });
+</script>
+
+
+
+
+<script>
+   // Get the modal and buttons
+   const myModals2 = document.getElementById("myModal2");
+   const modalBtns2 = document.querySelectorAll(".modal-btn1");
+   const closeModalBtn2 = document.getElementById("close2");
+
+   // Function to open the modal
+   function openModal() {
+      myModals2.style.display = "block";
+   }
+
+   // Function to close the modal
+   function closeModal() {
+      myModals2.style.display = "none";
+   }
+
+   // Event listeners for modal buttons
+   modalBtns2.forEach((btn) => {
+      btn.addEventListener("click", openModal);
+   });
+
+   // Event listener for the close button
+   closeModalBtn2.addEventListener("click", closeModal);
+
+   // Close the modal if the user clicks outside of it
+   window.addEventListener("click", (event) => {
+      if (event.target === myModals2) {
+         closeModal();
+      }
+   });
+</script>
 
 <!--       **************Footer*************-->
 <?php

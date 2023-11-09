@@ -9,7 +9,7 @@ $seo_keywords = "data center design, data center planning, data center reference
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/dc-build-banner.jpg" alt="dc-design-planning-banner" width="1920" height="210" class="datacenter-services-img">
-        <h2>Data Center Design <br> & Planning</h2>
+        <h2>Data Center Design & Planning</h2>
 
     </div>
 </div>

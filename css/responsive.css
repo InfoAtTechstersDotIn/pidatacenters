@@ -571,6 +571,7 @@
         width: 120px;
     }
 
+
 }
 
 
@@ -2556,6 +2557,7 @@
         width: 150px;
         font-size: 13px;
     }
+
 }
 
 @media (max-width:767px) {
@@ -3117,6 +3119,7 @@
 
 }
 
+
 @media (max-width:599px) {
     .center1 .slick-list.draggable {
         padding: 0px 0 75px !important;
@@ -3315,11 +3318,18 @@
         padding: 0 80px;
     }
 
-    h2 {
+    .mobile-headings h2 {
         font-size: 20px;
         line-height: 22px;
         text-align: center;
         color: #000 !important;
+    }
+
+    h2 {
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+        color: #fff;
     }
 
     .footer-links ul li {
@@ -3372,6 +3382,7 @@
     article.tabs {
         height: 750px !important;
     }
+
 }
 
 @media (max-width:478px) {
@@ -3422,4 +3433,5 @@
         padding: 0px 0 0px 0;
         text-align: center;
     }
+
 }

@@ -5,7 +5,7 @@ include_once('includes/header.php');
 
 <style>
 	.hb-bannerImg h2 {
-		left: 2% !important;
+		left: 4% !important;
 		font-size: 45px !important;
 	}
 
@@ -198,7 +198,7 @@ include_once('includes/header.php');
 	.card-desc {
 		display: block;
 		font-size: 0.85rem;
-		line-height: 1.4rem;
+		line-height: 1.25rem;
 		position: absolute;
 		height: 0;
 		top: 0;
@@ -214,7 +214,8 @@ include_once('includes/header.php');
 	}
 
 	.card ul li {
-		list-style-type: none;
+		    list-style-type: none;
+    padding: 3px;
 	}
 
 	.card:hover .card-desc {
@@ -588,9 +589,12 @@ include_once('includes/header.php');
 		justify-content: center;
 		flex-direction: column;
 		text-align: left;
-		padding: 30px;
-		line-height: 1.5rem;
-	}
+		padding: 40px;
+		line-height: 1.35rem;	
+}
+.new-list li{
+padding: 5px;
+}
 
 	.carte-model {
 		margin-top: 30px;
@@ -659,7 +663,7 @@ include_once('includes/header.php');
 		grid-template-columns: auto auto;
 		gap: 40px;
 		padding: 20px;
-		margin: 40px 40px 45px 40px;
+		margin: 40px 40px 100px 40px;
 	}
 
 	.elastic {
@@ -1032,6 +1036,14 @@ include_once('includes/header.php');
 			max-width: 48px;
 		}
 	}
+.content {
+    max-width: 100%;
+    margin: 0 auto !important;
+   margin-bottom: 0 !important; 
+    padding: 0 !important; 
+    padding-bottom: 0 !important; 
+}
+
 </style>
 
 <div class="hb-bannerCont">
@@ -1361,7 +1373,7 @@ include_once('includes/header.php');
 				<ul class="hb-productSec list-inline">
 					<div class="hb-leftCont hb_ppCont">
 						<p style="text-align:center">
-							Provides different tiers of service levels based on the business's needs, ensuring that you pay only for the services you require.Â 
+							Provides different tiers of service levels based on the business's needs, ensuring that you pay only for the services you require. 
 						</p>
 						<!--<span>
 			            				<img src="images/product-images/TIERED-MODEL.png" alt="advanced">

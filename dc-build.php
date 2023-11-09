@@ -10,7 +10,7 @@ $seo_keywords = "Data center build, data center technology, network security, IT
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/dc-build-banner.jpg" alt="dc-build-banner" width="1920" height="210">
-        <h2>Data Center Build <br>& operator</h2>
+        <h2>Data Center Build & operate</h2>
 
     </div>
 </div>

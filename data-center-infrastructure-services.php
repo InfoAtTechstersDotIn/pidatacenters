@@ -30,6 +30,12 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
     .anchor-tag:hover {
         color: white;
     }
+
+    .modal-content {
+        background-color: transparent !important;
+        margin: 0 auto !important;
+        border: none !important;
+    }
 </style>
 
 <!-- main starts here -->
@@ -282,6 +288,20 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                 </div>
                             </a>
                         </li>
+
+                        <li class="tabBlock-tab animatable fadeInUp col-4" style="cursor:pointer">
+                            <a class="nav-link" data-toggle="tab">
+                                <div class="hide-icon1">
+                                    <img src="images/charminar-green.svg" class="hyd" alt="dc-icon-img-1" width="80" height="80">
+                                    <h6>Hyderabad</h6>
+                                </div>
+
+                                <div class="hide-icon2 front-image">
+                                    <img src="images/charminar-blue.svg" class="hyd" alt="dc-icon-img-1" width="80" height="80">
+                                    <h6>Hyderabad</h6>
+                                </div>
+                            </a>
+                        </li>
                         <li class="tabBlock-tab  animatable fadeInUp col-4" style="cursor:pointer">
                             <a class="nav-link" data-toggle="tab">
 
@@ -289,26 +309,10 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                     <img src="images/green-kochi.png" alt="dc-icon-img-1" width="80" height="80">
                                     <h6>Kochi</h6>
                                 </div>
-                                <!-- <div class="flip-box-back">
-                                                                   </div> -->
+
                                 <div class="hide-icon2 front-image">
                                     <img src="images/blue-kochi.png" alt="dc-icon-img-1" width="80" height="80">
                                     <h6>Kochi</h6>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="tabBlock-tab animatable fadeInUp col-4" style="cursor:pointer">
-                            <a class="nav-link" data-toggle="tab">
-                                <div class="hide-icon1">
-                                    <img src="images/charminar-green.svg" class="hyd" alt="dc-icon-img-1" width="80" height="80">
-                                    <h6>Hyderabad</h6>
-                                </div>
-                                <!-- <div class="flip-box-back">
-                                    <h2>Hyderabad</h2>
-                                </div> -->
-                                <div class="hide-icon2 front-image">
-                                    <img src="images/charminar-blue.svg" class="hyd" alt="dc-icon-img-1" width="80" height="80">
-                                    <h6>Hyderabad</h6>
                                 </div>
                             </a>
                         </li>
@@ -346,7 +350,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                     <img src="images/feature.png" alt="feature" width="852" height="432">
                                 </div>
                                 <div class="features-of-amaravathi-btm">
-                                    <h3>Salient Features</h3>
+                                    <h3>Salient <span style="color:#76b543;">Features</span></h3>
 
                                     <p>1. 2N fault tolerant modular architecture providing at least 48 hoursâ€™ power outage protection.</p>
                                     <p>2. Utility power through independent routes from dual substations</p>
@@ -362,78 +366,12 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         <div class="locations-cnt row">
                             <div class="locations-cnt-lt col-md-6">
                                 <div class="amaravathi-dc-top">
-                                    <h3 class="kdc">Kochi Data Center <span>(Kottapuram Road, Aroor)</span></h3>
-                                    <ul>
-                                        <li>
-                                            <p>Uptime Institute Tier 3 Design Compliant</p>
-                                        </li>
-                                        <li>
-                                            <p>No of Racks 200</p>
-                                        </li>
-                                        <li>
-                                            <p>Built-Up Area 20,000 Sq.ft</p>
-                                        </li>
-                                        <li>
-                                            <p>Power Capacity: 3MW
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>Security Levels: Eight Levels Of Stringent Security Layers</p>
-                                        </li>
-                                        <!--<li>
-                                    <p>Security Levels : Eight Levels Of Stringent Security Layers</p>
-                                </li>-->
-                                    </ul>
-                                </div>
-
-                            </div>
-                            <div class="locations-cnt-rt col-md-6">
-                                <div class="features-of-amaravathi-top">
-                                    <img src="images/kochi-img.jpg" alt="feature" width="852" height="432">
-                                </div>
-                                <div class="features-of-amaravathi-btm">
-                                    <h3>Salient Features</h3>
-
-                                    <p>1.N+1 fault-tolerant modular architecture provides at least 48 hours of power outage protection.</p>
-                                    <p>2.Utility power through independent routes from dual substations</p>
-
-
-                                    <a href="#modal-2">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--<div class="amaravathi-dc-btm">
-                            <ul class="row">
-                                <li>
-                                    <img src="images/dc-icon-img-1.png" alt="dc-icon-img-1" width="80" height="80">
-                                </li>
-                                <li>
-                                    <img src="images/dc-icon-img-2.png" alt="dc-icon-img-2" width="80" height="80">
-                                </li>
-                                <li>
-                                    <img src="images/dc-icon-img-3.png" alt="dc-icon-img-3" width="80" height="80">
-                                </li>
-                                <li>
-                                    <img src="images/dc-icon-img-4.png" alt="dc-icon-img-4" width="80" height="80">
-                                </li>
-                                <li>
-                                    <img src="images/dc-icon-img-5.png" alt="dc-icon-img-5" width="80" height="80">
-                                </li>
-                            </ul>
-                        </div>-->
-                    <div class="tabBlock-pane">
-                        <div class="locations-cnt row">
-                            <div class="locations-cnt-lt col-md-6">
-                                <div class="amaravathi-dc-top">
                                     <h3 class="hyderabad">Hyderabad Data Center <span> (Financial District)</span></h3>
                                     <ul>
                                         <li>
-                                            <p>Uptime Institute Tier III Design Compliant </p>
+                                            <p>Uptime Institute Tier III Design Compliant (Build To Suit)</p>
                                         </li>
-                                        <!-- <li>
-                                            <p>Built on 10 acres datacenter campus (1st and only in India)</p>
-                                        </li> -->
+
                                         <li>
                                             <p>No. of Racks: 83 </p>
                                         </li>
@@ -464,7 +402,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                     <img src="images/hyderabad-dc-2.jpg" class="hyd-dc" alt="feature" width="852" height="432">
                                 </div>
                                 <div class="features-of-amaravathi-btm">
-                                    <h3>Salient Features </h3>
+                                    <h3>Salient <span style="color:#76b543;">Features</span> </h3>
 
                                     <p>1. N+1 Fault Tolerant Modular Architecture provides at least 48 hours of Power Outage Protection. </p>
                                     <p>2. Utility Power through Independent Routes from Dual Substations </p>
@@ -478,6 +416,50 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             </div>
                         </div>
                     </div>
+                    <div class="tabBlock-pane">
+                        <div class="locations-cnt row">
+                            <div class="locations-cnt-lt col-md-6">
+                                <div class="amaravathi-dc-top">
+                                    <h3 class="kdc">Kochi Data Center <span>(Kottapuram Road, Aroor)</span></h3>
+                                    <ul>
+                                        <li>
+                                            <p>Uptime Institute Tier 3 Design Compliant</p>
+                                        </li>
+                                        <li>
+                                            <p>No of Racks 200</p>
+                                        </li>
+                                        <li>
+                                            <p>Built-Up Area 20,000 Sq.ft</p>
+                                        </li>
+                                        <li>
+                                            <p>Power Capacity: 3MW
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>Security Levels: Eight Levels Of Stringent Security Layers</p>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="locations-cnt-rt col-md-6">
+                                <div class="features-of-amaravathi-top">
+                                    <img src="images/kochi-img.jpg" alt="feature" width="852" height="432">
+                                </div>
+                                <div class="features-of-amaravathi-btm">
+                                    <h3>Salient <span style="color:#76b543;">Features</span></h3>
+
+                                    <p>1.N+1 fault-tolerant modular architecture provides at least 48 hours of power outage protection.</p>
+                                    <p>2.Utility power through independent routes from dual substations</p>
+
+
+                                    <a href="#modal-2">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
@@ -492,10 +474,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
         <div class="about-data-center-infrastructure-main">
             <h2> Data Center <span style="color: #7BBC42;font-weight: 500;">Infrastructure </span></h2>
             <div class="infrastructure row align-middle">
-                <!--    <div class="infrastructure-lt col-md-6 dc">-->
-                <!--        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dui mauris, vehicula vel commodo at, sollicitudin sed magna. Quisque nec ligula ligula. Ut tincidunt molestie auctor. Morbi in lacus sit amet odio ornare tincidunt ut vitae nunc. Praesent iaculis luctus nisl, quis</p>-->
 
-                <!--</div>-->
                 <div class="infrastructure-rt col-md-12">
                     <img src="images/data-center-infrastructure-v3.png" alt="data-center-infrastructure-v3" width=" 986" height="751">
                 </div>
@@ -1067,7 +1046,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                 <div class="modal-body">
                     <div class=" row">
                         <div class="fill-your-details-cnt features">
-                            <h3>Salient Features</h3>
+                            <h3>Salient <span style="color:#76b543;">Features</span></h3>
                             <p>1. 2N fault tolerant modular architecture providing at least 48 hoursâ€™ power outage protection.</p>
                             <p>2. Utility power through independent routes from dual substations</p>
                             <p>3. Lowest power cost in the Industry</p>
@@ -1097,7 +1076,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                 <div class="modal-body">
                     <div class=" row">
                         <div class="fill-your-details-cnt features">
-                            <h3>Salient Features</h3>
+                            <h3>Salient <span style="color:#76b543;">Features</span></h3>
                             <p>1. N+1 fault-tolerant modular architecture provides at least 48 hours of power outage protection.</p>
                             <p>2.Utility power through independent routes from dual substations</p>
                             <p>3. 2N ups and N+1 generator provisioning</p>
@@ -1129,7 +1108,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                 <div class="modal-body">
                     <div class=" row">
                         <div class="fill-your-details-cnt features">
-                            <h3>Salient Features</h3>
+                            <h3>Salient <span style="color:#76b543;">Features</span></h3>
 
                             <p>1. N+1 Fault Tolerant Modular Architecture provides at least 48 hours&#8217 Power Outage Protection. </p>
                             <p>2. Utility Power through Independent Routes from Dual Substations </p>

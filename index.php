@@ -106,6 +106,22 @@
         .mobile-nav>ul ul li a {
             padding-left: 20px !important;
         }
+
+        .background {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+
+        @media(max-aspect-ratio:16/9) {
+            .background {
+                width: auto;
+                height: 100%;
+            }
+        }
     </style>
     <script>
         (function(w, d) {
@@ -117,7 +133,6 @@
             s.setAttribute("src", "https://collectcdn.com/launcher.js");
             h.appendChild(s);
         })(window, document);
-        banners_content
     </script>
 </head>
 
@@ -130,7 +145,12 @@
 
 
     <div class="wrapper">
+        <!-- Background -->
+        <video autoplay loop muted plays-inline class="background">
+            <source src="images/home-page-2.mp4" type="video/mp4">
+        </video>
         <!-- header-blcok -->
+
         <header>
             <div class="header-block">
                 <div class="container">
@@ -179,16 +199,15 @@
                                         <div class="drop-down">
                                             <ul>
                                                 <li>
-                                                    <a href="./pi-cloud/multi-cloud">Public Cloud</a>
+                                                    <!-- <a href="./pi-cloud/multi-cloud">Public Cloud</a>  -->
+                                                    <a href="./pi-cloud/public-cloud">Public Cloud</a>
+
                                                 </li>
                                                 <li>
                                                     <a href="./pi-cloud/compute">Private Cloud</a>
                                                 </li>
                                                 <li><a href="./pi-cloud/sap">SAP on Cloud</a></li>
-                                                <li><a href="./pi-cloud/products-home">Other Could Services</a></li>
-                                                <li>
-                                                    <a href="certifications.php"> Cloud Certifications</a>
-                                                </li>
+                                                <!--  <li><a href="./pi-cloud/products-home">Other Could Services</a></li>  -->
                                                 <li>
                                                     <a href="./pi-cloud/industry-solutions">Industry Solutions</a>
                                                 </li>
@@ -196,6 +215,10 @@
                                                 <li>
                                                     <a href="./pi-cloud/managed-services">Cloud Enablement</a>
                                                 </li>
+                                                <li>
+                                                    <a href="certifications.php"> Cloud Certifications</a>
+                                                </li>
+
 
                                                 <!--<li>
                                         <a href="ceo-corner.php">
@@ -209,10 +232,15 @@
                                         <div class="drop-down">
                                             <ul>
                                                 <li>
-                                                    <a href="./pi-cloud/multi-cloud#servicemodel">Public Cloud
+                                                    <!-- <a href="./pi-cloud/multi-cloud#servicemodel">Public Cloud
+Managed
+
+Services</a> -->
+                                                    <a href="./pi-cloud/multicloud-managed-services">Multi Cloud
                                                         Managed
 
                                                         Services</a>
+
                                                 </li>
                                                 <li>
                                                     <a href="rims.php">RIMS</a>
@@ -364,10 +392,10 @@
                                                     <div class="drop-down2 drop-down4">
                                                         <ul>
                                                             <li>
-                                                                <a href="https://pidatacenters.com/privacy-policy/">Privacy Policy</a>
+                                                                <a href="https://pidatacenters.com/privacy-policy.php">Privacy Policy</a>
                                                             </li>
                                                             <li>
-                                                                <a href="https://pidatacenters.com/acceptable-use-policy/">Acceptable Use Policy</a>
+                                                                <a href="https://pidatacenters.com/acceptable-use-policy.php">Acceptable Use Policy</a>
                                                             </li>
 
                                                         </ul>
@@ -434,13 +462,16 @@
                     </li>
                     <li id="nav-menu-item-14" class="main-menu-item  menu-item-even menu-item-depth-0 single-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a title="ABOUT US" href="./pi-cloud/" class="menu-link main-menu-link">CLOUD</a><span class="sub-menu-icon"></span>
                         <ul class="sub-menu menu-odd  menu-depth-1">
-                            <li id="nav-menu-item-172" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page"><a title="Leadership" href="./pi-cloud/multi-cloud" class="menu-link sub-menu-link">Public Cloud</a></li>
+                            <li id="nav-menu-item-172" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page"><!--<a title="Leadership" href="./pi-cloud/multi-cloud" class="menu-link sub-menu-link">Public Cloud</a>--> <a href="./pi-cloud/public-cloud">Public Cloud</a>
+                            </li>
                             <li id="nav-menu-item-843" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom"><a title="News" href="./pi-cloud/compute" class="menu-link sub-menu-link">Private Cloud</a></li>
                             <li id="nav-menu-item-843" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom"><a title="News" href="./pi-cloud/sap" class="menu-link sub-menu-link">SAP on Cloud</a></li>
                             <li id="nav-menu-item-843" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom"><a title="News" href="./pi-cloud/products-home" class="menu-link sub-menu-link">Other Could Services</a></li>
-                            <li id="nav-menu-item-843" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom"><a title="News" href="certifications.php" class="menu-link sub-menu-link">Cloud Certifications</a></li>
+                            <!-- <li id="nav-menu-item-843" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom"><a title="News" href="certifications.php" class="menu-link sub-menu-link">Cloud Certifications</a></li> -->
                             <li id="nav-menu-item-2899" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page"><a title="Awards and Recognition" href="./pi-cloud/industry-solutions" class="menu-link sub-menu-link">Industry Solutions</a></li>
                             <li id="nav-menu-item-3416" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom"><a title="Careers" href="./pi-cloud/managed-services" class="menu-link sub-menu-link">Cloud Enablement</a></li>
+                            <li id="nav-menu-item-843" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom"><a title="News" href="certifications.php" class="menu-link sub-menu-link">Cloud Certifications</a></li>
+
                             <!--<li id="nav-menu-item-2853" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page"><a title="Certifications" href="certifications.php" class="menu-link sub-menu-link">Partner Portal</a></li>-->
                             <!--<li id="nav-menu-item-2853" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page">
                                         <a href="ceo-corner.php" class="menu-link sub-menu-link">
@@ -466,10 +497,12 @@
 
                     <li id="nav-menu-item-3445" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="JavaScript:void(0);" class="menu-link sub-menu-link">MANAGED SERVICES</a><span class="sub-menu-icon"></span>
                         <ul class="sub-menu menu-even sub-sub-menu menu-depth-2">
-                            <li id="nav-menu-item-3870" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom"><a href="./pi-cloud/multi-cloud#servicemodel" class="menu-link sub-menu-link">Public Cloud
+                            <li id="nav-menu-item-3870" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom">
+                                <a href="./pi-cloud/multicloud-managed-services">Multi Cloud
                                     Managed
 
-                                    Services</a></li>
+                                    Services</a>
+                            </li>
                             <li id="nav-menu-item-3869" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom"><a href="rims.php" class="menu-link sub-menu-link">RIMS</a></li>
                             <!--		<li id="nav-menu-item-3870" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom"><a href="#" class="menu-link sub-menu-link">Public Cloud Support</a></li>-->
                             <li id="nav-menu-item-3871" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom"><a href="noc.php" class="menu-link sub-menu-link">NOC</a></li>
@@ -792,7 +825,135 @@
                     </div>
                 </div>
                 <!-- block 2-->
-                <!-- <div>
+
+                <!--   <div>
+                          <div class="block-1 block-2">
+                              <div class="backdround-bg">
+                        <div class="product-blk d-flex flex-wrap flex-row-reverse">
+                            <div class="mobile-headings">
+                                <span style="color:#ffffff;font-size:17px;line-height:26px;"> Who We Are</span>
+                                <h2>Architecting the Digital Future of Businesses</h2>
+                                </div>
+                             <div class="product-rt col-lg-4">
+                                    <img src="images/pi-datacenters.webp" alt="who-we-are" width="531" height="557">
+                            </div>
+                            <div class="product-lt col-lg-8 ">
+                                 <div class="desktop-headings">
+                                <span style="color:#ffffff;font-size:17px;line-height:26px;"> Who We Are</span>
+                                <h2>Architecting the Digital Future of Businesses</h2>
+                                </div>
+                                <p>UPTIME INSTITUTE TIER IV-Certified Infrastructure makes it robust and resilient while providing a transformative experience to our customers.</p>
+                                <ul class="row">
+                                    <li>
+                                        <span>#1</span>
+                                        <p>100% Automated 
+ <br> SCADA/DCIM</p>
+                                    </li>
+                                    <li>
+                                        <span>#2</span>
+                                        <p>8 Levels of <br> Stringent Security</p>
+                                    </li>
+                                    <li>
+                                        <span>#3</span>
+                                        <p>Dedicated <br>  Customer NOCs</p>
+                                    </li>
+                                    <li>
+                                        <span>#4</span>
+                                        <p>Rapid Deployment <br> & Assistance
+</p>
+                                    </li>
+                                    <li>
+                                        <span>#5</span>
+                                        <p>Low Cost <br>  Of Ownership</p>
+                                    </li>
+                                </ul>
+                                <div class="know-more">
+                                    <a href="about.php">Know More</a>
+                                </div>
+                            </div>
+                           
+                        </div>
+                              </div>
+                         </div>
+
+                    </div>   -->
+
+
+
+
+
+                <!-- block3 -->
+                <div>
+                    <div class="block-1">
+                        <div class="backdround-bg">
+                            <div class="datacenter-blk">
+                                <div class="container">
+                                    <div class="datacenter-main center-block">
+                                        <!--<span style="color:#ffffff;font-size:17px;line-height:26px;text-align:center;display:block;">Pan-India Predominance</span>-->
+                                        <h2> State-of-the-Art Facilities</h2>
+                                        <!--                                <p> PiÂ® is Indiaâ€™s first Greenfield and Worldâ€™s 4th largest Uptime institute Tier lV Certified Datacenter-->
+                                        <!--</p>-->
+                                        <ul class="center">
+                                            <li class="col-md-4">
+                                                <img src="images/pi-datacenters-kochi-dc-2.webp" alt="dc" width="656" height="316">
+                                                <div class="strategic-core-council-cnt2">
+                                                    <p>Kochi Data Center <br> (Kottapuram Road, Aroor )</p>
+                                                    <p>Uptime Institute Tier lll Design Complaint Data Center</p>
+                                                </div>
+                                            </li>
+                                            <li class="col-md-4">
+                                                <img src="images/pi-datacenters-amaravati-dc-1.webp" alt="amaravati" width="656" height="316">
+                                                <div class="strategic-core-council-cnt2">
+                                                    <p>Vijayawada Data Center <br> (Vijayawada, Andhra Pradesh)</p>
+                                                    <p> Indiaâ€™s first Greenfield and Worldâ€™s 4th largest Uptime Institute Tier lV Certified Data Center
+                                                    </p>
+                                                </div>
+
+                                            </li>
+                                            <li class="col-md-4 hyd-img">
+                                                <img src="images/hyderabad-dc-3.jpg" alt="amaravati" width="656" height="316">
+                                                <div class="strategic-core-council-cnt2">
+                                                    <p>Hyderabad Data Center <br> (Financial District)</p>
+                                                    <p> Uptime Institute Tier III Design Compliant Data Center
+                                                    </p>
+                                                </div>
+
+                                            </li>
+                                            <!-- <li class="col-md-4">
+                             <img src="images/kochi-dc.png" alt="dc" width="656" height="316">
+                           <div class="strategic-core-council-cnt2">
+                             <p>Kochi Data Center <br> (Kottapuram Road, Aroor )</p>
+                               <p>Uptime Institute Tier lll Design Complaint  Data Center</p>
+                           </div>
+                        </li>
+                                    <li class="col-md-4">
+                            <img src="images/amaravati-dc_1.png" alt="amaravati" width="656" height="316">
+                           <div class="strategic-core-council-cnt2">
+                             <p>Vijayawada Data Center <br> (Vijayawada, Andhra Pradesh)</p>
+                               <p>Indiaâ€™s first Greenfield and Worldâ€™s 4th largest Uptime Institute Tier lV Certified Data Center
+</p>
+                           </div>
+                             
+                        </li> -->
+
+
+                                        </ul>
+                                        <div class="know-more">
+                                            <a href="data-center-infrastructure-services.php" class="dc">Know More</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!--block 4-->
+
+                <div>
                     <div class="block-1 block-2">
                         <div class="backdround-bg">
                             <div class="product-blk d-flex flex-wrap flex-row-reverse">
@@ -842,127 +1003,10 @@
                             </div>
                         </div>
                     </div>
-                </div> -->
-                <!-- block3 -->
-                <div>
-                    <div class="block-1">
-                        <div class="backdround-bg">
-                            <div class="datacenter-blk">
-                                <div class="container">
-                                    <div class="datacenter-main center-block">
-                                        <!--<span style="color:#ffffff;font-size:17px;line-height:26px;text-align:center;display:block;">Pan-India Predominance</span>-->
-                                        <h2> State-of-the-Art Facilities</h2>
-                                        <!--                                <p> Pi® is India’s first Greenfield and World’s 4th largest Uptime institute Tier lV Certified Datacenter-->
-                                        <!--</p>-->
-                                        <ul class="center">
-                                            <li class="col-md-4">
-                                                <img src="images/pi-datacenters-kochi-dc-2.webp" alt="dc" width="656" height="316">
-                                                <div class="strategic-core-council-cnt2">
-                                                    <p>Kochi Data Center <br> (Kottapuram Road, Aroor )</p>
-                                                    <p>Uptime Institute Tier lll Design Complaint Data Center</p>
-                                                </div>
-                                            </li>
-                                            <li class="col-md-4">
-                                                <img src="images/pi-datacenters-amaravati-dc-1.webp" alt="amaravati" width="656" height="316">
-                                                <div class="strategic-core-council-cnt2">
-                                                    <p>Vijayawada Data Center <br> (Vijayawada, Andhra Pradesh)</p>
-                                                    <p> India’s first Greenfield and World’s 4th largest Uptime Institute Tier lV Certified Data Center
-                                                    </p>
-                                                </div>
-
-                                            </li>
-                                            <li class="col-md-4 hyd-img">
-                                                <img src="images/hyderabad-dc-3.jpg" alt="amaravati" width="656" height="316">
-                                                <div class="strategic-core-council-cnt2">
-                                                    <p>Hyderabad Data Center <br> (Financial District)</p>
-                                                    <p> Uptime Institute Tier III Design Compliant Data Center
-                                                    </p>
-                                                </div>
-
-                                            </li>
-                                            <!-- <li class="col-md-4">
-                                                <img src="images/kochi-dc.png" alt="dc" width="656" height="316">
-                                                <div class="strategic-core-council-cnt2">
-                                                    <p>Kochi Data Center <br> (Kottapuram Road, Aroor )</p>
-                                                    <p>Uptime Institute Tier lll Design Complaint Data Center</p>
-                                                </div>
-                                            </li>
-                                            <li class="col-md-4">
-                                                <img src="images/amaravati-dc_1.png" alt="amaravati" width="656" height="316">
-                                                <div class="strategic-core-council-cnt2">
-                                                    <p>Vijayawada Data Center <br> (Vijayawada, Andhra Pradesh)</p>
-                                                    <p>India’s first Greenfield and World’s 4th largest Uptime Institute Tier lV Certified Data Center
-                                                    </p>
-                                                </div>
-
-                                            </li> -->
-
-                                        </ul>
-                                        <div class="know-more">
-                                            <a href="data-center-infrastructure-services.php" class="dc">Know More</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
                 </div>
 
-                <!-- block4 -->
 
-                <div>
-                    <div class="block-1 block-2">
-                        <div class="backdround-bg">
-                            <div class="product-blk d-flex flex-wrap flex-row-reverse">
-                                <div class="mobile-headings">
-                                    <span style="color:#ffffff;font-size:17px;line-height:26px;"> Who We Are</span>
-                                    <h2>Architecting the Digital Future of Businesses</h2>
-                                </div>
-                                <div class="product-rt col-lg-4">
-                                    <img src="images/pi-datacenters.webp" alt="who-we-are" width="531" height="557">
-                                </div>
-                                <div class="product-lt col-lg-8 ">
-                                    <div class="desktop-headings">
-                                        <span style="color:#000;font-size:17px;line-height:26px;"> Who We Are</span>
-                                        <h2>Architecting the Digital Future of Businesses</h2>
-                                    </div>
-                                    <p>UPTIME INSTITUTE TIER IV-Certified Infrastructure makes it robust and resilient while providing a transformative experience to our customers.</p>
-                                    <ul class="row">
-                                        <li>
-                                            <span>#1</span>
-                                            <p>100% Automated
-                                                <br> SCADA/DCIM
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <span>#2</span>
-                                            <p>8 Levels of <br> Stringent Security</p>
-                                        </li>
-                                        <li>
-                                            <span>#3</span>
-                                            <p>Dedicated <br> Customer NOCs</p>
-                                        </li>
-                                        <li>
-                                            <span>#4</span>
-                                            <p>Rapid Deployment <br> & Assistance
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <span>#5</span>
-                                            <p>Low Cost <br> Of Ownership</p>
-                                        </li>
-                                    </ul>
-                                    <div class="know-more">
-                                        <a href="about.php">Know More</a>
-                                    </div>
-                                </div>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <!-- block5 -->
                 <div>
                     <div class="block-1 ">
@@ -1040,7 +1084,7 @@
                                 <img src="images/pi-har.png" alt="hurbour1-logo" width="408" height="156" class="hurbour1-img1">
                                 </div>-->
                                         <!--<p>India's First Enterprise Cloud Platform offers quick time-to-market, flexibility, scalability, capacity, business continuity, <br> and cost-efficiency while being platform-agnostic.</p>-->
-                                        <p>Pi Cloud , powered by Pi DATACENTERS®, India’s first Enterprise Cloud Platform, is now a Multi-Cloud Ecosystem, providing <br>seamlessly integrated and fully managed private and public cloud environments that offers quick time-to-market, flexibility, <br>scalability, capacity, business continuity, and cost-efficiency while being platform-agnostic.</p>
+                                        <p>Pi Cloud , powered by Pi DATACENTERSÂ®, Indiaâ€™s first Enterprise Cloud Platform, is now a Multi-Cloud Ecosystem, providing <br>seamlessly integrated and fully managed private and public cloud environments that offers quick time-to-market, flexibility, <br>scalability, capacity, business continuity, and cost-efficiency while being platform-agnostic.</p>
                                         <ul class="center1">
                                             <li class="col-md-4">
                                                 <img src="images/backup-as-a-service.webp" alt="hyper-visor" width="190" height="190" class="data-center-img bw">
@@ -1149,13 +1193,13 @@
                                             <span>CEO Corner</span>
                                             <h2>Meet Kalyan Muppaneni</h2>
                                         </div>
-                                        <p>Kalyan is the mind and man behind Pi DATACENTERS®, Asia's Largest Uptime
-                                            Institute Certified TIER IV Data Center, and Pi Cloud - India’s first Enterprise
+                                        <p>Kalyan is the mind and man behind Pi DATACENTERSÂ®, Asia's Largest Uptime
+                                            Institute Certified TIER IV Data Center, and Pi Cloud - Indiaâ€™s first Enterprise
                                             Cloud Platform. His extensive experience in multiple disciplines of IT, backed
                                             with strong business acumen and global organizational leadership, makes him
                                             stand out. </p>
 
-                                        <p class="story"><span style="font-size:17px;display:inline-block;padding:0 0 10px;">Kalyan’s Story:</span> <br> Kalyan is the Founder & Chief Executive Officer of Pi DATACENTERS®. He is
+                                        <p class="story"><span style="font-size:17px;display:inline-block;padding:0 0 10px;">Kalyanâ€™s Story:</span> <br> Kalyan is the Founder & Chief Executive Officer of Pi DATACENTERSÂ®. He is
                                             a visionary, technology leader and an industry veteran for more than 2
                                             decades. Including 15+years in leadership roles with Intel Corporation in the
                                             Silicon Valley, US. With an appetite for an ahead of the curve innovation and
@@ -1179,7 +1223,7 @@
                               
                               <div class="contact-blk-top">
                                     <h2>CONTACT US</h2>
-                                  <p class="story">Get in touch with the expertise at the heart of India’s most intuitive & innovative Datacenters & Cloud Adoption Strategists.<br> Enable your business with cutting edge IT Infrastructure by Pi. </p>
+                                  <p class="story">Get in touch with the expertise at the heart of Indiaâ€™s most intuitive & innovative Datacenters & Cloud Adoption Strategists.<br> Enable your business with cutting edge IT Infrastructure by Pi. </p>
                                </div>
                          <div class="contact-blk d-flex flex-wrap">
                              <div class="contact-blk-lt col-lg-6">
@@ -1232,15 +1276,16 @@
 
         <div class="backdround-bg1">
             <footer>
-                <div class="footer-about footer-bg" style="background:white">
+                <div class="footer-about footer-bg footer-2" style="background:white;">
                     <div class="container-fluid">
                         <div class="row">
 
                             <div class="col-md-3">
                                 <div class="footer-copy-rights">
-                                    <p>© 2023 Pi DATACENTERS® Pvt. Ltd.| All rights reserved.</p>
-                                    <!-- <p><a href="https://3dm.agency/" target="_blank" class="three-dm">Design and Developed by @3DM.agency</a></p> -->
+                                    <p>Â© 2023 Pi DATACENTERSÂ® Pvt. Ltd.| All rights reserved.</p>
+                                    <!--<p><a href="https://3dm.agency/" target="_blank" class="three-dm">Design and Developed by @3DM.agency</a></p>-->
                                     <p><a href="#" target="_blank" class="three-dm">Managed by Nayana Group</a></p>
+
                                 </div>
 
                             </div>
@@ -1632,7 +1677,7 @@
                 $content.slideToggle(500, function() {
                     $(".mobile-expand-icon").text(function() {
                         //change text based on condition
-                        return $content.is(":visible") ? '—' : "+";
+                        return $content.is(":visible") ? 'â€”' : "+";
                     });
 
                 });
