@@ -18,69 +18,6 @@
    </div>
 </div>
 
-
-<style>
-.grid_view:hover {
-    background-color: #76b543 !important;
-}
-   .pop-up-btns a {
-      background-color: #fff;
-      color: #223f97;
-      padding: 50x 10px;
-      width: 130px;
-      height: 35px;
-      text-align: center;
-      line-height: 2.5;
-      border-radius: 5px;
-      font-size: 14px;
-      /* margin: 0px 10px; */
-      display: inline-flex;
-      text-align: center;
-      justify-content: center;
-      text-decoration: none !important;
-      font-weight: bold;
-      /* letter-spacing: 1px; */
-
-
-   }
-
-   .pop-up-btns {
-      position: absolute;
-      top: 40px;
-      right: 35px;
-      z-index: 9;
-      font-size: 20px;
-      cursor: pointer;
-   }
-
-
-   .modal {
-      display: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.7);
-   }
-
-   .modal-content {
-      background-color: #fff;
-      width: 50%;
-      margin: 20% auto;
-      padding: 20px;
-      border: 1px solid #333;
-      box-shadow: none;
-      text-align: center;
-   }
-
-   .close {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      cursor: pointer;
-   }
-</style>
 <div class="explore-dept" style="margin: 48px auto 12px;">
    <div class="container">
       <div class="ex-deptCont">

@@ -2916,7 +2916,38 @@ text-align: center;
     padding: 0.5rem !important;
 }
 
+.grid_view:hover {
+    background-color: #76b543 !important;
+}
+   .pop-up-btns a {
+      background-color: #fff;
+      color: #223f97;
+      padding: 50x 10px;
+      width: 130px;
+      height: 35px;
+      text-align: center;
+      line-height: 2.5;
+      border-radius: 5px;
+      font-size: 14px;
+      /* margin: 0px 10px; */
+      display: inline-flex;
+      text-align: center;
+      justify-content: center;
+      text-decoration: none !important;
+      font-weight: bold;
+      /* letter-spacing: 1px; */
 
+
+   }
+
+   .pop-up-btns {
+      position: absolute;
+      top: 40px;
+      right: 35px;
+      z-index: 9;
+      font-size: 20px;
+      cursor: pointer;
+   }
 
     </style>
 
