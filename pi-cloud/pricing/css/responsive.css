@@ -1,0 +1,30 @@
+@media(max-width: 767px) {
+    #bodycontent{
+        width: 100%;
+    }
+    .pricingdropdowns .btn{
+        width: 100%;
+        padding: 10px 0;
+        font-size: 16px;
+    }
+    .block-title{
+        font-size: 27px;
+    }
+    .pricing-main-block .form-group label{
+        text-align: left !important;
+    }
+    .rc-btn .btn{
+        width: 100%;
+    }
+    .nosidepadding.cldstr{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+
+@media(max-width: 600px) {
+    .pricing-main-block{
+        padding: 10px;
+    }
+}

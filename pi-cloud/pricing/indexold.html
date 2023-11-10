@@ -1,0 +1,934 @@
+<html>
+
+<head>
+    <title>Pi DATACENTERS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/pricing/" />
+
+    <meta name="viewport" content="width=device-width">
+    <!-- Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link rel='shortcut icon' type='image/x-icon' href='./favicon.ico' />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://pricing.pidatacenters.com/pidata/p/css/menu.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/dial-style.css">
+    <link rel="stylesheet" href="css/roundslider.css">
+    <link rel="stylesheet" href="css/pricingcss.css?v6">
+    <!-- <link rel="stylesheet" href="css/simple.css">     -->
+    <link rel="stylesheet" href="css/bootstrap336.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- <link rel="stylesheet" href="https://pricing.pidatacenters.com/pidata/p/css/responsive.css"> -->
+
+    <script type='text/javascript' src='scripts/plugins/angular.js'></script>
+    <script type='text/javascript' src='scripts/plugins/angular-animate.js'></script>
+    <!-- <script type='text/javascript' src='scripts/plugins/angular-sanitize.js'></script> -->
+    <!-- <script type='text/javascript' src='scripts/plugins/angular-ui-router.min.js'></script> -->
+    <script type='text/javascript' src='scripts/plugins/angular-route.js'></script>
+    <script type='text/javascript' src='scripts/plugins/jquery-3.2.1.min.js'></script>
+    <script type='text/javascript' src='scripts/plugins/d3.v3.js'></script>
+    <script type='text/javascript' src='scripts/plugins/iopctrl.js'></script>
+    <script type='text/javascript' src='scripts/plugins/angular-jwt.js'></script>
+    <!-- <script type='text/javascript' src='scripts/plugins/interceptorSpec.js'></script> -->
+    <!-- <script type='text/javascript' src='scripts/plugins/jquery-1.9.1.min.js'></script> -->
+
+
+
+    <script type='text/javascript' src='scripts/controllers/routeController.js'></script>
+    <script type='text/javascript' src='scripts/controllers/cloudVirtualDedicatedServers.js?v3'></script>
+    <script type='text/javascript' src='scripts/controllers/enterpriseDedicatedServersCtrl.js'></script>
+    <script type='text/javascript' src='scripts/controllers/cloudStorageCtrl.js'></script>
+    <script type='text/javascript' src='scripts/controllers/serverCoLocationCtrl.js'></script>
+    <script type='text/javascript' src='scripts/controllers/rackCoLocationCtrl.js'></script>
+    <script type='text/javascript' src='scripts/controllers/authController.js'></script>
+    <script type='text/javascript' src='scripts/controllers/paymentcnfController.js?v1'></script>
+    <script type='text/javascript' src='scripts/controllers/scripts.js'></script>
+
+    <script type='text/javascript' src='scripts/services/sliders.js'></script>
+    <script type='text/javascript' src='scripts/services/services.js?v2'></script>
+    <script type='text/javascript' src='scripts/controllers/cartController.js'></script>
+    <script type='text/javascript' src='scripts/controllers/checkoutController.js?v28'></script>
+    <script type='text/javascript' src='scripts/services/services3.js'></script>
+
+    <style>
+        .tollfree-seperator-md {
+            font-size: 23px;
+            vertical-align: middle;
+        }
+
+        .num {
+            right: 16% !important;
+        }
+
+        .srch {
+            margin-top: 0px;
+        }
+
+        .last-mile-submenu {
+            display: inline-block;
+        }
+
+        .last-mile-submenu-content {
+            display: none;
+            position: absolute;
+            background: rgba(255, 255, 255);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .last-mile-submenu-content a {
+            padding: 5px 20px;
+            text-decoration: none;
+            display: block;
+            font-size: 12px;
+            font-weight: 400;
+            color: #011c54;
+        }
+
+        .last-mile-submenu-content a:hover {
+            color: #5AD47F;
+
+        }
+
+        .last-mile-submenu:hover .last-mile-submenu-content {
+            display: block;
+        }
+
+        .mobile-only {
+            display: none;
+        }
+
+        .gpw_cert_cont {
+            float: right;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .pc-only {
+                display: none;
+            }
+
+            .mobile-only {
+                display: block;
+            }
+        }
+
+        @media (max-width: 1120px) {
+            .pc-only {
+                display: none !important;
+            }
+
+            .mobile-only {
+                display: block !important;
+            }
+        }
+
+
+        < !-- menu chanhes -->.dropdown-content1 a:hover {
+            background-color: #f1f1f1
+        }
+
+        .dropdown1:hover .dropdown-content1 {
+            display: block;
+        }
+
+        .dropdown1:hover .dropbtn1 {
+            color: #32b131;
+        }
+
+        .dropdown-content1 {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            left: 197px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            top: 1px;
+            z-index: 1;
+        }
+
+        .dropdown-content1 a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropbtn1 {
+            background-color: rgba(0, 0, 0, 0);
+            color: #011c54;
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            padding-right: 164px;
+            border: none;
+            margin: -3px;
+        }
+
+        .dropdown1 {
+            position: relative;
+            display: inline-block;
+        }
+
+        
+
+.dropbtn2 {
+    background-color: rgba(0, 0, 0, 0);
+    color: #011c54;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0px 15px 6px 5px;
+    border: none;
+    cursor: pointer;
+    margin: 0px;
+}
+
+        .dropdown2 {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content2 {
+            display: none;
+            position: absolute;
+            background-color: #ffffff;
+            min-width: 197px;
+            text-align: left;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            left: 197px;
+            z-index: 1;
+            top: 0px;
+        }
+
+        .dropdown-content2 a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown2:hover .dropdown-content2 {
+            display: block;
+        }
+
+        .dropdown-content a {
+            color: red;
+        }
+
+        .dropbtn {
+            background-color: rgba(0, 0, 0, 0);
+            color: #011c54;
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            padding: 0px 5px;
+            border: none;
+            margin: 2px;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #ffff;
+            min-width: 222px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            text-align: left;
+            left: 198;
+            top: 1px;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            color: #5AD47F !important;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        nav>ul>li>ul.css-customised {
+            width: 20%;
+            left: 55% !important;
+            margin-top: 7px;
+            flex-direction: column;
+            padding: 7px 10px !important;
+            border-radius: 0px;
+        }
+
+        @media only screen and (max-width: 1920px) {
+            .mobile-only_dd {
+                display: none;
+            }
+
+
+        }
+
+        i.fa.tele-circle {
+
+            color: #011c54;
+
+        }
+
+        .single-menu .sub-menu {
+            top: 40px;
+            width: 235px;
+            border-radius: 0;
+            padding: 6px 25px;
+        }
+
+        nav>ul>li>ul.sub-menu {
+
+            background: rgb(255, 255, 255);
+
+        }
+    </style>
+
+
+
+
+</head>
+
+<body ng-app="PiStore">
+    <header>
+        <div class="header trans skrollable rendered " data-0="background:rgba(1, 27, 47, 0); margin-top:0"
+            data-50=" margin-top:0" data-60="background:rgba(255,255,255,1); margin-top:-0"
+            style="background: rgba(1, 27, 47, 0); margin-top: 0px;">
+
+
+            <div class="num pc-only">
+
+                <!-- <span>
+                    <i class="fa fa-hashtag" aria-hidden="true"
+                        style="font-size: 11px;background: #011c54;color: white;padding: 5px;position: relative;top: -1px;"></i>
+                    <a style="font-size: 12px;font-weight: 1000;color: #011c54;position: relative;top: 0px;"
+                        target="_blank"
+                        href="https://www.greatplacetowork.in/great/rated/50-great/Pi-DATA">50GREATWORKPLACES</a>
+                </span> -->
+
+                <div class="inline-block last-mile-submenu">
+
+
+                    <!-- <span class="tollfree-seperator-md">|</span>
+                    <span class="tollfree"> -->
+                        <img class="js-lazy-image"
+                            style="width: 15px;position: relative;top: -2px;left: -1px;height:20px;"
+                            src="https://pidatacenters.com/wp-content/uploads/2019/08/carrer_1_desktop.png"
+                            alt="GPTW-badge"> <span class="storyboard"
+                            style="font-weight: 1000;color: #011c54!important;font-size: 12px;">KNOWLEDGE CENTER
+                            &#x25BC;</span>
+                    </span>
+
+
+                    <div class="last-mile-submenu-content">
+                        <a href="https://pidatacenters.com/static/documents/pidatacenters/pdf/the-story-board.php?8989291"
+                            target="blank">Corporate Brochure</a>
+                        <a href="https://pidatacenters.com/case-studies/">Case Studies</a>
+                        <a href="https://pidatacenters.com/the-last-mile-gallery/">The Last Mile Gallery</a>
+                        <a href="https://pidatacenters.com/videos/">Videos</a>
+                        <a href="https://pidatacenters.com/blog-pi-datacenters/">Blog</a>
+                        <a href="https://pidatacenters.com/whitepapers/">Whitepaper</a>
+
+                    </div>
+                </div>
+
+                <div class="srch">
+                    <div class="searchform">
+                        <form onsubmit="return checkVal()" method="get" id="searchform" class="searchform"
+                            action="https://pidatacenters.com/" siq_id="autopick_3393">
+
+                            <input type="submit" class="search-but" value="&nbsp;">
+                            <input class="searchInput" type="text" value="" name="s" id="s">
+                        </form>
+                    </div>
+                </div>
+                <span class="tollfree">
+                    <img>
+                </span>
+
+                <span class="tollfree-seperator-md">|</span>
+                <!-- <span class="tollfreeText" style ='color:#011c54 !important;'><img src="css/img/call.png" alt="Call"> 1800-3074-3282</span>&nbsp; -->
+                <span class="tollfree">
+                    <!-- <a href="/static/documents/pidatacenters/pdf/the-story-board.pdf?24092018" target="_blank" title ="CORPORATE BROCHURE"> -->
+                    <a href="https://pidatacenters.com/contact-us/">
+                        <span class="tollfree">
+                            <i class="fa fa-phone tele-circle" aria-hidden="true"
+                                style="font-size: 17px;top: 1px;font-weight: 1000;position: relative;"></i>
+                        </span>
+                        <span class="storyboard"
+                            style="font-weight: 1000;color: #011c54!important;font-size: 12px;">CONTACT US</span>
+                    </a>
+                </span>
+            </div>
+
+
+            <div class="num mobile-only">
+
+                <div class="last-mile-submenu">
+                    <span class="tollfree">
+                        <span id="lastmile-icon">
+                            <img style="width: 22px; height: 22px;"
+                                src="https://pidatacenters.com/wp-content/uploads/2017/12/casestudy icon.png"
+                                alt="&nbsp;">
+
+                        </span>
+                    </span>
+
+                    <div class="last-mile-submenu-content">
+                        <a href="https://pidatacenters.com/use-cases/power-and-utility/">Power & Utility</a>
+                    </div>
+                </div>
+
+
+                <span class="tollfree-seperator-md">|</span>
+
+                <span class="tollfree">
+                    <span id="lastmile-icon">
+                        <a href='https://pidatacenters.com/the-last-mile-gallery/' style='color:#011c54 !important;'>
+                            <img style="width: 22px; height: 22px;"
+                                src="https://pidatacenters.com/wp-content/uploads/2017/12/india-fill.svg" alt="&nbsp;">
+                        </a>
+                    </span>
+
+                </span>
+
+                <span class="tollfree-seperator-md">|</span>
+
+                <span class="tollfree">
+                    <span id="storyboard-icon">
+                        <a href="https://pidatacenters.com/static/documents/pidatacenters/pdf/the-story-board.pdf?240018"
+                            target="_blank">
+                            <img style="width: 22px; height: 22px;"
+                                src="https://pidatacenters.com/wp-content/uploads/2017/12/file-download.svg"
+                                alt="&nbsp;">
+                        </a>
+                    </span>
+
+                    <!-- <span class="storyboard" id="">
+                                
+                            </span> -->
+                </span>
+                <span class="tollfree-seperator-md">|</span>
+                <span class="tollfree">
+                    <img>
+                </span>
+
+                <span class="tollfreeText" style='color:#011c54 !important;'><img src="css/img/call.png"
+                        alt="Call"></span>&nbsp;
+            </div>
+
+
+
+
+            <div class="container clearfix">
+                <div class="logo trans skrollable rendered " data-0="width:180px;" data-50="width:180px;">
+                    <a href="https://pidatacenters.com/">
+                        <img src="/wp-content/uploads/2017/12/Pi-Logo-180x80.png?v4" alt="logo">
+                        <!-- <img src="css/img/mainlogo.png" alt="logo"> -->
+
+                    </a>
+                </div>
+                <div class="pc-only gpw_cert_cont">
+                    <img src="https://pidatacenters.com/wp-content/uploads/2018/10/GPTW-badge.png" style="width:50px">
+                </div>
+                <div class="header-rht trans skrollable rendered " data-0="margin-top:50px" data-50="margin-top:50px"
+                    style="margin-top: 36px;">
+
+
+                    <nav>
+                        <ul>
+                            <li id="nav-menu-item-14"
+                                class="main-menu-item  menu-item-even menu-item-depth-0 single-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                <a href="https://pidatacenters.com/about-us/" class="menu-link main-menu-link">ABOUT
+                                    US</a><span class="sub-menu-icon"></span>
+                                <ul class="sub-menu menu-odd  menu-depth-1 upnav upnav-1" style="display: none;">
+                                    <li id="nav-menu-item-2853"
+                                        class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="https://pidatacenters.com/certifications/"
+                                            class="menu-link sub-menu-link">Certifications</a></li>
+                                    <li id="nav-menu-item-2899"
+                                        class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="https://pidatacenters.com/awards-and-recognition/"
+                                            class="menu-link sub-menu-link">Awards and Recognition</a></li>
+                                    <li id="nav-menu-item-172"
+                                        class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="https://pidatacenters.com/about-us/pi-data-centers-leadership/"
+                                            class="menu-link sub-menu-link">Leadership</a></li>
+                                    <li id="nav-menu-item-843"
+                                        class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom">
+                                        <a href="https://pidatacenters.com/news/"
+                                            class="menu-link sub-menu-link">News</a></li>
+                                </ul>
+                            </li>
+                            <li id="nav-menu-item-3340"
+                                class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                                <a href="#" class="menu-link main-menu-link">SERVICES</a><span
+                                    class="sub-menu-icon"></span>
+                               
+						
+						
+						
+						<ul class="sub-menu menu-odd css-customised menu-depth-1 upnav" style="display: none;">
+                                    <div class="dropdown">
+                                       
+												<a class="dropbtn" href="https://pidatacenters.com/colocation" style="color:#011c54;padding: 4px 16px 1px 2px;">Colocation <i class="fa fa-caret-right" aria-hidden="true" style="PADDING-LEFT: 110PX;"></i></a>
+                                        <div class="dropdown-content">
+                                            <a href="https://pidatacenters.com/colocation/#services" style="color:#011c54;" class="">Services</a>
+                                            <a href="https://pidatacenters.com/colocation/#strategic-partnership" style="color:#011c54;" class="">Strategic Partnership</a>
+                                            <a href="https://pidatacenters.com/colocation/#benefits" style="color:#011c54;" class="">Benefits</a>
+                                            <a href="https://pidatacenters.com/colocation/#data-center-infrastructure" style="color:#011c54;" class="">Data Center Infrastructure</a>
+                                            <a href="https://pidatacenters.com/colocation/#features" style="color:#011c54;" class="">Features</a>
+                                            <a href="https://pidatacenters.com/colocation/#design-considerations" style="color:#011c54;" class="">Design Consideration</a>
+                                            <a href="https://pidatacenters.com/colocation/#our-infrastructure-partners" style="color:#011c54;" class="">Our Infrastructure Partners</a>
+                                        </div>
+                                    </div>
+                                    <a href="https://harbour1.pidatacenters.com/" style="color: #011c54;padding: 12px 4px 13px 1px !important;" target="_blank" class="">
+                                        <div class="dropdown1">
+                                            <button class="dropbtn1">Cloud</button>
+                                        </div>
+                                    </a>
+                                    <div class="dropdown2">
+                                        <a class="dropbtn2" href="https://pidatacenters.com/managed-services/" style="color: #011c54;">Managed Services <i class="fa fa-caret-right" style="PADDING-LEFT: 56PX;" aria-hidden="true"></i></a>
+                                        <div class="dropdown-content2">
+                                            <a href="https://pidatacenters.com/managed-services/#noc-as-a-service" style="color:#011c54;" class="">NOC as a Service</a>
+                                            <a href="https://pidatacenters.com/managed-services/#dr-as-a-service" style="color:#011c54;" class="">DR as a Service</a>
+                                            <a href="https://pidatacenters.com/managed-services/#backup-as-a-service" style="color:#011c54;" class="">Backup as a Service</a>
+                                            <a href="https://pidatacenters.com/managed-services/#storage-as-a-service" style="color:#011c54;" class="">Storage as a Service</a>
+                                        </div>
+                                    </div>
+                            
+                        </ul>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+                        </li>
+
+                        <li id="nav-menu-item-2120"
+                            class="main-menu-item  menu-item-even menu-item-depth-0 single-menu pricing-menu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                            <a class="menu-link main-menu-link" href="#">PRODUCTS</a><span class="sub-menu-icon"></span>
+                            <ul class="sub-menu menu-odd  menu-depth-1 upnav upnav-1">
+                                <li id="nav-menu-item-2121"
+                                    class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom">
+                                    <a href="https://harbour1.pidatacenters.com/" target="_blank"
+                                        class="menu-link sub-menu-link">Harbour1<sup>®</sup></a></li>
+                            </ul>
+                        </li>
+                        <li id="nav-menu-item-2120"
+                            class="main-menu-item  menu-item-even menu-item-depth-0 single-menu pricing-menu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                            <a class="menu-link main-menu-link" href="#">PRICING</a><span class="sub-menu-icon"></span>
+                            <ul class="sub-menu menu-odd  menu-depth-1 upnav upnav-1">
+                                <!-- <li id="nav-menu-item-2121"
+                                    class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom">
+                                    <a href="https://pidatacenters.com/pricing/cloudServers"
+                                        class="menu-link sub-menu-link">Cloud Servers</a></li>
+                                <li id="nav-menu-item-2122"
+                                    class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom">
+                                    <a href="https://pidatacenters.com/pricing/virtualDedicatedServers"
+                                        class="menu-link sub-menu-link">Virtual Dedicated Servers</a></li>
+                                <li id="nav-menu-item-2124"
+                                    class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom">
+                                    <a href="https://pidatacenters.com/pricing/cloudStorage"
+                                        class="menu-link sub-menu-link">Cloud Storage</a></li>
+                                <li id="nav-menu-item-2125"
+                                    class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom">
+                                    <a href="https://pidatacenters.com/pricing/serverCoLocation"
+                                        class="menu-link sub-menu-link">Server Colocation</a></li>
+                                <li id="nav-menu-item-2126"
+                                    class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom">
+                                    <a href="https://pidatacenters.com/pricing/rackCoLocation"
+                                        class="menu-link sub-menu-link">Rack Colocation</a></li> -->
+
+                                <li id="nav-menu-item-2121"
+                                    class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom">
+                                    <a href="https://pricing.pidatacenters.com/pidata/p/pricing_cloud_servers.php"
+                                        class="menu-link sub-menu-link">Cloud Servers</a></li>
+                                <li id="nav-menu-item-2122"
+                                    class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom">
+                                    <a href="https://pricing.pidatacenters.com/pidata/p/pricing_virtual_servers.php"
+                                        class="menu-link sub-menu-link">Virtual Dedicated Servers</a></li>
+                                <li id="nav-menu-item-2124"
+                                    class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom">
+                                    <a href="https://pricing.pidatacenters.com/pidata/p/pricing_cloud_storage.php"
+                                        class="menu-link sub-menu-link">Cloud Storage</a></li>
+                                <li id="nav-menu-item-2125"
+                                    class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom">
+                                    <a href="https://pricing.pidatacenters.com/pidata/p/pricing_server_colocation.php"
+                                        class="menu-link sub-menu-link">Server Colocation</a></li>
+                                <li id="nav-menu-item-2126"
+                                    class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom">
+                                    <a href="https://pricing.pidatacenters.com/pidata/p/pricing_rack_colocation.php"
+                                        class="menu-link sub-menu-link">Rack Colocation</a></li>
+
+
+                            </ul>
+                        </li>
+
+                        <li id="nav-menu-item-2822"
+                            class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page">
+                            <a href="https://pidatacenters.com/partners/" class="menu-link main-menu-link">PARTNERS</a>
+                        </li>
+                        <li id="nav-menu-item-2120"
+                            class="main-menu-item  menu-item-even menu-item-depth-0 single-menu pricing-menu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                            <a class="menu-link main-menu-link"
+                                href="https://pidatacenters.com/about-us/careers/">CAREERS</a><span
+                                class="sub-menu-icon"></span>
+                        </li>
+                        </ul>
+
+                        <ul class="mobile-only_dd">
+                            <li id="nav-menu-item-14"
+                                class="main-menu-item  menu-item-even menu-item-depth-0 single-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                <a href="https://pidatacenters.com/about-us/" class="menu-link main-menu-link">ABOUT
+                                    US</a><span class="sub-menu-icon"></span>
+                                <ul class="sub-menu menu-odd  menu-depth-1">
+                                    <li id="nav-menu-item-2853"
+                                        class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="https://pidatacenters.com/certifications/"
+                                            class="menu-link sub-menu-link">Certifications</a></li>
+                                    <li id="nav-menu-item-2899"
+                                        class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="https://pidatacenters.com/awards-and-recognition/"
+                                            class="menu-link sub-menu-link">Awards and Recognition</a></li>
+                                    <li id="nav-menu-item-172"
+                                        class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="https://pidatacenters.com/about-us/pi-data-centers-leadership/"
+                                            class="menu-link sub-menu-link">Leadership</a></li>
+                                    <li id="nav-menu-item-843"
+                                        class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom">
+                                        <a href="https://pidatacenters.com/news/"
+                                            class="menu-link sub-menu-link">News</a></li>
+                                </ul>
+                            </li>
+                            <li id="nav-menu-item-3340"
+                                class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                                <a href="#" class="menu-link main-menu-link">SERVICES</a><span
+                                    class="sub-menu-icon"></span>
+                                <ul class="sub-menu menu-odd  menu-depth-1">
+                                    <li id="nav-menu-item-2827"
+                                        class="sub-menu-item  menu-item-odd menu-item-depth-1 single-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                        <a href="https://pidatacenters.com/colocation/"
+                                            class="menu-link sub-menu-link">COLOCATION</a><span
+                                            class="sub-menu-icon"></span>
+                                        <ul class="sub-menu menu-even sub-sub-menu menu-depth-2">
+                                            <li id="nav-menu-item-2845"
+                                                class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom">
+                                                <a href="https://pidatacenters.com/colocation/#services"
+                                                    class="menu-link sub-menu-link">Services</a></li>
+                                            <li id="nav-menu-item-2846"
+                                                class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom">
+                                                <a href="https://pidatacenters.com/colocation/#strategic-partnership"
+                                                    class="menu-link sub-menu-link">Strategic Partnership</a></li>
+                                            <li id="nav-menu-item-2847"
+                                                class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom">
+                                                <a href="https://pidatacenters.com/colocation/#benefits"
+                                                    class="menu-link sub-menu-link">Benefits</a></li>
+                                            <li id="nav-menu-item-2848"
+                                                class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom">
+                                                <a href="https://pidatacenters.com/colocation/#data-center-infrastructure"
+                                                    class="menu-link sub-menu-link">Data Center Infrastructure</a></li>
+                                            <li id="nav-menu-item-2849"
+                                                class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom">
+                                                <a href="https://pidatacenters.com/colocation/#features"
+                                                    class="menu-link sub-menu-link">Features</a></li>
+                                            <li id="nav-menu-item-2850"
+                                                class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom">
+                                                <a href="https://pidatacenters.com/colocation/#design-considerations"
+                                                    class="menu-link sub-menu-link">Design Considerations</a></li>
+                                            <li id="nav-menu-item-2851"
+                                                class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom">
+                                                <a href="https://pidatacenters.com/colocation/#our-infrastructure-partners"
+                                                    class="menu-link sub-menu-link">Our Infrastructure Partners</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="nav-menu-item-2440"
+                                        class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom">
+                                        <a target="_blank" href="https://harbour1.pidatacenters.com/"
+                                            class="menu-link sub-menu-link">CLOUD</a></li>
+                                    <li id="nav-menu-item-2864"
+                                        class="sub-menu-item  menu-item-odd menu-item-depth-1 single-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                        <a href="https://pidatacenters.com/managed-services/"
+                                            class="menu-link sub-menu-link">MANAGED SERVICES</a><span
+                                            class="sub-menu-icon"></span>
+                                        <ul class="sub-menu menu-even sub-sub-menu menu-depth-2">
+                                            <li id="nav-menu-item-2924"
+                                                class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom">
+                                                <a href="https://pidatacenters.com/managed-services/#noc-as-a-service"
+                                                    class="menu-link sub-menu-link">NOC as a Service</a></li>
+                                            <li id="nav-menu-item-2925"
+                                                class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom">
+                                                <a href="https://pidatacenters.com/managed-services/#dr-as-a-service"
+                                                    class="menu-link sub-menu-link">DR as a Service</a></li>
+                                            <li id="nav-menu-item-2926"
+                                                class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom">
+                                                <a href="https://pidatacenters.com/managed-services/#backup-as-a-service"
+                                                    class="menu-link sub-menu-link">Backup as a Service</a></li>
+                                            <li id="nav-menu-item-2927"
+                                                class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom">
+                                                <a href="https://pidatacenters.com/managed-services/#storage-as-a-service"
+                                                    class="menu-link sub-menu-link">Storage as a Service</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="nav-menu-item-3343"
+                                class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                                <a href="#" class="menu-link main-menu-link">PRODUCTS</a><span
+                                    class="sub-menu-icon"></span>
+                                <ul class="sub-menu menu-odd  menu-depth-1">
+                                    <li id="nav-menu-item-3342"
+                                        class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom">
+                                        <a title="Harbour1®" href="https://harbour1.pidatacenters.com/"
+                                            class="menu-link sub-menu-link">Harbour1®</a></li>
+                                </ul>
+                            </li>
+                            <li id="nav-menu-item-2120"
+                                class="main-menu-item  menu-item-even menu-item-depth-0 single-menu pricing-menu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                                <a href="#" class="menu-link main-menu-link">PRICING</a><span
+                                    class="sub-menu-icon"></span>
+                                <ul class="sub-menu menu-odd  menu-depth-1">
+                                    <!-- <li id="nav-menu-item-2121" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom"><a href="https://pricing.pidatacenters.com/pidata/p/pricing_cloud_servers.php" class="menu-link sub-menu-link">Cloud Servers</a></li>
+	<li id="nav-menu-item-2122" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom"><a href="https://pricing.pidatacenters.com/pidata/p/pricing_virtual_servers.php" class="menu-link sub-menu-link">Virtual Dedicated Servers</a></li>
+	<li id="nav-menu-item-2124" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom"><a href="https://pricing.pidatacenters.com/pidata/p/pricing_cloud_storage.php" class="menu-link sub-menu-link">Cloud Storage</a></li>
+	<li id="nav-menu-item-2125" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom"><a href="https://pricing.pidatacenters.com/pidata/p/pricing_server_colocation.php" class="menu-link sub-menu-link">Server Colocation</a></li>
+    <li id="nav-menu-item-2126" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom"><a href="https://pricing.pidatacenters.com/pidata/p/pricing_rack_colocation.php" class="menu-link sub-menu-link">Rack Colocation</a></li> -->
+
+                                    <li id="nav-menu-item-2121"
+                                        class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom">
+                                        <a href="https://pricing.pidatacenters.com/pidata/p/pricing_cloud_servers.php"
+                                            class="menu-link sub-menu-link">Cloud Servers</a></li>
+                                    <li id="nav-menu-item-2122"
+                                        class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom">
+                                        <a href="https://pricing.pidatacenters.com/pidata/p/pricing_virtual_servers.php"
+                                            class="menu-link sub-menu-link">Virtual Dedicated Servers</a></li>
+                                    <li id="nav-menu-item-2124"
+                                        class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom">
+                                        <a href="https://pricing.pidatacenters.com/pidata/p/pricing_cloud_storage.php"
+                                            class="menu-link sub-menu-link">Cloud Storage</a></li>
+                                    <li id="nav-menu-item-2125"
+                                        class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom">
+                                        <a href="https://pricing.pidatacenters.com/pidata/p/pricing_server_colocation.php"
+                                            class="menu-link sub-menu-link">Server Colocation</a></li>
+                                    <li id="nav-menu-item-2126"
+                                        class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom">
+                                        <a href="https://pricing.pidatacenters.com/pidata/p/pricing_rack_colocation.php"
+                                            class="menu-link sub-menu-link">Rack Colocation</a></li>
+                                </ul>
+                            </li>
+                            <li id="nav-menu-item-2822"
+                                class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page">
+                                <a href="https://pidatacenters.com/partners/"
+                                    class="menu-link main-menu-link">PARTNERS</a></li>
+                            <li id="nav-menu-item-3341"
+                                class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page">
+                                <a href="https://pidatacenters.com/about-us/careers/"
+                                    class="menu-link main-menu-link">CAREERS</a></li>
+                        </ul>
+
+                        <a href="#" id="pull" class="nav-icon" title="pull icon"></a>
+
+                    </nav>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </header>
+
+    <!-- website body content -->
+    <section id="bodycontent">
+        <div class="viewclass">
+            <!-- <ui-view></ui-view> ng-controller="cartController" -->
+            <ng-view></ng-view>
+        </div>
+    </section>
+
+
+
+
+
+
+    <footer>
+        <section class="home-sec-5">
+            <div class="container clearfix">
+                <h2>Learn how our product will benefit your business</h2>
+                <a class="learnMore" href="https://pricing.pidatacenters.com/pidata/contact.php">Get in Touch</a>
+            </div>
+        </section>
+        <div class="container">
+            <div class="footer-bottom">
+                <div class="lft">
+                    <p>©2019 Pi DATACENTERS Pvt. Ltd. All Rights Reserved</p>
+                    <div class="social-icons">
+                        <a target="_blank"
+                            href="https://www.linkedin.com/company/6437312?trk=tyah&amp;trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A6437312%2Cidx%3A1-1-1%2CtarId%3A1440322319243%2Ctas%3Api%20data"
+                            class="in"></a>
+                        <a target="_blank" href=" https://twitter.com/Pi_DATACENTERS" class="twr"></a>
+                        <a target="_blank" href="https://web.facebook.com/pidatacenters" class="fb"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type='text/javascript' src='https://pricing.pidatacenters.com/pidata/p/js/main.js'></script>
+    <script type='text/javascript' src='https://pricing.pidatacenters.com/pidata/p/js/SmoothScroll-1.2.1.js?ver=4.4.2'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous">
+    </script>
+    <script type='text/javascript' src='scripts/plugins/bootstrap.js'></script>
+    <script src="https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.3.2.js"></script>
+    <script type='text/javascript' src='scripts/plugins/d3.v3.js'></script>
+    <script type='text/javascript' src='scripts/plugins/roundslider.js'></script>
+    <script type='text/javascript' src='scripts/plugins/iopctrl.js'></script>
+    <script type='text/javascript' src='scripts/controllers/dialScript.js'></script>
+    <script type='text/javascript' src='scripts/controllers/mainctrl.js'></script>
+    <script type='text/javascript' src='scripts/plugins/owl.carousel.js'></script>
+    <!-- <script type="text/javascript" src="https://pricing.pidatacenters.com/pidata/p/js/owl.carousel.js,qver==4.4.2+SmoothScroll-1.2.1.js,qver==4.4.2.pagespeed.jc.iWV2l-AUDf.js"></script> -->
+
+    <!-- <script type='text/javascript' src='https://pricing.pidatacenters.com/pidata/p/js/skrollr.js?ver=4.4.2'></script> -->
+
+
+
+    <script>
+        landscape = window.orientation ? window.orientation == 'landscape' : true;
+
+        if (landscape && window.innerWidth < 3000 && window.innerWidth > 1000) {
+            $(document).ready(function () {
+                // skrollr.init({
+                //     forceHeight: true
+                // });
+            });
+        }
+
+        // smoothScroll.init({
+        //     selector: '[data-scroll]',
+        //     selectorHeader: null,
+        //     speed: 1000,
+        //     easing: 'easeInOutCubic',
+        //     offset: 50,
+        //     callback: function (anchor, toggle) {}
+        // });
+
+        $(
+            "#nav-menu-item-1789 a,#nav-menu-item-1791 a,#nav-menu-item-1790 a,#nav-menu-item-1798 a,#nav-menu-item-1800 a"
+        ).click(
+            function (e) {
+                e.preventDefault()
+                var url = $(this).attr("href");
+                var id = url.substring(url.indexOf('#'));
+                var HeadHeight = $('.header').outerHeight();
+                $('html, body').animate({
+                    scrollTop: $(id).offset().top - HeadHeight
+                }, 2000);
+            });
+
+        function checkVal() {
+            if (document.getElementById('s').value == "") {
+                return false;
+            }
+        }
+
+        $(document).scroll(function () {
+            t = $(this).scrollTop();
+            if (t > 29) {
+                $('nav>ul>li > ul.sub-menu').addClass("upnav");
+                $('.single-menu .sub-menu').addClass("upnav-1");
+            } else {
+                $('nav>ul>li > ul.sub-menu').removeClass("upnav");
+                $('.single-menu .sub-menu').removeClass("upnav-1");
+            }
+        });
+    </script>
+
+    <script>
+        //   $(window).load(function() {
+        //         $('#owl-demo').owlCarousel({
+        //             loop: true,
+        //             margin: 0,
+        //             nav: true,
+        //             dots: false,
+        //             dotsEach: false,
+        //             smartSpeed: 1000,
+        //             responsiveClass: true,
+        //             autoHeight: true,
+        //             autoplay: true,
+        //             autoplayHoverPause: true,
+        //             responsive: {
+        //                 0: {
+        //                     items: 1
+        //                                 //nav:false
+        //                             },
+        //                             500: {
+        //                                 items: 1
+        //                                 //nav:false
+        //                             },
+        //                             700: {
+        //                                 items: 1
+        //                                 //nav:false
+        //                             },
+        //                             900: {
+        //                                 items: 1
+        //                                 //nav:false
+        //                             },
+        //                         }
+        //                     });
+        //         });
+
+        //   landscape = window.orientation ? window.orientation == 'landscape' : true;
+
+        //   if (landscape && window.innerWidth < 3000 && window.innerWidth > 1000) {$(document).ready(function(){skrollr.init({forceHeight: true});});}
+    </script>
+
+    <style>
+        #owl-demo .owl-item div {
+            padding: 5px;
+        }
+
+        #owl-demo .owl-item img {
+            display: block;
+            width: 100%;
+            height: auto;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+        }
+
+        @media only screen and (max-width: 1920px) {
+            .mobile-only_dd {
+                display: none;
+            }
+
+
+        }
+    </style>
+
+
+</body>
+
+</html>

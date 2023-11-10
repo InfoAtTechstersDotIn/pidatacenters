@@ -1,0 +1,92 @@
+<div class="wrapper">
+
+    <div class="pricing-main-block">
+        <h3 class="subplan">{{subplan}}</h3>
+        <div class="col-md-12 nosidepadding cldstr">
+            <div class="form-group col-md-6">
+                <label class="col-md-6" for="cores">Cores</label>
+                <select class="form-control col-md-6" ng-options=" cores.name for (value,cores) in coresDropdownlist" ng-model="ser[seriesname].selectCores"
+                    ng-change="changeCores(ser[seriesname])">
+                </select>
+            </div>
+            <div class="form-group col-md-6">
+                <label class="col-md-6" for="ram">Ram</label>
+                <select class="form-control col-md-6" ng-options="rams.name for (value,rams) in ramDrapdownlist" ng-model="ser[seriesname].selectRam"
+                    ng-change="changeRam(ser[seriesname])">
+                </select>
+            </div>
+            <div class="form-group col-md-6">
+                <label class="col-md-6" for="ds">Disk Space</label>
+                <select class="form-control col-md-6" ng-options="ds.name for (value,ds) in diskspaceDrapdownlist" ng-model="ser[seriesname].selectDiskspace"
+                    ng-change="changDiskspace(ser[seriesname])">
+                </select>
+            </div>
+            <div class="form-group col-md-6">
+                <label class="col-md-6" for="os">Choose OS</label>
+                <select class="form-control col-md-6" ng-options="os.name for (value,os) in osDrapdown" ng-model="ser[seriesname].selectOs"
+                    ng-change="changeOs(ser[seriesname])">
+                </select>
+            </div>
+            <div class="form-group col-md-6">
+                <label class="col-md-6" for="ip">IP</label>
+                <select class="form-control col-md-6" ng-options="Ip.ip for (price,Ip) in databaseIpValues" ng-model="ser[seriesname].selectIp"
+                    ng-change="changeIp(ser[seriesname])">
+                </select>
+            </div>
+            <div class="form-group col-md-6">
+                <label class="col-md-6" for="Rack Space">Rack Space</label>
+                <select class="form-control col-md-6" ng-options="rack_space.name for (price,rack_space) in databaseRackspace" ng-model="ser[seriesname].selectRackspace"
+                    ng-change="changeRackspace(ser[seriesname])">
+                </select>
+            </div>
+            <div class="col-md-3 hidden-xs">&nbsp;</div>
+            <div class="form-group col-md-6 edstn">
+                <label class="col-md-6" for="ram">Tenure</label>
+                <select class="form-control col-md-6" ng-options="tenure.name for (value,tenure) in databseTenures" ng-model="ser[seriesname].selectTenures"
+                    ng-change="changeTenure(ser[seriesname], indexOf(tenure))">
+                </select>
+            </div>
+        </div>
+        <div class="col-md-12 dial-box">
+           
+
+            <!-- <div class="col-md-6">{{monthlycost}}</div> -->
+            <div class="col-md-12 dial-box">
+                <div id="meter-block">
+                    <div id="{{seriesname}}"></div>
+                    <div class="dstvalues">
+                        <p>50</p>
+                        <p>200</p>
+                        <p>400</p>
+                        <p>600</p>
+                        <p>800</p>
+                        <p>1TB</p>
+                        <P>3TB</P>
+                        <p>10TB</p>
+                    </div>
+                    <img class="small-image dt" src="css/img/images/datatransfer.png" alt="data transfer">
+                    <h4 class="each-price">&#8377;{{datatransferPrice | number:0}}</h4>
+                    <h3 class="meter-title">Data Transfer</h3>
+                    <div id="{{seriesname}}ds" class="speedometer">
+                        <div class='selected'>
+                            <p class='digit'>
+                                <span></span>
+                                <sup></sup>
+                            </p>
+                        </div>
+                        <div class='middle'></div>
+                        <div class='middle bord'></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group col-md-12">
+            <h3>Total Monthly Cost:
+                <span>&#8377; {{monthlycost}}</span>
+            </h3>
+        </div>
+        <div class="col-md-12 eds-btns">
+            <button class="btn btn-primary" ng-click="submitfn(ser[seriesname])">ADD TO CART</button>
+        </div>
+
+    </div>

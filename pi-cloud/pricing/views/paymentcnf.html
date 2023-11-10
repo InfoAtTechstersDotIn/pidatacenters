@@ -1,0 +1,377 @@
+<div class="wrapper">
+
+    <div class="videoBg">
+        <video src="css/img/video.mp4" loop autoplay muted></video>
+        <div class="layer"></div>
+    </div>
+
+    <div class="purchased checkout">
+        <div class="thanks-header">
+            <img class="pull-left" src="css/img/right.png" alt="success">
+            <div class="pull-left">
+                <h3>Thank you {{purchasedDetails.address.first_name}} {{purchasedDetails.address.last_name}}</h3>
+                <p>Your order (Order ID: #{{purchasedDetails.order_id}}) has been placed successfully.</p>
+            </div>
+            <img ng-click="clearUserDetails()" class="pull-right" title="Logout" src="css/img/logout-icon.png"
+                alt="success">
+        </div>
+        <div class="col-md-12 order-details">
+            <div class="pull-left">
+                <h3>Your Order ID : #{{purchasedDetails.order_id}}</h3>
+                <p>Placed on {{purchasedDetails.created_at}}</p>
+                <p>Check your inbox
+                    <strong>{{purchasedDetails.user.email}}</strong>
+                </p>
+            </div>
+            <div class="pull-right">
+                <ul class="print-download pull-right">
+                    <li>
+                        <!-- <a href="https://pricing.pidatacenters.com/priceimport/webservices/public/invoice/{{purchasedDetails.order_id}}" target="_blank"> -->
+                        <a href="https://pricing.pidatacenters.com/priceimport/verify/invoice/invoices.php?x={{purchasedDetails.order_id}}"
+                            target="_blank">
+                            <span class="glyphicon glyphicon-download-alt"></span>Download</a>
+                    </li>
+
+                    <!-- <li>
+                            <a href="https://pricing.pidatacenters.com/priceimport/webservices/public/print/{{purchasedDetails.order_id}}" target="_blank">
+                                <span class="glyphicon glyphicon-print"></span>Print</a>
+                        </li> -->
+                </ul>
+
+                <div class="clearfix"></div>
+
+                <a href="https://pidatacenters.com/CustomerPortal/">
+                    <h3>
+                        <span class="glyphicon glyphicon-log-in"></span> My account</h3>
+                </a>
+
+            </div>
+        </div>
+        <div class="nosidepadding col-md-12">
+            <!-- {{storagename}} -->
+            <table>
+                <thead>
+                    <tr>
+                        <th class="col-md-3">PRODUCT DETAILS</th>
+                        <th ng-hide="purchasedDetails.total_infra_discount > 0" class="col-md-5">TENURE</th>
+                        <th class="col-md-2">PRICE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="item in items">
+                        <td>
+                            <h3>{{item.plan}}</h3>
+                            <h4>{{item.subplan}} <span
+                                    ng-show="purchasedDetails.total_infra_discount > 0 && item.cpu == '1 Cores'">(Small)</span>
+                                <span
+                                    ng-show="purchasedDetails.total_infra_discount > 0 && item.cpu == '2 Cores'">(Medium)</span>
+                                <span
+                                    ng-show="purchasedDetails.total_infra_discount > 0 && item.cpu == '6 Cores'">(Large)</span>
+                            </h4>
+
+                            <p ng-show="item.cpu.length>0">CPU:
+                                <span>{{item.cpu}}</span>
+                            </p>
+                            <p ng-show="item.ram.length>0">RAM:
+                                <span>{{item.ram}}</span>
+                            </p>
+                            <p ng-show="item.diskspace.length>0">Disk Space:
+                                <span>{{item.diskspace}}</span>
+                            </p>
+                            <p ng-show="item.drive.length>0">Drive:
+                                <span>{{item.drive}}</span>
+                            </p>
+                            <p ng-show="item.datatransfer.length>0">Data Transfer:
+                                <span>{{item.datatransfer}}</span>
+                            </p>
+                            <p ng-show="item.ip.length>0">IP:
+                                <span>{{item.ip}}</span>
+                            </p>
+                            <p ng-show="item.os.length>0">OS:
+                                <span>{{item.os}}</span>
+                            </p>
+                            <p ng-show="item.database.length>0">Database:
+                                <span>{{item.database}}</span>
+                            </p>
+                            <p ng-show="item.antivirus.length>0">Antivirus:
+                                <span>{{item.antivirus}}</span>
+                            </p>
+                            <div ng-hide="purchasedDetails.total_infra_discount > 0">
+                                <p ng-show="item.backup.length>0">Backup Storage:
+                                    <span>{{item.backup}}</span>
+                                </p>
+                                <p>
+                                    <!-- 
+                                    <label ng-if="item.backup !='0 GB' && item.backup.length>0"
+                                        style="font-size: 12px;color: red;">
+
+                                        The price displayed does not include backup license.
+                                        Please write to us at sales@pidatacenters.com
+                                        for purchasing additional backup licenses.
+
+                                    </label> -->
+                                    <label ng-if="item.backup !='0 GB' && item.backup.length>0"
+                                        style="font-size: 12px;color: red;">
+                                        <p ng-if="item.backup_licence !='Choose...'">Backup Licence Type:
+                                         <span>{{item.backup_licence}}</span>
+                                        </p>
+
+                                    </label>
+                                </p>
+                            </div>
+
+                            <p>Dedicated Bandwidth:
+                                <span>{{item.bandwidth}}</span>
+                            </p>
+                            <p>IP:
+                                <span>{{item.ip}}</span>
+                            </p>
+                            <p ng-show="item.vpn.length>0">VPN:
+                                <span>{{item.vpn}}</span>
+                            </p>
+                            <p ng-show="item.vpnqty.length>0">VPN Quantity:
+                                <span>{{item.vpnqty}}</span>
+                            </p>
+
+                            <p ng-show="item.antivirus.length>0">AntiVirus:
+                                <span ng-show="item.antiVirusPrice.length>0">{{item.antiVirusPrice | number:0}}/-</span>
+                                <span style="
+                                      min-width: 150px;
+                                      ">{{item.antivirus}}</span>
+                             </p>
+              
+                             <p ng-show="item.backUpLicensePrice > 0">
+                                Backup License:
+                                <span ng-show="item.backUpLicensePrice.length>0">&#8377;{{item.backUpLicensePrice |
+                                   number:0}}/-</span>
+                                <span>&nbsp;</span>
+                                <!-- <span>{{item.backUpLicense}}</span> -->
+                             </p>
+              
+                             <p ng-show="item.MRCLicensePrice >0">MS RDP CAL License:
+                                <span ng-show="item.MRCLicensePrice.length>0">{{item.MRCLicensePrice | number:0}}/-</span>
+                                <span>{{item.MRCLicense}}</span>
+                             </p>
+              
+                             <p ng-show="item.DRReplicationToolPrice>0">DR Replication Tool:
+                                <span ng-show="item.DRReplicationToolPrice.length>0">{{item.DRReplicationToolPrice | number:0}}/-</span>
+                                <span>{{item.DRReplicationTool}}</span>
+                             </p>
+              
+                             <p ng-show="item.SSLCertificatePrice>0">SSL Certificate:
+                                <span ng-show="item.SSLCertificatePrice.length>0">{{item.SSLCertificatePrice | number:0}}/-</span>
+                                <span>{{item.SSLCertificate}}</span>
+                             </p>
+              
+                             <p ng-show="item.WebpanelPrice>0">Web Panel:
+                                <span ng-show="item.WebpanelPrice.length>0">{{item.WebpanelPrice | number:0}}/-</span>
+                                <span>{{item.Webpanel}}</span>
+                             </p>
+              
+                             <p ng-show="item.dedicatedFirewallPrice>0">Dedicated Firewall:
+                                <span ng-show="item.dedicatedFirewallPrice.length>0">{{item.dedicatedFirewallPrice | number:0}}/-</span>
+                                <span>{{item.dedicatedFirewall}}</span>
+                             </p>
+              
+                             <p ng-show="item.TwoFactorAuthenticationPrice>0">2FA:
+                                <span ng-show="item.TwoFactorAuthenticationPrice.length>0">{{item.TwoFactorAuthenticationPrice |
+                                   number:0}}/-</span>
+                                <span>{{item.TwoFactorAuthentication}}</span>
+                             </p>
+              
+                             <p ng-show="item.ElasticLoadBalancerPrice>0">ELB:
+                                <span ng-show="item.ElasticLoadBalancerPrice.length>0">{{item.ElasticLoadBalancerPrice | number:0}}/-</span>
+                                <span>{{item.ElasticLoadBalancer}}</span>
+                             </p>
+              
+              
+                             <label ng-if="item.backup !='0 GB'" style="font-size: 12px;color: red;text-align: center;">
+                                {{item.additionaBackUpMessage}}
+                             </label>
+                             <!-- <p class="mcost">Monthly cost:
+                                <span>{{item.monthlycost | number:0}}/- </span>
+                                </p> -->
+                             <p>Monthly Recurring cost(MRC):
+                                <span>&#8377;{{item.monthlycost | number:0}}/- </span>
+                             </p>
+              
+                             <p ng-show="item.MigrationToolOtcPrice>0">OTC (Migration Tool):
+                                <span ng-show="item.MigrationToolOtcPrice.length>0">{{item.MigrationToolOtcPrice | number:0}}/-</span>
+                                <span>{{item.MigrationTool}}</span>
+                             </p>
+
+                            <p>
+                                Quantity:
+                                <span>{{item.quantity}}</span>
+
+                            </p>
+
+                        </td>
+                        <td ng-hide="purchasedDetails.total_infra_discount > 0">
+                            <h3>&nbsp;</h3>
+                            <p>{{item.tenure_text}}</p>
+                            <p>
+                                <strong>{{item.tenure_note}}</strong>
+                            </p>
+                        </td>
+                        <td>
+                            <h3>&nbsp;</h3>
+                            &#8377;{{item.amount | number:0}} <span
+                                ng-show="item.tenure_text == '1 Month (Monthly Advance)'">Per Month</span>
+                            <span ng-show="item.tenure_text == '1 year (Quarterly Advance)'">Per Quarter</span>
+                            <span ng-show="item.tenure_text == '1 year (50% Advance)'">Per Six Monthsr</span>
+                            <span ng-show="item.tenure_text == '1 year (100% Advance)'">Per Year</span>
+                            <span ng-show="item.tenure_text == '2 years (100% Advance)'">Per Two Years</span>
+                            <span ng-show="item.tenure_text == '3 years (100% Advance)'">Per Three Years</span>
+                            <span ng-show="item.tenure_text == '2 year (100% Advance)'">Per Two Years</span>
+                            <span ng-show="item.tenure_text == '3 year (100% Advance)'">Per Three Years</span>
+                        </td>
+
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="col-md-12 nosidepadding">
+                <div class="col-md-6 text-left pull-left " ng-show="purchasedDetails.total_infra_discount > 0">
+                    <span style="float: left !important; margin-top: 70px;text-align: justify;">
+
+                        <font color="red"> * </font>For purchases beyond this offer, please visit our
+                        <a href="https://pidatacenters.com/pricing/" target="_balnk">pricing Page</a>.
+                        <br>
+                        <b style="margin: 10px;">Alternately :</b>
+                        <ul style="margin-left: 50px;">
+                            <li style="list-style: disc;padding: initial;">You may get in touch with us at +91-
+                                8464863931</li>
+                            <li style="list-style: disc;padding: initial;">Write to us at sales@pidatacenters.com</li>
+                        </ul>
+                    </span>
+                </div>
+                <div class="col-md-6 final-prices nosidepadding text-right pull-right ">
+
+                    <p>Sub Total :
+                        <span>&#8377;{{base_total}}/-</span>
+                    </p>
+
+                    <p ng-show="purchasedDetails.total_infra_discount > 0">Total 3 Months Cost :
+                        <span>&#8377;{{base_total*3}}/-</span>
+                    </p>
+
+                    <p ng-show="purchasedDetails.promocode_discount.lenght > 0">Discount :
+                        <span>&#8377;{{purchasedDetails.promocode_discount | number:0}}/-</span>
+                    </p>
+                    <table ng-show="purchasedDetails.total_infra_discount > 0">
+                        <p>Discount :
+                            <span>&#8377;{{purchasedDetails.total_infra_discount | number:0}}/-</span>
+                        </p>
+                        <p>After Discount Offer Sub Total :
+                            <span>&#8377;{{purchasedDetails.base_total | number:0}}/-</span>
+                        </p>
+                    </table>
+                    <p ng-hide="purchasedDetails.total_infra_discount > 0">OTC :
+                        <span>&#8377;{{purchasedDetails.otc_total | number:0}}/-</span>
+                    </p>
+                    <p style=" font-size: 16px;color: #20641b;font-weight: 700;background: none;">GST(18%) :
+                        <span>&#8377;{{purchasedDetails.tax_amount | number:0}}/-</span>
+                    </p>
+
+                </div>
+                <div class="col-md-12 final-prices nosidepadding">
+                    <p style="text-align: right">You Paid :
+                        <span>&#8377;{{purchasedDetails.amount | number:0}}/-</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="billing-address col-md-12">
+            <h3>Customer Information</h3>
+            <p>
+                {{purchasedDetails.address.first_name}} {{purchasedDetails.address.last_name}} <br>
+                {{purchasedDetails.address.email}} <br>
+                {{purchasedDetails.address.mobile}} <br>
+                {{purchasedDetails.address.company}} <br>
+                {{purchasedDetails.address.address_line1}} <br>
+                {{purchasedDetails.address.address_line2}} <br>
+
+
+            </p>
+        </div>
+
+    </div>
+
+
+    <!-- ************************************************************************************************************************************** -->
+
+    <div class="quotes row-001" ng-hide="true">
+        <div class="container">
+            <h1 class="txt-2">Industry Speaks</h1>
+            <div class="tsml carousel-nav ">
+                <div class="carousel-tsml" id="owl-demo">
+                    <div class="item trans">
+                        <!-- <div class="pic"><img src="<?php echo $baseurl;?>/wp-content/uploads/2015/08/tsml-1.jpg" alt="image" /></div> -->
+                        <h4>Sridhar Gadhi
+                            <span>Founder & CEO, Paradigm IT Group</span>
+                        </h4>
+                        <p>“Pi built by the best brains in the industry is best poised to usher in the next generation
+                            evolution
+                            in the Digital space for both Andhra Pradesh & India to unlock value for citizens &
+                            enterprises
+                            alike”
+                        </p>
+                    </div>
+                    <div class="item trans">
+                        <!-- <div class="pic"><img src="<?php echo $baseurl;?>/wp-content/uploads/2015/08/sudheer.jpg" alt="image" /></div> -->
+                        <h4>Sudheer Kuppam
+                            <span>Managing Partner - Epsilon Venture Partners
+                                <br> ( Previously MD, Intel Capital APAC )</span>
+                        </h4>
+                        <p>“Pi is bringing world class state-of-the-art datacenter and cloud hosting capabilities to
+                            India,
+                            at a critical time, when there is a much needed impetus to build the country's digital
+                            infrastructure.
+                            The young and aspirational India led data demand as well as the digitization initiatives
+                            driven
+                            by the state and central governments provide a fantastic opportunity for entrepreneurs &
+                            businesses
+                            in the Indian cloud ecosystem. Pi is proud to be supporting a new digital India through its
+                            low
+                            latency solutions as well as fast & elastic applications enabling interconnection of both
+                            businesses
+                            and governments to their customers and citizens respectively.”</p>
+                    </div>
+                    <div class="item trans">
+                        <!-- <div class="pic"><img src="<?php echo $baseurl;?>/wp-content/uploads/2015/08/narendra-gogula.jpg" alt="image" /></div> -->
+                        <h4>Narendra Gogula
+                            <span>Managing Director, Accenture</span>
+                        </h4>
+                        <p>“Pi DATACENTERS will be the enabler of Digital India. With the explosive growth of
+                            mobile/cloud data
+                            and continuous evolution of Internet of Things in India, there is an urgent need for data
+                            centers
+                            leveraging cutting edge technology. With a vision of excellence in customer service and deep
+                            technology expertise, Pi DATACENTERS has the right leadership team to realize the exciting
+                            phase
+                            of Digital transformation in India.”</p>
+                    </div>
+                    <div class="item trans">
+                        <!-- <div class="pic"><img src="<?php echo $baseurl;?>/wp-content/uploads/2015/08/Satyanarayana-1.jpg" alt="image" /></div> -->
+                        <h4>Shri. J Satyanarayana, IAS (Retd)
+                            <span>Chairperson, UIDAI</span>
+                        </h4>
+                        <p>“Pi is going to be a pioneer in infrastructure project and a critical contributor to the new
+                            state
+                            Andhra Pradesh and Digital India . It would play a crucial role in the growth of industry
+                            and
+                            share a key stage in development of e-Governance and e- Pragati.”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</div>

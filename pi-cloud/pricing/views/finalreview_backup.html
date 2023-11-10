@@ -1,0 +1,81 @@
+<div>
+    <div ng-show="showauth" class="auth-popup">
+        <authontication></authontication>
+    </div>
+    <div ng-hide="showcheckout" class="checkout col-md-12">
+        {{storagename}}
+        <table>
+            <thead>
+                <tr>
+                    <th>PRODUCT DETAILS</th>
+                    <th>QUANTITY</th>
+                    <th>TENURE</th>
+                    <th>PRICE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="item in itemList">
+                    <td>
+                        <h3>{{item.plan}}</h3>
+                        <h3>{{item.subplan}}</h3>
+
+                                             
+
+                    </td>
+                    <td>
+                            <p>
+                                {{item.quantity}} Units
+                                    <!-- <input type="text" ng-model="item.quantity" disabled class="qty"> -->
+                                    
+                                </p>
+                    </td>
+                    <td>
+                        <p>{{item.name}}</p>
+                        <p>{{item.notes}}</p>
+                    </td>
+                    <td>
+                        {{item.plan_price}}
+                        <span class="pull-right remove" ng-click="removeProduct($index, $event, items)">
+                            <i class="glyphicon glyphicon-remove"></i>
+                        </span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            <!-- <font color="red">*</font>OTC - One time setup charges</p> -->
+        <p>
+            <!-- <font color="red">*</font>Software licenses cost is inclusive of applicable VAT</p> -->
+        <!-- <p>
+            <input type="checkbox" name="terms" id="terms-conditions-checkbox"> I have read and agree to the following
+            <a target="_blank" href="https://pidatacenters.com/terms-conditions/" rel="nofollow">Terms and conditions</a>
+        </p> -->
+
+        <div class="col-md-12 text-right">
+           <p> Enter Promocode:
+            <input type="text" name="promocode" ng-model="promocode" placeholder="PROMO CODE">
+            <button class="btn" ng-click="finalcart(items)">Apply</button>
+
+        </p>
+        <p>Total : {{api_total}}</p>
+        <p ng-show="discnt">Discount: {{api_discount_total}}</p>
+        <p>OTC : {{api_otc_total}}</p>
+        <p>GST : {{api_total_tax}}</p>
+        <p>Grand Total : {{api_grand_total}}</p>
+            <!-- <p>Total : {{totalplanprice}}</p>
+            <p ng-show="api_discount_total.length>0">Discount: {{api_discount_total}}</p>
+            <p>OTC : {{otc_total}}</p>
+            <p>GST : {{total_tax}}</p>
+            <p>Grand Total : {{grand_total}}</p> -->
+        </div>
+        <div class="pull-right">
+            <!-- <button>Cancel</button> -->
+            <!-- <button>Save</button> -->
+            <button class="btn btn-primary" ng-click="finalcart(items)">Continue</button>
+        </div>
+    </div>
+    <form method="post" action="https://pricing.pidatacenters.com/priceimport/webservices/public/_payment" id="myform">
+        <input type="text" ng-model="p_id" ng-value="{{p_id}}" name="p_id">
+        <button type="Submit">Submit</button>
+    </form>
+</div>

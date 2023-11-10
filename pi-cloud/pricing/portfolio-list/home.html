@@ -1,0 +1,294 @@
+<html>
+
+<head>
+    <title>Data Table</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
+
+</head>
+
+<body>
+    <table id="datalist" class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>S.NO</th>
+                <th>Customer</th>
+                <th>MRC</th>
+                <th>Billing Cycle</th>
+                <th>Industry</th>
+                <th>Product/services of the customer</th>
+
+                <th>Corporate Office</th>
+                <th>Services by Pi</th>
+                <th>Applications Hosted</th>
+                <th># of VMs</th>
+                <th>H1+</th>
+                <th>Vmware</th>
+                <th>Go Live Date</th>
+                <th>Hosted Environment</th>
+                <th>vCPU</th>
+                <th>Memory</th>
+                <th>StorageSAS/SATA</th>
+                <th>Storage SSD </th>
+                <th>OS</th>
+                <th>DB</th>
+                <th>Backup opted(Yes/No)</th>
+                <th>Backup Type</th>
+                <th>Backup Frequency</th>
+                <th>Backup retention period </th>
+                <th>Backup status</th>
+                <th>Back-up Storage (GB) </th>
+                <th>DR</th>
+                <th>HA</th>
+                <th>Bandwidth</th>
+                <th>Customer contact details</th>
+                <th>Last CSAT Suvery Score</th>
+                <th>Comments on Interest in other products of Pi</th>
+                <th>Action Items post weekly review</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th colspan="2" style="text-align:right">Total:</th>
+                <th></th>
+            </tr>
+        </tfoot>
+
+        </tfoot>
+    </table>
+
+    <div id="employeeModal" class="modal fade">
+        <div class="modal-dialog">
+            <form method="post" id="employeeForm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                        <h4 class="modal-title"><i class="fa fa-plus"></i> Edit User</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group" <label for="name" class="control-label">Name</label>
+                            <input type="text" class="form-control" id="empName" name="empName" placeholder="Name"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="age" class="control-label">Age</label>
+                            <input type="number" class="form-control" id="empAge" name="empAge" placeholder="Age">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname" class="control-label">Skills</label>
+                            <input type="text" class="form-control" id="empSkills" name="empSkills" placeholder="Skills"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="address" class="control-label">Address</label>
+                            <textarea class="form-control" rows="5" id="address" name="address"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname" class="control-label">Designation</label>
+                            <input type="text" class="form-control" id="designation" name="designation"
+                                placeholder="Designation">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="hidden" name="empId" id="empId" />
+                        <input type="hidden" name="action" id="action" value="" />
+                        <input type="submit" name="save" id="save" class="btn btn-info" value="Save" />
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+<script>
+
+    $(document).ready(function () {
+        $.ajax({
+            url: "https://pidatacenters.com/account-managment/calls/controllers/getacconuntdetails.php?user_id=1",
+            method: "GET",
+            dataType: "JSON",
+            success: function (data) {
+                console.log(typeof (data));
+                console.log(data.records);
+                $('#datalist').DataTable({
+                    async: false,
+                    data: data.data,
+                    columns: [{
+                            title: "S.No"
+                        },
+                        {
+                            title: "Customer"
+                        },
+                        {
+                            title: "MRC"
+                        },
+                        {
+                            title: "Billing Cycle"
+                        },
+                        {
+                            title: "Industry"
+                        },
+                        {
+                            title: "Product/services  of the customer"
+                        },
+                        {
+                            title: "Corporate Office"
+                        },
+                        {
+                            title: "Services by Pi"
+                        },
+                        {
+                            title: "Applications Hosted"
+                        },
+                        {
+                            title: "# of VMs"
+                        },
+                        {
+                            title: "H1+"
+                        },
+                        {
+                            title: "Vmware"
+                        },
+                        {
+                            title: "Go Live Date"
+                        },
+                        {
+                            title: "Hosted  Environment"
+                        },
+                        {
+                            title: "vCPU"
+                        },
+                        {
+                            title: "Memory"
+                        },
+                        {
+                            title: "Storage SAS/SATA"
+                        },
+                        {
+                            title: "Storage SSD"
+                        },
+                        {
+                            title: "OS"
+                        },
+                        {
+                            title: "DB"
+                        },
+                        {
+                            title: "Backup opted(Yes/No)"
+                        },
+                        {
+                            title: "Backup Type"
+                        },
+                        {
+                            title: "Backup Frequency"
+                        },
+                        {
+                            title: "Backup retention period"
+                        },
+                        {
+                            title: "Backup status"
+                        },
+                        {
+                            title: "Back-up Storage  (GB)"
+                        },
+                        {
+                            title: "DR"
+                        },
+                        {
+                            title: "HA"
+                        },
+                        {
+                            title: "Bandwidth"
+                        },
+                        {
+                            title: "Customer contact details"
+                        },
+                        {
+                            title: "Last CSAT Suvery Score"
+                        },
+                        {
+                            title: "Comments on Interest in other products of Pi"
+                        },
+                        {
+                            title: "Action Items post weekly review"
+                        },
+                        {
+                            title: ""
+                        },
+                        {
+                            title: ""
+                        },
+                    ],
+                    "footerCallback": function (row, data, start, end, display) {
+                        var api = this.api(),
+                            data;
+
+                        // Remove the formatting to get integer data for summation
+                        var intVal = function (i) {
+                            return typeof i === 'string' ?
+                                i.replace(/[\$,]/g, '') * 1 :
+                                typeof i === 'number' ?
+                                i : 0;
+                        };
+
+                        // Total over all pages
+                        total = api
+                            .column(2)
+                            .data()
+                            .reduce(function (a, b) {
+                                return intVal(a) + intVal(b);
+                            }, 0);
+                        // Total over this page
+                        pageTotal = api
+                            .column(2, {
+                                page: 'current'
+                            })
+                            .data()
+                            .reduce(function (a, b) {
+                                return intVal(a) + intVal(b);
+                            }, 0);
+
+                        // Update footer
+                        $(api.column(2).footer()).html(
+                            'Page Total' + pageTotal.toLocaleString('en-IN', {
+                                maximumFractionDigits: 2,
+                                style: 'currency',
+                                currency: 'INR'
+                            }) + ' ( Total ' + total.toLocaleString('en-IN', {
+                                maximumFractionDigits: 2,
+                                style: 'currency',
+                                currency: 'INR'
+                            }) + ' total)'
+                        );
+                    },
+                    "columnDefs": [{
+                        "targets": [0, 33, 34],
+                        "orderable": false,
+                    }, ],
+                });
+            },
+            error: function (error) // 24 25
+            {
+                console.log("Error in Fetching Data:");
+                console.log(error.responseText);
+            }
+        });
+    });
+</script>
+
+
+
+</html>

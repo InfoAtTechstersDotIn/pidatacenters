@@ -1,0 +1,525 @@
+<div class="wrapper">
+
+
+    <!-- <h3 class="block-title">MSME {{subplan}}{{storagename}}</h3> -->
+    <div class="pricing-main-block">
+        <div class="col-md-3 dial-box">
+            <div id="meter-block">
+                <div id="cpucores"></div>
+                <div class="cpuvalues">
+                    <!-- <p>0</p>
+                    <p>2</p>
+                    <p>4</p>
+                    <p>6</p>
+                    <p>8</p>
+                    <p>12</p>
+                    <p>16</p> -->
+                    <p>0</p>
+                    <p>2</p>
+                    <p>4</p>
+                    <p>6</p>
+                    <p>8</p>
+                    <p>10</p>
+                    <p>12</p>
+                    <p>14</p>
+                    <p>16</p>
+                    <p>18</p>
+                    <p>20</p>
+                    <p>22</p>
+                    <p>24</p>
+                    <p>26</p>
+                    <p>28</p>
+                    <p>30</p>
+                    <p>32</p>
+                    <p>48</p>
+                    <p>64</p>
+
+                </div>
+                <img class="small-image" src="css/img/images/cpu.png" alt="cpu">
+                <h4 class="each-price">&#8377;{{cpuPrice | number:0}}</h4>
+                <h3 class="meter-title">CPU Cores</h3>
+                <div id="speedometer" class="speedometer">
+                    <div class='selected'>
+                        <p class='digit'><span></span><sup></sup></p>
+                    </div>
+                    <div class='middle'></div>
+                    <div class='middle bord'></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 dial-box">
+            <div id="meter-block">
+                <div id="ram" class="slider"></div>
+                <div class="ramvalues">
+                    <!-- <p>0</p>
+                    <p>4</p>
+                    <p>8</p>
+                    <p>16</p>
+                    <p>24</p>
+                    <p>32</p> -->
+
+                    <p>0</p>
+                    <p>2</p>
+                    <p>4</p>
+                    <p>6</p>
+                    <p>8</p>
+                    <p>12</p>
+                    <p>16</p>
+                    <p>20</p>
+                    <p>24</p>
+                    <p>28</p>
+                    <p>32</p>
+                    <p>40</p>
+                    <p>48</p>
+                    <p>64</p>
+
+                </div>
+                <img class="small-image ram" style="width: 40px;height: 40px;" src="css/img/images/ram.png" alt="ram">
+                <h4 class="each-price">&#8377;{{ramPrice | number:0}}</h4>
+                <h3 class="meter-title">RAM</h3>
+                <div id="speedometer2" class="speedometer">
+                    <div class='selected'>
+                        <p class='digit'><span></span><sup></sup></p>
+                    </div>
+                    <div class='middle'></div>
+                    <div class='middle bord'></div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="col-md-3 dial-box">
+            <div id="meter-block">
+                <div id="diskspace" class="slider"></div>
+                <div class="dstvalues">
+                    <p>50</p>
+                    <p>200</p>
+                    <p>400</p>
+                    <p>600</p>
+                    <p>800</p>
+                    <p>1TB</p>
+                    <P>3TB</P>
+                    <p>10TB</p>
+                </div>
+                <img class="small-image space" src="css/img/images/space.png" alt="disk space">
+                <h4 class="each-price">&#8377;{{diskSpacePrice | number:0}}</h4>
+                <h3 class="meter-title">Disk Space</h3>
+                <div id="speedometer3" class="speedometer">
+                    <div class='selected'>
+                        <p class='digit'><span></span><sup></sup></p>
+                    </div>
+                    <div class='middle'></div>
+                    <div class='middle bord'></div>
+                </div>
+            </div>
+        </div> -->
+
+
+
+        <div class="col-md-3 dial-box">
+
+            <div id="meter-block">
+                <div id="ddsdds" ng-hide="selectDrive.name == 'SSD'"></div>
+		<div id="diskspace" class="slider"></div>
+
+                <div class="diskSpacevalues" ng-hide="selectDrive.name == 'SSD'">
+                    <!-- <p>500</p>
+                        <p>1TB</p>
+                        <P>2TB</P>
+                        <p>3TB</p>
+                        <p>4TB</p>
+                        <p>5TB</p> -->
+                    <p>0</p>
+                    <p>50</p>
+                    <p>100</p>
+                    <p>200</p>
+                    <p>300</p>
+                    <p>400</p>
+                    <p>600</p>
+                    <p>800</p>
+                    <p>1TB</p>
+                    <p>2TB</p>
+                    <P>3TB</P>
+                    <P>4TB</P>
+                    <p>5TB</p>
+                </div>
+
+
+                <div id="ddsSsd" ng-show="selectDrive.name == 'SSD'"></div>
+                <div class="diskSpacevalues" ng-show="selectDrive.name == 'SSD'">
+                    <p>0</p>
+                    <p>50</p>
+                    <p>100</p>
+                    <p>200</p>
+                    <p>300</p>
+                    <p>400</p>
+                    <p>600</p>
+                    <p>800</p>
+                    <p>1TB</p>
+                    <p>2TB</p>
+                    <P>3TB</P>
+                    <P>4TB</P>
+                    <p>5TB</p>
+                </div>
+                <img class="small-image space" src="css/img/images/space.png" alt="disk space">
+                <h4 class="each-price">&#8377;{{diskspacePrice | number:0}}</h4>
+                <h3 class="meter-title">Disk Space</h3>
+                <div id="speedometer3" class="speedometer">
+                    <div class='selected'>
+                        <p class='digit'>
+                            <span></span>
+                            <sup></sup>
+                        </p>
+                    </div>
+                    <div class='middle'></div>
+                    <div class='middle bord'></div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="col-md-3 dial-box">
+            <div id="meter-block">
+                <div id="datatransfer" class="slider"></div>
+                <div class="dstvalues">
+                    <p>0</p>
+                    <p>50</p>
+                    <p>200</p>
+                    <p>400</p>
+                    <p>600</p>
+                    <p>800</p>
+                    <p>1TB</p>
+                    <P>3TB</P>
+                    <P>5TB</P>
+                    <P>7TB</P>
+                    <p>10TB</p>
+                </div>
+                <img class="small-image dt" src="css/img/images/datatransfer.png" alt="data transfer">
+                <h4 class="each-price">&#8377;{{dataTransferPrice | number:0}}</h4>
+                <h3 class="meter-title">Data Transfer</h3>
+                <div id="speedometer4" class="speedometer">
+                    <div class='selected'>
+                        <p class='digit'><span></span><sup></sup></p>
+                    </div>
+                    <div class='middle'></div>
+                    <div class='middle bord'></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-12 pricingdropdowns">
+
+
+
+            <div class="form-group col-md-4 p-2">
+                <label for="choose os">Operating System</label>
+                <select class="form-control" ng-options="osname.os for (price,osname) in databaseOsValues"
+                    ng-model="selectOs" ng-change="changeOs(selectOs)">
+                <!-- <option value="">Choose...</option> -->
+                </select>
+            </div>
+
+            <div class="form-group col-md-4 p-2">
+                <label for="drive" style="text-align: right;">Storage Type</label>
+                <select class="form-control" ng-options="drive.name for (value,drive) in drivesList"
+                    ng-model="selectDrive" ng-change="changeDrive(selectDrive)">
+                </select>
+            </div>
+
+            <div class="form-group col-md-4 p-2">
+                <label for="database" style="text-align: right;">Database</label>
+
+                <select class="form-control" ng-options="db.database for (price,db) in databaseDatabaseValues"
+                    ng-model="selectDb" ng-change="changedb(selectDb)">
+                    <!-- <option value="">Choose...</option> -->
+                </select>
+                <div class="corelicence" ng-show="corelicence" ng-class="{'lol':corelicence, 'pop':corelicence}">2 core
+                    licence added</div>
+            </div>
+
+
+            <!-- <div class="form-group col-md-2 clsip">
+                    <label class="col-md-6" for="IP">IP</label>
+                    <select class="form-control col-md-4" ng-options="Ip.ip for (price,Ip) in databaseIpValues" ng-model="selectIp" ng-change="changeIp(selectIp)">
+                    </select>
+                </div>
+                <div class="form-group col-md-2">
+                    <label class="col-md-6" for="Backup">Backup</label>
+                    <select class="form-control col-md-6" ng-options="backup.backup for (price,backup) in databaseBackupValues" ng-model="selectBackUp" ng-change="changeBackUp(selectBackUp)">
+                    </select>
+                </div> -->
+
+            <div class="form-group col-md-4 p-2 clsip">
+                <label for="IP">Public IP</label>
+                <select class="form-control" ng-options="Ip.ip for (price,Ip) in databaseIpValues" ng-model="selectIp"
+                    ng-change="changeIp(selectIp)">
+                </select>
+            </div>
+
+            <div class="form-group col-md-4 p-2 ">
+                <label for="DedicatedBd">Dedicated Bandwidth</label>
+                <select class="form-control"
+                    ng-options="dedicatedBd.bandwidth for (price,dedicatedBd) in dedicatedBandwidthValues"
+                    ng-model="selectDedicatedBw" ng-change="changeDedicatedBw(selectDedicatedBw)">
+                </select>
+            </div>
+
+            <div class="form-group col-md-4 p-2">
+                <label for="Backup">Backup Storage</label>
+                <select class="form-control" ng-options="backup.backup for (price,backup) in databaseBackupValues"
+                    ng-model="selectBackUp" ng-change="changeBackUp(selectBackUp)">
+                </select>
+            </div>
+
+            <div class="col-md-12">
+                <div class="form-group col-md-4 p-2">
+
+                    <div ng-show="selectBackUp.GB>0">
+                        <label for="Licence">Backup Licence</label>
+                        <!-- <span>{{storagename}}</span> -->
+                        <select class="form-control" ng-options="licence.name for (value,licence) in backUpLicenseList"
+                            ng-model="selectBackUpLicence" ng-change="changeBackUpLicence(selectBackUpLicence)">
+                        </select>
+                    </div>
+
+                </div>
+                <div class="form-group col-md-4"></div>
+                <div class="form-group col-md-4">
+                </div>
+            </div>
+
+
+
+            <div class="form-group col-md-4 p-2">
+                <label for="antivirus_name">AntiVirus</label>
+                <select class="form-control"
+                    ng-options="antivirus_name.antivirus_name for (price,antivirus_name) in antivirusValues"
+                    ng-model="selectAntiVirus" ng-change="changeAntiVirus(selectAntiVirus)">
+                </select>
+            </div>
+
+            <div class="form-group col-md-4 p-2">
+                <!-- <label class="col-md-4" for="tenure">Tenure</label>
+                <select class="form-control col-md-8" ng-options="tenure.name for (price,tenure) in databsetenures"
+                    ng-model="selectTenure" ng-init="selectTenure=databsetenures[1]"
+                    ng-change="changeTenure(selectTenure)">
+                </select> -->
+
+                <label class="col-md-5" for="tenure">Tenure</label>
+                <select class="form-control" ng-options="tenure.name for (value,tenure) in databsetenures"
+                    ng-model="selectTenure" ng-change="changeTenure(selectTenure)">
+                </select>
+
+            </div>
+
+            <div class="form-group col-md-4 p-2 clsip">
+                <label for="TFA">Two Factor Authentication</label>
+                <select class="form-control"
+                    ng-options="TFA.two_factor_auth for (price,TFA) in TwoFactorAuthenticationValues"
+                    ng-model="selectTwoFactorAuthentication" ng-change="changeTFA(selectTwoFactorAuthentication)">
+                </select>
+            </div>
+
+            <div class="form-group col-md-4 p-2 clsip">
+                <label for="ELB">Elastic Load Balancer per Server</label>
+                <select class="form-control"
+                    ng-options="ELB.elastic_load_balencer for (price,ELB) in ElastiCLoadBalencerValues"
+                    ng-model="selectElasticLoadBalancer" ng-change="changeELB(selectElasticLoadBalancer)">
+                </select>
+            </div>
+
+            <div class="form-group col-md-4 p-2 clsip">
+                <label for="MGT">OTC (Migration Tool)</label>
+                <select class="form-control" ng-options="MGT.migration_tool for (price_otc,MGT) in MigrationToolValues"
+                    ng-model="selectMigrationTool" ng-change="changeMGT(selectMigrationTool)">
+                </select>
+            </div>
+
+
+            <div class="form-group col-md-4 p-2 clsip">
+                <label for="DRRT">DR Replication Tool</label>
+                <select class="form-control"
+                    ng-options="DRRT.dr_replication_tool for (price,DRRT) in DrreplicationValues"
+                    ng-model="selectDrreplicationTool" ng-change="changeDRRT(selectDrreplicationTool)">
+                </select>
+            </div>
+
+
+            <div class="form-group col-md-4 p-2">
+                <label for="mrclicence">MS RDP CAL License</label>
+                <select class="form-control" ng-options="mrclicence.ms_rdp_license for (value,mrclicence) in MRCLList"
+                    ng-model="selectMRCLicence" ng-change="changeMRCLicence(selectMRCLicence)">
+                </select>
+            </div>
+
+
+
+
+
+            <!-- <div class="form-group col-md-4 p-2">
+                <label for="ssl">SSL Certificate</label>
+                <select class="form-control" ng-options="ssl.ssl_certificate for (value,ssl) in SSLCertificateValues"
+                    ng-model="selectSSLCertificate" ng-change="changeSSLCertificate(selectSSLCertificate)">
+                </select>
+            </div> -->
+
+
+
+
+            <div class="form-group col-md-4 p-2">
+                <label for="webpanel">Web Panel</label>
+                <select class="form-control" ng-options="webpanel.web_panel for (value,webpanel) in WebpannelValues"
+                    ng-model="selectWebpanel" ng-change="changeWebpanel(selectWebpanel)">
+                </select>
+            </div>
+
+            
+            <div class="form-group col-md-4 p-2" >
+                <label for="dfirewall">Dedicated Firewall</label>
+                <select class="form-control"
+                    ng-options="dfirewall.dedicated_firewall for (value,dfirewall) in DedicatedFirewallValues"
+                    ng-model="selectDedicatedFirewall" ng-change="changeDedicatedFirewall(selectDedicatedFirewall)">
+                </select>
+            </div>
+
+            <div class="col-md-12">
+
+                <div class="form-group col-md-4 mrcqty">
+                    <div ng-show="selectMRCLicence.ms_rdp_license != 'Select' ">
+                        <p class="qty-block">
+                            <label for="mrc" style="">Quantity:</label>
+                            <span ng-click="increaseMrcQty()" ng-init="1" class="qtyhandler btn">
+                                <i class="glyphicon glyphicon-plus"></i>
+                            </span>
+                            <input type="text" ng-model="mrcqty" disabled class="qty">
+                            <span ng-click="decreaseMrcQty()" ng-init="1" class="qtyhandler btn">
+                                <i class="glyphicon glyphicon-minus"></i>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <!-- <div class="form-group col-md-4 mrcqty">
+
+
+
+                    <div ng-show="selectSSLCertificate.ssl_certificate != 'Select' ">
+                        <p class="qty-block">
+                            <label for="ssl" style="">Quantity:</label>
+                            <span ng-click="increaseSSLQty()" ng-init="1" class="qtyhandler btn">
+                                <i class="glyphicon glyphicon-plus"></i>
+                            </span>
+                            <input type="text" ng-model="sslqty" disabled class="qty">
+                            <span ng-click="decreaseSSLQty()" ng-init="1" class="qtyhandler btn">
+                                <i class="glyphicon glyphicon-minus"></i>
+                            </span>
+                        </p>
+                    </div>
+                </div> -->
+                <div class="form-group col-md-4 webpanelqty">
+
+                    <div ng-show="selectWebpanel.web_panel != 'Select' ">
+                        <p class="qty-block">
+                            <label for="webpanel" style="">Quantity:</label>
+                            <span ng-click="increaseWebPanelQty()" ng-init="1" class="qtyhandler btn">
+                                <i class="glyphicon glyphicon-plus"></i>
+                            </span>
+                            <input type="text" ng-model="webpanelqty" disabled class="qty">
+                            <span ng-click="decreaseWebPanelQty()" ng-init="1" class="qtyhandler btn">
+                                <i class="glyphicon glyphicon-minus"></i>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+
+            <div class="form-group col-md-4 p-2" style="margin-right: -15px;">
+                <label for="vpn">VPN</label>
+                <select class="form-control" ng-options="vpn.vpn for (price,vpn) in vpns" ng-model="selectVpn"
+                    ng-change="changeVpn(selectTenure)">
+                </select>
+            </div>
+
+            <div class="col-md-12">
+ 
+                <div class="form-group col-md-4 dfirewallqty">
+
+                    <!-- <div ng-if="selectDedicatedFirewall.dedicated_firewall != 'Select' ">
+                        <p class="qty-block">
+                            <label for="dfirewall" style="">Quantity:</label>
+                            <span ng-click="increaseDFirewallQty()" ng-init="1" class="qtyhandler btn">
+                                <i class="glyphicon glyphicon-plus"></i>
+                            </span>
+                            <input type="text" ng-model="dfirewallqty" disabled class="qty">
+                            <span ng-click="decreaseDFirewallQty()" ng-init="1" class="qtyhandler btn">
+                                <i class="glyphicon glyphicon-minus"></i>
+                            </span>
+                        </p>
+                    </div> -->
+
+                </div> 
+
+
+
+                <div class="form-group col-md-4 vpnqty">
+
+                    <div>
+                        <p style="margin-top: -1px;" ng-if="selectVpn.price > 0">
+                            <label for="vpn" style="">Quantity:</label>
+                            <span ng-click="increaseVpnQty()" ng-init="1" class="qtyhandler btn">
+                                <i class="glyphicon glyphicon-plus"></i>
+                            </span>
+                            <input type="text" ng-model="vpnqty" disabled class="qty">
+                            <span ng-click="decreaseVpnQty()" ng-init="1" class="qtyhandler btn">
+                                <i class="glyphicon glyphicon-minus"></i>
+                            </span>
+                        </p>
+                    </div>
+
+                </div>
+
+
+
+                <div class="col-md-4">
+
+
+                    <div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="form-group">
+                <label style="color: #ff3b00;">{{additionaBackUpMessage}}</label>
+            </div>
+
+            <div class="form-group col-md-8 monthlycost">
+                <!-- <h3>Total Monthly Cost: {{displayMonthyCost | currency : "&#8377;" : 2}}</h3> -->
+                <label class="col-sm-12 col-xs-12 text-right nosidepadding">Total Monthly Recurring Cost: <span>&#8377;
+                        {{displayMonthyCost | number:0}}</span></label>
+
+                        <label class="col-sm-12 col-xs-12 text-right nosidepadding">One Time Cost (OTC): <span>&#8377;
+                            {{selectMigrationTool.price_otc | number:0}}</span></label>
+            </div>
+            <div class="form-group col-md-3 float-right" style="transform: translateY(90%);">
+                <button class="btn btn-primary" ng-click="addtocart()">ADD TO CART</button>
+                <button ng-show="sideCart" class="btn btn-primary" style="margin-top: 13px;"
+                    ng-click="closecart()">CLOSE CART</button>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <cart-directive></cart-directive>
+
+</div>

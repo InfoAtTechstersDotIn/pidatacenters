@@ -1,0 +1,215 @@
+<div class="wrapper">
+
+    <div class="videoBg">
+        <video src="css/img/video.mp4" loop autoplay muted></video>
+        <div class="layer"></div>
+    </div>
+
+    <div class="purchased checkout">
+        <div class="thanks-header">
+            <img class="pull-left" src="css/img/right.png" alt="success">
+            <div class="pull-left">
+                <h3>Thank you {{purchasedDetails.address.first_name}} {{purchasedDetails.address.last_name}}</h3>
+                <p>Your order (Order ID: #{{purchasedDetails.order_id}}) has been placed successfully.</p>
+            </div>
+        </div>
+        <div class="col-md-12 order-details">
+            <div class="pull-left">
+                <h3>Your Order ID : #{{purchasedDetails.order_id}}</h3>
+                <p>Placed on {{purchasedDetails.created_at}}</p>
+                <p>Check your inbox
+                    <strong>{{purchasedDetails.user.email}}</strong>
+                </p>
+            </div>
+            <div class="pull-right">
+                    <ul class="print-download pull-right">
+                        <li>
+                            <!-- <a href="https://pricing.pidatacenters.com/priceimport/webservices/public/invoice/{{purchasedDetails.order_id}}" target="_blank"> -->
+                                <a href="https://pricing.pidatacenters.com/priceimport/verify/invoice/invoices.php?x={{purchasedDetails.order_id}}" target="_blank">
+                                <span class="glyphicon glyphicon-download-alt"></span>Download</a> 
+                        </li>
+
+                        <!-- <li>
+                            <a href="https://pricing.pidatacenters.com/priceimport/webservices/public/print/{{purchasedDetails.order_id}}" target="_blank">
+                                <span class="glyphicon glyphicon-print"></span>Print</a>
+                        </li> --> 
+                    </ul>
+
+                    <div class="clearfix"></div>
+
+                    <a href="https://pidatacenters.com/CustomerPortal/">
+                        <h3>
+                            <span class="glyphicon glyphicon-log-in"></span> My account</h3>
+                    </a>
+
+            </div>
+        </div>
+        <div class="nosidepadding col-md-12">
+            <!-- {{storagename}} -->
+            <table>
+                <thead>
+                    <tr>
+                        <th class="col-md-3">PRODUCT DETAILS</th>
+                        <th class="col-md-5">TENURE</th>
+                        <th class="col-md-2">PRICE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="item in items">
+                        <td>
+                            <h3>{{item.plan}}</h3>
+                            <h4>{{item.subplan}}</h4>
+
+                            <p ng-show="item.cpu.length>0">CPU:
+                                <span>{{item.cpu}}</span>
+                            </p>
+                            <p ng-show="item.ram.length>0">RAM:
+                                <span>{{item.ram}}</span>
+                            </p>
+                            <p ng-show="item.diskspace.length>0">Disk Space:
+                                <span>{{item.diskspace}}</span>
+                            </p>
+                            <p ng-show="item.drive.length>0">Drive:
+                                <span>{{item.drive}}</span>
+                            </p>
+                            <p ng-show="item.datatransfer.length>0">Data Transfer:
+                                <span>{{item.datatransfer}}</span>
+                            </p>
+                            <p ng-show="item.ip.length>0">IP:
+                                <span>{{item.ip}}</span>
+                            </p>
+                            <p ng-show="item.os.length>0">OS:
+                                <span>{{item.os}}</span>
+                            </p>
+                            <p ng-show="item.database.length>0">Database:
+                                <span>{{item.database}}</span>
+                            </p>
+                            <p ng-show="item.backup.length>0">Backup Storage:
+                                <span>{{item.backup}}</span>
+                            </p>
+                            <p ng-show="item.vpn.length>0">VPN:
+                                <span>{{item.vpn}}</span>
+                            </p>
+                            <p ng-show="item.vpnqty.length>0">VPN Quantity:
+                                <span>{{item.vpnqty}}</span> 
+                            </p>
+                            <p>
+                                Quantity:
+                                <span>{{item.quantity}}</span>
+
+                            </p>
+
+                        </td>
+                        <td>
+                            <h3>&nbsp;</h3>
+                            <p>{{item.tenure_text}}</p>
+                            <p>
+                                <strong>{{item.tenure_note}}</strong>
+                            </p>
+                        </td>
+                        <td>
+                            <h3>&nbsp;</h3>
+                            &#8377;{{item.amount | number:0}}
+                        </td>
+
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="col-md-12 final-prices nosidepadding">
+                <div class="col-md-12 nosidepadding text-right pull-right ">
+                    <p ng-show="purchasedDetails.promocode_discount.lenght > 0">Discount :
+                        <span>&#8377;{{purchasedDetails.promocode_discount | number:0}}/-</span>
+                    </p>
+                    <p>OTC :
+                        <span>&#8377;{{purchasedDetails.otc_total | number:0}}/-</span>
+                    </p>
+                    <p>GST(18%) :
+                        <span>&#8377;{{purchasedDetails.tax_amount | number:0}}/-</span>
+                    </p>
+                    <p>You Paid :
+                        <span>&#8377;{{purchasedDetails.amount | number:0}}/-</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="billing-address col-md-12">
+            <h3>Customer Information</h3>
+            <p>
+                {{purchasedDetails.address.first_name}} {{purchasedDetails.address.last_name}} <br>                    
+                {{purchasedDetails.address.email}} <br>
+                {{purchasedDetails.address.mobile}} <br>
+                {{purchasedDetails.address.company}} <br>                
+                {{purchasedDetails.address.address_line1}} <br>
+                {{purchasedDetails.address.address_line2}} <br>
+                
+
+            </p>
+        </div>
+
+    </div>
+
+
+    <!-- ************************************************************************************************************************************** -->
+
+    <div class="quotes row-001" ng-hide="true">
+        <div class="container">
+            <h1 class="txt-2">Industry Speaks</h1>
+            <div class="tsml carousel-nav ">
+                <div class="carousel-tsml" id="owl-demo">
+                    <div class="item trans">
+                        <!-- <div class="pic"><img src="<?php echo $baseurl;?>/wp-content/uploads/2015/08/tsml-1.jpg" alt="image" /></div> -->
+                        <h4>Sridhar Gadhi
+                            <span>Founder & CEO, Paradigm IT Group</span>
+                        </h4>
+                        <p>“Pi built by the best brains in the industry is best poised to usher in the next generation evolution
+                            in the Digital space for both Andhra Pradesh & India to unlock value for citizens & enterprises
+                            alike”
+                        </p>
+                    </div>
+                    <div class="item trans">
+                        <!-- <div class="pic"><img src="<?php echo $baseurl;?>/wp-content/uploads/2015/08/sudheer.jpg" alt="image" /></div> -->
+                        <h4>Sudheer Kuppam
+                            <span>Managing Partner - Epsilon Venture Partners
+                                <br> ( Previously MD, Intel Capital APAC )</span>
+                        </h4>
+                        <p>“Pi is bringing world class state-of-the-art datacenter and cloud hosting capabilities to India,
+                            at a critical time, when there is a much needed impetus to build the country's digital infrastructure.
+                            The young and aspirational India led data demand as well as the digitization initiatives driven
+                            by the state and central governments provide a fantastic opportunity for entrepreneurs & businesses
+                            in the Indian cloud ecosystem. Pi is proud to be supporting a new digital India through its low
+                            latency solutions as well as fast & elastic applications enabling interconnection of both businesses
+                            and governments to their customers and citizens respectively.”</p>
+                    </div>
+                    <div class="item trans">
+                        <!-- <div class="pic"><img src="<?php echo $baseurl;?>/wp-content/uploads/2015/08/narendra-gogula.jpg" alt="image" /></div> -->
+                        <h4>Narendra Gogula
+                            <span>Managing Director, Accenture</span>
+                        </h4>
+                        <p>“Pi DATACENTERS will be the enabler of Digital India. With the explosive growth of mobile/cloud data
+                            and continuous evolution of Internet of Things in India, there is an urgent need for data centers
+                            leveraging cutting edge technology. With a vision of excellence in customer service and deep
+                            technology expertise, Pi DATACENTERS has the right leadership team to realize the exciting phase
+                            of Digital transformation in India.”</p>
+                    </div>
+                    <div class="item trans">
+                        <!-- <div class="pic"><img src="<?php echo $baseurl;?>/wp-content/uploads/2015/08/Satyanarayana-1.jpg" alt="image" /></div> -->
+                        <h4>Shri. J Satyanarayana, IAS (Retd)
+                            <span>Chairperson, UIDAI</span>
+                        </h4>
+                        <p>“Pi is going to be a pioneer in infrastructure project and a critical contributor to the new state
+                            Andhra Pradesh and Digital India . It would play a crucial role in the growth of industry and
+                            share a key stage in development of e-Governance and e- Pragati.”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</div>

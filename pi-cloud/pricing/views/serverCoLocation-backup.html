@@ -1,0 +1,106 @@
+<div class="wrapper">
+    <!-- Server Co-Location -->
+    <h3 class="block-title">{{subplan}}</h3>
+    <div class="pricing-main-block">
+        <div class="col-md-4 dial-box">
+            <div id="meter-block">
+                <div id="scrackspace"></div>
+                <div class="rackvalues">
+                    <p>2</p>
+                    <p>3</p>
+                    <p>4</p>
+                    <p>6</p>
+                </div>
+                <img class="small-image rc" src="css/img/images/6.jpg" alt="Rack Space">
+                <h4 class="each-price">{{rackspace}}</h4>
+                <h3 class="meter-title">Rack Space</h3> 
+                <div id="speedometer" class="speedometer">
+                    <div class='selected'>
+                        <p class='digit'>
+                            <span></span>
+                            <sup></sup>
+                        </p>
+                    </div>
+                    <div class='middle'></div>
+                    <div class='middle bord'></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 dial-box">
+            <div id="meter-block">
+                <div id="sclpower"></div>
+                <div class="powervalues">
+                    <p>200</p>
+                    <p>400</p>
+                    <p>800</p>
+                    <p>1000</p>
+                </div>
+                <img class="small-image pw" src="css/img/images/5.jpg" alt="Power">
+                <h4 class="each-price">{{power}}</h4>
+                <h3 class="meter-title">Power</h3> 
+                <div id="speedometer2" class="speedometer">
+                    <div class='selected'>
+                        <p class='digit'>
+                            <span></span>
+                            <sup></sup>
+                        </p>
+                    </div>
+                    <div class='middle'></div>
+                    <div class='middle bord'></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 dial-box">
+            <div id="meter-block">
+                <div id="datatransfer"></div>
+                <div class="dstvalues">
+                    <p>50</p>
+                    <p>200</p>
+                    <p>400</p>
+                    <p>600</p>
+                    <p>800</p>
+                    <p>1TB</p>
+                    <P>3TB</P>
+                    <p>10TB</p>
+                </div>
+                <img class="small-image dt" src="css/img/images/datatransfer.png" alt="data transfer">
+                <h4 class="each-price">{{datatransfername}}</h4>
+                <h3 class="meter-title">Data Transfer</h3> 
+                <div id="speedometer3" class="speedometer">
+                    <div class='selected'>
+                        <p class='digit'>
+                            <span></span>
+                            <sup></sup>
+                        </p>
+                    </div>
+                    <div class='middle'></div>
+                    <div class='middle bord'></div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group col-md-3" style="visibility: hidden;">
+            <label class="col-md-4" for="tenure">Tenure</label>
+            <select class="form-control col-md-8" ng-options="tenure.name for (value,tenure) in tenures" ng-model="selectTenure"
+                ng-change="changeTenure()">
+            </select>
+        </div>
+        <div class="form-group col-md-2">
+            <label class="col-md-3" for="ip">IP</label>
+            <select class="form-control col-md-6" ng-options="Ip.ip for (price,Ip) in databaseIpValues" ng-model="selectIp"
+                ng-change="changeIp()">
+            </select>
+        </div>
+        <div class="form-group col-md-4 monthlycost" style="display: none;"
+            <!-- <h3>Total Monthly Cost: {{displayMonthyCost | currency : "&#8377;" : 2}}</h3> -->
+            <label>Total Monthly Cost: <span>&#8377; {{monthlycost}}</span></label>
+        </div>
+        <!-- Monthly Cost: {{monthlycost}} -->
+        <div class="col-md-3 scl">
+            <!-- <button class="btn btn-primary col-md-12" ng-click="addtocart()">ADD TO CART</button> -->
+            <button class="btn btn-primary col-md-12" ng-click="">GET QUOTE</button>
+        </div>
+    </div>
+    <cart-directive></cart-directive>
+</div>

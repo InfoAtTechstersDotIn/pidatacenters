@@ -1,0 +1,162 @@
+<div class="wrapper">
+<!-- Enterprise dedicated servers Page -->
+
+<div class="pricing-main-block-cloud qwerty">
+   <!-- {{storagename}} -->
+   <!-- <div class="col-md-6">{{dismonthlycost}}</div> -->
+   <div class="row">
+   <div class="col-md-6 dial-box">
+      <!-- <div id="meter-block" ng-if="storagename == 'ecs'">
+         <div id="{{storagename}}"></div>
+         <div class="dstvalues cldstrg">
+             <p>50</p>
+             <p>200</p>
+             <p>400</p>
+             <p>600</p>
+             <p>800</p>
+             <p>1TB</p>
+             <P>3TB</P>
+             <p>5TB</p>
+         </div>
+         <img class="small-image space" src="css/img/images/space.png" alt="disk space">
+         <h4 class="each-price">&#8377;{{diskspacePrice  | number:0}}</h4>
+         <h3 class="meter-title">{{storagename}}</h3>
+         
+         <div id="{{storagename}}ticks" class="speedometer">
+             <div class='selected'>
+                 <p class='digit'>
+                     <span></span>
+                     <sup></sup>
+                 </p>
+             </div>
+             <div class='middle'></div>
+             <div class='middle bord'></div>
+         </div>
+         </div> -->
+      <div id="meter-block" ng-if="storagename == 'dds'">
+         <div id="{{storagename}}dds" ng-hide="ser[storagename].selectDrive.name == 'SSD'"></div>
+         <div class="diskSpacevalues" ng-hide="ser[storagename].selectDrive.name == 'SSD'">
+            <p>0</p>
+            <p>50</p>
+            <p>100</p>
+            <p>200</p>
+            <p>300</p>
+            <p>400</p>
+            <p>600</p>
+            <p>800</p>
+            <p>1TB</p>
+            <p>2TB</p>
+            <P>3TB</P>
+            <P>4TB</P>
+            <p>5TB</p>
+         </div>
+         <div id="{{storagename}}Ssd" ng-show="ser[storagename].selectDrive.name == 'SSD'"></div>
+         <div class="diskSpacevalues" ng-show="ser[storagename].selectDrive.name == 'SSD'">
+            <p>0</p>
+            <p>50</p>
+            <p>100</p>
+            <p>200</p>
+            <p>300</p>
+            <p>400</p>
+            <p>600</p>
+            <p>800</p>
+            <p>1TB</p>
+            <p>2TB</p>
+            <P>3TB</P>
+            <P>4TB</P>
+            <p>5TB</p>
+         </div>
+         <img class="small-image space" src="css/img/images/space.png" alt="disk space">
+         <h4 class="each-price">&#8377;{{diskspacePrice  | number:0}}</h4>
+         <h3 class="meter-title">Disk Space</h3>
+         <div id="{{storagename}}ddsticks" class="speedometer">
+            <div class='selected'>
+               <p class='digit'>
+                  <span></span>
+                  <sup></sup>
+               </p>
+            </div>
+            <div class='middle'></div>
+            <div class='middle bord'></div>
+         </div>
+      </div>
+   </div>
+   <div class="col-md-6 dial-box">
+      <div id="meter-block">
+         <div id="datatransfer" class="slider"></div>
+         <div class="dstvalues">
+            <p>0</p>
+            <p>50</p>
+            <p>200</p>
+            <p>400</p>
+            <p>600</p>
+            <p>800</p>
+            <p>1TB</p>
+            <P>3TB</P>
+            <P>5TB</P>
+            <P>7TB</P>
+            <p>10TB</p>
+         </div>
+         <img class="small-image dt" src="css/img/images/datatransfer.png" alt="data transfer">
+         <h4 class="each-price">&#8377;{{dataTransferPrice | number:0}}</h4>
+         <h3 class="meter-title">Data Transfer</h3>
+         <!-- <div id="speedometer4" class="speedometer">
+            <div class='selected'>
+                <p class='digit'><span></span><sup></sup></p>
+            </div>
+            <div class='middle'></div>
+            <div class='middle bord'></div>
+            </div> -->
+         <div id="speedometer" class="speedometer">
+            <div class='selected'>
+               <p class='digit'><span></span><sup></sup></p>
+            </div>
+            <div class='middle'></div>
+            <div class='middle bord'></div>
+         </div>
+      </div>
+   </div></div>
+   
+   
+      <div class="row" style="margin: -1px;">
+         <div class="col-md-6 form-group  cldstr">
+            <label for="drive" style="color:#2F1DAC;">Storage Type</label>
+            <select class="form-control" ng-options="drive.name for (value,drive) in drivesList | filter:shouldShow" ng-model="ser[storagename].selectDrive"
+               ng-change="changeDrive(ser[storagename].selectDrive)">
+            </select>
+         </div>
+         <!-- <div class="form-group col-md-6">
+            <label class="col-md-7" for="datatransfer">Data Transfer</label>
+            
+            <select class="form-control col-md-5" ng-options="dt.datatransfer for (price,dt) in databaseDtValues" ng-model="ser[storagename].selectDt"
+                ng-change="changeDt(ser[storagename].selectDt)">
+              
+            </select>
+            </div> -->
+         <div class="form-group col-md-6">
+            <label  for="tenure" style="color: #2F1DAC;">Tenure</label>
+            <select class="form-control" ng-disabled="conditionalDisabling" ng-options="tenure.name for (value,tenure) in tenures" ng-model="ser[storagename].selectTenure"
+               ng-change="changeTenure(ser[storagename].selectTenure)">
+            </select>
+         </div>
+      </div>
+   
+   <div class="row" style="margin:1px;">
+      <div class="form-group col-md-6">
+         <label  for="DedicatedBd" style="color: #2F1DAC;">Dedicated Bandwidth</label>
+         <select class="form-control" ng-options="dedicatedBd.bandwidth for (price,dedicatedBd) in dedicatedBandwidthValues"
+            ng-model="selectDedicatedBw" ng-change="changeDedicatedBw(selectDedicatedBw)">
+         </select>
+      </div>
+      <div class="form-group col-md-6">
+         <h3 class="tmc" style="margin: 2px 6px 7px 0;font-size:16px;color: #2F1DAC;">Total Monthly Cost:
+            <span>&#8377; {{displayMonthlycost}}</span>
+         </h3>
+         <!-- <div class="col-md-6 hidden-xs">&nbsp;</div> -->
+         
+            <button style="width: 100%;" class="btn btn-primary" ng-click="submitfn(ser[seriesname])">ADD TO CART</button>
+         
+      </div>
+	  </div>
+   </div>
+</div>
