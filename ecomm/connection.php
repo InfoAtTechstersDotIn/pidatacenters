@@ -6,10 +6,10 @@ $username = "marcom";
 $password = "TR*viv3mo?!q";
 $database = "ecomm";
 
-// $servername = "localhost";
-// $username = "root";
-// $password = "";
-// $database = "pi_data_ecomm";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "pi_data_ecomm";
 
 $conn = new mysqli($servername, $username, $password, $database);
 

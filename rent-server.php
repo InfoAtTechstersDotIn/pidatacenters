@@ -10,39 +10,37 @@
             <li>
                <img src="images/rank-1-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
                <img src="images/rank-1-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
-               <a href="#">BUY NOW</a>
+               <a href="checkout.php?id=1">BUY NOW</a>
             </li>
             <li>
                <img src="images/rank-2-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
                <img src="images/rank-2-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
-               <a href="#">BUY NOW</a>
+               <a href="checkout.php?id=2">BUY NOW</a>
             </li>
             <li>
                <img src="images/rank-3-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
                <img src="images/rank-3-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
-               <a href="#">BUY NOW</a>
+               <a href="checkout.php?id=3">BUY NOW</a>
             </li>
             <li>
                <img src="images/rank-4-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
                <img src="images/rank-4-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
-               <a href="#">BUY NOW</a>
-
+               <a href="checkout.php?id=4">BUY NOW</a>
             </li>
             <li>
                <img src="images/rank-5-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
                <img src="images/rank-5-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
-               <a href="#">BUY NOW</a>
+               <a href="checkout.php?id=5">BUY NOW</a>
             </li>
             <li>
                <img src="images/rank-6-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
                <img src="images/rank-6-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
-               <a href="#">BUY NOW</a>
+               <a href="checkout.php?id=6">BUY NOW</a>
             </li>
-
             <li>
                <img src="images/rank-7-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
                <img src="images/rank-7-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
-               <a href="#">BUY NOW</a>
+               <a href="checkout.php?id=7">BUY NOW</a>
             </li>
 
          </ul>
@@ -52,13 +50,7 @@
 </div>
 <!--what-is-noc starts here -->
 <div class="what-is-noc">
-
-
    <?php include('php/footer.php'); ?>
-
-
-
-
    <!--footer ends-->
 </div>
 <!-- wrapper ends -->
@@ -89,10 +81,7 @@
                slidesToScroll: 1
             }
          }]
-
       });
-
-
 
       //animation
       wow = new WOW({
