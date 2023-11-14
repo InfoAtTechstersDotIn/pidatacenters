@@ -7879,21 +7879,23 @@ nav .nav-icon1:after {
 /* Colocation page styles*/
 .about-locations-main .tabBlock-tab a {
     border: 0;
-      box-shadow: rgba(0, 0, 0, 0.4) 0px -4px 20px, inset rgba(0, 0, 0, 0.3) 7px -7px 20px -3px, rgba(0, 0, 0, 0.2) 1px -5px 20px inset, black 0px 2px 20px !important;}
+    box-shadow: rgba(0, 0, 0, 0.4) 0px -4px 20px, inset rgba(0, 0, 0, 0.3) 7px -7px 20px -3px, rgba(0, 0, 0, 0.2) 1px -5px 20px inset, black 0px 2px 20px !important;
+}
 
 .about-locations-main .tabBlock-tab a {
     background: rgb(237 237 237 / 88%);
 }
 
-.about-locations-main .tabBlock-tab a:hover{
-background: white !important;
+.about-locations-main .tabBlock-tab a:hover {
+    background: white !important;
 }
 
-  .hide-icon1 h6,.hide-icon2 h6 {
-   text-align: center;
-   font-size: 15px;
+.hide-icon1 h6,
+.hide-icon2 h6 {
+    text-align: center;
+    font-size: 15px;
     color: #223f97;
-    }
+}
 
 .article-blk-main {
     margin: -35px auto 0 !important;
@@ -7901,6 +7903,29 @@ background: white !important;
 
 /*leadership page*/
 .scc-block img {
-    height: auto  !important; 
+    height: auto !important;
 }
 
+/* home page locations */
+.locations span.dc {
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.locations h2 {
+    /* padding: 0 0 15px; */
+    text-align: left;
+    font-size: 45px;
+    line-height: 50px;
+}
+
+.locations p {
+    padding: 0 0 10px 0;
+    text-align: left;
+
+}
+
+.locations .about-loc img {
+    width: 80% !important;
+    border-radius: 20px;
+}

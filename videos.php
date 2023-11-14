@@ -3,6 +3,10 @@
     #myBtn2 {
       display: none;
     }
+
+    .modal-container {
+      top: -140px !important;
+    }
   </style>
 </head>
 <?php include('php/inner-header.php'); ?>
@@ -49,7 +53,7 @@ if ($conn->connect_error) {
             <a href="#modal-1">
               <img src="images/1.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -57,7 +61,7 @@ if ($conn->connect_error) {
             <a href="#modal-2">
               <img src="images/2.png" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -65,7 +69,35 @@ if ($conn->connect_error) {
             <a href="#modal-3">
               <img src="images/3.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
+              </div>
+            </a>
+          </li>
+
+
+          <!-- Trials -->
+
+          <li class="col-md-4">
+            <a href="#modal-4">
+              <img src="images/4.png" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
+              </div>
+            </a>
+          </li>
+          <li class="col-md-4">
+            <a href="#modal-4">
+              <img src="images/4.png" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
+              </div>
+            </a>
+          </li>
+          <li class="col-md-4">
+            <a href="#modal-4">
+              <img src="images/4.png" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -79,7 +111,7 @@ if ($conn->connect_error) {
             <a href="#modal-4">
               <img src="images/4.png" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -87,7 +119,7 @@ if ($conn->connect_error) {
             <a href="#modal-5">
               <img src="images/5.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -95,7 +127,7 @@ if ($conn->connect_error) {
             <a href="#modal-6">
               <img src="images/6.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -107,7 +139,7 @@ if ($conn->connect_error) {
             <a href="#modal-7">
               <img src="images/7.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -115,7 +147,7 @@ if ($conn->connect_error) {
             <a href="#modal-8">
               <img src="images/8.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -137,7 +169,7 @@ if ($conn->connect_error) {
             <a href="#modal-10">
               <img src="images/10.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -145,7 +177,7 @@ if ($conn->connect_error) {
             <a href="#modal-11">
               <img src="images/11.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -153,7 +185,7 @@ if ($conn->connect_error) {
             <a href="#modal-12">
               <img src="images/12.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -165,7 +197,7 @@ if ($conn->connect_error) {
             <a href="#modal-13">
               <img src="images/13.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -173,7 +205,7 @@ if ($conn->connect_error) {
             <a href="#modal-14">
               <img src="images/14.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -181,7 +213,7 @@ if ($conn->connect_error) {
             <a href="#modal-15">
               <img src="images/15.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -195,7 +227,7 @@ if ($conn->connect_error) {
             <a href="#modal-16">
               <img src="images/16.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -203,7 +235,7 @@ if ($conn->connect_error) {
             <a href="#modal-17">
               <img src="images/17.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -211,7 +243,7 @@ if ($conn->connect_error) {
             <a href="#modal-18">
               <img src="images/18.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -223,7 +255,7 @@ if ($conn->connect_error) {
             <a href="#modal-19">
               <img src="images/19.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -231,7 +263,7 @@ if ($conn->connect_error) {
             <a href="#modal-20">
               <img src="images/20.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -239,7 +271,7 @@ if ($conn->connect_error) {
             <a href="#modal-21">
               <img src="images/21.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -253,7 +285,7 @@ if ($conn->connect_error) {
             <a href="#modal-22">
               <img src="images/22.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -261,7 +293,7 @@ if ($conn->connect_error) {
             <a href="#modal-23">
               <img src="images/23.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -269,7 +301,7 @@ if ($conn->connect_error) {
             <a href="#modal-24">
               <img src="images/24.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -281,7 +313,7 @@ if ($conn->connect_error) {
             <a href="#modal-25">
               <img src="images/25.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -289,7 +321,7 @@ if ($conn->connect_error) {
             <a href="#modal-26">
               <img src="images/26.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -297,7 +329,7 @@ if ($conn->connect_error) {
             <a href="#modal-27">
               <img src="images/27.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -310,7 +342,7 @@ if ($conn->connect_error) {
             <a href="#modal-25">
               <img src="images/25.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -318,7 +350,7 @@ if ($conn->connect_error) {
             <a href="#modal-26">
               <img src="images/26.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -326,7 +358,7 @@ if ($conn->connect_error) {
             <a href="#modal-27">
               <img src="images/27.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -339,7 +371,7 @@ if ($conn->connect_error) {
             <a href="#modal-31">
               <img src="images/31.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -347,7 +379,7 @@ if ($conn->connect_error) {
             <a href="#modal-32">
               <img src="images/32.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -355,7 +387,7 @@ if ($conn->connect_error) {
             <a href="#modal-33">
               <img src="images/33.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -369,7 +401,7 @@ if ($conn->connect_error) {
             <a href="#modal-34">
               <img src="images/34.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -377,7 +409,7 @@ if ($conn->connect_error) {
             <a href="#modal-35">
               <img src="images/35.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -385,7 +417,7 @@ if ($conn->connect_error) {
             <a href="#modal-36">
               <img src="images/36.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -397,7 +429,7 @@ if ($conn->connect_error) {
             <a href="#modal-37">
               <img src="images/37.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -405,7 +437,7 @@ if ($conn->connect_error) {
             <a href="#modal-38">
               <img src="images/38.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -413,7 +445,7 @@ if ($conn->connect_error) {
             <a href="#modal-39">
               <img src="images/39.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -427,7 +459,7 @@ if ($conn->connect_error) {
             <a href="#modal-40">
               <img src="images/40.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -435,7 +467,7 @@ if ($conn->connect_error) {
             <a href="#modal-41">
               <img src="images/41.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -443,7 +475,7 @@ if ($conn->connect_error) {
             <a href="#modal-42">
               <img src="images/42.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -455,7 +487,7 @@ if ($conn->connect_error) {
             <a href="#modal-43">
               <img src="images/43.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -463,7 +495,7 @@ if ($conn->connect_error) {
             <a href="#modal-44">
               <img src="images/44.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -471,7 +503,7 @@ if ($conn->connect_error) {
             <a href="#modal-45">
               <img src="images/45.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -485,7 +517,7 @@ if ($conn->connect_error) {
             <a href="#modal-46">
               <img src="images/46.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -493,7 +525,7 @@ if ($conn->connect_error) {
             <a href="#modal-47">
               <img src="images/47.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -501,7 +533,7 @@ if ($conn->connect_error) {
             <a href="#modal-48">
               <img src="images/48.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -513,7 +545,7 @@ if ($conn->connect_error) {
             <a href="#modal-49">
               <img src="images/49.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -521,7 +553,7 @@ if ($conn->connect_error) {
             <a href="#modal-50">
               <img src="images/50.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -529,7 +561,7 @@ if ($conn->connect_error) {
             <a href="#modal-51">
               <img src="images/51.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -543,7 +575,7 @@ if ($conn->connect_error) {
             <a href="#modal-52">
               <img src="images/52.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -551,7 +583,7 @@ if ($conn->connect_error) {
             <a href="#modal-53">
               <img src="images/53.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -559,7 +591,7 @@ if ($conn->connect_error) {
             <a href="#modal-54">
               <img src="images/54.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -571,7 +603,7 @@ if ($conn->connect_error) {
             <a href="#modal-55">
               <img src="images/55.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -579,7 +611,7 @@ if ($conn->connect_error) {
             <a href="#modal-55">
               <img src="images/55.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -587,7 +619,7 @@ if ($conn->connect_error) {
             <a href="#modal-56">
               <img src="images/56.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -601,7 +633,7 @@ if ($conn->connect_error) {
             <a href="#modal-57">
               <img src="images/57.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -609,7 +641,7 @@ if ($conn->connect_error) {
             <a href="#modal-58">
               <img src="images/58.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -617,7 +649,7 @@ if ($conn->connect_error) {
             <a href="#modal-59">
               <img src="images/59.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -629,7 +661,7 @@ if ($conn->connect_error) {
             <a href="#modal-60">
               <img src="images/60.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -637,7 +669,7 @@ if ($conn->connect_error) {
             <a href="#modal-61">
               <img src="images/61.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -645,7 +677,7 @@ if ($conn->connect_error) {
             <a href="#modal-62">
               <img src="images/62.PNG" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
-                <i class="fa fa-play" aria-hidden="true" style="color:#df7c7c"></i>
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543;"></i>
               </div>
             </a>
           </li>
@@ -801,7 +833,7 @@ if ($conn->connect_error) {
         <div class="modal-body">
           <div class="director-cnt row">
             <div class="col-md-12">
-              <h2 class="text-center">Key Differentiators of pi-cloudÂ® Cloud</h2>
+              <h2 class="text-center">Key Differentiators of pi-cloud® Cloud</h2>
               <iframe class="youtube-al" src="https://www.youtube.com/embed/7kLjRZ04z7A">
               </iframe>
 
@@ -1391,7 +1423,7 @@ if ($conn->connect_error) {
         <div class="modal-body">
           <div class="director-cnt row">
             <div class="col-md-12">
-              <h4 class="text-center" style="font-size:20px;">SAP Infra Webinar | pi-cloudÂ® | Pi Data Centers
+              <h4 class="text-center" style="font-size:20px;">SAP Infra Webinar | pi-cloud® | Pi Data Centers
 
               </h4>
               <iframe class="youtube-al" src="https://www.youtube.com/embed/N1xrLGQpv-U">
@@ -1463,7 +1495,7 @@ if ($conn->connect_error) {
         <div class="modal-body">
           <div class="director-cnt row">
             <div class="col-md-12">
-              <h4 class="text-center" style="font-size:20px;">The all new pi-cloudÂ® website is NOW LIVE!
+              <h4 class="text-center" style="font-size:20px;">The all new pi-cloud® website is NOW LIVE!
 
               </h4>
               <iframe class="youtube-al" src="https://www.youtube.com/embed/qkq1D8h-lec">
@@ -1488,7 +1520,7 @@ if ($conn->connect_error) {
         <div class="modal-body">
           <div class="director-cnt row">
             <div class="col-md-12">
-              <h4 class="text-center" style="font-size:20px;">HarbourFront, Indiaâ€™s First Indigenous CDN On Cloud. Another 1st From Pi DATACENTERS
+              <h4 class="text-center" style="font-size:20px;">HarbourFront, India’s First Indigenous CDN On Cloud. Another 1st From Pi DATACENTERS
 
               </h4>
               <iframe class="youtube-al" src="https://www.youtube.com/embed/NxHgdxbgBqY">
@@ -1656,7 +1688,7 @@ if ($conn->connect_error) {
         <div class="modal-body">
           <div class="director-cnt row">
             <div class="col-md-12">
-              <h4 class="text-center" style="font-size:20px;">pi-cloudÂ® - Enterprise Cloud Platform @PiÂ®
+              <h4 class="text-center" style="font-size:20px;">pi-cloud® - Enterprise Cloud Platform @Pi®
               </h4>
               <iframe class="youtube-al" src="https://www.youtube.com/embed/FTYyytOtHEc">
               </iframe>
@@ -2047,7 +2079,7 @@ if ($conn->connect_error) {
         <div class="modal-body">
           <div class="director-cnt row">
             <div class="col-md-12">
-              <h4 class="text-center" style="font-size:20px;">IT leaders from BFSI industry being felicitated at BFSI Data center & Cloud Summit â€˜2017</h4>
+              <h4 class="text-center" style="font-size:20px;">IT leaders from BFSI industry being felicitated at BFSI Data center & Cloud Summit ‘2017</h4>
               <iframe class="youtube-al" src="https://www.youtube.com/embed/84UPRo3VzGY">
               </iframe>
 

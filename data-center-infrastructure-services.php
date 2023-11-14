@@ -265,7 +265,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
     </div>
 </div>
 <!--why-work-with-us starts here -->
-<div class="about-locations-blk">
+<div class="about-locations-blk" id="locations">
     <div class="container">
         <div class="about-locations-main">
             <h2>About Locations</h2>

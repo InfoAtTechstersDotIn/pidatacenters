@@ -118,6 +118,10 @@
     .datacenter-main.center-block .know-more a.dc {
         margin: 15px auto;
     }
+
+    .about-loc .container {
+        max-width: 1200px;
+    }
 }
 
 @media (max-width:1450px) {
@@ -2558,6 +2562,13 @@
         font-size: 13px;
     }
 
+    .datacenter-blk p {
+        padding: 0 0 10px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+
 }
 
 @media (max-width:767px) {
@@ -3119,6 +3130,12 @@
 
 }
 
+@media (max-width: 768px) {
+    .locations h2 {
+        font-size: 17px !important;
+        line-height: 23px !important;
+    }
+}
 
 @media (max-width:599px) {
     .center1 .slick-list.draggable {
@@ -3383,6 +3400,29 @@
         height: 750px !important;
     }
 
+    /* Newly added */
+    .slider>.slick-next {
+        bottom: 120px;
+    }
+
+    .text {
+        text-align: center !important;
+        padding-bottom: 1rem !important;
+    }
+
+    .locations h2 {
+        font-size: 17px !important;
+        line-height: 20px !important;
+        text-align: center !important;
+    }
+
+    .datacenter-blk p {
+        text-align: center !important;
+    }
+
+    .mobile {
+        margin-top: 20px;
+    }
 }
 
 @media (max-width:478px) {

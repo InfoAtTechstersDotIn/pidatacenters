@@ -198,7 +198,7 @@ include_once('includes/header.php');
 	.card-desc {
 		display: block;
 		font-size: 0.85rem;
-		line-height: 1.25rem;
+		line-height: 1.35rem;
 		position: absolute;
 		height: 0;
 		top: 0;
@@ -214,8 +214,13 @@ include_once('includes/header.php');
 	}
 
 	.card ul li {
-		    list-style-type: none;
-    padding: 3px;
+		list-style-type: disc;
+		padding: 3px;
+	}
+
+	.card ul li::marker {
+		font-size: 18px;
+		color: #223f97;
 	}
 
 	.card:hover .card-desc {
@@ -590,11 +595,12 @@ include_once('includes/header.php');
 		flex-direction: column;
 		text-align: left;
 		padding: 40px;
-		line-height: 1.35rem;	
-}
-.new-list li{
-padding: 5px;
-}
+		line-height: 1.35rem;
+	}
+
+	.new-list li {
+		padding: 5px;
+	}
 
 	.carte-model {
 		margin-top: 30px;
@@ -1036,14 +1042,14 @@ padding: 5px;
 			max-width: 48px;
 		}
 	}
-.content {
-    max-width: 100%;
-    margin: 0 auto !important;
-   margin-bottom: 0 !important; 
-    padding: 0 !important; 
-    padding-bottom: 0 !important; 
-}
 
+	.content {
+		max-width: 100%;
+		margin: 0 auto !important;
+		margin-bottom: 0 !important;
+		padding: 0 !important;
+		padding-bottom: 0 !important;
+	}
 </style>
 
 <div class="hb-bannerCont">
@@ -1390,13 +1396,13 @@ padding: 5px;
 							<img src="../images/managed-services-icons/essesntials-new.png" alt="">
 							<p>Know More</p>
 							<ul class="card-desc col-md-4">
-								<li><span>&#187;</span> 24 X 7 support with 2 hours critical response</li>
-								<li><span>&#187;</span> Basic IT support (OS Patching, OS Updates, OS Management, Virtual Machines, Disks, Basic Configuration Management, &Incident Management)
-								<li><span>&#187;</span> 30 days backup</li>
-								<li><span>&#187;</span> Proactive infrastructure monitoring and alerting</li>
-								<li><span>&#187;</span> Monthly health reports and dashboards</li>
+								<li>&nbsp 24 X 7 support with 2 hours critical response</li>
+								<li>&nbsp Basic IT support (OS Patching, OS Updates, OS Management, Virtual Machines, Disks, Basic Configuration Management, &Incident Management)
+								<li>&nbsp 30 days backup</li>
+								<li>&nbsp Proactive infrastructure monitoring and alerting</li>
+								<li>&nbsp Monthly health reports and dashboards</li>
 
-								<li><span>&#187;</span> Basic anti-virus and anti-malware support</li>
+								<li>&nbsp Basic anti-virus and anti-malware support</li>
 							</ul>
 						</div>
 						<div class="card">
@@ -1404,13 +1410,16 @@ padding: 5px;
 							<img src="../images/managed-services-icons/Advanced-new.png" alt="">
 							<p>Know More</p>
 							<ul class="card-desc col-md-4">
-								<li><span>&#187;</span> 24 X 7 support with 1 hour critical response</li>
-								<li><span>&#187;</span> Advanced IT Support (OS Patching, OS Updates, OS Management, Virtual Machines, Virtual Machine scales, Availability Sets, Disks, Virtual Networks, WAF, Identity Management, Configuration Management, Incident Management, Problem Management, Change Management)</li>
-								<li><span>&#187;</span> Shared TAM and architect support</li>
-								<li><span>&#187;</span> Unlimited backup, self-serve point-in-time restore</li>
-								<li><span>&#187;</span> Proactive infrastructure monitoring and alerting</li>
-								<li><span>&#187;</span> Monthly health reports and dashboards.</li>
-								<li><span>&#187;</span> Advanced anti-virus and anti-malware support</li>
+								<li>&nbsp 24 X 7 support with 1 hour critical response</li>
+								<!-- <li><span>&#187;</span> Advanced IT Support (OS Patching, OS Updates, OS Management, Virtual Machines, Virtual Machine scales, Availability Sets, Disks, Virtual Networks, WAF, Identity Management, Configuration Management, Incident Management, Problem Management, Change Management)</li> -->
+								<li>&nbsp Advanced IT Support <br>
+									[OS Management (incl.Patching & Updates), VM Support, Availability Sets, Disks, Virtual Networks, WAF, Identity Management, Configuration Management, Incident Management, Problem Management, and Change Management]</li>
+
+								<li>&nbsp Shared TAM and architect support</li>
+								<li>&nbsp Unlimited backup, self-serve point-in-time restore</li>
+								<li>&nbsp Proactive infrastructure monitoring and alerting</li>
+								<li>&nbsp Monthly health reports and dashboards.</li>
+								<li>&nbsp Advanced anti-virus and anti-malware support</li>
 							</ul>
 						</div>
 						<div class="card">
@@ -1418,16 +1427,16 @@ padding: 5px;
 							<img src="../images/managed-services-icons/Premium-New.png" alt="">
 							<p>Know More</p>
 							<ul class="card-desc col-md-4">
-								<li><span>&#187;</span> 24 X 7 support with 30 minutes critical response</li>
-								<li><span>&#187;</span> Level-3 escalation advanced support</li>
-								<li><span>&#187;</span> Proactive capacity planning, performance and cost optimization</li>
-								<li><span>&#187;</span> Shared TAM and architect support</li>
-								<li><span>&#187;</span> Unbrmited backup, self-serve point-in-time restore</li>
-								<li><span>&#187;</span> Proactive infrastructure monitoring and alerting</li>
-								<li><span>&#187;</span> Monthly health reports and dashboards</li>
-								<li><span>&#187;</span> Deep security (WAF, DDoS, Threat analytics, anti-virus, anti-malware, email and web protection)</li>
-								<li><span>&#187;</span> Proactive run book authoring</li>
-								<li><span>&#187;</span> Advanced operational intelligence and custom dashboard on usage, performance, governance, and cost</li>
+								<li>&nbsp 24 X 7 support with 30 minutes critical response</li>
+								<li>&nbsp Level-3 escalation advanced support</li>
+								<li>&nbsp Proactive capacity planning, performance and cost optimization</li>
+								<li>&nbsp Shared TAM and architect support</li>
+								<li>&nbsp Unbrmited backup, self-serve point-in-time restore</li>
+								<li>&nbsp Proactive infrastructure monitoring and alerting</li>
+								<li>&nbsp Monthly health reports and dashboards</li>
+								<li>&nbsp Deep security (WAF, DDoS, Threat analytics, anti-virus, anti-malware, email and web protection)</li>
+								<li>&nbsp Proactive run book authoring</li>
+								<li>&nbsp Advanced operational intelligence and custom dashboard on usage, performance, governance, and cost</li>
 							</ul>
 						</div>
 					</div>
