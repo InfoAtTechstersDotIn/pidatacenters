@@ -887,7 +887,7 @@ Services</a> -->
                                             <li>
 
                                                 <div class="row locations">
-                                                    <div class="col-md-6 py-5 text">
+                                                    <div class="col-md-6 text">
                                                         <span class="dc">State-of-the-Art Facilities</span>
                                                         <h2>Vijayawada Data Center</h2>
                                                         <p> India&#8217;s first Greenfield and World&#8217;s 4th largest Uptime Institute Tier lV Certified Data Center</p>
@@ -902,7 +902,7 @@ Services</a> -->
                                             </li>
                                             <li class="locations">
                                                 <div class="row">
-                                                    <div class="col-md-6 py-5 text">
+                                                    <div class="col-md-6 text">
                                                         <span class="dc">State-of-the-Art Facilities</span>
                                                         <h2>Hyderabad Data Center</h2>
                                                         <p> Uptime Institute Tier III Design Compliant Data Center <br>(Build To Suit)</p>
@@ -916,7 +916,7 @@ Services</a> -->
                                             </li>
                                             <li class="locations">
                                                 <div class="row">
-                                                    <div class="col-md-6 py-5 text">
+                                                    <div class="col-md-6 text">
                                                         <span class="dc">State-of-the-Art Facilities</span>
                                                         <h2>Kochi Data Center</h2>
                                                         <p>Uptime Institute Tier lll Design Complaint Data Center</p>
@@ -966,7 +966,9 @@ Services</a> -->
 
                                         </ul>
                                         <div class="know-more">
-                                            <a href="data-center-infrastructure-services.php" class="dc">Know More</a>
+                                            <a href="data-center-infrastructure-services.php#locations" class="dc">Know More</a>
+
+
                                         </div>
                                     </div>
 
@@ -1111,7 +1113,7 @@ Services</a> -->
                                 <img src="images/pi-har.png" alt="hurbour1-logo" width="408" height="156" class="hurbour1-img1">
                                 </div>-->
                                         <!--<p>India's First Enterprise Cloud Platform offers quick time-to-market, flexibility, scalability, capacity, business continuity, <br> and cost-efficiency while being platform-agnostic.</p>-->
-                                        <p>Pi Cloud , powered by Pi DATACENTERSÂ®, Indiaâ€™s first Enterprise Cloud Platform, is now a Multi-Cloud Ecosystem, providing <br>seamlessly integrated and fully managed private and public cloud environments that offers quick time-to-market, flexibility, <br>scalability, capacity, business continuity, and cost-efficiency while being platform-agnostic.</p>
+                                        <p>Pi Cloud , powered by Pi DATACENTERS&#174;, India&#8217;s first Enterprise Cloud Platform, is now a Multi-Cloud Ecosystem, providing <br>seamlessly integrated and fully managed private and public cloud environments that offers quick time-to-market, flexibility, <br>scalability, capacity, business continuity, and cost-efficiency while being platform-agnostic.</p>
                                         <ul class="center1">
                                             <li class="col-md-4">
                                                 <img src="images/backup-as-a-service.webp" alt="hyper-visor" width="190" height="190" class="data-center-img bw">
@@ -1220,13 +1222,13 @@ Services</a> -->
                                             <span>CEO Corner</span>
                                             <h2>Meet Kalyan Muppaneni</h2>
                                         </div>
-                                        <p>Kalyan is the mind and man behind Pi DATACENTERSÂ®, Asia's Largest Uptime
-                                            Institute Certified TIER IV Data Center, and Pi Cloud - Indiaâ€™s first Enterprise
+                                        <p>Kalyan is the mind and man behind Pi DATACENTERS&#174;, Asia's Largest Uptime
+                                            Institute Certified TIER IV Data Center, and Pi Cloud - India&#8217;s first Enterprise
                                             Cloud Platform. His extensive experience in multiple disciplines of IT, backed
                                             with strong business acumen and global organizational leadership, makes him
                                             stand out. </p>
 
-                                        <p class="story"><span style="font-size:17px;display:inline-block;padding:0 0 10px;">Kalyanâ€™s Story:</span> <br> Kalyan is the Founder & Chief Executive Officer of Pi DATACENTERSÂ®. He is
+                                        <p class="story"><span style="font-size:17px;display:inline-block;padding:0 0 10px;">Kalyan&#8217;s Story:</span> <br> Kalyan is the Founder & Chief Executive Officer of Pi DATACENTERS&#174;. He is
                                             a visionary, technology leader and an industry veteran for more than 2
                                             decades. Including 15+years in leadership roles with Intel Corporation in the
                                             Silicon Valley, US. With an appetite for an ahead of the curve innovation and
@@ -1741,6 +1743,16 @@ Services</a> -->
             wow.init();
         });
     </script>
+    <!-- <script>
+        document.getElementById('btnShowSection').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default behavior of the link
+            document.getElementById('locations').scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    </script> -->
+
+
     <!--Start of Tawk.to Script-->
     <!--<script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();

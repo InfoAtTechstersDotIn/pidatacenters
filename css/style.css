@@ -7929,3 +7929,7 @@ nav .nav-icon1:after {
     width: 80% !important;
     border-radius: 20px;
 }
+
+.text {
+    padding-top: 3rem;
+}
