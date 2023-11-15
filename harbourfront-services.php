@@ -4,12 +4,15 @@ $seo_description = "First & Leading Content Delivery Network (CDN) in India from
 $seo_keywords = "HarbourFront, Content Delivery Network, content delivery network india, cloud-based solutions provider, CDN solution provides,  CDN";
 ?>
 
-<?php include('php/inner-header.php'); ?>
+
+
+<?php include('php/includes-techsters/header.php'); ?>
+
 <!-- main starts here -->
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/harbourfront-banner.jpg" alt="harbourfront-banner" width="1920" height="210">
-        <h2>HarbourFrontÂ® (CDN)</h2>
+        <h2>HarbourFront® (CDN)</h2>
 
     </div>
 </div>
@@ -25,7 +28,7 @@ $seo_keywords = "HarbourFront, Content Delivery Network, content delivery networ
                 </div>
                 <div class="harbourfront-right col-md-6">
                     <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at metus in ex commodo rhoncus. Etiam finibus laoreet dapibus. Donec rhoncus placerat dui et venenatis. Maecenas egestas velit mauris, et malesuada nibh facilisis pellentesque. Nullam vel enim ut ante gravida venenatis nec non nibh. Proin eget viverra massa. Praesent at rhoncus lacus. Curabitur at libero quam. </p>-->
-                    <p class="harbour">The HarbourFrontÂ® Content Delivery Network (CDN) is a cloud-based solution that provides a superior user experience for dynamic web applications and websites. By geographically distributing the network and caching data in proximity to end users, it enables enterprises to improve the performance of live or on-demand media streaming and push data-rich content locally. The CDN automatically maps network conditions and intelligently routes user traffic to the nearest edge location, allowing enterprises to leverage cached or dynamic content.</p>
+                    <p class="harbour">The HarbourFront® Content Delivery Network (CDN) is a cloud-based solution that provides a superior user experience for dynamic web applications and websites. By geographically distributing the network and caching data in proximity to end users, it enables enterprises to improve the performance of live or on-demand media streaming and push data-rich content locally. The CDN automatically maps network conditions and intelligently routes user traffic to the nearest edge location, allowing enterprises to leverage cached or dynamic content.</p>
                     <p class="harbour">This Content Delivery Network is constructed on a global network of over 30 Points of Presence (PoPs), which are strategically located to provide sub-single-digit milliseconds of latency and high availability to end-users. The PoPs are interconnected to form a highly resilient network, ensuring that content is delivered quickly and reliably.</p>
 
                 </div>
@@ -108,8 +111,8 @@ $seo_keywords = "HarbourFront, Content Delivery Network, content delivery networ
 </div>
 
 <!--footer block starts -->
-<?php include('php/footer.php'); ?>
 
+<?php include('php/includes-techsters/footer.php'); ?>
 
 
 

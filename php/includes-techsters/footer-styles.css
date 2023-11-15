@@ -18,7 +18,7 @@ body {
 .questions p {
     text-align: center;
     padding: 20px 12px;
-    font-size: 28px;
+    font-size: 31.5px;
     color: #fff;
     font-weight: 400;
     margin: 5px 0;
@@ -31,7 +31,9 @@ body {
     background-color: #fff;
     color: #2680EB;
     font-weight: 400;
-    margin-left: 100px;
+    /* margin-left: 100px; */
+    font-size: 25.5px;
+    height: 40px;
 }
 
 .get_in_touch {
@@ -39,10 +41,13 @@ body {
     margin: 0px 150px;
     border-radius: 70px;
     padding: 15px 20px;
-    position: relative;
     position: absolute;
-    top: -85px;
+    top: -80px;
     /* margin-top: -93px; */
+    width: 100%;
+    max-width: 70%;
+    margin: auto;
+    left: 15%;
 }
 
 .questions {
@@ -50,6 +55,8 @@ body {
     margin: 0px 0px;
     border-radius: 70px;
     padding: 0 20px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .footer-block {
@@ -88,9 +95,11 @@ body {
 }
 
 .copy_rights p {
-    margin: 30px 0 0 0;
+    /* margin: 30px 0 0 0; */
     font-weight: 400;
     text-align: center;
+    padding: 5px 0px;
+    color: #fff;
 }
 
 .icons_footer {
@@ -133,7 +142,9 @@ h1 {
 .footer-block ul li a {
     text-decoration: none;
     color: #fff;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 15px;
 }
 
 .footer_row {
@@ -142,16 +153,18 @@ h1 {
     margin: auto;
 }
 
+.footer_icons li a {
+    margin-bottom: 15px;
+}
+
 @media (max-width: 480px) {
     .get_in_touch {
         margin: 0;
     }
-
     .questions p {
         font-size: 17px;
         padding: 12px 17px;
     }
-
     .questions p button {
         margin-left: 0;
     }
@@ -161,7 +174,6 @@ h1 {
     .get_in_touch {
         margin: 0;
     }
-
     .questions p button {
         margin-left: 0;
     }

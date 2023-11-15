@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="php/includes-techsters/header-styles.css">
     <link rel="stylesheet" type="text/css" href="php/includes-techsters/footer-styles.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -26,15 +29,25 @@
     <link rel="canonical" href="<?php echo $seo_canonical; ?>" />
 
 
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
+<?php
+
+$site_url="http://localhost/pidatacenters-main/"
+
+?>
+
     <div class="header desktop">
         <div class="container-fluid">
             <div class="row px-2">
-                <div class="col-lg-3">
+                <div class="col-lg-2">
                     <div class="logo">
                         <a href="https://pidatacenters.com">
                             <img src="https://www.pidatacenters.com/images/logo-wt.png" alt="logo">
@@ -43,7 +56,7 @@
                 </div>
 
 
-                <div class="col-lg-9 d-flex  justify-content-end  align-items-center ">
+                <div class="col-lg-10 d-flex  justify-content-end  align-items-center ">
                     <nav id="" class="nav_items">
                         <ul class="nav_items_ul">
                             <li>
@@ -64,17 +77,17 @@
                                             <a href="#">Colocation</a>
                                         </li>
                                         <li>
-                                            <a href="#">Data Center Infrastructure & Services</a>
+                                            <a href="<?php echo $site_url ?>data-center-infrastructure-services-advisory.php">Data Center Infrastructure & Services</a>
                                         </li>
                                         <li>
-                                            <a href="#">Consulting & Data Center Build <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                            <a href="">Consulting & Data Center Build <i class="fa fa-caret-down" aria-hidden="true"></i></a>
                                             <div class="sub_drop_down">
                                                 <ul>
                                                     <li>
-                                                        <a href="#">Data Center Design & Planning</a>
+                                                        <a href="<?php echo $site_url ?>dc-design-planning.php">Data Center Design & Planning</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#">Data Center Build & Operate</a>
+                                                        <a href="<?php echo $site_url ?>dc-build.php">Data Center Build & Operate</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -83,9 +96,9 @@
                                 </div>
                             </li>
 
-                            <li>
+                            <!-- <li>
                                 <a href="https://pidatacenters.com/data-center-infrastructure-services.php">COLOCATION</a>
-                            </li>
+                            </li> -->
                             <li>
                                 <a href="#" class="drop-arrow">CLOUD</a>
                                 <div class="drop-down">
@@ -122,16 +135,16 @@
                                             <a href="#">Multi Cloud Managed Services</a>
                                         </li>
                                         <li>
-                                            <a href="#">RIMS</a>
+                                            <a href="<?php echo $site_url ?>rims.php">RIMS</a>
                                         </li>
                                         <li>
-                                            <a href="#">NOC</a>
+                                            <a href="<?php echo $site_url ?>noc.php">NOC</a>
                                         </li>
                                         <li>
-                                            <a href="#">SOC</a>
+                                            <a href="<?php echo $site_url ?>soc.php">SOC</a>
                                         </li>
                                         <li>
-                                            <a href="#">DevOps</a>
+                                            <a href="<?php echo $site_url ?>devops.php">DevOps</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -147,10 +160,10 @@
                                             <a href="#">Internet Exchange (IPX)</a>
                                         </li>
                                         <li>
-                                            <a href="#">HarbourFront (CDN)</a>
+                                            <a href="<?php echo $site_url ?>harbourfront-services.php">HarbourFront (CDN)</a>
                                         </li>
                                         <li>
-                                            <a href="#">Pi Workspaces (VDI)</a>
+                                            <a href="<?php echo $site_url ?>pi-work-spaces.php">Pi Workspaces (VDI)</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -166,10 +179,10 @@
                                             <a href="#">Cloud Storage</a>
                                         </li>
                                         <li>
-                                            <a href="#">Rent A Server</a>
+                                            <a href="<?php echo $site_url ?>rent-server.php">Rent A Server</a>
                                         </li>
                                         <li>
-                                            <a href="#">Rent GPU Servers</a>
+                                            <a href="https://picloud.ai/">Rent GPU Servers</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -180,29 +193,29 @@
                                 <div class="drop-down drop_down_bars">
                                     <ul>
                                         <li>
-                                            <a href="#">About <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                            <a >About <i class="fa fa-caret-down" aria-hidden="true"></i></a>
                                             <div class="sub_drop_down  ">
                                                 <ul>
                                                     <li>
-                                                        <a href="#">About us</a>
+                                                        <a href="<?php echo $site_url ?>about.php">About us</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#">Leadership</a>
+                                                        <a href="<?php echo $site_url ?>leadership.php">Leadership</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#">Awards &amp; Recognition</a>
+                                                        <a href="<?php echo $site_url ?>awards-recognition.php">Awards &amp; Recognition</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#">Testimonials</a>
+                                                        <a href="<?php echo $site_url ?>testimonial.php">Testimonials</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#">Certifications</a>
+                                                        <a href="<?php echo $site_url ?>certifications.php">Certifications</a>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </li>
                                         <li>
-                                            <a href="#"> CEO Corner</a>
+                                            <a href="<?php echo $site_url ?>ceo-corner.php"> CEO Corner</a>
                                         </li>
                                         <li>
                                             <a href="#"> Partner Portal</a>
@@ -213,19 +226,19 @@
                                             <div class="sub_drop_down">
                                                 <ul>
                                                     <li>
-                                                        <a href="#">Case Studies</a>
+                                                        <a href="<?php echo $site_url ?>case-studies.php">Case Studies</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#">Blogs</a>
+                                                        <a href="<?php echo $site_url ?>">Blogs</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#">Whitepapers</a>
+                                                        <a href="<?php echo $site_url ?>">Whitepapers</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#">Brochure</a>
+                                                        <a href="<?php echo $site_url ?>">Brochure</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#">Knowledge Hub</a>
+                                                        <a href="<?php echo $site_url ?>">Knowledge Hub</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -558,27 +571,8 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-
-
-    <!-- <script>
-function openNav() {
-  document.getElementById("mySidenav").style.display = "flex";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-</script> -->
-
     <script>
         function openNav() {
             var sidenav = document.getElementById("mySidenav");
@@ -598,30 +592,6 @@ function closeNav() {
 
 
 
-    <!-- <script>
-    var acc = document.getElementsByClassName("accordion");
-
-    for (var i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
-            if (panel.style.maxHeight) {
-                panel.style.maxHeight = null;
-            } else {
-                panel.style.maxHeight = panel.scrollHeight + "px";
-            }
-
-            // Close other open tabs
-            for (var j = 0; j < acc.length; j++) {
-                if (acc[j] !== this) {
-                    acc[j].classList.remove("active");
-                    acc[j].nextElementSibling.style.maxHeight = null;
-                }
-            }
-        });
-    }
-</script> -->
-
 
 
     <script>
@@ -638,20 +608,136 @@ function closeNav() {
                     panel.style.display = "block"; // Show the panel
                 }
 
-                // Close other open tabs
-                // for (var j = 0; j < acc.length; j++) {
-                //     if (acc[j] !== this) {
-                //         acc[j].classList.remove("active");
-                //         acc[j].nextElementSibling.style.display = "none"; // Hide other panels
-                //     }
-                // }
+
             });
         }
     </script>
 
 
-    <!-- <?php include('footer3.php') ?> -->
 
-</body>
 
-</html>
+
+		<!-- BANNERS BUTTONS -->
+
+		<div class="banners_content gpu_hide" style=>
+			<p>
+				<a id="myBtn2" style="color: #223f97
+;">Request For Quote</a>
+				<a id="reach-btn" data-toggle="modal" data-target="#myModal" style="color: #223f97
+;">Reach Us</a>
+			</p>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal pop_up fade" id="myModal" role="dialog">
+			<div class="modal-dialog">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title">Reach Us</h4>
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<div class="modal-body">
+						<form action="https://clientele.techsters.in/public/api/client_forms" method="post" enctype="multipart/form-data">
+							<label for="name">Name:</label>
+							<input type="text" id="name" name="Name" required>
+
+
+							<label for="number">Mobile:</label>
+							<input type="tel" id="number" name="Number" pattern="[0-9]{10}" required>
+
+
+							<label for="email">Email:</label>
+							<input type="email" id="email" name="Email" required>
+
+
+							<label for="message">Message:</label>
+							<textarea id="message" name="Message" rows="4" required></textarea>
+
+
+							<input class="sub_mit" type="submit" value="Submit">
+
+							<input type="hidden" name="techsters_subject" value="Reach Us Form Leads" />
+							<input type="hidden" name="form_unique_id" value="1ef13057-52fd-11ee-a4b0-525400b78afc" � />
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- BANNERS BUTTONS -->
+
+
+
+
+		<!-- Modal two-->
+		<div class="modal pop_up fade" id="myModal2" role="dialog">
+			<div class="modal-dialog">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title global-button"> Request For Quote</h4>
+						<button type="button" class="close2" data-dismiss="modal">&times;</button>
+					</div>
+					<div class="modal-body">
+						<form action="https://clientele.techsters.in/public/api/client_forms" method="post" enctype="multipart/form-data">
+							<label for="name">Name:</label>
+							<input type="text" id="name2" name="Name" required>
+
+							<label for="number">Company Name</label>
+							<input type="text" id="companyname" name="CompanyName" required>
+
+							<label for="email">Professional Email:</label>
+							<input type="email" id="email2" name="Email" required>
+
+							<label for="number">Mobile:</label>
+							<input type="tel" id="number2" name="Number" pattern="[0-9]{10}" required>
+
+							<label for="message">Upload Configuration Document</label>
+							<input type="file" required name="Configuration Document">
+
+
+
+							<input class="sub_mit" type="submit" value="Submit">
+
+							<input type="hidden" name="techsters_subject" value="Request For Quote Form Leads" />
+							<input type="hidden" name="form_unique_id" value="86497a91-7e3b-11ee-a0ca-525400b78afc" />
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+		<!-- ******************************************************************************************************** -->
+		<script>
+			// Get the modal
+			var modall = document.getElementById("myModal2");
+
+			// Get the button that opens the modal
+			var btn = document.getElementById("myBtn2");
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close2")[0];
+
+			// When the user clicks the button, open the modal 
+			btn.onclick = function() {
+				modall.style.display = "block";
+			}
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() {
+				modall.style.display = "none";
+			}
+
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+				if (event.target == modall) {
+					modall.style.display = "none";
+				}
+			}
+		</script>

@@ -6,13 +6,13 @@
   </style>
 </head>
 
+<?php include('php/includes-techsters/header.php'); ?>
 
-<?php include('php/inner-header.php'); ?>
 <!-- main starts here -->
 
 <div class="about-banner">
   <div class="about-banner-blk">
-    <img src="images/leadership-banner-img.jpg" alt="leadership-banner-img" width="1920" height="210" class="datacenter-services-img">
+    <img src="images/leadership-banner-img.jpg" alt="leadership-banner-img" width="1920" height="210">
     <h2>Leadership</h2>
 
   </div>
@@ -549,8 +549,8 @@
 
 
 
+<?php include('php/includes-techsters/footer.php'); ?>
 
-<?php include('php/footer.php'); ?>
 
 
 <!--

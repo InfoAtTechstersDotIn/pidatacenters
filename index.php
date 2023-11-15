@@ -109,12 +109,18 @@
 
         .background {
             position: absolute;
-            left: 0;
-            top: 0;
             width: 100%;
-            height: 100%;
-            object-fit: none;
+            left: 0;
+            right: 0;
+            bottom: 0;
             z-index: -1;
+        }
+
+        @media(max-aspect-ratio:16/9) {
+            .background {
+                width: auto;
+                height: 100%;
+            }
         }
     </style>
     <script>
@@ -880,55 +886,22 @@ Services</a> -->
                 <div>
                     <div class="block-1">
                         <div class="backdround-bg">
-                            <div class="datacenter-blk about-loc">
+                            <div class="datacenter-blk">
                                 <div class="container">
                                     <div class="datacenter-main center-block">
+                                        <!--<span style="color:#ffffff;font-size:17px;line-height:26px;text-align:center;display:block;">Pan-India Predominance</span>-->
+                                        <h2> State-of-the-Art Facilities</h2>
+                                        <!--                                <p> PiÂ® is Indiaâ€™s first Greenfield and Worldâ€™s 4th largest Uptime institute Tier lV Certified Datacenter-->
+                                        <!--</p>-->
                                         <ul class="center">
-                                            <li>
-
-                                                <div class="row locations">
-                                                    <div class="col-md-6 text">
-                                                        <span class="dc">State-of-the-Art Facilities</span>
-                                                        <h2>Vijayawada Data Center</h2>
-                                                        <p> India&#8217;s first Greenfield and World&#8217;s 4th largest Uptime Institute Tier lV Certified Data Center</p>
-
-
-                                                    </div>
-                                                    <div class="col-md-6 about-loc">
-                                                        <img src="images/pi-datacenters-amaravati-dc-1.webp" alt="amaravati" width="656" height="316">
-                                                    </div>
-
+                                            <li class="col-md-4">
+                                                <img src="images/pi-datacenters-kochi-dc-2.webp" alt="dc" width="656" height="316">
+                                                <div class="strategic-core-council-cnt2">
+                                                    <p>Kochi Data Center <br> (Kottapuram Road, Aroor )</p>
+                                                    <p>Uptime Institute Tier lll Design Complaint Data Center</p>
                                                 </div>
                                             </li>
-                                            <li class="locations">
-                                                <div class="row">
-                                                    <div class="col-md-6 text">
-                                                        <span class="dc">State-of-the-Art Facilities</span>
-                                                        <h2>Hyderabad Data Center</h2>
-                                                        <p> Uptime Institute Tier III Design Compliant Data Center <br>(Build To Suit)</p>
-
-                                                    </div>
-                                                    <div class="col-md-6 hyd-img about-loc">
-                                                        <img src="images/hyderabad-dc-3.jpg" alt="amaravati" width="656" height="316">
-                                                    </div>
-
-                                                </div>
-                                            </li>
-                                            <li class="locations">
-                                                <div class="row">
-                                                    <div class="col-md-6 text">
-                                                        <span class="dc">State-of-the-Art Facilities</span>
-                                                        <h2>Kochi Data Center</h2>
-                                                        <p>Uptime Institute Tier lll Design Complaint Data Center</p>
-
-                                                    </div>
-                                                    <div class="col-md-6 about-loc">
-                                                        <img src="images/pi-datacenters-kochi-dc-2.webp" alt="dc" width="656" height="316">
-                                                    </div>
-
-                                                </div>
-                                            </li>
-                                            <!-- <li class="col-md-4">
+                                            <li class="col-md-4">
                                                 <img src="images/pi-datacenters-amaravati-dc-1.webp" alt="amaravati" width="656" height="316">
                                                 <div class="strategic-core-council-cnt2">
                                                     <p>Vijayawada Data Center <br> (Vijayawada, Andhra Pradesh)</p>
@@ -945,7 +918,7 @@ Services</a> -->
                                                     </p>
                                                 </div>
 
-                                            </li> -->
+                                            </li>
                                             <!-- <li class="col-md-4">
                              <img src="images/kochi-dc.png" alt="dc" width="656" height="316">
                            <div class="strategic-core-council-cnt2">
@@ -966,9 +939,7 @@ Services</a> -->
 
                                         </ul>
                                         <div class="know-more">
-                                            <a href="data-center-infrastructure-services.php#locations" class="dc">Know More</a>
-
-
+                                            <a href="data-center-infrastructure-services.php" class="dc">Know More</a>
                                         </div>
                                     </div>
 
@@ -1043,14 +1014,14 @@ Services</a> -->
                             <div class="container">
                                 <div class="great-blk d-flex flex-wrap">
                                     <div class="great-lt col-lg-4">
-                                        <div class="mobile-headings mobile">
+                                        <div class="mobile-headings">
                                             <span style="color:#ffffff;font-size:16px;line-height:26px;">Array of Services for your Infrastructure Needs</span>
                                             <h2>Unleashing the Power of Pi</h2>
                                         </div>
                                         <div class="desktop-headings">
-                                            <span style="color:#ffffff;font-size:16px;line-height:26px;">Array of Services for your Infrastructure Needs2222</span>
+                                            <span style="color:#ffffff;font-size:16px;line-height:26px;">Array of Services for your Infrastructure Needs</span>
                                             <h2>Unleashing the Power of Pi</h2>
-                                            <p>1111Optimize your digital transformation journey with our array of products and services. We can facilitate you with various customized solutions for colocation and managed services with the elements your business needs. We prioritize Security and Reliability, while our other services offer support for redundancy, disaster recovery, and more.</p>
+                                            <p>Optimize your digital transformation journey with our array of products and services. We can facilitate you with various customized solutions for colocation and managed services with the elements your business needs. We prioritize Security and Reliability, while our other services offer support for redundancy, disaster recovery, and more.</p>
                                         </div>
 
                                         <!--<div class="know-more">
@@ -1093,7 +1064,7 @@ Services</a> -->
                                             </li>
                                         </ul>
                                         <div class="mobile-headings">
-                                            <p style="color: #000;">Optimize your digital transformation journey with our array of products and services. We can facilitate you with various customized solutions for colocation and managed services with the elements your business needs. We prioritize Security and Reliability, while our other services offer support for redundancy, disaster recovery, and more.</p>
+                                            <p>Optimize your digital transformation journey with our array of products and services. We can facilitate you with various customized solutions for colocation and managed services with the elements your business needs. We prioritize Security and Reliability, while our other services offer support for redundancy, disaster recovery, and more.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1113,7 +1084,7 @@ Services</a> -->
                                 <img src="images/pi-har.png" alt="hurbour1-logo" width="408" height="156" class="hurbour1-img1">
                                 </div>-->
                                         <!--<p>India's First Enterprise Cloud Platform offers quick time-to-market, flexibility, scalability, capacity, business continuity, <br> and cost-efficiency while being platform-agnostic.</p>-->
-                                        <p>Pi Cloud , powered by Pi DATACENTERS&#174;, India&#8217;s first Enterprise Cloud Platform, is now a Multi-Cloud Ecosystem, providing <br>seamlessly integrated and fully managed private and public cloud environments that offers quick time-to-market, flexibility, <br>scalability, capacity, business continuity, and cost-efficiency while being platform-agnostic.</p>
+                                        <p>Pi Cloud , powered by Pi DATACENTERSÂ®, Indiaâ€™s first Enterprise Cloud Platform, is now a Multi-Cloud Ecosystem, providing <br>seamlessly integrated and fully managed private and public cloud environments that offers quick time-to-market, flexibility, <br>scalability, capacity, business continuity, and cost-efficiency while being platform-agnostic.</p>
                                         <ul class="center1">
                                             <li class="col-md-4">
                                                 <img src="images/backup-as-a-service.webp" alt="hyper-visor" width="190" height="190" class="data-center-img bw">
@@ -1222,13 +1193,13 @@ Services</a> -->
                                             <span>CEO Corner</span>
                                             <h2>Meet Kalyan Muppaneni</h2>
                                         </div>
-                                        <p>Kalyan is the mind and man behind Pi DATACENTERS&#174;, Asia's Largest Uptime
-                                            Institute Certified TIER IV Data Center, and Pi Cloud - India&#8217;s first Enterprise
+                                        <p>Kalyan is the mind and man behind Pi DATACENTERSÂ®, Asia's Largest Uptime
+                                            Institute Certified TIER IV Data Center, and Pi Cloud - Indiaâ€™s first Enterprise
                                             Cloud Platform. His extensive experience in multiple disciplines of IT, backed
                                             with strong business acumen and global organizational leadership, makes him
                                             stand out. </p>
 
-                                        <p class="story"><span style="font-size:17px;display:inline-block;padding:0 0 10px;">Kalyan&#8217;s Story:</span> <br> Kalyan is the Founder & Chief Executive Officer of Pi DATACENTERS&#174;. He is
+                                        <p class="story"><span style="font-size:17px;display:inline-block;padding:0 0 10px;">Kalyanâ€™s Story:</span> <br> Kalyan is the Founder & Chief Executive Officer of Pi DATACENTERSÂ®. He is
                                             a visionary, technology leader and an industry veteran for more than 2
                                             decades. Including 15+years in leadership roles with Intel Corporation in the
                                             Silicon Valley, US. With an appetite for an ahead of the curve innovation and
@@ -1311,7 +1282,7 @@ Services</a> -->
 
                             <div class="col-md-3">
                                 <div class="footer-copy-rights">
-                                    <p>&#169; 2023 Pi DATACENTERS Pvt. Ltd.| All rights reserved.</p>
+                                    <p>Â© 2023 Pi DATACENTERSÂ® Pvt. Ltd.| All rights reserved.</p>
                                     <!--<p><a href="https://3dm.agency/" target="_blank" class="three-dm">Design and Developed by @3DM.agency</a></p>-->
                                     <p><a href="#" target="_blank" class="three-dm">Managed by Nayana Group</a></p>
 
@@ -1743,16 +1714,6 @@ Services</a> -->
             wow.init();
         });
     </script>
-    <!-- <script>
-        document.getElementById('btnShowSection').addEventListener('click', function(event) {
-            event.preventDefault(); // Prevent the default behavior of the link
-            document.getElementById('locations').scrollIntoView({
-                behavior: 'smooth'
-            });
-        });
-    </script> -->
-
-
     <!--Start of Tawk.to Script-->
     <!--<script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();

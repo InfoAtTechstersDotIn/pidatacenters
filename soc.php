@@ -4,7 +4,9 @@ $seo_description = "At the Security Operation Center of Pi Datacenters, Our Expe
 $seo_keywords = "security operations center, Security Operations, managed soc services,  information security operations center, data center security";
 ?>
 
-<?php include('php/inner-header.php'); ?>
+
+<?php include('php/includes-techsters/header.php'); ?>
+
 <!-- main starts here -->
 
 <div class="about-banner">
@@ -56,9 +58,9 @@ $seo_keywords = "security operations center, Security Operations, managed soc se
     </div>
   </div>
 
-  <?php include('php/footer.php'); ?>
 
 
+  <?php include('php/includes-techsters/footer.php'); ?>
 
 
   <!--footer ends-->

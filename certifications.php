@@ -12,7 +12,9 @@ $seo_keywords = "Datacenter certifications, meity certified cloud service provid
   </style>
 </head>
 
-<?php include('php/inner-header.php'); ?>
+<?php include('php/includes-techsters/header.php'); ?>
+
+
 <!-- main starts here -->
 <div class="about-banner">
   <div class="about-banner-blk">
@@ -176,7 +178,9 @@ $seo_keywords = "Datacenter certifications, meity certified cloud service provid
     </div>
   </div>
 </div>
-<?php include('php/footer.php'); ?>
+
+<?php include('php/includes-techsters/footer.php'); ?>
+
 
 <!--footer ends-->
 </div>

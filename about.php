@@ -14,12 +14,14 @@ $seo_keywords = "About datacenters, Data center provider, leading data center, B
     </style>
 </head>
 
-<?php include('php/inner-header.php'); ?>
+
+<?php include('php/includes-techsters/header.php'); ?>
+
 
 <!-- main starts here -->
 <div class="about-banner">
     <div class="about-banner-blk">
-        <img src="images/about-us-banner-img.jpg" alt="about-us" width="1920" height="210" class="datacenter-services-img">
+        <img src="images/about-us-banner-img.jpg" alt="about-us" width="1920" height="210">
         <h2>Who We Are</h2>
 
     </div>
@@ -34,11 +36,6 @@ $seo_keywords = "About datacenters, Data center provider, leading data center, B
                 </div>
                 <div class="what-drives-vission-right col-lg-7 align-middle">
 
-                    <!--<p style="color:#707070" class="pid">Pi DATACENTERSÂ® is a story envisioned by technocrats, led by its Founder & CEO, Mr. Kalyan Muppaneni. The vision was to redefine the customer experience while fueling the customer's business growth. This was backed by the mission to introduce Hyperscale data centers & indigenous enterprise cloud to the Indian industry with intelligent and self-healing infrastructure.
-</p>
-<p style="color:#707070" class="pid">With a cumulative capacity of 500.000 sq ft of built-up area and 60 MW of power, including a dedicated in-house substation, PiÂ® is by far India's first Greenfield, and World's 4th largest Uptime Institute TIER IV Certified Datacenter and Enterprise Cloud (pi-cloudÂ®) provider, headquartered at Hyderabad (Telangana, India). PiÂ® operates out of its data centers and cloud points of presence across Vijayawada (AP), Kochi, Noida, and Mumbai. The objective is to differentiate high-quality and high-performance data center hosting while being TCO optimal, in supporting businesses for Indian and global enterprises operating in India.
-
-</p>-->
 
 
 
@@ -59,13 +56,6 @@ $seo_keywords = "About datacenters, Data center provider, leading data center, B
             </p>
 
 
-            <!--<p style="color:#707070" class="pid">With a backdrop of an extensive review and audit lifecycle, Pi DATACENTERSÂ®  is Meity-empanelled and on GEM. PiÂ® was empanelled by Meity and received full accreditation for all three cloud modalities: public cloud, government virtual private cloud, and government community cloud.</p>
-                      
-                      <p style="color:#707070" class="pid">The focus has been on delivering futuristic and custom data center and cloud solutions, riding on a disruptive approach to technology as India's leading data center and cloud company. PiÂ® is highly trusted for being the flag bearer of data localization and data sovereignty, coupled with world-class service quality delivered out of its 100% automated SCADA-enabled data center facilities & SDDC ecosystem. PiÂ® is certified for 6027001. 1509000, ISO 140001, 15020000, ISO 22301, STQC, PCI-DSS, SOC2 Type I, and HIPAA This has been reinforcing the organization's strong operational process to meet the stringent privacy, security, quality, and service compliance parameters of the global industry. </p>
-                      
-                      <p style="color:#707070" class="pid">PiÂ® is also certified for SAP HANA operations, SAP Infrastructure and Cloud Operations, and SAP Hosting Operations. This enables digital transformation across enterprises for the smooth and secure operation of business-critical processes.
-</p>
-                      <p style="color:#707070" class="pid">PiÂ® brings the best of both worlds together in terms of global standard and cost linearity. It boasts of its Hyperscale facilities, offering a wide range of custom-made colocation and cloud services for enterprises across all scales and Industries. </p>-->
 
 
 
@@ -81,8 +71,7 @@ $seo_keywords = "About datacenters, Data center provider, leading data center, B
 
 
 
-                    <!--<p style="color:#707070" class="pid">PiÂ® has been featured on Gartner's Market Guide as one of the top data centers in India for the last 3 years in a row and as one of the top Public Cloud Managed and Professional Services Providers at the Asia/Pacific level for the year 2021. PiÂ® has also been recognized as India's Best Multi-Tenant Data Center by Datacenter Dynamics. These are apart from many other laurels and accolades, earned at domestic and global platforms.</p>
-<p style="color:#707070" class="pid">Being synonymous with work culture activism, PiÂ® fosters employees' openness to new challenges and learning as they take up the trajectory of their work lives. Being respected and valued adds to the zeal that makes PiÂ® a Great Place to Work. PiÂ® has been recognized by Great Place to WorkÂ® India among the Top 50â€”India's Best Workplaces for Women in 2021 and the Top 50â€”India's Great Mid-Sized Workplaces in 2021.</p>-->
+                
 
                 </div>
                 <div class="what-drives-mission-right col-lg-5 align-middle ">
@@ -154,7 +143,11 @@ $seo_keywords = "About datacenters, Data center provider, leading data center, B
     </div>
 </div>
 
-<?php include('php/footer.php'); ?>
+
+
+
+<?php include('php/includes-techsters/footer.php'); ?>
+
 
 <!-- wrapper ends -->
 <script src="js/wow.min.js"></script>

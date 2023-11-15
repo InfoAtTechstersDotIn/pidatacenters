@@ -3,13 +3,15 @@
 
     <div class="get_in">
         <div class="container">
-            <div class="row">
+           
                 <div class="get_in_touch">
                     <div class="questions">
-                        <p>Questions? We're here to help. <button class="question_button">Get In Touch</button></p>
+                        <p>Questions? We're here to help.</p>
+
+                        <p> <button class="question_button">Get In Touch</button></p>
                     </div>
                 </div>
-            </div>
+          
         </div>
     </div>
     <div class="container mt-sm-5 ">
@@ -17,8 +19,8 @@
             <div class="col-md-3 ">
                 <ul>
                     <li>
-                        <a href="#">Case Studies</a><br>
-                        <a href="#">Blogs</a><br>
+                        <a href="#">Case Studies</a>
+                        <a href="#">Blogs</a>
                         <a href="#">News</a>
                     </li>
                 </ul>
@@ -26,8 +28,8 @@
             <div class="col-md-3 ">
                 <ul>
                     <li>
-                        <a href="#">Certifications</a><br>
-                        <a href="#">Awards</a><br>
+                        <a href="#">Certifications</a>
+                        <a href="#">Awards</a>
                         <a href="#">Testimonials</a>
                     </li>
                 </ul>
@@ -35,8 +37,8 @@
             <div class="col-md-3 ">
                 <ul>
                     <li>
-                        <a href="#">About us</a><br>
-                        <a href="#">Leadership</a><br>
+                        <a href="#">About us</a>
+                        <a href="#">Leadership</a>
                         <a href="#">Services</a>
                     </li>
                 </ul>
@@ -44,8 +46,8 @@
             <div class="col-md-3 ">
                 <ul>
                     <li>
-                        <a href="#">Partners</a><br>
-                        <a href="#">Reach Us</a><br>
+                        <a href="#">Partners</a>
+                        <a href="#">Reach Us</a>
                         <a href="#">Policies</a>
                     </li>
                 </ul>
@@ -54,7 +56,7 @@
         <div class="copy_rights">
             <p>©2023 Pi DATACENTERS® Pvt. Ltd. All rights reserved</p>
         </div>
-        <div class="icons">
+        <div class="footer_icons">
             <br>
             <ul class="icons_footer">
                 <div class="font_icons">

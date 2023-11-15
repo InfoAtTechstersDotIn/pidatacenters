@@ -157,35 +157,36 @@
 							<nav>
 								<ul class="clear">
 									<li class=""><a href="https://pidatacenters.com/"><i class="fa fa-home" style="color:black"></i></a></li>
-                                                                          
-                                                                        
-                          
-                         <li ><a href="JavaScript:void(0);" class=" drop-arrow">DATA CENTER</a>
-                              <div class="drop-down">
-                          <ul>
-                              <li>
-                                        <a href="data-center-infrastructure-services.php">Colocation</a>
-                                    </li>
-                                    <li>
-                                        <a href="data-center-infrastructure-services-advisory.php">Data Center Infrastructure & Services</a>
-                                    </li>
-                                   
-                                      <li class="down-ar">
-                                        <a href="JavaScript:void(0);">Consulting & Data Center Build
-</a>    <div class="drop-down2">
-                          <ul>
-                              <li>
-                                        <a href="dc-design-planning.php">Data Center Design & Planning</a>
-                                    </li>
-                                    <li>
-                                        <a href="dc-build.php">Data Center Build & Operate</a>
-                                    </li>   
-                                </ul>
-                             </div>
-                                    </li>
-                                </ul>
-                             </div>
-                          </li>
+
+
+
+									<li><a href="JavaScript:void(0);" class=" drop-arrow">DATA CENTER</a>
+										<div class="drop-down">
+											<ul>
+												<li>
+													<a href="data-center-infrastructure-services.php">Colocation</a>
+												</li>
+												<li>
+													<a href="data-center-infrastructure-services-advisory.php">Data Center Infrastructure & Services</a>
+												</li>
+
+												<li class="down-ar">
+													<a href="JavaScript:void(0);">Consulting & Data Center Build
+													</a>
+													<div class="drop-down2">
+														<ul>
+															<li>
+																<a href="dc-design-planning.php">Data Center Design & Planning</a>
+															</li>
+															<li>
+																<a href="dc-build.php">Data Center Build & Operate</a>
+															</li>
+														</ul>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</li>
 
 									<li class=""><a href="./pi-cloud/" class=" drop-arrow">CLOUD</a>
 										<div class="drop-down">
@@ -630,12 +631,12 @@ Services</a>--> <a href="./pi-cloud/multicloud-managed-services">Multi Cloud
 			}
 
 			.banners_content {
-				    position: absolute;
-                                    top: 210px;
-                                    left: 40px;
-                                    z-index: 9;
-                                    font-size: 35px;
-                                    cursor: pointer;
+				position: absolute;
+				top: 210px;
+				left: 40px;
+				z-index: 9;
+				font-size: 35px;
+				cursor: pointer;
 			}
 
 
@@ -715,7 +716,7 @@ Services</a>--> <a href="./pi-cloud/multicloud-managed-services">Multi Cloud
 				outline: none;
 				padding: 5px 10px;
 				text-align: left;
-margin-bottom: 10px;
+				margin-bottom: 10px;
 
 			}
 
@@ -766,7 +767,7 @@ margin-bottom: 10px;
 				font-family: 'Roboto', sans-serif;
 				font-weight: 500;
 				color: #223f97;
-padding: 10px;
+				padding: 10px;
 			}
 
 			.modal {
@@ -970,13 +971,14 @@ padding: 10px;
 			.modal-dialog {
 				top: 25%;
 			}
-.pop_up form input {
-    padding: 3px 10px !important;
-}
-.modal-body {
-    padding: 0.5rem !important;
-}
 
+			.pop_up form input {
+				padding: 3px 10px !important;
+			}
+
+			.modal-body {
+				padding: 0.5rem !important;
+			}
 		</style>
 
 
@@ -1005,24 +1007,24 @@ padding: 10px;
 						<form action="https://clientele.techsters.in/public/api/client_forms" method="post" enctype="multipart/form-data">
 							<label for="name">Name:</label>
 							<input type="text" id="name" name="Name" required>
-							
+
 
 							<label for="number">Mobile:</label>
 							<input type="tel" id="number" name="Number" pattern="[0-9]{10}" required>
-							
+
 
 							<label for="email">Email:</label>
 							<input type="email" id="email" name="Email" required>
-							
+
 
 							<label for="message">Message:</label>
 							<textarea id="message" name="Message" rows="4" required></textarea>
-							
+
 
 							<input class="sub_mit" type="submit" value="Submit">
 
 							<input type="hidden" name="techsters_subject" value="Reach Us Form Leads" />
-							<input type="hidden" name="form_unique_id" value="1ef13057-52fd-11ee-a4b0-525400b78afc"   />
+							<input type="hidden" name="form_unique_id" value="1ef13057-52fd-11ee-a4b0-525400b78afc" ï¿½ />
 						</form>
 					</div>
 				</div>
@@ -1047,25 +1049,25 @@ padding: 10px;
 						<form action="https://clientele.techsters.in/public/api/client_forms" method="post" enctype="multipart/form-data">
 							<label for="name">Name:</label>
 							<input type="text" id="name2" name="Name" required>
-							
+
 							<label for="number">Company Name</label>
-							  <input type="text" id="companyname" name="CompanyName" required>
-							
+							<input type="text" id="companyname" name="CompanyName" required>
+
 							<label for="email">Professional Email:</label>
 							<input type="email" id="email2" name="Email" required>
 
-                                                         <label for="number">Mobile:</label>
+							<label for="number">Mobile:</label>
 							<input type="tel" id="number2" name="Number" pattern="[0-9]{10}" required>
-													
+
 							<label for="message">Upload Configuration Document</label>
-							  <input type="file" required name="Configuration Document">
+							<input type="file" required name="Configuration Document">
 
 
 
 							<input class="sub_mit" type="submit" value="Submit">
 
 							<input type="hidden" name="techsters_subject" value="Request For Quote Form Leads" />
-							<input type="hidden" name="form_unique_id" value="86497a91-7e3b-11ee-a0ca-525400b78afc"   />
+							<input type="hidden" name="form_unique_id" value="86497a91-7e3b-11ee-a0ca-525400b78afc" />
 						</form>
 					</div>
 				</div>
