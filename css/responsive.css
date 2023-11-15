@@ -3497,3 +3497,27 @@
     }
 
 }
+
+@media screen and (max-width:1200px) {
+    .banners_content {
+        top: 190px !important;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .banners_content {
+        top: 180px !important;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .banners_content {
+        top: 60px !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .banners_content {
+        top: 58px !important;
+    }
+}
