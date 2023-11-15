@@ -5,25 +5,6 @@ $seo_keywords = "data center Case Studies, cloud migration, cyber security, data
 ?>
 
 <?php include('php/inner-header.php'); ?>
-<!-- main starts here -->
-<?php
-// $servername = "localhost";
-// $username = "marcom";
-// $password = "TR*viv3mo?!q";
-// $dbname = "search8c_pi";
-
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "pi_website";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-?>
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/case-studies.jpg" alt="case-studie-banner" width="1920" height="210">
@@ -42,23 +23,39 @@ if ($conn->connect_error) {
                     <ul class="row">
                         <?php
 
-                        $r = "SELECT * from case_studies ORDER BY id";
-                        $g = mysqli_query($conn, $r);
-                        if (mysqli_num_rows($g) > 0) {
-                            while ($row = mysqli_fetch_array($g)) {
+                        $r = [
+                            "Agro Chemical Enterprise",
+                            "Biotech Enterprise",
+                            "Cloud Migration",
+                            "Cybersecurity @Pi",
+                            "DR Solution Enabling Business Continuity During COVID-19",
+                            "Enabling Advanced Banking Processes",
+                            "Enabling Cloud Infrastructure for a Leafing IoT Provider",
+                            "Enabling Digital Banking",
+                            "Globally Acclaimed Fintech Organization",
+                            "Healthcare Industry",
+                            "Infrastructure For Implementing & Hosting SAP HANA",
+                            "Leading Cooperative Bank",
+                            "Leading NBFC",
+                            "Making A Bank Digitally Powerful",
+                            "Manufacturing Power Unleashed",
+                            "Premier Educational Institution",
+                            "Premier Technology Education Institute",
+                            "Small Finance Bank"
+                        ];
+                        foreach ($r as $each) {
                         ?>
-                                <li class="col-md-4">
-                                    <div class="case-content">
-                                        <figure>
-                                            <img src="case_study_files/<?php echo $row['text'] ?>.png" alt="<?php echo $row['text'] ?>" width="450" height="248">
-                                        </figure>
-                                        <h4><?php echo $row['text'] ?></h4>
-                                        <br> <br>
-                                        <a href="#modal-1" onclick="document.getElementById('File_Downloaded').value = '<?php echo $row['text'] ?>';" class="download">Download case study</a>
-                                    </div>
-                                </li>
+                            <li class="col-md-4">
+                                <div class="case-content">
+                                    <figure>
+                                        <img src="case_study_files/<?php echo $each ?>.png" alt="<?php echo $each ?>" width="450" height="248">
+                                    </figure>
+                                    <h4><?php echo $each ?></h4>
+                                    <br> <br>
+                                    <a href="#modal-1" onclick="document.getElementById('File_Downloaded').value = '<?php echo $each ?>';" class="download">Download case study</a>
+                                </div>
+                            </li>
                         <?php
-                            }
                         }
                         ?>
                     </ul>
@@ -72,7 +69,7 @@ if ($conn->connect_error) {
 <div id="modal-1" class="modalDialog">
     <div class="fill-your-details">
 
-        <div class="modal-content">
+        <div class="modal-content" style="margin: 5% 30%;width:40%">
             <div class="modal-container">
                 <a href="#close" title="Close" class="close">x</a>
                 <div class="modal-body">
@@ -93,7 +90,6 @@ if ($conn->connect_error) {
                             </form>
                             <script>
                                 function myFunction() {
-                                    debugger;
                                     let email_address = document.getElementById('email_address').value;
 
                                     if (email_address.includes('gmail') || email_address.includes('yahoo') || email_address.includes('outlook') ||
