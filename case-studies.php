@@ -3,33 +3,13 @@ $seo_title = "Case Studies - Pi Datacenter | Studies & Success Stories with infe
 $seo_description = "Pi Datacenters' case studies on successful implementation of Data analytics & storage in Industries, with significant observations & experiences. Data Center Case studies in Banking, Large Scale Government, Power Grids, Healthcare, Cloud Migration, Cybersecurity & more.";
 $seo_keywords = "data center Case Studies, cloud migration, cyber security, data center services, best data ceenters, data center networking";
 ?>
-
 <?php include('php/inner-header.php'); ?>
-<!-- main starts here -->
-<?php
-// $servername = "localhost";
-// $username = "marcom";
-// $password = "TR*viv3mo?!q";
-// $dbname = "search8c_pi";
-
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "pi_website";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-?>
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/case-studies.jpg" alt="case-studie-banner" width="1920" height="210">
         <h2>Case Studies</h2>
 
-    </div> 
+    </div>
 </div>
 <!--board-of-directors starts here -->
 <div class="case-block">
@@ -41,24 +21,39 @@ if ($conn->connect_error) {
                 <li>
                     <ul class="row">
                         <?php
-
-                        $r = "SELECT * from case_studies ORDER BY id";
-                        $g = mysqli_query($conn, $r);
-                        if (mysqli_num_rows($g) > 0) {
-                            while ($row = mysqli_fetch_array($g)) {
+                        $r = [
+                            "Agro Chemical Enterprise",
+                            "Biotech Enterprise",
+                            "Cloud Migration",
+                            "Cybersecurity @Pi",
+                            "DR Solution Enabling Business Continuity During COVID-19",
+                            "Enabling Advanced Banking Processes",
+                            "Enabling Cloud Infrastructure for a Leafing IoT Provider",
+                            "Enabling Digital Banking",
+                            "Globally Acclaimed Fintech Organization",
+                            "Healthcare Industry",
+                            "Infrastructure For Implementing & Hosting SAP HANA",
+                            "Leading Cooperative Bank",
+                            "Leading NBFC",
+                            "Making A Bank Digitally Powerful",
+                            "Manufacturing Power Unleashed",
+                            "Premier Educational Institution",
+                            "Premier Technology Education Institute",
+                            "Small Finance Bank"
+                        ];
+                        foreach ($r as $each) {
                         ?>
-                                <li class="col-md-4">
-                                    <div class="case-content">
-                                        <figure>
-                                            <img src="case_study_files/<?php echo $row['text'] ?>.png" alt="<?php echo $row['text'] ?>" width="450" height="248">
-                                        </figure>
-                                        <h4><?php echo $row['text'] ?></h4>
-                                        <br> <br>
-                                        <a href="#modal-1" onclick="document.getElementById('File_Downloaded').value = '<?php echo $row['text'] ?>';" class="download">Download case study</a>
-                                    </div>
-                                </li>
+                            <li class="col-md-4">
+                                <div class="case-content">
+                                    <figure>
+                                        <img src="case_study_files/<?php echo $each ?>.png" alt="<?php echo $each ?>" width="450" height="248">
+                                    </figure>
+                                    <h4><?php echo $each ?></h4>
+                                    <br> <br>
+                                    <a href="#modal-1" onclick="document.getElementById('File_Downloaded').value = '<?php echo $each ?>';" class="download">Download case study</a>
+                                </div>
+                            </li>
                         <?php
-                            }
                         }
                         ?>
                     </ul>
@@ -68,11 +63,9 @@ if ($conn->connect_error) {
     </div>
 </div>
 <?php include('php/footer.php'); ?>
-
 <div id="modal-1" class="modalDialog">
     <div class="fill-your-details">
-
-        <div class="modal-content">
+        <div class="modal-content" style="margin: 5% 30%;width:40%">
             <div class="modal-container">
                 <a href="#close" title="Close" class="close">x</a>
                 <div class="modal-body">
@@ -86,16 +79,13 @@ if ($conn->connect_error) {
                                 <input type="text" name="website" style="width: 100%;border-radius:5px" placeholder=" Company Website" required=""><br /><br />
                                 <textarea name="message" style="width: 100%;border-radius:5px" rows="4" placeholder=" Message" required=""></textarea><br /><br />
                                 <input class="btn" style="width: 100%;border-radius:5px" type="submit" value="Submit">
-
                                 <input type="hidden" name="downloaded" id="File_Downloaded" value="">
                                 <input type="hidden" name="techsters_subject" value="PiDataCenters - Case Studies">
                                 <input type="hidden" name="form_unique_id" value="1ef13057-52fd-11ee-a4b0-525400b78afc">
                             </form>
                             <script>
                                 function myFunction() {
-                                    debugger;
                                     let email_address = document.getElementById('email_address').value;
-
                                     if (email_address.includes('gmail') || email_address.includes('yahoo') || email_address.includes('outlook') ||
                                         email_address.includes('hotmail') || email_address.includes('live') || email_address.includes('aol')) {
                                         alert('Invalid Email Address, Please use your Work Email');
@@ -114,8 +104,6 @@ if ($conn->connect_error) {
         </div>
     </div>
 </div>
-
-
 <!--footer ends-->
 </div>
 <!-- wrapper ends -->
@@ -132,52 +120,41 @@ if ($conn->connect_error) {
             s: {
                 animLen: 200
             },
-
             init: function() {
                 TabBlock.bindUIActions();
                 TabBlock.hideInactive();
             },
-
             bindUIActions: function() {
                 $('.tabBlock-tabs').on('click', '.tabBlock-tab', function() {
                     TabBlock.switchTab($(this));
                 });
             },
-
             hideInactive: function() {
                 var $tabBlocks = $('.tabBlock');
-
                 $tabBlocks.each(function(i) {
                     var
                         $tabBlock = $($tabBlocks[i]),
                         $panes = $tabBlock.find('.tabBlock-pane'),
                         $activeTab = $tabBlock.find('.tabBlock-tab.is-active');
-
                     $panes.hide();
                     $($panes[$activeTab.index()]).show();
                 });
             },
-
             switchTab: function($tab) {
                 var $context = $tab.closest('.tabBlock');
-
                 if (!$tab.hasClass('is-active')) {
                     $tab.siblings().removeClass('is-active');
                     $tab.addClass('is-active');
-
                     TabBlock.showPane($tab.index(), $context);
                 }
             },
-
             showPane: function(i, $context) {
                 var $panes = $context.find('.tabBlock-pane');
-
                 // Normally I'd frown at using jQuery over CSS animations, but we can't transition between unspecified variable heights, right? If you know a better way, I'd love a read it in the comments or on Twitter @johndjameson
                 $panes.slideUp(TabBlock.s.animLen);
                 $($panes[i]).slideDown(TabBlock.s.animLen);
             }
         };
-
         $(function() {
             TabBlock.init();
         });
@@ -206,8 +183,6 @@ if ($conn->connect_error) {
                 }
             ]
         });
-
-
         //animation
         wow = new WOW({
             animateClass: 'animated',
@@ -222,17 +197,14 @@ if ($conn->connect_error) {
 ================================================== */
     $(function() {
         $('.acc__title').click(function(j) {
-
             var dropDown = $(this).closest('.acc__card').find('.acc__panel');
             $(this).closest('.acc').find('.acc__panel').not(dropDown).slideUp();
-
             if ($(this).hasClass('active')) {
                 $(this).removeClass('active');
             } else {
                 $(this).closest('.acc').find('.acc__title.active').removeClass('active');
                 $(this).addClass('active');
             }
-
             dropDown.stop(false, true).slideToggle();
             j.preventDefault();
         });
@@ -264,7 +236,6 @@ if ($conn->connect_error) {
                 });
             });
         };
-
         var reset = function reset() {
             //console.log($(this).scrollTop())
             if ($(this).scrollTop() > 1990) {
@@ -272,7 +243,6 @@ if ($conn->connect_error) {
                 fx()
             }
         };
-
         $(window).on("scroll", reset);
     });
 </script>
@@ -288,15 +258,12 @@ if ($conn->connect_error) {
     const modalBox = document.querySelector(".modal-container");
     const modalBtn = document.querySelector(".modal-btn");
     const closeBtn = document.querySelector(".close-btn");
-
     modalBtn.addEventListener("click", () => {
         modalBox.style = "display: block;";
     });
-
     closeBtn.addEventListener("click", () => {
         modalBox.style = "display: none;";
     });
-
     window.addEventListener("click", (e) => {
         if (e.target == modalBox) {
             modalBox.style = "display: none;";
@@ -304,5 +271,4 @@ if ($conn->connect_error) {
     });
 </script>
 </body>
-
 </html>
