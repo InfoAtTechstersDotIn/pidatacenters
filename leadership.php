@@ -12,7 +12,7 @@
 
 <div class="about-banner">
   <div class="about-banner-blk">
-    <img src="images/leadership-banner-img.jpg" alt="leadership-banner-img" width="1920" height="210">
+    <img src="images/leadership-banner-img.jpg" alt="leadership-banner-img" width="1920" height="210" class="datacenter-services-img">
     <h2>Leadership</h2>
 
   </div>

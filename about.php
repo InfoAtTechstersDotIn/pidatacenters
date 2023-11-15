@@ -19,7 +19,7 @@ $seo_keywords = "About datacenters, Data center provider, leading data center, B
 <!-- main starts here -->
 <div class="about-banner">
     <div class="about-banner-blk">
-        <img src="images/about-us-banner-img.jpg" alt="about-us" width="1920" height="210">
+        <img src="images/about-us-banner-img.jpg" alt="about-us" width="1920" height="210" class="datacenter-services-img">
         <h2>Who We Are</h2>
 
     </div>

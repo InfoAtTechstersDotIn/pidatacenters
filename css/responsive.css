@@ -3512,12 +3512,28 @@
 
 @media screen and (max-width:991px) {
     .banners_content {
-        top: 60px !important;
+        top: 62px !important;
+    }
+
+    .about-banner h2 {
+        font-size: 28px;
+        line-height: 26px;
+        max-width: 220px;
+    }
+
+    .about-banner h2 {
+        font-size: 18px !important;
+        line-height: 23px !important;
     }
 }
 
 @media screen and (max-width:768px) {
     .banners_content {
-        top: 58px !important;
+        top: 62px !important;
+    }
+
+    .about-banner h2 {
+        font-size: 26px;
+        line-height: 26px;
     }
 }
