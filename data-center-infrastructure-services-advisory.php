@@ -15,7 +15,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
     </style>
 </head>
 
-<?php include('php/inner-header.php'); ?>
+<?php include('php/includes-techsters/header.php'); ?>
 
 
 <!-- main starts here -->
@@ -338,7 +338,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                 <div class="features-of-amaravathi-btm">
                                     <h3>Salient <span style="color:#76b543;">Features</span></h3>
 
-                                    <p>1. 2N fault tolerant modular architecture providing at least 48 hours&#8217; power outage protection.</p>
+                                    <p>1. 2N fault tolerant modular architecture providing at least 48 hoursâ€™ power outage protection.</p>
                                     <p>2. Utility power through independent routes from dual substations</p>
                                     <p>3. Lowest power cost in the Industry</p>
 
@@ -390,7 +390,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                 <div class="features-of-amaravathi-btm">
                                     <h3>Salient <span style="color:#76b543;">Features</span></h3>
 
-                                    <p>1. N+1 Fault Tolerant Modular Architecture provides at least 48 hours&#8217; of Power Outage Protection. </p>
+                                    <p>1. N+1 Fault Tolerant Modular Architecture provides at least 48 hours of Power Outage Protection. </p>
                                     <p>2. Utility Power through Independent Routes from Dual Substations </p>
                                     <p>3. 2N Uninterruptible UPS, DG set and Redundant Utility Power </p>
                                     <p>4. N+1 cooling system redundancy for better temperature management</p>
@@ -438,7 +438,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                 <div class="features-of-amaravathi-btm">
                                     <h3>Salient <span style="color:#76b543;">Features</span></h3>
 
-                                    <p>1.N+1 fault-tolerant modular architecture provides at least 48 hours&#8217; of power outage protection.</p>
+                                    <p>1.N+1 fault-tolerant modular architecture provides at least 48 hours of power outage protection.</p>
                                     <p>2.Utility power through independent routes from dual substations</p>
 
 
@@ -461,7 +461,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
 <div class="about-data-center-infrastructure-blk dc">
     <div class="container">
         <div class="about-data-center-infrastructure-main">
-            <h2> Data Center <span style="color: #7BBC42;font-weight: 500;">Infrastructure </span></h2>
+            <h2> Data Center <span style="color: #7BBC42;">Infrastructure </span></h2>
             <div class="infrastructure row align-middle">
                 <!--    <div class="infrastructure-lt col-md-6 dc">-->
                 <!--        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dui mauris, vehicula vel commodo at, sollicitudin sed magna. Quisque nec ligula ligula. Ut tincidunt molestie auctor. Morbi in lacus sit amet odio ornare tincidunt ut vitae nunc. Praesent iaculis luctus nisl, quis</p>-->
@@ -1022,7 +1022,10 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
 
 
 <!--footer block starts -->
-<?php include('php/footer.php'); ?>
+
+
+<?php include('php/includes-techsters/footer.php'); ?>
+
 
 <div id="modal-1" class="modalDialog">
     <div class="fill-your-details">
@@ -1034,7 +1037,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                     <div class=" row">
                         <div class="fill-your-details-cnt features">
                             <h3>Salient <span style="color:#76b543;">Features</span></h3>
-                            <p>1. 2N fault tolerant modular architecture providing at least 48 hours&#8217; power outage protection.</p>
+                            <p>1. 2N fault tolerant modular architecture providing at least 48 hoursâ€™ power outage protection.</p>
                             <p>2. Utility power through independent routes from dual substations</p>
                             <p>3. Lowest power cost in the Industry</p>
                             <p>4. 2N UPS and generator provisioning</p>
@@ -1064,7 +1067,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                     <div class=" row">
                         <div class="fill-your-details-cnt features">
                             <h3>Salient <span style="color:#76b543;">Features</span></h3>
-                            <p>1. N+1 fault-tolerant modular architecture provides at least 48 hours&#8217; of power outage protection.</p>
+                            <p>1. N+1 fault-tolerant modular architecture provides at least 48 hours of power outage protection.</p>
                             <p>2.Utility power through independent routes from dual substations</p>
                             <p>3. 2N ups and N+1 generator provisioning</p>
                             <p>4. N+1 cooling system redundancy for better temperature management</p>
@@ -1098,7 +1101,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         <div class="fill-your-details-cnt features">
                             <h3>Salient <span style="color:#76b543;">Features</span></h3>
 
-                            <p>1. N+1 Fault Tolerant Modular Architecture provides at least 48 hours&#8217; Power Outage Protection. </p>
+                            <p>1. N+1 Fault Tolerant Modular Architecture provides at least 48 hours&#8217 Power Outage Protection. </p>
                             <p>2. Utility Power through Independent Routes from Dual Substations </p>
                             <p>3. 2N Uninterruptible UPS, DG set and Redundant Utility Power </p>
                             <p>4. N+1 cooling system redundancy for better temperature management </p>

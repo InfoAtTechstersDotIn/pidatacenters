@@ -4,7 +4,8 @@ $seo_description = "Get Complete Data Center Design & Planning Assistance with E
 $seo_keywords = "data center design, data center planning, data center reference design, data center infrastructure design, data center design architecture";
 ?>
 
-<?php include('php/inner-header.php'); ?>
+<?php include('php/includes-techsters/header.php'); ?>
+
 <!-- main starts here -->
 <div class="about-banner">
     <div class="about-banner-blk">
@@ -92,7 +93,8 @@ $seo_keywords = "data center design, data center planning, data center reference
 </div>
 <!--start-your-journey starts here -->
 
-<?php include('php/footer.php'); ?>
+<?php include('php/includes-techsters/footer.php'); ?>
+
 
 
 

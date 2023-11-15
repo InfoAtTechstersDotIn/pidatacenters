@@ -4,7 +4,11 @@ $seo_description = "Unify Software Development Complexes with DevOps Software in
 $seo_keywords = "unify software development, IT operations, devops software development, leading cloud platforms, continuous integration, devops in datacenters, Devops software, devops software in data centers";
 ?>
 
-<?php include('php/inner-header.php'); ?>
+
+
+
+<?php include('php/includes-techsters/header.php'); ?>
+
 <!-- main starts here -->
 
 <div class="about-banner">
@@ -59,7 +63,9 @@ $seo_keywords = "unify software development, IT operations, devops software deve
 </div>
 
 
-<?php include('php/footer.php'); ?>
+
+
+<?php include('php/includes-techsters/footer.php'); ?>
 
 
 

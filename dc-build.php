@@ -4,13 +4,14 @@ $seo_description = "Data Center Building Guidance by Pi Datacenters | Get Comple
 $seo_keywords = "Data center build, data center technology, network security, IT infrastructure, Data center network ";
 ?>
 
-<?php include('php/inner-header.php'); ?>
+<?php include('php/includes-techsters/header.php'); ?>
+
 <!-- main starts here -->
 
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/dc-build-banner.jpg" alt="dc-build-banner" width="1920" height="210">
-        <h2>Data Center Build & operate</h2>
+        <h2>Data Center Build & Operate</h2>
 
     </div>
 </div>
@@ -43,7 +44,7 @@ $seo_keywords = "Data center build, data center technology, network security, IT
                     <h2>Data Center Build</h2>
                     <p class="paraclassinfo">Both Greenfield and Brown field Project Modes</p>
                     <p class="paraclassinfo">SITC (Supply Installation Testing & Commissioning) of Data Center Infra components</p>
-                    <p class="paraclassinfo">Setup Physical security layers (Bollards, Baggage/Body Scanners, CCTV, Biometric access, Turnstiles, Tubestiles, Electric fencing etcâ€¦)</p>
+                    <p class="paraclassinfo">Setup Physical security layers (Bollards, Baggage/Body Scanners, CCTV, Biometric access, Turnstiles, Tubestiles, Electric fencing etc...)</p>
                     <p class="paraclassinfo">Design Certification </p>
                 </div>
             </div>
@@ -51,8 +52,8 @@ $seo_keywords = "Data center build, data center technology, network security, IT
                 <div class="data-center-design-planing-cnt">
                     <h3>WHY Pi FOR DATA CENTER BUILD AND OPERATE?</h3>
                     <p class="paraclassinfo">Indigenous/In-house design and solutions</p><br>
-                    <p class="paraclassinfo">Inhouse ATDs (Accredited Tier Designers) â€“ No need to hire consultants</p><br>
-                    <p class="paraclassinfo">Inhouse ATS (Accredited Tier Specialist) â€“ No need to hire consultants</p><br>
+                    <p class="paraclassinfo">Inhouse ATDs (Accredited Tier Designers) -  No need to hire consultants</p><br>
+                    <p class="paraclassinfo">Inhouse ATS (Accredited Tier Specialist) - No need to hire consultants</p><br>
                     <p class="paraclassinfo">End-to-end support in Data Center Build</p><br>
                     <p class="paraclassinfo">Support in Tier Certifications</p><br>
                     <p class="paraclassinfo">Support in O & M</p>
@@ -104,7 +105,7 @@ $seo_keywords = "Data center build, data center technology, network security, IT
 
 <!--footer block starts -->
 
-<?php include('php/footer.php'); ?>
+<?php include('php/includes-techsters/footer.php'); ?>
 
 
 <!--footer ends-->

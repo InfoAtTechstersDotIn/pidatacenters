@@ -11,9 +11,9 @@ $seo_keywords = "Fast Growing Data Center in India, Best Cloud Infrastructure, B
     }
   </style>
 </head>
+<?php include('php/includes-techsters/header.php'); ?>
 
 
-<?php include('php/inner-header.php'); ?>
 
 <?php
 $servername = "localhost";
@@ -342,7 +342,7 @@ if ($conn->connect_error) {
   <!--footer block starts -->
 
 
-  <?php include('php/footer.php'); ?>
+  <?php include('php/includes-techsters/header.php'); ?>
 
 
   <!--footer ends-->

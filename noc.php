@@ -4,7 +4,9 @@ $seo_description = "Manage Complex Network Infrastructure with a World-Class Net
 $seo_keywords = "Network Operating Center, network operations center,  network troubleshooting, software distribution, complex network infrastructure, Patch management software";
 ?>
 
-<?php include('php/inner-header.php'); ?>
+
+<?php include('php/includes-techsters/header.php'); ?>
+
 <!-- main starts here -->
 
 <div class="about-banner">
@@ -78,7 +80,10 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
   </div>
 </div>
 
-<?php include('php/footer.php'); ?>
+<?php include('php/includes-techsters/footer.php'); ?>
+
+
+
 
 <!--footer ends-->
 <!-- wrapper ends -->

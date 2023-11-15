@@ -4,7 +4,11 @@ $seo_description = "Best Remote Infrastructure Management Services in India by P
 $seo_keywords = "RIMS, remote infrastructure management, remote infrastructure management services, remote infrastructure management solutions, rim services,  Network Operations Center, Security Operations Center, Infrastructure Security, Enterprise application management, Data Center migration services";
 ?>
 
-<?php include('php/inner-header.php'); ?>
+
+
+
+<?php include('php/includes-techsters/header.php'); ?>
+
 <!-- main starts here -->
 <div class="about-banner">
     <div class="about-banner-blk">
@@ -678,9 +682,9 @@ $seo_keywords = "RIMS, remote infrastructure management, remote infrastructure m
 </div>
 
 <!--footer block starts -->
-<?php include('php/footer.php'); ?>
 
 
+<?php include('php/includes-techsters/footer.php'); ?>
 
 
 <!--footer ends-->
