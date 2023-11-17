@@ -532,10 +532,11 @@ backdrop-filter: blur(42px);
         .modal-dialog {
             top: 25%;
         }
-        
+        /*         
         .pop_up form input {
             padding: 3px 10px !important;
         }
+         */
         
         .modal-body {
             padding: 0.5rem !important;

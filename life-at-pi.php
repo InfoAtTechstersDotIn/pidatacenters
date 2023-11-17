@@ -12,7 +12,10 @@ $seo_keywords = "Life At Pi, work culture at pi datacenters, best data centers, 
   </style>
 </head>
 
-<?php include('php/inner-header.php'); ?>
+
+
+<?php include('php/includes-techsters/header.php'); ?>
+
 <!-- main starts here -->
 
 <div class="about-banner">
@@ -96,8 +99,9 @@ $seo_keywords = "Life At Pi, work culture at pi datacenters, best data centers, 
     </div>
   </div>
 </div>
-<?php include('php/footer.php'); ?>
 
+
+<?php include('php/includes-techsters/footer.php'); ?>
 
 
 

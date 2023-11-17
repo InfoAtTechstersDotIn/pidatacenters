@@ -16,7 +16,10 @@ $seo_keywords = "Fast Growing Data Center in India, Best Cloud Infrastructure, B
 
 
 <?php
-$servername = "localhost";
+
+
+
+$servername = "172.20.119.52";
 $username = "marcom";
 $password = "TR*viv3mo?!q";
 $dbname = "search8c_pi";
@@ -27,6 +30,10 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
+
+
+
+
 ?>
 <!-- main starts here -->
 <div class="about-banner">

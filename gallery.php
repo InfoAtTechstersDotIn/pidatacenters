@@ -5,9 +5,10 @@
     }
   </style>
 </head>
-<?php include('php/inner-header.php'); ?>
+<?php include('php/includes-techsters/header.php'); ?>
 <?php
-$servername = "localhost";
+//$servername = "localhost";
+$servername = "172.20.119.52";
 $username = "marcom";
 $password = "TR*viv3mo?!q";
 $dbname = "search8c_pi";
@@ -139,7 +140,7 @@ if ($conn->connect_error) {
 </div>
 <br>
 <br>
-<?php include('php/footer.php'); ?>
+<?php include('php/includes-techsters/footer.php'); ?>
 
 
 

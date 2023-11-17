@@ -1,7 +1,13 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+<?php
+$site_url="http://localhost/pidatacenters-main/"
+?>
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Header</title>
@@ -15,15 +21,25 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $site_url?>press-style.css">
+
+    <link rel="stylesheet" type="text/css" href="<?php echo $site_url?>css/picloud/styles.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $site_url?>css/picloud/style-2.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $site_url?>css/picloud/minified/common.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $site_url?>css/picloud/minified/darkmode.css">
+
+
+    <link rel="stylesheet" type="text/css" href="<?php echo $site_url?>press-style.css">
+
 
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.css" type="https://103.210.75.115/text/css">
     <link rel="stylesheet" href="https://103.210.75.115/css/menu.css" type="text/css">
     <link rel="stylesheet" href="https://103.210.75.115/css/main-test.css" type="text/css">
-    <link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick.css" type="https://103.210.75.115/text/css">
+    <link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick.css" type="text/css">
     <link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick-theme.css" type="text/css">
-    <link rel="stylesheet" href="https://103.210.75.115/css/style-test.css" type="text/css">
+    <!-- <link rel="stylesheet" href="https://103.210.75.115/css/style-test.css" type="text/css"> -->
     <link href="https://103.210.75.115/press-style.css" rel="stylesheet">
     <link href="https://103.210.75.115/css/responsive-test.css" rel="stylesheet" type="text/css">
     <link rel="canonical" href="<?php echo $seo_canonical; ?>" />
@@ -38,11 +54,7 @@
 
 <body>
 
-<?php
 
-$site_url="http://localhost/pidatacenters-main/"
-
-?>
 
     <div class="header desktop">
         <div class="container-fluid">
@@ -74,7 +86,7 @@ $site_url="http://localhost/pidatacenters-main/"
                                 <div class="drop-down">
                                     <ul>
                                         <li>
-                                            <a href="#">Colocation</a>
+                                            <a href="<?php echo $site_url ?>data-center-infrastructure-services.php">Colocation</a>
                                         </li>
                                         <li>
                                             <a href="<?php echo $site_url ?>data-center-infrastructure-services-advisory.php">Data Center Infrastructure & Services</a>
@@ -104,23 +116,27 @@ $site_url="http://localhost/pidatacenters-main/"
                                 <div class="drop-down">
                                     <ul>
                                         <li>
-                                            <a href="#">Public Cloud</a>
+                                            <a href="<?php echo $site_url ?>public-cloud.php">Public Cloud</a>
                                         </li>
                                         <li>
-                                            <a href="#">Private Cloud</a>
+                                            <a href="<?php echo $site_url ?>compute.php">Private Cloud</a>
                                         </li>
                                         <li>
-                                            <a href="#">SAP on Cloud</a>
+                                            <a href="<?php echo $site_url ?>sap.php">SAP on Cloud</a>
                                         </li>
+
                                         <li>
-                                            <a href="#">Other Could Services</a>
+                                            <a href="<?php echo $site_url ?>industry-solutions.php">Industry Solutions</a>
+                                        </li>
+
+
+                                        <li>
+                                            <!-- <a href="#">Other Could Services</a> -->
                                         </li>
                                         <li>
                                             <a href="#">Cloud Enablement</a>
                                         </li>
-                                        <li>
-                                            <a href="#">Industry Solutions</a>
-                                        </li>
+                                    
                                         <li>
                                             <a href="#">Cloud Certifications</a>
                                         </li>
@@ -229,13 +245,13 @@ $site_url="http://localhost/pidatacenters-main/"
                                                         <a href="<?php echo $site_url ?>case-studies.php">Case Studies</a>
                                                     </li>
                                                     <li>
-                                                        <a href="<?php echo $site_url ?>">Blogs</a>
+                                                        <a href="<?php echo $site_url ?>blogs.php">Blogs</a>
                                                     </li>
                                                     <li>
-                                                        <a href="<?php echo $site_url ?>">Whitepapers</a>
+                                                        <a href="<?php echo $site_url ?>whitepapers.php">Whitepapers</a>
                                                     </li>
                                                     <li>
-                                                        <a href="<?php echo $site_url ?>">Brochure</a>
+                                                        <a href="<?php echo $site_url ?>brochure.php">Brochure</a>
                                                     </li>
                                                     <li>
                                                         <a href="<?php echo $site_url ?>">Knowledge Hub</a>
@@ -249,13 +265,13 @@ $site_url="http://localhost/pidatacenters-main/"
                                             <div class="sub_drop_down">
                                                 <ul>
                                                     <li>
-                                                        <a href="#">Press Release</a>
+                                                        <a href="<?php echo $site_url ?>press-releases.php">Press Release</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#">Gallery</a>
+                                                        <a href="<?php echo $site_url ?>gallery.php">Gallery</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#">Videos</a>
+                                                        <a href="<?php echo $site_url ?>videos.php">Videos</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -266,11 +282,14 @@ $site_url="http://localhost/pidatacenters-main/"
                                             <div class="sub_drop_down">
                                                 <ul>
                                                     <li>
-                                                        <a href="#">Privacy Policy</a>
+                                                        <a href="<?php echo $site_url ?>privacy-policy.php">Privacy Policy</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#">Acceptable Use Policy</a>
+                                                        <a href="<?php echo $site_url ?>acceptable-use-policy.php">Acceptable Use Policy</a>
                                                     </li>
+
+
+                                                    <li><a href="<?php echo $site_url ?>terms-conditions.php">Terms and Conditions</a></li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -280,17 +299,17 @@ $site_url="http://localhost/pidatacenters-main/"
                                             <div class="sub_drop_down">
                                                 <ul>
                                                     <li>
-                                                        <a href="#">Life at Pi</a>
+                                                        <a href="<?php echo $site_url ?>life-at-pi.php">Life at Pi</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#">Openings</a>
+                                                        <a href="<?php echo $site_url ?>work-with-us.php">Openings</a>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </li>
 
                                         <li>
-                                            <a href="#">Contact us</a>
+                                            <a href="<?php echo $site_url ?>contact-us.php">Contact us</a>
                                         </li>
 
                                 </div>
@@ -573,6 +592,8 @@ $site_url="http://localhost/pidatacenters-main/"
     </div>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         function openNav() {
             var sidenav = document.getElementById("mySidenav");
