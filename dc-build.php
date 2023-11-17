@@ -10,7 +10,7 @@ $seo_keywords = "Data center build, data center technology, network security, IT
 
 <div class="about-banner">
     <div class="about-banner-blk">
-        <img src="images/dc-build-banner.jpg" alt="dc-build-banner" width="1920" height="210">
+        <img src="images/dc-build-banner.jpg" alt="dc-build-banner" width="1920" height="210" class="datacenter-services-img">
         <h2>Data Center Build & Operate</h2>
 
     </div>
@@ -52,7 +52,7 @@ $seo_keywords = "Data center build, data center technology, network security, IT
                 <div class="data-center-design-planing-cnt">
                     <h3>WHY Pi FOR DATA CENTER BUILD AND OPERATE?</h3>
                     <p class="paraclassinfo">Indigenous/In-house design and solutions</p><br>
-                    <p class="paraclassinfo">Inhouse ATDs (Accredited Tier Designers) -  No need to hire consultants</p><br>
+                    <p class="paraclassinfo">Inhouse ATDs (Accredited Tier Designers) - No need to hire consultants</p><br>
                     <p class="paraclassinfo">Inhouse ATS (Accredited Tier Specialist) - No need to hire consultants</p><br>
                     <p class="paraclassinfo">End-to-end support in Data Center Build</p><br>
                     <p class="paraclassinfo">Support in Tier Certifications</p><br>
