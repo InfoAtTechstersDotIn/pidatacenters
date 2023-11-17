@@ -18,7 +18,7 @@ $seo_keywords = "Datacenter certifications, meity certified cloud service provid
 <!-- main starts here -->
 <div class="about-banner">
   <div class="about-banner-blk">
-    <img src="images/certificsations-banner-img.jpg" alt="certificsations-banner-img" width="1920" height="210">
+    <img src="images/certificsations-banner-img.jpg" alt="certificsations-banner-img" width="1920" height="210" class="datacenter-services-img">
     <h2>Certifications</h2>
 
   </div>
@@ -104,38 +104,65 @@ $seo_keywords = "Datacenter certifications, meity certified cloud service provid
             <img src="images/certification-8.jpg" alt="certification-1" width="543" height="664">
           </figure>
         </li>
-        <li class="col-md-3"></li>
+        <li class="col-md-3">
+          <figure>
+            <img src="images/certification-15.png" alt="certification-1" width="543" height="664">
+          </figure>
+        </li>
+        <li class="col-md-3">
+          <figure>
+            <img src="images/certification-16.png" alt="certification-1" width="543" height="664">
+          </figure>
+        </li>
+
+
+
 
       </ul>
       <ul class="slider certifications-mbl">
         <li class="col-md-4">
           <figure>
-            <img src="images/certification-1.png" alt="certification-1" width="543" height="664">
+            <img src="images/certification-13.jpg" alt="certification-1" width="543" height="664">
           </figure>
         </li>
         <li class="col-md-4">
           <figure>
-            <img src="images/certification-2.png" alt="certification-2" width="543" height="664">
+            <img src="images/certification-9.jpg" alt="certification-1" width="543" height="664">
           </figure>
         </li>
         <li class="col-md-4">
           <figure>
-            <img src="images/certification-3.png" alt="certification-1" width="543" height="664">
+            <img src="images/certificate-10.jpg" alt="certificate-10" width="543" height="664">
           </figure>
         </li>
         <li class="col-md-4">
           <figure>
-            <img src="images/certification-4.jpg" alt="certification-1" width="543" height="664">
+            <img src="images/iso_1.jpg" alt="certification-1" width="543" height="664">
           </figure>
         </li>
         <li class="col-md-4">
           <figure>
-            <img src="images/certification-5.jpg" alt="certification-1" width="543" height="664">
+            <img src="images/iso_2.jpg" alt="certification-1" width="543" height="664">
           </figure>
         </li>
         <li class="col-md-4">
           <figure>
-            <img src="images/certification-6.jpg" alt="certification-1" width="543" height="664">
+            <img src="images/iso_3.jpg" alt="certification-1" width="543" height="664">
+          </figure>
+        </li>
+        <li class="col-md-4">
+          <figure>
+            <img src="images/iso_4.jpg" alt="certification-1" width="543" height="664">
+          </figure>
+        </li>
+        <li class="col-md-4">
+          <figure>
+            <img src="images/iso_5.jpg" alt="certification-1" width="543" height="664">
+          </figure>
+        </li>
+        <li class="col-md-4">
+          <figure>
+            <img src="images/iso_6.jpg" alt="certification-1" width="543" height="664">
           </figure>
         </li>
         <li class="col-md-4">
@@ -150,29 +177,15 @@ $seo_keywords = "Datacenter certifications, meity certified cloud service provid
         </li>
         <li class="col-md-4">
           <figure>
-            <img src="images/certification-9.jpg" alt="certification-1" width="543" height="664">
+            <img src="images/certification-15.png" alt="certification-1" width="543" height="664">
           </figure>
         </li>
         <li class="col-md-4">
           <figure>
-            <img src="images/certification-10.jpg" alt="certification-1" width="543" height="664">
+            <img src="images/certification-16.png" alt="certification-1" width="543" height="664">
           </figure>
         </li>
-        <li class="col-md-4">
-          <figure>
-            <img src="images/certification-11.jpg" alt="certification-1" width="543" height="664">
-          </figure>
-        </li>
-        <li class="col-md-4">
-          <figure>
-            <img src="images/certification-12.jpg" alt="certification-1" width="543" height="664">
-          </figure>
-        </li>
-        <li class="col-md-4">
-          <figure>
-            <img src="images/certification-13.jpg" alt="certification-1" width="543" height="664">
-          </figure>
-        </li>
+
 
       </ul>
     </div>
