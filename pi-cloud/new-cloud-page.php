@@ -350,6 +350,9 @@ include_once('includes/header.php');
             <p>
                 Introducing "Pi Cloud," the embodiment of these ideals, brought to you by Pi Datacenters. As the nation's premier Enterprise Cloud Platform, Pi Cloud transcends the singular, evolving into a Multi Cloud Ecosystem that ushers in a new era of seamless integration. This ecosystem successfully converges diverse platforms, both private and public, with a platform-agnostic approach. Not merely content with integration, Pi Cloud goes further, assuming the role of a fully managed sanctuary for your cloud environments. The hallmark of Pi Cloud is its holistic view, effortlessly attainable through a single pane of glass. This vantage point offers more than just a snapshot; it's a panoramic window into your digital infrastructure. Swift time-to-market is the anthem here, offering enterprises the competitive edge they seek. As you march ahead in your operational journey, Pi Cloud is your steadfast companion, a testament to what happens when vision meets innovation.</p>
         </div>
+
+        <!--four--->
+
         <style>
             .cloud-icon {
                 background: linear-gradient(to top, #223f97, #76b543);
@@ -359,257 +362,251 @@ include_once('includes/header.php');
                 width: 130px;
                 height: auto;
                 margin-bottom: 20px;
+                animation: Shake 0.5s linear infinite;
             }
 
             .cloud-icon img {
                 width: 80px;
             }
-        </style>
 
+            .cloud {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+            }
+
+            .cloud:hover {
+                background-color: #223f971f;
+                border-radius: 10px;
+            }
+
+            .cloud-page-1,
+            .cloud-page-2,
+            .cloud-page-3 {
+                display: grid;
+                grid-template-columns: auto auto auto;
+                text-align: center;
+                gap: 20px;
+                padding-top: 10px;
+                justify-content: center;
+            }
+
+            .text-center {
+                text-align: justify;
+                max-width: 95%;
+                margin: 0 auto;
+            }
+
+            .cloud-page h4 {
+                margin: 10px 0;
+                font-size: 18px;
+            }
+
+            .hb-journeyCont>h3 {
+                text-align: center;
+            }
+
+            @keyframes Shake {
+                0% {
+                    transform: rotate(5deg);
+                }
+
+                25% {
+                    transform: rotate(-6deg);
+                }
+
+                50% {
+                    transform: rotate(5deg);
+                }
+
+                75% {
+                    transform: rotate(-6deg);
+                }
+
+                100% {
+                    transform: rotate(5deg);
+                }
+            }
+        </style>
 
         <div class="hb-journey">
             <div class="container">
                 <div class="hb-journeyCont">
                     <h3 class="text-center">Service <span style="color: #76b543;">Offerings</span></h3>
-                    <ul class="hb-journeyList list-inline cloud-page">
-                        <li class="hb-ListJouney">
-                            <!-- <div class="hb-Jimg">
-                            </div>-->
-
-
-                            <div class="hb-jCont">
-                                <div class="cloud-icon"><img src="../images/managed-services-icons/CIE.svg" alt="onesize"></div>
-
-                                <h4>Cloud Infrastructure Excellence</h4>
-                                <p>Immerse your applications, websites, and databases in our dependable and scalable cloud infrastructure. Revel in high availability, automatic backups, and effortless resource management. </p>
-                            </div>
-                        </li>
-                        <li class="hb-ListJouney">
-                            <div class="hb-Jimg">
-                                <!--<p>
-                            <img src="./pi-cloud/images/homepage/2.png" alt="migration">
-                        </p>-->
-                            </div>
-                            <div class="hb-jCont">
-                                <div class="cloud-icon"><img src="../images/managed-services-icons/CSB.svg" alt="onesize"></div>
-                                <h4>Cloud Storage Brilliance </h4>
-                                <p>Entrust your data to the cloud's secure integration. Our flexible storage solutions grant seamless access and file sharing while upholding data redundancy and compliance. </p>
-                            </div>
-                        </li>
-                        <li class="hb-ListJouney">
-                            <div class="hb-Jimg">
-                                <!--<p>
-                            <img src="./pi-cloud/images/homepage/3.png" alt="selfService">
-                        </p>-->
-                            </div>
-                            <div class="hb-jCont">
-                                <div class="cloud-icon"><img src="../images/managed-services-icons/CBR.svg" alt="onesize"></div>
-                                <h4>Cloud Backup and Resilience</h4>
-                                <p>Fortify your business against data loss and downtime through our cloud backup and disaster recovery prowess. Bounce back swiftly from unexpected incidents, minimizing operational disruptions. </p>
-                            </div>
-                        </li>
-                        <li class="hb-ListJouney">
-                            <div class="hb-Jimg">
-                                <!--<p>
-                            <img src="./pi-cloud/images/homepage/4.png" alt="futureReady">
-                        </p>-->
-                            </div>
-                            <div class="hb-jCont">
-                                <div class="cloud-icon"><img src="../images/managed-services-icons/SCM.svg" alt="onesize"></div>
-                                <h4>Seamless Cloud Migration</h4>
-                                <p>Delegate the seamless migration of your current systems and applications to our cloud experts. Transition gracefully, minimizing business hiccups.</p>
-                            </div>
-                        </li>
-                        <li class="hb-ListJouney">
-                            <div class="hb-Jimg">
-                                <!--<p>
-                            <img src="./pi-cloud/images/homepage/4.png" alt="futureReady">
-                        </p>-->
-                            </div>
-                            <div class="hb-jCont">
-                                <div class="cloud-icon"><img src="../images/managed-services-icons/CSM.svg" alt="onesize"></div>
-                                <h4>Cloud Security Mastery</h4>
-                                <p>Shield your cloud infrastructure and data with our holistic security services. From identity and access management to threat vigilance and compliance assurance, we're your comprehensive guardians. </p>
-                            </div>
-                        </li>
-                        <li class="hb-ListJouney">
-                            <div class="hb-Jimg">
-                                <!--<p>
-                            <img src="./pi-cloud/images/homepage/4.png" alt="futureReady">
-                        </p>-->
-                            </div>
-                            <div class="hb-jCont">
-                                <div class="cloud-icon"><img src="../images/managed-services-icons/PCCS.svg" alt="onesize"></div>
-                                <h4>Personalized Cloud Consulting and Support</h4>
-                                <p>Our cloud connoisseurs stand by, ready to offer tailored guidance and consistent support for your cloud expedition. Expert assistance is just a step away. </p>
-                            </div>
-                        </li>
-
-
-                    </ul>
                 </div>
+                <ul class="cloud-page-1">
+                    <li class="cloud">
+                        <div class="cloud-icon"><img src="../images/managed-services-icons/CIE.svg" alt="onesize"></div>
+                        <h4>Cloud Infrastructure Excellence</h4>
+                        <p>Immerse your applications, websites, and databases in our dependable and scalable cloud infrastructure. Revel in high availability, automatic backups, and effortless resource management. </p>
+                    </li>
+
+                    <li class="cloud">
+                        <div class="cloud-icon"><img src="../images/managed-services-icons/CSB.svg" alt="onesize"></div>
+                        <h4>Cloud Storage Brilliance </h4>
+                        <p>Entrust your data to the cloud's secure integration. Our flexible storage solutions grant seamless access and file sharing while upholding data redundancy and compliance. </p>
+                    </li>
+
+                    <li class="cloud">
+                        <div class="cloud-icon"><img src="../images/managed-services-icons/CBR.svg" alt="onesize"></div>
+                        <h4>Cloud Backup and Resilience</h4>
+                        <p>Fortify your business against data loss and downtime through our cloud backup and disaster recovery prowess. Bounce back swiftly from unexpected incidents, minimizing operational disruptions. </p>
+                    </li>
+
+                    <li class="cloud">
+                        <div class="cloud-icon"><img src="../images/managed-services-icons/SCM.svg" alt="onesize"></div>
+                        <h4>Seamless Cloud Migration</h4>
+                        <p>Delegate the seamless migration of your current systems and applications to our cloud experts. Transition gracefully, minimizing business hiccups.</p>
+                    </li>
+
+                    <li class="cloud">
+                        <div class="cloud-icon"><img src="../images/managed-services-icons/CSM.svg" alt="onesize"></div>
+                        <h4>Cloud Security Mastery</h4>
+                        <p>Shield your cloud infrastructure and data with our holistic security services. From identity and access management to threat vigilance and compliance assurance, we're your comprehensive guardians. </p>
+                    </li>
+
+                    <li class="cloud">
+                        <div class="cloud-icon"><img src="../images/managed-services-icons/PCCS.svg" alt="onesize"></div>
+                        <h4>Personalized Cloud Consulting and Support</h4>
+                        <p>Our cloud connoisseurs stand by, ready to offer tailored guidance and consistent support for your cloud expedition. Expert assistance is just a step away. </p>
+                    </li>
+
+                </ul>
             </div>
         </div>
 
-        <!--four--->
+
+
+
+
+
+
+
         <div class="hb-journey">
             <div class="container">
                 <div class="hb-journeyCont">
-                    <h3 class="text-center">Why Embrace Our Cloud Services? </h3>
-                    <ul class="hb-journeyList list-inline">
-                        <li class="hb-ListJouney">
-                            <div class="hb-Jimg">
-                                <!--<p>
-                            <img src="./pi-cloud/images/homepage/1.png" alt="onesize">
-                        </p>-->
-                            </div>
-                            <div class="hb-jCont">
-                                <h4>Scalability</h4>
-                                <p>Bid farewell to hardware restraints and costly upgrades. Our cloud solutions provide scalable infrastructure that grows hand in hand with your business, be it through seasonal surges or exponential expansion. </p>
-                            </div>
-                        </li>
-                        <li class="hb-ListJouney">
-                            <div class="hb-Jimg">
-                                <!--<p>
-                            <img src="./pi-cloud/images/homepage/2.png" alt="migration">
-                        </p>-->
-                            </div>
-                            <div class="hb-jCont">
-                                <h4>Boundless Flexibility: </h4>
-                                <p>Unleash the liberty to work anytime, anywhere. Our cloud services grant seamless access to your data, apps, and resources from any device with an internet tether. Be productive and collaborative, regardless of your team's location. </p>
-                            </div>
-                        </li>
-                        <li class="hb-ListJouney">
-                            <div class="hb-Jimg">
-                                <!--<p>
-                            <img src="./pi-cloud/images/homepage/3.png" alt="selfService">
-                        </p>-->
-                            </div>
-                            <div class="hb-jCont">
-                                <h4>Cost-Effective Ingenuity</h4>
-                                <p>Sharpen your IT budget with our budget-friendly cloud solutions. Pay for what you use and dodge upfront hardware expenses. The pay-as-you-go model maximizes your investment's worth. </p>
-                            </div>
-                        </li>
-                        <li class="hb-ListJouney">
-                            <div class="hb-Jimg">
-                                <!--<p>
-                            <img src="./pi-cloud/images/homepage/4.png" alt="futureReady">
-                        </p>-->
-                            </div>
-                            <div class="hb-jCont">
-                                <h4>Reliability and Fortress-Level Security</h4>
-                                <p>Trust in the safety of your data within our cloud realm. Our potent security protocols, routine backups, and disaster recovery plans shield your critical data from potential threats, ensuring unceasing business flow. </p>
-                            </div>
-                        </li>
-                        <li class="hb-ListJouney" style="margin:0 auto;display:block">
-                            <div class="hb-Jimg">
-                                <!--<p>
-                            <img src="./pi-cloud/images/homepage/4.png" alt="futureReady">
-                        </p>-->
-                            </div>
-                            <div class="hb-jCont">
-                                <h4 style="text-align:center">Top-Tier Performance</h4>
-                                <p> Immerse yourself in top-notch performance and diminished latency through our high-speed cloud infrastructure. Our cutting-edge data centers and advanced technology ensure a prime user experience for your services and applications. </p>
-                            </div>
-                        </li>
-                        <!--<li class="hb-ListJouney">
-                    <div class="hb-Jimg">
-                        <p>
-                            <img src="./pi-cloud/images/homepage/4.png" alt="futureReady">
-                        </p>
-                    </div>
-                    <div class="hb-jCont">
-                        <h4>Personalized Cloud Consulting and Support</h4>
-                        <p>Our cloud connoisseurs stand by, ready to offer tailored guidance and consistent support for your cloud expedition. Expert assistance is just a step away.  </p>
-                    </div>
-                </li>-->
-
-
-                    </ul>
+                    <h3 class="text-center">Why Embrace <span style="color: #76b543;">Pi Cloud Services?<span> </h3>
                 </div>
+                <ul class="cloud-page-2">
+                    <li class="cloud">
+                        <div class="cloud-icon"><img src="../images/managed-services-icons/scalability (2).svg" alt="onesize"></div>
+                        <h4>Scalability</h4>
+                        <p>Bid farewell to hardware restraints and costly upgrades. Our cloud solutions provide scalable infrastructure that grows hand in hand with your business, be it through seasonal surges or exponential expansion. </p>
+                    </li>
+
+                    <li class="cloud">
+                        <div class="cloud-icon"><img src="../images/managed-services-icons/BF.svg" alt="onesize"></div>
+                        <h4>Boundless Flexibility: </h4>
+                        <p>Unleash the liberty to work anytime, anywhere. Our cloud services grant seamless access to your data, apps, and resources from any device with an internet tether. Be productive and collaborative, regardless of your team's location. </p>
+                    </li>
+
+                    <li class="cloud">
+                        <div class="cloud-icon"><img src="../images/managed-services-icons/CEI.svg" alt="onesize"></div>
+                        <h4>Cost-Effective Ingenuity</h4>
+                        <p>Sharpen your IT budget with our budget-friendly cloud solutions. Pay for what you use and dodge upfront hardware expenses. The pay-as-you-go model maximizes your investment's worth. </p>
+                    </li>
+                </ul>
+
+                <ul class="cloud-page-3">
+                    <li class="cloud">
+                        <div class="cloud-icon"><img src="../images/managed-services-icons/RFLS.svg" alt="onesize"></div>
+                        <h4>Reliability and Fortress-Level Security</h4>
+                        <p>Trust in the safety of your data within our cloud realm. Our potent security protocols, routine backups, and disaster recovery plans shield your critical data from potential threats, ensuring unceasing business flow. </p>
+                    </li>
+
+                    <li class="cloud">
+                        <div class="cloud-icon"><img src="../images/managed-services-icons/TTP.svg" alt="onesize"></div>
+                        <h4 style="text-align:center">Top-Tier Performance</h4>
+                        <p> Immerse yourself in top-notch performance and diminished latency through our high-speed cloud infrastructure. Our cutting-edge data centers and advanced technology ensure a prime user experience for your services and applications. </p>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="hb-cloudCont text-center">
-            <p><b>Embark on Tomorrow's Computing with Pi Cloud Services </b> </p>
-            <p>Ditch conventional IT constraints and embrace cloud agility and innovation. Let's propel your enterprise to unprecedented altitudes through the cloud's prowess! </p>
-        </div>
-
-        <div class="hb-coudBoxes">
-            <ul class="list-inline hb-boxLists">
-                <li>
-                    <div class="hb-boxCont text-center">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-                            <span>
-                                <img src="./<?= $config['subFolderName'] ?>/images/Ba20.png" alt="data">
-                            </span>
-                            <span><strong>Data Localisation</strong></span>
-                            <span>Absolute regulatory compliance to the digital data protection laws of land, of India!!</span>
-                        </a>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="hb-boxCont text-center">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-                            <span>
-                                <img src="./<?= $config['subFolderName'] ?>/images/Ba21.png" alt="scale">
-                            </span>
-                            <span><strong>Flexibility @ Core</strong></span>
-                            <span>Get the built-in flexibility of a public cloud, while being on board a secured private cloud</span>
-
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="hb-boxCont text-center">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-                            <span>
-                                <img src="./<?= $config['subFolderName'] ?>/images/Ba22.png" alt="scale">
-                            </span>
-                            <span><strong>Hypervisor of Choice</strong></span>
-                            <span> Enterprises get to pick the hypervisor of choice for thier workloads</span>
-
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="hb-boxCont text-center">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-                            <span>
-                                <img src="./<?= $config['subFolderName'] ?>/images/Ba23.png" alt="scale">
-                            </span>
-                            <span><strong>Scale @ Will</strong></span>
-                            <span>Multi-dimensional and real-time scaling of resources aligned to Enterprise business needs</span>
-
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="hb-boxCont text-center">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-                            <span>
-                                <img src="./<?= $config['subFolderName'] ?>/images/Ba24.png" alt="multi">
-                            </span>
-                            <span><strong>Multi-Tiered Security</strong></span>
-                            <span>Zoned security layers protecting data from vulnerabilities and threats</span>
-
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="hb-boxCont text-center">
-                        <a href="javascript:void(0)" style="cursor: auto;">
-                            <span>
-                                <img src="./<?= $config['subFolderName'] ?>/images/Ba25.png" alt="uptime">
-                            </span>
-                            <span><strong>99.995% Uptime Availability</strong></span>
-                            <span>Delivered out of self-owned, multi locale Uptime Institute TIER IV data centers </span>
-                        </a>
-                    </div>
-                </li>
-            </ul>
-        </div>
     </div>
+</div>
+
+<div class="hb-cloudCont text-center">
+    <p><b>Embark on Tomorrow's Computing with Pi Cloud Services </b> </p>
+    <p>Ditch conventional IT constraints and embrace cloud agility and innovation. Let's propel your enterprise to unprecedented altitudes through the cloud's prowess! </p>
+</div>
+
+<div class="hb-coudBoxes">
+    <ul class="list-inline hb-boxLists">
+        <li>
+            <div class="hb-boxCont text-center">
+                <a href="javascript:void(0)" style="cursor: auto;">
+                    <span>
+                        <img src="./<?= $config['subFolderName'] ?>/images/Ba20.png" alt="data">
+                    </span>
+                    <span><strong>Data Localisation</strong></span>
+                    <span>Absolute regulatory compliance to the digital data protection laws of land, of India!!</span>
+                </a>
+            </div>
+        </li>
+
+        <li>
+            <div class="hb-boxCont text-center">
+                <a href="javascript:void(0)" style="cursor: auto;">
+                    <span>
+                        <img src="./<?= $config['subFolderName'] ?>/images/Ba21.png" alt="scale">
+                    </span>
+                    <span><strong>Flexibility @ Core</strong></span>
+                    <span>Get the built-in flexibility of a public cloud, while being on board a secured private cloud</span>
+
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="hb-boxCont text-center">
+                <a href="javascript:void(0)" style="cursor: auto;">
+                    <span>
+                        <img src="./<?= $config['subFolderName'] ?>/images/Ba22.png" alt="scale">
+                    </span>
+                    <span><strong>Hypervisor of Choice</strong></span>
+                    <span> Enterprises get to pick the hypervisor of choice for thier workloads</span>
+
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="hb-boxCont text-center">
+                <a href="javascript:void(0)" style="cursor: auto;">
+                    <span>
+                        <img src="./<?= $config['subFolderName'] ?>/images/Ba23.png" alt="scale">
+                    </span>
+                    <span><strong>Scale @ Will</strong></span>
+                    <span>Multi-dimensional and real-time scaling of resources aligned to Enterprise business needs</span>
+
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="hb-boxCont text-center">
+                <a href="javascript:void(0)" style="cursor: auto;">
+                    <span>
+                        <img src="./<?= $config['subFolderName'] ?>/images/Ba24.png" alt="multi">
+                    </span>
+                    <span><strong>Multi-Tiered Security</strong></span>
+                    <span>Zoned security layers protecting data from vulnerabilities and threats</span>
+
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="hb-boxCont text-center">
+                <a href="javascript:void(0)" style="cursor: auto;">
+                    <span>
+                        <img src="./<?= $config['subFolderName'] ?>/images/Ba25.png" alt="uptime">
+                    </span>
+                    <span><strong>99.995% Uptime Availability</strong></span>
+                    <span>Delivered out of self-owned, multi locale Uptime Institute TIER IV data centers </span>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+</div>
 </div>
 <!-- *******Journey starts here************** -->
 <div class="hb-journey">
