@@ -10,6 +10,10 @@ $seo_keywords = "Data Center & Cloud related services, reliable Data Center & Cl
         #myBtn2 {
             display: none;
         }
+
+        .modal-content {
+            margin: 10% auto !important;
+        }
     </style>
 </head>
 <?php include('php/inner-header.php'); ?>
@@ -164,7 +168,7 @@ if ($conn->connect_error) {
                                                 </div>
                                             </div>
                                             <div class="testimonial-content-btm">
-                                                <p>Pi DATACENTERSÂ® , with their proven experience in working with banks and NBFCs, made it simple for us to colocate our servers to their Data Centers. They began helping us plan our journey. </p>
+                                                <p>Pi DATACENTERS® , with their proven experience in working with banks and NBFCs, made it simple for us to colocate our servers to their Data Centers. They began helping us plan our journey. </p>
                                                 <a href="#modal-4">Read more</a>
                                             </div>
                                         </div>
@@ -189,6 +193,48 @@ if ($conn->connect_error) {
                                             <div class="testimonial-content-btm">
                                                 <p>As a rapidly expanding cooperative bank celebrating its 25th anniversary, we found an indispensable partner in Pi Datacenters. </p>
                                                 <a href="#modal-7">Read more</a>
+                                            </div>
+                                        </div>
+
+                                    </li>
+
+
+                                    <li class="col-md-4">
+
+                                        <div class="testimonial-content">
+                                            <div class="testimonial-content-top row">
+                                                <div class="testimonial-content-lt col-4">
+                                                    <figure>
+                                                        <img src="images/testimonials/Oknet.png" alt="testimonial-4" width="98" height="98">
+                                                    </figure>
+                                                </div>
+                                                <div class="testimonial-content-rt col-8">
+                                                </div>
+                                            </div>
+                                            <div class="testimonial-content-btm">
+                                                <p>Migration to SAP on cloud was made seamless & effective by the Pi team. The very tight timelines and schedules were perfectly met with no compromise on quality.</p>
+                                                <a href="#modal-8">Read more</a>
+                                            </div>
+                                        </div>
+
+                                    </li>
+
+
+                                    <li class="col-md-4">
+
+                                        <div class="testimonial-content">
+                                            <div class="testimonial-content-top row">
+                                                <div class="testimonial-content-lt col-4">
+                                                    <figure>
+                                                        <img src="images/testimonials/Genus .png" alt="testimonial-4" width="98" height="98">
+                                                    </figure>
+                                                </div>
+                                                <div class="testimonial-content-rt col-8">
+                                                </div>
+                                            </div>
+                                            <div class="testimonial-content-btm">
+                                                <p> We were looking at viable options for hosting our smart metering R&D infrastructure on the cloud. As a part of this exercise, we evaluated multiple global and Indian cloud solutions.</p>
+                                                <a href="#modal-9">Read more</a>
                                             </div>
                                         </div>
 
@@ -539,6 +585,69 @@ if ($conn->connect_error) {
 </div>
 
 
+
+<div id="modal-8" class="modalDialog">
+    <div>
+        <a href="#close" title="Close" class="close">x</a>
+        <div class="modal-content">
+            <div class="modal-container">
+                <div class="modal-body">
+                    <div class="director-cnt row">
+                        <div class="director-lt col-md-4">
+                            <img src="images/testimonials/Oknet-img.png" alt="pdcc-img" width="729" height="943">
+
+                        </div>
+                        <div class="director-rt col-md-8">
+
+                            <p>&#8220; Migration to SAP on cloud was made seamless & effective by the Pi team. The very tight timelines and schedules were perfectly met with no compromise on quality. &#8221;</p>
+                            <h3>Hariharan Balakrishnan
+                            </h3>
+                            <h4>SAP Head
+                            </h4>
+                            <h5>Oaknet Healthcare</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="modal-9" class="modalDialog">
+    <div>
+        <a href="#close" title="Close" class="close">x</a>
+        <div class="modal-content">
+            <div class="modal-container">
+                <div class="modal-body">
+                    <div class="director-cnt row">
+                        <div class="director-lt col-md-4">
+                            <img src="images/testimonials/Genus-img.png" alt="pdcc-img" width="729" height="943">
+
+                        </div>
+                        <div class="director-rt col-md-8">
+
+                            <p>&#8220; We were looking at viable options for hosting our smart metering R&D infrastructure on the cloud. As a part of this exercise, we evaluated multiple global and Indian cloud solutions. After an extensive period of due diligence, we finalized our selection of Pi Cloud. The major driving factors for choosing Pi were its simple architecture, dedicated support model, and cost-effectiveness. Since our first collaboration, the association has grown significantly. &#8221;</p>
+                            <h3>Mr. Abhrajit De
+                            </h3>
+                            <h4>Executive Vice President
+                            </h4>
+                            <h5>Information Systems Genus Power Infrastructures Ltd</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
 <div id="modal-video-1" class="modalDialog">
     <div>
         <a href="#close" title="Close" class="close">x</a>
@@ -567,7 +676,7 @@ if ($conn->connect_error) {
                         </div>
                         <div class="director-rt col-12">
                             <h3>Client Testimonial - In Conversation with Group CTO, Kirloskar Management Services</h3>
-                            <p>Listen to @Mandar Sahasrabudhe, Group CTO, Kirloskar Management Services, speaking on the driving factors behind Kirloskar groupsâ€™ #GoCloud initiatives and how they zeroed in on Pi as their partner of choice in this incredible journey of #KirloskarLimitless
+                            <p>Listen to @Mandar Sahasrabudhe, Group CTO, Kirloskar Management Services, speaking on the driving factors behind Kirloskar groups’ #GoCloud initiatives and how they zeroed in on Pi as their partner of choice in this incredible journey of #KirloskarLimitless
 
                                 A #testimonial story from a very #happyclient</p>
                         </div>
@@ -729,6 +838,8 @@ if ($conn->connect_error) {
 
 <!--footer ends-->
 </div>
+
+
 
 
 <!-- wrapper ends -->
