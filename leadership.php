@@ -344,7 +344,7 @@
             <div class="board-of-directors-management">
               <img src="images/raviku.jpg" alt="mangement-9" width="525" height="580">
               <h4>Ravi Kumar Kanchaboina </h4>
-              <p>Director and Business Head <br>Multi Cloud & Managed Services</p>
+              <p>Director and Business Head <br>Cloud and Managed Services</p>
               <div class="linked-in-icon">
                 <a href="https://www.linkedin.com/in/ravi-kumar-3812b521/" target="_blank">
                   <img src="images/linkedin-icon.png" width="90" height="30" alt="linkedin-icon">
@@ -532,7 +532,7 @@
           <div class="board-of-directors-management">
             <img src="images/Ravi-Kumar-Kanchaboina.png" alt="mangement-9" width="525" height="580">
             <h4>Ravi Kumar Kanchaboina </h4>
-            <p>Director and Business Head <br>Multi Cloud & Managed Services</p>
+            <p>Director and Business Head <br>Cloud and Managed Services</p>
             <div class="linked-in-icon">
               <a href="https://www.linkedin.com/in/ravi-kumar-3812b521/" target="_blank">
                 <img src="images/linkedin-icon.png" width="90" height="30" alt="linkedin-icon">
