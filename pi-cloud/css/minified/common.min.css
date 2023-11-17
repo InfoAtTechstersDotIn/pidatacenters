@@ -4171,7 +4171,7 @@ footer>div>p {
 
 .cloud-icon,
 .cloud-icon2 {
-    background: radial-gradient(#223f97, #76b543, #223f97, #76b543);
+    background: radial-gradient(#1B1464, #a29bfe, #1B1464, #a29bfe);
     padding: 25px;
     text-align: center;
     border-radius: 183px;
@@ -4181,7 +4181,7 @@ footer>div>p {
 }
 
 .cloud-icon2 {
-    background: radial-gradient(#76b543, #223f97, #76b543, #223f97);
+    background: radial-gradient(#a29bfe, #1B1464, #a29bfe, #1B1464);
 }
 
 .cloud-icon img {
@@ -4282,6 +4282,20 @@ footer>div>p {
     }
 }
 
+@media screen and (max-width:991px) {
+    .hb-ListJouney {
+        display: flex !important;
+    }
+
+    .hb-Jimg {
+        display: block !important;
+    }
+
+    .hb-jCont {
+        padding: 0 5px !important;
+    }
+}
+
 
 @media screen and (max-width:599px) {
 
@@ -4289,6 +4303,22 @@ footer>div>p {
     .cloud-page-2,
     .cloud-page-3 {
         display: block;
+    }
+
+    .hb-ListJouney {
+        display: flex !important;
+    }
+
+    .hb-Jimg {
+        display: block !important;
+    }
+
+    .hb-jCont {
+        padding: 0 5px !important;
+    }
+
+    .text-center {
+        padding: 0 15px;
     }
 }
 
