@@ -354,15 +354,19 @@ include_once('includes/header.php');
         <!--four--->
 
         <style>
-            .cloud-icon {
-                background: linear-gradient(to top, #223f97, #76b543);
+            .cloud-icon,
+            .cloud-icon2 {
+                background: radial-gradient(#223f97, #76b543, #223f97, #76b543);
                 padding: 25px;
                 text-align: center;
                 border-radius: 183px;
                 width: 130px;
                 height: auto;
                 margin-bottom: 20px;
-                animation: Shake 0.5s linear infinite;
+            }
+
+            .cloud-icon2 {
+                background: radial-gradient(#76b543, #223f97, #76b543, #223f97);
             }
 
             .cloud-icon img {
@@ -377,13 +381,28 @@ include_once('includes/header.php');
             }
 
             .cloud:hover {
-                background-color: #223f971f;
+                background-color: #ffffff00;
                 border-radius: 10px;
+                box-shadow: -3px 3px 8px black;
+                cursor: pointer;
             }
 
+            .cloud:hover .cloud-icon,
+            .cloud:hover .cloud-icon2 {
+                animation: Shake 0.5s linear infinite;
+            }
+
+            .cloud:hover .cloud h4 {
+                color: #76b543;
+            }
+
+            .cloud:hover .cloud p {
+                color: #223f97;
+            }
+
+
             .cloud-page-1,
-            .cloud-page-2,
-            .cloud-page-3 {
+            .cloud-page-2 {
                 display: grid;
                 grid-template-columns: auto auto auto;
                 text-align: center;
@@ -392,19 +411,35 @@ include_once('includes/header.php');
                 justify-content: center;
             }
 
+            .cloud-page-3 {
+                display: grid;
+                grid-template-columns: auto auto;
+                text-align: center;
+                gap: 20px;
+                padding-top: 10px;
+                justify-content: center;
+            }
+
+
             .text-center {
                 text-align: justify;
                 max-width: 95%;
                 margin: 0 auto;
             }
 
-            .cloud-page h4 {
+            .cloud-page-1 h4,
+            .cloud-page-2 h4,
+            .cloud-page-3 h4 {
                 margin: 10px 0;
                 font-size: 18px;
             }
 
             .hb-journeyCont>h3 {
                 text-align: center;
+            }
+
+            .hb-Jimg>p>img {
+                background-color: #223f97;
             }
 
             @keyframes Shake {
@@ -428,6 +463,15 @@ include_once('includes/header.php');
                     transform: rotate(5deg);
                 }
             }
+
+            @media screen and (max-width:599px) {
+
+                .cloud-page-1,
+                .cloud-page-2,
+                .cloud-page-3 {
+                    display: block;
+                }
+            }
         </style>
 
         <div class="hb-journey">
@@ -438,37 +482,37 @@ include_once('includes/header.php');
                 <ul class="cloud-page-1">
                     <li class="cloud">
                         <div class="cloud-icon"><img src="../images/managed-services-icons/CIE.svg" alt="onesize"></div>
-                        <h4>Cloud Infrastructure Excellence</h4>
+                        <h4>Infrastructure Excellence</h4>
                         <p>Immerse your applications, websites, and databases in our dependable and scalable cloud infrastructure. Revel in high availability, automatic backups, and effortless resource management. </p>
                     </li>
 
                     <li class="cloud">
                         <div class="cloud-icon"><img src="../images/managed-services-icons/CSB.svg" alt="onesize"></div>
-                        <h4>Cloud Storage Brilliance </h4>
+                        <h4>Storage Brilliance </h4>
                         <p>Entrust your data to the cloud's secure integration. Our flexible storage solutions grant seamless access and file sharing while upholding data redundancy and compliance. </p>
                     </li>
 
                     <li class="cloud">
                         <div class="cloud-icon"><img src="../images/managed-services-icons/CBR.svg" alt="onesize"></div>
-                        <h4>Cloud Backup and Resilience</h4>
+                        <h4>Backup and Resilience</h4>
                         <p>Fortify your business against data loss and downtime through our cloud backup and disaster recovery prowess. Bounce back swiftly from unexpected incidents, minimizing operational disruptions. </p>
                     </li>
 
                     <li class="cloud">
                         <div class="cloud-icon"><img src="../images/managed-services-icons/SCM.svg" alt="onesize"></div>
-                        <h4>Seamless Cloud Migration</h4>
+                        <h4>Seamless Migration</h4>
                         <p>Delegate the seamless migration of your current systems and applications to our cloud experts. Transition gracefully, minimizing business hiccups.</p>
                     </li>
 
                     <li class="cloud">
                         <div class="cloud-icon"><img src="../images/managed-services-icons/CSM.svg" alt="onesize"></div>
-                        <h4>Cloud Security Mastery</h4>
+                        <h4>Security Mastery</h4>
                         <p>Shield your cloud infrastructure and data with our holistic security services. From identity and access management to threat vigilance and compliance assurance, we're your comprehensive guardians. </p>
                     </li>
 
                     <li class="cloud">
                         <div class="cloud-icon"><img src="../images/managed-services-icons/PCCS.svg" alt="onesize"></div>
-                        <h4>Personalized Cloud Consulting and Support</h4>
+                        <h4>Personalized Consulting and Support</h4>
                         <p>Our cloud connoisseurs stand by, ready to offer tailored guidance and consistent support for your cloud expedition. Expert assistance is just a step away. </p>
                     </li>
 
@@ -490,19 +534,19 @@ include_once('includes/header.php');
                 </div>
                 <ul class="cloud-page-2">
                     <li class="cloud">
-                        <div class="cloud-icon"><img src="../images/managed-services-icons/scalability (2).svg" alt="onesize"></div>
+                        <div class="cloud-icon2"><img src="../images/managed-services-icons/scalability (2).svg" alt="onesize"></div>
                         <h4>Scalability</h4>
                         <p>Bid farewell to hardware restraints and costly upgrades. Our cloud solutions provide scalable infrastructure that grows hand in hand with your business, be it through seasonal surges or exponential expansion. </p>
                     </li>
 
                     <li class="cloud">
-                        <div class="cloud-icon"><img src="../images/managed-services-icons/BF.svg" alt="onesize"></div>
+                        <div class="cloud-icon2"><img src="../images/managed-services-icons/BF.svg" alt="onesize"></div>
                         <h4>Boundless Flexibility: </h4>
                         <p>Unleash the liberty to work anytime, anywhere. Our cloud services grant seamless access to your data, apps, and resources from any device with an internet tether. Be productive and collaborative, regardless of your team's location. </p>
                     </li>
 
                     <li class="cloud">
-                        <div class="cloud-icon"><img src="../images/managed-services-icons/CEI.svg" alt="onesize"></div>
+                        <div class="cloud-icon2"><img src="../images/managed-services-icons/CEI.svg" alt="onesize"></div>
                         <h4>Cost-Effective Ingenuity</h4>
                         <p>Sharpen your IT budget with our budget-friendly cloud solutions. Pay for what you use and dodge upfront hardware expenses. The pay-as-you-go model maximizes your investment's worth. </p>
                     </li>
@@ -510,13 +554,13 @@ include_once('includes/header.php');
 
                 <ul class="cloud-page-3">
                     <li class="cloud">
-                        <div class="cloud-icon"><img src="../images/managed-services-icons/RFLS.svg" alt="onesize"></div>
+                        <div class="cloud-icon2"><img src="../images/managed-services-icons/RFLS.svg" alt="onesize"></div>
                         <h4>Reliability and Fortress-Level Security</h4>
                         <p>Trust in the safety of your data within our cloud realm. Our potent security protocols, routine backups, and disaster recovery plans shield your critical data from potential threats, ensuring unceasing business flow. </p>
                     </li>
 
                     <li class="cloud">
-                        <div class="cloud-icon"><img src="../images/managed-services-icons/TTP.svg" alt="onesize"></div>
+                        <div class="cloud-icon2"><img src="../images/managed-services-icons/TTP.svg" alt="onesize"></div>
                         <h4 style="text-align:center">Top-Tier Performance</h4>
                         <p> Immerse yourself in top-notch performance and diminished latency through our high-speed cloud infrastructure. Our cutting-edge data centers and advanced technology ensure a prime user experience for your services and applications. </p>
                     </li>
