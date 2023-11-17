@@ -68,7 +68,7 @@ $seo_keywords = "Contact Us, best data centers, data center services,  Data cent
     }
   </style>
 </head>
-<?php include('php/inner-header.php'); ?>
+<?php include('php/includes-techsters/header.php'); ?>
 
 
 
@@ -238,9 +238,9 @@ SRR Middle East FZCO Technology Park, Mina-Jebel Ali, National Industrial Park,D
 
 
 
-<?php include('php/footer.php'); ?>
 
 
+<?php include('php/includes-techsters/footer.php'); ?>
 <!--footer ends-->
 </div>
 <!-- wrapper ends -->

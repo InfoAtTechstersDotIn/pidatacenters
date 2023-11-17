@@ -1,6 +1,16 @@
-<?php include_once('includes/header.php') ?>
+
+
+<?php include('php/includes-techsters/header.php'); ?>
+
+
+
 <!-- header section ends here -->
 <!-- banner section starts here -->
+
+
+<div class="picloud_pages">
+
+
 <div class="hb-bannerCont">
    <div class="hb-bannerImgCont">
       <div class="hb-bannerImg">
@@ -9,8 +19,8 @@
                                     <img  src="./pi-cloud/images/banners/solutions_banner.png" alt="pi-cloud Cloud Backup as a Service Banner" style="width:100%">
                               </picture>-->
          <picture>
-            <source media="(max-width: 768px)" srcset="./<?= $config['subFolderName'] ?>/images/banners/industry-solutions-banner.jpg">
-            <img src="./<?= $config['subFolderName'] ?>/images/banners/industry-solutions-banner.jpg" alt="pi-cloud Cloud Backup as a Service Banner" style="width:100%">
+            <source media="(max-width: 768px)" srcset="https://pidatacenters.com/pi-cloud/images/banners/industry-solutions-banner.jpg">
+            <img src="https://pidatacenters.com/pi-cloud/images/banners/industry-solutions-banner.jpg" alt="pi-cloud Cloud Backup as a Service Banner" style="width:100%">
          </picture>
          <h2>Industry Solutions</h2>
       </div>
@@ -288,7 +298,7 @@
 </div>
 
 
-
+</div>
 <!-- BANNERS BUTTONS -->
 
 <!-- ******************************************************************************************** -->
@@ -361,6 +371,4 @@
 </script>
 
 <!--       **************Footer*************-->
-<?php
-include_once('includes/footer.php');
-?>
+<?php include('php/includes-techsters/footer.php'); ?>

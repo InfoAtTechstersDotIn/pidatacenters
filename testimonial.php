@@ -12,8 +12,12 @@ $seo_keywords = "Data Center & Cloud related services, reliable Data Center & Cl
         }
     </style>
 </head>
-<?php include('php/inner-header.php'); ?>
+
+<?php include('php/includes-techsters/header.php'); ?>
+
 <?php
+/*
+
 $servername = "localhost";
 $username = "marcom";
 $password = "TR*viv3mo?!q";
@@ -25,6 +29,8 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
+
+*/
 ?>
 <style>
     .director-rt h3 {
@@ -194,7 +200,7 @@ if ($conn->connect_error) {
 
                                     </li>
 
-                                    <?php
+                                    <?php /*
                                     $query = "SELECT * from  testimonials";
 
                                     $result = mysqli_query($conn, $query);
@@ -227,6 +233,7 @@ if ($conn->connect_error) {
 
                                     }
 
+                                    */
 
                                     ?>
                                     <!-- <li class="col-md-4">
@@ -353,7 +360,10 @@ if ($conn->connect_error) {
         </div>
     </div>
 </div>
-<?php include('php/footer.php'); ?>
+
+
+<?php include('php/includes-techsters/footer.php'); ?>
+
 <div id="modal-1" class="modalDialog">
     <div>
         <a href="#close" title="Close" class="close">x</a>

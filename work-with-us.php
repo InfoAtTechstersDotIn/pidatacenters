@@ -12,10 +12,13 @@ $seo_keywords = "Data center services, cloud services, data center sercices prov
     </style>
 </head>
 <?php ob_start(); ?>
-<?php include('php/inner-header.php'); ?>
+
+<?php include('php/includes-techsters/header.php'); ?>
+
 <!-- main starts here -->
 <?php
-$servername = "localhost";
+// $servername = "localhost";
+$servername = "172.20.119.52";
 $username = "marcom";
 $password = "TR*viv3mo?!q";
 $dbname = "search8c_pi";
@@ -71,7 +74,7 @@ if ($conn->connect_error) {
                             $job_experience = "$row[job_experience]";
                             $job_location = "$row[job_location]";
                             $date = "$row[date]";
-                            $ufile = "$row[ufile]";
+                            // $ufile = "$row[ufile]";
                     ?>
                             <li class="col-md-10">
                                 <div class="career-opportunities2-cnt">
@@ -355,10 +358,9 @@ if (isset($_POST['button']) && isset($_FILES['attachment'])) {
 </div>
 
 
-<?php include('php/footer.php'); ?>
 
 
-
+<?php include('php/includes-techsters/footer.php'); ?>
 
 <!--footer ends-->
 </div>

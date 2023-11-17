@@ -93,4 +93,23 @@
 
 </body>
 
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/owl.carousel.min.js'></script>
+<script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
+<script src='./pi-cloud/js/index.js'></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<script src="https://pidatacenters.com/js/custom.js"></script>
+<script src="https://pidatacenters.com/js/main.js"></script>
+
+
+
+
+
+
+
+
 </html>

@@ -6,7 +6,7 @@
     </style>
 </head>
 
-<?php include('php/inner-header.php'); ?>
+<?php include('php/includes-techsters/header.php'); ?>
 
 <!-- main starts here -->
 <div class="about-banner">
@@ -24,7 +24,7 @@
 
 
             <h3 style="color: #012E6A;">Acceptable Use Policy</h3>
-            <p>Use of the services (â€œCloud Servicesâ€) provided and/or made available by or on behalf of Pi Data Centers Private Limited and its affiliates (â€œCompanyâ€ or â€œWeâ€ or â€œourâ€) is subject to this Acceptable Use Policy (â€œAUPâ€) and this AUP describes the prohibited usage of such Cloud Services. This AUP is an integrate part of any applicable customer or service agreement (the â€œAgreementâ€). The examples and restrictions described herein are not exhaustive. We may update this AUP from time to time at our discretion by posting the latest version on www.pidatacenters.com (the â€œwebsiteâ€).</p>
+            <p>Use of the services  (“Cloud Services”) provided and/or made available by or on behalf of Pi Data Centers Private Limited and its affiliates (“Company” or “We” or “our”) is subject to this Acceptable Use Policy (“AUP”) and this AUP describes the prohibited usage of such Cloud Services. This AUP is an integrate part of any applicable customer or service agreement (the “Agreement”). The examples and restrictions described herein are not exhaustive. We may update this AUP from time to time at our discretion by posting the latest version on www.pidatacenters.com (the “website”).</p>
 
             <p style="color: #2680EB;">By using the Cloud Services, the customer, user, or client (as applicable) agrees not to, and not to allow third parties to access or use the Cloud Services to:</p>
             <p> &#9679; Violate any applicable local, national or international laws, regulations and rules.</p>
@@ -36,7 +36,7 @@
             <p> &#9679; Conduct, promote, facilitate or allow illegal, unlawful, infringing, harmful or fraudulent activities including but not limited to any activity that promotes child sexual exploitation or any abuse for the purpose of harming or attempting to harm minors in any way, pornography, illegal gambling, network attack, phishing, or damage, surreptitiously intercept any system, program or data.</p>
             <p> &#9679; Transmit, publish, offer, upload, download, use or re-use, disseminate or distribute any unlawful, infringing, offensive, harmful contents or materials which are likely to be understood as a direct or indirect encouragement, threatening, inciting, promoting or other inducement to the commission, preparation or instigation of acts of violence, terrorism or other serious harm.</p>
             <p>&#9679; Transmit any corrupted files, hoaxes, data, send or upload any material that contains,without limitation to, viruses, worms, Trojan horses, keystroke loggers, spyware, or other items of a destructive or deceptive nature or any other harmful programs or similar computer code designed to adversely affect the operation or security of any computer software or hardware or sites or networks;</p>
-            <p> &#9679; Distribute, publish, transmit, or facilitate the sending of unsolicited mass email or other messages, promotions, advertising or solicitations (â€œspamâ€) or send a massive amount of email to a specific person, site or a system in order to flood their server or in any way flood UseNet newsgroups or send junk e-mail or spam anyone who doesnâ€™t want to receive it and/or which is not permitted by applicable local, national or international laws, regulations and rules.</p>
+            <p> &#9679; Distribute, publish, transmit, or facilitate the sending of unsolicited mass email or other messages, promotions, advertising or solicitations (“spam”) or send a massive amount of email to a specific person, site or a system in order to flood their server or in any way flood UseNet newsgroups or send junk e-mail or spam anyone who doesnâ€™t want to receive it and/or which is not permitted by applicable local, national or international laws, regulations and rules.</p>
             <p> &#9679; Access to any portion of the Cloud Services, accounts, or systems without authorization, or attempt to do so.</p>
             <p> &#9679; Violate or adversely impact the security or integrity of the Cloud Services, hardware, software, systems, sites, or networks of the Company.
             </p>
@@ -52,7 +52,7 @@
     </div>
 </div>
 
-<?php include('php/footer.php'); ?>
+<?php include('php/includes-techsters/footer.php'); ?>
 <!-- wrapper ends -->
 <script src="js/wow.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

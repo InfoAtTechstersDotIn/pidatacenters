@@ -1,0 +1,461 @@
+.product {
+    /* max-width: 1365px; */
+    max-width: 1453px;
+    /* padding: 30px 0; */
+}
+
+.hb-productHead {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.box {
+    display: flex;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding: 20px 0;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.picloud_pages .jCont h4 {
+    font-size: 19px;
+    min-height: 50px;
+    color: #76b543 !important;
+    font-weight: bold;
+}
+
+.jCont {
+    box-shadow: 0px 0px 6px 0px grey;
+    padding: 25px 8px;
+    text-align: center !important;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.jCont:hover {
+    box-shadow: 0px 0px 6px 0px #223f97;
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+}
+
+.jCont img {
+    width: 60px;
+    height: auto;
+    margin: 15px 0;
+}
+
+.jCont p {
+    font-size: 15px;
+}
+
+.hb-featuresList>li {
+    border-top: 5px solid #223f97 !important;
+}
+
+.hb-productHead {
+    max-width: 85%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.hb-productHead>.main-text {
+    font-size: 19px !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hb-block2 {
+    display: block;
+}
+
+.hb-block1 {
+    display: none !important;
+}
+
+.stick {
+    border-radius: 80px;
+    max-width: 38% !important;
+    margin-top: 0;
+}
+
+.get-in-touch-blk {
+    max-width: 945px;
+    margin: 0 auto;
+    background: #2680EB;
+    border-radius: 80px;
+    padding: 10px;
+    border: 20px solid #ffffff;
+}
+
+.get-in-touch {
+    margin: 0 0 -74px 0;
+    position: relative;
+}
+
+.get-in-touch-lft {
+    max-width: 70%;
+}
+
+.get-in-touch-lft p {
+    font-size: 31.5px;
+    line-height: 20px;
+    padding-top: 29px;
+    text-align: center;
+}
+
+.get-in-touch-rit a {
+    font-size: 25.5px;
+    line-height: 36px;
+    background: #ECECEC;
+    border-radius: 39px;
+    height: 40px;
+    text-align: center;
+    color: #2680EB;
+    width: 160px;
+    margin: 0;
+}
+
+.get-in-touch-rit {
+    max-width: 100%;
+}
+
+.appoinment li:nth-child(1) {
+    width: 100% !important;
+}
+
+.appoinment li:nth-child(2) {
+    width: 20% !important;
+}
+
+.appoinment {
+    padding: 0px !important;
+}
+
+.appoinment h2 {
+    padding: 0px 0px 0px 0px !important;
+    font-size: 25px;
+    line-height: 36px !important;
+    text-align: center;
+}
+
+.dark ul {
+    color: #ccc;
+}
+
+.dark h1 {
+    color: #d5cef7 !important;
+}
+
+.owl-dots {
+    position: absolute;
+    top: 10px;
+    margin: 30px auto;
+    left: 0;
+    right: 0;
+}
+
+.hb-productSec {
+    max-width: 80% !important;
+    margin: auto;
+}
+
+.hb-featLogo {
+    width: 23% !important;
+}
+
+.hb-featCont h6 {
+    text-align: center;
+}
+
+.sch-your {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+.essent {
+    margin-top: 50px;
+    float: right !important;
+    width: auto !important;
+}
+
+.prem {
+    width: auto !important;
+    float: right !important;
+}
+
+@media (max-width:767px) {
+    .hb-block1 {
+        display: block !important;
+    }
+    .hb-block2 {
+        display: none !important;
+    }
+    .get-in-touch-lft:first-child {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .get-in-touch-lft p {
+        font-size: 15px !important;
+        line-height: 21px !important;
+        padding: 0 0 10px !important;
+        text-align: center !important;
+    }
+    .get-in-touch-rit a {
+        line-height: 38px !important;
+        height: 38px !important;
+        width: 150px !important;
+        margin: 10px auto !important;
+        font-size: 16px !important;
+        display: block;
+    }
+    .footer-about .col-md-3 {
+        -webkit-flex: 0 0 100% !important;
+        float: none !important;
+        width: 100% !important;
+        text-align: center !important;
+        max-width: 100% !important;
+    }
+    h1 {
+        font-size: 25px !important;
+        padding: 0 !important;
+    }
+}
+
+@media (max-width:599px) {
+    .hb-navmenu {
+        left: -360px;
+    }
+    .hb-childProducts2 .tabBlock-tab {
+        width: 100% !important;
+        text-align: center;
+        margin: 5px 0px;
+    }
+    .multi-cld-key2 li {
+        width: 100%;
+        text-align: center;
+    }
+    .hb-leftCont>span>img {
+        display: block;
+    }
+    .sch-your {
+        width: 400px;
+        margin: 0 auto;
+        display: block;
+    }
+    .hb-logo {
+        width: 50% !important;
+    }
+    .hb-featTopHeader {
+        text-align: center;
+    }
+    .templine>li {
+        width: 100% !important;
+        display: block !important;
+        ;
+        margin: 10px 0px !important;
+    }
+    .essent {
+        margin-top: 50px;
+        float: none !important;
+        width: auto;
+    }
+    .prem {
+        width: auto !important;
+        float: none !important;
+    }
+    .only-support li {
+        word-break: break-all;
+    }
+    .only-support li br {
+        display: none !important;
+    }
+}
+
+.hb-boxCont {
+    box-shadow: none;
+}
+
+.hb-childProducts {
+    padding-top: 0 !important;
+}
+
+.appoinment {
+    background-color: #223f97 !important;
+}
+
+.hb-productSec>li {
+    margin: 10px auto !important;
+}
+
+
+/*.sch-your {
+    width: 400px !important;
+} */
+
+.sch-your {
+    width: 180px !important;
+}
+
+.hb-btn_cl>a {
+    background-color: #223f97;
+    padding: 12px 19px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 6px;
+    z-index: 1;
+    margin: 0 10px;
+}
+
+@media (max-width: 450px) {
+    .box {
+        display: block;
+    }
+    .jCont {
+        margin-top: 10px;
+    }
+    .jCont:hover {
+        box-shadow: 0px 0px 6px 0px #223f97;
+        transform: scale(1);
+    }
+    .owl-dots {
+        top: -10px;
+    }
+}
+
+.picloud_pages .jCont2 h4 {
+    color: #223f97 !important;
+}
+
+.owl-dot>span {
+    background-color: #223f97 !important;
+}
+
+.hb-CerSetion>h4 {
+    margin-top: 30px !important;
+}
+
+.owl-dot.active>span {
+    opacity: 1;
+    background-color: #76b543 !important;
+}
+
+.owl-dot>span {
+    background-color: #223f97 !important;
+    opacity: 1 !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black !important;
+}
+
+.hb-features>h3 {
+    margin: 30px auto 36px !important;
+}
+
+
+/* **********************************picloud from here************************************************** */
+
+.picloud_pages h1 {
+    font-weight: bold !important;
+    line-height: normal;
+    color: #000 !important;
+}
+
+.picloud_pages h3 {
+    color: #000 !important;
+    line-height: normal;
+    font-weight: bold;
+}
+
+.picloud_pages h4 {
+    color: #000 !important;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.picloud_pages p {
+    color: #000 !important;
+}
+
+.picloud_pages .row {
+    display: flex;
+    flex-direction: column;
+}
+
+.picloud_pages .get_in_touch {
+    background-color: #fff;
+    margin: 0px 150px;
+    border-radius: 70px;
+    padding: 15px 20px;
+    position: absolute;
+    top: -120px !important;
+    /* margin-top: -93px; */
+    width: 100%;
+    max-width: 70%;
+    margin: auto;
+    left: 15%;
+}
+
+.picloud_pages button,
+input {
+    line-height: 15px !important;
+}
+
+
+/* .picloud_pages .skltbs-tab-item>button {
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.skltbs-tab-item {
+    border-radius: 0!important;
+    border-top-left-radius: 20px!important;
+    border-top-right-radius: 20px!important;
+} */
+
+.compute_page_h2 {
+    font-size: 24px;
+}
+
+.hb-leftCont {
+    text-align: center;
+    background: #2680eb;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 35px;
+    color: white;
+    margin-top: 30px;
+}
+
+.picloud_pages .hb_ppCont h2 {
+    font-size: 21px;
+    line-height: 20px;
+}
+
+@media (max-width: 768px) {
+    .sap_certFicats>li {
+        display: inline-block !important;
+        width: 100% !important;
+        vertical-align: middle !important;
+        padding: 10px 0 !important;
+        text-align: center !important;
+    }
+    .hb-leftCont {
+        width: 230px !important;
+        margin-top: 0 !important;
+    }
+    .hb-sapLists {
+        margin: 0px auto !important;
+        padding: 0px 0 20px !important;
+    }
+}

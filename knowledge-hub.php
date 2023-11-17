@@ -6,7 +6,7 @@
   </style>
 </head>
 
-<?php include('php/inner-header.php'); ?>
+<?php include('php/includes-techsters/header.php'); ?>
 <!-- main starts here -->
 
 <div class="about-banner">
@@ -16,33 +16,7 @@
 
   </div>
 </div>
-<!--what-is-noc starts here -->
-<!--<div class="knowledge-hub-gallery">
-               <div class="container">
-              <div class="knowledge-hub-gallery-top">
-                <h3>Gallery</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec enim eget tellus consequat tincidunt eu sit amet velit. In consequat ligula sed arcu aliquet bibendum.</p>
-              </div>
-         
-                <ul class="slider1">
-                <li>
-                     <img src="images/kh-gallery-1.png" alt="kh-gallery-1" width="498" height="386">
-                 </li>
-                 <li>
-                     <img src="images/kh-gallery-2.png" alt="kh-gallery-2" width="498" height="386">
-                 </li>
-                 <li>
-                     <img src="images/kh-gallery-3.png" alt="kh-gallery-3" width="498" height="386">
-                 </li>
-                     <li>
-                     <img src="images/kh-gallery-4.png" alt="kh-gallery-4" width="498" height="386">
-                 </li>
-                     <li>
-                     <img src="images/kh-gallery-1.png" alt="kh-gallery-1" width="498" height="386">
-                 </li>
-              </ul>
-              </div>
-          </div>-->
+
 
 <div class="article-blk">
   <div class="container">
@@ -59,18 +33,11 @@
               <a href="the-data-center-the-unseen-infrastructure-of-our-lives.php">
                 <h3>The Data Center: The Unseen Infrastructure of Our Lives</h3>
               </a>
-              <!--<p>In this era of tech-driven advancements, data centers are the silent champions that power our digital world. Storing vast amounts of information is vital for most contemporary companies' proper functioning; hence, modern businesses depend heavily on state-of-the-art facilities like these. Data centers play a crucial role in our rapidly evolving technological landscape, and we'll explore what makes them so significant as well as how they're shaping the future of tech in this article.</p>-->
-              <!--<a href="press-release-1.php">Read more</a>-->
+
               <div class="readmore-btn" style="padding:20px 0 0;"><a href="the-data-center-the-unseen-infrastructure-of-our-lives.php">Read More</a></div>
 
             </div>
-            <!--<div class="latest-block-right col-md-6">
-                                     <a href="press-release-2.php"><img src="images/kh-img-2.png" alt="kh-img-2" width="430" height="278"> </a>
-                                     <span>20 June, 2023</span>
-                                     <h3>Unveiling the Powerhouse: Exploring the Types and Importance of Data Centers in Modern Business Operations</h3>
-                                     <p>A data center is a facility that is specifically made to accommodate multiple computer systems and their related hardware and infrastructure. In modern business operations, they play a crucial role in providing a secure and efficient environment for storing, processing, and managing large amounts of data.</p>
-                                     <a href="press-release-2.php">Read more</a>
-                                </div>-->
+ 
           </div>
 
         </div>
@@ -78,11 +45,11 @@
           <!--<strong>New Trending</strong>-->
           <div class="new-tranding row align-items-center justify-content-center">
             <div class="new-tranding-lt col-5">
-              <a href="https://pidatacenters.com/case-studies" style="cursor:pointer"><img src="dashboard/uploads/services/leading.png" alt="article-img-3" width="172" height="115"> </a>
+              <a href="https://pidatacenters.com/case-studies.php" style="cursor:pointer"><img src="dashboard/uploads/services/leading.png" alt="article-img-3" width="172" height="115"> </a>
             </div>
             <div class="new-tranding-rt col-7">
               <!--<span>19 june, 2023</span>-->
-              <a href="https://pidatacenters.com/case-studies" style="cursor:pointer">
+              <a href="https://pidatacenters.com/case-studies.php" style="cursor:pointer">
                 <p style="margin-bottom:5px;color: #1d6fb2;font-weight: 700;">Case Studies</p>
               </a>
               <p>Real-world Success Stories Unveiling Strategic Triumphs</p>
@@ -90,12 +57,12 @@
           </div>
           <div class="new-tranding row align-items-center justify-content-center">
             <div class="new-tranding-lt col-5">
-              <a href="https://pidatacenters.com/blogs" style="cursor:pointer"><img src="dashboard/uploads/banner-data.png" alt="article-img-3" width="172" height="115"> </a>
+              <a href="https://pidatacenters.com/blogs.php" style="cursor:pointer"><img src="dashboard/uploads/banner-data.png" alt="article-img-3" width="172" height="115"> </a>
 
             </div>
             <div class="new-tranding-rt col-7">
               <!--<span>16 june, 2023</span>-->
-              <a href="https://pidatacenters.com/blogs" style="cursor:pointer">
+              <a href="https://pidatacenters.com/blogs.php" style="cursor:pointer">
                 <p style="margin-bottom:5px;color: #1d6fb2;font-weight: 700;">Blogs</p>
               </a>
               <p>Navigating the Complexities of Business with Expert Blogs</p>
@@ -103,11 +70,11 @@
           </div>
           <div class="new-tranding row align-items-center justify-content-center">
             <div class="new-tranding-lt col-5">
-              <a href="https://pidatacenters.com/brochure" style="cursor:pointer"><img src="images/brochure-img-1.png" alt="article-img-3" width="172" height="115"></a>
+              <a href="https://pidatacenters.com/brochure.php" style="cursor:pointer"><img src="images/brochure-img-1.png" alt="article-img-3" width="172" height="115"></a>
             </div>
             <div class="new-tranding-rt col-7">
               <!--<span>19 june, 2023</span>-->
-              <a href="https://pidatacenters.com/brochure" style="cursor:pointer">
+              <a href="https://pidatacenters.com/brochure.php" style="cursor:pointer">
                 <p style="margin-bottom:5px;color: #1d6fb2;font-weight: 700;">Brochures</p>
               </a>
               <p>Communicating Value and Innovation That Sets Our Products and Services Apart</p>
@@ -115,11 +82,11 @@
           </div>
           <div class="new-tranding row align-items-center justify-content-center">
             <div class="new-tranding-lt col-5">
-              <a href="https://pidatacenters.com/whitepapers" style="cursor:pointer"><img src="dashboard/uploads/whitepapers/9.png" alt="article-img-3" width="172" height="115"></a>
+              <a href="https://pidatacenters.com/whitepapers.php" style="cursor:pointer"><img src="dashboard/uploads/whitepapers/9.png" alt="article-img-3" width="172" height="115"></a>
             </div>
             <div class="new-tranding-rt col-7">
               <!--<span>20 june, 2023</span>-->
-              <a href="https://pidatacenters.com/whitepapers" style="cursor:pointer">
+              <a href="https://pidatacenters.com/whitepapers.php" style="cursor:pointer">
                 <p style="margin-bottom:5px;color: #1d6fb2;font-weight: 700;">Whitepapers</p>
               </a>
               <p>Innovative Solutions Backed by Comprehensive Research
@@ -192,7 +159,7 @@
 
 
 
-<?php include('php/footer.php'); ?>
+<?php include('php/includes-techsters/footer.php'); ?>
 
 <!--footer ends-->
 </div>

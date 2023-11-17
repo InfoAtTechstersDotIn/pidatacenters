@@ -43,6 +43,7 @@ body {
     padding: 15px 20px;
     position: absolute;
     top: -80px;
+    top: -128px;
     /* margin-top: -93px; */
     width: 100%;
     max-width: 70%;
@@ -127,7 +128,7 @@ body {
     transform: translateY(-3px);
 }
 
-h1 {
+.footer-block h1 {
     font-size: 8rem;
     text-align: center;
     font-weight: 900;
@@ -145,6 +146,7 @@ h1 {
     font-size: 16px;
     font-weight: normal;
     margin-bottom: 15px;
+    display: block;
 }
 
 .footer_row {

@@ -10,9 +10,13 @@ $og_title= "";
 $og_description= "";
 ?>
 
-<?php include('php/inner-header.php');?>
+<?php include('php/includes-techsters/header.php'); ?>
+
+
 <?php
-$servername = "localhost";
+//$servername = "localhost";
+$servername = "172.20.119.52";
+
 $username = "marcom";
 $password = "TR*viv3mo?!q";
 $dbname = "search8c_pi";
@@ -76,7 +80,10 @@ We could experience the first cohesive & immersive Metaverse soon. We can alread
                   </div>
               </div>
           </div>
-          <?php include('php/footer.php');?>
+
+
+<?php include('php/includes-techsters/footer.php'); ?>
+
           
           <div id="modal-1" class="modalDialog">
 	<div class="fill-your-details">

@@ -5,7 +5,11 @@
         }
     </style>
 </head>
-<?php include('php/inner-header.php'); ?>
+
+<?php include('php/includes-techsters/header.php'); ?>
+
+
+
 <!-- main starts here -->
 
 <div class="about-banner">
@@ -31,9 +35,9 @@
                                 </figure>
                                 <h4>How Well Do We Understand</h4>
 
-                                <!--<a href="#modal-1" class="download">Download case study</a>-->
+                                <!--<a href="#modal-1.php" class="download">Download case study</a>-->
                                 <!--<a href="case-study-download.php" download class="download">Download case study</a>-->
-                                <a href="data-sovereignty" class="download" tabindex="0">Download Whitepapers</a>
+                                <a href="data-sovereignty.php" class="download" tabindex="0">Download Whitepapers</a>
                             </div>
                         </li>
                         <li class="col-md-4">
@@ -43,9 +47,9 @@
                                 </figure>
                                 <h4>Software Defined Network</h4>
 
-                                <!--<a href="#modal-1" class="download">Download case study</a>-->
+                                <!--<a href="#modal-1.php.php" class="download">Download case study</a>-->
                                 <!--<a href="case-study-download.php" download class="download">Download case study</a>-->
-                                <a href="gatner-software-redefined-network" class="download" tabindex="0">Download Whitepapers</a>
+                                <a href="gatner-software-redefined-network.php" class="download" tabindex="0">Download Whitepapers</a>
                             </div>
                         </li>
                         <li class="col-md-4">
@@ -56,9 +60,9 @@
                                 <h4>
                                     Redefining Cloud Services,Delivering</h4>
 
-                                <!--<a href="#modal-1" class="download">Download case study</a>-->
+                                <!--<a href="#modal-1.php.php" class="download">Download case study</a>-->
                                 <!--<a href="case-study-download.php" download class="download">Download case study</a>-->
-                                <a href="pi-intel" class="download" tabindex="0">Download Whitepapers</a>
+                                <a href="pi-intel.php" class="download" tabindex="0">Download Whitepapers</a>
 
                             </div>
                         </li>
@@ -69,9 +73,9 @@
                                 </figure>
                                 <h4>Mastering the Digital Frontier</h4>
 
-                                <!--<a href="#modal-1" class="download">Download case study</a>-->
+                                <!--<a href="#modal-1.php" class="download">Download case study</a>-->
                                 <!--<a href="case-study-download.php" download class="download">Download case study</a>-->
-                                <a href="digitizing-all-walks-of-life" class="download" tabindex="0">Download Whitepapers</a>
+                                <a href="digitizing-all-walks-of-life.php" class="download" tabindex="0">Download Whitepapers</a>
                             </div>
                         </li>
                         <li class="col-md-4">
@@ -81,9 +85,9 @@
                                 </figure>
                                 <h4>Secure Transactions</h4>
 
-                                <!--<a href="#modal-1" class="download">Download case study</a>-->
+                                <!--<a href="#modal-1.php" class="download">Download case study</a>-->
                                 <!--<a href="case-study-download.php" download class="download">Download case study</a>-->
-                                <a href="secure-transactions-in-rural-india" class="download" tabindex="0">Download Whitepapers</a>
+                                <a href="secure-transactions-in-rural-india.php" class="download" tabindex="0">Download Whitepapers</a>
                             </div>
                         </li>
                         <li class="col-md-4">
@@ -93,9 +97,9 @@
                                 </figure>
                                 <h4>Delivering Happiness</h4>
 
-                                <!--<a href="#modal-1" class="download">Download case study</a>-->
+                                <!--<a href="#modal-1.php" class="download">Download case study</a>-->
                                 <!--<a href="case-study-download.php" download class="download">Download case study</a>-->
-                                <a href="on-demand-digital-media" class="download" tabindex="0">Download Whitepapers</a>
+                                <a href="on-demand-digital-media.php" class="download" tabindex="0">Download Whitepapers</a>
                             </div>
                         </li>
                         <li class="col-md-4">
@@ -105,9 +109,9 @@
                                 </figure>
                                 <h4>Digital Healthcare</h4>
 
-                                <!--<a href="#modal-1" class="download">Download case study</a>-->
+                                <!--<a href="#modal-1.php" class="download">Download case study</a>-->
                                 <!--<a href="case-study-download.php" download class="download">Download case study</a>-->
-                                <a href="digital-healthcare" class="download" tabindex="0">Download Whitepapers</a>
+                                <a href="digital-healthcare.php" class="download" tabindex="0">Download Whitepapers</a>
                             </div>
                         </li>
                         <li class="col-md-4">
@@ -117,9 +121,9 @@
                                 </figure>
                                 <h4>E-Learning</h4>
 
-                                <!--<a href="#modal-1" class="download">Download case study</a>-->
+                                <!--<a href="#modal-1.php" class="download">Download case study</a>-->
                                 <!--<a href="case-study-download.php" download class="download">Download case study</a>-->
-                                <a href="e-learning-education-system" class="download" tabindex="0">Download Whitepapers</a>
+                                <a href="e-learning-education-system.php" class="download" tabindex="0">Download Whitepapers</a>
                             </div>
                         </li>
                         <li class="col-md-4">
@@ -129,9 +133,9 @@
                                 </figure>
                                 <h4>Enabling Smart Farming</h4>
 
-                                <!--<a href="#modal-1" class="download">Download case study</a>-->
+                                <!--<a href="#modal-1.php" class="download">Download case study</a>-->
                                 <!--<a href="case-study-download.php" download class="download">Download case study</a>-->
-                                <a href="enabling-smart-farming-in-india" class="download" tabindex="0">Download Whitepapers</a>
+                                <a href="enabling-smart-farming-in-india.php" class="download" tabindex="0">Download Whitepapers</a>
                             </div>
                         </li>
                         <!--<li class="col-md-4">
@@ -141,7 +145,7 @@
                                 </figure>
                                     <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
                                     <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
+                                    <a href="#modal-1.php" class="download">Download case study</a>
                                  </div>
                              </li>
                                  <li class="col-md-4">
@@ -151,7 +155,7 @@
                                 </figure>
                                     <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
                                     <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
+                                    <a href="#modal-1.php" class="download">Download case study</a>
                                  </div>
                              </li>
                                  <li class="col-md-4">
@@ -161,7 +165,7 @@
                                 </figure>
                                     <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
                                     <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
+                                    <a href="#modal-1.php" class="download">Download case study</a>
                                  </div>
                              </li>
                                  <li class="col-md-4">
@@ -171,7 +175,7 @@
                                 </figure>
                                     <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
                                     <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
+                                    <a href="#modal-1.php" class="download">Download case study</a>
                                  </div>
                              </li>
                                  <li class="col-md-4">
@@ -181,7 +185,7 @@
                                 </figure>
                                     <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
                                     <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
+                                    <a href="#modal-1.php" class="download">Download case study</a>
                                  </div>
                              </li>-->
 
@@ -196,7 +200,7 @@
                                 </figure>
                                     <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
                                     <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
+                                    <a href="#modal-1.php" class="download">Download case study</a>
                                  </div>
                              </li>
                              <li class="col-md-4">
@@ -207,7 +211,7 @@
                                 </figure>
                                     <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
                                     <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
+                                    <a href="#modal-1.php" class="download">Download case study</a>
                                  </div>
                                  </a>
                              </li>
@@ -219,7 +223,7 @@
                                 </figure>
                                     <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
                                     <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
+                                    <a href="#modal-1.php" class="download">Download case study</a>
                                  </div>
                                      </a>
                              </li>
@@ -231,7 +235,7 @@
                                 </figure>
                                     <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
                                     <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
+                                    <a href="#modal-1.php" class="download">Download case study</a>
                                  </div>
                                      </a>
                              </li>
@@ -243,7 +247,7 @@
                                 </figure>
                                     <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
                                     <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
+                                    <a href="#modal-1.php" class="download">Download case study</a>
                                  </div>
                                      </a>
                              </li>
@@ -255,7 +259,7 @@
                                 </figure>
                                     <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
                                     <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
+                                    <a href="#modal-1.php" class="download">Download case study</a>
                                  </div>
                                      </a>
                              </li>
@@ -271,7 +275,7 @@
                                 </figure>
                                     <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
                                     <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
+                                    <a href="#modal-1.php" class="download">Download case study</a>
                                  </div>
                              </li>
                              <li class="col-md-4">
@@ -282,7 +286,7 @@
                                 </figure>
                                     <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
                                     <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
+                                    <a href="#modal-1.php" class="download">Download case study</a>
                                  </div>
                                  </a>
                              </li>
@@ -294,7 +298,7 @@
                                 </figure>
                                     <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
                                     <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
+                                    <a href="#modal-1.php" class="download">Download case study</a>
                                  </div>
                                      </a>
                              </li>
@@ -306,7 +310,7 @@
                                 </figure>
                                     <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
                                     <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
+                                    <a href="#modal-1.php" class="download">Download case study</a>
                                  </div>
                                      </a>
                              </li>
@@ -318,7 +322,7 @@
                                 </figure>
                                     <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
                                     <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
+                                    <a href="#modal-1.php" class="download">Download case study</a>
                                  </div>
                                      </a>
                              </li>
@@ -330,7 +334,7 @@
                                 </figure>
                                     <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
                                     <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
-                                    <a href="#modal-1" class="download">Download case study</a>
+                                    <a href="#modal-1.php" class="download">Download case study</a>
                                  </div>
                                      </a>
                              </li>
@@ -344,7 +348,9 @@
         </div>
     </div>
 </div>
-<?php include('php/footer.php'); ?>
+
+
+<?php include('php/includes-techsters/footer.php'); ?>
 
 <div id="modal-1" class="modalDialog">
     <div class="fill-your-details">

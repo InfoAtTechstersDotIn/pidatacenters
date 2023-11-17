@@ -2,6 +2,6 @@
 // config.php
 
 return [
-    'subFolderName' => 'pi-cloud',
+    'subFolderName' => '',
     // Add more variables as needed
 ];
