@@ -309,6 +309,11 @@ include_once('includes/header.php');
         z-index: 1;
         margin: 0 10px;
     }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: black !important;
+    }
 </style>
 <!-- banner section starts here -->
 <div class="hb-bannerCont">
@@ -430,7 +435,7 @@ include_once('includes/header.php');
 
                     <li class="cloud">
                         <div class="cloud-icon2"><img src="../images/managed-services-icons/BF.svg" alt="onesize"></div>
-                        <h4>Boundless Flexibility: </h4>
+                        <h4>Boundless Flexibility </h4>
                         <p>Unleash the liberty to work anytime, anywhere. Our cloud services grant seamless access to your data, apps, and resources from any device with an internet tether. Be productive and collaborative, regardless of your team's location. </p>
                     </li>
 
@@ -459,7 +464,7 @@ include_once('includes/header.php');
     </div>
 </div>
 
-<div class="hb-cloudCont text-center" style="text-align:center; margin-top: 10px;">
+<div class="hb-cloudCont text-center" style="text-align:center;">
     <p><b>Embark on Tomorrow's Computing with Pi Cloud Services </b> </p>
     <p>Ditch conventional IT constraints and embrace cloud agility and innovation. Let's propel your enterprise to unprecedented altitudes through the cloud's prowess! </p>
 </div>
@@ -545,7 +550,7 @@ include_once('includes/header.php');
 <div class="hb-journey">
     <div class="container">
         <div class="hb-journeyCont">
-            <h3 class="text-center">Journey With Pi Cloud</h3>
+            <h3 class="text-center">Journey With <span style="color: #76b543;">Pi Cloud<span></h3>
             <ul class="hb-journeyList list-inline">
                 <li class="hb-ListJouney">
                     <div class="hb-Jimg">
@@ -656,7 +661,8 @@ include_once('includes/header.php');
 <div class="hb-certication">
     <div class="container">
         <div class="hb-CerSetion">
-            <h4 class="text-center">Our Certifications</h4>
+            <h4 class="text-center">Our <span style="color: #76b543;">Certifications<span>
+            </h4>
             <!--<div class="owl-carousel">
            <div class="item">
                   <a href="#">
@@ -962,7 +968,7 @@ include_once('includes/header.php');
 <div class="hb-certication partner">
     <div class="container">
         <div class="hb-CerSetion">
-            <h4 class="text-center">Technology Partners</h4>
+            <h4 class="text-center">Technology <span style="color: #76b543;">Partners<span></h4>
 
             <ul class="list-inline hb-boxLists slider-info">
                 <li>
@@ -1154,7 +1160,7 @@ include_once('includes/header.php');
                         <a href="javascript:void(0)" style="cursor: auto;">
                             <span>
                                 <!--<img src="./<?= $config['subFolderName'] ?>/images/logo/18.png" alt="uptime">-->
-                                <img src="./<?= $config['subFolderName'] ?>/images/product-images/azure28.png" alt="A-La-Carte-Model-4" style="width:100px">
+                                <img src="./<?= $config['subFolderName'] ?>/images/product-images/azure28.png" alt="A-La-Carte-Model-4" style="width:80px">
 
 
                             </span>
@@ -1167,7 +1173,7 @@ include_once('includes/header.php');
                         <a href="javascript:void(0)" style="cursor: auto;">
                             <span>
                                 <!--<img src="./<?= $config['subFolderName'] ?>/images/logo/18.png" alt="uptime">-->
-                                <img src="./pi-cloud/images/product-images/Google212.png" alt="A-La-Carte-Model-3" style="width:100px">
+                                <img src="./pi-cloud/images/product-images/Google212.png" alt="A-La-Carte-Model-3" style="width:80px">
 
 
                             </span>
@@ -1180,7 +1186,7 @@ include_once('includes/header.php');
                         <a href="javascript:void(0)" style="cursor: auto;">
                             <span>
                                 <!--<img src="./<?= $config['subFolderName'] ?>/images/logo/18.png" alt="uptime">-->
-                                <img src="./pi-cloud/images/product-images/AES212.png" alt="A-La-Carte-Model-1" style="width:100px">
+                                <img src="./pi-cloud/images/product-images/AES212.png" alt="A-La-Carte-Model-1" style="width:80px">
 
                             </span>
 
@@ -1417,7 +1423,7 @@ include_once('includes/header.php');
         $('.slider-info').slick({
             dots: false,
             arrows: true,
-            slidesToShow: 4,
+            slidesToShow: 5,
             slidesToScroll: 1,
             vertical: false,
             verticalSwiping: false,
