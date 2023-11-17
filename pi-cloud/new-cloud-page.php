@@ -296,6 +296,19 @@ include_once('includes/header.php');
             width: 100%;
         }
     }
+
+    .hb-btn_cl>a {
+        background-color: #223f97;
+        padding: 12px 19px;
+        color: #fff;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 6px;
+        z-index: 1;
+        margin: 0 10px;
+    }
 </style>
 <!-- banner section starts here -->
 <div class="hb-bannerCont">
@@ -344,7 +357,7 @@ include_once('includes/header.php');
 <!-- banner Enterprise Cloud Platform start here -->
 <div class="hb-cloudPlatform">
     <div class="container">
-        <div class="hb-cloudCont text-center">
+        <div class="hb-cloudCont text-center new-data">
             <p>In today's digitally driven economy, cloud services have assumed significance for the right reasons. Enterprises, in their pursuit of streamlined operations and accelerated time-to-market, recognize the indispensable value that cloud solutions bring. The imperatives of access flexibility, capacity scalability, performance agility, unwavering business continuity, and prudent cost-effectiveness find their optimal resolution through the strategic adoption of cloud-native approaches.
             </p>
             <p>
@@ -420,11 +433,15 @@ include_once('includes/header.php');
                 justify-content: center;
             }
 
-
-            .text-center {
+            .new-data {
                 text-align: justify;
                 max-width: 95%;
                 margin: 0 auto;
+            }
+
+
+            .text-center {
+                margin: 10px auto;
             }
 
             .cloud-page-1 h4,
@@ -520,11 +537,8 @@ include_once('includes/header.php');
             </div>
         </div>
 
-
-
-
-
-
+        <div class="hb-btn_cl" style="text-align: center; margin-top: 20px;"><a href="contact-us.php" class="global-button">Reach Us</a>
+        </div>
 
 
         <div class="hb-journey">
@@ -570,7 +584,7 @@ include_once('includes/header.php');
     </div>
 </div>
 
-<div class="hb-cloudCont text-center">
+<div class="hb-cloudCont text-center" style="text-align:center; margin-top: 10px;">
     <p><b>Embark on Tomorrow's Computing with Pi Cloud Services </b> </p>
     <p>Ditch conventional IT constraints and embrace cloud agility and innovation. Let's propel your enterprise to unprecedented altitudes through the cloud's prowess! </p>
 </div>

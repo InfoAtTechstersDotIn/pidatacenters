@@ -4167,3 +4167,127 @@ footer>div>p {
 .hb-listInfos_>li:hover {
     background-color: #223f97 !important;
 }
+
+
+.cloud-icon,
+.cloud-icon2 {
+    background: radial-gradient(#223f97, #76b543, #223f97, #76b543);
+    padding: 25px;
+    text-align: center;
+    border-radius: 183px;
+    width: 130px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.cloud-icon2 {
+    background: radial-gradient(#76b543, #223f97, #76b543, #223f97);
+}
+
+.cloud-icon img {
+    width: 80px;
+}
+
+.cloud {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.cloud:hover {
+    background-color: #ffffff00;
+    border-radius: 10px;
+    box-shadow: -3px 3px 8px black;
+    cursor: pointer;
+}
+
+.cloud:hover .cloud-icon,
+.cloud:hover .cloud-icon2 {
+    animation: Shake 0.5s linear infinite;
+}
+
+.cloud:hover .cloud h4 {
+    color: #76b543;
+}
+
+.cloud:hover .cloud p {
+    color: #223f97;
+}
+
+
+.cloud-page-1,
+.cloud-page-2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    gap: 20px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.cloud-page-3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    gap: 20px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.new-data {
+    text-align: justify;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+
+.text-center {
+    margin: 10px auto;
+}
+
+.cloud-page-1 h4,
+.cloud-page-2 h4,
+.cloud-page-3 h4 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.hb-journeyCont>h3 {
+    text-align: center;
+}
+
+.hb-Jimg>p>img {
+    background-color: #223f97;
+}
+
+@keyframes Shake {
+    0% {
+        transform: rotate(5deg);
+    }
+
+    25% {
+        transform: rotate(-6deg);
+    }
+
+    50% {
+        transform: rotate(5deg);
+    }
+
+    75% {
+        transform: rotate(-6deg);
+    }
+
+    100% {
+        transform: rotate(5deg);
+    }
+}
+
+@media screen and (max-width:599px) {
+
+    .cloud-page-1,
+    .cloud-page-2,
+    .cloud-page-3 {
+        display: block;
+    }
+}
