@@ -109,18 +109,12 @@
 
         .background {
             position: absolute;
-            width: 100%;
             left: 0;
-            right: 0;
-            bottom: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: none;
             z-index: -1;
-        }
-
-        @media(max-aspect-ratio:16/9) {
-            .background {
-                width: auto;
-                height: 100%;
-            }
         }
     </style>
     <script>
@@ -397,6 +391,8 @@ Services</a> -->
                                                             <li>
                                                                 <a href="https://pidatacenters.com/acceptable-use-policy.php">Acceptable Use Policy</a>
                                                             </li>
+                                                            <li><a href="terms-conditions.php">Terms and Conditions</a></li>
+
 
                                                         </ul>
                                                     </div>
@@ -582,6 +578,9 @@ Services</a> -->
                                 <ul class="sub-menu menu-even sub-sub-menu menu-depth-2">
                                     <li id="nav-menu-item-3869" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom"><a href="privacy-policy.php" class="menu-link sub-menu-link">Privacy Policies</a></li>
                                     <li id="nav-menu-item-3870" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom"><a href="acceptable-use-policy.php" class="menu-link sub-menu-link">Acceptable Use Policy</a></li>
+                                    <li id="nav-menu-item-3871" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom"><a href="terms-conditions.php" class="menu-link sub-menu-link">Terms and Conditions</a></li>
+
+
 
 
                                 </ul>
@@ -886,22 +885,60 @@ Services</a> -->
                 <div>
                     <div class="block-1">
                         <div class="backdround-bg">
-                            <div class="datacenter-blk">
+                            <div class="datacenter-blk about-loc">
                                 <div class="container">
                                     <div class="datacenter-main center-block">
-                                        <!--<span style="color:#ffffff;font-size:17px;line-height:26px;text-align:center;display:block;">Pan-India Predominance</span>-->
-                                        <h2> State-of-the-Art Facilities</h2>
-                                        <!--                                <p> PiÂ® is Indiaâ€™s first Greenfield and Worldâ€™s 4th largest Uptime institute Tier lV Certified Datacenter-->
-                                        <!--</p>-->
                                         <ul class="center">
-                                            <li class="col-md-4">
-                                                <img src="images/pi-datacenters-kochi-dc-2.webp" alt="dc" width="656" height="316">
-                                                <div class="strategic-core-council-cnt2">
-                                                    <p>Kochi Data Center <br> (Kottapuram Road, Aroor )</p>
-                                                    <p>Uptime Institute Tier lll Design Complaint Data Center</p>
+                                            <li>
+
+                                                <div class="row locations">
+                                                    <div class="col-md-6 text">
+                                                        <span class="dc">State-of-the-Art Facilities</span>
+                                                        <h2>Vijayawada Data Center</h2>
+                                                        <p> India&#8217;s first Greenfield and World&#8217;s 4th largest Uptime Institute Tier lV Certified Data Center</p>
+                                                        <p>Positioned strategically along the banks of the Krishna River and at the crossroads of the golden quadrilateral, Vijayawada becomes the cornerstone of Pi's network. Its proximity to NH65 ensures seamless connectivity and a stable climate, enhancing the accessibility of our innovative data center. With Pi's commitment to reliability, Vijayawada emerges as an ideal location for safeguarding critical data on your digital journey.
+                                                        </p>
+
+
+                                                    </div>
+                                                    <div class="col-md-6 about-loc">
+                                                        <img src="images/new-vijayawada-dc.png" alt="amaravati" width="656" height="316">
+                                                    </div>
+
                                                 </div>
                                             </li>
-                                            <li class="col-md-4">
+                                            <li class="locations">
+                                                <div class="row">
+                                                    <div class="col-md-6 text">
+                                                        <span class="dc">State-of-the-Art Facilities</span>
+                                                        <h2>Hyderabad Data Center</h2>
+                                                        <p> Uptime Institute Tier III Design Compliant Data Center <br>(Build To Suit)</p>
+                                                        <p>At the heart of India's bustling tech hub, Pi in Hyderabad is more than just a facility; it's an innovation powerhouse. Capitalizing on the city's dynamic IT ecosystem and Pi's commitment to excellence, our data center in Hyderabad becomes the nucleus of pioneering data solutions. Your digital journey receives unmatched support as Pi brings together the city's robust power infrastructure and skilled workforce, ensuring reliability and technological advancement.
+                                                        </p>
+
+                                                    </div>
+                                                    <div class="col-md-6 hyd-img about-loc">
+                                                        <img src="images/new-hyd-dc.png" alt="amaravati" width="656" height="316">
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                            <li class="locations">
+                                                <div class="row">
+                                                    <div class="col-md-6 text">
+                                                        <span class="dc">State-of-the-Art Facilities</span>
+                                                        <h2>Kochi Data Center</h2>
+                                                        <p>Uptime Institute Tier lll Design Complaint Data Center</p>
+                                                        <p>In the vibrant city of Kochi, Pi finds a unique space amid the undersea cable landing station zone. Our data center, fueled by dedication to sustainability, thrives in Kochi's eco-friendly landscape. The city's strategic positioning, combined with our focus on renewable energy, creates a resilient foundation for data operations. As you embark on your digital journey, Kochi stands out as a compelling choice, blending the city's emerging tech scene.</p>
+
+                                                    </div>
+                                                    <div class="col-md-6 about-loc">
+                                                        <img src="images/new-kochi-dc.png" alt="dc" width="656" height="316">
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                            <!-- <li class="col-md-4">
                                                 <img src="images/pi-datacenters-amaravati-dc-1.webp" alt="amaravati" width="656" height="316">
                                                 <div class="strategic-core-council-cnt2">
                                                     <p>Vijayawada Data Center <br> (Vijayawada, Andhra Pradesh)</p>
@@ -918,7 +955,7 @@ Services</a> -->
                                                     </p>
                                                 </div>
 
-                                            </li>
+                                            </li> -->
                                             <!-- <li class="col-md-4">
                              <img src="images/kochi-dc.png" alt="dc" width="656" height="316">
                            <div class="strategic-core-council-cnt2">
@@ -939,7 +976,9 @@ Services</a> -->
 
                                         </ul>
                                         <div class="know-more">
-                                            <a href="data-center-infrastructure-services.php" class="dc">Know More</a>
+                                            <a href="data-center-infrastructure-services.php#locations" class="dc">Know More</a>
+
+
                                         </div>
                                     </div>
 
@@ -1014,12 +1053,12 @@ Services</a> -->
                             <div class="container">
                                 <div class="great-blk d-flex flex-wrap">
                                     <div class="great-lt col-lg-4">
-                                        <div class="mobile-headings">
+                                        <div class="mobile-headings mobile">
                                             <span style="color:#ffffff;font-size:16px;line-height:26px;">Array of Services for your Infrastructure Needs</span>
                                             <h2>Unleashing the Power of Pi</h2>
                                         </div>
                                         <div class="desktop-headings">
-                                            <span style="color:#ffffff;font-size:16px;line-height:26px;">Array of Services for your Infrastructure Needs</span>
+                                            <span style="color:#ffffff;font-size:16px;line-height:26px;">Array of Services for your Infrastructure Needs2222</span>
                                             <h2>Unleashing the Power of Pi</h2>
                                             <p>Optimize your digital transformation journey with our array of products and services. We can facilitate you with various customized solutions for colocation and managed services with the elements your business needs. We prioritize Security and Reliability, while our other services offer support for redundancy, disaster recovery, and more.</p>
                                         </div>
@@ -1064,7 +1103,7 @@ Services</a> -->
                                             </li>
                                         </ul>
                                         <div class="mobile-headings">
-                                            <p>Optimize your digital transformation journey with our array of products and services. We can facilitate you with various customized solutions for colocation and managed services with the elements your business needs. We prioritize Security and Reliability, while our other services offer support for redundancy, disaster recovery, and more.</p>
+                                            <p style="color: #000;">Optimize your digital transformation journey with our array of products and services. We can facilitate you with various customized solutions for colocation and managed services with the elements your business needs. We prioritize Security and Reliability, while our other services offer support for redundancy, disaster recovery, and more.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1084,10 +1123,10 @@ Services</a> -->
                                 <img src="images/pi-har.png" alt="hurbour1-logo" width="408" height="156" class="hurbour1-img1">
                                 </div>-->
                                         <!--<p>India's First Enterprise Cloud Platform offers quick time-to-market, flexibility, scalability, capacity, business continuity, <br> and cost-efficiency while being platform-agnostic.</p>-->
-                                        <p>Pi Cloud , powered by Pi DATACENTERSÂ®, Indiaâ€™s first Enterprise Cloud Platform, is now a Multi-Cloud Ecosystem, providing <br>seamlessly integrated and fully managed private and public cloud environments that offers quick time-to-market, flexibility, <br>scalability, capacity, business continuity, and cost-efficiency while being platform-agnostic.</p>
+                                        <p>Pi Cloud , powered by Pi DATACENTERS&#174;, India&#8217;s first Enterprise Cloud Platform, is now a Multi-Cloud Ecosystem, providing <br>seamlessly integrated and fully managed private and public cloud environments that offers quick time-to-market, flexibility, <br>scalability, capacity, business continuity, and cost-efficiency while being platform-agnostic.</p>
                                         <ul class="center1">
                                             <li class="col-md-4">
-                                                <img src="images/backup-as-a-service.webp" alt="hyper-visor" width="190" height="190" class="data-center-img bw">
+                                                <img src="images/ICONS/backup-g.png" alt="hyper-visor" width="190" height="190" class="data-center-img bw">
                                                 <div class="strategic-core-council-cnt1">
                                                     <h3>Backup as a Service</h3>
                                                     <div class="know-more">
@@ -1096,7 +1135,7 @@ Services</a> -->
                                                 </div>
                                             </li>
                                             <li class="col-md-4">
-                                                <img src="images/container-as-a-service.webp" alt="hyper-visor" width="190" height="190" class="data-center-img bw">
+                                                <img src="images/ICONS/container-g.png" alt="hyper-visor" width="190" height="190" class="data-center-img bw">
                                                 <div class="strategic-core-council-cnt1">
                                                     <h3>Container as a Service</h3>
                                                     <div class="know-more">
@@ -1105,7 +1144,7 @@ Services</a> -->
                                                 </div>
                                             </li>
                                             <li class="col-md-4">
-                                                <img src="images/disaster-recovery-as-a-service.webp" alt="hyper-visor" width="190" height="190" class="data-center-img bw">
+                                                <img src="images/ICONS/disaster-g.png" alt="hyper-visor" width="190" height="190" class="data-center-img bw">
                                                 <div class="strategic-core-council-cnt1">
                                                     <h3>Disaster Recovery as a Service</h3>
                                                     <div class="know-more">
@@ -1114,25 +1153,25 @@ Services</a> -->
                                                 </div>
                                             </li>
                                             <li class="col-md-4">
-                                                <img src="images/managed-multi-cloud.webp" alt="hyper-visor" width="190" height="190" class="data-center-img bw">
+                                                <img src="images/ICONS/managed-g.png" alt="hyper-visor" width="190" height="190" class="data-center-img bw">
                                                 <div class="strategic-core-council-cnt1">
                                                     <h3>Managed Multi-cloud</h3>
                                                     <div class="know-more">
-                                                        <a href="./pi-cloud/" class="dc" target="_blank">Know More</a>
+                                                        <a href="./pi-cloud/multicloud-managed-services" class="dc" target="_blank">Know More</a>
                                                     </div>
                                                 </div>
                                             </li>
                                             <li class="col-md-4">
-                                                <img src="images/iaas.webp" alt="hyper-visor" width="190" height="190" class="data-center-img bw">
+                                                <img src="images/ICONS/iaas-g.png" alt="hyper-visor" width="190" height="190" class="data-center-img bw">
                                                 <div class="strategic-core-council-cnt1">
                                                     <h3> Infrastructure as a service</h3>
                                                     <div class="know-more">
-                                                        <a href="https://pidatacenters.com/" class="dc" target="_blank">Know More</a>
+                                                        <a href="data-center-infrastructure-services-advisory.php" class="dc" target="_blank">Know More</a>
                                                     </div>
                                                 </div>
                                             </li>
                                             <li class="col-md-4">
-                                                <img src="images/network-as-a-service.webp" alt="hyper-visor" width="190" height="190" class="data-center-img bw">
+                                                <img src="images/ICONS/network-g.png" alt="hyper-visor" width="190" height="190" class="data-center-img bw">
                                                 <div class="strategic-core-council-cnt1">
                                                     <h3>Network as a Service</h3>
                                                     <div class="know-more">
@@ -1141,7 +1180,7 @@ Services</a> -->
                                                 </div>
                                             </li>
                                             <li class="col-md-4">
-                                                <img src="images/security-as-a-service.webp" alt="hyper-visor" width="190" height="190" class="data-center-img bw">
+                                                <img src="images/ICONS/security-g.png" alt="hyper-visor" width="190" height="190" class="data-center-img bw">
                                                 <div class="strategic-core-council-cnt1">
                                                     <h3>Security as a Service </h3>
                                                     <div class="know-more">
@@ -1150,7 +1189,7 @@ Services</a> -->
                                                 </div>
                                             </li>
                                             <li class="col-md-4">
-                                                <img src="images/storage-as-a-service.webp" alt="hyper-visor" width="190" height="190" class="data-center-img bw">
+                                                <img src="images/ICONS/storage-g.png" alt="hyper-visor" width="190" height="190" class="data-center-img bw">
                                                 <div class="strategic-core-council-cnt1">
                                                     <h3>Storage as a Service </h3>
                                                     <div class="know-more">
@@ -1193,13 +1232,13 @@ Services</a> -->
                                             <span>CEO Corner</span>
                                             <h2>Meet Kalyan Muppaneni</h2>
                                         </div>
-                                        <p>Kalyan is the mind and man behind Pi DATACENTERSÂ®, Asia's Largest Uptime
-                                            Institute Certified TIER IV Data Center, and Pi Cloud - Indiaâ€™s first Enterprise
+                                        <p>Kalyan is the mind and man behind Pi DATACENTERS&#174;, Asia's Largest Uptime
+                                            Institute Certified TIER IV Data Center, and Pi Cloud - India&#8217;s first Enterprise
                                             Cloud Platform. His extensive experience in multiple disciplines of IT, backed
                                             with strong business acumen and global organizational leadership, makes him
                                             stand out. </p>
 
-                                        <p class="story"><span style="font-size:17px;display:inline-block;padding:0 0 10px;">Kalyanâ€™s Story:</span> <br> Kalyan is the Founder & Chief Executive Officer of Pi DATACENTERSÂ®. He is
+                                        <p class="story"><span style="font-size:17px;display:inline-block;padding:0 0 10px;">Kalyan&#8217;s Story:</span> <br> Kalyan is the Founder & Chief Executive Officer of Pi DATACENTERS&#174;. He is
                                             a visionary, technology leader and an industry veteran for more than 2
                                             decades. Including 15+years in leadership roles with Intel Corporation in the
                                             Silicon Valley, US. With an appetite for an ahead of the curve innovation and
@@ -1282,7 +1321,7 @@ Services</a> -->
 
                             <div class="col-md-3">
                                 <div class="footer-copy-rights">
-                                    <p>Â© 2023 Pi DATACENTERSÂ® Pvt. Ltd.| All rights reserved.</p>
+                                    <p>&#169; 2023 Pi DATACENTERS Pvt. Ltd.| All rights reserved.</p>
                                     <!--<p><a href="https://3dm.agency/" target="_blank" class="three-dm">Design and Developed by @3DM.agency</a></p>-->
                                     <p><a href="#" target="_blank" class="three-dm">Managed by Nayana Group</a></p>
 
@@ -1587,7 +1626,7 @@ Services</a> -->
                 slidesToShow: 1,
                 centerMode: true,
                 autoplay: true,
-                autoplaySpeed: 8000,
+                autoplaySpeed: 3000,
                 dots: false,
                 arrows: true,
                 swipe: true,
@@ -1714,6 +1753,16 @@ Services</a> -->
             wow.init();
         });
     </script>
+    <!-- <script>
+        document.getElementById('btnShowSection').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default behavior of the link
+            document.getElementById('locations').scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    </script> -->
+
+
     <!--Start of Tawk.to Script-->
     <!--<script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
