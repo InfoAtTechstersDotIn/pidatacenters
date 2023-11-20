@@ -72,10 +72,11 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
                      </div>
                   </div>
                   <div class="col-md-6">
+                     <input type="hidden" id="checkout_server" value="<?php echo $product['name'] . " - " . $product['price'] ?>" />
                      <form action="ccavenue/index.php" method="post" style="margin-top: 50px;">
-                        <input type="text" id="name" name="name" style="width: 100%;border-radius:5px" placeholder=" Full Name" required=""><br /><br />
-                        <input type="tel" id="phone" name="phone" style="width: 100%;border-radius:5px" placeholder=" Phone" pattern="[0-9]{10}" required=""><br /><br />
-                        <input type="email" id="email" name="email" style="width: 100%;border-radius:5px" placeholder=" Email Address" required=""><br /><br />
+                        <input type="text" id="checkout_name" name="name" style="width: 100%;border-radius:5px" placeholder=" Full Name" required="" /><br /><br />
+                        <input type="tel" id="checkout_phone" name="phone" style="width: 100%;border-radius:5px" placeholder=" Phone" pattern="[0-9]{10}" required="" /><br /><br />
+                        <input type="email" id="checkout_email" name="email" style="width: 100%;border-radius:5px" placeholder=" Email Address" required="" /><br /><br />
                         <input type="hidden" name="id" value="<?php echo $product['id'] ?>" required="">
                         <table style="border: 0px;">
                            <tr style="border: 0px;">
@@ -97,7 +98,7 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
                         </table><br />
                         <input type="checkbox" required /> I Agree with Terms and Conditions<br />
                         <br />
-                        <input class="btn" style="width: 100%;border-radius:5px" type="submit" value="Buy Now">
+                        <input class="btn" onclick="submit_form()" style="width: 100%;border-radius:5px" type="submit" value="Buy Now">
                      </form>
                   </div>
                </div>
@@ -122,9 +123,10 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
    <script>
       
     function submit_form() {
-        let name = document.getElementById("name").value;
-        let phone = document.getElementById("phone").value;
-        let email = document.getElementById("email").value;
+        let name = document.getElementById("checkout_name").value;
+        let phone = document.getElementById("checkout_phone").value;
+        let email = document.getElementById("checkout_email").value;
+        let server = document.getElementById("checkout_server").value;
 
         let error = 0;
         if (name == "") {
@@ -147,6 +149,7 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
             data.append('Name', name);
             data.append('Number', phone);
             data.append('Email', email);
+            data.append('Server', server);
             data.append('form_unique_id', "86497a91-7e3b-11ee-a0ca-525400b78afc");
             data.append('techsters_subject', "Pidatacenters - Rent A Server");
 
