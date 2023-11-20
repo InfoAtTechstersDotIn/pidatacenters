@@ -314,6 +314,61 @@ include_once('includes/header.php');
     .slick-next:before {
         color: black !important;
     }
+
+    .slick-dots {
+        width: auto;
+        height: 20px;
+        padding: 0;
+        display: flex;
+        display: flex;
+        top: 105%;
+        left: 45%;
+        margin: 30px 0px;
+    }
+
+    .slick-dots li button:before {
+        font-size: 10px;
+        color: #76b543;
+    }
+
+    .slick-dots li.slick-active button:before {
+        opacity: 1;
+        color: #223f97;
+        transform: scale(1.5);
+    }
+
+    .slick-initialized .slick-slide {
+        display: flex;
+    }
+
+    .slide .slick-slide {
+        transform: scale(0.8);
+        transition: all 0.4s ease-in-out;
+    }
+
+    .slide .slick-slide .cloud-icon {
+        background-color: grey;
+        fill: black;
+    }
+
+    .slide .slick-slide,
+    .slide .slick-slide[aria-hidden="true"]:not(.slick-cloned)~.slick-cloned[aria-hidden="true"] {
+        transform: scale(0.8, 0.8);
+        transition: all 0.4s ease-in-out;
+    }
+
+    .slide .slick-center,
+    .slide .slick-slide[aria-hidden="true"]:not([tabindex="-1"])+.slick-cloned[aria-hidden="true"] {
+        transform: scale(1.1);
+    }
+
+    .slide .slick-current.slick-active {
+        transform: scale(1.1);
+    }
+
+    .slide .slick-current.slick-active .cloud-icon {
+        background-color: #223f97;
+    }
 </style>
 <!-- banner section starts here -->
 <div class="hb-bannerCont">
@@ -394,8 +449,17 @@ include_once('includes/header.php');
 
             .cloud-icon {
                 background: #223f97;
-                border: 5px dotted #76b543;
+
+                box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+                    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+                    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+                    rgba(0, 0, 0, 0.06) 0px 2px 1px,
+                    rgba(0, 0, 0, 0.09) 0px 4px 2px,
+                    rgba(0, 0, 0, 0.09) 0px 8px 4px,
+                    rgba(0, 0, 0, 0.09) 0px 16px 8px,
+                    rgba(0, 0, 0, 0.09) 0px 32px 16px
             }
+
 
             .hb-journeyCont>h3 {
                 margin-bottom: 10px;
@@ -510,32 +574,6 @@ include_once('includes/header.php');
             </div>
         </div>
 
-        <style>
-            .slick-dots {
-                width: auto;
-                height: 20px;
-                padding: 0;
-                display: flex;
-                display: flex;
-                top: 105%;
-                left: 45%;
-                margin: 30px 0px;
-            }
-
-            .slick-dots li button:before {
-                font-size: 15px;
-                color: #76b543;
-            }
-
-            .slick-dots li.slick-active button:before {
-                opacity: 1;
-                color: #223f97;
-            }
-
-            .slick-initialized .slick-slide {
-                display: flex;
-            }
-        </style>
 
         <div class="hb-btn_cl" style="text-align: center; margin-top: 10px; padding-top: 50px;"><a href="contact-us.php" class="global-button">Reach Us</a>
         </div>
@@ -1511,9 +1549,12 @@ include_once('includes/header.php');
         dots: true,
         arrows: false,
         infinite: true,
-        // autoplay: true,
-        // autoplaySpeed: 2000,
+        autoplay: true,
+        autoplaySpeed: 2000,
         speed: 300,
+        centerMode: true,
+        centerPadding: '30px',
+        useTransform: true,
         slidesToShow: 3,
         slidesToScroll: 1,
         responsive: [{
