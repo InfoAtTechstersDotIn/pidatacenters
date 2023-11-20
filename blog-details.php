@@ -1,6 +1,7 @@
 <?php include('php/inner-header.php');?>
 <?php
-$servername = "localhost";
+// $servername = "localhost";
+$servername = "172.20.119.52";
 $username = "marcom";
 $password = "TR*viv3mo?!q";
 $dbname = "search8c_pi";

@@ -10,9 +10,9 @@ $og_title= "";
 $og_description= "";
 ?>
 
-<?php include('php/inner-header.php');?>
-<?php
-$servername = "localhost";
+<?php include('php/includes-techsters/header.php'); ?>
+// $servername = "localhost";
+$servername = "172.20.119.52";
 $username = "marcom";
 $password = "TR*viv3mo?!q";
 $dbname = "search8c_pi";
@@ -29,7 +29,7 @@ if ($conn->connect_error) {
          <!-- main starts here -->
          <div class="about-banner">
                  <div class="about-banner-blk">
-                      <img src="images/blogs-banner.jpg" alt="blogs-banner" width="1920" height="210">
+                      <img src="https://pidatacenters.com/images/blogs-banner.jpg" alt="blogs-banner" width="1920" height="210">
                          <h2>Blogs</h2>
                      
                  </div>
@@ -70,7 +70,7 @@ Climate change has been a cause for concern over the last decade. This in turn, 
                   </div>
               </div>
           </div>
-          <?php include('php/footer.php');?>
+          <?php include('php/includes-techsters/footer.php'); ?>
           
           <div id="modal-1" class="modalDialog">
 	<div class="fill-your-details">

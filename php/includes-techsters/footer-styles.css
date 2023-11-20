@@ -22,6 +22,9 @@ body {
     color: #fff;
     font-weight: 400;
     margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .questions p button {
@@ -68,7 +71,7 @@ body {
     background-position: center;
     position: relative;
     margin-top: 100px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 25px 0px 0px 0px;
 }
 
@@ -153,10 +156,27 @@ body {
     /* width: 100%; */
     max-width: 875px;
     margin: auto;
+    margin-top: 50px;
 }
 
 .footer_icons li a {
     margin-bottom: 15px;
+}
+
+.question_button a {
+    color: #2680EB;
+}
+
+@media (max-width: 950px) {
+    .get_in_touch {
+        margin: 0;
+    }
+    .questions p button {
+        margin-left: 0;
+    }
+    .questions p {
+        font-size: 20.5px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -170,13 +190,32 @@ body {
     .questions p button {
         margin-left: 0;
     }
-}
-
-@media (max-width: 950px) {
+    .questions p {
+        text-align: center;
+        padding: 20px 12px;
+        font-size: 20.5px;
+        color: #fff;
+        font-weight: 400;
+        margin: 5px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .questions {
+        flex-direction: column;
+    }
+    .questions p {
+        font-size: 15.5px;
+        padding: 5px 12px;
+    }
     .get_in_touch {
-        margin: 0;
+        width: 100%;
+        max-width: 90%;
+        margin: auto;
+        left: 5%;
     }
     .questions p button {
-        margin-left: 0;
+        font-size: 18.5px;
+        height: 40px;
     }
 }

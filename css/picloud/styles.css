@@ -385,10 +385,11 @@
     color: #000 !important;
 }
 
-.picloud_pages .row {
+
+/* .picloud_pages .row {
     display: flex;
     flex-direction: column;
-}
+} */
 
 .picloud_pages .get_in_touch {
     background-color: #fff;
@@ -426,6 +427,8 @@ input {
     font-size: 24px;
 }
 
+
+/* 
 .hb-leftCont {
     text-align: center;
     background: #2680eb;
@@ -435,7 +438,7 @@ input {
     border-radius: 35px;
     color: white;
     margin-top: 30px;
-}
+} */
 
 .picloud_pages .hb_ppCont h2 {
     font-size: 21px;

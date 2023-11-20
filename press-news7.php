@@ -41,6 +41,8 @@ $seo_keywords = "data center news, enterprise cloud fabric, Hyperscale datacente
         </div>
     </div>
     <?php include('php/includes-techsters/footer.php'); ?>
+    
+    
 </body>
 
 </html>

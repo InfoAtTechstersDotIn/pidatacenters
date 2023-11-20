@@ -81,37 +81,37 @@ ul {
     }
 }
 
-::-webkit-scrollbar {
+.modal::-webkit-scrollbar {
     width: 6px;
     height: 6px;
     border-radius: 20px
 }
 
-::-webkit-scrollbar-button {
+.modal::-webkit-scrollbar-button {
     display: none
 }
 
-::-webkit-scrollbar-track {
+.modal::-webkit-scrollbar-track {
     background-color: #ccc
 }
 
-::-webkit-scrollbar-track-piece {
+.modal::-webkit-scrollbar-track-piece {
     background-color: #ccc
 }
 
-::-webkit-scrollbar-thumb {
+.modal::-webkit-scrollbar-thumb {
     background-color: #2f1dac
 }
 
-::-webkit-scrollbar-thumb:hover {
+.modal::-webkit-scrollbar-thumb:hover {
     background-color: #2f1dac
 }
 
-::-webkit-scrollbar-corner {
+.modal::-webkit-scrollbar-corner {
     display: none
 }
 
-::-webkit-resizer {
+.modal-dialog::-webkit-resizer {
     display: none
 }
 
@@ -1609,6 +1609,7 @@ header {
     display: inline-block;
     padding: 3px;
     right: 12px;
+    top: 10px;
     transition: .5s;
     transform: rotate(45deg)
 }
@@ -1713,7 +1714,8 @@ header {
 .dep-moreInfp>p {
     font-size: 16px;
     line-height: 24px;
-    padding-top: 8px
+    padding-top: 8px;
+    color: #fff !important;
 }
 
 .dep-active .plus_ico:after {
@@ -1733,7 +1735,8 @@ header {
 }
 
 .child_deptCont>li>h3 {
-    font-size: 18px
+    font-size: 18px;
+    color: #fff !important;
 }
 
 .child_deptCont>li>h3>a {
@@ -1743,7 +1746,7 @@ header {
 .child_deptCont>li>p {
     font-size: 14px;
     line-height: 24px;
-    color: #c5c5c5;
+    color: #c5c5c5 !important;
     padding-top: 6px
 }
 
@@ -2737,6 +2740,8 @@ footer>div>p {
 .hb-jorInfo>p {
     font-size: 18px;
     line-height: 24px;
+    color: #fff !important;
+    text-align: center;
 }
 
 .hb-jorInfo {
@@ -3170,7 +3175,8 @@ footer>div>p {
     opacity: 0;
     text-align: center;
     font-size: 14px;
-    color: #fff
+    color: #fff;
+    top: 0px;
 }
 
 .hb-helBox:hover .hb-hoCont {
@@ -3428,7 +3434,7 @@ footer>div>p {
     top: 0;
     height: 100%;
     width: 20px;
-    background-color: #d5cef7
+    /* background-color: #d5cef7 */
 }
 
 .hb-childProducts2 .tabBlock-tab:before {
@@ -3453,7 +3459,7 @@ footer>div>p {
 .tabBlock-tab.is-active:after,
 .tabBlock-tab.is-active:before {
     color: #fff;
-    background: #3d1b9b !important;
+    /* background: #3d1b9b !important; */
 }
 
 .hb-childProducts2 .tabBlock-tab.is-active:hover .nav-link,
@@ -3462,10 +3468,10 @@ footer>div>p {
     color: #fff
 }
 
-.hb-childProducts2 .tabBlock-tab:hover,
+.picloud_pages .hb-childProducts2 .tabBlock-tab:hover,
 .tabBlock-tab:hover:after,
 .tabBlock-tab:hover:before {
-    background-color: #3d1b9b !important;
+    /* background-color: #3d1b9b !important; */
     color: #fff !important
 }
 

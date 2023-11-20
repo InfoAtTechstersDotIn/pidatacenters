@@ -117,6 +117,7 @@ body.dark {
 .skltbs-tab-item:hover:after,
 .skltbs-tab-item:hover:before {
     background-color: #3d1b9b !important;
+    background-color: #76b443 !important;
     color: #fff !important
 }
 

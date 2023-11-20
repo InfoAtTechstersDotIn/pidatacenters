@@ -1,55 +1,58 @@
-<?php include('php/inner-header.php'); ?>
 
 
 
+<?php include('php/includes-techsters/header.php'); ?>
 
 
+<style>
 
+.banners_content.gpu_hide {
+    display: none;
+}
+</style>
 
 <!-- main starts here -->
 
 <div class="about-banner">
    <div class="container">
-      <div class="about-banner-blk">
+      <div class="about-banner-blk pt-3">
          <!--  <img src="images/istockphoto-1356466745-612x612.jpg" alt="soc-banner" width="1920" height="210" style="max-width:612px;height:auto;margin:0 auto;">-->
          <h2>SOC</h2>
          <ul class="slider-rent">
             <li>
                <img src="images/rank-1-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
                <img src="images/rank-1-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
-               <a href="#">BUY NOW</a>
+               <a href="checkout.php?id=1">BUY NOW</a>
             </li>
             <li>
                <img src="images/rank-2-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
                <img src="images/rank-2-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
-               <a href="#">BUY NOW</a>
+               <a href="checkout.php?id=2">BUY NOW</a>
             </li>
             <li>
                <img src="images/rank-3-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
                <img src="images/rank-3-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
-               <a href="#">BUY NOW</a>
+               <a href="checkout.php?id=3">BUY NOW</a>
             </li>
             <li>
                <img src="images/rank-4-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
                <img src="images/rank-4-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
-               <a href="#">BUY NOW</a>
-
+               <a href="checkout.php?id=4">BUY NOW</a>
             </li>
             <li>
                <img src="images/rank-5-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
                <img src="images/rank-5-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
-               <a href="#">BUY NOW</a>
+               <a href="checkout.php?id=5">BUY NOW</a>
             </li>
             <li>
                <img src="images/rank-6-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
                <img src="images/rank-6-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
-               <a href="#">BUY NOW</a>
+               <a href="checkout.php?id=6">BUY NOW</a>
             </li>
-
             <li>
                <img src="images/rank-7-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
                <img src="images/rank-7-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
-               <a href="#">BUY NOW</a>
+               <a href="checkout.php?id=7">BUY NOW</a>
             </li>
 
          </ul>
@@ -61,10 +64,9 @@
 <div class="what-is-noc">
 
 
-   <?php include('php/footer.php'); ?>
 
 
-
+   <?php include('php/includes-techsters/footer.php'); ?>
 
    <!--footer ends-->
 </div>
@@ -96,10 +98,7 @@
                slidesToScroll: 1
             }
          }]
-
       });
-
-
 
       //animation
       wow = new WOW({
