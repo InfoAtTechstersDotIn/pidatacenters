@@ -2110,7 +2110,8 @@ footer>div>p {
 }
 
 .hb-productHead>p {
-    font-size: 16px color: #000;
+    font-size: 16px;
+    color: #000;
 }
 
 .hb-childProducts {
@@ -4177,15 +4178,10 @@ footer>div>p {
     width: 100px;
     height: auto;
     margin-bottom: 20px;
-    animation: Shake 0.5s linear infinite;
 }
 
 .cloud-icon2 {
     animation: none;
-}
-
-.cloud-icon {
-    background: ;
 }
 
 .cloud-icon2 {
