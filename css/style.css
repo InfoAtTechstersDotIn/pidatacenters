@@ -6772,7 +6772,8 @@ h2.ceo-corner {
 }
 
 .dc-download-brochure {
-    background: url(../images/dc-db.png) no-repeat center;
+    /* background: url(https://pidatacenters.com//images/dc-db.png) no-repeat center; */
+    background: url(https://pidatacenters.com/images/dc-db.png) no-repeat center;
     width: 100%;
     padding: 60px;
     background-size: cover;
@@ -8204,4 +8205,29 @@ td {
 .table-th {
     background-color: #9e9e9e3b;
     text-transform: uppercase;
+}
+
+.colocation_page .tabBlock-tab.is-active:before {
+    color: #fff;
+    background: transparent !important;
+}
+
+.colocation_page .tabBlock-tab:before {
+    background-color: transparent !important;
+}
+
+.hb-colocation_page .tabBlock-tab.is-active:after,
+.tabBlock-tab.is-active:before {
+    background: transparent !important;
+}
+
+.colocation_page .tabBlock-tab:hover:after,
+.tabBlock-tab:hover:before {
+    background-color: transparent !important;
+}
+
+.colocation_page .tabBlock-tab:hover,
+.tabBlock-tab:hover:after,
+.tabBlock-tab:hover:before {
+    background-color: transparent !important;
 }

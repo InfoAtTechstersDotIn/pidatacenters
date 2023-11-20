@@ -349,7 +349,7 @@ if ($conn->connect_error) {
   <!--footer block starts -->
 
 
-  <?php include('php/includes-techsters/header.php'); ?>
+  <?php include('php/includes-techsters/footer.php'); ?>
 
 
   <!--footer ends-->
