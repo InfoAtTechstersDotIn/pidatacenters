@@ -53,11 +53,11 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
     </div>
 </div>
 <!--board-of-directors starts here -->
-<div class="testimonial-block">
+<div class="testimonial-block colocation_page">
     <div class="container">
         <div class="testimonial-block-main">
             <div class="tabBlock">
-                <ul class="tabBlock-tabs nav-tabs feature-tab  border-bottom-0 d-flex flex-wrap justify-content-center dcis" data-tabs="tabs">
+                <ul class="tabBlock-tabs nav-tabs feature-tab  border-bottom-0 d-flex flex-wrap justify-content-center dcis" data-tabs="tabs ">
                     <li class="tabBlock-tab  animatable fadeInUp is-active">
                         <a class="nav-link" data-toggle="tab">Colocation
                         </a>
@@ -769,7 +769,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
         <div class="dc-download-brochure-left">
             <p>Data Center Portfolio</p>
         </div>
-        <div class="dc-download-brochure-right">
+        <div class="dc-download-brochure-right text-center">
             <a href="images/Data-center-services-portfolio-14.pdf" target="_blank">Download Brochure</a>
         </div>
     </div>

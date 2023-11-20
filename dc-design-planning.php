@@ -34,11 +34,11 @@ $seo_keywords = "data center design, data center planning, data center reference
                         Pi comes fully armed with experts in the industry and experience of setting up the worldâ€™s fourth largest Uptime institute Tier 4 datacenter in India. Pi undertakes complete due diligence, site survey and presents a project plan basis customers requirement. Pi will review your current setup and consider factors such as your business plan, technology landscape, and future projections to determine the appropriate level of design (Tier III or Tier IV) for your needs. This will involve analyzing your growth projections and presenting a high-level design.
 
                     </p>
-                    <p>Piâ€™s Datacenter consultancy services include:</p>
-                    <p class="info-points">â€¢ Datacenter consulting and planning</p>
-                    <p class="info-points">â€¢ Datacenter design </p>
-                    <p class="info-points">â€¢ Build</p>
-                    <p class="info-points">â€¢ Operate </p>
+                    <p> Datacenter consultancy services include:</p>
+                    <p class="info-points">• Datacenter consulting and planning</p>
+                    <p class="info-points">• Datacenter design </p>
+                    <p class="info-points">• Build</p>
+                    <p class="info-points">• Operate </p>
                     <!--<p>Pi IT uses its expertise in data center technologies to deliver data center build and design consulting services to organizations that want to build high performance data center infrastructure for captive or third party utilization. Our DC Build and Design Consulting services can help our customers build scalable, flexible, modular and energy efficient data centers at competitive costs without compromising on the operational efficiencies of their data center infrastructure. </p>
                            <p>Designing and building a data center is a highly specialized activity. It involves evaluation of geographical seismic topography, regulatory clearances, power infrastructure, knowledge of hardware and software amongst others. Itâ€™s a highly complex system integration process and a consulting partner is critical to ensure that the initial planning is error proof to limit future exigencies.</p>
                            <p>In a short span of time, our data center consulting practice has helped build data centers of varying sizes for clients across the globe. These include data centers for captive use as well as for third party clients. We have a team of highly specialized data center specialists that include IT engineers, network specialists, software engineers and other technical staff. We also have on board specialized data center architects and civil engineers to design the optimal data center facilities for our clients.</p>-->

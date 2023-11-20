@@ -66,6 +66,13 @@ $seo_keywords = "Contact Us, best data centers, data center services,  Data cent
     #reach-btn {
       display: none;
     }
+
+
+    .contact_page_form
+      input{
+        line-height: 31px !important;
+      }
+    
   </style>
 </head>
 <?php include('php/includes-techsters/header.php'); ?>
@@ -209,7 +216,7 @@ SRR Middle East FZCO Technology Park, Mina-Jebel Ali, National Industrial Park,D
                             </ul>
                             </form>-->
 
-        <form id="contactForm" action="https://clientele.techsters.in/public/api/client_forms" method="post">
+        <form id="contactForm" class="contact_page_form" action="https://clientele.techsters.in/public/api/client_forms" method="post">
           <input class="" type="text" name="name" style="width: 100%;border-radius:5px" placeholder=" Full Name" required=""><br /><br />
           <input class="" type="tel" name="number" style="width: 100%;border-radius:5px" placeholder=" Phone" pattern="[0-9]{10}" required=""><br /><br />
           <input class="" type="email" name="email" style="width: 100%;border-radius:5px" placeholder=" Email Address" required=""><br /><br />

@@ -58,7 +58,7 @@
 
 <div class="container product">
     <div class="row">
-        <h3 class="text-center" style="font-size: 28px; margin: 15px 0;">Why Choose <span style="color: #76b543;">Pi Public Cloud Services</span>?</h3>
+        <h3 class="text-center" style="font-size: 28px; margin: 15px 0; width:100%;">Why Choose <span style="color: #76b543;">Pi Public Cloud Services</span>?</h3>
 
         <div class="box">
             <div class="jCont col-md-2">
@@ -104,7 +104,7 @@
 
 <div class="container product">
     <div class="row">
-        <h3 class="text-center" style="font-size: 28px; margin: 20px 0;">Service <span style="color: #76b543;">Offerings</span> </h3>
+        <h3 class="text-center" style="font-size: 28px; margin: 20px 0;width:100%;">Service <span style="color: #76b543;">Offerings</span> </h3>
 
         <div class="box">
             <div class="jCont col_sm-2">
@@ -709,5 +709,25 @@
 
         });
 
+    });
+</script>
+
+<script>
+    const modalBox = document.querySelector(".modal-container");
+    const modalBtn = document.querySelector(".modal-btn");
+    const closeBtn = document.querySelector(".close-btn");
+
+    modalBtn.addEventListener("click", () => {
+        modalBox.style = "display: block;";
+    });
+
+    closeBtn.addEventListener("click", () => {
+        modalBox.style = "display: none;";
+    });
+
+    window.addEventListener("click", (e) => {
+        if (e.target == modalBox) {
+            modalBox.style = "display: none;";
+        }
     });
 </script>

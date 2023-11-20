@@ -20,9 +20,10 @@ $seo_keywords = "Data Center & Cloud related services, reliable Data Center & Cl
 <?php include('php/includes-techsters/header.php'); ?>
 
 <?php
-/*
 
-$servername = "localhost";
+
+// $servername = "localhost";
+$servername = "172.20.119.52";
 $username = "marcom";
 $password = "TR*viv3mo?!q";
 $dbname = "search8c_pi";
@@ -34,7 +35,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-*/
+
 ?>
 <style>
     .director-rt h3 {
@@ -279,7 +280,7 @@ if ($conn->connect_error) {
 
                                     }
 
-                                    */
+                                
 
                                     ?>
                                     <!-- <li class="col-md-4">

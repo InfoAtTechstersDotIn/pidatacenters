@@ -20,15 +20,15 @@ function setShareLinks() {
     })
 }
 $(".owl-carousel").owlCarousel({
-	loop: !0,
+    loop: !0,
     margin: 10,
     nav: !0,
     autoplay: false,
-	autoplayTimeout:10000,
+    autoplayTimeout: 10000,
     autoplaySpeed: 3000,
     autoplayHoverPause: true,
     responsiveClass: !0,
-	responsive: {
+    responsive: {
         0: {
             items: 1
         },

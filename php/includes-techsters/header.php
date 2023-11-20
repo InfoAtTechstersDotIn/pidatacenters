@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-<?php
-$site_url="http://localhost/pidatacenters-main/"
-?>
+    <?php
+    $site_url = "http://localhost/pidatacenters-main/"
+    ?>
 
 
     <meta charset="UTF-8">
@@ -20,23 +19,23 @@ $site_url="http://localhost/pidatacenters-main/"
     <link rel="stylesheet" type="text/css" href="php/includes-techsters/footer-styles.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $site_url ?>press-style.css">
+
+    <link rel="stylesheet" type="text/css" href="<?php echo $site_url ?>css/picloud/styles.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $site_url ?>css/picloud/style-2.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $site_url ?>css/picloud/minified/common.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $site_url ?>css/picloud/minified/darkmode.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $site_url?>press-style.css">
-
-    <link rel="stylesheet" type="text/css" href="<?php echo $site_url?>css/picloud/styles.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $site_url?>css/picloud/style-2.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $site_url?>css/picloud/minified/common.min.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $site_url?>css/picloud/minified/darkmode.css">
 
 
-    <link rel="stylesheet" type="text/css" href="<?php echo $site_url?>press-style.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $site_url ?>press-style.css">
 
 
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.css" type="https://103.210.75.115/text/css">
     <link rel="stylesheet" href="https://103.210.75.115/css/menu.css" type="text/css">
-    <link rel="stylesheet" href="https://103.210.75.115/css/main-test.css" type="text/css">
+    <!-- <link rel="stylesheet" href="https://103.210.75.115/css/main-test.css" type="text/css"> -->
     <link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick.css" type="text/css">
     <link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick-theme.css" type="text/css">
     <!-- <link rel="stylesheet" href="https://103.210.75.115/css/style-test.css" type="text/css"> -->
@@ -46,11 +45,44 @@ $site_url="http://localhost/pidatacenters-main/"
 
 
 
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
+
+
+
+
+<script>
+    (function(ss, ex) {
+        window.ldfdr = window.ldfdr || function() {
+            (ldfdr._q = ldfdr._q || []).push([].slice.call(arguments));
+        };
+        (function(d, s) {
+            fs = d.getElementsByTagName(s)[0];
+
+            function ce(src) {
+                var cs = d.createElement(s);
+                cs.src = src;
+                cs.async = 1;
+                fs.parentNode.insertBefore(cs, fs);
+            };
+            ce('https://sc.lfeeder.com/lftracker_v1_' + ss + (ex ? '_' + ex : '') + '.js');
+        })(document, 'script');
+    })('3P1w24dvX2J8mY5n');
+</script>
+<script>
+    (function(w, d) {
+        w.CollectId = "64ccede764532f27c3dc3bb2";
+        var h = d.head || d.getElementsByTagName("head")[0];
+        var s = d.createElement("script");
+        s.setAttribute("type", "text/javascript");
+        s.async = true;
+        s.setAttribute("src", "https://collectcdn.com/launcher.js");
+        h.appendChild(s);
+    })(window, document);
+</script>
 
 <body>
 
@@ -68,7 +100,7 @@ $site_url="http://localhost/pidatacenters-main/"
                 </div>
 
 
-                <div class="col-lg-10 d-flex  justify-content-end  align-items-center ">
+                <div class="col-lg-10 d-flex  justify-content-center  align-items-center ">
                     <nav id="" class="nav_items">
                         <ul class="nav_items_ul">
                             <li>
@@ -78,8 +110,8 @@ $site_url="http://localhost/pidatacenters-main/"
                             <li class=""><a href="https://pidatacenters.com/"><i class="fa fa-home" style="color:black"></i></a></li>
 
                             <li>
-                                <a href="#" class="drop-arrow ">
-                                    newDATA CENTER
+                                <a href="JavaScript:void(0);" class="drop-arrow ">
+                                    DATA CENTER
 
 
                                 </a>
@@ -92,7 +124,7 @@ $site_url="http://localhost/pidatacenters-main/"
                                             <a href="<?php echo $site_url ?>data-center-infrastructure-services-advisory.php">Data Center Infrastructure & Services</a>
                                         </li>
                                         <li>
-                                            <a href="">Consulting & Data Center Build <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                            <a href="" class="drop-arrow">Consulting & Data Center Build </a>
                                             <div class="sub_drop_down">
                                                 <ul>
                                                     <li>
@@ -129,16 +161,16 @@ $site_url="http://localhost/pidatacenters-main/"
                                             <a href="<?php echo $site_url ?>industry-solutions.php">Industry Solutions</a>
                                         </li>
 
+                                        <!-- 
+                                        <li>
+                                            <a href="#">Other Could Services</a>
+                                        </li> -->
+                                        <li>
+                                            <a href="<?php echo $site_url ?>managed-services.php">Cloud Enablement</a>
+                                        </li>
 
                                         <li>
-                                            <!-- <a href="#">Other Could Services</a> -->
-                                        </li>
-                                        <li>
-                                            <a href="#">Cloud Enablement</a>
-                                        </li>
-                                    
-                                        <li>
-                                            <a href="#">Cloud Certifications</a>
+                                            <a href="<?php echo $site_url ?>certifications.php">Cloud Certifications</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -148,7 +180,7 @@ $site_url="http://localhost/pidatacenters-main/"
                                 <div class="drop-down">
                                     <ul>
                                         <li>
-                                            <a href="#">Multi Cloud Managed Services</a>
+                                            <a href="<?php echo $site_url ?>multicloud-managed-services.php">Multi Cloud Managed Services</a>
                                         </li>
                                         <li>
                                             <a href="<?php echo $site_url ?>rims.php">RIMS</a>
@@ -170,10 +202,10 @@ $site_url="http://localhost/pidatacenters-main/"
                                 <div class="drop-down">
                                     <ul>
                                         <li>
-                                            <a href="#">Cyber Security</a>
+                                            <a href="<?php echo $site_url ?>security.php">Cyber Security</a>
                                         </li>
                                         <li>
-                                            <a href="#">Internet Exchange (IPX)</a>
+                                            <a href="<?php echo $site_url ?>ip-exchange.php">Internet Exchange (IPX)</a>
                                         </li>
                                         <li>
                                             <a href="<?php echo $site_url ?>harbourfront-services.php">HarbourFront (CDN)</a>
@@ -189,10 +221,10 @@ $site_url="http://localhost/pidatacenters-main/"
                                 <div class="drop-down">
                                     <ul>
                                         <li>
-                                            <a href="#">Cloud Servers</a>
+                                            <a href="https://pidatacenters.com/pi-cloud/pricing/#/cloudServers">Cloud Servers</a>
                                         </li>
                                         <li>
-                                            <a href="#">Cloud Storage</a>
+                                            <a href="https://pidatacenters.com/pi-cloud/pricing/#/cloudStorage">Cloud Storage</a>
                                         </li>
                                         <li>
                                             <a href="<?php echo $site_url ?>rent-server.php">Rent A Server</a>
@@ -209,7 +241,7 @@ $site_url="http://localhost/pidatacenters-main/"
                                 <div class="drop-down drop_down_bars">
                                     <ul>
                                         <li>
-                                            <a >About <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                            <a class="drop-arrow">About </a>
                                             <div class="sub_drop_down  ">
                                                 <ul>
                                                     <li>
@@ -234,11 +266,11 @@ $site_url="http://localhost/pidatacenters-main/"
                                             <a href="<?php echo $site_url ?>ceo-corner.php"> CEO Corner</a>
                                         </li>
                                         <li>
-                                            <a href="#"> Partner Portal</a>
+                                            <a href="<?php echo $site_url ?>partners.php"> Partner Portal</a>
                                         </li>
 
                                         <li>
-                                            <a href="#">Knowledge Center <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                            <a href="#" class="drop-arrow">Knowledge Center </a>
                                             <div class="sub_drop_down">
                                                 <ul>
                                                     <li>
@@ -261,7 +293,7 @@ $site_url="http://localhost/pidatacenters-main/"
                                         </li>
 
                                         <li>
-                                            <a href="#">Media <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                            <a href="#" class="drop-arrow">Media</a>
                                             <div class="sub_drop_down">
                                                 <ul>
                                                     <li>
@@ -278,7 +310,7 @@ $site_url="http://localhost/pidatacenters-main/"
                                         </li>
 
                                         <li>
-                                            <a href="#">Policies <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                            <a href="#" class="drop-arrow">Policies</a>
                                             <div class="sub_drop_down">
                                                 <ul>
                                                     <li>
@@ -295,7 +327,7 @@ $site_url="http://localhost/pidatacenters-main/"
                                         </li>
 
                                         <li>
-                                            <a href="#">Career <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                            <a href="#" class="drop-arrow">Career </a>
                                             <div class="sub_drop_down">
                                                 <ul>
                                                     <li>
@@ -345,7 +377,7 @@ $site_url="http://localhost/pidatacenters-main/"
                             </li>
                             <li class="accordion">
                                 <a href="#" class="drop-arrow ">
-                                    DATA CENTER <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                    DATA CENTER
 
 
                                 </a>
@@ -353,10 +385,10 @@ $site_url="http://localhost/pidatacenters-main/"
                             <div class="panel">
                                 <ul>
                                     <li>
-                                        <a href="#">Colocation</a>
+                                        <a href="<?php echo $site_url ?>data-center-infrastructure-services.php">Colocation</a>
                                     </li>
                                     <li>
-                                        <a href="#">Data Center Infrastructure & Services</a>
+                                        <a href="<?php echo $site_url ?>data-center-infrastructure-services-advisory.php">Data Center Infrastructure & Services</a>
                                     </li>
                                     <li class="accordion">
                                         <a href="#">Consulting & Data Center Build </a>
@@ -365,10 +397,10 @@ $site_url="http://localhost/pidatacenters-main/"
                                     <div class="panel sub_d_down">
                                         <ul>
                                             <li>
-                                                <a href="#">Data Center Design & Planning</a>
+                                                <a href="<?php echo $site_url ?>dc-design-planning.php">Data Center Design & Planning</a>
                                             </li>
                                             <li>
-                                                <a href="#">Data Center Build & Operate</a>
+                                                <a href="<?php echo $site_url ?>dc-build.php">Data Center Build & Operate</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -382,26 +414,30 @@ $site_url="http://localhost/pidatacenters-main/"
                             <div class="panel ">
                                 <ul>
                                     <li>
-                                        <a href="#">Public Cloud</a>
+                                        <a href="<?php echo $site_url ?>public-cloud">Public Cloud</a>
                                     </li>
                                     <li>
-                                        <a href="#">Private Cloud</a>
+                                        <a href="<?php echo $site_url ?>compute">Private Cloud</a>
                                     </li>
                                     <li>
-                                        <a href="#">SAP on Cloud</a>
+                                        <a href="<?php echo $site_url ?>sap">SAP on Cloud</a>
                                     </li>
+
                                     <li>
-                                        <a href="#">Other Could Services</a>
+                                        <a href="<?php echo $site_url ?>industry-solutions.php">Industry Solutions</a>
                                     </li>
+
                                     <li>
-                                        <a href="#">Cloud Certifications</a>
+                                        <a href="<?php echo $site_url ?>managed-services.php">Cloud Enablement</a>
                                     </li>
+                                    <!-- <li>
+                                        <a href="industry-solutions">Other Could Services</a>
+                                    </li> -->
                                     <li>
-                                        <a href="#">Industry Solutions</a>
+                                        <a href="<?php echo $site_url ?>certifications.php">Cloud Certifications</a>
                                     </li>
-                                    <li>
-                                        <a href="#">Cloud Enablement</a>
-                                    </li>
+
+
                                 </ul>
                             </div>
 
@@ -411,19 +447,19 @@ $site_url="http://localhost/pidatacenters-main/"
                             <div class=" panel">
                                 <ul>
                                     <li>
-                                        <a href="#">Multi Cloud Managed Services</a>
+                                        <a href="<?php echo $site_url ?>multicloud-managed-services.php">Multi Cloud Managed Services</a>
                                     </li>
                                     <li>
-                                        <a href="#">RIMS</a>
+                                        <a href="<?php echo $site_url ?>rims.php">RIMS</a>
                                     </li>
                                     <li>
-                                        <a href="#">NOC</a>
+                                        <a href="<?php echo $site_url ?>noc.php">NOC</a>
                                     </li>
                                     <li>
-                                        <a href="#">SOC</a>
+                                        <a href="<?php echo $site_url ?>soc.php">SOC</a>
                                     </li>
                                     <li>
-                                        <a href="#">DevOps</a>
+                                        <a href="<?php echo $site_url ?>devops.php">DevOps</a>
                                     </li>
                                 </ul>
                             </div>
@@ -435,16 +471,16 @@ $site_url="http://localhost/pidatacenters-main/"
                             <div class="panel">
                                 <ul>
                                     <li>
-                                        <a href="#">Cyber Security</a>
+                                        <a href="<?php echo $site_url ?>security.php">Cyber Security</a>
                                     </li>
                                     <li>
-                                        <a href="#">Internet Exchange (IPX)</a>
+                                        <a href="<?php echo $site_url ?>ip-exchange.php">Internet Exchange (IPX)</a>
                                     </li>
                                     <li>
-                                        <a href="#">HarbourFront (CDN)</a>
+                                        <a href="<?php echo $site_url ?>harbourfront-services.php">HarbourFront (CDN)</a>
                                     </li>
                                     <li>
-                                        <a href="#">Pi Workspaces (VDI)</a>
+                                        <a href="<?php echo $site_url ?>pi-work-spaces.php">Pi Workspaces (VDI)</a>
                                     </li>
                                 </ul>
                             </div>
@@ -454,16 +490,16 @@ $site_url="http://localhost/pidatacenters-main/"
                             <div class="panel">
                                 <ul>
                                     <li>
-                                        <a href="#">Cloud Servers</a>
+                                        <a href="https://pidatacenters.com/pi-cloud/pricing/#/cloudServers">Cloud Servers</a>
                                     </li>
                                     <li>
-                                        <a href="#">Cloud Storage</a>
+                                        <a href="https://pidatacenters.com/pi-cloud/pricing/#/cloudStorage">Cloud Storage</a>
                                     </li>
                                     <li>
-                                        <a href="#">Rent A Server</a>
+                                        <a href="rent-server.php">Rent A Server</a>
                                     </li>
                                     <li>
-                                        <a href="#">Rent GPU Servers</a>
+                                        <a href="https://picloud.ai/">Rent GPU Servers</a>
                                     </li>
                                 </ul>
                             </div>
@@ -481,28 +517,28 @@ $site_url="http://localhost/pidatacenters-main/"
                                     <div class="sub_d_down panel  ">
                                         <ul>
                                             <li>
-                                                <a href="#">About us</a>
+                                                <a href="<?php echo $site_url ?>about.php">About us</a>
                                             </li>
                                             <li>
-                                                <a href="#">Leadership</a>
+                                                <a href="<?php echo $site_url ?>leadership.php">Leadership</a>
                                             </li>
                                             <li>
-                                                <a href="#">Awards &amp; Recognition</a>
+                                                <a href="<?php echo $site_url ?>awards-recognition.php">Awards &amp; Recognition</a>
                                             </li>
                                             <li>
-                                                <a href="#">Testimonials</a>
+                                                <a href="<?php echo $site_url ?>testimonial.php">Testimonials</a>
                                             </li>
                                             <li>
-                                                <a href="#">Certifications</a>
+                                                <a href="<?php echo $site_url ?>certifications.php">Certifications</a>
                                             </li>
                                         </ul>
                                     </div>
 
                                     <li>
-                                        <a href="#"> CEO Corner</a>
+                                        <a href="<?php echo $site_url ?>ceo-corner.php"> CEO Corner</a>
                                     </li>
                                     <li>
-                                        <a href="#"> Partner Portal</a>
+                                        <a href="<?php echo $site_url ?>partners.php"> Partner Portal</a>
                                     </li>
 
                                     <li class="accordion">
@@ -512,19 +548,19 @@ $site_url="http://localhost/pidatacenters-main/"
                                     <div class="sub_d_down panel">
                                         <ul>
                                             <li>
-                                                <a href="#">Case Studies</a>
+                                                <a href="<?php echo $site_url ?>case-studies.php">Case Studies</a>
                                             </li>
                                             <li>
-                                                <a href="#">Blogs</a>
+                                                <a href="<?php echo $site_url ?>blogs.php">Blogs</a>
                                             </li>
                                             <li>
-                                                <a href="#">Whitepapers</a>
+                                                <a href="<?php echo $site_url ?>whitepapers.php">Whitepapers</a>
                                             </li>
                                             <li>
-                                                <a href="#">Brochure</a>
+                                                <a href="<?php echo $site_url ?>brochure.php">Brochure</a>
                                             </li>
                                             <li>
-                                                <a href="#">Knowledge Hub</a>
+                                                <a href="<?php echo $site_url ?>knowledge-hub.php">Knowledge Hub</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -535,13 +571,13 @@ $site_url="http://localhost/pidatacenters-main/"
                                         <div class="sub_d_down panel">
                                             <ul>
                                                 <li>
-                                                    <a href="#">Press Release</a>
+                                                    <a href="<?php echo $site_url ?>press-releases.php">Press Release</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Gallery</a>
+                                                    <a href="<?php echo $site_url ?>gallery.php">Gallery</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Videos</a>
+                                                    <a href="<?php echo $site_url ?>videos.php">Videos</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -553,10 +589,14 @@ $site_url="http://localhost/pidatacenters-main/"
                                     <div class="sub_d_down panel">
                                         <ul>
                                             <li>
-                                                <a href="#">Privacy Policy</a>
+                                                <a href="<?php echo $site_url ?>privacy-policy.php">Privacy Policy</a>
                                             </li>
                                             <li>
-                                                <a href="#">Acceptable Use Policy</a>
+                                                <a href="<?php echo $site_url ?>acceptable-use-policy.php">Acceptable Use Policy</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="<?php echo $site_url ?>terms-conditions.php">Terms and Conditions</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -568,17 +608,17 @@ $site_url="http://localhost/pidatacenters-main/"
                                     <div class="sub_d_down panel">
                                         <ul>
                                             <li>
-                                                <a href="#">Life at Pi</a>
+                                                <a href="<?php echo $site_url ?>life-at-pi.php">Life at Pi</a>
                                             </li>
                                             <li>
-                                                <a href="#">Openings</a>
+                                                <a href="<?php echo $site_url ?>work-with-us.php">Openings</a>
                                             </li>
                                         </ul>
                                     </div>
 
 
                                     <li>
-                                        <a href="#">Contact us</a>
+                                        <a href="<?php echo $site_url ?>contact-us.php">Contact us</a>
                                     </li>
 
 
@@ -590,10 +630,7 @@ $site_url="http://localhost/pidatacenters-main/"
             </div>
         </div>
     </div>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         function openNav() {
             var sidenav = document.getElementById("mySidenav");
@@ -638,127 +675,127 @@ $site_url="http://localhost/pidatacenters-main/"
 
 
 
-		<!-- BANNERS BUTTONS -->
+    <!-- BANNERS BUTTONS -->
 
-		<div class="banners_content gpu_hide" style=>
-			<p>
-				<a id="myBtn2" style="color: #223f97
+    <div class="banners_content gpu_hide" style=>
+        <p>
+            <a id="myBtn2" style="color: #223f97
 ;">Request For Quote</a>
-				<a id="reach-btn" data-toggle="modal" data-target="#myModal" style="color: #223f97
+            <a id="reach-btn" data-toggle="modal" data-target="#myModal" style="color: #223f97
 ;">Reach Us</a>
-			</p>
-		</div>
+        </p>
+    </div>
 
-		<!-- Modal -->
-		<div class="modal pop_up fade" id="myModal" role="dialog">
-			<div class="modal-dialog">
+    <!-- Modal -->
+    <div class="modal pop_up fade" id="myModal" role="dialog">
+        <div class="modal-dialog reachus_modal_dialog">
 
-				<!-- Modal content-->
-				<div class="modal-content">
-					<div class="modal-header">
-						<h4 class="modal-title">Reach Us</h4>
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-					</div>
-					<div class="modal-body">
-						<form action="https://clientele.techsters.in/public/api/client_forms" method="post" enctype="multipart/form-data">
-							<label for="name">Name:</label>
-							<input type="text" id="name" name="Name" required>
-
-
-							<label for="number">Mobile:</label>
-							<input type="tel" id="number" name="Number" pattern="[0-9]{10}" required>
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Reach Us</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form action="https://clientele.techsters.in/public/api/client_forms" method="post" enctype="multipart/form-data">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="Name" required>
 
 
-							<label for="email">Email:</label>
-							<input type="email" id="email" name="Email" required>
+                        <label for="number">Mobile:</label>
+                        <input type="tel" id="number" name="Number" pattern="[0-9]{10}" required>
 
 
-							<label for="message">Message:</label>
-							<textarea id="message" name="Message" rows="4" required></textarea>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="Email" required>
 
 
-							<input class="sub_mit" type="submit" value="Submit">
-
-							<input type="hidden" name="techsters_subject" value="Reach Us Form Leads" />
-							<input type="hidden" name="form_unique_id" value="1ef13057-52fd-11ee-a4b0-525400b78afc" � />
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- BANNERS BUTTONS -->
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="Message" rows="4" required></textarea>
 
 
+                        <input class="sub_mit" type="submit" value="Submit">
 
-
-		<!-- Modal two-->
-		<div class="modal pop_up fade" id="myModal2" role="dialog">
-			<div class="modal-dialog">
-
-				<!-- Modal content-->
-				<div class="modal-content">
-					<div class="modal-header">
-						<h4 class="modal-title global-button"> Request For Quote</h4>
-						<button type="button" class="close2" data-dismiss="modal">&times;</button>
-					</div>
-					<div class="modal-body">
-						<form action="https://clientele.techsters.in/public/api/client_forms" method="post" enctype="multipart/form-data">
-							<label for="name">Name:</label>
-							<input type="text" id="name2" name="Name" required>
-
-							<label for="number">Company Name</label>
-							<input type="text" id="companyname" name="CompanyName" required>
-
-							<label for="email">Professional Email:</label>
-							<input type="email" id="email2" name="Email" required>
-
-							<label for="number">Mobile:</label>
-							<input type="tel" id="number2" name="Number" pattern="[0-9]{10}" required>
-
-							<label for="message">Upload Configuration Document</label>
-							<input type="file" required name="Configuration Document">
-
-
-
-							<input class="sub_mit" type="submit" value="Submit">
-
-							<input type="hidden" name="techsters_subject" value="Request For Quote Form Leads" />
-							<input type="hidden" name="form_unique_id" value="86497a91-7e3b-11ee-a0ca-525400b78afc" />
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
+                        <input type="hidden" name="techsters_subject" value="Reach Us Form Leads" />
+                        <input type="hidden" name="form_unique_id" value="1ef13057-52fd-11ee-a4b0-525400b78afc" � />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BANNERS BUTTONS -->
 
 
 
 
+    <!-- Modal two-->
+    <div class="modal pop_up fade" id="myModal2" role="dialog">
+        <div class="modal-dialog">
 
-		<!-- ******************************************************************************************************** -->
-		<script>
-			// Get the modal
-			var modall = document.getElementById("myModal2");
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title global-butto"> Request For Quote</h4>
+                    <button type="button" class="close2" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form action="https://clientele.techsters.in/public/api/client_forms" method="post" enctype="multipart/form-data">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name2" name="Name" required>
 
-			// Get the button that opens the modal
-			var btn = document.getElementById("myBtn2");
+                        <label for="number">Company Name</label>
+                        <input type="text" id="companyname" name="CompanyName" required>
 
-			// Get the <span> element that closes the modal
-			var span = document.getElementsByClassName("close2")[0];
+                        <label for="email">Professional Email:</label>
+                        <input type="email" id="email2" name="Email" required>
 
-			// When the user clicks the button, open the modal 
-			btn.onclick = function() {
-				modall.style.display = "block";
-			}
+                        <label for="number">Mobile:</label>
+                        <input type="tel" id="number2" name="Number" pattern="[0-9]{10}" required>
 
-			// When the user clicks on <span> (x), close the modal
-			span.onclick = function() {
-				modall.style.display = "none";
-			}
+                        <label for="message">Upload Configuration Document</label>
+                        <input type="file" required name="Configuration Document">
 
-			// When the user clicks anywhere outside of the modal, close it
-			window.onclick = function(event) {
-				if (event.target == modall) {
-					modall.style.display = "none";
-				}
-			}
-		</script>
+
+
+                        <input class="sub_mit" type="submit" value="Submit">
+
+                        <input type="hidden" name="techsters_subject" value="Request For Quote Form Leads" />
+                        <input type="hidden" name="form_unique_id" value="86497a91-7e3b-11ee-a0ca-525400b78afc" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- ******************************************************************************************************** -->
+    <script>
+        // Get the modal
+        var modall = document.getElementById("myModal2");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn2");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close2")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+            modall.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modall.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modall) {
+                modall.style.display = "none";
+            }
+        }
+    </script>

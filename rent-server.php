@@ -1,19 +1,21 @@
-<head>
+
+
+
+<?php include('php/includes-techsters/header.php'); ?>
+
+
 <style>
-.banners_content{
-display: none !important;
+
+.banners_content.gpu_hide {
+    display: none;
 }
 </style>
 
-</head>
-
-
-<?php include('php/inner-header.php'); ?>
 <!-- main starts here -->
 
 <div class="about-banner">
    <div class="container">
-      <div class="about-banner-blk">
+      <div class="about-banner-blk pt-3">
          <!--  <img src="images/istockphoto-1356466745-612x612.jpg" alt="soc-banner" width="1920" height="210" style="max-width:612px;height:auto;margin:0 auto;">-->
          <h2>SOC</h2>
          <ul class="slider-rent">
@@ -60,7 +62,12 @@ display: none !important;
 </div>
 <!--what-is-noc starts here -->
 <div class="what-is-noc">
-   <?php include('php/footer.php'); ?>
+
+
+
+
+   <?php include('php/includes-techsters/footer.php'); ?>
+
    <!--footer ends-->
 </div>
 <!-- wrapper ends -->
