@@ -214,8 +214,8 @@ include_once('includes/header.php');
 	}
 
 	.card ul li {
-		    list-style-type: none;
-    padding: 3px;
+		list-style-type: none;
+		padding: 3px;
 	}
 
 	.card:hover .card-desc {
@@ -590,11 +590,12 @@ include_once('includes/header.php');
 		flex-direction: column;
 		text-align: left;
 		padding: 40px;
-		line-height: 1.35rem;	
-}
-.new-list li{
-padding: 5px;
-}
+		line-height: 1.35rem;
+	}
+
+	.new-list li {
+		padding: 5px;
+	}
 
 	.carte-model {
 		margin-top: 30px;
@@ -1036,14 +1037,14 @@ padding: 5px;
 			max-width: 48px;
 		}
 	}
-.content {
-    max-width: 100%;
-    margin: 0 auto !important;
-   margin-bottom: 0 !important; 
-    padding: 0 !important; 
-    padding-bottom: 0 !important; 
-}
 
+	.content {
+		max-width: 100%;
+		margin: 0 auto !important;
+		margin-bottom: 0 !important;
+		padding: 0 !important;
+		padding-bottom: 0 !important;
+	}
 </style>
 
 <div class="hb-bannerCont">
@@ -1373,7 +1374,7 @@ padding: 5px;
 				<ul class="hb-productSec list-inline">
 					<div class="hb-leftCont hb_ppCont">
 						<p style="text-align:center">
-							Provides different tiers of service levels based on the business's needs, ensuring that you pay only for the services you require. 
+							Provides different tiers of service levels based on the business's needs, ensuring that you pay only for the services you require.
 						</p>
 						<!--<span>
 			            				<img src="images/product-images/TIERED-MODEL.png" alt="advanced">

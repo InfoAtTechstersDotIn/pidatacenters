@@ -309,6 +309,66 @@ include_once('includes/header.php');
         z-index: 1;
         margin: 0 10px;
     }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: black !important;
+    }
+
+    .slick-dots {
+        width: auto;
+        height: 20px;
+        padding: 0;
+        display: flex;
+        display: flex;
+        top: 105%;
+        left: 45%;
+        margin: 30px 0px;
+    }
+
+    .slick-dots li button:before {
+        font-size: 10px;
+        color: #76b543;
+    }
+
+    .slick-dots li.slick-active button:before {
+        opacity: 1;
+        color: #223f97;
+        transform: scale(1.5);
+    }
+
+    .slick-initialized .slick-slide {
+        display: flex;
+    }
+
+    .slide .slick-slide {
+        transform: scale(0.8);
+        transition: all 0.4s ease-in-out;
+    }
+
+    .slide .slick-slide .cloud-icon {
+        background-color: grey;
+        fill: black;
+    }
+
+    .slide .slick-slide,
+    .slide .slick-slide[aria-hidden="true"]:not(.slick-cloned)~.slick-cloned[aria-hidden="true"] {
+        transform: scale(0.8, 0.8);
+        transition: all 0.4s ease-in-out;
+    }
+
+    .slide .slick-center,
+    .slide .slick-slide[aria-hidden="true"]:not([tabindex="-1"])+.slick-cloned[aria-hidden="true"] {
+        transform: scale(1.1);
+    }
+
+    .slide .slick-current.slick-active {
+        transform: scale(1.1);
+    }
+
+    .slide .slick-current.slick-active .cloud-icon {
+        background-color: #223f97;
+    }
 </style>
 <!-- banner section starts here -->
 <div class="hb-bannerCont">
@@ -363,140 +423,117 @@ include_once('includes/header.php');
             <p>
                 Introducing "Pi Cloud," the embodiment of these ideals, brought to you by Pi Datacenters. As the nation's premier Enterprise Cloud Platform, Pi Cloud transcends the singular, evolving into a Multi Cloud Ecosystem that ushers in a new era of seamless integration. This ecosystem successfully converges diverse platforms, both private and public, with a platform-agnostic approach. Not merely content with integration, Pi Cloud goes further, assuming the role of a fully managed sanctuary for your cloud environments. The hallmark of Pi Cloud is its holistic view, effortlessly attainable through a single pane of glass. This vantage point offers more than just a snapshot; it's a panoramic window into your digital infrastructure. Swift time-to-market is the anthem here, offering enterprises the competitive edge they seek. As you march ahead in your operational journey, Pi Cloud is your steadfast companion, a testament to what happens when vision meets innovation.</p>
         </div>
-
-        <!--four--->
+        <!-- *******Journey starts here************** -->
 
         <style>
-            .cloud-icon,
-            .cloud-icon2 {
-                background: radial-gradient(#223f97, #76b543, #223f97, #76b543);
-                padding: 25px;
-                text-align: center;
-                border-radius: 183px;
-                width: 130px;
-                height: auto;
-                margin-bottom: 20px;
+            .on-hover:hover {
+                background-color: #ffffff8c;
+                box-shadow: 1px 0px 3px grey;
             }
 
-            .cloud-icon2 {
-                background: radial-gradient(#76b543, #223f97, #76b543, #223f97);
+            .on-hover:hover .hb-Jimg>p>img {
+                background-image: linear-gradient(#223f97, #76b543);
             }
 
-            .cloud-icon img {
-                width: 80px;
+            .hb-boxCont {
+                min-height: 0px;
             }
 
-            .cloud {
-                display: flex;
-                align-items: center;
-                flex-direction: column;
-                padding: 15px;
+            .hb-boxCont>a>span>img {
+                max-width: 130px !important;
             }
 
-            .cloud:hover {
-                background-color: #ffffff00;
-                border-radius: 10px;
-                box-shadow: -3px 3px 8px black;
-                cursor: pointer;
+            .cloud2 .cloud-icon2 {
+                background: radial-gradient(#76b543, #216733, #76b543);
             }
 
-            .cloud:hover .cloud-icon,
-            .cloud:hover .cloud-icon2 {
-                animation: Shake 0.5s linear infinite;
+            .cloud-icon {
+                background: #223f97;
+
+                box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+                    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+                    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+                    rgba(0, 0, 0, 0.06) 0px 2px 1px,
+                    rgba(0, 0, 0, 0.09) 0px 4px 2px,
+                    rgba(0, 0, 0, 0.09) 0px 8px 4px,
+                    rgba(0, 0, 0, 0.09) 0px 16px 8px,
+                    rgba(0, 0, 0, 0.09) 0px 32px 16px
             }
 
-            .cloud:hover .cloud h4 {
-                color: #76b543;
-            }
-
-            .cloud:hover .cloud p {
-                color: #223f97;
-            }
-
-
-            .cloud-page-1,
-            .cloud-page-2 {
-                display: grid;
-                grid-template-columns: auto auto auto;
-                text-align: center;
-                gap: 20px;
-                padding-top: 10px;
-                justify-content: center;
-            }
-
-            .cloud-page-3 {
-                display: grid;
-                grid-template-columns: auto auto;
-                text-align: center;
-                gap: 20px;
-                padding-top: 10px;
-                justify-content: center;
-            }
-
-            .new-data {
-                text-align: justify;
-                max-width: 95%;
-                margin: 0 auto;
-            }
-
-
-            .text-center {
-                margin: 10px auto;
-            }
-
-            .cloud-page-1 h4,
-            .cloud-page-2 h4,
-            .cloud-page-3 h4 {
-                margin: 10px 0;
-                font-size: 18px;
-            }
 
             .hb-journeyCont>h3 {
-                text-align: center;
-            }
-
-            .hb-Jimg>p>img {
-                background-color: #223f97;
-            }
-
-            @keyframes Shake {
-                0% {
-                    transform: rotate(5deg);
-                }
-
-                25% {
-                    transform: rotate(-6deg);
-                }
-
-                50% {
-                    transform: rotate(5deg);
-                }
-
-                75% {
-                    transform: rotate(-6deg);
-                }
-
-                100% {
-                    transform: rotate(5deg);
-                }
-            }
-
-            @media screen and (max-width:599px) {
-
-                .cloud-page-1,
-                .cloud-page-2,
-                .cloud-page-3 {
-                    display: block;
-                }
+                margin-bottom: 10px;
+                margin-top: 35px;
+                padding: 20px;
             }
         </style>
 
-        <div class="hb-journey">
+        <div class="hb-journey on-hover">
             <div class="container">
+                <div class="hb-journeyCont">
+                    <h3 class="text-center">Journey With <span style="color: #76b543;">Pi Cloud<span></h3>
+                    <ul class="hb-journeyList list-inline">
+                        <li class="hb-ListJouney">
+                            <div class="hb-Jimg">
+                                <p>
+                                    <img src="./<?= $config['subFolderName'] ?>/images/homepage/1.png" alt="onesize">
+                                </p>
+                            </div>
+                            <div class="hb-jCont">
+                                <h4>One Size Doesn't Fit All</h4>
+                                <p>Start Enterprise custom journey with a unique cloud adoption framework </p>
+                            </div>
+                        </li>
+                        <li class="hb-ListJouney">
+                            <div class="hb-Jimg">
+                                <p>
+                                    <img src="./<?= $config['subFolderName'] ?>/images/homepage/2.png" alt="migration">
+                                </p>
+                            </div>
+                            <div class="hb-jCont">
+                                <h4>Any To Any Migration</h4>
+                                <p>Migration of servers, apps, databases & other workloads with diverse tools, techniques &
+                                    technologies </p>
+                            </div>
+                        </li>
+                        <li class="hb-ListJouney">
+                            <div class="hb-Jimg">
+                                <p>
+                                    <img src="./<?= $config['subFolderName'] ?>/images/homepage/3.png" alt="selfService">
+                                </p>
+                            </div>
+                            <div class="hb-jCont">
+                                <h4>Self Service</h4>
+                                <p>Provision, scale and manage Enterprise workloads through a self service </p>
+                            </div>
+                        </li>
+                        <li class="hb-ListJouney">
+                            <div class="hb-Jimg">
+                                <p>
+                                    <img src="./<?= $config['subFolderName'] ?>/images/homepage/4.png" alt="futureReady">
+                                </p>
+                            </div>
+                            <div class="hb-jCont">
+                                <h4>Future Ready</h4>
+                                <p>Take advantage of emerging technologies like AI & ML, Cloud computing, IoT and Data
+                                    Analytics </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- *******Journey ends ************** -->
+
+        <!--four--->
+
+        <div class="hb-journey">
+            <div class="container slide-hov">
                 <div class="hb-journeyCont">
                     <h3 class="text-center">Service <span style="color: #76b543;">Offerings</span></h3>
                 </div>
-                <ul class="cloud-page-1">
+                <ul class="cloud-page-1 slide">
                     <li class="cloud">
                         <div class="cloud-icon"><img src="../images/managed-services-icons/CIE.svg" alt="onesize"></div>
                         <h4>Infrastructure Excellence</h4>
@@ -537,7 +574,141 @@ include_once('includes/header.php');
             </div>
         </div>
 
-        <div class="hb-btn_cl" style="text-align: center; margin-top: 20px;"><a href="contact-us.php" class="global-button">Reach Us</a>
+
+        <div class="hb-btn_cl" style="text-align: center; margin-top: 10px; padding-top: 50px;"><a href="contact-us.php" class="global-button">Reach Us</a>
+        </div>
+
+        <div class="hb-cloudCont text-center" style="text-align:center;">
+            <h3 class="text-center2">Embark on Tomorrow's Computing with <span style="color: #76b543;">Pi Cloud Services</span></h3>
+            <p>Ditch conventional IT constraints and embrace cloud agility and innovation. Let's propel your enterprise to unprecedented altitudes through the cloud's prowess! </p>
+        </div>
+
+        <div class="hb-coudBoxes">
+            <ul class="list-inline hb-boxLists">
+                <li>
+                    <div class="hb-boxCont text-center">
+                        <a href="javascript:void(0)" style="cursor: auto;">
+                            <span>
+                                <img src="./<?= $config['subFolderName'] ?>/images/Ba20.png" alt="data">
+                            </span>
+                            <span><strong>Data Localisation</strong></span>
+                            <span>Absolute regulatory compliance to the digital data protection laws of land, of India!!</span>
+                        </a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="hb-boxCont text-center">
+                        <a href="javascript:void(0)" style="cursor: auto;">
+                            <span>
+                                <img src="./<?= $config['subFolderName'] ?>/images/Ba21.png" alt="scale">
+                            </span>
+                            <span><strong>Flexibility @ Core</strong></span>
+                            <span>Get the built-in flexibility of a public cloud, while being on board a secured private cloud</span>
+
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="hb-boxCont text-center">
+                        <a href="javascript:void(0)" style="cursor: auto;">
+                            <span>
+                                <img src="./<?= $config['subFolderName'] ?>/images/Ba22.png" alt="scale">
+                            </span>
+                            <span><strong>Hypervisor of Choice</strong></span>
+                            <span> Enterprises get to pick the hypervisor of choice for thier workloads</span>
+
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="hb-boxCont text-center">
+                        <a href="javascript:void(0)" style="cursor: auto;">
+                            <span>
+                                <img src="./<?= $config['subFolderName'] ?>/images/Ba23.png" alt="scale">
+                            </span>
+                            <span><strong>Scale @ Will</strong></span>
+                            <span>Multi-dimensional and real-time scaling of resources aligned to Enterprise business needs</span>
+
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="hb-boxCont text-center">
+                        <a href="javascript:void(0)" style="cursor: auto;">
+                            <span>
+                                <img src="./<?= $config['subFolderName'] ?>/images/Ba24.png" alt="multi">
+                            </span>
+                            <span><strong>Multi-Tiered Security</strong></span>
+                            <span>Zoned security layers protecting data from vulnerabilities and threats</span>
+
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="hb-boxCont text-center">
+                        <a href="javascript:void(0)" style="cursor: auto;">
+                            <span>
+                                <img src="./<?= $config['subFolderName'] ?>/images/Ba25.png" alt="uptime">
+                            </span>
+                            <span><strong>99.995% Uptime Availability</strong></span>
+                            <span>Delivered out of self-owned, multi locale Uptime Institute TIER IV data centers </span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+        <!-- banner Enterprise Cloud Platform start here -->
+        <div class="hb-stats">
+            <div class="container">
+                <ul class="list-inline hb-statLists ">
+                    <li>
+                        <div class="hb-statCont  cc-color-1">
+                            <h3><span class="Count">14800</span><span>+</span></h3>
+                            <h4>Mission Critical Workloads </h4>
+                            <p>Hosted on Pi Cloud, across three Availability Zones in India</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hb-statCont  cc-color-2">
+                            <h3><span class="Count">20</span><span>+</span></h3>
+                            <h4>Banks & NBFCs</h4>
+                            <p>Develop, deploy workloads on Pi Cloud in a complaint environment</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hb-statCont  cc-color-3">
+                            <h3><span class="Count">4</span></h3>
+                            <h4>Payment Gateways</h4>
+                            <p>Are processing thousands of transactions every second on Pi Cloud</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hb-statCont  cc-color-4">
+                            <h3><span class="Count">4</span></h3>
+                            <h4>Smart Cities</h4>
+                            <p>With integrated IT, IoT and data on Pi Cloud, delivering operational and service
+                                efficiency to citizens</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hb-statCont  cc-color-1">
+                            <h3><span class="Count">5</span></h3>
+                            <h4>A-listed Indian Universities</h4>
+                            <p>Leveraging Pi Cloud<sup>Â®</sup> to deliver enhanced digital learning experience</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hb-statCont  cc-color-2">
+                            <h3><span class="Count">30</span><span>%</span></h3>
+                            <h4>TCO Optimal</h4>
+                            <p>Compared to any major cloud service provider across the globe</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
 
 
@@ -547,19 +718,19 @@ include_once('includes/header.php');
                     <h3 class="text-center">Why Embrace <span style="color: #76b543;">Pi Cloud Services?<span> </h3>
                 </div>
                 <ul class="cloud-page-2">
-                    <li class="cloud">
+                    <li class="cloud cloud2">
                         <div class="cloud-icon2"><img src="../images/managed-services-icons/scalability (2).svg" alt="onesize"></div>
                         <h4>Scalability</h4>
                         <p>Bid farewell to hardware restraints and costly upgrades. Our cloud solutions provide scalable infrastructure that grows hand in hand with your business, be it through seasonal surges or exponential expansion. </p>
                     </li>
 
-                    <li class="cloud">
+                    <li class="cloud cloud2">
                         <div class="cloud-icon2"><img src="../images/managed-services-icons/BF.svg" alt="onesize"></div>
-                        <h4>Boundless Flexibility: </h4>
+                        <h4>Boundless Flexibility </h4>
                         <p>Unleash the liberty to work anytime, anywhere. Our cloud services grant seamless access to your data, apps, and resources from any device with an internet tether. Be productive and collaborative, regardless of your team's location. </p>
                     </li>
 
-                    <li class="cloud">
+                    <li class="cloud cloud2">
                         <div class="cloud-icon2"><img src="../images/managed-services-icons/CEI.svg" alt="onesize"></div>
                         <h4>Cost-Effective Ingenuity</h4>
                         <p>Sharpen your IT budget with our budget-friendly cloud solutions. Pay for what you use and dodge upfront hardware expenses. The pay-as-you-go model maximizes your investment's worth. </p>
@@ -567,13 +738,13 @@ include_once('includes/header.php');
                 </ul>
 
                 <ul class="cloud-page-3">
-                    <li class="cloud">
+                    <li class="cloud cloud2">
                         <div class="cloud-icon2"><img src="../images/managed-services-icons/RFLS.svg" alt="onesize"></div>
                         <h4>Reliability and Fortress-Level Security</h4>
                         <p>Trust in the safety of your data within our cloud realm. Our potent security protocols, routine backups, and disaster recovery plans shield your critical data from potential threats, ensuring unceasing business flow. </p>
                     </li>
 
-                    <li class="cloud">
+                    <li class="cloud cloud2">
                         <div class="cloud-icon2"><img src="../images/managed-services-icons/TTP.svg" alt="onesize"></div>
                         <h4 style="text-align:center">Top-Tier Performance</h4>
                         <p> Immerse yourself in top-notch performance and diminished latency through our high-speed cloud infrastructure. Our cutting-edge data centers and advanced technology ensure a prime user experience for your services and applications. </p>
@@ -584,204 +755,15 @@ include_once('includes/header.php');
     </div>
 </div>
 
-<div class="hb-cloudCont text-center" style="text-align:center; margin-top: 10px;">
-    <p><b>Embark on Tomorrow's Computing with Pi Cloud Services </b> </p>
-    <p>Ditch conventional IT constraints and embrace cloud agility and innovation. Let's propel your enterprise to unprecedented altitudes through the cloud's prowess! </p>
-</div>
-
-<div class="hb-coudBoxes">
-    <ul class="list-inline hb-boxLists">
-        <li>
-            <div class="hb-boxCont text-center">
-                <a href="javascript:void(0)" style="cursor: auto;">
-                    <span>
-                        <img src="./<?= $config['subFolderName'] ?>/images/Ba20.png" alt="data">
-                    </span>
-                    <span><strong>Data Localisation</strong></span>
-                    <span>Absolute regulatory compliance to the digital data protection laws of land, of India!!</span>
-                </a>
-            </div>
-        </li>
-
-        <li>
-            <div class="hb-boxCont text-center">
-                <a href="javascript:void(0)" style="cursor: auto;">
-                    <span>
-                        <img src="./<?= $config['subFolderName'] ?>/images/Ba21.png" alt="scale">
-                    </span>
-                    <span><strong>Flexibility @ Core</strong></span>
-                    <span>Get the built-in flexibility of a public cloud, while being on board a secured private cloud</span>
-
-                </a>
-            </div>
-        </li>
-        <li>
-            <div class="hb-boxCont text-center">
-                <a href="javascript:void(0)" style="cursor: auto;">
-                    <span>
-                        <img src="./<?= $config['subFolderName'] ?>/images/Ba22.png" alt="scale">
-                    </span>
-                    <span><strong>Hypervisor of Choice</strong></span>
-                    <span> Enterprises get to pick the hypervisor of choice for thier workloads</span>
-
-                </a>
-            </div>
-        </li>
-        <li>
-            <div class="hb-boxCont text-center">
-                <a href="javascript:void(0)" style="cursor: auto;">
-                    <span>
-                        <img src="./<?= $config['subFolderName'] ?>/images/Ba23.png" alt="scale">
-                    </span>
-                    <span><strong>Scale @ Will</strong></span>
-                    <span>Multi-dimensional and real-time scaling of resources aligned to Enterprise business needs</span>
-
-                </a>
-            </div>
-        </li>
-        <li>
-            <div class="hb-boxCont text-center">
-                <a href="javascript:void(0)" style="cursor: auto;">
-                    <span>
-                        <img src="./<?= $config['subFolderName'] ?>/images/Ba24.png" alt="multi">
-                    </span>
-                    <span><strong>Multi-Tiered Security</strong></span>
-                    <span>Zoned security layers protecting data from vulnerabilities and threats</span>
-
-                </a>
-            </div>
-        </li>
-        <li>
-            <div class="hb-boxCont text-center">
-                <a href="javascript:void(0)" style="cursor: auto;">
-                    <span>
-                        <img src="./<?= $config['subFolderName'] ?>/images/Ba25.png" alt="uptime">
-                    </span>
-                    <span><strong>99.995% Uptime Availability</strong></span>
-                    <span>Delivered out of self-owned, multi locale Uptime Institute TIER IV data centers </span>
-                </a>
-            </div>
-        </li>
-    </ul>
 </div>
 </div>
-</div>
-<!-- *******Journey starts here************** -->
-<div class="hb-journey">
-    <div class="container">
-        <div class="hb-journeyCont">
-            <h3 class="text-center">Journey With Pi Cloud</h3>
-            <ul class="hb-journeyList list-inline">
-                <li class="hb-ListJouney">
-                    <div class="hb-Jimg">
-                        <p>
-                            <img src="./<?= $config['subFolderName'] ?>/images/homepage/1.png" alt="onesize">
-                        </p>
-                    </div>
-                    <div class="hb-jCont">
-                        <h4>One Size Doesn't Fit All</h4>
-                        <p>Start Enterprise custom journey with a unique cloud adoption framework </p>
-                    </div>
-                </li>
-                <li class="hb-ListJouney">
-                    <div class="hb-Jimg">
-                        <p>
-                            <img src="./<?= $config['subFolderName'] ?>/images/homepage/2.png" alt="migration">
-                        </p>
-                    </div>
-                    <div class="hb-jCont">
-                        <h4>Any To Any Migration</h4>
-                        <p>Migration of servers, apps, databases & other workloads with diverse tools, techniques &
-                            technologies </p>
-                    </div>
-                </li>
-                <li class="hb-ListJouney">
-                    <div class="hb-Jimg">
-                        <p>
-                            <img src="./<?= $config['subFolderName'] ?>/images/homepage/3.png" alt="selfService">
-                        </p>
-                    </div>
-                    <div class="hb-jCont">
-                        <h4>Self Service</h4>
-                        <p>Provision, scale and manage Enterprise workloads through a self service </p>
-                    </div>
-                </li>
-                <li class="hb-ListJouney">
-                    <div class="hb-Jimg">
-                        <p>
-                            <img src="./<?= $config['subFolderName'] ?>/images/homepage/4.png" alt="futureReady">
-                        </p>
-                    </div>
-                    <div class="hb-jCont">
-                        <h4>Future Ready</h4>
-                        <p>Take advantage of emerging technologies like AI & ML, Cloud computing, IoT and Data
-                            Analytics </p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-
-<!-- *******Journey ends ************** -->
-<!-- banner Enterprise Cloud Platform start here -->
-<div class="hb-stats">
-    <div class="container">
-        <ul class="list-inline hb-statLists ">
-            <li>
-                <div class="hb-statCont  cc-color-1">
-                    <h3><span class="Count">14800</span><span>+</span></h3>
-                    <h4>Mission Critical Workloads </h4>
-                    <p>Hosted on Pi Cloud, across three Availability Zones in India</p>
-                </div>
-            </li>
-            <li>
-                <div class="hb-statCont  cc-color-2">
-                    <h3><span class="Count">20</span><span>+</span></h3>
-                    <h4>Banks & NBFCs</h4>
-                    <p>Develop, deploy workloads on Pi Cloud in a complaint environment</p>
-                </div>
-            </li>
-            <li>
-                <div class="hb-statCont  cc-color-3">
-                    <h3><span class="Count">4</span></h3>
-                    <h4>Payment Gateways</h4>
-                    <p>Are processing thousands of transactions every second on Pi Cloud</p>
-                </div>
-            </li>
-            <li>
-                <div class="hb-statCont  cc-color-4">
-                    <h3><span class="Count">4</span></h3>
-                    <h4>Smart Cities</h4>
-                    <p>With integrated IT, IoT and data on Pi Cloud, delivering operational and service
-                        efficiency to citizens</p>
-                </div>
-            </li>
-            <li>
-                <div class="hb-statCont  cc-color-1">
-                    <h3><span class="Count">5</span></h3>
-                    <h4>A-listed Indian Universities</h4>
-                    <p>Leveraging Pi Cloud<sup>®</sup> to deliver enhanced digital learning experience</p>
-                </div>
-            </li>
-            <li>
-                <div class="hb-statCont  cc-color-2">
-                    <h3><span class="Count">30</span><span>%</span></h3>
-                    <h4>TCO Optimal</h4>
-                    <p>Compared to any major cloud service provider across the globe</p>
-                </div>
-            </li>
-        </ul>
-    </div>
-</div>
-
 
 <!-- *******certfications start ************** -->
 <div class="hb-certication">
     <div class="container">
         <div class="hb-CerSetion">
-            <h4 class="text-center">Our Certifications</h4>
+            <h4 class="text-center">Our <span style="color: #76b543;">Certifications<span>
+            </h4>
             <!--<div class="owl-carousel">
            <div class="item">
                   <a href="#">
@@ -1087,7 +1069,7 @@ include_once('includes/header.php');
 <div class="hb-certication partner">
     <div class="container">
         <div class="hb-CerSetion">
-            <h4 class="text-center">Technology Partners</h4>
+            <h4 class="text-center">Technology <span style="color: #76b543;">Partners<span></h4>
 
             <ul class="list-inline hb-boxLists slider-info">
                 <li>
@@ -1279,7 +1261,7 @@ include_once('includes/header.php');
                         <a href="javascript:void(0)" style="cursor: auto;">
                             <span>
                                 <!--<img src="./<?= $config['subFolderName'] ?>/images/logo/18.png" alt="uptime">-->
-                                <img src="./<?= $config['subFolderName'] ?>/images/product-images/azure28.png" alt="A-La-Carte-Model-4" style="width:100px">
+                                <img src="./<?= $config['subFolderName'] ?>/images/product-images/azure28.png" alt="A-La-Carte-Model-4" style="width:80px">
 
 
                             </span>
@@ -1292,7 +1274,7 @@ include_once('includes/header.php');
                         <a href="javascript:void(0)" style="cursor: auto;">
                             <span>
                                 <!--<img src="./<?= $config['subFolderName'] ?>/images/logo/18.png" alt="uptime">-->
-                                <img src="./pi-cloud/images/product-images/Google212.png" alt="A-La-Carte-Model-3" style="width:100px">
+                                <img src="./pi-cloud/images/product-images/Google212.png" alt="A-La-Carte-Model-3" style="width:80px">
 
 
                             </span>
@@ -1305,7 +1287,7 @@ include_once('includes/header.php');
                         <a href="javascript:void(0)" style="cursor: auto;">
                             <span>
                                 <!--<img src="./<?= $config['subFolderName'] ?>/images/logo/18.png" alt="uptime">-->
-                                <img src="./pi-cloud/images/product-images/AES212.png" alt="A-La-Carte-Model-1" style="width:100px">
+                                <img src="./pi-cloud/images/product-images/AES212.png" alt="A-La-Carte-Model-1" style="width:80px">
 
                             </span>
 
@@ -1367,7 +1349,7 @@ include_once('includes/header.php');
             </ul>
             <div style="clear:both;"></div>
             <br />
-            <p style="color:#fff;">©2023 Pi DATACENTERS® Pvt. Ltd. All rights reserved</p>
+            <p style="color:#fff;">Â©2023 Pi DATACENTERSÂ® Pvt. Ltd. All rights reserved</p>
             <ul class="row social-icons">
                 <li class="col-2">
                     <a href="https://www.linkedin.com/company/pidatacenters/" target="_blank">
@@ -1542,7 +1524,7 @@ include_once('includes/header.php');
         $('.slider-info').slick({
             dots: false,
             arrows: true,
-            slidesToShow: 4,
+            slidesToShow: 5,
             slidesToScroll: 1,
             vertical: false,
             verticalSwiping: false,
@@ -1558,6 +1540,47 @@ include_once('includes/header.php');
 
         });
 
+    });
+</script>
+
+
+<script>
+    $('.slide').slick({
+        dots: true,
+        arrows: false,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        speed: 300,
+        centerMode: true,
+        centerPadding: '30px',
+        useTransform: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     });
 </script>
 

@@ -8125,7 +8125,7 @@ nav .nav-icon1:after {
 }
 
 .locations h2 {
-    /* padding: 0 0 15px; */
+    padding: 0 0 15px;
     text-align: left;
     font-size: 45px;
     line-height: 50px;
@@ -8134,6 +8134,8 @@ nav .nav-icon1:after {
 .locations p {
     padding: 0 0 10px 0;
     text-align: left;
+    line-height: 20px;
+    font-size: 16px !important;
 }
 
 .locations .about-loc img {

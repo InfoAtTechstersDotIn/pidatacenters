@@ -893,10 +893,12 @@ Services</a> -->
 
                                                 <div class="row locations">
                                                     <div class="col-md-6 text">
-                                                        <span class="dc">State-of-the-Art Facilities</span>
-                                                        <h2>Vijayawada Data Center</h2>
-                                                        <p> India&#8217;s first Greenfield and World&#8217;s 4th largest Uptime Institute Tier lV Certified Data Center</p>
-                                                        <p>Positioned strategically along the banks of the Krishna River and at the crossroads of the golden quadrilateral, Vijayawada becomes the cornerstone of Pi's network. Its proximity to NH65 ensures seamless connectivity and a stable climate, enhancing the accessibility of our innovative data center. With Pi's commitment to reliability, Vijayawada emerges as an ideal location for safeguarding critical data on your digital journey.
+                                                        <span class="dc">State-of-the-Art Facilities
+                                                        </span>
+                                                        <h2>Vijayawada Data Center
+                                                        </h2>
+                                                        <p>India's first Greenfield and World's 4th largest Uptime Institute Tier IV Certified Data Center</p>
+                                                        <p>At the crossroads of the golden quadrilateral and the Krishna River, Vijayawada is Pi's network's hub. Near NH65, it provides reliable connectivity and a stable climate for our innovative data center. With Pi's commitment to reliability, Vijayawada emerges as an ideal location for safeguarding critical data on your digital journey.
                                                         </p>
 
 
@@ -910,10 +912,14 @@ Services</a> -->
                                             <li class="locations">
                                                 <div class="row">
                                                     <div class="col-md-6 text">
-                                                        <span class="dc">State-of-the-Art Facilities</span>
-                                                        <h2>Hyderabad Data Center</h2>
-                                                        <p> Uptime Institute Tier III Design Compliant Data Center <br>(Build To Suit)</p>
-                                                        <p>At the heart of India's bustling tech hub, Pi in Hyderabad is more than just a facility; it's an innovation powerhouse. Capitalizing on the city's dynamic IT ecosystem and Pi's commitment to excellence, our data center in Hyderabad becomes the nucleus of pioneering data solutions. Your digital journey receives unmatched support as Pi brings together the city's robust power infrastructure and skilled workforce, ensuring reliability and technological advancement.
+                                                        <span class="dc">State-of-the-Art Facilities
+                                                        </span>
+                                                        <h2>
+                                                            Hyderabad Data Center
+                                                        </h2>
+                                                        <p> Uptime Institute Tier III Design Compliant Data Center (Build To Suit)
+                                                        </p>
+                                                        <p>At the heart of India's bustling tech hub, Pi in Hyderabad is more than just a facility; it's an innovation powerhouse. Our Hyderabad data center pioneers data solutions using the city's dynamic IT ecosystem and Pi's dedication to excellence. Pi connects the city's strong electrical infrastructure and experienced people to assist your digital journey with reliability and technology.
                                                         </p>
 
                                                     </div>
@@ -926,10 +932,14 @@ Services</a> -->
                                             <li class="locations">
                                                 <div class="row">
                                                     <div class="col-md-6 text">
-                                                        <span class="dc">State-of-the-Art Facilities</span>
-                                                        <h2>Kochi Data Center</h2>
-                                                        <p>Uptime Institute Tier lll Design Complaint Data Center</p>
-                                                        <p>In the vibrant city of Kochi, Pi finds a unique space amid the undersea cable landing station zone. Our data center, fueled by dedication to sustainability, thrives in Kochi's eco-friendly landscape. The city's strategic positioning, combined with our focus on renewable energy, creates a resilient foundation for data operations. As you embark on your digital journey, Kochi stands out as a compelling choice, blending the city's emerging tech scene.</p>
+                                                        <span class="dc">State-of-the-Art Facilities
+                                                        </span>
+                                                        <h2>Kochi Data Center
+                                                        </h2>
+                                                        <p>
+                                                            Uptime Institute Tier III Design Complaint Data Center
+                                                        </p>
+                                                        <p>In the vibrant city of Kochi, Pi finds a unique space amid the undersea cable landing station zone. Fueled by dedication to sustainability, Pi thrives in an eco-friendly landscape. As you embark on your digital journey, Kochi stands out as a compelling choice, blending the city's emerging tech scene.</p>
 
                                                     </div>
                                                     <div class="col-md-6 about-loc">
