@@ -9,7 +9,7 @@ $database = "ecomm";
 $servername = "localhost";
 $username = "root";
 $password = "";
-$database = "pi_data_ecomm";
+$database = "pi_payment_links";
 
 $conn = new mysqli($servername, $username, $password, $database);
 
