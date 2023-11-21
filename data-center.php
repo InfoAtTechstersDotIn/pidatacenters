@@ -102,111 +102,6 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
 
     </div>
 </div>
-<!--board-of-directors starts here -->
-<!-- <div class="testimonial-block colocation_page">
-    <div class="container">
-        <div class="testimonial-block-main">
-            <div class="tabBlock">
-                <div class="tabBlock-pane">
-                    <div class="dc-advisory-block row">
-                        <div class="dc-advisory-block-lt col-md-5">
-                            <img src="images/advisory.png" alt="advisory" width="677" height="864">
-                        </div>
-                        <div class="dc-advisory-block-rt  col-md-7">
-                            <h3>Advisory</h3>
-                            <p>It is imperative to get the right advice when building your data center; right from the conceptualization phase. From selecting land/location to sizing the data center's capacity that suits your current and prospective prerequisites. Our proficient team can comprehend your requirements and prepare a thorough assessment and its associated estimated cost. Sizing the data center is a critical factor in controlling your expenses. Understanding the requirements and appropriate advice on sizing for power, cooling, and other electrical & mechanical components is a must. Further detailing includes estimating the Construction Area, Compartmentalization, and Load-bearing Capacity, among others.</p>
-                            <ul class="row">
-                                <li class="col-md-4">
-                                    <img src="images/advisory-icon-1.png" alt="advisory-icon-1" width="112" height="112">
-                                    <p>Seismic Zone Category</p>
-                                </li>
-                                <li class="col-md-4">
-                                    <img src="images/advisory-icon-2.png" alt="advisory-icon-2" width="112" height="112">
-                                    <p>History of Natural Calamities</p>
-                                </li>
-                                <li class="col-md-4">
-                                    <img src="images/advisory-icon-3.png" alt="advisory-icon-3" width="112" height="112">
-                                    <p>Fiber Connectivity</p>
-                                </li>
-                                <li class="col-md-4">
-                                    <img src="images/advisory-icon-4.png" alt="advisory-icon-4" width="112" height="112">
-                                    <p>Power</p>
-                                </li>
-                                <li class="col-md-4">
-                                    <img src="images/advisory-icon-5.png" alt="advisory-icon-5" width="112" height="112">
-                                    <p>Water Supply</p>
-                                </li>
-                                <li class="col-md-4">
-                                    <img src="images/advisory-icon-6.png" alt="advisory-icon-6" width="112" height="112">
-                                    <p>Ease of Regulatory Approvals</p>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="tabBlock-pane">
-                    <div class="dc-advisory-block row">
-                        <div class="dc-advisory-block-lt col-md-6">
-                            <img src="images/operator-img.png" alt="advisory" width="829" height="666">
-                        </div>
-                        <div class="dc-advisory-block-rt  col-md-6">
-                            <h3>Operator</h3>
-                            <p>Pi Data Centers have extensive operating experience, with large to medium size data centers, for enterprises and governments. Our data center operation comprises systems and workflows within a data center that keeps it running. It includes installing and maintaining network resources, ensuring data center security, and monitoring systems for power and cooling. The IT requirements of companies that own data centers define many types of data centers, varying in size, reliability, and redundancy. The growth of cloud computing is pushing data centers to modernize, including updated operations that take advantage of virtualization and automation. As time-tested and industry weighted data center operators, we bring in the expertise & in-depth knowledge to put all the dots together and bridge the gaps as your trusted partner to operate your data center.</p>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="tabBlock-pane">
-                    <div class="dc-advisory-block row">
-                        <div class="dc-advisory-block-lt col-md-6">
-                            <img src="images/design-img.png" alt="design-img" width="829" height="666">
-                        </div>
-                        <div class="dc-advisory-block-rt  col-md-6">
-                            <h3>Design</h3>
-                            <p>The Data Center design is the vital aspect that determines your total CAPEX and the OPEX. Once the implementation completes, it becomes problematic to undo a sub-optimal design. However, an optimal design can save Millions regarding CAPEX and OPEX. The Pi design team consists of UPTIME-Certified Architects(ATDs) who can bring your vision to reality through their experience and expertise by assimilating essential features required for a Data Center to run. The design includes the Master plan, Structural design, Mechanical & Electrical Design Drawings, HVAC, Security/ Surveillance, Fire Suppression, Access Controls, and End-to-End Automation. Our deliverables also include Design Certifications.</p>
-                            <a href="dc-design-planning.php">Know More</a>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="tabBlock-pane">
-                    <div class="dc-advisory-block row">
-                        <div class="dc-advisory-block-lt col-md-6">
-                            <img src="images/build-img.png" alt="build-img" width="829" height="666">
-                        </div>
-                        <div class="dc-advisory-block-rt  col-md-6">
-                            <h3>Build</h3>
-                            <p>Data Center build differs from traditional buildings, and the load-bearing, compartmentalization, and significant structural spans play a critical role. However, often it is easy to overdo the sizing, which inflates the overall cost unless it is designed and built appropriately. We have expertise in selecting the right construction partner for the civil and M&E phases of the project, among others, to execute the build of the DC in the stipulated time. Getting construction & statutory approvals on time is imperative. Our experts have outstanding experience with feet on the ground working with the relevant statutory bodies that will help you achieve the best.</p>
-                            <a href="dc-build.php">Know More</a>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="tabBlock-pane">
-                    <div class="dc-advisory-block row">
-                        <div class="dc-advisory-block-lt col-md-6">
-                            <img src="images/pmc-img.png" alt="pmc-img" width="829" height="666">
-                        </div>
-                        <div class="dc-advisory-block-rt  col-md-6">
-                            <h3>Project Management Consultancy (PMC)</h3>
-                            <p>To ensure on-time completion, addressing the project timelines is critical besides the quality task and process being implemented. The PMC encloses execution and completion of the scope of all the essential aspects, including Civil, Electrical, and Mechanical, which contains low side, HVAC, Security/ Surveillance, Fire Suppression, Access Controls, and end-to-end automation. Once the project is completed, we ensure end-to-end testing with the appointed agency to ensure validation against the design parameters before handing it over.</p>
-                            <a href="dc-design-planning.php">Know More</a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-
-
-    </div>
-</div>
-</div> -->
-<!--why-work-with-us starts here -->
-
 
 <div class="new-services">
     <div class="container">
@@ -238,7 +133,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                     </h2>
 
                     <p>Revolutionize your data center vision with Pi's unparalleled consulting services. As architects of the world's fourth-largest Tier 4 data center, we bring in-house expertise, end-to-end support, and 8 levels of security. Elevate your project with Pi, where excellence meets innovation.</p>
-                    <div class="link-btn"> <a href="#">Know More</a></div>
+                    <div class="link-btn"> <a href="dc-design-planning.php">Know More</a></div>
                 </div>
             </div>
 
