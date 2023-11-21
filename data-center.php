@@ -40,239 +40,217 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
         margin: 0 auto !important;
         border: none !important;
     }
+
+    .new-services {
+        margin: 40px 0;
+        padding: 0 25px;
+        text-align: center;
+    }
+
+    .service-box {
+        box-shadow: 0px 0px 20px grey;
+        border-radius: 20px;
+        padding: 30px;
+        transform: scale(0.8);
+    }
+
+    .service-box:hover {
+        transform: scale(1);
+        transition: all 0.5s ease-in-out;
+    }
+
+    .service-box h2 {
+        font-size: 28px;
+        line-height: 2.5rem;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .service-box p {
+        font-size: 18px;
+        text-align: center;
+        padding: 15px 0;
+        color: #000;
+        line-height: 1.5rem;
+    }
+
+    .link-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .link-btn a {
+        background-color: #223f97;
+        color: #fff;
+        padding: 10px 15px;
+        border-radius: 10px;
+    }
+
+    .link-btn a:hover {
+        background-color: #76b543;
+    }
 </style>
 
 <!-- main starts here -->
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/datacenter-services.png" alt="datacenter-services" width="1920" height="210" class="datacenter-services-img">
-        <h2>Colocation</h2>
+        <h2>Data Center</h2>
 
 
 
     </div>
 </div>
 <!--board-of-directors starts here -->
-<div class="testimonial-block colocation_page">
+<!-- <div class="testimonial-block colocation_page">
     <div class="container">
         <div class="testimonial-block-main">
             <div class="tabBlock">
-                <ul class="tabBlock-tabs nav-tabs feature-tab  border-bottom-0 d-none flex-wrap justify-content-center dcis" data-tabs="tabs ">
-                    <li class="tabBlock-tab  animatable fadeInUp is-active">
-                        <a class="nav-link" data-toggle="tab">Colocation
-                        </a>
+                <div class="tabBlock-pane">
+                    <div class="dc-advisory-block row">
+                        <div class="dc-advisory-block-lt col-md-5">
+                            <img src="images/advisory.png" alt="advisory" width="677" height="864">
+                        </div>
+                        <div class="dc-advisory-block-rt  col-md-7">
+                            <h3>Advisory</h3>
+                            <p>It is imperative to get the right advice when building your data center; right from the conceptualization phase. From selecting land/location to sizing the data center's capacity that suits your current and prospective prerequisites. Our proficient team can comprehend your requirements and prepare a thorough assessment and its associated estimated cost. Sizing the data center is a critical factor in controlling your expenses. Understanding the requirements and appropriate advice on sizing for power, cooling, and other electrical & mechanical components is a must. Further detailing includes estimating the Construction Area, Compartmentalization, and Load-bearing Capacity, among others.</p>
+                            <ul class="row">
+                                <li class="col-md-4">
+                                    <img src="images/advisory-icon-1.png" alt="advisory-icon-1" width="112" height="112">
+                                    <p>Seismic Zone Category</p>
+                                </li>
+                                <li class="col-md-4">
+                                    <img src="images/advisory-icon-2.png" alt="advisory-icon-2" width="112" height="112">
+                                    <p>History of Natural Calamities</p>
+                                </li>
+                                <li class="col-md-4">
+                                    <img src="images/advisory-icon-3.png" alt="advisory-icon-3" width="112" height="112">
+                                    <p>Fiber Connectivity</p>
+                                </li>
+                                <li class="col-md-4">
+                                    <img src="images/advisory-icon-4.png" alt="advisory-icon-4" width="112" height="112">
+                                    <p>Power</p>
+                                </li>
+                                <li class="col-md-4">
+                                    <img src="images/advisory-icon-5.png" alt="advisory-icon-5" width="112" height="112">
+                                    <p>Water Supply</p>
+                                </li>
+                                <li class="col-md-4">
+                                    <img src="images/advisory-icon-6.png" alt="advisory-icon-6" width="112" height="112">
+                                    <p>Ease of Regulatory Approvals</p>
+                                </li>
 
-                    </li>
-                    <li class="tabBlock-tab  animatable fadeInUp">
-                        <a class="nav-link" data-toggle="tab">Advisory
-                        </a>
-                    </li>
-
-                    <li class="tabBlock-tab  animatable fadeInUp">
-                        <a class="nav-link" data-toggle="tab">Operator
-                        </a>
-                    </li>
-                    <li class="tabBlock-tab  animatable fadeInUp">
-                        <a class="nav-link" data-toggle="tab">Design
-                        </a>
-                    </li>
-                    <li class="tabBlock-tab  animatable fadeInUp">
-                        <a class="nav-link" data-toggle="tab">Build
-                        </a>
-                    </li>
-                    <li class="tabBlock-tab  animatable fadeInUp">
-                        <a class="nav-link" data-toggle="tab">PMC
-                        </a>
-                    </li>
-                </ul>
-                <div class="tab-content tabBlock-content">
-
-                    <div class="tabBlock-pane">
-
-                        <div class="knowledge-hub-videos1 knowledge-galleryd">
-                            <div class="container">
-                                <div class="knowledge-hub-videos-top">
-                                    <h2 style="color:#000000;text-align:center">Colocation Services</h2><br>
-
-                                </div>
-                                <br>
-                                <ul class="">
-                                    <li>
-                                        <ul class="row">
-                                            <li class="col-md-4">
-                                                <div class="inner-teli241">
-                                                    <div class="colocation-services-img">
-                                                        <img src="images/colocation-services-icon-1.png" alt="colocation-services-icon" class="icon-css1">
-                                                    </div>
-                                                    <h6 class="p-su">Private Suites</h6>
-                                                    <p class="public1">With an innovative modular design, we offer physically separated private suites (DC in a DC) to meet high on compliance and high volume colocation requirements from enterprises. These private suites are designed keeping in mind varied quantum of racks with various power capacities, critical operations and security needs.</p>
-
-                                                </div>
-                                            </li>
-                                            <li class="col-md-4">
-                                                <div class="inner-teli241">
-                                                    <div class="colocation-services-img">
-                                                        <img src="images/colocation-services-icon-2.png" alt="colocation-services-icon-2" class="icon-css1">
-                                                    </div>
-                                                    <h6 class="p-su">Whitespace</h6>
-                                                    <p class="public1">State-Of-The-Art equipped Plug-And-Play ready space available for customer as per their requirement for deploying their own cabinets and IT equipment.</p>
-
-                                                </div>
-                                            </li>
-                                            <li class="col-md-4">
-                                                <div class="inner-teli241">
-                                                    <div class="colocation-services-img">
-                                                        <img src="images/colocation-services-icon-3.png" alt="colocation-services-icon-3" class="icon-css1">
-                                                    </div>
-                                                    <h6 class="p-su">Caged Solution</h6>
-                                                    <p class="public1">Designed for enterprises looking for flexible options but desiring to retain complete control over their environment, from environmental conditions to security.</p>
-
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <ul class="row">
-                                            <li class="col-md-4">
-                                                <div class="inner-teli241">
-                                                    <div class="colocation-services-img">
-                                                        <img src="images/colocation-services-icon-4.png" alt="colocation-services-icon-4" class="icon-css1">
-                                                    </div>
-                                                    <h6 class="p-su">Rack Colocation</h6>
-                                                    <p class="public1">We provide secure lockable rack cabinets with power and high speed network connectivity in modular data suites of varied sizes to co-locate compute, storage and network appliances. These data suites are equipped with dedicated air conditioning. These digitally secured cabinets are available as a part of dedicated suite and shared suite depending on customer requirements.</p>
-
-                                                </div>
-                                            </li>
-                                            <li class="col-md-4">
-                                                <div class="inner-teli241">
-                                                    <div class="colocation-services-img">
-                                                        <img src="images/colocation-services-icon-5.png" alt="colocation-services-icon-5" class="icon-css1">
-                                                    </div>
-                                                    <h6 class="p-su">Sub-Cabinet Services</h6>
-                                                    <p class="public1">This is suitable for enterprises who want to leverage a shared rack to co-locate handful of IT appliances on a "Per U" basis, yet enjoying a fully redundant data center environment. This is backed by independent N+N power and cable feeds. Best suited for starting small and scaling at will.</p>
-
-                                                </div>
-                                            </li>
-                                            <li class="col-md-4">
-                                                <div class="inner-teli241">
-                                                    <div class="colocation-services-img">
-                                                        <img src="images/colocation-services-icon-6.png" alt="colocation-services-icon-6" class="icon-css1">
-                                                    </div>
-                                                    <h6 class="p-su">Hands and Feet Support</h6>
-                                                    <p class="public1">Our Hands and Feet Support helps in assisting customers in preliminary physical checks of their hosted environment, port & cabling checks, reporting equipment indicators and on-demand physical re-boots. This service plays a crucial role of an extended arm for customers who do not have personnel presence inside the data center.</p>
-
-                                                </div>
-                                            </li>
-                                        </ul>
-
-
-
-                                    </li>
-
-
-
-                                </ul>
-                            </div>
+                            </ul>
                         </div>
                     </div>
-                    <div class="tabBlock-pane">
-                        <div class="dc-advisory-block row">
-                            <div class="dc-advisory-block-lt col-md-5">
-                                <img src="images/advisory.png" alt="advisory" width="677" height="864">
-                            </div>
-                            <div class="dc-advisory-block-rt  col-md-7">
-                                <h3>Advisory</h3>
-                                <p>It is imperative to get the right advice when building your data center; right from the conceptualization phase. From selecting land/location to sizing the data center's capacity that suits your current and prospective prerequisites. Our proficient team can comprehend your requirements and prepare a thorough assessment and its associated estimated cost. Sizing the data center is a critical factor in controlling your expenses. Understanding the requirements and appropriate advice on sizing for power, cooling, and other electrical & mechanical components is a must. Further detailing includes estimating the Construction Area, Compartmentalization, and Load-bearing Capacity, among others.</p>
-                                <ul class="row">
-                                    <li class="col-md-4">
-                                        <img src="images/advisory-icon-1.png" alt="advisory-icon-1" width="112" height="112">
-                                        <p>Seismic Zone Category</p>
-                                    </li>
-                                    <li class="col-md-4">
-                                        <img src="images/advisory-icon-2.png" alt="advisory-icon-2" width="112" height="112">
-                                        <p>History of Natural Calamities</p>
-                                    </li>
-                                    <li class="col-md-4">
-                                        <img src="images/advisory-icon-3.png" alt="advisory-icon-3" width="112" height="112">
-                                        <p>Fiber Connectivity</p>
-                                    </li>
-                                    <li class="col-md-4">
-                                        <img src="images/advisory-icon-4.png" alt="advisory-icon-4" width="112" height="112">
-                                        <p>Power</p>
-                                    </li>
-                                    <li class="col-md-4">
-                                        <img src="images/advisory-icon-5.png" alt="advisory-icon-5" width="112" height="112">
-                                        <p>Water Supply</p>
-                                    </li>
-                                    <li class="col-md-4">
-                                        <img src="images/advisory-icon-6.png" alt="advisory-icon-6" width="112" height="112">
-                                        <p>Ease of Regulatory Approvals</p>
-                                    </li>
 
-                                </ul>
-                            </div>
+                </div>
+                <div class="tabBlock-pane">
+                    <div class="dc-advisory-block row">
+                        <div class="dc-advisory-block-lt col-md-6">
+                            <img src="images/operator-img.png" alt="advisory" width="829" height="666">
                         </div>
-
-                    </div>
-                    <div class="tabBlock-pane">
-                        <div class="dc-advisory-block row">
-                            <div class="dc-advisory-block-lt col-md-6">
-                                <img src="images/operator-img.png" alt="advisory" width="829" height="666">
-                            </div>
-                            <div class="dc-advisory-block-rt  col-md-6">
-                                <h3>Operator</h3>
-                                <p>Pi Data Centers have extensive operating experience, with large to medium size data centers, for enterprises and governments. Our data center operation comprises systems and workflows within a data center that keeps it running. It includes installing and maintaining network resources, ensuring data center security, and monitoring systems for power and cooling. The IT requirements of companies that own data centers define many types of data centers, varying in size, reliability, and redundancy. The growth of cloud computing is pushing data centers to modernize, including updated operations that take advantage of virtualization and automation. As time-tested and industry weighted data center operators, we bring in the expertise & in-depth knowledge to put all the dots together and bridge the gaps as your trusted partner to operate your data center.</p>
-                            </div>
+                        <div class="dc-advisory-block-rt  col-md-6">
+                            <h3>Operator</h3>
+                            <p>Pi Data Centers have extensive operating experience, with large to medium size data centers, for enterprises and governments. Our data center operation comprises systems and workflows within a data center that keeps it running. It includes installing and maintaining network resources, ensuring data center security, and monitoring systems for power and cooling. The IT requirements of companies that own data centers define many types of data centers, varying in size, reliability, and redundancy. The growth of cloud computing is pushing data centers to modernize, including updated operations that take advantage of virtualization and automation. As time-tested and industry weighted data center operators, we bring in the expertise & in-depth knowledge to put all the dots together and bridge the gaps as your trusted partner to operate your data center.</p>
                         </div>
-
                     </div>
-                    <div class="tabBlock-pane">
-                        <div class="dc-advisory-block row">
-                            <div class="dc-advisory-block-lt col-md-6">
-                                <img src="images/design-img.png" alt="design-img" width="829" height="666">
-                            </div>
-                            <div class="dc-advisory-block-rt  col-md-6">
-                                <h3>Design</h3>
-                                <p>The Data Center design is the vital aspect that determines your total CAPEX and the OPEX. Once the implementation completes, it becomes problematic to undo a sub-optimal design. However, an optimal design can save Millions regarding CAPEX and OPEX. The Pi design team consists of UPTIME-Certified Architects(ATDs) who can bring your vision to reality through their experience and expertise by assimilating essential features required for a Data Center to run. The design includes the Master plan, Structural design, Mechanical & Electrical Design Drawings, HVAC, Security/ Surveillance, Fire Suppression, Access Controls, and End-to-End Automation. Our deliverables also include Design Certifications.</p>
-                                <a href="dc-design-planning.php">Know More</a>
-                            </div>
+
+                </div>
+                <div class="tabBlock-pane">
+                    <div class="dc-advisory-block row">
+                        <div class="dc-advisory-block-lt col-md-6">
+                            <img src="images/design-img.png" alt="design-img" width="829" height="666">
                         </div>
-
-                    </div>
-                    <div class="tabBlock-pane">
-                        <div class="dc-advisory-block row">
-                            <div class="dc-advisory-block-lt col-md-6">
-                                <img src="images/build-img.png" alt="build-img" width="829" height="666">
-                            </div>
-                            <div class="dc-advisory-block-rt  col-md-6">
-                                <h3>Build</h3>
-                                <p>Data Center build differs from traditional buildings, and the load-bearing, compartmentalization, and significant structural spans play a critical role. However, often it is easy to overdo the sizing, which inflates the overall cost unless it is designed and built appropriately. We have expertise in selecting the right construction partner for the civil and M&E phases of the project, among others, to execute the build of the DC in the stipulated time. Getting construction & statutory approvals on time is imperative. Our experts have outstanding experience with feet on the ground working with the relevant statutory bodies that will help you achieve the best.</p>
-                                <a href="dc-build.php">Know More</a>
-                            </div>
+                        <div class="dc-advisory-block-rt  col-md-6">
+                            <h3>Design</h3>
+                            <p>The Data Center design is the vital aspect that determines your total CAPEX and the OPEX. Once the implementation completes, it becomes problematic to undo a sub-optimal design. However, an optimal design can save Millions regarding CAPEX and OPEX. The Pi design team consists of UPTIME-Certified Architects(ATDs) who can bring your vision to reality through their experience and expertise by assimilating essential features required for a Data Center to run. The design includes the Master plan, Structural design, Mechanical & Electrical Design Drawings, HVAC, Security/ Surveillance, Fire Suppression, Access Controls, and End-to-End Automation. Our deliverables also include Design Certifications.</p>
+                            <a href="dc-design-planning.php">Know More</a>
                         </div>
-
                     </div>
-                    <div class="tabBlock-pane">
-                        <div class="dc-advisory-block row">
-                            <div class="dc-advisory-block-lt col-md-6">
-                                <img src="images/pmc-img.png" alt="pmc-img" width="829" height="666">
-                            </div>
-                            <div class="dc-advisory-block-rt  col-md-6">
-                                <h3>Project Management Consultancy (PMC)</h3>
-                                <p>To ensure on-time completion, addressing the project timelines is critical besides the quality task and process being implemented. The PMC encloses execution and completion of the scope of all the essential aspects, including Civil, Electrical, and Mechanical, which contains low side, HVAC, Security/ Surveillance, Fire Suppression, Access Controls, and end-to-end automation. Once the project is completed, we ensure end-to-end testing with the appointed agency to ensure validation against the design parameters before handing it over.</p>
-                                <a href="dc-design-planning.php">Know More</a>
-                            </div>
+
+                </div>
+                <div class="tabBlock-pane">
+                    <div class="dc-advisory-block row">
+                        <div class="dc-advisory-block-lt col-md-6">
+                            <img src="images/build-img.png" alt="build-img" width="829" height="666">
                         </div>
-
+                        <div class="dc-advisory-block-rt  col-md-6">
+                            <h3>Build</h3>
+                            <p>Data Center build differs from traditional buildings, and the load-bearing, compartmentalization, and significant structural spans play a critical role. However, often it is easy to overdo the sizing, which inflates the overall cost unless it is designed and built appropriately. We have expertise in selecting the right construction partner for the civil and M&E phases of the project, among others, to execute the build of the DC in the stipulated time. Getting construction & statutory approvals on time is imperative. Our experts have outstanding experience with feet on the ground working with the relevant statutory bodies that will help you achieve the best.</p>
+                            <a href="dc-build.php">Know More</a>
+                        </div>
                     </div>
+
+                </div>
+                <div class="tabBlock-pane">
+                    <div class="dc-advisory-block row">
+                        <div class="dc-advisory-block-lt col-md-6">
+                            <img src="images/pmc-img.png" alt="pmc-img" width="829" height="666">
+                        </div>
+                        <div class="dc-advisory-block-rt  col-md-6">
+                            <h3>Project Management Consultancy (PMC)</h3>
+                            <p>To ensure on-time completion, addressing the project timelines is critical besides the quality task and process being implemented. The PMC encloses execution and completion of the scope of all the essential aspects, including Civil, Electrical, and Mechanical, which contains low side, HVAC, Security/ Surveillance, Fire Suppression, Access Controls, and end-to-end automation. Once the project is completed, we ensure end-to-end testing with the appointed agency to ensure validation against the design parameters before handing it over.</p>
+                            <a href="dc-design-planning.php">Know More</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+</div> -->
+<!--why-work-with-us starts here -->
+
+
+<div class="new-services">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="service-box h-100">
+                    <h2>Data Center <br>Infrastructure & Services</h2>
+                    <p>Embark on a data-driven journey where innovation meets precision. From groundbreaking design strategies to seamless execution, we redefine data center excellence. Explore a world where your data's potential knows no bounds.
+                    </p>
+                    <div class="link-btn"> <a href="data-center-infrastructure-services-advisory.php">Know More</a></div>
                 </div>
 
             </div>
+            <div class="col-md-4">
+                <div class="service-box h-100">
 
+                    <h2>
+                        Colocation Services
+                    </h2>
+                    <p>Explore a new era in Colocation Services. From private suites tailored for high compliance to plug-and-play whitespace, we offer flexible solutions for enterprises. Whether you seek control with caged options or modular rack colocation, we are your partner in scaling seamlessly. Experience hands-and-feet support for operational ease.
+                    </p>
+                    <div class="link-btn"> <a href="data-center-infrastructure-services.php">Know More</a></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-box h-100">
+                    <h2>
+                        Data Center <br>Consulting and Build
+                    </h2>
+
+                    <p>Revolutionize your data center vision with Pi's unparalleled consulting services. As architects of the world's fourth-largest Tier 4 data center, we bring in-house expertise, end-to-end support, and 8 levels of security. Elevate your project with Pi, where excellence meets innovation.</p>
+                    <div class="link-btn"> <a href="#">Know More</a></div>
+                </div>
+            </div>
 
         </div>
+
     </div>
 </div>
-<!--why-work-with-us starts here -->
-<div class="about-locations-blk" id="locations">
+
+
+
+
+<div class="about-locations-blk" style="margin-top: 20px;">
     <div class="container">
         <div class="about-locations-main">
             <h2>About Locations</h2>

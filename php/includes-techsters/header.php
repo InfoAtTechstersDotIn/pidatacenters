@@ -110,21 +110,27 @@
                             <li class=""><a href="https://pidatacenters.com/"><i class="fa fa-home" style="color:black"></i></a></li>
 
                             <li>
-                                <a href="JavaScript:void(0);" class="drop-arrow ">
+                                <!-- <a href="JavaScript:void(0);" class="drop-arrow ">
+                                    DATA CENTER
+
+
+                                </a> -->
+                                <a href="<?php echo $site_url ?>data-center.php" class="drop-arrow ">
                                     DATA CENTER
 
 
                                 </a>
+
                                 <div class="drop-down">
                                     <ul>
-                                        <li>
+                                        <!-- <li>
                                             <a href="<?php echo $site_url ?>data-center-infrastructure-services.php">Colocation</a>
-                                        </li>
+                                        </li> -->
                                         <li>
                                             <a href="<?php echo $site_url ?>data-center-infrastructure-services-advisory.php">Data Center Infrastructure & Services</a>
                                         </li>
                                         <li>
-                                            <a href="" class="drop-arrow">Consulting & Data Center Build </a>
+                                            <a href="JavaScript:void(0);" class="drop-arrow">Consulting & Data Center Build </a>
                                             <div class="sub_drop_down">
                                                 <ul>
                                                     <li>
@@ -140,9 +146,9 @@
                                 </div>
                             </li>
 
-                            <!-- <li>
-                                <a href="https://pidatacenters.com/data-center-infrastructure-services.php">COLOCATION</a>
-                            </li> -->
+                            <li>
+                                <a href="<?php echo $site_url ?>data-center-infrastructure-services.php">COLOCATION</a>
+                            </li>
                             <li>
                                 <a href="#" class="drop-arrow">CLOUD</a>
                                 <div class="drop-down">
@@ -227,7 +233,7 @@
                                             <a href="https://pidatacenters.com/pi-cloud/pricing/#/cloudStorage">Cloud Storage</a>
                                         </li>
                                         <li>
-                                            <a href="<?php echo $site_url ?>rent-server.php">Rent A Server</a>
+                                            <a href="<?php echo $site_url ?>rent-server.php">Rent A Rack</a>
                                         </li>
                                         <li>
                                             <a href="https://picloud.ai/">Rent GPU Servers</a>
