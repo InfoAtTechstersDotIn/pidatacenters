@@ -110,11 +110,17 @@
                             <li class=""><a href="https://pidatacenters.com/"><i class="fa fa-home" style="color:black"></i></a></li>
 
                             <li>
-                                <a href="JavaScript:void(0);" class="drop-arrow ">
+                                <!-- <a href="JavaScript:void(0);" class="drop-arrow ">
+                                    DATA CENTER
+
+
+                                </a> -->
+                                <a href="<?php echo $site_url ?>data-center.php" class="drop-arrow ">
                                     DATA CENTER
 
 
                                 </a>
+
                                 <div class="drop-down">
                                     <ul>
                                         <!-- <li>
@@ -124,7 +130,7 @@
                                             <a href="<?php echo $site_url ?>data-center-infrastructure-services-advisory.php">Data Center Infrastructure & Services</a>
                                         </li>
                                         <li>
-                                            <a href="" class="drop-arrow">Consulting & Data Center Build </a>
+                                            <a href="JavaScript:void(0);" class="drop-arrow">Consulting & Data Center Build </a>
                                             <div class="sub_drop_down">
                                                 <ul>
                                                     <li>

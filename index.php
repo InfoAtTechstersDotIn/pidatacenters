@@ -1639,7 +1639,7 @@ Services</a> -->
                 slidesToShow: 1,
                 centerMode: true,
                 autoplay: true,
-                autoplaySpeed: 3000,
+                autoplaySpeed: 6000,
                 dots: false,
                 arrows: true,
                 swipe: true,
