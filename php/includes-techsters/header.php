@@ -141,7 +141,7 @@
                             </li>
 
                             <li>
-                                <a href="<?php echo $site_url ?>data-center-infrastructure-services.php">Colocation</a>
+                                <a href="<?php echo $site_url ?>data-center-infrastructure-services.php">COLOCATION</a>
                             </li>
                             <li>
                                 <a href="#" class="drop-arrow">CLOUD</a>
@@ -227,7 +227,7 @@
                                             <a href="https://pidatacenters.com/pi-cloud/pricing/#/cloudStorage">Cloud Storage</a>
                                         </li>
                                         <li>
-                                            <a href="<?php echo $site_url ?>rent-server.php">Rent A Server</a>
+                                            <a href="<?php echo $site_url ?>rent-server.php">Rent A Rack</a>
                                         </li>
                                         <li>
                                             <a href="https://picloud.ai/">Rent GPU Servers</a>
