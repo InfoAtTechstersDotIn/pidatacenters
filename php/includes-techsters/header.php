@@ -117,9 +117,9 @@
                                 </a>
                                 <div class="drop-down">
                                     <ul>
-                                        <li>
+                                        <!-- <li>
                                             <a href="<?php echo $site_url ?>data-center-infrastructure-services.php">Colocation</a>
-                                        </li>
+                                        </li> -->
                                         <li>
                                             <a href="<?php echo $site_url ?>data-center-infrastructure-services-advisory.php">Data Center Infrastructure & Services</a>
                                         </li>
@@ -140,9 +140,9 @@
                                 </div>
                             </li>
 
-                            <!-- <li>
-                                <a href="https://pidatacenters.com/data-center-infrastructure-services.php">COLOCATION</a>
-                            </li> -->
+                            <li>
+                                <a href="<?php echo $site_url ?>data-center-infrastructure-services.php">Colocation</a>
+                            </li>
                             <li>
                                 <a href="#" class="drop-arrow">CLOUD</a>
                                 <div class="drop-down">
