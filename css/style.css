@@ -8233,3 +8233,10 @@ td {
 .tabBlock-tab:hover:before {
     background-color: transparent !important;
 }
+
+@media screen and (max-width:599px) {
+    img {
+        max-width: 100%;
+        vertical-align: bottom;
+    }
+}

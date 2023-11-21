@@ -445,6 +445,10 @@ input {
     line-height: 20px;
 }
 
+.picloud_pages .footer-block p {
+    color: #fff !important;
+}
+
 @media (max-width: 768px) {
     .sap_certFicats>li {
         display: inline-block !important;
@@ -453,10 +457,10 @@ input {
         padding: 10px 0 !important;
         text-align: center !important;
     }
-    .hb-leftCont {
+    /* .hb-leftCont {
         width: 230px !important;
         margin-top: 0 !important;
-    }
+    } */
     .hb-sapLists {
         margin: 0px auto !important;
         padding: 0px 0 20px !important;
