@@ -31,10 +31,10 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
         <div class="testimonial-block-main">
             <div class="tabBlock">
                 <ul class="tabBlock-tabs nav-tabs feature-tab  border-bottom-0 d-flex flex-wrap justify-content-center dcis" data-tabs="tabs">
-                    <li class="tabBlock-tab  animatable fadeInUp">
+                    <!-- <li class="tabBlock-tab  animatable fadeInUp">
                         <a class="nav-link" data-toggle="tab">Colocation
                         </a>
-                    </li>
+                    </li> -->
                     <li class="tabBlock-tab  animatable fadeInUp is-active">
                         <a class="nav-link" data-toggle="tab">Advisory
                         </a>
