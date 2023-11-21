@@ -2350,10 +2350,10 @@ footer>div>p {
     #outer {
         margin-top: 36px;
     }
-    .hb-leftCont>span>img,
+    /* .hb-leftCont>span>img,
     .hb-rightCont>span>img {
         display: none;
-    }
+    } */
     .hb_ppCont>h3 {
         font-size: 18px;
         margin-top: 12px;

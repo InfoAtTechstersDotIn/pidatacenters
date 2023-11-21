@@ -91,9 +91,9 @@
             text-align: left;
             padding: 0 10px !important;
         }
-        .hb-bannerImg h2 {
+        /* .hb-bannerImg h2 {
             font-size: 25px !important;
-        }
+        } */
         nav a#pull:after {
             right: -40px !important;
             bottom: -20px !important;
@@ -594,11 +594,10 @@
     .hb-featuresList>li {
         border-top: 5px solid #2680eb !important;
     }
-    
-    .hb-bannerCont {
+    /* .hb-bannerCont {
         position: relative;
         margin-top: 128px;
-    }
+    } */
     
     .container {
         width: 95% !important;
