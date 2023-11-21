@@ -163,9 +163,9 @@
                                     <li><a href="JavaScript:void(0);" class=" drop-arrow">DATA CENTER</a>
                                         <div class="drop-down">
                                             <ul>
-                                                <li>
+                                                <!-- <li>
                                                     <a href="data-center-infrastructure-services.php">Colocation</a>
-                                                </li>
+                                                </li> -->
                                                 <li>
                                                     <a href="data-center-infrastructure-services-advisory.php">Data Center Infrastructure& Services</a>
                                                 </li>
@@ -186,6 +186,9 @@
                                                 </li>
                                             </ul>
                                         </div>
+                                    </li>
+                                    <li>
+                                        <a href="data-center-infrastructure-services.php">COLOCATION</a>
                                     </li>
                                     <!--<li><a href="https://pi-cloud.in/" target="_blank">CLOUD</a></li>-->
 
@@ -286,7 +289,7 @@ Services</a> -->
                                                     <a href="./pi-cloud/pricing/#/cloudStorage">Cloud Storage</a>
                                                 </li>
                                                 <li>
-                                                    <a href="rent-server.php">Rent A Server</a>
+                                                    <a href="rent-server.php">Rent A Rack</a>
                                                 </li>
                                                 <li>
                                                     <a href="https://picloud.ai/">Rent GPU Servers</a>
@@ -638,27 +641,27 @@ Services</a> -->
 
                                         <ul class="subslider">
                                             <li>
-                                                <figure> <img src="images/white-space.webp" alt="data-center-services-img-1" width="866" height="649"></figure>
+                                                <figure> <img src="images/new-white-space.png" alt="data-center-services-img-1" width="866" height="649"></figure>
                                                 <p class="dcsi">Whitespace</p>
                                             </li>
                                             <li>
-                                                <figure> <img src="images/subcabinets.webp" alt="data-center-services-img-2" width="866" height="649"></figure>
+                                                <figure> <img src="images/new-subcabinets.png" alt="data-center-services-img-2" width="866" height="649"></figure>
                                                 <p class="dcsi">Subcabinet Services</p>
                                             </li>
                                             <li>
-                                                <figure> <img src="images/racks.webp" alt="racks" width="866" height="649"></figure>
+                                                <figure> <img src="images/new-racks.png" alt="racks" width="866" height="649"></figure>
                                                 <p class="dcsi">Racks</p>
                                             </li>
                                             <li>
-                                                <figure> <img src="images/private-suites.webp" alt="data-center-services-img-4" width="866" height="649"></figure>
+                                                <figure> <img src="images/new-private-suites.png" alt="data-center-services-img-4" width="866" height="649"></figure>
                                                 <p class="dcsi">Private Suites</p>
                                             </li>
                                             <li>
-                                                <figure> <img src="images/hands-and-feet-support.webp" alt="data-center-services-img-5" width="866" height="649"></figure>
+                                                <figure> <img src="images/new-hands-and-feet-support.png" alt="data-center-services-img-5" width="866" height="649"></figure>
                                                 <p class="dcsi">Hands & Feet</p>
                                             </li>
                                             <li>
-                                                <figure> <img src="images/caged-solution.webp" alt="data-center-services-img-6" width="866" height="649"></figure>
+                                                <figure> <img src="images/new-caged-solution.png" alt="data-center-services-img-6" width="866" height="649"></figure>
                                                 <p class="dcsi">Caged Solution</p>
                                             </li>
                                         </ul>
@@ -752,13 +755,13 @@ Services</a> -->
 
                                         <ul class="subslider">
                                             <li>
-                                                <figure> <img src="images/grid2.webp" alt="grid2" width="550" height="550"></figure>
+                                                <figure> <img src="images/new-grid2.png" alt="grid2" width="550" height="550"></figure>
                                             </li>
                                             <li>
-                                                <figure> <img src="images/grid3.webp" alt="grid3" width="550" height="550"></figure>
+                                                <figure> <img src="images/new-grid3.png" alt="grid3" width="550" height="550"></figure>
                                             </li>
                                             <li>
-                                                <figure> <img src="images/grid4.webp" alt="grid4" width="550" height="550"></figure>
+                                                <figure> <img src="images/new-grid4.png" alt="grid4" width="550" height="550"></figure>
                                             </li>
                                         </ul>
 
@@ -1011,7 +1014,7 @@ Services</a> -->
                                     <h2>Architecting the Digital Future of Businesses</h2>
                                 </div>
                                 <div class="product-rt col-lg-4">
-                                    <img src="images/pi-datacenters.webp" alt="who-we-are" width="531" height="557">
+                                    <img src="images/new-pi-datacenters.png" alt="who-we-are" width="531" height="557">
                                 </div>
                                 <div class="product-lt col-lg-8 ">
                                     <div class="desktop-headings">
