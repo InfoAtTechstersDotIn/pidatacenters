@@ -163,9 +163,9 @@
                                     <li><a href="JavaScript:void(0);" class=" drop-arrow">DATA CENTER</a>
                                         <div class="drop-down">
                                             <ul>
-                                                <!-- <li>
+                                                <li>
                                                     <a href="data-center-infrastructure-services.php">Colocation</a>
-                                                </li> -->
+                                                </li>
                                                 <li>
                                                     <a href="data-center-infrastructure-services-advisory.php">Data Center Infrastructure& Services</a>
                                                 </li>
@@ -187,9 +187,9 @@
                                             </ul>
                                         </div>
                                     </li>
-                                    <li>
+                                    <!-- <li>
                                         <a href="data-center-infrastructure-services.php">COLOCATION</a>
-                                    </li>
+                                    </li> -->
                                     <!--<li><a href="https://pi-cloud.in/" target="_blank">CLOUD</a></li>-->
 
                                     <li class=""><a href="./pi-cloud/" class=" drop-arrow">CLOUD</a>
