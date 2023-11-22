@@ -67,31 +67,31 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
                         <?php
                         if ($id == 1) {
                         ?>
-                           <img src="images/rank-1-b.png" alt="rank-1-b" style="width:75%" class="rent-blue">
+                           <img src="images/1-B.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
                         <?php
                         } else if ($id == 2) {
                         ?>
-                           <img src="images/rank-2-b.png" alt="rank-1-b" style="width:75%" class="rent-blue">
+                           <img src="images/2-B.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
                         <?php
                         } else if ($id == 3) {
                         ?>
-                           <img src="images/rank-3-b.png" alt="rank-1-b" style="width:75%" class="rent-blue">
+                           <img src="images/3-B.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
                         <?php
                         } else if ($id == 4) {
                         ?>
-                           <img src="images/rank-4-b.png" alt="rank-1-b" style="width:75%" class="rent-blue">
+                           <img src="images/4-B.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
                         <?php
                         } else if ($id == 5) {
                         ?>
-                           <img src="images/rank-5-b.png" alt="rank-1-b" style="width:75%" class="rent-blue">
+                           <img src="images/5-B.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
                         <?php
                         } else if ($id == 6) {
                         ?>
-                           <img src="images/rank-6-b.png" alt="rank-1-b" style="width:75%" class="rent-blue">
+                           <img src="images/6-B.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
                         <?php
                         } else if ($id == 7) {
                         ?>
-                           <img src="images/rank-7-b.png" alt="rank-1-b" style="width:75%" class="rent-blue">
+                           <img src="images/7-B.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
                         <?php
                         }
                         ?>
@@ -107,7 +107,7 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
                         <table style="border: 0px;">
                            <tr style="border: 0px;">
                               <td style="border: 0px;text-align:left">MRC Value(Includes Convenience Fee)
-                              <br />
+                                 <br />
                                  <span style="font-size:10px">MRC(Monthly Recurring Charges)</span>
                               </td>
                               <td style="border: 0px;">INR <b><?php echo $price + $convenience_fee ?></b></td>
