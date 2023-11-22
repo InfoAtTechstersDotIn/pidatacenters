@@ -5,6 +5,17 @@
    .banners_content.gpu_hide {
       display: none;
    }
+
+   @media screen and (max-width:599px) {
+
+      .slick-track {
+         left: -23px !important;
+      }
+
+      .slider-rent a {
+         margin-right: 50px !important;
+      }
+   }
 </style>
 
 <!-- main starts here -->
