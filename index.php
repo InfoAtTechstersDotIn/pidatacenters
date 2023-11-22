@@ -1071,7 +1071,7 @@ Services</a> -->
                                             <h2>Unleashing the Power of Pi</h2>
                                         </div>
                                         <div class="desktop-headings">
-                                            <span style="color:#ffffff;font-size:16px;line-height:26px;">Array of Services for your Infrastructure Needs2222</span>
+                                            <span style="color:#ffffff;font-size:16px;line-height:26px;">Array of Services for your Infrastructure Needs</span>
                                             <h2>Unleashing the Power of Pi</h2>
                                             <p>Optimize your digital transformation journey with our array of products and services. We can facilitate you with various customized solutions for colocation and managed services with the elements your business needs. We prioritize Security and Reliability, while our other services offer support for redundancy, disaster recovery, and more.</p>
                                         </div>
