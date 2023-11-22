@@ -5,18 +5,7 @@
    .banners_content.gpu_hide {
       display: none;
    }
-
-   @media screen and (max-width:599px) {
-
-      .slick-track {
-         left: -23px !important;
-      }
-
-      .slider-rent a {
-         margin-right: 50px !important;
-      } 
-}
-  </style>
+</style>
 
 <!-- main starts here -->
 
@@ -28,42 +17,42 @@
 
          <ul class="slider-rent">
             <li>
-               <img src="images/1-B.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
-               <img src="images/1-G.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+               <img src="images/rank-1-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+               <img src="images/rank-1-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
                <a href="checkout.php?id=1">BUY NOW</a>
             </li>
             <li>
-               <img src="images/2-B.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
-               <img src="images/2-G.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+               <img src="images/rank-2-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+               <img src="images/rank-2-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
                <a href="checkout.php?id=2">BUY NOW</a>
             </li>
             <li>
-               <img src="images/3-B.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
-               <img src="images/3-G.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+               <img src="images/rank-3-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+               <img src="images/rank-3-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
                <a href="checkout.php?id=3">BUY NOW</a>
             </li>
             <li>
-               <img src="images/4-B.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
-               <img src="images/4-G.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+               <img src="images/rank-4-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+               <img src="images/rank-4-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
                <a href="checkout.php?id=4">BUY NOW</a>
             </li>
             <li>
-               <img src="images/5-B.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
-               <img src="images/5-G.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+               <img src="images/rank-5-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+               <img src="images/rank-5-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
                <a href="checkout.php?id=5">BUY NOW</a>
             </li>
             <li>
-               <img src="images/6-B.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
-               <img src="images/6-G.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+               <img src="images/rank-6-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+               <img src="images/rank-6-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
                <a href="checkout.php?id=6">BUY NOW</a>
             </li>
             <li>
-               <img src="images/7-B.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
-               <img src="images/7-G.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+               <img src="images/rank-7-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+               <img src="images/rank-7-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
                <a href="checkout.php?id=7">BUY NOW</a>
             </li>
          </ul>
-         <center style="position: relative; top: -50px;font-size:10px;margin-left:75px">*All Prices are Excluding Convenience Fee & Taxes</center>
+	 <center style="position: relative; top: -50px;font-size:10px;margin-left:75px">*All Prices are Excluding Convenience Fee & Taxes</center>
       </div>
    </div>
 </div>
@@ -97,7 +86,7 @@
          slidesToShow: 3,
          slidesToScroll: 1,
          autoplay: true,
-         autoplaySpeed: 3000,
+         autoplaySpeed: 1000,
 
          responsive: [{
             breakpoint: 768,

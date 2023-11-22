@@ -160,7 +160,7 @@
                                             <a href="#">Cloud Storage</a>
                                         </li>
                                         <li>
-                                            <a href="#">Rent A Server</a>
+                                            <a href="#">Rent A Rack</a>
                                         </li>
                                         <li>
                                             <a href="#">Rent GPU Servers</a>

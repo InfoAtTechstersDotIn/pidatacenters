@@ -163,9 +163,9 @@
                                     <li><a href="JavaScript:void(0);" class=" drop-arrow">DATA CENTER</a>
                                         <div class="drop-down">
                                             <ul>
-                                                <!-- <li>
+                                                <li>
                                                     <a href="data-center-infrastructure-services.php">Colocation</a>
-                                                </li> -->
+                                                </li>
                                                 <li>
                                                     <a href="data-center-infrastructure-services-advisory.php">Data Center Infrastructure& Services</a>
                                                 </li>
@@ -187,9 +187,9 @@
                                             </ul>
                                         </div>
                                     </li>
-                                    <li>
+                                    <!-- <li>
                                         <a href="data-center-infrastructure-services.php">COLOCATION</a>
-                                    </li>
+                                    </li> -->
                                     <!--<li><a href="https://pi-cloud.in/" target="_blank">CLOUD</a></li>-->
 
                                     <li class=""><a href="./pi-cloud/" class=" drop-arrow">CLOUD</a>
@@ -1071,7 +1071,7 @@ Services</a> -->
                                             <h2>Unleashing the Power of Pi</h2>
                                         </div>
                                         <div class="desktop-headings">
-                                            <span style="color:#ffffff;font-size:16px;line-height:26px;">Array of Services for your Infrastructure Needs2222</span>
+                                            <span style="color:#ffffff;font-size:16px;line-height:26px;">Array of Services for your Infrastructure Needs</span>
                                             <h2>Unleashing the Power of Pi</h2>
                                             <p>Optimize your digital transformation journey with our array of products and services. We can facilitate you with various customized solutions for colocation and managed services with the elements your business needs. We prioritize Security and Reliability, while our other services offer support for redundancy, disaster recovery, and more.</p>
                                         </div>

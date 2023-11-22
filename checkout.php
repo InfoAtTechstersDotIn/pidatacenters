@@ -29,13 +29,18 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
          margin-left: auto;
          padding-top: 30px;
       }
+
+      .new-link {
+         display: inline;
+         color: #0056b3;
+      }
    </style>
    <!-- main starts here -->
 
    <div class="about-banner">
       <div class="about-banner-blk">
          <img src="images/contact-us.jpg" alt="Contact-us-banner1" width="1920" height="210">
-         <h2>Contact Us</h2>
+         <h2>Checkout</h2>
 
       </div>
    </div>
@@ -45,7 +50,7 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
       <div class="write-to-us-main branches">
          <div class="write-to-us-lt-cnt row">
             <div class="write-to-us-rt col-md-12">
-               <h2>Checkout</h2>
+               <!-- <h2>Checkout</h2> -->
                <?php
                $sql = "SELECT * FROM products WHERE id = $id";
                $result = mysqli_query($conn, $sql);
@@ -55,6 +60,7 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
 
                $price = $product['price'];
                $convenience_fee = $product['convenience_fee'];
+
                $gst = (($product['price'] + $product['convenience_fee']) * 18) / 100;
                $total = $price + $convenience_fee + $gst;
 
@@ -62,11 +68,36 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
                ?>
                <div class="row">
                   <div class="col-md-6">
-                     <h3 style="color: black;"><?php echo $product['name'] ?></h3>
-                     <div style="margin-left: 20px;">
+                     <div>
                         <?php
-                        foreach (json_decode($product['attributes']) as $key => $value) {
-                           echo "<b>$key</b>" . ": " . $value . "<br />";
+                        if ($id == 1) {
+                        ?>
+                           <img src="images/1-B.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
+                        <?php
+                        } else if ($id == 2) {
+                        ?>
+                           <img src="images/2-B.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
+                        <?php
+                        } else if ($id == 3) {
+                        ?>
+                           <img src="images/3-B.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
+                        <?php
+                        } else if ($id == 4) {
+                        ?>
+                           <img src="images/4-B.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
+                        <?php
+                        } else if ($id == 5) {
+                        ?>
+                           <img src="images/5-B.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
+                        <?php
+                        } else if ($id == 6) {
+                        ?>
+                           <img src="images/6-B.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
+                        <?php
+                        } else if ($id == 7) {
+                        ?>
+                           <img src="images/7-B.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
+                        <?php
                         }
                         ?>
                      </div>
@@ -80,23 +111,22 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
                         <input type="hidden" name="id" value="<?php echo $product['id'] ?>" required="">
                         <table style="border: 0px;">
                            <tr style="border: 0px;">
-                              <td style="border: 0px;text-align:left">Price</td>
-                              <td style="border: 0px;"><b><?php echo $price ?></b></td>
+                              <td style="border: 0px;text-align:left">MRC Value(Includes Convenience Fee)
+                                 <br />
+                                 <span style="font-size:10px">MRC(Monthly Recurring Charges)</span>
+                              </td>
+                              <td style="border: 0px;">INR <b><?php echo $price + $convenience_fee ?></b></td>
                            </tr>
                            <tr style="border: 0px;">
-                              <td style="border: 0px;text-align:left">Convenience Fee</td>
-                              <td style="border: 0px;"><b><?php echo $convenience_fee ?></b></td>
+                              <td style="border: 0px;text-align:left">GST @ 18%</td>
+                              <td style="border: 0px;">INR <b><?php echo $gst ?></b></td>
                            </tr>
                            <tr style="border: 0px;">
-                              <td style="border: 0px;text-align:left">GST</td>
-                              <td style="border: 0px;"><b><?php echo $gst ?></b></td>
-                           </tr>
-                           <tr style="border: 0px;">
-                              <td style="border: 0px;text-align:left">Total</td>
-                              <td style="border: 0px;"><b><?php echo $total ?></b></td>
+                              <td style="border: 0px;text-align:left">Total MRC Payable</td>
+                              <td style="border: 0px;">INR <b><?php echo $total ?></b></td>
                            </tr>
                         </table><br />
-                        <input type="checkbox" required /> I Agree with Terms and Conditions<br />
+                        <input type="checkbox" required /> I Agree with <a href="terms-conditions.php" class="new-link"> The Terms and Conditions</a><br />
                         <br />
                         <input class="btn" onclick="submit_form()" style="width: 100%;border-radius:5px" type="submit" value="Buy Now">
                      </form>
@@ -121,27 +151,26 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
    <script src="js/main-pi.js"></script>
 
    <script>
-      
-    function submit_form() {
-        let name = document.getElementById("checkout_name").value;
-        let phone = document.getElementById("checkout_phone").value;
-        let email = document.getElementById("checkout_email").value;
-        let server = document.getElementById("checkout_server").value;
+      function submit_form() {
+         let name = document.getElementById("checkout_name").value;
+         let phone = document.getElementById("checkout_phone").value;
+         let email = document.getElementById("checkout_email").value;
+         let server = document.getElementById("checkout_server").value;
 
-        let error = 0;
-        if (name == "") {
+         let error = 0;
+         if (name == "") {
             error++;
-        }
+         }
 
-        if (error == 0 && phone == "") {
+         if (error == 0 && phone == "") {
             error++;
-        }
+         }
 
-        if (error == 0 && email == "") {
+         if (error == 0 && email == "") {
             error++;
-        }
+         }
 
-        if (error == 0) {
+         if (error == 0) {
             var http = new XMLHttpRequest();
             var url = 'https://clientele.techsters.in/public/api/client_forms';
 
@@ -156,17 +185,17 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
             http.open('POST', url, true);
 
             http.onreadystatechange = function() {
-                if (http.readyState == 4 && http.status == 200) {
-                    window.location.href = http.responseText;
-                }
+               if (http.readyState == 4 && http.status == 200) {
+                  window.location.href = http.responseText;
+               }
             }
             http.send(data);
 
             return true;
-        } else {
+         } else {
             return false;
-        }
-    }
+         }
+      }
    </script>
 
    </body>
