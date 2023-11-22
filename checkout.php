@@ -29,13 +29,17 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
          margin-left: auto;
          padding-top: 30px;
       }
+
+      .new-link {
+         display: inline;
+      }
    </style>
    <!-- main starts here -->
 
    <div class="about-banner">
       <div class="about-banner-blk">
          <img src="images/contact-us.jpg" alt="Contact-us-banner1" width="1920" height="210">
-         <h2>Contact Us</h2>
+         <h2>Checkout</h2>
 
       </div>
    </div>
@@ -45,7 +49,7 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
       <div class="write-to-us-main branches">
          <div class="write-to-us-lt-cnt row">
             <div class="write-to-us-rt col-md-12">
-               <h2>Checkout</h2>
+               <!-- <h2>Checkout</h2> -->
                <?php
                $sql = "SELECT * FROM products WHERE id = $id";
                $result = mysqli_query($conn, $sql);
@@ -121,7 +125,7 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
                               <td style="border: 0px;">INR <b><?php echo $total ?></b></td>
                            </tr>
                         </table><br />
-                        <input type="checkbox" required /> I Agree with Terms and Conditions<br />
+                        <input type="checkbox" required /> I Agree with <a href="terms-conditions.php" class="new-link">Terms and Conditions</a><br />
                         <br />
                         <input class="btn" onclick="submit_form()" style="width: 100%;border-radius:5px" type="submit" value="Buy Now">
                      </form>

@@ -502,7 +502,7 @@
                                         <a href="https://pidatacenters.com/pi-cloud/pricing/#/cloudStorage">Cloud Storage</a>
                                     </li>
                                     <li>
-                                        <a href="rent-server.php">Rent A Server</a>
+                                        <a href="rent-server.php">Rent A Rack</a>
                                     </li>
                                     <li>
                                         <a href="https://picloud.ai/">Rent GPU Servers</a>
