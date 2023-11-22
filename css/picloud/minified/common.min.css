@@ -2026,7 +2026,8 @@ footer>div>p {
 .hb-productHead>h1 {
     font-size: 28px;
     margin-bottom: 12px;
-    color: #545454
+    color: #545454;
+    font-weight: bold;
 }
 
 .hb-childProducts>h2 {
@@ -2117,7 +2118,8 @@ footer>div>p {
 .hb_ppCont>h3 {
     font-size: 22px;
     margin-bottom: 16px;
-    color: #545454
+    color: #545454;
+    font-weight: bold;
 }
 
 .hb_ppCont>p {

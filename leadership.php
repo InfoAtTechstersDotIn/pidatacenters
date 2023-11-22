@@ -128,7 +128,7 @@
           </div>
         </li>
       </ul>
-      <div class="scc-block">
+      <div class="scc-block leadership_page">
         <h2>Strategic Core Council (SCC)</h2>
 
         <ul class="row certifications-desktop">

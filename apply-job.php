@@ -1,6 +1,5 @@
 <?php ob_start();?>
-<?php include('php/inner-header.php');?>
-
+<?php include('php/includes-techsters/header.php'); ?>
 <style>
     .all-click {
     background: #2680EB;
@@ -18,7 +17,8 @@
 .personal-information ul li{margin:0px 0px 20px 0px;}
 </style>
 <?php
-$servername = "localhost";
+// $servername = "localhost";
+$servername = "172.20.119.52";
 $username = "marcom";
 $password = "TR*viv3mo?!q";
 $dbname = "search8c_pi";
@@ -277,9 +277,10 @@ $conn->close();
           
 		   
           
-  <?php include('php/footer.php');?>
           
           
+<?php include('php/includes-techsters/footer.php'); ?>
+
          
           
          <!--footer ends-->

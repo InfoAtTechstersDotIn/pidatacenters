@@ -16,6 +16,8 @@
 	}
 </style>
 
+<div class="picloud_pages">
+
 <div class="hb-bannerCont">
 	<div class="hb-bannerImgCont">
 		<div class="hb-bannerImg">
@@ -181,5 +183,5 @@
 		</div>
 	</div>
 </section>
-
+</div>
 <?php include('php/includes-techsters/footer.php'); ?>
