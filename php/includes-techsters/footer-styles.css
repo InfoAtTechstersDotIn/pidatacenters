@@ -167,6 +167,12 @@ body {
     color: #2680EB;
 }
 
+@media screen and (max-width:1050px) {
+    .questions p {
+        font-size: 24.5px;
+    }
+}
+
 @media (max-width: 950px) {
     .get_in_touch {
         margin: 0;
@@ -176,6 +182,10 @@ body {
     }
     .questions p {
         font-size: 20.5px;
+        padding: 5px 12px;
+    }
+    .questions {
+        flex-direction: column;
     }
 }
 
@@ -215,7 +225,7 @@ body {
         left: 5%;
     }
     .questions p button {
-        font-size: 18.5px;
+        font-size: 18.5px !important;
         height: 40px;
     }
 }

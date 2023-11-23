@@ -49,7 +49,7 @@ $seo_keywords = "data center Case Studies, cloud migration, cyber security, data
                                         <img src="case_study_files/<?php echo $each ?>.png" alt="<?php echo $each ?>" width="450" height="248">
                                     </figure>
                                     <h4><?php echo $each ?></h4>
-                                    <br> <br>
+                                    <!-- <br> <br> -->
                                     <a href="#modal-1" onclick="document.getElementById('File_Downloaded').value = '<?php echo $each ?>';" class="download">Download case study</a>
                                 </div>
                             </li>

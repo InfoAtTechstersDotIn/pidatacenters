@@ -20,7 +20,7 @@
 
 <div class="article-blk">
   <div class="container">
-    <div class="article-blk-main">
+    <div class="article-blk-main knowledge_hub">
 
       <div class="article-blk-latest row">
         <div class="article-blk-latest-left col-md-9">

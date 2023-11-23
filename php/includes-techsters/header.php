@@ -7,6 +7,7 @@
     ?>
 
 
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Header</title>
@@ -40,7 +41,7 @@
     <link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick-theme.css" type="text/css">
     <!-- <link rel="stylesheet" href="https://103.210.75.115/css/style-test.css" type="text/css"> -->
     <link href="https://103.210.75.115/press-style.css" rel="stylesheet">
-    <link href="https://103.210.75.115/css/responsive-test.css" rel="stylesheet" type="text/css">
+    <!-- <link href="https://103.210.75.115/css/responsive-test.css" rel="stylesheet" type="text/css"> -->
     <link rel="canonical" href="<?php echo $seo_canonical; ?>" />
 
 
@@ -150,7 +151,7 @@
                                 <a href="<?php echo $site_url ?>data-center-infrastructure-services.php">COLOCATION</a>
                             </li>
                             <li>
-                                <a href="#" class="drop-arrow">CLOUD</a>
+                                <a href="https://pidatacenters.com/pi-cloud/" class="drop-arrow">CLOUD</a>
                                 <div class="drop-down">
                                     <ul>
                                         <li>

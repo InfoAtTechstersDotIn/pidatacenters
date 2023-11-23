@@ -3061,6 +3061,9 @@
         display: block;
         top: 6%;
         left: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     
     .hover-award {
@@ -5466,12 +5469,16 @@
         margin: 118px 0 0;
         padding: 30px 20px;
     }
-    
-    .about-banner1.knowledge111 {
+    /* .about-banner1.knowledge111 {
         background: url(../images/map-banner.png)no-repeat center;
         padding: 150px 0px;
         background-size: cover;
         margin-top: -45px;
+    }
+     */
+    
+    .about-banner-blk1 {
+        text-align: center;
     }
     
     .write-to-us-main {
@@ -7510,6 +7517,10 @@
         position: relative;
     }
     
+    .knowledge_hub {
+        margin: 0px !important;
+    }
+    
     .article-blk-main .slick-next:before {
         content: "\f105";
         color: #2680EB;
@@ -7752,7 +7763,7 @@
         right: 0;
         border-radius: 25px;
         bottom: 0;
-        background-color: #ccc;
+        /* background-color: #ccc; */
         -webkit-transition: .4s;
         transition: .4s
     }
