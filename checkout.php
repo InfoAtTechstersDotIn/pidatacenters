@@ -126,7 +126,7 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
                               <td style="border: 0px;">INR <b><?php echo $total ?></b></td>
                            </tr>
                         </table><br />
-                        <input type="checkbox" required /> I Agree with <a href="terms-conditions.php" class="new-link"> The Terms and Conditions</a><br />
+                        <input type="checkbox" required /> I Agree with The <a href="terms-conditions.php" class="new-link">Terms and Conditions</a><br />
                         <br />
                         <input class="btn" onclick="submit_form()" style="width: 100%;border-radius:5px" type="submit" value="Buy Now">
                      </form>

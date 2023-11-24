@@ -1,3 +1,12 @@
+<?php
+$seo_title = "pi-cloud®";
+$seo_description = "";
+$seo_keywords = "";
+?>
+
+
+
+
 <head>
   <style>
     #myBtn2 {
