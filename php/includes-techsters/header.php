@@ -154,7 +154,7 @@
                                 <a href="<?php echo $site_url ?>data-center-infrastructure-services.php">COLOCATION</a>
                             </li>
                             <li>
-                                <a href="https://pidatacenters.com/pi-cloud/" class="drop-arrow">CLOUD</a>
+                                <a href="<?php echo $site_url ?>cloud.php" class="drop-arrow">CLOUD</a>
                                 <div class="drop-down">
                                     <ul>
                                         <li>
@@ -418,7 +418,7 @@
                             </div>
                             </li>
                             <li class="accordion">
-                                <a href="#" class="drop-arrow">CLOUD</a>
+                                <a href="<?php echo $site_url ?>cloud.php" class="drop-arrow">CLOUD</a>
 
                             </li>
                             <div class="panel ">

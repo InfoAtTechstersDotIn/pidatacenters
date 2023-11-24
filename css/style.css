@@ -5468,7 +5468,7 @@ p.paraclassinfo:before {
     max-width: 1100px;
     margin: 0 auto 30px;
     background: #ffffff;
-    z-index: 99999;
+    /* z-index: 99999; */
     position: relative;
     border-radius: 20px;
 }
@@ -7726,7 +7726,7 @@ article.tabs section:target h2 {
 }
 
 .rent-green {
-    display: none !important;
+    /* display: none !important; */
 }
 
 .slider-rent li {

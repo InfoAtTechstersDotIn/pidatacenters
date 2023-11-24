@@ -10,16 +10,20 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
 ?>
 
    <head>
-      <style>
-         #myBtn2 {
-            display: none;
-         }
-      </style>
+
    </head>
 
    <?php include('php/includes-techsters/header.php'); ?>
 
+   <style>
+         #myBtn2 {
+            display: none;
+         }
 
+       input {
+    line-height: 35px !important;
+}
+      </style>
 
    <style>
       textarea#input_25_8 {
