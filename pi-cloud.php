@@ -1,6 +1,7 @@
-<?php
-include_once('includes/header.php');
-?>
+<?php include('php/includes-techsters/header.php'); ?>
+
+
+
 
 <script type="module" src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall"></script>
 <style type="text/css">
@@ -368,15 +369,71 @@ include_once('includes/header.php');
 
     .slide .slick-current.slick-active .cloud-icon {
         background-color: #223f97;
+        animation: Shake 0.5s linear infinite;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .on-hover:hover {
+        background-color: #ffffff8c;
+        box-shadow: 1px 0px 3px grey;
+    }
+
+    .on-hover:hover .hb-Jimg>p>img {
+        background-image: linear-gradient(#223f97, #76b543);
+    }
+
+    .hb-boxCont {
+        min-height: 0px;
+    }
+
+    .hb-boxCont>a>span>img {
+        max-width: 130px !important;
+    }
+
+    .cloud2 .cloud-icon2 {
+        background: linear-gradient(#76b543, #5e9c42);
+    }
+
+    .cloud-icon {
+        background: #223f97;
+
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+            rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+            rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+            rgba(0, 0, 0, 0.06) 0px 2px 1px,
+            rgba(0, 0, 0, 0.09) 0px 4px 2px,
+            rgba(0, 0, 0, 0.09) 0px 8px 4px,
+            rgba(0, 0, 0, 0.09) 0px 16px 8px,
+            rgba(0, 0, 0, 0.09) 0px 32px 16px
+    }
+
+
+    .hb-journeyCont>h3 {
+        margin-bottom: 10px;
+        margin-top: 35px;
+        padding: 20px;
     }
 </style>
 <!-- banner section starts here -->
+
+<div class="picloud_pages">
 <div class="hb-bannerCont">
     <div class="hb-bannerImgCont">
         <div class="hb-bannerImg">
             <picture>
                 <source media="(max-width: 767px)" srcset="./<?= $config['subFolderName'] ?>/images/banners/generic-cloud-services-main-harbour1-main.jpg">
-                <img src="./<?= $config['subFolderName'] ?>/images/banners/generic-cloud-services-main-harbour1-main.jpg" alt="pi-cloud Cloud Backup as a Service Banner" style="width:100%">
+                <img src="https://pidatacenters.com/pi-cloud/images/banners/generic-cloud-services-main-harbour1-main.jpg" alt="pi-cloud Cloud Backup as a Service Banner" style="width:100%">
                 <h2> Cloud</h2>
             </picture>
         </div>
@@ -444,7 +501,7 @@ include_once('includes/header.php');
             }
 
             .cloud2 .cloud-icon2 {
-                background: radial-gradient(#76b543, #216733, #76b543);
+                background: linear-gradient(#76b543, #5e9c42);
             }
 
             .cloud-icon {
@@ -476,7 +533,7 @@ include_once('includes/header.php');
                         <li class="hb-ListJouney">
                             <div class="hb-Jimg">
                                 <p>
-                                    <img src="./<?= $config['subFolderName'] ?>/images/homepage/1.png" alt="onesize">
+                                    <img src="<?php echo $site_url?>pi-cloud/images/homepage/1.png" alt="onesize">
                                 </p>
                             </div>
                             <div class="hb-jCont">
@@ -487,7 +544,7 @@ include_once('includes/header.php');
                         <li class="hb-ListJouney">
                             <div class="hb-Jimg">
                                 <p>
-                                    <img src="./<?= $config['subFolderName'] ?>/images/homepage/2.png" alt="migration">
+                                    <img src="<?php echo $site_url?>pi-cloud/images/homepage/2.png" alt="migration">
                                 </p>
                             </div>
                             <div class="hb-jCont">
@@ -499,7 +556,7 @@ include_once('includes/header.php');
                         <li class="hb-ListJouney">
                             <div class="hb-Jimg">
                                 <p>
-                                    <img src="./<?= $config['subFolderName'] ?>/images/homepage/3.png" alt="selfService">
+                                    <img src="<?php echo $site_url?>pi-cloud/images/homepage/3.png" alt="selfService">
                                 </p>
                             </div>
                             <div class="hb-jCont">
@@ -510,7 +567,7 @@ include_once('includes/header.php');
                         <li class="hb-ListJouney">
                             <div class="hb-Jimg">
                                 <p>
-                                    <img src="./<?= $config['subFolderName'] ?>/images/homepage/4.png" alt="futureReady">
+                                    <img src="<?php echo $site_url?>pi-cloud/images/homepage/4.png" alt="futureReady">
                                 </p>
                             </div>
                             <div class="hb-jCont">
@@ -535,7 +592,7 @@ include_once('includes/header.php');
                 </div>
                 <ul class="cloud-page-1 slide">
                     <li class="cloud">
-                        <div class="cloud-icon"><img src="../images/managed-services-icons/CIE.svg" alt="onesize"></div>
+                        <div class="cloud-icon"><img src="<?php echo $site_url ?>/images/managed-services-icons/CIE.svg" alt="onesize"></div>
                         <h4>Infrastructure Excellence</h4>
                         <p>Immerse your applications, websites, and databases in our dependable and scalable cloud infrastructure. Revel in high availability, automatic backups, and effortless resource management. </p>
                     </li>
@@ -1300,6 +1357,8 @@ include_once('includes/header.php');
             </ul>
         </div>
     </div>
+</div>
+
 </div>
 
 <div class="get-in-touch">

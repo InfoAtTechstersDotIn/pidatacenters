@@ -1,3 +1,11 @@
+<?php
+$seo_title = "pi-cloud®";
+$seo_description = "";
+$seo_keywords = "";
+?>
+
+
+
 <head>
     <style>
         #myBtn2 {
@@ -56,7 +64,7 @@
             <h3>Use of Information and Materials </h3>
             <p>Any links to other sites via the Pi&#8217;s Platform, over which Pi has no control, are subject to the terms of those links/sites and Pi's Policies. Pi is not responsible for the availability of such external sites or resources, and it does not endorse or accept responsibility for any content, advertising, products, or other materials on or available from such sites or resources. The information and materials contained in these pages &#8209; and the terms, conditions, and descriptions that appear &#8209; are subject to change. Not all products and services are available in all geographic areas. Your eligibility for particular products and services is subject to Pi&#8217;s final determination and acceptance. </p>
 
-            <p>The use/ access of the Platform are only available to natural persons, other than those who are &#8216;incompetent to contract&#8217; under the applicable law of the relevant jurisdictions That is, persons including minors, un-discharged insolvents etc. are not eligible to use/ access the Platform. By accessing or using the Platform, You accept the terms of these Terms & Conditions and represent and warrant to Pi that You are &#8216;competent to contract&#8217; under the contract Act and have the right, authority and capacity to use the Platform and agree to and abide by these Terms & Conditions. </p>
+            <p>The use/ access of the Platform are only available to natural persons, other than those who are &#8216;incompetent to contract&#8217; under the applicable law of the relevant jurisdictions that is, persons including minors, un-discharged insolvents etc. are not eligible to use/ access the Platform. By accessing or using the Platform, You accept the terms of these Terms & Conditions and represent and warrant to Pi that You are &#8216;competent to contract&#8217; under the contract Act and have the right, authority and capacity to use the Platform and agree to and abide by these Terms & Conditions. </p>
 
             <p>The Website uses temporary cookies to store certain data (that is not sensitive personal data or information) that is used by Pi for the technical administration of the Website, research and development and for User administration. </p>
 

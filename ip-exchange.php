@@ -1,3 +1,11 @@
+<?php
+$seo_title = "pi-cloud®";
+$seo_description = "";
+$seo_keywords = "";
+?>
+
+
+
 <?php include('php/includes-techsters/header.php'); ?>
 <style type="text/css">
 	.hb-fullWid {
@@ -15,6 +23,8 @@
 		display: block;
 	}
 </style>
+
+<div class="picloud_pages">
 
 <div class="hb-bannerCont">
 	<div class="hb-bannerImgCont">
@@ -181,5 +191,5 @@
 		</div>
 	</div>
 </section>
-
+</div>
 <?php include('php/includes-techsters/footer.php'); ?>

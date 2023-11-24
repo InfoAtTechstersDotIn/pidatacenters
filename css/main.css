@@ -3210,7 +3210,8 @@ all and (min-width:800px)and (max-width:800px) {
     .caption p.b333 {
         left: 0%;
         top: 7em;
-        font-size: 48px line-height: 70px;
+        font-size: 48px;
+        line-height: 70px;
     }
     .button-banner-str {
         top: 15em;
@@ -3382,7 +3383,7 @@ all and (min-width:1920px)and (max-width:1920px) {
 
 .logo {
     float: left;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     width: 255px
 }
 

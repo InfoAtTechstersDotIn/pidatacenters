@@ -1,3 +1,12 @@
+<?php
+$seo_title = "pi-cloud®";
+$seo_description = "";
+$seo_keywords = "";
+?>
+
+
+
+
 <head>
   <style>
     #myBtn2 {
@@ -5,6 +14,11 @@
     }
   </style>
 </head>
+
+
+
+
+
 
 <?php include('php/includes-techsters/header.php'); ?>
 
@@ -128,7 +142,7 @@
           </div>
         </li>
       </ul>
-      <div class="scc-block">
+      <div class="scc-block leadership_page">
         <h2>Strategic Core Council (SCC)</h2>
 
         <ul class="row certifications-desktop">

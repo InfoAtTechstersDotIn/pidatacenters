@@ -7,12 +7,19 @@
     ?>
 
 
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Header</title>
+    <title><?php echo $seo_title ?></title>
+    <meta name="description" content="<?php echo $seo_description ?>">
+    <meta name="keywords" content="<?php echo $seo_keywords ?>">
+
+    <title>Pidatacenters</title>
+
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <!-- SET: Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="php/includes-techsters/header-styles.css">
@@ -33,14 +40,11 @@
 
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/animate.css" type="https://103.210.75.115/text/css">
-    <link rel="stylesheet" href="https://103.210.75.115/css/menu.css" type="text/css">
-    <!-- <link rel="stylesheet" href="https://103.210.75.115/css/main-test.css" type="text/css"> -->
+    <link rel="stylesheet" href="<?php echo $site_url ?>css/animate.css" type="text/css">
+    <link rel="stylesheet" href="<?php echo $site_url ?>css/menu.css" type="text/css">
     <link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick.css" type="text/css">
     <link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick-theme.css" type="text/css">
-    <!-- <link rel="stylesheet" href="https://103.210.75.115/css/style-test.css" type="text/css"> -->
-    <link href="https://103.210.75.115/press-style.css" rel="stylesheet">
-    <link href="https://103.210.75.115/css/responsive-test.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo $site_url ?>press-style.css" rel="stylesheet">
     <link rel="canonical" href="<?php echo $seo_canonical; ?>" />
 
 
@@ -90,7 +94,7 @@
 
     <div class="header desktop">
         <div class="container-fluid">
-            <div class="row px-2">
+            <div class="row px-3">
                 <div class="col-lg-2">
                     <div class="logo">
                         <a href="https://pidatacenters.com">
@@ -110,21 +114,27 @@
                             <li class=""><a href="https://pidatacenters.com/"><i class="fa fa-home" style="color:black"></i></a></li>
 
                             <li>
-                                <a href="JavaScript:void(0);" class="drop-arrow ">
+                                <!-- <a href="JavaScript:void(0);" class="drop-arrow ">
+                                    DATA CENTER
+
+
+                                </a> -->
+                                <a href="<?php echo $site_url ?>data-center.php" class="drop-arrow ">
                                     DATA CENTER
 
 
                                 </a>
+
                                 <div class="drop-down">
                                     <ul>
-                                        <li>
+                                        <!-- <li>
                                             <a href="<?php echo $site_url ?>data-center-infrastructure-services.php">Colocation</a>
-                                        </li>
+                                        </li> -->
                                         <li>
                                             <a href="<?php echo $site_url ?>data-center-infrastructure-services-advisory.php">Data Center Infrastructure & Services</a>
                                         </li>
                                         <li>
-                                            <a href="" class="drop-arrow">Consulting & Data Center Build </a>
+                                            <a href="JavaScript:void(0);" class="drop-arrow">Consulting & Data Center Build </a>
                                             <div class="sub_drop_down">
                                                 <ul>
                                                     <li>
@@ -140,11 +150,11 @@
                                 </div>
                             </li>
 
-                            <!-- <li>
-                                <a href="https://pidatacenters.com/data-center-infrastructure-services.php">COLOCATION</a>
-                            </li> -->
                             <li>
-                                <a href="#" class="drop-arrow">CLOUD</a>
+                                <a href="<?php echo $site_url ?>data-center-infrastructure-services.php">COLOCATION</a>
+                            </li>
+                            <li>
+                                <a href="https://pidatacenters.com/pi-cloud/" class="drop-arrow">CLOUD</a>
                                 <div class="drop-down">
                                     <ul>
                                         <li>
@@ -227,7 +237,7 @@
                                             <a href="https://pidatacenters.com/pi-cloud/pricing/#/cloudStorage">Cloud Storage</a>
                                         </li>
                                         <li>
-                                            <a href="<?php echo $site_url ?>rent-server.php">Rent A Server</a>
+                                            <a href="<?php echo $site_url ?>rent-server.php">Rent A Rack</a>
                                         </li>
                                         <li>
                                             <a href="https://picloud.ai/">Rent GPU Servers</a>
@@ -414,13 +424,13 @@
                             <div class="panel ">
                                 <ul>
                                     <li>
-                                        <a href="<?php echo $site_url ?>public-cloud">Public Cloud</a>
+                                        <a href="<?php echo $site_url ?>public-cloud.php">Public Cloud</a>
                                     </li>
                                     <li>
-                                        <a href="<?php echo $site_url ?>compute">Private Cloud</a>
+                                        <a href="<?php echo $site_url ?>compute.php">Private Cloud</a>
                                     </li>
                                     <li>
-                                        <a href="<?php echo $site_url ?>sap">SAP on Cloud</a>
+                                        <a href="<?php echo $site_url ?>sap.php">SAP on Cloud</a>
                                     </li>
 
                                     <li>
@@ -496,7 +506,7 @@
                                         <a href="https://pidatacenters.com/pi-cloud/pricing/#/cloudStorage">Cloud Storage</a>
                                     </li>
                                     <li>
-                                        <a href="rent-server.php">Rent A Server</a>
+                                        <a href="rent-server.php">Rent A Rack</a>
                                     </li>
                                     <li>
                                         <a href="https://picloud.ai/">Rent GPU Servers</a>
@@ -625,7 +635,8 @@
                                 </ul>
                             </div>
                     </nav>
-                    <span class="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                    <span class="hamburger" id="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                    <!-- <span class="hamburger" id="nav_close_btn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#x2715;</span> -->
                 </div>
             </div>
         </div>
@@ -635,11 +646,25 @@
         function openNav() {
             var sidenav = document.getElementById("mySidenav");
 
+            var hamburger = document.getElementById("hamburger")
+
+            var nav_close_btn = document.getElementById("nav_close_btn")
+
+
+
+
             if (sidenav.style.display === "flex") {
                 sidenav.style.display = "none";
+
             } else {
                 sidenav.style.display = "flex";
             }
+
+
+
+
+
+
         }
 
         function closeNav() {
@@ -717,7 +742,7 @@
                         <input class="sub_mit" type="submit" value="Submit">
 
                         <input type="hidden" name="techsters_subject" value="Reach Us Form Leads" />
-                        <input type="hidden" name="form_unique_id" value="1ef13057-52fd-11ee-a4b0-525400b78afc" � />
+                        <input type="hidden" name="form_unique_id" value="1ef13057-52fd-11ee-a4b0-525400b78afc" />
                     </form>
                 </div>
             </div>
@@ -799,3 +824,17 @@
             }
         }
     </script>
+
+
+
+    <!-- ****************************************** META TITLES******************************* -->
+
+
+
+
+    <?php if (basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']) == 'compute.php') {
+    ?>
+        <title>Pidata centers</title>
+        <meta name="description" content="">
+
+    <?php } ?>

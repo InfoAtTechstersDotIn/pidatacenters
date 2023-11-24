@@ -809,6 +809,7 @@ header {
 .hb-bannerCont {
     position: relative;
     margin-top: 127px;
+    margin-top: 118px;
 }
 
 .hb-bannerImg,
@@ -2026,7 +2027,8 @@ footer>div>p {
 .hb-productHead>h1 {
     font-size: 28px;
     margin-bottom: 12px;
-    color: #545454
+    color: #545454;
+    font-weight: bold;
 }
 
 .hb-childProducts>h2 {
@@ -2117,7 +2119,8 @@ footer>div>p {
 .hb_ppCont>h3 {
     font-size: 22px;
     margin-bottom: 16px;
-    color: #545454
+    color: #545454;
+    font-weight: bold;
 }
 
 .hb_ppCont>p {
@@ -2350,10 +2353,10 @@ footer>div>p {
     #outer {
         margin-top: 36px;
     }
-    .hb-leftCont>span>img,
+    /* .hb-leftCont>span>img,
     .hb-rightCont>span>img {
         display: none;
-    }
+    } */
     .hb_ppCont>h3 {
         font-size: 18px;
         margin-top: 12px;

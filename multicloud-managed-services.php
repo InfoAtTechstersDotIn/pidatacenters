@@ -1,3 +1,11 @@
+
+<?php
+$seo_title = "pi-cloud®";
+$seo_description = "";
+$seo_keywords = "";
+?>
+
+
 <?php include('php/includes-techsters/header.php'); ?>
 
 
@@ -163,7 +171,7 @@
 		/* flex-wrap: wrap; */
 		justify-content: space-around;
 		margin-bottom: 20px;
-		*/
+
 	}
 
 	.card {
@@ -1099,10 +1107,10 @@
 	}
 
 	.carte-model li {
-line-height: normal;
+		line-height: normal;
 	}
 
-	.Monitoring a{
+	.Monitoring a {
 		color: #fff !important;
 	}
 </style>

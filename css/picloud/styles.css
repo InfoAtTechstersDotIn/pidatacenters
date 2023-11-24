@@ -391,19 +391,19 @@
     flex-direction: column;
 } */
 
-.picloud_pages .get_in_touch {
+
+/* .picloud_pages .get_in_touch {
     background-color: #fff;
     margin: 0px 150px;
     border-radius: 70px;
     padding: 15px 20px;
     position: absolute;
     top: -120px !important;
-    /* margin-top: -93px; */
     width: 100%;
     max-width: 70%;
     margin: auto;
     left: 15%;
-}
+} */
 
 .picloud_pages button,
 input {
@@ -445,6 +445,14 @@ input {
     line-height: 20px;
 }
 
+.picloud_pages .footer-block p {
+    color: #fff !important;
+}
+
+.testimonial-block .slick-slide {
+    height: auto !important;
+}
+
 @media (max-width: 768px) {
     .sap_certFicats>li {
         display: inline-block !important;
@@ -453,10 +461,10 @@ input {
         padding: 10px 0 !important;
         text-align: center !important;
     }
-    .hb-leftCont {
+    /* .hb-leftCont {
         width: 230px !important;
         margin-top: 0 !important;
-    }
+    } */
     .hb-sapLists {
         margin: 0px auto !important;
         padding: 0px 0 20px !important;
