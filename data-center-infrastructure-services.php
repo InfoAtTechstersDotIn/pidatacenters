@@ -40,6 +40,10 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
         margin: 0 auto !important;
         border: none !important;
     }
+
+    .colocation_page_tabs_ul {
+        display: none !important;
+    }
 </style>
 
 <!-- main starts here -->

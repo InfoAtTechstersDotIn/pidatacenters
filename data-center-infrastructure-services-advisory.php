@@ -672,7 +672,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
         </div>
     </div>
 </div>
-<div class="knowledge-hub-videos1 knowledge-galleryd">
+<div class="knowledge-hub-videos1 knowledge-galleryd d-none">
     <div class="container">
         <div class="knowledge-hub-videos-top">
             <h2 style="color:#414141;text-align:center"><span style="color:#7BBC42;font-weight:500;">Benefits</span> Of Our Colocation <br>Services</h2><br>
