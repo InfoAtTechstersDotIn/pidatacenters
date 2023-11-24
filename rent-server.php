@@ -14,9 +14,9 @@
 
       .slider-rent a {
          margin-right: 50px !important;
-      } 
-}
-  </style>
+      }
+   }
+</style>
 
 <!-- main starts here -->
 
