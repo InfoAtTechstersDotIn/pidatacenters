@@ -38,7 +38,7 @@
                 <!-- ======== Start of Main Menu ======== -->
                 <div class="col-md-10 col-sm-9 col-xs-9">
                     <div class="navbar-header page-scroll">
-                        <button type="button" class="navbar-toggle toggle-menu menu-right push-body" data-toggle="collapse" data-target="#main-nav" aria-expanded="false" 
+                        <button type="button" class="navbar-toggle toggle-menu menu-right push-body" data-toggle="collapse" data-target="#main-nav" aria-expanded="false" >
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
