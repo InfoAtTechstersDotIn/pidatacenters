@@ -1357,7 +1357,7 @@
         background-size: cover;
         padding: 0;
         margin-top: 118px;
-        margin-top: 128px;
+        /* margin-top: 128px; */
     }
     
     .about-banner h2 {
@@ -6727,7 +6727,7 @@
     }
     
     .datacenter-main .center img {
-        width: 40% !important;
+        /* width: 40% !important; */
     }
     
     .datacenter-main .center .strategic-core-council-cnt1 {
@@ -8206,4 +8206,11 @@
     
     .partners p {
         line-height: normal !important;
+    }
+    
+    .colocation_page_tabs_ul {
+        display: flex !important;
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
     }

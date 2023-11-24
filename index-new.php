@@ -219,29 +219,9 @@
         .know-more-btn {
             text-align: center;
         }
-        .slick-dots li.slick-active a:after {
-
-    right: 3px !important;
- 
-}
 
 
-.locations .about-loc img {
-    width: 90% !important;
-    border-radius: 20px;
-}
-
- .about-loc img{
-    width: 90% !important;
- }
-
-
-.datacenter-main .center img {
-    width: 90% !important;
-}
-
-
-.great-rtt .slick-slide {
+        .great-rtt .slick-slide {
             text-align: center !important;
         }
     </style>

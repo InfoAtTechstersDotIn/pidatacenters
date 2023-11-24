@@ -14,7 +14,7 @@
             width: 100%;
             position: relative;
             float: left;
-            border: 1px solid #0003;
+            /* border: 1px solid #0003; */
             position: fixed;
             top: 0px;
             padding: 10px 0px !important;
@@ -575,7 +575,14 @@ backdrop-filter: blur(42px);
             text-align: left;
         }
         
+        .nav_close_btn {
+            display: none;
+        }
+        
         @media only screen and (max-width: 991px) {
+            body {
+                overflow-x: hidden !important;
+            }
             nav {
                 padding: 0px !important;
             }
@@ -631,6 +638,7 @@ backdrop-filter: blur(42px);
                 align-items: center;
                 justify-content: space-between;
                 border: 1px solid #ddd !important;
+                border-left: none !important;
             }
             .panel {
                 /* padding: 0 18px; */
@@ -738,5 +746,13 @@ backdrop-filter: blur(42px);
             .mobile nav .panel ul li a {
                 color: #000 !important;
                 padding-left: 0px !important;
+            }
+            nav ul li a {
+                margin: 0px !important;
+            }
+            .nav_close_btn {
+                right: 50px;
+                top: -45px;
+                font-weight: 900;
             }
         }
