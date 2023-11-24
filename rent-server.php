@@ -1,14 +1,8 @@
-
-
-
 <?php include('php/includes-techsters/header.php'); ?>
-
-
 <style>
-
-.banners_content.gpu_hide {
-    display: none;
-}
+   .banners_content.gpu_hide {
+      display: none;
+   }
 </style>
 
 <!-- main starts here -->
@@ -18,6 +12,7 @@
       <div class="about-banner-blk pt-3">
          <!--  <img src="images/istockphoto-1356466745-612x612.jpg" alt="soc-banner" width="1920" height="210" style="max-width:612px;height:auto;margin:0 auto;">-->
          <h2>SOC</h2>
+
          <ul class="slider-rent">
             <li>
                <img src="images/rank-1-b.png" alt="rank-1-b" width="211" height="1520" class="rent-blue">
@@ -54,12 +49,13 @@
                <img src="images/rank-7-g.png" alt="rank-1-b" width="211" height="1520" class="rent-green">
                <a href="checkout.php?id=7">BUY NOW</a>
             </li>
-
          </ul>
+         <center style="position: relative; top: -50px;font-size:10px;margin-left:75px">*All Prices are Excluding Convenience Fee & Taxes</center>
 
       </div>
    </div>
 </div>
+
 <!--what-is-noc starts here -->
 <div class="what-is-noc">
 
