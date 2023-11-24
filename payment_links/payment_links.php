@@ -13,17 +13,19 @@ if (isset($_SESSION['is_login'])) {
         <?php
         include_once('head.php');
         ?>
+        <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
     </head>
 
     <body>
         <?php
-        include_once('header-without-banner.php');
+        include_once('header_without_banner.php');
         ?>
 
         <!-- ===== Start of Page Title ===== -->
         <section class="page-title ptb50 overlay-black">
             <div class="container">
-                <h2 class="uppercase">My Orders</h2>
+                <h2 class="uppercase">Payment Links</h2><br />
+                <a class="btn btn-success" href="create_payment_link.php">Create Payment Link</a>
             </div>
         </section>
         <!-- ===== End of Page Title ===== -->
@@ -36,46 +38,44 @@ if (isset($_SESSION['is_login'])) {
                 <div class="col-md-12 col-xs-12">
 
                     <div class="table_block table-responsive">
-                        <table class="table cart-content">
+                        <?php
+                        $sql = "SELECT * FROM payment_links";
+                        $result = mysqli_query($conn, $sql);
+
+                        $payment_links = [];
+                        if (mysqli_num_rows($result) > 0) {
+                            while ($row = mysqli_fetch_assoc($result)) :
+                                array_push($payment_links, $row);
+                            endwhile;
+                        }
+                        ?>
+                        <table id="myTable" class="table">
                             <thead>
                                 <tr>
-                                    <th class="col-md-7">product</th>
-                                    <th class="col-md-7">order id</th>
-                                    <th class="col-md-5">price</th>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Phone</th>
+                                    <th>Amount</th>
+                                    <th>Copy Link</th>
+                                    <th>Status</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <!-- Start of Product 1 -->
                                 <?php
-                                foreach ($order_items as $item) {
+                                foreach ($payment_links as $item) {
                                 ?>
                                     <tr>
+                                        <td><?php echo $item['name'] ?></td>
+                                        <td><?php echo $item['email'] ?></td>
+                                        <td><?php echo $item['phone'] ?></td>
+                                        <td><?php echo $item['amount'] ?></td>
                                         <td>
-                                            <div class="product-name">
-                                                <h3><?php echo $item['name'] ?></h3>
-                                                <div class="tag-line">
-                                                    <?php
-                                                    foreach (json_decode($item['attributes']) as $key => $value) {
-                                                        echo $key . ": " . $value . "<br />";
-                                                    }
-                                                    ?>
-                                                </div>
-                                            </div>
+                                            <?php if ($item['status'] == "pending") { ?>
+                                                <a class="btn btn-success copy_text" href="https://pidatacenters.com/payment_links/pay.php?payment_link_unique_id=<?php echo $item['unique_id'] ?>">Copy Link</a>
                                         </td>
-                                        <td>
-                                            <div class="price">
-                                                <?php
-                                                // echo json_decode($item['payment_details'])->id 
-                                                ?>
-                                                <?php echo json_decode($item['payment_details'])[1]->order_id ?>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="price">
-                                                ₹<?php echo $item['price'] ?>
-                                            </div>
-                                        </td>
-
+                                    <?php } ?>
+                                    <td><?php echo $item['status'] ?></td>
                                     </tr>
                                 <?php
                                 }
@@ -109,6 +109,27 @@ if (isset($_SESSION['is_login'])) {
         <script src="js/isotope.pkgd.min.js"></script>
         <script src="js/custom.js"></script>
     </body>
+
+    <footer>
+        <script src="//cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+        <script>
+            let table = new DataTable('#myTable');
+        </script>
+        <script>
+            $('.copy_text').click(function(e) {
+                e.preventDefault();
+                var copyText = $(this).attr('href');
+
+                document.addEventListener('copy', function(e) {
+                    e.clipboardData.setData('text/plain', copyText);
+                    e.preventDefault();
+                }, true);
+
+                document.execCommand('copy');
+                alert('Payment Link Copied');
+            });
+        </script>
+    </footer>
 
     </html>
 
