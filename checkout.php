@@ -17,7 +17,9 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
       </style>
    </head>
 
-   <?php include('php/inner-header.php'); ?>
+   <?php include('php/includes-techsters/header.php'); ?>
+
+
 
    <style>
       textarea#input_25_8 {
@@ -138,7 +140,7 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
    </div>
 
 
-   <?php include('php/footer.php'); ?>
+   <?php include('php/includes-techsters/footer.php'); ?>
 
 
    </div>
