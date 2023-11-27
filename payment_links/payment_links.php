@@ -58,6 +58,8 @@ if (isset($_SESSION['is_login'])) {
                                     <th>Amount</th>
                                     <th>Copy Link</th>
                                     <th>Status</th>
+                                    <td>Send Mail</td>
+                                    <td>Cancel</td>
                                 </tr>
                             </thead>
                             <tbody>
@@ -65,7 +67,11 @@ if (isset($_SESSION['is_login'])) {
                                 <?php
                                 foreach ($payment_links as $item) {
                                 ?>
+                                    <?php if ($item['status'] == 'success') { ?>
+                                    <tr style="background: #eee;">
+                                    <?php } else { ?>
                                     <tr>
+                                    <?php } ?>
                                         <td><?php echo $item['name'] ?></td>
                                         <td><?php echo $item['email'] ?></td>
                                         <td><?php echo $item['phone'] ?></td>
@@ -75,8 +81,30 @@ if (isset($_SESSION['is_login'])) {
                                                 <a class="btn btn-success copy_text" href="https://pidatacenters.com/payment_links/pay.php?payment_link_unique_id=<?php echo $item['unique_id'] ?>">Copy Link</a>
                                         </td>
                                     <?php } ?>
-                                    <td><?php echo $item['status'] ?></td>
+                                        <td><?php echo $item['status'] ?></td>
+                                        <td>
+                                            <?php if ($item['status'] != "success") { ?>
+                                                <a class="btn btn-success" href="javascript:void(0);" onclick="handleSend(`https://pidatacenters.com/payment_links/pay.php?payment_link_unique_id=<?php echo $item['unique_id'] ?>`, `<?php echo $item['email'] ?>`, `<?php echo $item['name'] ?>`)">Send Mail</a>
+                                            <?php } ?>
+                                        </td>
+                                        <td>
+                                            <?php if ($item['status'] == "pending") { ?>
+                                                <a class="btn btn-success" href="javascript:void(0);" onclick="handleCancel('<?php echo $item['unique_id'] ?>')">Cancel Payment</a>
+                                            <?php } ?>
+                                        </td>
                                     </tr>
+                                    <?php if ($item['status'] == 'success') { ?>
+                                    <tr style="background: #eee;">
+                                        <td>Order ID : <?php print_r(json_decode($item['order_details'])[1]->order_id) ?></td>
+                                        <td>Tracking ID : <?php print_r(json_decode($item['order_details'])[2]->tracking_id) ?></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <?php } ?>
                                 <?php
                                 }
                                 ?>
@@ -108,6 +136,21 @@ if (isset($_SESSION['is_login'])) {
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/isotope.pkgd.min.js"></script>
         <script src="js/custom.js"></script>
+        <script>
+            const handleSend = (link, email, name) => {
+                const response = fetch(`https://pidatacenters.com/payment_links/send-mail.php?payment_link=${link}&email=${email}&name=${name}`).
+                then((result) => {
+                    alert('Email successfully sent')
+                })
+            }
+
+            const handleCancel = (unique_id) => {
+                if (confirm('Are you sure ?')) {
+                    window.location = `https://pidatacenters.com/payment_links/cancel_payment.php?unique_id=${unique_id}`;
+                }
+            }
+
+        </script>
     </body>
 
     <footer>
