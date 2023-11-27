@@ -80,6 +80,9 @@ $seo_keywords = "";
 	.skltbs-tab-item.active:before {
 		background-color: #76b543 !important;
 	}
+
+	.picloud_pages h3:hover,
+	.picloud_pages p:hover {}
 </style>
 
 

@@ -3,7 +3,7 @@
 
 <head>
     <?php
-    $site_url = "http://localhost/pidatacenters-main/"
+    $site_url = "http://localhost/pidatacenters/"
     ?>
 
 
