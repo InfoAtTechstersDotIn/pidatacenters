@@ -13,6 +13,8 @@ $seo_keywords = "Data Center & Cloud related services, reliable Data Center & Cl
 
         .modal-content {
             margin: 10% auto !important;
+            background-color: none;
+            border: none;
         }
     </style>
 </head>
@@ -280,7 +282,7 @@ if ($conn->connect_error) {
 
                                     }
 
-                                
+
 
                                     ?>
                                     <!-- <li class="col-md-4">

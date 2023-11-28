@@ -4191,3 +4191,7 @@ footer>div>p {
 .box-pad {
     padding: 0px 15px !important;
 }
+
+.hb-cuJoBox>span {
+    display: inline-block;
+}

@@ -8352,3 +8352,7 @@
     .smc-directors ul li {
         text-align: center;
     }
+
+    .security_page h2 {
+        font-size: 40px !important;
+    }
