@@ -4413,7 +4413,7 @@
         position: relative;
     }
 
-    .case-content a.download:after {
+    /* .case-content a.download:after {
         position: absolute;
         top: 7px;
         right: -95px;
@@ -4421,7 +4421,7 @@
         width: 28px;
         height: 28px;
         content: "";
-    }
+    } */
 
     .case-content {
         padding: 25px;
@@ -8343,4 +8343,12 @@
         position: relative !important;
         top: 0 !important;
         left: 0 !important;
+    }
+
+    .slider:before {
+        background-image: none;
+    }
+
+    .smc-directors ul li {
+        text-align: center;
     }
