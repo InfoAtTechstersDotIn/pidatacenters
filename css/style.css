@@ -8250,3 +8250,7 @@ td {
 td {
     vertical-align: middle !important;
 }
+
+.jCont p {
+    text-align: center;
+}
