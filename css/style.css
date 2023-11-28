@@ -8240,3 +8240,13 @@ td {
         vertical-align: bottom;
     }
 }
+
+/* newly added after header and footer */
+
+.tools a {
+    color: #B31312;
+}
+
+td {
+    vertical-align: middle !important;
+}

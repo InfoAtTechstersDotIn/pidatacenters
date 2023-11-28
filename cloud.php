@@ -817,6 +817,14 @@ $seo_keywords = "";
         margin-bottom: 15px;
     }
 
+    .hb-cloudCont>p+p {
+        margin-top: 0px !important;
+    }
+
+    .hb-CerSetion .slick-slide {
+        height: 165px !important;
+    }
+
     /* responsive */
     @media screen and (max-width:1050px) {}
 
@@ -990,7 +998,7 @@ $seo_keywords = "";
                     <div class="col-md-4  section-content cc-color-1">
                         <h3><span class="Count">5</span></h3>
                         <h4>A-listed Indian Universities</h4>
-                        <p>Leveraging Pi Cloud<sup>®</sup> to deliver enhanced digital learning experience</p>
+                        <p>Leveraging Pi Cloud to deliver enhanced digital learning experience</p>
                     </div>
 
 

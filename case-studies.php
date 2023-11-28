@@ -28,7 +28,7 @@ $seo_keywords = "data center Case Studies, cloud migration, cyber security, data
                             "Cybersecurity @Pi",
                             "DR Solution Enabling Business Continuity During COVID-19",
                             "Enabling Advanced Banking Processes",
-                            "Enabling Cloud Infrastructure for a Leafing IoT Provider",
+                            "Enabling Cloud Infrastructure for a Leading IoT Provider",
                             "Enabling Digital Banking",
                             "Globally Acclaimed Fintech Organization",
                             "Healthcare Industry",
@@ -271,4 +271,5 @@ $seo_keywords = "data center Case Studies, cloud migration, cyber security, data
     });
 </script>
 </body>
+
 </html>
