@@ -3,8 +3,9 @@
 
 <head>
     <?php
-    $site_url = "http://localhost/pidatacenters-main/"
+    $site_url = "http://localhost/pidatacenters/"
     ?>
+
 
 
 
@@ -385,7 +386,7 @@
                                 <a href="index.php" class="fonts">HOME</a>
                             </li>
                             <li class="accordion">
-                                <a href="#" class="drop-arrow ">
+                                <a href="<?php echo $site_url ?>data-center.php" class="drop-arrow ">
                                     DATA CENTER
 
 

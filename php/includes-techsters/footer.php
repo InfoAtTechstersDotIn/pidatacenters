@@ -1,5 +1,5 @@
 <?php
-$site_url="http://localhost/pidatacenters-main/"
+$site_url = "http://localhost/pidatacenters/"
 ?>
 
 
@@ -8,15 +8,15 @@ $site_url="http://localhost/pidatacenters-main/"
 
     <div class="get_in">
         <div class="container">
-           
-                <div class="get_in_touch">
-                    <div class="questions">
-                        <p>Questions? We're here to help.</p>
 
-                        <p> <button class="question_button"><a href="<?php echo $site_url ?>contact-us.php"> Get In Touch </a></button></p>
-                    </div>
+            <div class="get_in_touch">
+                <div class="questions">
+                    <p>Questions? We're here to help.</p>
+
+                    <p> <button class="question_button"><a href="<?php echo $site_url ?>contact-us.php"> Get In Touch </a></button></p>
                 </div>
-          
+            </div>
+
         </div>
     </div>
     <div class="container mt-sm-5 ">
@@ -107,37 +107,37 @@ $site_url="http://localhost/pidatacenters-main/"
 
 
 <script>
-        // Get the modal
-        var modall = document.getElementById("myModal2");
+    // Get the modal
+    var modall = document.getElementById("myModal2");
 
-        // Get the button that opens the modal
-        var btn = document.getElementById("myBtn2");
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn2");
 
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close2")[0];
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close2")[0];
 
-        // When the user clicks the button, open the modal 
-        btn.onclick = function() {
-            modall.style.display = "block";
-        }
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+        modall.style.display = "block";
+    }
 
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() {
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modall.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modall) {
             modall.style.display = "none";
         }
-
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-            if (event.target == modall) {
-                modall.style.display = "none";
-            }
-        }
-    </script>
+    }
+</script>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
 
 

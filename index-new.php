@@ -202,12 +202,12 @@
             padding: 0px !important;
         }
 
-        .great-blk {
+        /* .great-blk { */
 
-            /* position: relative; */
-            /* top: 200px !important; */
+        /* position: relative; */
+        /* top: 200px !important; */
 
-        }
+        /* } */
 
 
 

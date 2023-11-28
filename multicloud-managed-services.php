@@ -1,6 +1,5 @@
-
 <?php
-$seo_title = "pi-cloud®";
+$seo_title = "Multicloud Managed Services";
 $seo_description = "";
 $seo_keywords = "";
 ?>
@@ -374,6 +373,7 @@ $seo_keywords = "";
 	.card-head>h6 {
 		min-height: 40px;
 		text-align: center;
+		font-weight: bold;
 
 	}
 
@@ -1113,6 +1113,29 @@ $seo_keywords = "";
 	.Monitoring a {
 		color: #fff !important;
 	}
+
+	/* newly added */
+	.card ul li {
+		list-style-type: disc;
+	}
+
+	.card ul li::marker {
+		color: #223f97;
+		font-size: 18px;
+	}
+
+	.card-desc {
+		text-indent: 0;
+	}
+
+	.content ul li {
+		list-style: circle;
+	}
+
+	.elastic,
+	.elastic-2 {
+		padding: 6px;
+	}
 </style>
 
 <div class="picloud_pages">
@@ -1444,7 +1467,7 @@ $seo_keywords = "";
 					<ul class="hb-productSec list-inline">
 						<div class="hb-leftCont hb_ppCont">
 							<p style="text-align:center">
-								Provides different tiers of service levels based on the business's needs, ensuring that you pay only for the services you require. 
+								Provides different tiers of service levels based on the business's needs, ensuring that you pay only for the services you require.
 							</p>
 							<!--<span>
 			            				<img src="images/product-images/TIERED-MODEL.png" alt="advanced">
@@ -1464,13 +1487,13 @@ $seo_keywords = "";
 										<img src="./images/managed-services-icons/essesntials-new.png" alt="">
 										<p>Know More</p>
 										<ul class="card-desc ">
-											<li><span>&#187;</span> 24 X 7 support with 2 hours critical response</li>
-											<li><span>&#187;</span> Basic IT support (OS Patching, OS Updates, OS Management, Virtual Machines, Disks, Basic Configuration Management, &Incident Management)
-											<li><span>&#187;</span> 30 days backup</li>
-											<li><span>&#187;</span> Proactive infrastructure monitoring and alerting</li>
-											<li><span>&#187;</span> Monthly health reports and dashboards</li>
+											<li> 24 X 7 support with 2 hours critical response</li>
+											<li> Basic IT support (OS Patching, OS Updates, OS Management, Virtual Machines, Disks, Basic Configuration Management, &Incident Management)
+											<li> 30 days backup</li>
+											<li> Proactive infrastructure monitoring and alerting</li>
+											<li> Monthly health reports and dashboards</li>
 
-											<li><span>&#187;</span> Basic anti-virus and anti-malware support</li>
+											<li> Basic anti-virus and anti-malware support</li>
 										</ul>
 									</div>
 								</div>
@@ -1480,13 +1503,13 @@ $seo_keywords = "";
 										<img src="./images/managed-services-icons/Advanced-new.png" alt="">
 										<p>Know More</p>
 										<ul class="card-desc ">
-											<li><span>&#187;</span> 24 X 7 support with 1 hour critical response</li>
-											<li><span>&#187;</span> Advanced IT Support (OS Patching, OS Updates, OS Management, Virtual Machines, Virtual Machine scales, Availability Sets, Disks, Virtual Networks, WAF, Identity Management, Configuration Management, Incident Management, Problem Management, Change Management)</li>
-											<li><span>&#187;</span> Shared TAM and architect support</li>
-											<li><span>&#187;</span> Unlimited backup, self-serve point-in-time restore</li>
-											<li><span>&#187;</span> Proactive infrastructure monitoring and alerting</li>
-											<li><span>&#187;</span> Monthly health reports and dashboards.</li>
-											<li><span>&#187;</span> Advanced anti-virus and anti-malware support</li>
+											<li> 24 X 7 support with 1 hour critical response</li>
+											<li> Advanced IT Support (OS Patching, OS Updates, OS Management, Virtual Machines, Virtual Machine scales, Availability Sets, Disks, Virtual Networks, WAF, Identity Management, Configuration Management, Incident Management, Problem Management, Change Management)</li>
+											<li> Shared TAM and architect support</li>
+											<li> Unlimited backup, self-serve point-in-time restore</li>
+											<li> Proactive infrastructure monitoring and alerting</li>
+											<li> Monthly health reports and dashboards.</li>
+											<li> Advanced anti-virus and anti-malware support</li>
 										</ul>
 									</div>
 								</div>
@@ -1496,16 +1519,16 @@ $seo_keywords = "";
 										<img src="./images/managed-services-icons/Premium-New.png" alt="">
 										<p>Know More</p>
 										<ul class="card-desc">
-											<li><span>&#187;</span> 24 X 7 support with 30 minutes critical response</li>
-											<li><span>&#187;</span> Level-3 escalation advanced support</li>
-											<li><span>&#187;</span> Proactive capacity planning, performance and cost optimization</li>
-											<li><span>&#187;</span> Shared TAM and architect support</li>
-											<li><span>&#187;</span> Unbrmited backup, self-serve point-in-time restore</li>
-											<li><span>&#187;</span> Proactive infrastructure monitoring and alerting</li>
-											<li><span>&#187;</span> Monthly health reports and dashboards</li>
-											<li><span>&#187;</span> Deep security (WAF, DDoS, Threat analytics, anti-virus, anti-malware, email and web protection)</li>
-											<li><span>&#187;</span> Proactive run book authoring</li>
-											<li><span>&#187;</span> Advanced operational intelligence and custom dashboard on usage, performance, governance, and cost</li>
+											<li> 24 X 7 support with 30 minutes critical response</li>
+											<li> Level-3 escalation advanced support</li>
+											<li> Proactive capacity planning, performance and cost optimization</li>
+											<li> Shared TAM and architect support</li>
+											<li> Unbrmited backup, self-serve point-in-time restore</li>
+											<li> Proactive infrastructure monitoring and alerting</li>
+											<li> Monthly health reports and dashboards</li>
+											<li> Deep security (WAF, DDoS, Threat analytics, anti-virus, anti-malware, email and web protection)</li>
+											<li> Proactive run book authoring</li>
+											<li> Advanced operational intelligence and custom dashboard on usage, performance, governance, and cost</li>
 										</ul>
 									</div>
 								</div>
@@ -1525,7 +1548,7 @@ $seo_keywords = "";
 
 							</div>
 							<div class="elastic-head">
-								<h2 style="margin-bottom: 10px;">Subscription Fee</h2>
+								<h2>Subscription Fee</h2>
 							</div>
 							<div class="elastic-content">
 								<p>Subscribe to the elastic model with a nominal monthly fee that provides access to all kinds of cloud services</p>
@@ -1538,7 +1561,7 @@ $seo_keywords = "";
 
 							</div>
 							<div class="elastic-head">
-								<h2 style="margin-bottom: 10px;">Pay-Per-Use</h2>
+								<h2>Pay-Per-Use</h2>
 							</div>
 							<div class="elastic-content">
 								<p>Pay only for the services used, and the billing is done only for the number of hours used</p>

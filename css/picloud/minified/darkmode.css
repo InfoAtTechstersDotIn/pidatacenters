@@ -491,42 +491,53 @@ body.dark {
 }
 
 @media (max-width: 900px) {
+
     .dark .hb-megaDropdown,
     .dark .hb_mobile-view-btn {
         background-color: #1c1c1c;
         color: #fff
     }
+
     .dark .backtoMenu,
     .dark .hb-drpIndCont>h3>a,
     .dark .hb-listCont>ul>li>a {
         color: #fff !important
     }
+
     .dark .hb-navmenu {
         background-color: #1c1c1c
     }
+
     .dark .backtoMenu:before,
     .dark .hasDroparrow:before {
         border: solid #ccc;
         border-width: 0 2px 2px 0
     }
+
     .dark .backtoMenu {
         color: #fff
     }
+
     .dark .hb-productSec {
         max-width: 100%
     }
+
     .dark .hb-mo {
         display: block
     }
+
     .dark .hb-cso {
         display: none
     }
+
     .hb-mo {
         display: block !important
     }
+
     .hb-cso {
         display: none !important
     }
+
     .dark .hb-inDrpCo {
         background-color: #1c1c1c
     }
@@ -549,16 +560,20 @@ body.dark {
         right: 0;
         text-align: center
     }
+
     .hb-btn_cl>li>a {
         font-size: 16px;
         width: 120px
     }
+
     .hb-cuJoBox {
         min-height: inherit !important
     }
+
     .hb-cuJoBox>h3 {
         margin: 16px auto 16px !important
     }
+
     .hb-productSec {
         max-width: 100% !important
     }
@@ -566,4 +581,9 @@ body.dark {
 
 .dark p {
     color: #ccc;
+}
+
+.skltbs-tab-group {
+    margin: 48px auto;
+    border-bottom: 4px solid #216733 !important;
 }

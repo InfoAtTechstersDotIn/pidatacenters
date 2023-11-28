@@ -3,7 +3,17 @@ $seo_title = "Case Studies - Pi Datacenter | Studies & Success Stories with infe
 $seo_description = "Pi Datacenters' case studies on successful implementation of Data analytics & storage in Industries, with significant observations & experiences. Data Center Case studies in Banking, Large Scale Government, Power Grids, Healthcare, Cloud Migration, Cybersecurity & more.";
 $seo_keywords = "data center Case Studies, cloud migration, cyber security, data center services, best data ceenters, data center networking";
 ?>
-<?php include('php/inner-header.php'); ?>
+<?php #include('php/inner-header.php'); 
+?>
+
+<?php include('php/includes-techsters/header.php'); ?>
+
+<style>
+    .modal-content {
+        background-color: transparent;
+        border: none;
+    }
+</style>
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/case-studies.jpg" alt="case-studie-banner" width="1920" height="210">
@@ -28,7 +38,7 @@ $seo_keywords = "data center Case Studies, cloud migration, cyber security, data
                             "Cybersecurity @Pi",
                             "DR Solution Enabling Business Continuity During COVID-19",
                             "Enabling Advanced Banking Processes",
-                            "Enabling Cloud Infrastructure for a Leafing IoT Provider",
+                            "Enabling Cloud Infrastructure for a Leading IoT Provider",
                             "Enabling Digital Banking",
                             "Globally Acclaimed Fintech Organization",
                             "Healthcare Industry",
@@ -62,10 +72,15 @@ $seo_keywords = "data center Case Studies, cloud migration, cyber security, data
         </div>
     </div>
 </div>
-<?php include('php/footer.php'); ?>
+
+<?php #include('php/footer.php'); 
+?>
+
+<?php include('php/includes-techsters/footer.php'); ?>
+
 <div id="modal-1" class="modalDialog">
     <div class="fill-your-details">
-        <div class="modal-content" style="margin: 5% 30%;width:40%">
+        <div class="modal-content" style="margin: 5% 0%;width:100%">
             <div class="modal-container">
                 <a href="#close" title="Close" class="close">x</a>
                 <div class="modal-body">
@@ -271,4 +286,5 @@ $seo_keywords = "data center Case Studies, cloud migration, cyber security, data
     });
 </script>
 </body>
+
 </html>

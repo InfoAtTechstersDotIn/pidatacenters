@@ -1,9 +1,8 @@
 <?php
-$seo_title = "pi-cloud®";
+$seo_title = "Rent A Rack";
 $seo_description = "";
 $seo_keywords = "";
 ?>
-
 
 
 
@@ -12,12 +11,21 @@ $seo_keywords = "";
 
 
 
+<style>
+    .banners_content.gpu_hide {
+        display: none;
+    }
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css" integrity="sha512-pmAAV1X4Nh5jA9m+jcvwJXFQvCBi3T17aZ1KWkqXr7g/O2YMvO8rfaa5ETWDuBvRq6fbDjlw4jHL44jNTScaKg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    @media screen and (max-width:991px) {
+        .about-banner img {
+            height: 440px;
+            object-fit: unset;
+        }
+    }
 
-    <style>
-        @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap");
+    @media screen and (max-width:599px) {
 
+<<<<<<< HEAD
 
 
         .swiper-slide {
@@ -25,25 +33,27 @@ $seo_keywords = "";
             background-size: cover;
             /* width: 400px !important; */
         
+=======
+        .slick-track {
+            left: -23px !important;
+>>>>>>> 15a1cb1c972d462b9554891fe26df469ee53e4d2
         }
 
-        .swiper-slide::after {
-            position: absolute;
-            content: "";
-            inset: 0;
-            width: 100%;
+        .slider-rent a {
+            margin-right: 50px !important;
         }
+    }
+</style>
 
-        .swiper-slide-active::after {
-            background: none;
-        }
+<!-- main starts here -->
 
-        .swiper-slide>div {
-            text-align: center;
-            display: none;
-            opacity: 0;
-        }
+<div class="about-banner">
+    <div class="container">
+        <div class="about-banner-blk pt-3">
+            <!--  <img src="images/istockphoto-1356466745-612x612.jpg" alt="soc-banner" width="1920" height="210" style="max-width:612px;height:auto;margin:0 auto;">-->
+            <h2>SOC</h2>
 
+<<<<<<< HEAD
         .swiper-slide-active div {
             display: block;
             opacity: 1;
@@ -260,75 +270,62 @@ margin-bottom: 15px;
                 <img src="images/1-B.svg" alt="rank-1-b" class="rent-blue">
                 <img src="images/1-G.svg" alt="rank-1-b" class="rent-green">
                 <div>
+=======
+            <ul class="slider-rent">
+                <li>
+                    <img src="images/1-B.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                    <img src="images/1-G.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+>>>>>>> 15a1cb1c972d462b9554891fe26df469ee53e4d2
                     <a href="checkout.php?id=1">BUY NOW</a>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <img src="images/2-B.svg" alt="rank-1-b" class="rent-blue">
-                <img src="images/2-G.svg" alt="rank-1-b" class="rent-green">
-                <div>
+                </li>
+                <li>
+                    <img src="images/2-B.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                    <img src="images/2-G.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
                     <a href="checkout.php?id=2">BUY NOW</a>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <img src="images/3-B.svg" alt="rank-1-b" class="rent-blue">
-                <img src="images/3-G.svg" alt="rank-1-b" class="rent-green">
-                <div>
+                </li>
+                <li>
+                    <img src="images/3-B.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                    <img src="images/3-G.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
                     <a href="checkout.php?id=3">BUY NOW</a>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <img src="images/4-B.svg" alt="rank-1-b" class="rent-blue">
-                <img src="images/4-G.svg" alt="rank-1-b" class="rent-green">
-                <div>
+                </li>
+                <li>
+                    <img src="images/4-B.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                    <img src="images/4-G.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
                     <a href="checkout.php?id=4">BUY NOW</a>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <img src="images/5-B.svg" alt="rank-1-b" class="rent-blue">
-                <img src="images/5-G.svg" alt="rank-1-b" class="rent-green">
-                <div>
+                </li>
+                <li>
+                    <img src="images/5-B.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                    <img src="images/5-G.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
                     <a href="checkout.php?id=5">BUY NOW</a>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <img src="images/6-B.svg" alt="rank-1-b" class="rent-blue">
-                <img src="images/6-G.svg" alt="rank-1-b" class="rent-green">
-                <div>
+                </li>
+                <li>
+                    <img src="images/6-B.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                    <img src="images/6-G.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
                     <a href="checkout.php?id=6">BUY NOW</a>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <img src="images/7-B.svg" alt="rank-1-b" class="rent-blue">
-                <img src="images/7-G.svg" alt="rank-1-b" class="rent-green">
-                <div>
+                </li>
+                <li>
+                    <img src="images/7-B.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                    <img src="images/7-G.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
                     <a href="checkout.php?id=7">BUY NOW</a>
-                </div>
-            </div>
+                </li>
+            </ul>
+            <center style="position: relative; top: -50px;font-size:10px;margin-left:75px">*All Prices are Excluding Convenience Fee & Taxes</center>
         </div>
     </div>
+</div>
 
+<<<<<<< HEAD
     <p class="fees_taxes_para">*All Prices are Excluding Convenience Fee & Taxes</p>
+=======
+<!--what-is-noc starts here -->
+<div class="what-is-noc">
+>>>>>>> 15a1cb1c972d462b9554891fe26df469ee53e4d2
 
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 svg-img">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75" />
-        </svg>
 
-    </div>
-    <div class="swiper-button-next">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 svg-img">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-        </svg>
 
-    </div>
-
-   
-</section>
     <?php include('php/includes-techsters/footer.php'); ?>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+<<<<<<< HEAD
     <script>
     var swiper = new Swiper(".mySwiper", {
         effect: "coverflow",
@@ -371,8 +368,32 @@ margin-bottom: 15px;
 </script>
 
 
+=======
+    <!--footer ends-->
+</div>
+<!-- wrapper ends -->
+<script src="js/wow.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+>>>>>>> 15a1cb1c972d462b9554891fe26df469ee53e4d2
 
+<script src="js/main-pi.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.slider-rent').slick({
+            centerMode: true,
+            dots: false,
+            arrows: true,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 3000,
 
+<<<<<<< HEAD
     <script>
         var swiper = new Swiper(".mySwiper", {
             effect: "coverflow",
@@ -412,8 +433,26 @@ margin-bottom: 15px;
                     slidesPerView: 3
                 }
             }
+=======
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }]
+>>>>>>> 15a1cb1c972d462b9554891fe26df469ee53e4d2
         });
-    </script>
+
+        //animation
+        wow = new WOW({
+            animateClass: 'animated',
+            offset: 100,
+            mobile: true
+        });
+        wow.init();
+    });
+</script>
 
 </body>
 

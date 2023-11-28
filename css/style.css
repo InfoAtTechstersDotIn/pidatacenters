@@ -7726,7 +7726,7 @@ article.tabs section:target h2 {
 }
 
 .rent-green {
-    /* display: none !important; */
+    display: none !important;
 }
 
 .slider-rent li {
@@ -8239,4 +8239,18 @@ td {
         max-width: 100%;
         vertical-align: bottom;
     }
+}
+
+/* newly added after header and footer */
+
+.tools a {
+    color: #B31312;
+}
+
+td {
+    vertical-align: middle !important;
+}
+
+.jCont p {
+    text-align: center;
 }
