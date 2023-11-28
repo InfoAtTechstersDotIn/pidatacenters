@@ -1139,7 +1139,7 @@ $seo_keywords = "";
     }
 
     .picloud_pages p {
-        color: #5a5a5a9c !important;
+        color: #5a5a5ad6 !important;
     }
 
     /* footer styles */
@@ -1169,13 +1169,13 @@ $seo_keywords = "";
 
     .hb-bannerImg h2 {
         left: 3% !important;
-        font-size: 6.8rem !important;
-        line-height: 6rem;
+        font-size: 5.5rem !important;
+        line-height: 5rem;
     }
 
     .hb-bannerImg h5 {
         position: absolute;
-        top: 70%;
+        top: 65%;
         left: 3%;
         color: #fff;
         font-size: 1.8rem;
@@ -1218,6 +1218,10 @@ $seo_keywords = "";
     .hb-bannerCont {
         margin-top: 90px;
     }
+
+    .header {
+        box-shadow: 0px 0px 4px black;
+    }
 </style>
 
 <div class="picloud_pages">
@@ -1232,7 +1236,7 @@ $seo_keywords = "";
                 <picture>
                     <source media="(max-width: 768px)" srcset="pi-cloud/images/new-multi-cloud.jpg">
                     <img src="pi-cloud/images/banners/new-multi-cloud.jpg" alt="pi cloud Cloud Backup as a Service Banner" style="width:100%; height:50vh;">
-                    <h2>Multi Cloud Managed Services </h2>
+                    <h2>Multi Cloud Managed <br>Services </h2>
                     <h5>The power of SSD</h5>
                 </picture>
             </div>

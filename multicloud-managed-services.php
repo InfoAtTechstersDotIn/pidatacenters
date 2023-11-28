@@ -1,6 +1,5 @@
-
 <?php
-$seo_title = "pi-cloud®";
+$seo_title = "Multicloud Managed Services";
 $seo_description = "";
 $seo_keywords = "";
 ?>
