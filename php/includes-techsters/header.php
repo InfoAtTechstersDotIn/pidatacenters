@@ -14,7 +14,6 @@
     <meta name="description" content="<?php echo $seo_description ?>">
     <meta name="keywords" content="<?php echo $seo_keywords ?>">
 
-    <title>Pidatacenters</title>
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -104,7 +103,7 @@
                 </div>
 
 
-                <div class="col-lg-10 d-flex  justify-content-center  align-items-center ">
+                <div class="col-lg-10 d-flex  justify-content-end  align-items-center ">
                     <nav id="" class="nav_items">
                         <ul class="nav_items_ul">
                             <li>
@@ -133,7 +132,7 @@
                                         <li>
                                             <a href="<?php echo $site_url ?>data-center-infrastructure-services-advisory.php">Data Center Infrastructure & Services</a>
                                         </li>
-                                        <li>
+                                        <li class="data_center_build">
                                             <a href="JavaScript:void(0);" class="drop-arrow">Consulting & Data Center Build </a>
                                             <div class="sub_drop_down">
                                                 <ul>
@@ -228,7 +227,7 @@
                             </li>
                             <li>
                                 <a href="#" class="drop-arrow">PRICING</a>
-                                <div class="drop-down">
+                                <div class="drop-down pricing_drop_down">
                                     <ul>
                                         <li>
                                             <a href="https://pidatacenters.com/pi-cloud/pricing/#/cloudServers">Cloud Servers</a>

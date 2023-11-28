@@ -553,6 +553,10 @@ backdrop-filter: blur(42px);
             left: -200px !important;
         }
         
+        .pricing_drop_down {
+            left: -80px !important;
+        }
+        
         .drop-down ul li a {
             padding: 10px 20px !important;
         }
@@ -577,6 +581,16 @@ backdrop-filter: blur(42px);
         
         .nav_close_btn {
             display: none;
+        }
+        
+        .data_center_build .drop-arrow:before {
+            position: absolute;
+            top: 10px;
+            right: 5px;
+            color: #000;
+            content: "\f107";
+            font-family: "FontAwesome";
+            font-size: 22px;
         }
         
         @media only screen and (max-width: 991px) {

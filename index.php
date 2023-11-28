@@ -1355,7 +1355,7 @@
                 dots: false,
                 arrows: true,
                 swipe: true,
-                autoplay: true,
+                autoplay: false,
                 autoplaySpeed: 3000,
                 //  infinite: true,
                 swipeToSlide: true,

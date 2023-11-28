@@ -23,7 +23,7 @@ $seo_keywords = "";
         .swiper-slide {
             background-position: center;
             background-size: cover;
-            width: 300px;
+            /* width: 400px !important; */
         
         }
 
@@ -194,15 +194,15 @@ $seo_keywords = "";
         }
         
 
-.rent_server_page{
-   width: 100%;
+.rent_server_page {
+    width: 100%;
     position: relative;
-    max-width: 90%;
+    max-width: 70%;
     margin: auto;
     overflow-x: hidden;
-    margin-top: 180px;
-    border: 1px solid;
-    padding: 30px 0px;
+    margin-top: 130px;
+    /* border: 1px solid; */
+    padding: 10px 0px;
     height: 100%;
     height: auto;
 }
@@ -221,6 +221,31 @@ $seo_keywords = "";
     /* padding: 0px 217px; */
         }
 
+
+        /* .swiper-slide.swiper-slide-visible.swiper-slide-fully-visible.swiper-slide-active {
+ 
+    margin: 0px 0px;
+} */
+
+
+.swiper-slide-active div {
+    display: block;
+    opacity: 1;
+margin-bottom: 15px;
+    text-align: center;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+.fees_taxes_para{
+
+    text-align: center;
+    padding: 20px 0px;
+    position: relative;
+    color: #000;
+}
     </style>
 </head>
 
@@ -283,7 +308,7 @@ $seo_keywords = "";
         </div>
     </div>
 
-    <p style="position: relative;top: 88%;font-size: 12px;color: #000;left: 50%;">*All Prices are Excluding Convenience Fee & Taxes</p>
+    <p class="fees_taxes_para">*All Prices are Excluding Convenience Fee & Taxes</p>
 
     <!-- If we need navigation buttons -->
     <div class="swiper-button-prev">
@@ -304,6 +329,48 @@ $seo_keywords = "";
     <?php include('php/includes-techsters/footer.php'); ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+    <script>
+    var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        loop: true,
+        autoplay: false,
+        autoplayspeed: 3000,
+        slidesPerView: 1,  // Set the number of visible slides
+        spaceBetween: 30,  // Set the space between slides
+        coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 100,
+            modifier: 4,
+            slideShadows: false
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+        },
+        keyboard: {
+            enabled: true
+        },
+        mousewheel: {
+            thresholdDelta: 70
+        },
+        initialSlide: 0,
+        on: {
+            click(event) {
+                swiper.slideTo(this.clickedIndex);
+            }
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 1
+            }
+        }
+    });
+</script>
+
+
 
 
     <script>
@@ -314,7 +381,9 @@ $seo_keywords = "";
             loop: true,
             autoplay: false,
             autoplayspeed: 3000,
-            slidesPerView: "1",
+            slidesPerView: "3",
+            slidesPerView: 3,  // Set the number of visible slides
+        spaceBetween: "30",  // Set the space between slides
             coverflowEffect: {
                 rotate: 0,
                 stretch: 0,
@@ -340,7 +409,7 @@ $seo_keywords = "";
             },
             breakpoints: {
                 640: {
-                    slidesPerView: 2
+                    slidesPerView: 3
                 }
             }
         });
