@@ -1169,8 +1169,8 @@ $seo_keywords = "";
 
     .hb-bannerImg h2 {
         left: 3% !important;
-        font-size: 4.5rem !important;
-        line-height: 4.5rem;
+        font-size: 5.5rem !important;
+        line-height: 5rem;
     }
 
     .hb-bannerImg h5 {
@@ -1190,7 +1190,7 @@ $seo_keywords = "";
     }
 
     .banners_content {
-        top: 210px !important;
+        top: 240px !important;
         left: 303px !important;
         /* background-color: #52c02b; */
     }
@@ -1221,26 +1221,6 @@ $seo_keywords = "";
 
     .header {
         box-shadow: 0px 0px 4px black;
-    }
-
-    .elastic,
-    .elastic-2 {
-        padding: 6px;
-    }
-
-    .content ul li {
-        list-style: circle;
-    }
-
-    .footer_row {
-        max-width: 875px;
-        margin: auto;
-        margin-top: 50px;
-        padding-left: 85px;
-    }
-
-    .read ul {
-        text-align: left;
     }
 </style>
 
