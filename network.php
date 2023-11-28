@@ -19,11 +19,11 @@
 <section id="hb_products_Lists">
 	<div class="container">
 		<div class="hb-productHead text-center">
-			<h1>Bridge the gap between your business & IT</h1>
+			<h1>Bridge The Gap Between Your Business & IT</h1>
 			<p>In the recent years there has been acceleration in the frequency, diversity, and impact of disruptions. Let us plan, build and manage your networks to help your enterprise respond to the unexpected. Our software-defined network services makes it possible to create, provision and manage networks flawlessly. It continues to leverage while continuing to leverage the underlying physical network as the packet-forwarding backplane. Pi Cloud also enables enterprises to gain end-to-end visibility and analysis of applications, users, and devices across the network.</p>
 		</div>
 		<div class="hb-childProducts">
-			<h2 class="text-center">Explore our cloud networking products and solutions</h2>
+			<h2 class="text-center">Explore Our Cloud Networking Products & Solutions</h2>
 			<p class="text-center hb_ilp">Address your growing infrastructure needs, regional expansions, and redundancy plans</p>
 			<div id="outer" class="skltbs-theme-light" data-skeletabs='{ "startIndex": 2 }'>
 				<ul class="skltbs-tab-group list-inline text-center">

@@ -19,11 +19,11 @@
 <section id="hb_products_Lists">
 	<div class="container">
 		<div class="hb-productHead text-center">
-			<h1>Go practically limitless capacity with Pi Cloud</h1>
+			<h1>Go Practically Limitless Capacity With Pi Cloud</h1>
 			<p>Data is the lifeline of any business and it is important to consider how enterprises store data, based on enterprise business needs. Pi Cloud allows enterprises to select storage of choice that meets business objectives. Pi Cloud presents varied storage formats to hold, organize and present data with objective driven distinct features and capabilities.</p>
 		</div>
 		<div class="hb-childProducts">
-			<h2 class="text-center">Explore our storage solutions</h2>
+			<h2 class="text-center">Explore Our Storage Solutions</h2>
 			<!-- <p class="text-center">Address your growing infrastructure needs, regional expansions, and redundancy plans</p> -->
 			<div id="outer" class="skltbs-theme-light" data-skeletabs='{ "startIndex": 2 }'>
 				<ul class="skltbs-tab-group list-inline text-center">

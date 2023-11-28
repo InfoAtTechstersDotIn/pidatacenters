@@ -18,11 +18,11 @@
 <section id="hb_products_Lists">
 	<div class="container">
 		<div class="hb-productHead text-center">
-			<h1> Prevention is better than cure</h1>
+			<h1> Prevention Is Better Than Cure</h1>
 			<p>IT disasters can be natural or inflicted by human error. Any such threat, causing a data center failure, server corruption, or cyber attacks can be expensive for your business. They not only disrupt your operations, but also cause permanent data loss, damage your reputation and impact your revenue. With business continuity on Pi Cloud<sup></sup>, enterprises can ensure that adverse effect on their business runtime is minimalistic and they get to return to full operational state in no time.</p>
 		</div>
 		<div class="hb-childProducts">
-			<h2 class="text-center">Explore our Business Continuity Products</h2>
+			<h2 class="text-center">Explore Our Business Continuity Products</h2>
 			<!-- <p class="text-center">Address your growing infrastructure needs, regional expansions, and redundancy plans</p> -->
 			<div id="outer" class="skltbs-theme-light">
 				<ul class="skltbs-tab-group list-inline text-center">
