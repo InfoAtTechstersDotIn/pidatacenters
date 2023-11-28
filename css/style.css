@@ -7726,7 +7726,7 @@ article.tabs section:target h2 {
 }
 
 .rent-green {
-    /* display: none !important; */
+    display: none !important;
 }
 
 .slider-rent li {
