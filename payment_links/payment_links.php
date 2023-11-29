@@ -60,6 +60,7 @@ if (isset($_SESSION['is_login'])) {
                                     <th>Status</th>
                                     <td>Send Mail</td>
                                     <td>Cancel</td>
+                                    <td>Delete</td>
                                 </tr>
                             </thead>
                             <tbody>
@@ -92,11 +93,17 @@ if (isset($_SESSION['is_login'])) {
                                                 <a class="btn btn-success" href="javascript:void(0);" onclick="handleCancel('<?php echo $item['unique_id'] ?>')">Cancel Payment</a>
                                             <?php } ?>
                                         </td>
+                                        <td>
+                                            <?php if ($item['status'] != "success") { ?>
+                                                <a class="btn btn-danger" href="javascript:void(0);" onclick="handleDelete('<?php echo $item['unique_id'] ?>')">&times;</a>
+                                            <?php } ?>
+                                        </td>
                                     </tr>
                                     <?php if ($item['status'] == 'success') { ?>
                                     <tr style="background: #eee;">
                                         <td>Order ID : <?php print_r(json_decode($item['order_details'])[1]->order_id) ?></td>
                                         <td>Tracking ID : <?php print_r(json_decode($item['order_details'])[2]->tracking_id) ?></td>
+                                        <td></td>
                                         <td></td>
                                         <td></td>
                                         <td></td>
@@ -147,6 +154,12 @@ if (isset($_SESSION['is_login'])) {
             const handleCancel = (unique_id) => {
                 if (confirm('Are you sure ?')) {
                     window.location = `https://pidatacenters.com/payment_links/cancel_payment.php?unique_id=${unique_id}`;
+                }
+            }
+
+            const handleDelete = (unique_id) => {
+                if (confirm('Are you sure ?')) {
+                    window.location = `https://pidatacenters.com/payment_links/delete_payment.php?unique_id=${unique_id}`;
                 }
             }
 
