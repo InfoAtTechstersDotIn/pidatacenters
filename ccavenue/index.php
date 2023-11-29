@@ -10,7 +10,6 @@ $price = $_SESSION['price'];
 
 $curl = curl_init();
 $tid = strtotime(date('Y-m-d H:i:s'));
-
 curl_setopt_array($curl, array(
   CURLOPT_URL => 'https://pidatacenters.com/ccavenue/ccavRequestHandler.php',
   CURLOPT_RETURNTRANSFER => true,
@@ -42,9 +41,6 @@ curl_setopt_array($curl, array(
 ));
 
 $response = curl_exec($curl);
-
-print_r($response);
-exit();
 
 curl_close($curl);
 header("location:" . $response);

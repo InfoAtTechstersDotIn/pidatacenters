@@ -36,7 +36,7 @@ if (isset($_SESSION['is_login'])) {
                 <div class="col-md-12 col-xs-12">
 
                     <div class="table_block table-responsive">
-                        <form action="controller.php" method="POST" id="login-form">
+                        <form action="controller" method="POST" id="login-form">
                             <input type="text" name="name" class="form-control mt15" placeholder="Name/ Company Name" required>
                             <input type="email" name="email" class="form-control mt15" placeholder="Email" required>
                             <input type="number" name="phone" class="form-control mt15" placeholder="Phone" required>
