@@ -133,9 +133,8 @@ if (mysqli_num_rows($result) > 0) {
                         Phone: <b><?php echo $row['phone'] ?></b><br />
                         Amount: <b>INR <?php echo $row['amount'] ?></b><br /><br />
 
-                        <form method="POST" action="https://pidatacenters.com/payment_links/ccavenue/index.php">
+                        <form method="POST" action="https://pidatacenters.com/payment_links/ccavenue/index.php?payment_link_unique_id=<?php echo $payment_link_unique_id ?>">
                             <input type="checkbox" name="agree" required /> I Agree to Terms and Conditions<br /><br />
-                            <input type="hidden" name="payment_link_unique_id" value="<?php echo $payment_link_unique_id ?>" />
                             <input class="btn btn-success copy_text" type="submit" name="pay" value="Pay Now" required />
                         </form>
                     </div>
