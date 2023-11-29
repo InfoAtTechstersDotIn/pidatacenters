@@ -5468,7 +5468,7 @@ p.paraclassinfo:before {
     max-width: 1100px;
     margin: 0 auto 30px;
     background: #ffffff;
-    z-index: 99999;
+    /* z-index: 99999; */
     position: relative;
     border-radius: 20px;
 }
@@ -8239,4 +8239,18 @@ td {
         max-width: 100%;
         vertical-align: bottom;
     }
+}
+
+/* newly added after header and footer */
+
+.tools a {
+    color: #B31312;
+}
+
+td {
+    vertical-align: middle !important;
+}
+
+.jCont p {
+    text-align: center;
 }

@@ -10,14 +10,20 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
 ?>
 
    <head>
-      <style>
+
+   </head>
+
+   <?php include('php/includes-techsters/header.php'); ?>
+
+   <style>
          #myBtn2 {
             display: none;
          }
-      </style>
-   </head>
 
-   <?php include('php/inner-header.php'); ?>
+       input {
+    line-height: 35px !important;
+}
+      </style>
 
    <style>
       textarea#input_25_8 {
@@ -138,7 +144,7 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
    </div>
 
 
-   <?php include('php/footer.php'); ?>
+   <?php include('php/includes-techsters/footer.php'); ?>
 
 
    </div>

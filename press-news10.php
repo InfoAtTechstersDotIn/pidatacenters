@@ -34,7 +34,7 @@ $seo_keywords = "data center news, enterprise cloud fabric, Hyperscale datacente
                     <!--  <h3>DatacenterDynamics (DCD) Recognized Pi As India’s Best Multi-Tenant Data Center Service Provider !</h3> -->
                     <p class="date">19-Jul-2019, Friday</p>
                     <p>Bengaluru, 18th July 2019: Pi hits another milestone in its ongoing journey towards perpetuating positive disruption in technology and innovation.</p>
-                    <p>“I am delighted to announce another proud moment @Pi® as we just got recognized by DatacenterDynamics (DCD) for being the Best Multi-Tenant Data Center in India. We will continue to innovate in order to make digital transformation for enterprises easier, faster and TCO optimal”, said Kalyan Muppaneni, Founder & CEO, Pi DATACENTERS®.</p>
+                    <p>“I am delighted to announce another proud moment @Pi as we just got recognized by DatacenterDynamics (DCD) for being the Best Multi-Tenant Data Center in India. We will continue to innovate in order to make digital transformation for enterprises easier, faster and TCO optimal”, said Kalyan Muppaneni, Founder & CEO, Pi DATACENTERS®.</p>
 
                 </div>
             </div>

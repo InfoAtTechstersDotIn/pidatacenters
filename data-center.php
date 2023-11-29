@@ -129,7 +129,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
             <div class="col-md-4">
                 <div class="service-box h-100">
                     <h2>
-                        Data Center <br>Consulting and Build
+                        Data Center <br>Consulting & Build
                     </h2>
 
                     <p>Revolutionize your data center vision with Pi's unparalleled consulting services. As architects of the world's fourth-largest Tier 4 data center, we bring in-house expertise, end-to-end support, and 8 levels of security. Elevate your project with Pi, where excellence meets innovation.</p>
@@ -647,7 +647,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
         </div>
     </div>
 </div>
-<div class="knowledge-hub-videos1 knowledge-galleryd">
+<div class="knowledge-hub-videos1 knowledge-galleryd d-none">
     <div class="container">
         <div class="knowledge-hub-videos-top">
             <h2 style="color:#414141;text-align:center"><span style="color:#7BBC42;font-weight:500;">Benefits</span> Of Our Colocation <br>Services</h2><br>

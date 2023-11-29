@@ -8,7 +8,8 @@ $seo_keywords = "";
 
 <head>
    <style>
-      #myBtn2 {
+      #myBtn2,
+      #reach-btn {
          display: none;
       }
    </style>

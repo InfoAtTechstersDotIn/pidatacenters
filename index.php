@@ -219,30 +219,35 @@
         .know-more-btn {
             text-align: center;
         }
+
         .slick-dots li.slick-active a:after {
 
-    right: 3px !important;
- 
-}
+            right: 3px !important;
+
+        }
 
 
-.locations .about-loc img {
-    width: 90% !important;
-    border-radius: 20px;
-}
+        .locations .about-loc img {
+            width: 90% !important;
+            border-radius: 20px;
+        }
 
- .about-loc img{
-    width: 90% !important;
- }
-
-
-.datacenter-main .center img {
-    width: 90% !important;
-}
+        .about-loc img {
+            width: 90% !important;
+        }
 
 
-.great-rtt .slick-slide {
+        .datacenter-main .center img {
+            width: 90% !important;
+        }
+
+
+        .great-rtt .slick-slide {
             text-align: center !important;
+        }
+
+        .slick-dots {
+            width: fit-content !important;
         }
     </style>
     <script>
@@ -813,7 +818,7 @@
                                                 <div class="strategic-core-council-cnt1">
                                                     <h3>Backup as a Service</h3>
                                                     <div class="know-more">
-                                                        <a href="./pi-cloud/business-continuity" class="dc" target="_blank">Know More</a>
+                                                        <a href="business-continuity.php" class="dc" target="_blank">Know More</a>
                                                     </div>
                                                 </div>
                                             </li>
@@ -822,7 +827,7 @@
                                                 <div class="strategic-core-council-cnt1">
                                                     <h3>Container as a Service</h3>
                                                     <div class="know-more">
-                                                        <a href="./pi-cloud/compute" class="dc" target="_blank">Know More</a>
+                                                        <a href="compute.php" class="dc" target="_blank">Know More</a>
                                                     </div>
                                                 </div>
                                             </li>
@@ -831,7 +836,7 @@
                                                 <div class="strategic-core-council-cnt1">
                                                     <h3>Disaster Recovery as a Service</h3>
                                                     <div class="know-more">
-                                                        <a href="./pi-cloud/business-continuity" class="dc" target="_blank">Know More</a>
+                                                        <a href="business-continuity.php" class="dc" target="_blank">Know More</a>
                                                     </div>
                                                 </div>
                                             </li>
@@ -840,7 +845,7 @@
                                                 <div class="strategic-core-council-cnt1">
                                                     <h3>Managed Multi-cloud</h3>
                                                     <div class="know-more">
-                                                        <a href="./pi-cloud/multicloud-managed-services" class="dc" target="_blank">Know More</a>
+                                                        <a href="multicloud-managed-services.php" class="dc" target="_blank">Know More</a>
                                                     </div>
                                                 </div>
                                             </li>
@@ -858,7 +863,7 @@
                                                 <div class="strategic-core-council-cnt1">
                                                     <h3>Network as a Service</h3>
                                                     <div class="know-more">
-                                                        <a href="./pi-cloud/network" class="dc" target="_blank">Know More</a>
+                                                        <a href="network.php" class="dc" target="_blank">Know More</a>
                                                     </div>
                                                 </div>
                                             </li>
@@ -867,7 +872,7 @@
                                                 <div class="strategic-core-council-cnt1">
                                                     <h3>Security as a Service </h3>
                                                     <div class="know-more">
-                                                        <a href="./pi-cloud/security" class="dc" target="_blank">Know More</a>
+                                                        <a href="security.php" class="dc" target="_blank">Know More</a>
                                                     </div>
                                                 </div>
                                             </li>
@@ -876,7 +881,7 @@
                                                 <div class="strategic-core-council-cnt1">
                                                     <h3>Storage as a Service </h3>
                                                     <div class="know-more">
-                                                        <a href="./pi-cloud/storage" class="dc" target="_blank">Know More</a>
+                                                        <a href="storage.php" class="dc" target="_blank">Know More</a>
                                                     </div>
                                                 </div>
                                             </li>
