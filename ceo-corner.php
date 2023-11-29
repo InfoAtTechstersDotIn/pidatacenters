@@ -107,12 +107,12 @@ $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hypers
         <div class="what-drives-vission-right col-md-7 align-middle">
           <h2 class="ceo-corner">Mr. Kalyan Muppaneni</h2>
 
-          <p style="color:#707070" class="pid">Mr. Kalyan Muppaneni is the Founder and CEO of Pi DATACENTERSÂ®, India's first green field, and Uptime Institute TIER IV Certified Data Center & Cloud organization. He is a dynamic industry leader in Datacenter and Cloud Technology, with more than 25 years of extensive global industry experience.
+          <p style="color:#707070" class="pid">Mr. Kalyan Muppaneni is the Founder and CEO of Pi DATACENTERS&#174;, India's first green field, and Uptime Institute TIER IV Certified Data Center & Cloud organization. He is a dynamic industry leader in Datacenter and Cloud Technology, with more than 25 years of extensive global industry experience.
           </p>
 
 
           <p style="color:#707070" class="pid">Kalyan holds the feather on his cap to have Introduced the concept of a hyperscale data center in India. He got the world to take notice by building a world-class data center in a Tier II city for the first time in India. He is also the pioneer in Introducing the first built-to-scale Uptime Institute TIER IV Certified Data Center in India.</p>
-          <p style="color:#707070" class="pid">Kalyan has been working towards amplifying a quality digital footprint in the nation while contributing towards accomplishing the vision of a true blue Digital India. He is also behind, pi-cloudÂ®, the Indian enterprise cloud platform to accelerate the cloud journey of Indian enterprises and global businesses operating in India.</p>
+          <p style="color:#707070" class="pid">Kalyan has been working towards amplifying a quality digital footprint in the nation while contributing towards accomplishing the vision of a true blue Digital India. He is also behind, Pi Cloud, the Indian enterprise cloud platform to accelerate the cloud journey of Indian enterprises and global businesses operating in India.</p>
         </div>
       </div>
 
@@ -157,7 +157,7 @@ $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hypers
                                     <img src="https://pidatacenters.com/uploads/9764Economy needs inclusive growth from rural-India.png" alt="blog-img-2" width="450" height="248">
                                 </figure>
                                 <h4>$5T Economy Needs Inclusive Growth from Rural-India</h4>
-                                   <!--<span class="date">09 Apr, 2022</span>
+                                 <span class="date">09 Apr, 2022</span>
                                     
                                  </div>
                                  </a>-->
@@ -168,10 +168,10 @@ $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hypers
                     <figure>
                       <img src="https://pidatacenters.com/uploads/2494Leadership is earned.png" alt="blog-img-2" width="450" height="248">
                     </figure>
-                    <h4>Leadership is Earned. Itâ€™s Neither a Promotion Nor a Pay Raise !</h4>
+                    <h4>Leadership is Earned. It&#8217;s Neither a Promotion Nor a Pay Raise !</h4>
                     <!--<span class="date">09 Apr, 2022</span>-->
-                    <p>â€œA leader is one who knows the way, goes the way and shows the way.â€ The essence of good leadership lies in these golden words by John C. Maxwell. A leader is also someone who helps you find a way even if he doesnâ€™t know the way.</p>
-                    <a href="blog-details.php?id=37/blog_title=Leadership is Earned. Itâ€™s Neither a Promotion Nor a Pay Raise !" class="read-more">Read More</a>
+                    <p>&#8220;A leader is one who knows the way, goes the way and shows the way.&#8221; The essence of good leadership lies in these golden words by John C. Maxwell. A leader is also someone who helps you find a way even if he doesn&#8217;t know the way.</p>
+                    <a href="blog-details.php?id=37/blog_title=Leadership is Earned. It&#8217;s Neither a Promotion Nor a Pay Raise !" class="read-more">Read More</a>
                   </div>
                 </a>
                 <!--<a href="https://pidatacenters.com/blog-details?id=38">
@@ -180,7 +180,7 @@ $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hypers
                                     <img src="https://pidatacenters.com/uploads/9764Economy needs inclusive growth from rural-India.png" alt="blog-img-2" width="450" height="248">
                                 </figure>
                                 <h4>$5T Economy Needs Inclusive Growth from Rural-India</h4>
-                                   <!--<span class="date">09 Apr, 2022</span>
+                                  <span class="date">09 Apr, 2022</span>
                                     
                                  </div>
                                  </a>-->
@@ -206,7 +206,7 @@ $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hypers
                       <img src="https://pidatacenters.com/uploads/2697blog-creative-1080x582-1.png" alt="blog-img-2" width="450" height="248">
                     </figure>
                     <h4>Metaverse Influx Into Data Center Innovation</h4>
-                    <p><strong id="docs-internal-guid-16a938fd-7fff-72db-2864-56143bb2ed92">Letâ€™s talk about â€˜Metaversesâ€™ First, letâ€™s get a common misconception out of the way. There isnâ€™t just one â€˜Metaverseâ€™. Let me elaborate. Metaverseâ€™ as a term was coined by author Neal Stephenson in his science-fiction novel â€˜Snow Crashâ€™, back in</strong></p>
+                    <p><strong id="docs-internal-guid-16a938fd-7fff-72db-2864-56143bb2ed92">Let&#8217;s talk about &#8216;Metaverses&#8217; First, let&#8217;s get a common misconception out of the way. There isn&#8217;t just one &#8216;Metaverse&#8217;. Let me elaborate. Metaverse&#8217; as a term was coined by author Neal Stephenson in his science-fiction novel &#8216;Snow Crash&#8217;, back in</strong></p>
                     <a href="blog-details.php?id=34/blog_title=Metaverse Influx Into Data Center Innovation" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
 
@@ -248,9 +248,9 @@ $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hypers
                     <figure>
                       <img src="https://pidatacenters.com/uploads/1927kalyan-blog-1-pic.png" alt="blog-img-2" width="450" height="248">
                     </figure>
-                    <h4>Indiaâ€™s Data Center Infrastructure â€œThe Key for Post COVID-19 Economic Era</h4>
+                    <h4>India&#8217;s Data Center Infrastructure &#8220;The Key for Post COVID-19 Economic Era</h4>
                     <p><strong id="docs-internal-guid-40e89254-7fff-c3b0-475b-7f4ca3703769">COVID-19 has definitely set in motion an unprecedented and extraordinary play of events in every sphere that involves humankind. Be it education, healthcare, technology, banking, entertainment, travel &amp; tourism or even something as ordinary as household shopping. These and other</strong></p>
-                    <a href="blog-details.php?id=26/blog_title=Indiaâ€™s Data Center Infrastructure â€œThe Key for Post COVID-19 Economic Era" class="read-more">Read More</a>
+                    <a href="blog-details.php?id=26/blog_title=India&#8217;s Data Center Infrastructure &#8220;The Key for Post COVID-19 Economic Era" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
 
                   </div>
@@ -263,9 +263,9 @@ $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hypers
                     <figure>
                       <img src="https://pidatacenters.com/uploads/1945B1_Blog.png" alt="blog-img-2" width="450" height="248">
                     </figure>
-                    <h4>Indiaâ€™s Data is its National Treasure that Needs Strict Data-Localization</h4>
-                    <p><strong id="docs-internal-guid-01b3fd7d-7fff-2cb6-a038-c1b8cbb02a3e">In February 2019, FireEye â€“ a US cybersecurity firm â€“ zeroed in on a hacker tagged only as â€˜fallensky519â€™ who was on the Most Wanted List for stealing personal data of 6.8 million users from an Indian healthcare website.</strong></p>
-                    <a href="blog-details.php?id=25/blog_title=Indiaâ€™s Data is its National Treasure that Needs Strict Data-Localization" class="read-more">Read More</a>
+                    <h4>India&#8217;s Data is its National Treasure that Needs Strict Data-Localization</h4>
+                    <p><strong id="docs-internal-guid-01b3fd7d-7fff-2cb6-a038-c1b8cbb02a3e">In February 2019, FireEye &#8211;“ a US cybersecurity firm &#8211;“ zeroed in on a hacker tagged only as &#8216;fallensky519&#8217; who was on the Most Wanted List for stealing personal data of 6.8 million users from an Indian healthcare website.</strong></p>
+                    <a href="blog-details.php?id=25/blog_title=India&#8217;s Data is its National Treasure that Needs Strict Data-Localization" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
 
                   </div>
@@ -278,7 +278,7 @@ $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hypers
                       <img src="https://pidatacenters.com/uploads/9764Economy needs inclusive growth from rural-India.png" alt="blog-img-2" width="450" height="248">
                     </figure>
                     <h4>$5T Economy Needs Inclusive Growth from Rural-India</h4>
-                    <p><strong id="docs-internal-guid-a617d0e5-7fff-4857-9c5a-b4f39d644281">â€œIndia lives in its villagesâ€, stated the father of the nation decades ago which still holds true. The Indian economy has been on a growth trajectory over the last couple of decades. Prime Minister Narendra Modiâ€™s vision of making India</strong></p>
+                    <p><strong id="docs-internal-guid-a617d0e5-7fff-4857-9c5a-b4f39d644281">&#8220;India lives in its villages&#8221;, stated the father of the nation decades ago which still holds true. The Indian economy has been on a growth trajectory over the last couple of decades. Prime Minister Narendra Modi&#8217;s vision of making India</strong></p>
                     <a href="blog-details.php?id=38/blog_title=$5T Economy Needs Inclusive Growth from Rural-India" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
 
@@ -291,9 +291,9 @@ $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hypers
                     <figure>
                       <img src="https://pidatacenters.com/uploads/8168PRO (3).jpg" alt="blog-img-2" width="450" height="248">
                     </figure>
-                    <h4>Top 10 Trends in Digital India 2019 â€“ By Kalyan Muppaneni, Founder & CEO, Pi</h4>
+                    <h4>Top 10 Trends in Digital India 2019 &#8211;“ By Kalyan Muppaneni, Founder & CEO, Pi</h4>
                     <p><strong id="docs-internal-guid-51524d97-7fff-34c1-7a32-5e2379798beb">2019 is going to see a significant leap in the current digital India trends. Some of the technologies are already going mainstream. These life-enhancing smarter technologies will further boost our productivity and enhance our daily living conditions.&nbsp;</strong></p>
-                    <a href="blog-details.php?id=21/blog_title=Top 10 Trends in Digital India 2019 â€“ By Kalyan Muppaneni, Founder &amp; CEO, Pi" class="read-more">Read More</a>
+                    <a href="blog-details.php?id=21/blog_title=Top 10 Trends in Digital India 2019 &#8211;“ By Kalyan Muppaneni, Founder &amp; CEO, Pi" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
 
                   </div>
@@ -308,7 +308,7 @@ $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hypers
                                 <figure>
                                     <img src="https://pidatacenters.com/uploads/2051PRO (4).jpg" alt="blog-img-2" width="450" height="248">
                                 </figure>
-                                <h4>Decentralization of Indiaâ€™s Infrastructure</h4>
+                                <h4>Decentralization of India&#8217;s Infrastructure</h4>
                                    <span class="date">09 Apr, 2022</span>
                                     
                                  </div>
@@ -593,7 +593,7 @@ $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hypers
         <div class="modal-body">
           <div class="director-cnt row">
             <div class="col-md-12">
-              <h4 class="text-center" style="font-size:20px;">HarbourFront, Indiaâ€™s First Indigenous CDN On Cloud. Another 1st From Pi DATACENTERS </h4>
+              <h4 class="text-center" style="font-size:20px;">HarbourFront, India&#8217;s First Indigenous CDN On Cloud. Another 1st From Pi DATACENTERS </h4>
               <iframe class="youtube-al" src="https://www.youtube.com/embed/NxHgdxbgBqY">
               </iframe>
 

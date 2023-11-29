@@ -1,5 +1,3 @@
-
-
 <?php include('php/includes-techsters/header.php'); ?>
 
 <?php
@@ -24,6 +22,10 @@ if ($conn->connect_error) {
     width: 185px;
     margin-left: auto;
     padding-top: 30px;
+  }
+
+  #myBtn2 {
+    display: none;
   }
 </style>
 <!-- main starts here -->

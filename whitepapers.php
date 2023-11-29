@@ -1,6 +1,6 @@
 
 <?php
-$seo_title = "pi-cloud®";
+$seo_title = "Whitepapers";
 $seo_description = "";
 $seo_keywords = "";
 ?>
