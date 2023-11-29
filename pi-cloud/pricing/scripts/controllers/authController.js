@@ -22,7 +22,7 @@
         //     "country_code": "+91",
         //     "mobile": "5467891324",
         // };
-        debugger;
+        // debugger;
         $scope.address = {};
         // $scope.testaddress = {
         //     "country": "Egypt", 
@@ -36,20 +36,20 @@
         //$scope.address = $scope.testaddress;
         // var countriesss = pistoreServies.getcountries(); 
 
-        // debugger;
+        // // debugger;
         $scope.countries = function (cntr, stt) {
             if (cntr && stt) {
                 $scope.address.country = cntr;
                 $scope.address.state = stt;
             }
             pistoreServies.getcountries().then(function (result) {
-                debugger;
+                // debugger;
                 $scope.countries = result;
 
                 var cntry = $scope.address.country || "India";
 
                 pistoreServies.getStatesServices(cntry).then(function (result) {
-                    debugger;
+                    // debugger;
                     $scope.states = result;
                     $scope.address.state = result[0];
                     if (cntr && stt) {
@@ -90,7 +90,7 @@
             $scope.verifyemail = user.email;
             pistoreServies.loginService(user).then(function (result) {
                 // console.log('loginresult ', result);
-                debugger;
+                // debugger;
                 if (result.status_code == 200) {
                     $scope.errormsg = {};
                     $scope.addressBlock = true;
@@ -153,7 +153,7 @@
                 $('#mydiv').hide();
                 $scope.loaderDiv = false;
                 // console.log('error ', result); 
-                debugger;
+                // debugger;
                 var errorCode = result.data.error.errors;
                 // else{
                 // $scope.errormsg.emailerror = errorCode.email[0];
@@ -172,7 +172,7 @@
             $scope.states = {};
             $scope.originerror = '';
             pistoreServies.getStatesServices(state).then(function (result) {
-                debugger;
+                // debugger;
                 $scope.states = result;
                 $scope.address.state = result[0];
             }, function (result) {
@@ -186,7 +186,7 @@
             $('#mydiv').show();
             $scope.loaderDiv = true;
             pistoreServies.addressServices(address).then(function (result) {
-                debugger;
+                // debugger;
                 // console.log(result);
                 $scope.$emit('authcall');
                 $('#mydiv').hide();
@@ -195,7 +195,7 @@
         }
 
         $scope.sendmail = function (mail) {
-            debugger;
+            // debugger;
             $('#mydiv').show();
             $scope.loaderDiv = true;
             pistoreServies.forgotServices(mail).then(function (result) {
@@ -214,7 +214,7 @@
         $scope.createpassword = function (cpass) {
                 $('#mydiv').show();
                 $scope.loaderDiv = true;
-            debugger;
+            // debugger;
             pistoreServies.cpassServices(cpass).then(function (result) {
                 // $scope.newpassBlock = false;
                 // $scope.loginBlock = true;

@@ -20,7 +20,7 @@
         if (getId) {
             pistoreServies.getPrchaged(getId).then(function (result) {
                 // console.log('purchased ', result);
-                debugger;
+                // debugger;
                 $scope.items = result.message.order.products;
                 $scope.purchasedDetails = result.message.order;
                 $scope.base_total = 0;

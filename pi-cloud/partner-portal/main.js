@@ -6165,7 +6165,7 @@ var SowAddEditComponent = /** @class */ (function () {
             var body = JSON.stringify({ reference_id: this.partnerRefNo });
             this.http.post(this.apiservice.getAccountInfo(), body, httpOptions).subscribe(function (data) {
                 _this.listofAccount = data;
-                debugger;
+                // debugger;
                 for (var i = 0; i < _this.listofAccount.acc_records.length; i++) {
                     _this.filteredBrands.push(_this.listofAccount['acc_records'][i]);
                     _this.filteredOptions = _this.control.valueChanges

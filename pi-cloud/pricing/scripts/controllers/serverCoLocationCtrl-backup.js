@@ -59,7 +59,7 @@
         });
 
         $scope.changeTenure = function (ser) {
-            // debugger;
+            // // debugger;
             // $scope.tenureIndex = $scope.tenures.indexOf(ser);
             // var tenureIndex = $scope.tenureIndex;
 
@@ -78,7 +78,7 @@
         $scope.getDiscount = function (tenure, beforedeoscount) {
             // $scope.monthlycost = beforedeoscount;
             var discountPercentage;
-            debugger;
+            // debugger;
             if (tenure > 1) {
 
                 for (i = 0; i <= $scope.databaseDiscount.length - 1; i++) {
@@ -100,7 +100,7 @@
         }
 
         var getTotal = function () {
-            debugger;
+            // debugger;
             $scope.rackspace = $scope.rackSpaceValues.name;
             $scope.power = $scope.sclpowerValues.name;
             $scope.datatransfername = $scope.datatransferValues.datatransfer;

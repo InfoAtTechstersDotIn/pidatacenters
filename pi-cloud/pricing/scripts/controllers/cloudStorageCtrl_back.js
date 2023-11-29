@@ -111,7 +111,7 @@
             getTotal();
         }
         $scope.changeTenure = function (ser) {
-            debugger;
+            // debugger;
             $scope.tenureIndex = $scope.tenures.indexOf(ser);
             var tenureIndex = $scope.tenureIndex;
 
@@ -123,7 +123,7 @@
         // $scope.getDiscount = function (tenure, beforedeoscount) {
         //     // $scope.monthlycost = beforedeoscount;
         //     var discountPercentage;
-        //     debugger;
+        //     // debugger;
         //     if (tenure > 1) {
 
         //         for (i = 0; i <= $scope.databaseDiscount.length - 1; i++) {
@@ -146,7 +146,7 @@
         // }
 
         // var getMonthlyCost = function(c){
-        //     debugger;
+        //     // debugger;
         //     $scope.getDiscount(c, $scope.datatransferPrice);
 
         //     $scope.dismonthlycost = Number($scope.diskspacePrice) + Number($scope.afterDiscountDt);
@@ -155,7 +155,7 @@
         // }
         var getTotal = function () {
             // alert('gt');
-            debugger;
+            // debugger;
             // shortCode($scope.ser[seriesname], $scope.tenureIndex);
 
             var sendqt = {};
@@ -208,7 +208,7 @@
 
 
         $scope.submitfn = function (ser) {
-            debugger;
+            // debugger;
             var getqt = getTotal();
  
             pistoreServies.addcart(getqt);
@@ -219,7 +219,7 @@
 /*
 
          $scope.$on('cloudstoragecarttenure', function(e, msg){
-            debugger;
+            // debugger;
             var index = msg.message.indexNumber;
             var tn = msg.message.tn;
             var months = msg.message.tn.months;
@@ -227,7 +227,7 @@
             // $scope.ser[storagename].selectTenure = tn;
             // tn = tn.shift();
            // console.log('cloudstoragecarttenure ', msg);
-            debugger;
+            // debugger;
             $scope.cartItems = pistoreServies.cartList();
             $scope.list = $scope.cartItems[index];
             $scope.diskSpace = $scope.list.diskspace;
@@ -251,7 +251,7 @@
                 // $scope.tenures = result.tenure;
                 if(subplan){
                     for(i=0;i<=$scope.databaseDsValues[subplan].length-1;i++){
-                        debugger;
+                        // debugger;
                         if($scope.databaseDsValues[subplan][i].name == $scope.diskSpace){
                             $scope.val = i;
                             $scope.diskspacePrice = $scope.databaseDsValues[subplan][i-1].values[tenureIndex].tenure_price
@@ -261,7 +261,7 @@
                 }
 
                 for(i=0;i<=$scope.databaseDtValues.length-1;i++){
-                    debugger;
+                    // debugger;
                     if($scope.databaseDtValues[i].datatransfer == $scope.datatransfer){
                         $scope.datatransferPrice = $scope.databaseDtValues[i].price;
                         
@@ -276,7 +276,7 @@
 
             // var a= $scope.val-1;
             // var b = tenureIndex;
-debugger;
+// debugger;
             // $scope.diskspacePrice = $scope.ser[storagename].selectDiskspace[a].values[b].tenure_price;
             // $scope.diskspacePrice = $scope.databaseDsValues[driveDetails.value]
             // $scope.datatransferPrice = $scope.databaseDtValues.selectDt.price;

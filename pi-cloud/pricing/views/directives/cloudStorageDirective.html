@@ -149,12 +149,24 @@
          </select>
       </div>
       <div class="form-group col-md-6">
+         <label  for="username" style="color: #2F1DAC;">Your Name</label>
+         <input type="text" name="username" class="form-control" placeholder="Your Name" required ng-model="ser[storagename].username" ng-change="changeUsername(ser[storagename].username)">
+      </div>
+      <div class="form-group col-md-6">
+         <label  for="useremail" style="color: #2F1DAC;">Email Address</label>
+         <input type="text" name="useremail" class="form-control" placeholder="Email Address" required ng-model="ser[storagename].useremail" ng-change="changeUseremail(ser[storagename].useremail)">
+      </div>
+      <div class="form-group col-md-6">
+         <label  for="userphone" style="color: #2F1DAC;">Phone</label>
+         <input type="tel" name="userphone" class="form-control" placeholder="Phone" required ng-model="ser[storagename].userphone" ng-change="changeUserphone(ser[storagename].userphone)">
+      </div>
+      <div class="form-group col-md-6">
          <h3 class="tmc" style="margin: 2px 6px 7px 0;font-size:16px;color: #2F1DAC;">Total Monthly Cost:
             <span>&#8377; {{displayMonthlycost}}</span>
          </h3>
          <!-- <div class="col-md-6 hidden-xs">&nbsp;</div> -->
          
-            <button style="width: 100%;" class="btn btn-primary" ng-click="submitfn(ser[seriesname])">ADD TO CART</button>
+            <button style="width: 100%;" class="btn btn-primary" ng-click="submitfn(ser[seriesname])">Checkout</button>
          
       </div>
 	  </div>

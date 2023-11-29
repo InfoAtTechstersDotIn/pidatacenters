@@ -87,7 +87,7 @@ $(".owl-carousel").owlCarousel({
         url: "caseStudiesFormSubmit",
         data: $("#caseStudiesForm").serialize(),
         success: function(e) {
-            debugger;
+            // debugger;
             // $("#caseStudiesForm").reset();
             $('#caseStudiesForm')[0].reset();
             var t = $.parseJSON(e);

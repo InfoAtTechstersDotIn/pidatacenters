@@ -1449,7 +1449,7 @@ var total_discount = parseFloat(disc);
 
 var inttax=parseInt((sum+otc-total_discount)*0.18);
 
-//debugger;
+//// debugger;
 
     $('.grandtrunk').text(inrFormat(intsum));
      //$('.granddiscount').text(inrFormat(total_discount));

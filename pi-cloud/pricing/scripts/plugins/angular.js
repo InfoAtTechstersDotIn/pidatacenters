@@ -14547,7 +14547,7 @@ function $LocationProvider() {
  * To reveal the location of the calls to `$log` in the JavaScript console,
  * you can "blackbox" the AngularJS source in your browser:
  *
- * [Mozilla description of blackboxing](https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Black_box_a_source).
+ * [Mozilla description of blackboxing](https://developer.mozilla.org/en-US/docs/Tools/// debugger/How_to/Black_box_a_source).
  * [Chrome description of blackboxing](https://developer.chrome.com/devtools/docs/blackboxing).
  *
  * Note: Not all browsers support blackboxing.

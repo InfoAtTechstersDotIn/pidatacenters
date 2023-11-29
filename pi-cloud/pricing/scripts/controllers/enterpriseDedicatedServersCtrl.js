@@ -175,7 +175,7 @@
         pistoreServies.getpriceValues(authrequest).then(function (result) {
             // console.log(result.e3Series);
             // console.log(result.e5Series);
-            debugger;
+            // debugger;
             var seriesCodes = [];
             seriesCodes['e3series'] = result.e3Series;
             seriesCodes['e5series'] = result.e5Series;
@@ -205,7 +205,7 @@
         });
 
         
-        debugger;
+        // debugger;
         $scope.ser = [];
         $scope.ser[seriesname] = {};
         
@@ -215,7 +215,7 @@
         $scope.sendqt['e5series'] = {};
         $scope.tenureIndex = 0;
         $scope.changeTenure = function (ser, index) {
-            debugger;
+            // debugger;
             $scope.tenureIndex = $scope.databseTenures.indexOf(ser.selectTenures);
             var tenureIndex = $scope.tenureIndex;
             shortCode(ser, tenureIndex);            
@@ -245,7 +245,7 @@
             getTotal();
         }
         $scope.changeRam = function (ser) {
-            debugger;
+            // debugger;
             if(ser.selectCores.value == "C6"){
                 $scope.ser[seriesname].selectRam = $scope.ramDrapdownlist[0];
             }else if(ser.selectCores.value == "C8"){
@@ -267,7 +267,7 @@
         }
 
         var getMonthlyCost = function(code, tenureIndex){
-            debugger;
+            // debugger;
             var scode = $scope.enterpriceValues[0][code];
             // console.log(scode);
             $scope.tenurePrice = scode[tenureIndex+1].tenure_price;
@@ -286,7 +286,7 @@
         }
 
         $scope.$on('enterprisecarttenure', function(e, msg){
-            debugger;
+            // debugger;
             var index = msg.message.indexNumber;
             var tn = msg.message.tn;
             // tn = tn.shift();
@@ -332,7 +332,7 @@
 
         var getTotal = function () {
             // alert('gt');
-            debugger;
+            // debugger;
             shortCode($scope.ser[seriesname], $scope.tenureIndex);
 
             $scope.datatransferPrice = $scope.ser[seriesname].selectDataTransfer.price;
