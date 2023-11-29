@@ -116,9 +116,9 @@ $seo_keywords = "";
                                 <a href="#" class="fonts"></a>
                             </li>
 
-                            <li class=""><a href="https://pidatacenters.com/"><i class="fa fa-home" style="color:black"></i></a></li>
+                            <li class=""><a href="https://pidatacenters.com/"><i class="fa fa-home" style="color:black;padding: 12px 6px;"></i></a></li>
 
-                            <li>
+                            <li class="tab-class">
                                 <!-- <a href="JavaScript:void(0);" class="drop-arrow ">
                                     DATA CENTER
 
@@ -155,10 +155,10 @@ $seo_keywords = "";
                                 </div>
                             </li>
 
-                            <li>
+                            <li class="tab-class">
                                 <a href="<?php echo $site_url ?>data-center-infrastructure-services.php">COLOCATION</a>
                             </li>
-                            <li>
+                            <li class="tab-class">
                                 <a href="<?php echo $site_url ?>cloud.php" class="drop-arrow">CLOUD</a>
                                 <div class="drop-down">
                                     <ul>
@@ -190,7 +190,7 @@ $seo_keywords = "";
                                     </ul>
                                 </div>
                             </li>
-                            <li>
+                            <li class="tab-class">
                                 <a href="#" class="drop-arrow">MANAGED SERVICES</a>
                                 <div class="drop-down">
                                     <ul>
@@ -212,7 +212,7 @@ $seo_keywords = "";
                                     </ul>
                                 </div>
                             </li>
-                            <li>
+                            <li class="tab-class">
                                 <a href="#" class="drop-arrow">PRODUCTS</a>
                                 <div class="drop-down">
                                     <ul>
@@ -231,7 +231,7 @@ $seo_keywords = "";
                                     </ul>
                                 </div>
                             </li>
-                            <li>
+                            <li class="tab-class">
                                 <a href="#" class="drop-arrow">PRICING</a>
                                 <div class="drop-down pricing_drop_down">
                                     <ul>
@@ -1230,7 +1230,7 @@ $seo_keywords = "";
             text-align: center;
             font-size: 32px;
             color: #76b543;
-            margin: 20px;
+            margin: 20px 20px 10px;
         }
 
         .content_1 {
@@ -2124,11 +2124,11 @@ $seo_keywords = "";
         }
 
         nav ul li {
-            padding: 12px 2px;
+            padding: 12px 0px;
         }
 
         nav ul {
-            padding: 0px 35px;
+            padding: 0px;
         }
 
         .footer-block ul li a:hover {
@@ -2151,6 +2151,53 @@ $seo_keywords = "";
 
         .card {
             box-shadow: 1px 0px 12px -6px #76b543;
+        }
+
+        nav {
+            padding: 0px;
+        }
+
+        nav ul li .drop-down ul li {
+            padding: 0px 5px !important;
+        }
+
+        /* .under-line {
+            display: block;
+            width: 80px;
+            height: 3px;
+            background: #f1cd8f;
+            margin: 20px auto;
+        } */
+
+        .under-line {
+            content: "";
+            display: block;
+            width: 6em;
+            max-width: 70%;
+            border-bottom: 3px solid #223f97;
+            margin: -2px auto 15px;
+        }
+
+        .header {
+            padding: 1px 0px !important;
+        }
+
+        .drop-arrow:before {
+            right: 5px;
+        }
+
+        .tab-class:hover::after {
+            width: 60%;
+        }
+
+        .tab-class::after {
+            content: "";
+            width: 0;
+            height: 2px;
+            background-color: #007bff;
+            display: block;
+            margin: auto auto auto 8px;
+            transition: 0.4s;
         }
     </style>
 
@@ -2178,6 +2225,7 @@ $seo_keywords = "";
 		Pi Datacenters take pride in offering comprehensive Multi Cloud Managed Services that empower your organization with unparalleled control, security, and efficiency in the digital realm. Our team of experts is dedicated to optimizing your cloud infrastructure, ensuring its performance, and safeguarding your data.
 	</p> -->
             <h2>Multi Cloud <span style="color: #76b543;">Management</span></h2>
+            <div class="under-line"></div>
             <p class="para">
                 Pi Datacenters takes pride in offering comprehensive Multi Cloud Managed Services that empower your organization with unparalleled control, security, and efficiency in the digital realm. Pi represents the foundation upon which your organization's digital dreams are realized. We don't just offer services; we offer solutions that redefine the very essence of cloud management. Our team of experienced experts is committed to your digital journey's success. We understand that in the digital world, control is not just an option; it's imperative. With Pi Datacenters, you gain the ability to harness unparalleled control over your cloud infrastructure.
 
@@ -2185,7 +2233,7 @@ $seo_keywords = "";
             <h2>Our Range Of <span style="color: #76b543;">Services</span></h2>
 
         </div>
-
+        <div class="under-line"></div>
 
 
         <div class="services content_1">
@@ -2422,6 +2470,7 @@ $seo_keywords = "";
 
         <div>
             <h1 class="text-center mt-5" style="padding:0px 0 0;color:#000;font-size:32px; margin-top: 90px;">Managed Services <span style="color: #76b543;"> Models</span></h1>
+            <div class="under-line"></div>
             <ul class="hb-productSec list-inline">
                 <li>
                     <div class="hb-leftCon hb_ppCont">

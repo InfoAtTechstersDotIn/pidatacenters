@@ -1,5 +1,5 @@
 <?php
-$seo_title = "Multicloud Managed Services";
+$seo_title = "Multi Cloud Managed Services";
 $seo_description = "";
 $seo_keywords = "";
 ?>
@@ -10,7 +10,7 @@ $seo_keywords = "";
 
 <style>
 	.hb-bannerImg h2 {
-		left: 4% !important;
+		left: 3% !important;
 		font-size: 45px !important;
 	}
 
@@ -1467,7 +1467,7 @@ $seo_keywords = "";
 					<ul class="hb-productSec list-inline">
 						<div class="hb-leftCont hb_ppCont">
 							<p style="text-align:center">
-								Provides different tiers of service levels based on the business's needs, ensuring that you pay only for the services you require.
+								Provides different tiers of service levels based on the business's needs, ensuring that you pay only for the services you require. 
 							</p>
 							<!--<span>
 			            				<img src="images/product-images/TIERED-MODEL.png" alt="advanced">
@@ -1493,7 +1493,7 @@ $seo_keywords = "";
 											<li> Proactive infrastructure monitoring and alerting</li>
 											<li> Monthly health reports and dashboards</li>
 
-											<li> Basic anti-virus and anti-malware support</li>
+											<li><span>&#187;</span> Basic anti-virus and anti-malware support</li>
 										</ul>
 									</div>
 								</div>
@@ -1504,7 +1504,7 @@ $seo_keywords = "";
 										<p>Know More</p>
 										<ul class="card-desc ">
 											<li> 24 X 7 support with 1 hour critical response</li>
-											<li> Advanced IT Support (OS Patching, OS Updates, OS Management, Virtual Machines, Virtual Machine scales, Availability Sets, Disks, Virtual Networks, WAF, Identity Management, Configuration Management, Incident Management, Problem Management, Change Management)</li>
+											<li> Advanced IT Support [OS Management (incl.Patching & Updates), VM Support, Availability Sets, Disks, Virtual Networks, WAF, Identity Management, Configuration Management, Incident Management, Problem Management, and Change Management]</li>
 											<li> Shared TAM and architect support</li>
 											<li> Unlimited backup, self-serve point-in-time restore</li>
 											<li> Proactive infrastructure monitoring and alerting</li>
@@ -1548,7 +1548,7 @@ $seo_keywords = "";
 
 							</div>
 							<div class="elastic-head">
-								<h2>Subscription Fee</h2>
+								<h2 style="margin-bottom: 10px;">Subscription Fee</h2>
 							</div>
 							<div class="elastic-content">
 								<p>Subscribe to the elastic model with a nominal monthly fee that provides access to all kinds of cloud services</p>
@@ -1561,7 +1561,7 @@ $seo_keywords = "";
 
 							</div>
 							<div class="elastic-head">
-								<h2>Pay-Per-Use</h2>
+								<h2 style="margin-bottom: 10px;">Pay-Per-Use</h2>
 							</div>
 							<div class="elastic-content">
 								<p>Pay only for the services used, and the billing is done only for the number of hours used</p>

@@ -25,7 +25,11 @@ if ($conn->connect_error) {
 }
 ?>
 
-
+<style>
+    #myBtn2 {
+        display: none;
+    }
+</style>
 <!-- main starts here -->
 <div class="about-banner">
     <div class="about-banner-blk">

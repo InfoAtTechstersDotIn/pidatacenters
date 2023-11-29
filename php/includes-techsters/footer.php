@@ -73,6 +73,9 @@ $site_url = "http://localhost/pidatacenters/"
                     <li>
                         <a href="https://twitter.com/Pi_DATACENTERS" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                     </li>
+                    <!-- <li>
+                        <a href="https://twitter.com/Pi_DATACENTERS" target="_blank"><i class="fa fa-x-twitter"></i></a>
+                    </li> -->
                 </div>
                 <div class="font_icons">
                     <li>

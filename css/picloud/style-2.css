@@ -8355,3 +8355,15 @@
     .security_page h2 {
         font-size: 40px !important;
     }
+
+    .slick-dots {
+        width: fit-content !important;
+    }
+
+    strong {
+        font-weight: normal;
+    }
+
+    .slick-slide {
+        height: auto !important;
+    }
