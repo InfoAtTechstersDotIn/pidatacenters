@@ -33,6 +33,25 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
         <div class="case-block-main greenshape">
             <ul class="row">
 
+                <!-- new blog -->
+                <li class="col-md-4">
+                    <div class="case-content">
+                        <figure>
+                            <img src="dashboard/uploads/Parnership-with-oracle.png" alt="blog-img-1" width="450" height="248">
+                        </figure>
+                        <!--<span class="date">23 Apr, 2022</span>-->
+                        <h4>Transforming Business Dynamics: The Pi-Oracle Strategic Partnership </h4>
+                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <p></p>
+                        <p><strong id="docs-internal-guid-3a909168-7fff-85f0-b0d7-6b3b1cb909b3">In the dynamic landscape of cloud computing and data management, the partnership between Pi Datacenters and Oracle emerges as a paradigm of innovation and reliability.</strong></p>
+                        <p></p>
+                        <a href="transforming-business-dynamics-the-pi-oracle-strategic-partnership.php" class="read-more">Read More</a>
+                        <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
+                        <!--<p><small>Share</small> 0 comment</p>-->
+                    </div>
+                </li>
+
+
 
                 <li class="col-md-4">
                     <div class="case-content">
@@ -604,31 +623,6 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                                     <p><small>Share</small> 0 comment</p>
                                  </div>
                              </li>-->
-
-
-
-                <!-- new blog -->
-                <li class="col-md-4">
-                    <div class="case-content">
-                        <figure>
-                            <img src="dashboard/uploads/Parnership-with-oracle.png" alt="blog-img-1" width="450" height="248">
-                        </figure>
-                        <!--<span class="date">23 Apr, 2022</span>-->
-                        <h4>Transforming Business Dynamics: The Pi-Oracle Strategic Partnership </h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
-                        <p></p>
-                        <p><strong id="docs-internal-guid-3a909168-7fff-85f0-b0d7-6b3b1cb909b3">In the dynamic landscape of cloud computing and data management, the partnership between Pi Datacenters and Oracle emerges as a paradigm of innovation and reliability.</strong></p>
-                        <p></p>
-                        <a href="transforming-business-dynamics-the-pi-oracle-strategic-partnership.php" class="read-more">Read More</a>
-                        <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
-                        <!--<p><small>Share</small> 0 comment</p>-->
-                    </div>
-                </li>
-
-
-
-
-
 
 
             </ul>

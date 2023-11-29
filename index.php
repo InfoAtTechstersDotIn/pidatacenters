@@ -245,6 +245,10 @@
         .great-rtt .slick-slide {
             text-align: center !important;
         }
+
+        .slick-dots {
+            width: fit-content !important;
+        }
     </style>
     <script>
         (function(w, d) {

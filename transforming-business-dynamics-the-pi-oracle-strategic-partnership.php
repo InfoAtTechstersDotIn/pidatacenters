@@ -42,6 +42,7 @@ if ($conn->connect_error) {
             <img src="dashboard/uploads/Parnership-with-oracle.png" alt="blog-1-img" width="450" height="248">
             <p></p>
             <p dir="ltr">In the dynamic landscape of cloud computing and data management, the partnership between Pi Datacenters and Oracle emerges as a paradigm of innovation and reliability. This collaboration brings forth a complete cloud solution, seamlessly integrating core and edge capabilities to fulfill the diverse expectations of users, including customers, partners, and employees. </p>
+            <p dir="ltr">This also enables organizations to harness the power of cloud computing for enhanced scalability, security, and performance. The integrated solution offers a comprehensive suite of services, empowering businesses to streamline their operations and drive digital transformation. </p>
 
             <p style="font-size: 25px;"><b>The Pi-Oracle Cloud Ecosystem </b></p>
             <p><b>Core Infrastructure and Services: </b></p>
