@@ -1242,6 +1242,18 @@ $seo_keywords = "";
     .read ul {
         text-align: left;
     }
+
+    .card img {
+        padding: 0px;
+    }
+
+    .card {
+        min-height: 343px;
+    }
+
+    .card-title {
+        margin-bottom: 0;
+    }
 </style>
 
 <div class="picloud_pages">
@@ -1586,7 +1598,7 @@ $seo_keywords = "";
                                 <div class="col-md-4">
                                     <div class="card">
                                         <h2 class="card-title">ESSENTIALS</h2>
-                                        <img src="./images/managed-services-icons/essesntials-new.png" alt="">
+                                        <img src="./images/cloud-essentials-3.png" alt="">
                                         <p>Know More</p>
                                         <ul class="card-desc ">
                                             <li><span>&#187;</span> 24 X 7 support with 2 hours critical response</li>
@@ -1602,7 +1614,7 @@ $seo_keywords = "";
                                 <div class="col-md-4">
                                     <div class="card">
                                         <h2 class="card-title">ADVANCED</h2>
-                                        <img src="./images/managed-services-icons/Advanced-new.png" alt="">
+                                        <img src="./images/cloud-advanced-4.png" alt="">
                                         <p>Know More</p>
                                         <ul class="card-desc ">
                                             <li><span>&#187;</span> 24 X 7 support with 1 hour critical response</li>
@@ -1618,7 +1630,7 @@ $seo_keywords = "";
                                 <div class="col-md-4">
                                     <div class="card">
                                         <h2 class="card-title">PREMIUM</h2>
-                                        <img src="./images/managed-services-icons/Premium-New.png" alt="">
+                                        <img src="./images/cloud-premium-2.png" alt="">
                                         <p>Know More</p>
                                         <ul class="card-desc">
                                             <li><span>&#187;</span> 24 X 7 support with 30 minutes critical response</li>
