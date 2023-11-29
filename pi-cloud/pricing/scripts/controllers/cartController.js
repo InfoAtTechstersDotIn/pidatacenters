@@ -39,7 +39,7 @@
         }
         // var refreshToken = localStorage.getItem('refresh_token');
         // if(refreshToken){
-        //     debugger;
+        //     // debugger;
         //     var exp = jwtHelper.isTokenExpired(refreshToken);
         //     if(exp){
         //         pistoreServies.getToken(refreshToken).then(function(result){
@@ -74,7 +74,7 @@
         if (saveId) {
             pistoreServies.getSaveOrder(saveId).then(function (result) {
                 // console.log('from saved ', result);
-                debugger;
+                // debugger;
                 $scope.items = result.message.order_details.products;
                 $scope.checkoutbtn($scope.items);
             })
@@ -97,13 +97,13 @@
 
             if($scope.servername == 'Cloud Servers'){
                 item.quantity > 0 ? item.quantity = Number(item.quantity) + 1 : 1;
-                debugger;
+                // debugger;
                 item.amount = (Math.round(item.monthlycost || item.api_monthly_price) * Number(item.quantity) * Number(item.tenure))+Number(item.MigrationToolOtcPrice);
                 $scope.checkoutbtn($scope.items);
             }
             else{
                 item.quantity > 0 ? item.quantity = Number(item.quantity) + 1 : 1;
-                debugger;
+                // debugger;
                 item.amount = (Math.round(item.monthlycost || item.api_monthly_price) * Number(item.quantity) * Number(item.tenure));
                 $scope.checkoutbtn($scope.items);  
             }
@@ -116,14 +116,14 @@
             if($scope.servername == 'Cloud Servers'){
 
                 item.quantity > 1 ? item.quantity = Number(item.quantity) - 1 : 1;
-                debugger;
+                // debugger;
                 item.amount = (Math.round(item.monthlycost || item.api_monthly_price) * Number(item.quantity) * Number(item.tenure))+Number(item.MigrationToolOtcPrice);
                 $scope.checkoutbtn($scope.items);
             }
 
             else{
                 item.quantity > 1 ? item.quantity = Number(item.quantity) - 1 : 1;
-                debugger;
+                // debugger;
                 item.amount = (Math.round(item.monthlycost || item.api_monthly_price) * Number(item.quantity) * Number(item.tenure));
                 $scope.checkoutbtn($scope.items);
             }
@@ -213,9 +213,9 @@
               "notes": "Total bill is for the period of three years in full."
             }
           ]
-        debugger;
+        // debugger;
         $scope.changeCartTenurelol = function (tn, index) {
-            debugger;
+            // debugger;
             if (!tn) {
                 $scope.items = pistoreServies.cartList();
                 tn = {};
@@ -258,7 +258,7 @@
             } else {
                 var tenureIndex = $scope.tenureindexid(tn.name);
             }
-            debugger;
+            // debugger;
             $scope.modify = {
                 indexNumber: index,
                 tn: tn,
@@ -299,7 +299,7 @@
             $scope.items[index].grandTotalTenurePostText = $scope.grandTotalTenurePostText;
 
             $scope.items[index].notes = tn.notes;
-            debugger;
+            // debugger;
             // $scope.checkoutbtn($scope.items);
         }
 
@@ -310,7 +310,7 @@
             authrequest.sendserver = 'cloud-servers';
             pistoreServies.getpriceValues(authrequest).then(function (result) {
                 // console.log("result is ", result);
-                debugger;
+                // debugger;
                 $scope.databaseDiscount = result['discount'];
                 $scope.items[index].serverdiscount = result['discount'];
 
@@ -401,7 +401,7 @@
             authrequest.sendserver = 'enterprise-dedicated-servers';
             pistoreServies.getpriceValues(authrequest).then(function (result) {
                 // console.log("result is ", result);
-                debugger;
+                // debugger;
                 $scope.items[index].seriesplans = result[gp][0][enterprisePlan];
 
                 $scope.changeEnterpriseServerTnures(index, tn, enterprisePlan, tenureIndex);
@@ -436,7 +436,7 @@
             drivename = drivename.replace(" ", "_");
             pistoreServies.getpriceValues(authrequest).then(function (result) {
                 // console.log("result is ", result);
-                debugger;
+                // debugger;
                 // $scope.items[index].storagediskspace = result['diskspace'][drivename][0];
 
                 $scope.databaseDiscount = result['discount'];
@@ -463,7 +463,7 @@
 
 
         $scope.checkoutbtn = function (checkitems) {
-            debugger;
+            // debugger;
             // if (!checkitems || checkitems.length <= 0) {
             //     // $window.location.href = 'cloudServers';
             //     return false;
@@ -471,12 +471,12 @@
             // var sendqt = {};
             // var otctotal = total = discount_total = afterdiscount = tax = grandTotal = 0;
             // angular.forEach(checkitems, function (eachitem) {
-            //     debugger;
+            //     // debugger;
             //     total += Number(eachitem.amount);
             //     if (eachitem.otc) {
             //         otctotal += Number(eachitem.otc);
             //     } 
-            //     debugger;
+            //     // debugger;
             //     var eachnotes = $scope.tenureindexid(eachitem.tenure);
             //     eachitem.notes = $scope.tenures[eachnotes].notes;
             //     eachitem.name = $scope.tenures[eachnotes].name;
@@ -491,7 +491,7 @@
             // $scope.total_tax = Math.round(tax);
             // $scope.grand_total = Math.round(grandTotal);
 
-            debugger;
+            // debugger;
             // if (!checkitems) {
             //     return false;
             // }
@@ -509,7 +509,7 @@
             // // console.log("$rootScope.users : " + $rootScope.users);
             angular.forEach(checkitems, function (eachitem) {
                 // // console.log('each ', eachitem.plan_price);eachitem.api_otc_total
-                debugger;
+                // debugger;
 
                 totalmsme += parseInt(eachitem.monthlycost) * parseInt(eachitem.quantity);
 
@@ -549,7 +549,7 @@
         }
 
         $scope.tenureindexid = function (tm) {
-            debugger;
+            // debugger;
             for (i = 0; i <= $scope.tenures.length - 1; i++) {
                 if ($scope.tenures[i].name == tm) {
                     var opo = $scope.tenures[i];
@@ -568,7 +568,7 @@
         $scope.removeProduct = function ($index, e, checkitems) {
             e.preventDefault();
             e.stopPropagation();
-            debugger;
+            // debugger;
             var cartList = checkitems.splice($index, 1);
             pistoreServies.removeItemCart(checkitems);
             if (!checkitems || checkitems.length <= 0) {
@@ -587,7 +587,7 @@
         //   };
 
         $scope.paynow = function (checkitems) {
-            debugger;
+            // debugger;
             // $scope.checkRemainLimit = $rootScope.msme_limt_details;
             if ($scope.terms == true) {
                 pistoreServies.removeItemCart(checkitems);
@@ -602,7 +602,7 @@
        $scope.loaderDiv = false;
 
         $scope.saveOrder = function (checkitems) {
-            debugger;
+            // debugger;
 
             if (!checkitems || checkitems.length < 1) {
                 $scope.emptyCartCC = true;

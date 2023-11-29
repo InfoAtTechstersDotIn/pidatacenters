@@ -10,9 +10,9 @@
         // jwtInterceptorProvider.tokenGetter = function(jwtHelper, $http, pistoreServies) {
         //     var refreshToken = localStorage.getItem('refresh_token');
         //     if (refreshToken && jwtHelper.isTokenExpired(refreshToken)) {
-        //         debugger;
+        //         // debugger;
         //         pistoreServies.getToken(refreshToken).then(function(result){
-        //             debugger;
+        //             // debugger;
         //             console.log('newtk ', result);
         //         })
         //     } 
@@ -54,7 +54,7 @@
                 cache: false,
                 controller: "cartController",                
                 resolve:{ lol:function($location, $rootScope) {
-                    debugger;
+                    // debugger;
                     $rootScope.users = false;
                     // var lol = localStorage.getItem('userdetails');
                     // if (!lol) {
@@ -65,7 +65,7 @@
             //     checktn:function(jwtHelper, pistoreServies){
             //         var refreshToken = localStorage.getItem('refresh_token');
             //         if(refreshToken){
-            //             debugger;
+            //             // debugger;
             //             var exp = jwtHelper.isTokenExpired(refreshToken);
             //             if(exp){
             //                 pistoreServies.getToken(refreshToken).then(function(result){
@@ -85,11 +85,11 @@
                 //     checktn:function(jwtHelper, pistoreServies){
                 //         var refreshToken = localStorage.getItem('refresh_token');
                 //         if(refreshToken){
-                //             debugger;
+                //             // debugger;
                 //             var exp = jwtHelper.isTokenExpired(refreshToken);
                 //             if(exp){
                 //                 pistoreServies.getToken(refreshToken).then(function(result){
-                //                     debugger;
+                //                     // debugger;
                 //                     console.log('newtk ', result);
                 //                 })
                 //             }
@@ -117,7 +117,7 @@
     app.run(function(){
         // var refreshToken = localStorage.getItem('refresh_token');
         // if(refreshToken){
-        //     debugger;
+        //     // debugger;
         //     refreshToken = JSON.parse(refreshToken);
         //     jwtInterceptorProvider.tokenGetter = function(jwtHelper, $http) {
         //         var config = {
@@ -128,7 +128,7 @@
                 
         //         if (jwtHelper.isTokenExpired(refreshToken)) {
         //             return $http.get('https://pricing.pidatacenters.com/priceimport/webservices/public/api/refresh', refreshToken, config).then(function(response) {
-        //                 debugger;
+        //                 // debugger;
         //                 // localStorage.setItem('refresh_token', response.data.token);
         //                 return response.data;
         //             });

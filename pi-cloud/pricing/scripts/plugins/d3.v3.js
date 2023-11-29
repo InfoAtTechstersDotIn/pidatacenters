@@ -6582,7 +6582,7 @@ d3 = function() {
     }, ya.svg.axis = function() {
         function n(n) {
             n.each(function() {
-                debugger;
+                // debugger;
                 var n, f = ya.select(this),
                     h = null == l ? e.ticks ? e.ticks.apply(e, c) : e.domain() : l,
                     g = null == t ? e.tickFormat ? e.tickFormat.apply(e, c) : String : t,

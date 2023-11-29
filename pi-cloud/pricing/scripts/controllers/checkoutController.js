@@ -21,7 +21,7 @@
 
 
         $scope.checkoutbtn = function (checkitems) {
-            debugger;
+            // debugger;
             var authDetails = localStorage.getItem('userdetails');
 
             if (!authDetails) {
@@ -37,7 +37,7 @@
             var otctotal = total = discount_total = afterdiscount = tax = grandTotal = 0;
             angular.forEach(checkitems, function (eachitem) {
                 // // console.log('each ', eachitem.plan_price);
-                debugger;
+                // debugger;
 
                 total += parseInt(eachitem.amount);
                 if (eachitem.otc) {
@@ -81,12 +81,12 @@
         $scope.removeProduct = function ($index, e, checkitems) {
             e.preventDefault();
             e.stopPropagation();
-            debugger;
+            // debugger;
             var cartList = checkitems.splice($index, 1);
             pistoreServies.removeItemCart(checkitems);
             $scope.checkoutbtn(checkitems);
             // console.log('checklist ', cartList);
-            debugger;
+            // debugger;
             $scope.finalcart(checkitems);
         }
         $scope.paymethod = "online";
@@ -94,17 +94,17 @@
         $scope.finalcart = function (items, msg) {
             if (items.length > 0) {
 
-                debugger;
+                // debugger;
                 var refreshToken = localStorage.getItem('refresh_token');
                 var oldtoken = refreshToken;
-                debugger;
+                // debugger;
                 var exp = jwtHelper.isTokenExpired(refreshToken);
                 // var refreshToken = localStorage.getItem('refresh_token');
 
                 if (exp) {
                     // checktoken();
                     pistoreServies.getToken(refreshToken).then(function (result) {
-                        debugger;
+                        // debugger;
                         // console.log('newtk ', result);
                         $scope.newpaymentservice(items, msg);
 
@@ -138,10 +138,10 @@
                 fcart.grand_total = $scope.api_grand_total;
                 // fcart.promocode = $scope.promocode;         
             }
-            debugger;
+            // debugger;
             // console.log('fcart ', JSON.stringify(fcart));
             pistoreServies.paymentServices(fcart).then(function (result) {
-                debugger;
+                // debugger;
                 // console.log(result);
                 // if(result.message.order_details.api_total == 0){
                 //     alert('Invalid Promo Code');

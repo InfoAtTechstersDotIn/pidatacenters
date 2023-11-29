@@ -51,7 +51,7 @@
         strokeDashoffset: pct
       });
     }
-    // debugger;
+    // // debugger;
     var fn2 = $.fn.roundSlider.prototype._changeSliderValue;
     $.fn.roundSlider.prototype._changeSliderValue = function (val, deg) {
       fn2.apply(this, arguments);

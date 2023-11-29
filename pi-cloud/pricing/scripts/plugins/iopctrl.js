@@ -1,5 +1,5 @@
 iopctrl = function() {
-    // debugger;
+    // // debugger;
     var iopctrl = {
         version: "0.0.2"
     };
@@ -99,9 +99,9 @@ iopctrl = function() {
         
         function ledarray(g)
         {
-            debugger
+            // debugger
             g.each(function() {
-                debugger;
+                // debugger;
                 var g = d3.select(this);
                 var extent = iopctrl_scaleExtent(scale);
                 var e = extent[1] - extent[0];
@@ -133,7 +133,7 @@ iopctrl = function() {
             });
         }
         ledarray.value = function(x) {
-            debugger;
+            // debugger;
             if (!arguments.length) return value;
             value = x;
             var r = scale(x);
@@ -746,7 +746,7 @@ iopctrl = function() {
         g.append("path").attr("d", "M0 " + -0.7 * r + " L 0 " + -0.98 * r + "");
     };
     iopctrl.defaultGaugeIndicator = function(g, r) {
-        debugger;
+        // debugger;
        // g.append("path").attr("d", "M0 " + 0.2 * r + " L 0 " + -1.05 * r + "");
        g.append("defs").attr("id", "def").html('<radialGradient id="grad1" cx="80%" cy="50%" r="90%" fx="50%" fy="90%"><stop offset="0%" stop-color="#700201" /><stop offset="50%" stop-color="#a81317" /></radialGradient>')
       // g.append("lineargradient").attr("id", "grad1").html('<stop offset="0" stop-color="blue" /><stop offset="1" stop-color="red" />');
@@ -769,7 +769,7 @@ iopctrl = function() {
 
                 _scale = width / (gap * digitCount +  50);
                 //var height= 200 * _scale;
-                debugger;
+                // debugger;
                 var disp = g.selectAll(".digit").data(digits);
                 _dispUpdate = (disp.enter().append("g").attr("class", "digit"), d3.transition(disp));
 
@@ -987,7 +987,7 @@ iopctrl = function() {
                     , textEnter = tickEnter.select("text")
                     , textUpdate = tickUpdate.select("text")
                     , textTransform;
-                    debugger;
+                    // debugger;
                     var j = textUpdate[0].length;
                     for(var i=0; i<j; i++){
                        var inn = textUpdate[0][i].innerHTML;

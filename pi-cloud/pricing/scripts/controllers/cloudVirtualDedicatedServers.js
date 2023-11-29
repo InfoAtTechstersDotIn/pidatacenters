@@ -311,12 +311,12 @@
     // authrequest.customer_id = "000141";
     authrequest.sendserver = $scope.sname;
     $scope.naomi = ['1', '2', '3'];
-    debugger;
+    // debugger;
 
     $scope.databaseDiskPrice = [];
     pistoreServies.getpriceValues(authrequest).then(function (result) {
       console.log("result isasdasf ", JSON.stringify(result));
-      debugger;
+      // debugger;
       $scope.databaseCpuValues = result['cpu'];
       $scope.databaseRamValues = result['ram'];
       $scope.databaseDiskValues = result['diskspace'];
@@ -397,7 +397,7 @@
       // if (val == 1) {
       //   $("#ram").roundSlider("option", "value", 1);
       // } else if (val == 2 || val == 3) {
-      //   // debugger;
+      //   // // debugger;
       //   if ($.inArray(rval, [2, 3]) <= -1) {
       //     $("#ram").roundSlider("option", "value", 2);
       //   }
@@ -410,7 +410,7 @@
       //     $("#ram").roundSlider("option", "value", 4);
       //   }
       // }
-      // debugger;
+      // // debugger;
       // // $scope.$apply();      
       // getTotal();
       // changeCpuRam();
@@ -442,7 +442,7 @@
       //     $("#cpucores").roundSlider("option", "value", 5);
       //   }
       // }
-      // debugger;
+      // // debugger;
 
       // // $scope.$apply();      
       // getTotal();
@@ -482,7 +482,7 @@
 
 
     // $scope.oschange = function(selectos){
-    //     debugger;
+    //     // debugger;
     //   console.log(selectos);
     //   // $scope.chooseos = os;
     // }
@@ -572,7 +572,7 @@
     }
 
     $scope.changeTenure = function (ser) {
-      debugger;
+      // debugger;
       $scope.ser[storagename].selectTenure = ser
 
        if ($scope.ser[storagename].selectTenure.name == "1 year (Quarterly Advance)") {
@@ -702,7 +702,7 @@
 
     var getTotal = function () {
 
-      debugger;
+      // debugger;
 
       $scope.cpuPrice = $scope.cpuValues.price || $scope.databaseCpuValues[1].price;
       $scope.ramPrice = $scope.ramValues.price || $scope.databaseRamValues[1].price;
@@ -918,7 +918,7 @@
 
     /*  $scope.$on('cloudserverscarttenure', function (e, msg) {
         console.log('from cld ', msg);
-        debugger;
+        // debugger;
         var index = msg.message.indexNumber;
         var tn = msg.message.tn;
         $scope.cartItems = pistoreServies.cartList();

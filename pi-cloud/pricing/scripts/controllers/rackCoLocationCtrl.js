@@ -93,7 +93,7 @@
         });
 
         var updateqt = function(){
-            debugger;
+            // debugger;
             $scope.rackspace = $scope.rackSpaceValues;
             $scope.power = $scope.rclpowerValues;
             $scope.datatransfername = $scope.datatransferValues + "GB";
@@ -104,7 +104,7 @@
         // $scope.getqt = function(){
             
         $scope.getqt = function (checkitems) {
-            debugger;
+            // debugger;
             // $scope.checkoutbtn(checkitems);
             var authDetails = localStorage.getItem('userdetails');
             if (!authDetails) {
@@ -122,7 +122,7 @@
         }
 
         $scope.submitqt = function (qtUser) {
-            debugger;
+            // debugger;
             var saveOrderDetails = {};
             saveOrderDetails = qtUser;
             var gtqtitems = {};
@@ -141,7 +141,7 @@
             var lol = JSON.stringify(saveOrderDetails);
             pistoreServies.getquote(lol).then(function (result) {
                 // console.log('getquote ', result);
-                debugger;
+                // debugger;
                 $scope.qtRegister = true;
                 $scope.authSaveOrder = true;
                 $scope.returnMessage = true;

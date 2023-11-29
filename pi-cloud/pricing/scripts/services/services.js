@@ -39,7 +39,7 @@ piService.getpriceValues = function (data) {
 
     piService.addcart = function (data) {
       // data = JSON.stringify(data);
-      debugger;
+      // debugger;
       var local = localStorage.getItem('localStorageCart');
       if (data.status == 'update') {
         local = JSON.parse(local);
@@ -71,7 +71,7 @@ piService.getpriceValues = function (data) {
     }
 
     piService.removeItemCart = function (data) {
-      debugger;
+      // debugger;
       // console.log('remove ', data);
       // cartItems.length = 0;
       cartItems = data;
@@ -105,23 +105,23 @@ piService.getpriceValues = function (data) {
     piService.regService = function (data) {
       // var jsondata = JSON.stringify(data);
       return $http.post(authhost + 'signupweb', data).then(function (response) { 
-        debugger;
+        // debugger;
         return response.data;
       })
     }
     var pop = [];
     piService.getcountries = function () {
-      debugger;
+      // debugger;
       var authToken = localStorage.getItem('refresh_token');
       // // console.log(authToken);
       // authToken = JSON.parse(authToken);
       if (authToken) {
         config.headers.Authorization = authToken;
       }
-      debugger;
+      // debugger;
       // console.log('config ', config);
       return $http.get(host + 'countries', config).then(function (response) {
-        debugger;
+        // debugger;
         // console.log(response);
         return response.data;
         // return pop;
@@ -140,13 +140,13 @@ piService.getpriceValues = function (data) {
       send.country_name = state;
 
       return $http.post(host + 'states', send, config).then(function (response) {
-        debugger;
+        // debugger;
         return response.data;
       })
     }
 
     piService.addressServices = function (address) {
-      debugger;
+      // debugger;
       var authToken = localStorage.getItem('refresh_token');
       // console.log(authToken);
       // authToken = JSON.parse(authToken);
@@ -155,7 +155,7 @@ piService.getpriceValues = function (data) {
       }
 
       return $http.post(host + 'user/address', address, config).then(function (response) {
-        debugger;
+        // debugger;
         return response.data;
       })
     }
@@ -163,21 +163,21 @@ piService.getpriceValues = function (data) {
     piService.forgotServices = function (mail) {
 
       return $http.post(host + 'auth/recovery', mail).then(function (response) {
-        debugger;
+        // debugger;
         return response.data;
       })
     }
     piService.cpassServices = function (cpass) {
 
       return $http.post(host + 'auth/forgot-password', cpass).then(function (response) {
-        debugger;
+        // debugger;
         return response.data;
       })
     }
 
     piService.getPrchaged = function (oId) {
       return $http.get(host + 'order/' + oId).then(function (response) {
-        debugger;
+        // debugger;
         return response.data;
       })
     }
@@ -189,7 +189,7 @@ piService.getpriceValues = function (data) {
 
     piService.verifyRegCodeServices = function (rcode) {
       return $http.post(host + 'auth/verification', rcode).then(function (response) {
-        debugger;
+        // debugger;
         return response.data;
       })
     }
@@ -198,13 +198,13 @@ piService.getpriceValues = function (data) {
 
     var paymentId = '';
     piService.paymentServices = function (fcart) {
-      debugger;
+      // debugger;
       var authToken = localStorage.getItem('refresh_token');
       // authToken = JSON.parse(authToken);
       if (authToken) {
         config.headers.Authorization = authToken;
       }
-      debugger;
+      // debugger;
       // var pyatn = piService.getToken();
 
       // if(pyatn != authToken){
@@ -224,7 +224,7 @@ piService.getpriceValues = function (data) {
 
     piService.saveOrderItems = function (saveitems) {
       return $http.post(host + 'save-order', saveitems).then(function (response) {
-        debugger;
+        // debugger;
         return response.data;
       })
     }
@@ -240,7 +240,7 @@ piService.getpriceValues = function (data) {
 
     piService.getSaveOrder = function (id) {
       return $http.get(host + 'save-order?p_id=' + id).then(function (response) {
-        debugger;
+        // debugger;
         return response.data;
       })
     }
@@ -252,7 +252,7 @@ piService.getpriceValues = function (data) {
       }
       // console.log('old ', authToken);
       return $http.get(host + 'refresh', config).then(function (response) {
-        debugger;
+        // debugger;
         localStorage.removeItem('refresh_token');
         localStorage.setItem('refresh_token', response.headers().authorization);
         // console.log('new ', response.headers().authorization);
@@ -263,7 +263,7 @@ piService.getpriceValues = function (data) {
     piService.resendCodeServces = function (mail) {
 
       return $http.post(host + 'auth/recovery', mail).then(function (response) {
-        debugger;
+        // debugger;
         return response.data;
       })
     }
