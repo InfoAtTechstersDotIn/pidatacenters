@@ -44,7 +44,7 @@ $seo_keywords = "Datacenter certifications, meity certified cloud service provid
 
         <li class="col-md-3">
           <figure>
-            <img src="images/certificate-10.jpg" alt="certificate-10" width="543" height="664">
+            <img src="images/new-certification-tier.png" alt="certificate-10" width="543" height="664">
           </figure>
         </li>
 
@@ -132,7 +132,7 @@ $seo_keywords = "Datacenter certifications, meity certified cloud service provid
         </li>
         <li class="col-md-4">
           <figure>
-            <img src="images/certificate-10.jpg" alt="certificate-10" width="543" height="664">
+            <img src="images/new-certification-tier.png" alt="certificate-10" width="543" height="664">
           </figure>
         </li>
         <li class="col-md-4">

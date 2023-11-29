@@ -1,5 +1,5 @@
 <?php
-$seo_title = "pi-cloud®";
+$seo_title = "Cloud";
 $seo_description = "";
 $seo_keywords = "";
 ?>
@@ -817,17 +817,14 @@ $seo_keywords = "";
         margin-bottom: 15px;
     }
 
-<<<<<<< HEAD
-=======
     .hb-cloudCont>p+p {
         margin-top: 0px !important;
     }
 
     .hb-CerSetion .slick-slide {
-        height: 165px !important;
+        height: 165px;
     }
 
->>>>>>> 15a1cb1c972d462b9554891fe26df469ee53e4d2
     /* responsive */
     @media screen and (max-width:1050px) {}
 
@@ -906,16 +903,13 @@ $seo_keywords = "";
             top: 100%;
             left: 29%;
         }
-<<<<<<< HEAD
 
 
-        .journey_with_picloud .hb-ListJouney{
+        .journey_with_picloud .hb-ListJouney {
 
             width: 100% !important;
             float: left;
         }
-=======
->>>>>>> 15a1cb1c972d462b9554891fe26df469ee53e4d2
     }
 </style>
 <!-- banner section starts here -->
@@ -1011,11 +1005,7 @@ $seo_keywords = "";
                     <div class="col-md-4  section-content cc-color-1">
                         <h3><span class="Count">5</span></h3>
                         <h4>A-listed Indian Universities</h4>
-<<<<<<< HEAD
-                        <p>Leveraging Pi Cloud<sup>®</sup> to deliver enhanced digital learning experience</p>
-=======
                         <p>Leveraging Pi Cloud to deliver enhanced digital learning experience</p>
->>>>>>> 15a1cb1c972d462b9554891fe26df469ee53e4d2
                     </div>
 
 

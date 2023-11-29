@@ -351,7 +351,7 @@
                                         <ul class="slider-certificate">
                                             <li>
                                                 <a href="certifications.php">
-                                                    <figure> <img src="images/tier.webp" alt="cer-icon-9" width="150" height="150"></figure>
+                                                    <figure> <img src="images/new-tier-2.png" alt="cer-icon-9" width="150" height="150" style="height: 100px;"></figure>
                                                 </a>
 
                                             </li>
@@ -1417,7 +1417,7 @@
                 slidesToScroll: 1,
                 vertical: false,
                 verticalSwiping: false,
-                autoplay: true,
+                autoplay: false,
                 autoplaySpeed: 1000,
                 responsive: [{
                     breakpoint: 768,
