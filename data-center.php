@@ -1,5 +1,5 @@
 <?php
-$seo_title = "Data Center Infrastructure & Services - Pi Datacenters | Data Center Solutions";
+$seo_title = "Data Center - Pi Datacenters | Data Center Solutions";
 $seo_description = "Pi Datacenters - World-Class Data Center Infrastructure & Colocation Services Providers in India. Connect with Award-Winning Data Center Solution Providers and Explore Storage, Management, and Analytics Solutions for Your Data.";
 $seo_keywords = "Data Center Infrastructure, colocation data center services, colocation services, Colocation data center providers, data center solution providers, data center management, data center solutions, data centers";
 ?>

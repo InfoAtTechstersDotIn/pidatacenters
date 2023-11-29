@@ -1,3 +1,9 @@
+<?php
+$seo_title = "Storage";
+$seo_description = "";
+$seo_keywords = "";
+?>
+
 <?php include('php/includes-techsters/header.php'); ?>
 
 <div class="hb-bannerCont">
