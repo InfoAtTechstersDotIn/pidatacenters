@@ -61,7 +61,7 @@ if ($conn->connect_error) {
         <div class="tab-content tabBlock-content">
           <div class="tabBlock-pane">
             <p>
-              At the helm of DC infrastructure innovation across the globe, Pi DATACENTERSÂ® has earned numerous accolades and certifications, setting the highest benchmarks for Cloud & DC Infrastructure.</p>
+              At the helm of DC infrastructure innovation across the globe, Pi DATACENTERS&#174; has earned numerous accolades and certifications, setting the highest benchmarks for Cloud & DC Infrastructure.</p>
             <ul class="row certifications-desktop">
               <?php
 
