@@ -739,13 +739,23 @@
             else {
                 // debugger;
                 var getqt = getTotal();
+                
+                const data = {
+                  'disk_space': getqt.diskspace,
+                  'data_transfer': getqt.datatransfer,
+                  'storage_type': getqt.drive,
+                  'tenure': getqt.tenurearr[0].name,
+                  'bandwidth': getqt.dedicatedBw,
+                  'name': $scope.username,
+                  'email': $scope.useremail,
+                  'phone': $scope.userphone,
+                  'monthly_cost': getqt.monthlycost
+                }
 
-                // $scope.ser = [];
-                // $scope.ser[storagename] = {};
-                // $scope.$emit('callCart');
-
-
-                console.log(getqt);
+                fetch(`https://pidatacenters.com/pi-cloud/pricing/cloud-storage-checkout.php?${new URLSearchParams(data).toString()}`).
+                then((result) => {
+                    alert('Message Successfully Sent')
+                })
             }
 
 

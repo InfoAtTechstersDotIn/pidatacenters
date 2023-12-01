@@ -21,6 +21,9 @@ if (isset($_POST['login_user'])) {
         header('location:message.php?message=Email, Password Mismatch');
     }
 }
+else {
+    echo "An error occured";
+}
 if (isset($_POST['create_payment_link'])) {
     $name = htmlspecialchars($_POST['name']);
     $email = htmlspecialchars($_POST['email']);
