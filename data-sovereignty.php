@@ -106,7 +106,7 @@ sales@pidatacenters.com,</a>
 
       <div class="col-md-6">
         <figure>
-          <img src="dashboard/uploads/whitepapers/How Well Do We Understand.png" alt="case-studies-1" width="450" height="248">
+          <img src="dashboard/uploads/whitepapers/how-well-do-we-understand.png" alt="case-studies-1" width="450" height="248">
         </figure>
       </div>
       <div class="write-to-us-rt col-md-6">
