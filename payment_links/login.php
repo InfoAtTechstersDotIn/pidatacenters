@@ -64,7 +64,7 @@
         <div class="login-box">
 
             <!-- Start of Login Form -->
-            <form action="controller" method="POST" id="login-form">
+            <form action="controller.php" method="POST" id="login-form">
                 <div class="text-center">
                     <h3 class="uppercase">login</h3>
                 </div>
