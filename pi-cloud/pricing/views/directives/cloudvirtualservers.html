@@ -438,7 +438,7 @@
 
 
 
-            <div class="form-group col-md-4 p-2" style="margin-right: -15px;">
+            <div class="form-group col-md-4 p-2">
                 <label for="vpn">VPN</label>
                 <select class="form-control" ng-options="vpn.vpn for (price,vpn) in vpns" ng-model="selectVpn"
                     ng-change="changeVpn(selectTenure)">
@@ -496,6 +496,22 @@
 
 
             </div>
+            
+
+            <div class="col-md-12">
+                <div class="form-group col-md-4 p-2" style="margin-left: -15px;">
+                    <label  for="username" style="color: #2F1DAC;">Your Name</label>
+                    <input type="text" name="username" class="form-control" placeholder="Your Name" required ng-model="ser[storagename].username" ng-change="changeUsername(ser[storagename].username)">
+                 </div>
+                 <div class="form-group col-md-4 p-2">
+                    <label  for="useremail" style="color: #2F1DAC;">Email Address</label>
+                    <input type="text" name="useremail" class="form-control" placeholder="Email Address" required ng-model="ser[storagename].useremail" ng-change="changeUseremail(ser[storagename].useremail)">
+                 </div>
+                 <div class="form-group col-md-4 p-2">
+                    <label  for="userphone" style="color: #2F1DAC;">Phone</label>
+                    <input type="tel" name="userphone" class="form-control" placeholder="Phone" required ng-model="ser[storagename].userphone" ng-change="changeUserphone(ser[storagename].userphone)">
+                 </div>
+            </div>
 
             <div class="form-group">
                 <label style="color: #ff3b00;">{{additionaBackUpMessage}}</label>
@@ -510,7 +526,7 @@
                             {{selectMigrationTool.price_otc | number:0}}</span></label>
             </div>
             <div class="form-group col-md-3 float-right" style="transform: translateY(90%);">
-                <button class="btn btn-primary" ng-click="addtocart()">ADD TO CART</button>
+                <button class="btn btn-primary" ng-click="addtocart()">Submit</button>
                 <button ng-show="sideCart" class="btn btn-primary" style="margin-top: 13px;"
                     ng-click="closecart()">CLOSE CART</button>
             </div>
@@ -518,8 +534,5 @@
 
         </div>
     </div>
-
-
-    <cart-directive></cart-directive>
 
 </div>

@@ -10,6 +10,9 @@
     var storagenamessd = storagename + 'ddsticks';
     var storagenameecs = storagename + 'ticks';
 
+    $scope.username = "";
+    $scope.useremail = "";
+    $scope.userphone = "";
     
     $scope.disableSelect=false;
 
@@ -713,11 +716,11 @@
 
 
 
-      var sendqt = {};
+      var sndqt = {};
 
 
-      sendqt.drive = $scope.ser[storagename].selectDrive.name;
-      sendqt.driveValue = $scope.ser[storagename].selectDrive.value;
+      sndqt.drive = $scope.ser[storagename].selectDrive.name;
+      sndqt.driveValue = $scope.ser[storagename].selectDrive.value;
 
       $scope.diskspace = $scope.ser[storagename].selectDiskspace[$scope.val - 1].GB;
       if ($scope.diskspace >= 1000) {
@@ -725,129 +728,129 @@
       } else {
         $scope.diskspace = $scope.ser[storagename].selectDiskspace[$scope.val - 1].name;
       }
-      sendqt.diskspace = $scope.diskspace;
+      sndqt.diskspace = $scope.diskspace;
 
-      sendqt.cpu = $scope.cpuValues.cpu || $scope.databaseCpuValues[1].cpu;
-      sendqt.ram = $scope.ramValues.ram || $scope.databaseRamValues[1].ram;
-      // sendqt.diskspace = $scope.diskSpaceValues.diskspace || $scope.databaseDiskValues[0].diskspace;
-      sendqt.datatransfer = $scope.dataTransferValues.datatransfer || $scope.databaseDtValues[1].datatransfer;
-      sendqt.cpuPrice = $scope.cpuValues.price || $scope.databaseCpuValues[1].price;
-      sendqt.ramPrice = $scope.ramValues.price || $scope.databaseRamValues[1].price;
+      sndqt.cpu = $scope.cpuValues.cpu || $scope.databaseCpuValues[1].cpu;
+      sndqt.ram = $scope.ramValues.ram || $scope.databaseRamValues[1].ram;
+      // sndqt.diskspace = $scope.diskSpaceValues.diskspace || $scope.databaseDiskValues[0].diskspace;
+      sndqt.datatransfer = $scope.dataTransferValues.datatransfer || $scope.databaseDtValues[1].datatransfer;
+      sndqt.cpuPrice = $scope.cpuValues.price || $scope.databaseCpuValues[1].price;
+      sndqt.ramPrice = $scope.ramValues.price || $scope.databaseRamValues[1].price;
 
-      sendqt.name = $scope.ser[storagename].selectTenure.name;
-      sendqt.tenurearr = [$scope.ser[storagename].selectTenure];
-      sendqt.tenure = $scope.ser[storagename].selectTenure.months;
-      sendqt.notes = $scope.ser[storagename].selectTenure.notes;
+      sndqt.name = $scope.ser[storagename].selectTenure.name;
+      sndqt.tenurearr = [$scope.ser[storagename].selectTenure];
+      sndqt.tenure = $scope.ser[storagename].selectTenure.months;
+      sndqt.notes = $scope.ser[storagename].selectTenure.notes;
 
       var a = $scope.val - 1 || 0;
       var b = $scope.tenureIndex || 0;
 
       $scope.diskspacePrice = $scope.ser[storagename].selectDiskspace[a].values[b].tenure_price;
-      // sendqt.diskSpacePrice = $scope.diskSpaceValues.price || $scope.databaseDiskValues[0].price;
-      sendqt.dataTransferPrice = $scope.dataTransferValues.price || $scope.databaseDtValues[1].price;
+      // sndqt.diskSpacePrice = $scope.diskSpaceValues.price || $scope.databaseDiskValues[0].price;
+      sndqt.dataTransferPrice = $scope.dataTransferValues.price || $scope.databaseDtValues[1].price;
 
-      sendqt.diskspacePrice = $scope.diskspacePrice;
+      sndqt.diskspacePrice = $scope.diskspacePrice;
 
-      sendqt.antivirus = $scope.selectAntiVirus.antivirus_name == "Select" ? null : $scope.selectAntiVirus.antivirus_name;
-      sendqt.antiVirusPrice = $scope.selectAntiVirus.price || 0;
+      sndqt.antivirus = $scope.selectAntiVirus.antivirus_name == "Select" ? null : $scope.selectAntiVirus.antivirus_name;
+      sndqt.antiVirusPrice = $scope.selectAntiVirus.price || 0;
 
-      sendqt.os = $scope.selectOs.os == "Select" ? null : $scope.selectOs.os;
-      sendqt.osPrice = $scope.selectOs.price || 0;
+      sndqt.os = $scope.selectOs.os == "Select" ? null : $scope.selectOs.os;
+      sndqt.osPrice = $scope.selectOs.price || 0;
 
-      sendqt.database = $scope.selectDb.database == "Select" ? null : $scope.selectDb.database;
-      sendqt.databasePrice = $scope.selectDb.price || 0;
+      sndqt.database = $scope.selectDb.database == "Select" ? null : $scope.selectDb.database;
+      sndqt.databasePrice = $scope.selectDb.price || 0;
 
-      sendqt.ip = $scope.selectIp.ip;
-      sendqt.IpPrice = $scope.selectIp.price;
+      sndqt.ip = $scope.selectIp.ip;
+      sndqt.IpPrice = $scope.selectIp.price;
 
 
-      sendqt.dedicatedBw = $scope.selectDedicatedBw.bandwidth;
-      sendqt.dedicatedBwPrice = $scope.selectDedicatedBw.price;
+      sndqt.dedicatedBw = $scope.selectDedicatedBw.bandwidth;
+      sndqt.dedicatedBwPrice = $scope.selectDedicatedBw.price;
 
       if ($scope.selectBackUpLicence.name == "Select") {
 
-        sendqt.backUpLicense = null;
+        sndqt.backUpLicense = null;
       } else {
 
-        sendqt.backUpLicense = $scope.selectBackUpLicence.name;
+        sndqt.backUpLicense = $scope.selectBackUpLicence.name;
       }
 
 
-      sendqt.backUpLicensePrice = $scope.selectBackUpLicencePrice;
+      sndqt.backUpLicensePrice = $scope.selectBackUpLicencePrice;
 
-      sendqt.backup = $scope.selectBackUp.backup;
-      sendqt.backupPrice = $scope.selectBackUp.price;
-      sendqt.servername = $scope.sname;
+      sndqt.backup = $scope.selectBackUp.backup;
+      sndqt.backupPrice = $scope.selectBackUp.price;
+      sndqt.servername = $scope.sname;
 
-      // sendqt.name = $scope.selectTenure.name || $scope.databsetenures[0].name;
-      // sendqt.tenure = $scope.selectTenure.months || $scope.databsetenures[0].months;
-      // sendqt.notes = $scope.selectTenure.notes || $scope.databsetenures[0].notes;
-      // sendqt.vpn = $scope.selectVpn.vpn;
-      sendqt.vpn = $scope.selectVpn.vpn == "Select" ? null : $scope.selectVpn.vpn;
-      // sendqt.vpnPrice = $scope.selectVpn.price;
-      sendqt.vpnPrice = $scope.selectVpn.price * $scope.vpnqty;
-      sendqt.vpnqty = $scope.vpnqty;
+      // sndqt.name = $scope.selectTenure.name || $scope.databsetenures[0].name;
+      // sndqt.tenure = $scope.selectTenure.months || $scope.databsetenures[0].months;
+      // sndqt.notes = $scope.selectTenure.notes || $scope.databsetenures[0].notes;
+      // sndqt.vpn = $scope.selectVpn.vpn;
+      sndqt.vpn = $scope.selectVpn.vpn == "Select" ? null : $scope.selectVpn.vpn;
+      // sndqt.vpnPrice = $scope.selectVpn.price;
+      sndqt.vpnPrice = $scope.selectVpn.price * $scope.vpnqty;
+      sndqt.vpnqty = $scope.vpnqty;
 
-       sendqt.MRCLicense = $scope.selectMRCLicence.ms_rdp_license == "Select" ? null : $scope.selectMRCLicence.ms_rdp_license;
-      sendqt.MRCLicensePrice = $scope.selectMRCLicence.price * $scope.mrcqty;
-      sendqt.MRCLicenseqty = $scope.mrcqty;
+       sndqt.MRCLicense = $scope.selectMRCLicence.ms_rdp_license == "Select" ? null : $scope.selectMRCLicence.ms_rdp_license;
+      sndqt.MRCLicensePrice = $scope.selectMRCLicence.price * $scope.mrcqty;
+      sndqt.MRCLicenseqty = $scope.mrcqty;
 
-      sendqt.SSLCertificate = $scope.selectSSLCertificate.ssl_certificate == "Select" ? null : $scope.selectSSLCertificate.ssl_certificate;
-      sendqt.SSLCertificatePrice = $scope.selectSSLCertificate.price * $scope.sslqty;
-      sendqt.SSLCertificateqty = $scope.sslqty;
+      sndqt.SSLCertificate = $scope.selectSSLCertificate.ssl_certificate == "Select" ? null : $scope.selectSSLCertificate.ssl_certificate;
+      sndqt.SSLCertificatePrice = $scope.selectSSLCertificate.price * $scope.sslqty;
+      sndqt.SSLCertificateqty = $scope.sslqty;
 
-      sendqt.Webpanel = $scope.selectWebpanel.web_panel == "Select" ? null : $scope.selectWebpanel.web_panel;
-      sendqt.WebpanelPrice = $scope.selectWebpanel.price * $scope.webpanelqty;
-      sendqt.Webpanelqty = $scope.webpanelqty;
+      sndqt.Webpanel = $scope.selectWebpanel.web_panel == "Select" ? null : $scope.selectWebpanel.web_panel;
+      sndqt.WebpanelPrice = $scope.selectWebpanel.price * $scope.webpanelqty;
+      sndqt.Webpanelqty = $scope.webpanelqty;
 
-      sendqt.dedicatedFirewall= $scope.selectDedicatedFirewall.dedicated_firewall == "Select" ? null : $scope.selectDedicatedFirewall.dedicated_firewall;
-      sendqt.dedicatedFirewallPrice = $scope.selectDedicatedFirewall.price;
-      // sendqt.dedicatedFirewallqty = $scope.dfirewallqty;
+      sndqt.dedicatedFirewall= $scope.selectDedicatedFirewall.dedicated_firewall == "Select" ? null : $scope.selectDedicatedFirewall.dedicated_firewall;
+      sndqt.dedicatedFirewallPrice = $scope.selectDedicatedFirewall.price;
+      // sndqt.dedicatedFirewallqty = $scope.dfirewallqty;
 
-      sendqt.TwoFactorAuthentication = $scope.selectTwoFactorAuthentication.two_factor_auth;
-      sendqt.TwoFactorAuthenticationPrice = $scope.selectTwoFactorAuthentication.price;
+      sndqt.TwoFactorAuthentication = $scope.selectTwoFactorAuthentication.two_factor_auth;
+      sndqt.TwoFactorAuthenticationPrice = $scope.selectTwoFactorAuthentication.price;
 
-      sendqt.ElasticLoadBalancer = $scope.selectElasticLoadBalancer.elastic_load_balencer;
-      sendqt.ElasticLoadBalancerPrice = $scope.selectElasticLoadBalancer.price;
+      sndqt.ElasticLoadBalancer = $scope.selectElasticLoadBalancer.elastic_load_balencer;
+      sndqt.ElasticLoadBalancerPrice = $scope.selectElasticLoadBalancer.price;
 
-      sendqt.DRReplicationTool = $scope.selectDrreplicationTool.dr_replication_tool; 
-      sendqt.DRReplicationToolPrice = $scope.selectDrreplicationTool.price;
+      sndqt.DRReplicationTool = $scope.selectDrreplicationTool.dr_replication_tool; 
+      sndqt.DRReplicationToolPrice = $scope.selectDrreplicationTool.price;
 
-      sendqt.MigrationTool = $scope.selectMigrationTool.migration_tool;
-      sendqt.MigrationToolOtcPrice = $scope.selectMigrationTool.price_otc;
+      sndqt.MigrationTool = $scope.selectMigrationTool.migration_tool;
+      sndqt.MigrationToolOtcPrice = $scope.selectMigrationTool.price_otc;
 
-      $scope.beforeDiscountMonthlycost = Number(sendqt.cpuPrice) + Number(sendqt.ramPrice) + Number($scope.diskspacePrice) + Number(sendqt.dataTransferPrice);
+      $scope.beforeDiscountMonthlycost = Number(sndqt.cpuPrice) + Number(sndqt.ramPrice) + Number($scope.diskspacePrice) + Number(sndqt.dataTransferPrice);
 
 
       $scope.getDiscount(Number($scope.ser[storagename].selectTenure.months), Number($scope.beforeDiscountMonthlycost));
 
-      $scope.monthlycost = Number($scope.monthlycost) + Number(sendqt.osPrice) + Number(sendqt.databasePrice) + Number(sendqt.IpPrice) + Number(sendqt.backupPrice) + Number(sendqt.vpnPrice)+ Number(sendqt.MRCLicensePrice) + Number(sendqt.SSLCertificatePrice) +Number(sendqt.WebpanelPrice)+ Number(sendqt.dedicatedFirewallPrice)+Number(sendqt.TwoFactorAuthenticationPrice)+Number(sendqt.ElasticLoadBalancerPrice)+Number(sendqt.DRReplicationToolPrice)+Number(sendqt.backUpLicensePrice) + Number(sendqt.dedicatedBwPrice)+Number(sendqt.antiVirusPrice);
+      $scope.monthlycost = Number($scope.monthlycost) + Number(sndqt.osPrice) + Number(sndqt.databasePrice) + Number(sndqt.IpPrice) + Number(sndqt.backupPrice) + Number(sndqt.vpnPrice)+ Number(sndqt.MRCLicensePrice) + Number(sndqt.SSLCertificatePrice) +Number(sndqt.WebpanelPrice)+ Number(sndqt.dedicatedFirewallPrice)+Number(sndqt.TwoFactorAuthenticationPrice)+Number(sndqt.ElasticLoadBalancerPrice)+Number(sndqt.DRReplicationToolPrice)+Number(sndqt.backUpLicensePrice) + Number(sndqt.dedicatedBwPrice)+Number(sndqt.antiVirusPrice);
       $scope.totalMonthlyCost = $scope.monthlycost * Number($scope.ser[storagename].selectTenure.months);
 
-      sendqt.beforeDiscountMonthlycost = Number($scope.beforeDiscountMonthlycost);
-      sendqt.discount = $scope.discountAmount || 0;
-      sendqt.serverdiscount = $scope.databaseDiscount;
-      sendqt.promoDiscount = 0;
-      sendqt.quantity = 1;
-      sendqt.monthlycost = $scope.monthlycost;
-      sendqt.plan_price = $scope.totalMonthlyCost;
-      sendqt.amount = Number($scope.totalMonthlyCost) + Number($scope.selectMigrationTool.price_otc);
-      sendqt.plan = $scope.plan;
-      sendqt.subplan = $scope.subplan;
-      sendqt.storagediskspace = $scope.ser[storagename].selectDiskspace[a];
-      sendqt.subcription_period = 0;
+      sndqt.beforeDiscountMonthlycost = Number($scope.beforeDiscountMonthlycost);
+      sndqt.discount = $scope.discountAmount || 0;
+      sndqt.serverdiscount = $scope.databaseDiscount;
+      sndqt.promoDiscount = 0;
+      sndqt.quantity = 1;
+      sndqt.monthlycost = $scope.monthlycost;
+      sndqt.plan_price = $scope.totalMonthlyCost;
+      sndqt.amount = Number($scope.totalMonthlyCost) + Number($scope.selectMigrationTool.price_otc);
+      sndqt.plan = $scope.plan;
+      sndqt.subplan = $scope.subplan;
+      sndqt.storagediskspace = $scope.ser[storagename].selectDiskspace[a];
+      sndqt.subcription_period = 0;
 
-      sendqt.additionaBackUpMessage = $scope.additionaBackUpMessage;
+      sndqt.additionaBackUpMessage = $scope.additionaBackUpMessage;
 
-      sendqt.grandTotalTenureText = $scope.grandTotalTenureText;
-      sendqt.grandTotalTenurePostText = $scope.grandTotalTenurePostText;
+      sndqt.grandTotalTenureText = $scope.grandTotalTenureText;
+      sndqt.grandTotalTenurePostText = $scope.grandTotalTenurePostText;
 
-      console.log('sendqt is ', sendqt);
+      console.log('sndqt is ', sndqt);
       $scope.displayMonthyCost = $scope.monthlycost;
 
 
 
-      return sendqt;
+      return sndqt;
     }
 
 
@@ -868,6 +871,18 @@
       }
     }
 
+    $scope.changeUsername = function (name) {
+      $scope.username = name;
+    }
+
+    $scope.changeUseremail = function (email) {
+      $scope.useremail = email;
+    }
+
+    $scope.changeUserphone = function (phone) {
+      $scope.userphone = phone;
+    }
+
     $scope.discountCalc = function (beforedeoscount, discountPercentage) {
       $scope.discountAmount = Number(beforedeoscount) * Number(discountPercentage) * 0.01;
       $scope.afterDiscountMonthlyCost = beforedeoscount - Number($scope.discountAmount);
@@ -877,12 +892,33 @@
     //   alert(newValue);
     //   $scope.displayMonthyCost = Math.round($scope.monthlycost);
     // })
+
+    var validatePhoneNumber = function (phoneNumber) {
+      var regex = /^\d{10}$/;
+      return regex.test(phoneNumber);
+    }
+
+    var validateEmail = function(email) {
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return emailRegex.test(email);
+    }
+
     $scope.addtocart = function () {
 
       // $rootScope.cartcount = items.length;
       //  console.log(items.length);
 
-      console.log("monthly cost issssssssss"+ $scope.displayMonthyCost)
+      if ($scope.username == "") {alert('Please Enter name'); return false;};
+      if ($scope.userphone == "") {alert('Please Enter phone'); return false;};
+      if ($scope.useremail == "") {alert('Please Enter email'); return false;};
+
+      if (!validatePhoneNumber($scope.userphone)) {
+        alert('Please Enter a valid phone'); return false;
+      }
+
+      if (!validateEmail($scope.useremail)) {
+        alert('Please Enter a valid email'); return false;
+      }
 
       if ($scope.selectBackUp.backup > "0 GB" && $scope.selectBackUpLicencePrice == 0.00) {
 
@@ -893,17 +929,43 @@
         alert("Your Cart Value Must Be Greater Than INR 0.00");
 
       }
-
-      // else if($scope.displayMonthyCost >50000){
-
-      //   alert("hsdajdhajsdh asskdjksjdksj dksklksaldklak");
-
-      // }
       else {
         var sndqt = getTotal();
-        // console.log('addcart ', sndqt);
-        var items = pistoreServies.addcart(sndqt);
-        $scope.$emit('callCart');
+
+        const data = {
+          'cpu_cors': sndqt.cpu,
+          'ram': sndqt.ram,
+          'diskspace': sndqt.diskspace,
+          'data_transfer': sndqt.datatransfer,
+          'operating_system': sndqt.os,
+          'storage_type': sndqt.drive,
+          'database': sndqt.database,
+          'public_ip': sndqt.ip,
+          'dedicated_bandwidth': sndqt.dedicatedBw,
+          'backup_storage': sndqt.backup,
+          'backup_license': sndqt.backUpLicense,
+          'antivirus': sndqt.antivirus,
+          'tenurearr': sndqt.tenurearr[0].name,
+          'two_factor_authentication': sndqt.TwoFactorAuthentication,
+          'elastic_load_balancer': sndqt.ElasticLoadBalancer,
+          'otc_migration_tool': sndqt.MigrationTool,
+          'dr_replication_tool': sndqt.DRReplicationTool,
+          'ms_rdp_call_license': sndqt.MRCLicense,
+          'ms_rdp_call_license_quantity': sndqt.MRCLicenseqty,
+          'web_panel': sndqt.Webpanel,
+          'dedicated_firewall': sndqt.dedicatedFirewall,
+          'vpn': sndqt.vpn,
+          'name': $scope.username,
+          'email': $scope.useremail,
+          'phone': $scope.userphone,
+          'monthly_cost': sndqt.monthlycost
+        }
+
+        fetch(`https://pidatacenters.com/pi-cloud/pricing/cloud-server-checkout.php?${new URLSearchParams(data).toString()}`).
+        then((result) => {
+            alert('Your message is successfully sent. We will get in touch with you soon')
+        })
+
       }
 
 

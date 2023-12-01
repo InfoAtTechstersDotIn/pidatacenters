@@ -724,14 +724,31 @@
             return sendqt;
         }
 
+        var validatePhoneNumber = function (phoneNumber) {
+          var regex = /^\d{10}$/;
+          return regex.test(phoneNumber);
+        }
+
+        var validateEmail = function(email) {
+          const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+          return emailRegex.test(email);
+        }
 
         $scope.submitfn = function (ser) {
 
             console.log("monthly cost issssssssss"+ $scope.displayMonthlycost);
 
-            if ($scope.username == "") {alert('Please Enter name'); return false;};
-            if ($scope.userphone == "") {alert('Please Enter phone'); return false;};
+            if ($scope.username == "") { alert('Please Enter name'); return false; };
+            if ($scope.userphone == "") { alert('Please Enter phone'); return false; };
             if ($scope.useremail == "") {alert('Please Enter email'); return false;};
+
+            if (!validatePhoneNumber($scope.userphone)) {
+              alert('Please Enter a valid phone'); return false;
+            }
+
+            if (!validateEmail($scope.useremail)) {
+              alert('Please Enter a valid email'); return false;
+            }
 
             if ($scope.displayMonthlycost == 0) {
                 alert("Your Cart Value Must Be Greater Than INR 0.00");
@@ -754,7 +771,7 @@
 
                 fetch(`https://pidatacenters.com/pi-cloud/pricing/cloud-storage-checkout.php?${new URLSearchParams(data).toString()}`).
                 then((result) => {
-                    alert('Message Successfully Sent')
+                  alert('Your message is successfully sent. We will get in touch with you soon')
                 })
             }
 
