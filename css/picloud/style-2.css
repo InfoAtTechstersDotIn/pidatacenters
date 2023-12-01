@@ -6177,11 +6177,11 @@
 
     /*meity page*/
 
-    .about-banner.meity {
+    /* .about-banner.meity {
         background: url(../images/meity-new-website-banner.png)no-repeat center;
         padding: 160px 150px 266px;
         background-size: cover;
-    }
+    } */
 
     .what-meity {
         color: #000000;
@@ -6277,11 +6277,11 @@
         line-height: 25px;
     }
 
-    .about-banner.identi {
+    /* .about-banner.identi {
         background: url(../images/all-india.png)no-repeat center;
         padding: 170px 100px;
         background-size: cover;
-    }
+    } */
 
     .all-identi {
         background: white;
@@ -7143,12 +7143,13 @@
         padding: 0 10px 15px;
     }
 
+    /* 
     .about-banner.how {
         background: url(../images/about-banner.png)no-repeat center;
         padding: 60px 0;
         margin: 0;
         background-size: cover;
-    }
+    } */
 
     .about-banner.how .about-banner-blk h2 {
         position: static;
@@ -8427,4 +8428,13 @@
 
     .case-block-main.greenshape .case-content {
         min-height: 550px;
+    }
+
+    .awards-block .tabBlock-pane ul li img {
+        min-height: 510px;
+        background: #fff;
+    }
+
+    .reg-im {
+        margin-top: 0px;
     }
