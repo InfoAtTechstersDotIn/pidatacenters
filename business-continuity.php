@@ -1,3 +1,9 @@
+<?php
+$seo_title = "Business Continuity";
+$seo_description = "";
+$seo_keywords = "";
+?>
+
 <?php include('php/includes-techsters/header.php'); ?>
 <div class="hb-bannerCont">
 	<div class="hb-bannerImgCont">

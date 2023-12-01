@@ -1,3 +1,9 @@
+<?php
+$seo_title = "Knowledge Hub";
+$seo_description = "";
+$seo_keywords = "";
+?>
+
 <head>
   <style>
     #myBtn2 {
@@ -37,7 +43,7 @@
               <div class="readmore-btn" style="padding:20px 0 0;"><a href="the-data-center-the-unseen-infrastructure-of-our-lives.php">Read More</a></div>
 
             </div>
- 
+
           </div>
 
         </div>

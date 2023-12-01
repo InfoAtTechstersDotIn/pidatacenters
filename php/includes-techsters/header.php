@@ -296,7 +296,7 @@
                                                         <a href="<?php echo $site_url ?>brochure.php">Brochure</a>
                                                     </li>
                                                     <li>
-                                                        <a href="<?php echo $site_url ?>">Knowledge Hub</a>
+                                                        <a href="<?php echo $site_url ?>knowledge-hub.php">Knowledge Hub</a>
                                                     </li>
                                                 </ul>
                                             </div>

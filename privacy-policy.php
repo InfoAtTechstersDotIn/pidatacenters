@@ -1,5 +1,5 @@
 <?php
-$seo_title = "pi-cloud®";
+$seo_title = "Privacy Policy";
 $seo_description = "";
 $seo_keywords = "";
 ?>

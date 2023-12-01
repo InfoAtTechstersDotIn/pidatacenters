@@ -1,6 +1,5 @@
-
 <?php
-$seo_title = "pi-cloud®";
+$seo_title = "SAP On Cloud";
 $seo_description = "";
 $seo_keywords = "";
 ?>
@@ -14,53 +13,53 @@ $seo_keywords = "";
 
 <div class="picloud_pages">
 
-<div class="hb-bannerCont">
-	<div class="hb-bannerImgCont">
-		<div class="hb-bannerImg">
-			<!--<picture>
+	<div class="hb-bannerCont">
+		<div class="hb-bannerImgCont">
+			<div class="hb-bannerImg">
+				<!--<picture>
 			     <source media="(max-width: 768px)" srcset="./pi-cloud/images/banners/sap_mbanner.png">
 			      <img  src="./pi-cloud/images/banners/sap_banner.png" alt="pi-cloud Cloud Backup as a Service Banner" style="width:100%">
       		</picture>-->
-			<picture>
-				<source media="(max-width: 768px)" srcset="https://pidatacenters.com/pi-cloud/images/banners/sap-banner.jpg">
-				<img src="https://pidatacenters.com/pi-cloud/images/banners/sap-banner.jpg" alt="pi-cloud Cloud Backup as a Service Banner" style="width:100%">
-			</picture>
-			<h2>SAP On Cloud</h2>
+				<picture>
+					<source media="(max-width: 768px)" srcset="https://pidatacenters.com/pi-cloud/images/banners/sap-banner.jpg">
+					<img src="https://pidatacenters.com/pi-cloud/images/banners/sap-banner.jpg" alt="pi-cloud Cloud Backup as a Service Banner" style="width:100%">
+				</picture>
+				<h2>SAP On Cloud</h2>
+			</div>
 		</div>
 	</div>
-</div>
 
-<section id="hb_products_Lists">
-	<div class="container">
-		<div class="hb-productHead text-center">
-			<h1>End-to-End SAP Hosting on Cloud</h1>
-			<p>Enable digital transformation across your enterprise, for smooth and secured operation of business-critical processes. Pi Cloud<sup></sup> offers end to end SAP solution to assess, migrate, run & optimize SAP workloads. Enterprises can also leverage SAP basis skillsets to solve complex business process challenges. Pi Cloud<sup></sup> is certified by SAP to host and operate critical enterprise workloads at scale.</p>
+	<section id="hb_products_Lists">
+		<div class="container">
+			<div class="hb-productHead text-center">
+				<h1>End-to-End SAP Hosting on Cloud</h1>
+				<p>Enable digital transformation across your enterprise, for smooth and secured operation of business-critical processes. Pi Cloud<sup></sup> offers end to end SAP solution to assess, migrate, run & optimize SAP workloads. Enterprises can also leverage SAP basis skillsets to solve complex business process challenges. Pi Cloud<sup></sup> is certified by SAP to host and operate critical enterprise workloads at scale.</p>
+			</div>
+
 		</div>
+	</section>
 
-	</div>
-</section>
+	<section>
+		<div class="container">
+			<ul class="list-inline sap_certFicats">
+				<li>
+					<a href="#" download>
+						<img src="./pi-cloud/images/product-images/sap1.png" alt="sap1">
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="./pi-cloud/images/product-images/sap2.png" alt="sap1">
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="./pi-cloud/images/product-images/sap3.png" alt="sap1">
+					</a>
+				</li>
 
-<section>
-	<div class="container">
-		<ul class="list-inline sap_certFicats">
-			<li>
-				<a href="#" download>
-					<img src="./pi-cloud/images/product-images/sap1.png" alt="sap1">
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					<img src="./pi-cloud/images/product-images/sap2.png" alt="sap1">
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					<img src="./pi-cloud/images/product-images/sap3.png" alt="sap1">
-				</a>
-			</li>
-
-		</ul>
-	</div>
+			</ul>
+		</div>
 	</section>
 	<section>
 		<div class="container">
@@ -137,9 +136,4 @@ $seo_keywords = "";
 
 </div>
 
-	<?php include('php/includes-techsters/footer.php'); ?>
-
-
-
-
-
+<?php include('php/includes-techsters/footer.php'); ?>
