@@ -337,7 +337,7 @@
                                             </li>
                                         </ul>
                                         <div class="know-more-btn">
-                                            <a href="data-center-infrastructure-services-colocation.php">Know More</a>
+                                            <a href="data-center-infrastructure-services.php">Know More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -351,7 +351,7 @@
                                         <ul class="slider-certificate">
                                             <li>
                                                 <a href="certifications.php">
-                                                    <figure> <img src="images/new-tier-2.png" alt="cer-icon-9" width="150" height="150" style="height: 100px;"></figure>
+                                                    <figure> <img src="images/new-tier1.png" alt="cer-icon-9" width="150" height="150" style="height: 100px;"></figure>
                                                 </a>
 
                                             </li>
@@ -449,7 +449,7 @@
                                     <div class="btn-blk">
                                         <ul class="row">
                                             <li><a href="https://pidatacenters.com/live-latency/">Live Latency</a></li>
-                                            <li><a href="https://pidatacenters.com/meity">MeitY</a></li>
+                                            <li><a href="https://pidatacenters.com/meity.php">MeitY</a></li>
                                         </ul>
                                     </div>
                                 </div>
