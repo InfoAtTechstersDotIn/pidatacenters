@@ -1,13 +1,13 @@
 <?php
-$seo_title= "";
-$seo_description= "";
-$seo_keywords= "";
-$seo_robots="index, follow";
-$seo_canonical= "https://pidatacenters.com/positive-work-environment-boosts-the-productivity";
-$og_sitename= "https://pidatacenters.com";
-$og_type= "website";
-$og_title= "";
-$og_description= "";
+$seo_title = "";
+$seo_description = "";
+$seo_keywords = "";
+$seo_robots = "index, follow";
+$seo_canonical = "https://pidatacenters.com/positive-work-environment-boosts-the-productivity";
+$og_sitename = "https://pidatacenters.com";
+$og_type = "website";
+$og_title = "";
+$og_description = "";
 ?>
 
 <?php include('php/includes-techsters/header.php'); ?>
@@ -21,73 +21,79 @@ $dbname = "search8c_pi";
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
+  die("Connection failed: " . $conn->connect_error);
+}
 ?>
+<style>
+  #myBtn2 {
+    display: none;
+  }
+</style>
 
+<!-- main starts here -->
+<div class="about-banner">
+  <div class="about-banner-blk">
+    <img src="images/blogs-banner.jpg" alt="blogs-banner" width="1920" height="210">
+    <h2>Blogs</h2>
 
-         <!-- main starts here -->
-         <div class="about-banner">
-                 <div class="about-banner-blk">
-                      <img src="images/blogs-banner.jpg" alt="blogs-banner" width="1920" height="210">
-                         <h2>Blogs</h2>
-                     
-                 </div>
-         </div>
-          <!--board-of-directors starts here -->
-          <div class="case-block">
-              <div class="container">
-              <div class="case-block-main greenshape1">
-				     
-                             <img src="dashboard/uploads/486Positive-Work-Environment-Boosts-the-Productivity.jpg" alt="blog-1-img" width="450" height="248">
-							 <p></p><p dir="ltr">Positive Work Environment: Organizations today are goal driven entities. They strive to perform the best and make the most out of every thing with an end goal of making profits , which is made possible only with the contribution of human capital it has. The sense of belongingness and responsibility is what should make the people perform beyond their limits for accomplishing the organizational goals.</p>
-<p dir="ltr">There are always individual goals and the goals at an organizational level that are to be accomplished.</p>
-<p dir="ltr">So this brings us to the question that how will an employee, who also has his individual goals give a higher importance to the organizational goals and perform his best in doing so.</p>
-<p dir="ltr">This can happen when the organization takes care of the employees as they take care of every thing else. It is to be made sure that the employees are happy at their workplace.</p>
-<p dir="ltr">According a meta-analysis of 225 academic studies, done by Sonja Lyubomirsky and team, it was found that happy employees have, on average, 31% higher productivity; their sales are 37% higher; their creativity is three times higher¹.</p>
-<p dir="ltr">What makes an employee happy is not just the monetary benefit out of his/her work but the work itself along with the work culture. It is on every person working for the organization to put efforts in making it the best place to work, for each of his colleagues, sub ordinates, officials and of course himself.</p>
-<p dir="ltr">What constitutes a best work place, never has horizons and can never limit to few points. But many researches say that a positive work environment is what every employee dreams of.</p>
-<p dir="ltr">Let us double click on ‘positive work environment’.</p>
-<p dir="ltr">What It is not:</p>
-<ul>
-<li dir="ltr" role="presentation">This is not mere ‘head nodding’ or ‘acceptance to every act of the employee’. Neither is to never say no.</li>
-<li dir="ltr" role="presentation">It is not about ‘no rules and no discipline’.</li>
-<li dir="ltr" role="presentation">It is not just about a ‘high pay’ and more team outings</li>
-</ul>
-<p>But:</p>
-<ul>
-<li dir="ltr" role="presentation">It is about the happiness and satisfaction an employee gets stepping in for work each day.</li>
-<li dir="ltr" role="presentation">It is about the smile which is passed on and little gestures to make each other happy.</li>
-<li dir="ltr" role="presentation">It is about saying that you are wrong in a right way, the way which would inspire the employee to give his/her best and stretch beyond his/her limits in doing so.</li>
-<li dir="ltr" role="presentation">It is about saying no, but in a way which would make the employee realize the importance of the situation.</li>
-<li dir="ltr" role="presentation">It is about rules and discipline which an employee would love to follow.</li>
-<li dir="ltr" role="presentation">It is about a good pay , with a meaningful work.</li>
-<li dir="ltr" role="presentation">It is about a team outing , with lot of interaction.</li>
-<li dir="ltr" role="presentation">It is about treating each other with trust, respect,gratitude and integrity.</li>
-<li dir="ltr" role="presentation">It is about leadership, but not authority.</li>
-<li dir="ltr" role="presentation">It is not just about an appraisal, which would show up as incentives or a bonus, but a little appreciation for the work.</li>
-<li dir="ltr" role="presentation">It is about encouraging and inspiring to work.</li>
-<li dir="ltr" role="presentation">It is about openness to learn from your surroundings.</li>
-<li dir="ltr" role="presentation">It is about acceptance with a responsibility towards each others growth.</li>
-</ul>
-<p dir="ltr">The role of leadership : “Outstanding leaders go out of their way to boost the self esteem of their personnel. If people believe in themselves, its amazing what they can accomplish. “ – Sam Walton.</p>
-<p dir="ltr">Leadership is not about being authoritative but about leading by example. People follow them and their deeds. They should give a positive inspiration to many young brains and great talents.They should realize the importance of the employees individual goals and help them achieve those within the workplace limits. This would make them reach their personal goals and never ends there, but also helps accomplish the organizational goals to have great teams at work , giving the maximum productivity. The more approachable and responsive the leaders are, the more is the employee engagement and there by productivity².</p>
-<p dir="ltr">³Research shows that when people work with a positive mind-set, performance on nearly every level—productivity, creativity, engagement—improves.</p>
-<p dir="ltr">To conclude, be positively energetic and spread the aura. All you see then, is that no goal would remain unfulfilled at any level, be it for an individual or for an organization.</p>
-<h3 dir="ltr">References</h3>
-<ol>
-<li dir="ltr" aria-level="1">
-<p dir="ltr" role="presentation"><a href="https://hbr.org/2012/01/positive-intelligence">Positive Intelligence.</a></p>
-</li>
-<li dir="ltr" aria-level="1">
-<p dir="ltr" role="presentation"><a href="http://www.forbes.com/sites/meghanbiro/2014/01/19/happy-employees-hefty-profits/">Happy Employees = Hefty Profits.</a></p>
-</li>
-<li dir="ltr" aria-level="1">
-<p dir="ltr" role="presentation"><a href="https://hbr.org/2015/03/positive-teams-are-more-productive">Positive Teams Are More Productive</a>.</p>
-</li>
-</ol>
-<p>&nbsp;</p><p></p>
-                      <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the café of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after I hung that barely 10 min call, I chose not to sign on the dotted line of that lucrative offer. Not sure what egged me then to take that daring call, but I did. </p>
+  </div>
+</div>
+<!--board-of-directors starts here -->
+<div class="case-block">
+  <div class="container">
+    <div class="case-block-main greenshape1">
+
+      <img src="dashboard/uploads/486Positive-Work-Environment-Boosts-the-Productivity.jpg" alt="blog-1-img" width="450" height="248">
+      <p></p>
+      <p dir="ltr">Positive Work Environment: Organizations today are goal driven entities. They strive to perform the best and make the most out of every thing with an end goal of making profits , which is made possible only with the contribution of human capital it has. The sense of belongingness and responsibility is what should make the people perform beyond their limits for accomplishing the organizational goals.</p>
+      <p dir="ltr">There are always individual goals and the goals at an organizational level that are to be accomplished.</p>
+      <p dir="ltr">So this brings us to the question that how will an employee, who also has his individual goals give a higher importance to the organizational goals and perform his best in doing so.</p>
+      <p dir="ltr">This can happen when the organization takes care of the employees as they take care of every thing else. It is to be made sure that the employees are happy at their workplace.</p>
+      <p dir="ltr">According a meta-analysis of 225 academic studies, done by Sonja Lyubomirsky and team, it was found that happy employees have, on average, 31% higher productivity; their sales are 37% higher; their creativity is three times higher¹.</p>
+      <p dir="ltr">What makes an employee happy is not just the monetary benefit out of his/her work but the work itself along with the work culture. It is on every person working for the organization to put efforts in making it the best place to work, for each of his colleagues, sub ordinates, officials and of course himself.</p>
+      <p dir="ltr">What constitutes a best work place, never has horizons and can never limit to few points. But many researches say that a positive work environment is what every employee dreams of.</p>
+      <p dir="ltr">Let us double click on ‘positive work environment’.</p>
+      <p dir="ltr">What It is not:</p>
+      <ul>
+        <li dir="ltr" role="presentation">This is not mere ‘head nodding’ or ‘acceptance to every act of the employee’. Neither is to never say no.</li>
+        <li dir="ltr" role="presentation">It is not about ‘no rules and no discipline’.</li>
+        <li dir="ltr" role="presentation">It is not just about a ‘high pay’ and more team outings</li>
+      </ul>
+      <p>But:</p>
+      <ul>
+        <li dir="ltr" role="presentation">It is about the happiness and satisfaction an employee gets stepping in for work each day.</li>
+        <li dir="ltr" role="presentation">It is about the smile which is passed on and little gestures to make each other happy.</li>
+        <li dir="ltr" role="presentation">It is about saying that you are wrong in a right way, the way which would inspire the employee to give his/her best and stretch beyond his/her limits in doing so.</li>
+        <li dir="ltr" role="presentation">It is about saying no, but in a way which would make the employee realize the importance of the situation.</li>
+        <li dir="ltr" role="presentation">It is about rules and discipline which an employee would love to follow.</li>
+        <li dir="ltr" role="presentation">It is about a good pay , with a meaningful work.</li>
+        <li dir="ltr" role="presentation">It is about a team outing , with lot of interaction.</li>
+        <li dir="ltr" role="presentation">It is about treating each other with trust, respect,gratitude and integrity.</li>
+        <li dir="ltr" role="presentation">It is about leadership, but not authority.</li>
+        <li dir="ltr" role="presentation">It is not just about an appraisal, which would show up as incentives or a bonus, but a little appreciation for the work.</li>
+        <li dir="ltr" role="presentation">It is about encouraging and inspiring to work.</li>
+        <li dir="ltr" role="presentation">It is about openness to learn from your surroundings.</li>
+        <li dir="ltr" role="presentation">It is about acceptance with a responsibility towards each others growth.</li>
+      </ul>
+      <p dir="ltr">The role of leadership : “Outstanding leaders go out of their way to boost the self esteem of their personnel. If people believe in themselves, its amazing what they can accomplish. “ – Sam Walton.</p>
+      <p dir="ltr">Leadership is not about being authoritative but about leading by example. People follow them and their deeds. They should give a positive inspiration to many young brains and great talents.They should realize the importance of the employees individual goals and help them achieve those within the workplace limits. This would make them reach their personal goals and never ends there, but also helps accomplish the organizational goals to have great teams at work , giving the maximum productivity. The more approachable and responsive the leaders are, the more is the employee engagement and there by productivity².</p>
+      <p dir="ltr">³Research shows that when people work with a positive mind-set, performance on nearly every level—productivity, creativity, engagement—improves.</p>
+      <p dir="ltr">To conclude, be positively energetic and spread the aura. All you see then, is that no goal would remain unfulfilled at any level, be it for an individual or for an organization.</p>
+      <h3 dir="ltr">References</h3>
+      <ol>
+        <li dir="ltr" aria-level="1">
+          <p dir="ltr" role="presentation"><a href="https://hbr.org/2012/01/positive-intelligence">Positive Intelligence.</a></p>
+        </li>
+        <li dir="ltr" aria-level="1">
+          <p dir="ltr" role="presentation"><a href="http://www.forbes.com/sites/meghanbiro/2014/01/19/happy-employees-hefty-profits/">Happy Employees = Hefty Profits.</a></p>
+        </li>
+        <li dir="ltr" aria-level="1">
+          <p dir="ltr" role="presentation"><a href="https://hbr.org/2015/03/positive-teams-are-more-productive">Positive Teams Are More Productive</a>.</p>
+        </li>
+      </ol>
+      <p>&nbsp;</p>
+      <p></p>
+      <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the café of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after I hung that barely 10 min call, I chose not to sign on the dotted line of that lucrative offer. Not sure what egged me then to take that daring call, but I did. </p>
                       <p>In this time and age when everybody seems to be on a constant lookout for change in almost anything, the fact that I managed to beat the 7 years’ itch leading to my second long stint in a 24-year long career (Wow, it’s 24 years already!) never fails to surprise people. I started my career with a 10years’ stint and perhaps now at the closing end on career, a 7years’ and still rolling with Pi Datacenters </p>
                       <p>In fact, at times I wonder how I managed to do it, that too twice and why?</p>
                       <p>I think at the core of it is <span style="color: #012E6A;font-weight: 500;">TRUST</span>.</p>
@@ -126,244 +132,240 @@ if ($conn->connect_error) {
                             </ul>
                       </div>
                       </div>-->
-					                    </div>
-              </div>
-          </div>
-         <?php include('php/includes-techsters/footer.php'); ?>
-          
-          <div id="modal-1" class="modalDialog">
-	<div class="fill-your-details">
-		
-		<div class="modal-content">
-             <div class="modal-container">
-                 <a href="#close" title="Close" class="close">x</a>
-    <div class="modal-body">
-      <div class=" row">
-          <div class="fill-your-details-cnt">
+    </div>
+  </div>
+</div>
+<?php include('php/includes-techsters/footer.php'); ?>
+
+<div id="modal-1" class="modalDialog">
+  <div class="fill-your-details">
+
+    <div class="modal-content">
+      <div class="modal-container">
+        <a href="#close" title="Close" class="close">x</a>
+        <div class="modal-body">
+          <div class=" row">
+            <div class="fill-your-details-cnt">
               <h4>Fill Your Details</h4>
               <form>
                 <ul class="row">
-                <li class="col-md-6">
+                  <li class="col-md-6">
                     <label>Full Name</label>
-                    <input type="text" >    
-                </li>
-                    <li class="col-md-6">
+                    <input type="text">
+                  </li>
+                  <li class="col-md-6">
                     <label>Company Name</label>
-                    <input type="text" >    
-                </li>
-                    <li class="col-md-6">
+                    <input type="text">
+                  </li>
+                  <li class="col-md-6">
                     <label>Mobile No</label>
-                    <input type="text" >    
-                </li>
-                    <li class="col-md-6">
+                    <input type="text">
+                  </li>
+                  <li class="col-md-6">
                     <label>Email Address</label>
-                    <input type="text" >    
-                </li>
-                    <li class="col-12">
-                   <button>Download case study</button>   
-                </li>
-              </ul>
-                  </form>
+                    <input type="text">
+                  </li>
+                  <li class="col-12">
+                    <button>Download case study</button>
+                  </li>
+                </ul>
+              </form>
+            </div>
           </div>
         </div>
+      </div>
     </div>
   </div>
-        </div>
-	</div>
 </div>
-         
-          
-         <!--footer ends-->
-      </div>
-      <!-- wrapper ends -->
-       <script src="js/wow.min.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-       <script src="js/custom.js"></script>
-        <script src="js/main-pi.js"></script>
-       <script>
-         $(document).ready(function(e){
-             var TabBlock = {
-         s: {
-         animLen: 200
-         },
-         
-         init: function() {
-         TabBlock.bindUIActions();
-         TabBlock.hideInactive();
-         },
-         
-         bindUIActions: function() {
-         $('.tabBlock-tabs').on('click', '.tabBlock-tab', function(){
-         TabBlock.switchTab($(this));
-         });
-         },
-         
-         hideInactive: function() {
-         var $tabBlocks = $('.tabBlock');
-         
-         $tabBlocks.each(function(i) {
-         var 
-         $tabBlock = $($tabBlocks[i]),
-         $panes = $tabBlock.find('.tabBlock-pane'),
-         $activeTab = $tabBlock.find('.tabBlock-tab.is-active');
-         
-         $panes.hide();
-         $($panes[$activeTab.index()]).show();
-         });
-         },
-         
-         switchTab: function($tab) {
-         var $context = $tab.closest('.tabBlock');
-         
-         if (!$tab.hasClass('is-active')) {
-         $tab.siblings().removeClass('is-active');
-         $tab.addClass('is-active');
-         
-         TabBlock.showPane($tab.index(), $context);
-         }
-         },
-         
-         showPane: function(i, $context) {
-         var $panes = $context.find('.tabBlock-pane');
-         
-         // Normally I'd frown at using jQuery over CSS animations, but we can't transition between unspecified variable heights, right? If you know a better way, I'd love a read it in the comments or on Twitter @johndjameson
-         $panes.slideUp(TabBlock.s.animLen);
-         $($panes[i]).slideDown(TabBlock.s.animLen);
-         }
-         };
-         
-         $(function() {
-         TabBlock.init();
-         });
-         });
-      </script>
-      <script>
-         $(document).ready(function() {
-                 $('.slider').slick({
-                 slidesToShow: 1,
-                  dots: true,
-                  arrows: false,
-  //adaptiveHeight: true,
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        arrows: false,
-        slidesToShow: 1
+
+
+<!--footer ends-->
+</div>
+<!-- wrapper ends -->
+<script src="js/wow.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/main-pi.js"></script>
+<script>
+  $(document).ready(function(e) {
+    var TabBlock = {
+      s: {
+        animLen: 200
+      },
+
+      init: function() {
+        TabBlock.bindUIActions();
+        TabBlock.hideInactive();
+      },
+
+      bindUIActions: function() {
+        $('.tabBlock-tabs').on('click', '.tabBlock-tab', function() {
+          TabBlock.switchTab($(this));
+        });
+      },
+
+      hideInactive: function() {
+        var $tabBlocks = $('.tabBlock');
+
+        $tabBlocks.each(function(i) {
+          var
+            $tabBlock = $($tabBlocks[i]),
+            $panes = $tabBlock.find('.tabBlock-pane'),
+            $activeTab = $tabBlock.find('.tabBlock-tab.is-active');
+
+          $panes.hide();
+          $($panes[$activeTab.index()]).show();
+        });
+      },
+
+      switchTab: function($tab) {
+        var $context = $tab.closest('.tabBlock');
+
+        if (!$tab.hasClass('is-active')) {
+          $tab.siblings().removeClass('is-active');
+          $tab.addClass('is-active');
+
+          TabBlock.showPane($tab.index(), $context);
+        }
+      },
+
+      showPane: function(i, $context) {
+        var $panes = $context.find('.tabBlock-pane');
+
+        // Normally I'd frown at using jQuery over CSS animations, but we can't transition between unspecified variable heights, right? If you know a better way, I'd love a read it in the comments or on Twitter @johndjameson
+        $panes.slideUp(TabBlock.s.animLen);
+        $($panes[i]).slideDown(TabBlock.s.animLen);
       }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        slidesToShow: 1
-      }
-    }
-  ]
-});
-             
-             
-              //animation
-             wow = new WOW(
-                       {
-                           animateClass: 'animated',
-                           offset: 100,
-                           mobile: true
-                       }
-               );
-               wow.init(); 
-             }); 
-              
-      </script>
- <script>
-    /* jQuery
+    };
+
+    $(function() {
+      TabBlock.init();
+    });
+  });
+</script>
+<script>
+  $(document).ready(function() {
+    $('.slider').slick({
+      slidesToShow: 1,
+      dots: true,
+      arrows: false,
+      //adaptiveHeight: true,
+      responsive: [{
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            slidesToShow: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: false,
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+
+
+    //animation
+    wow = new WOW({
+      animateClass: 'animated',
+      offset: 100,
+      mobile: true
+    });
+    wow.init();
+  });
+</script>
+<script>
+  /* jQuery
 ================================================== */
-$(function() {
-$('.acc__title').click(function(j) {
+  $(function() {
+    $('.acc__title').click(function(j) {
 
-var dropDown = $(this).closest('.acc__card').find('.acc__panel');
-$(this).closest('.acc').find('.acc__panel').not(dropDown).slideUp();
+      var dropDown = $(this).closest('.acc__card').find('.acc__panel');
+      $(this).closest('.acc').find('.acc__panel').not(dropDown).slideUp();
 
-if ($(this).hasClass('active')) {
-$(this).removeClass('active');
-} else {
-$(this).closest('.acc').find('.acc__title.active').removeClass('active');
-$(this).addClass('active');
-}
+      if ($(this).hasClass('active')) {
+        $(this).removeClass('active');
+      } else {
+        $(this).closest('.acc').find('.acc__title.active').removeClass('active');
+        $(this).addClass('active');
+      }
 
-dropDown.stop(false, true).slideToggle();
-j.preventDefault();
-});
-});
-
- </script>
-        <script>
-  $(function () {
+      dropDown.stop(false, true).slideToggle();
+      j.preventDefault();
+    });
+  });
+</script>
+<script>
+  $(function() {
     var fx = function fx() {
-    $(".stat-number").each(function (i, el) {
+      $(".stat-number").each(function(i, el) {
         var data = parseInt(this.dataset.n, 10);
         var props = {
-            "from": {
-                "count": 0
-            },
-                "to": { 
-                "count": data
-            }
+          "from": {
+            "count": 0
+          },
+          "to": {
+            "count": data
+          }
         };
         $(props.from).animate(props.to, {
-            duration: 3000 * 1,
-            step: function (now, fx) {
-                $(el).text(Math.ceil(now));
-            },
-            complete:function() {
-                if (el.dataset.sym !== undefined) {
-                  el.textContent = el.textContent.concat(el.dataset.sym)
-                }
+          duration: 3000 * 1,
+          step: function(now, fx) {
+            $(el).text(Math.ceil(now));
+          },
+          complete: function() {
+            if (el.dataset.sym !== undefined) {
+              el.textContent = el.textContent.concat(el.dataset.sym)
             }
+          }
         });
-    });
+      });
     };
-    
+
     var reset = function reset() {
-        //console.log($(this).scrollTop())
-        if ($(this).scrollTop() > 1990) {
-            $(this).off("scroll");
-          fx()
-        }
+      //console.log($(this).scrollTop())
+      if ($(this).scrollTop() > 1990) {
+        $(this).off("scroll");
+        fx()
+      }
     };
-    
+
     $(window).on("scroll", reset);
-});
-       </script>
-      <script>
-          $(document).ready(function(){
-              $('nav ul li a').click(function(){
-                $('nav ul li a').removeClass("active");
-                $(this).addClass("active");
-            });
-            });
-       </script>
-       <script>
-       const modalBox = document.querySelector(".modal-container");
-const modalBtn = document.querySelector(".modal-btn");
-const closeBtn = document.querySelector(".close-btn");
+  });
+</script>
+<script>
+  $(document).ready(function() {
+    $('nav ul li a').click(function() {
+      $('nav ul li a').removeClass("active");
+      $(this).addClass("active");
+    });
+  });
+</script>
+<script>
+  const modalBox = document.querySelector(".modal-container");
+  const modalBtn = document.querySelector(".modal-btn");
+  const closeBtn = document.querySelector(".close-btn");
 
-modalBtn.addEventListener("click", () => {
-  modalBox.style = "display: block;";
-});
+  modalBtn.addEventListener("click", () => {
+    modalBox.style = "display: block;";
+  });
 
-closeBtn.addEventListener("click", () => {
-  modalBox.style = "display: none;";
-});
-
-window.addEventListener("click", (e) => {
-  if (e.target == modalBox) {
+  closeBtn.addEventListener("click", () => {
     modalBox.style = "display: none;";
-  }
-});
-       </script>
-   </body>
+  });
+
+  window.addEventListener("click", (e) => {
+    if (e.target == modalBox) {
+      modalBox.style = "display: none;";
+    }
+  });
+</script>
+</body>
+
 </html>

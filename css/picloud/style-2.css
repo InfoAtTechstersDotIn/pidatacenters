@@ -8424,3 +8424,7 @@
         padding: 2px;
         position: relative;
     }
+
+    .case-block-main.greenshape .case-content {
+        min-height: 550px;
+    }

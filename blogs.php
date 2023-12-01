@@ -41,7 +41,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
                         <h4>Transforming Business Dynamics: The Pi-Oracle Strategic Partnership </h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
                         <p><strong id="docs-internal-guid-3a909168-7fff-85f0-b0d7-6b3b1cb909b3">In the dynamic landscape of cloud computing and data management, the partnership between Pi Datacenters and Oracle emerges as a paradigm of innovation and reliability.</strong></p>
                         <p></p>
@@ -60,7 +60,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
                         <h4>Finding the Ideal Data Center: The Reliability &amp; Scalability Aspects</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p>The importance of Data Centers continues to increase as more businesses and individuals rely on them for data storage, processing, and access.</p>
                         <a href="finding-the-ideal-data-center-the-reliability-scalability-aspects.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
@@ -75,9 +75,9 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
                         <h4>$5T Economy Needs Inclusive Growth from Rural-India</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
-                        <p><strong id="docs-internal-guid-a617d0e5-7fff-4857-9c5a-b4f39d644281">’India lives in its villages’, stated the father of the nation decades ago which still holds true. The Indian economy has been on a growth trajectory over the last couple of decades. Prime Minister Narendra Modi’s vision of making India</strong></p>
+                        <p><strong id="docs-internal-guid-a617d0e5-7fff-4857-9c5a-b4f39d644281">&#8216;India lives in its villages&#8217;, stated the father of the nation decades ago which still holds true. The Indian economy has been on a growth trajectory over the last couple of decades. Prime Minister Narendra Modi&#8217;s vision of making India</strong></p>
                         <p></p>
                         <a href="economy-needs-inclusive-growth-from-rural-india.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
@@ -91,10 +91,10 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                             <img src="dashboard/uploads/2494Leadership is earned.png" alt="blog-img-1" width="450" height="248">
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
-                        <h4>Leadership is Earned. It’s Neither a Promotion Nor a Pay Raise !</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <h4>Leadership is Earned. It&#8217;s Neither a Promotion Nor a Pay Raise !</h4>
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
-                        <p>’A leader is one who knows the way, goes the way and shows the way.’ The essence of good leadership lies in these golden words by John C. Maxwell. A leader is also someone who helps you find a way even if he doesn’t know the way.</p>
+                        <p>&#8216;A leader is one who knows the way, goes the way and shows the way.&#8217; The essence of good leadership lies in these golden words by John C. Maxwell. A leader is also someone who helps you find a way even if he doesn&#8217;t know the way.</p>
                         <p></p>
                         <a href="leadership-is-earned-its-neither-a-promotion-nor-a-pay-raise.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
@@ -109,7 +109,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
                         <h4>The World Before and After COVID</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
                         <p>Our global home has witnessed innumerable historical milestones across the ages, spanning political upheavals and wars to epidemics and pandemics. From the oldest recorded Typhoid Epidemic in 430 BC Athens</p>
                         <p></p>
@@ -125,10 +125,10 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                             <img src="dashboard/uploads/1821Deb-Sir-blog-creative.png" alt="blog-img-1" width="450" height="248">
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
-                        <h4>How Did I Beat the 7 Years’ Itch @ Work?</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <h4>How Did I Beat the 7 Years&#8217; Itch @ Work?</h4>
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
-                        <p><strong id="docs-internal-guid-2909ddca-7fff-3698-8c55-e3d2278631b0">It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and afte</strong></p>
+                        <p><strong id="docs-internal-guid-2909ddca-7fff-3698-8c55-e3d2278631b0">It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the caf© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and afte</strong></p>
                         <p></p>
                         <a href="how-did-i-beat-the-7-Years-itch-work.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
@@ -143,9 +143,9 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
                         <h4>Metaverse Influx Into Data Center Innovation</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
-                        <p><strong id="docs-internal-guid-16a938fd-7fff-72db-2864-56143bb2ed92">Let’s talk about ’˜Metaverses’ First, let’s get a common misconception out of the way. There isn’t just one ’˜Metaverse’. Let me elaborate. Metaverse’ as a term was coined by author Neal Stephenson in his science-fiction novel ’˜Snow Crash’, back in</strong></p>
+                        <p><strong id="docs-internal-guid-16a938fd-7fff-72db-2864-56143bb2ed92">Let&#8217;s talk about &#8216;Metaverses&#8217; First, let&#8217;s get a common misconception out of the way. There isn&#8217;t just one &#8216;Metaverse&#8217;. Let me elaborate. Metaverse&#8217; as a term was coined by author Neal Stephenson in his science-fiction novel &#8216;Snow Crash&#8217;, back in</strong></p>
                         <p></p>
                         <a href="metaverse-influx-into-data-center-innovation.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
@@ -159,10 +159,10 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                             <img src="dashboard/uploads/6750pi-blog.jpeg" alt="blog-img-1" width="450" height="248">
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
-                        <h4>Pi Data Centers Launches One Platform Container Services ’˜K8SaaS’ On Cloud</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <h4>Pi Data Centers Launches One Platform Container Services &#8216;K8SaaS&#8217; On Cloud</h4>
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
-                        <p><strong id="docs-internal-guid-b052dcc4-7fff-524e-c108-96d96c372699">One Platform Container Services ’˜K8SaaS’ On Cloud</strong></p>
+                        <p><strong id="docs-internal-guid-b052dcc4-7fff-524e-c108-96d96c372699">One Platform Container Services &#8216;K8SaaS&#8217; On Cloud</strong></p>
                         <p></p>
                         <a href="pidatacenters-launches-one-platform-container-services-K8SaaS-on-cloud.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
@@ -177,7 +177,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
                         <h4>Coal, Carriers, Chips &amp; The Crisis</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
                         <p><strong id="docs-internal-guid-ac16cfe1-7fff-41ff-39cd-d0bac3e2a4b4">The economic turmoil caused by the COVID has significantly disrupted the ecosystem on the whole. The post-pandemic situation in India and other countries has been an eye opener on the significance of having a stable supply chain. I have chosen</strong></p>
                         <p></p>
@@ -194,7 +194,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
                         <h4>Why Colocation is the Key to Reducing your Carbon Footprint</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
                         <p><strong id="docs-internal-guid-2455d798-7fff-e787-7d2f-b42ffac548f6">Climate change has been a cause for concern over the last decade. This in turn, has given organisations and consumers alike ample reason to be able to demonstrate their potential for sustenance. Sustainability automatically gets you to veer towards reducing</strong></p>
                         <p></p>
@@ -211,7 +211,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
                         <h4>Data Migration Challenges and Methods To Overcome Them</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
                         <p><strong id="docs-internal-guid-7a0153d3-7fff-3cea-02ed-c9b19d6f39d9">Cloud technology offers diverse advantages to businesses to maintain the competitive streak. Management cost reduction, scaling of technology, achieving efficiency peaks and maintaining low cost of operations are a few advantages to count on. Business journalists indicate that data migration</strong></p>
                         <p></p>
@@ -228,7 +228,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
                         <h4>Artificial Intelligence In Data Centers - The Way Forward</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
                         <p><strong id="docs-internal-guid-72c0243a-7fff-e5b6-ef2e-d2cfd3fa5fbc">Data centers have emerged as the lifeline for organizations when the 90s heralded a massive technology boom, spanning micro to macro businesses, across the globe. With the advent of technology-oriented businesses, came multi-layered data dependency. As new organizations demanded market space</strong></p>
                         <p></p>
@@ -244,10 +244,10 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                             <img src="dashboard/uploads/8111A1_1515-x-855.png" alt="blog-img-1" width="450" height="248">
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
-                        <h4>What’s the Fuss (WTF), About this New WhatsApp Privacy Policy!!</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <h4>What&#8217;s the Fuss (WTF), About this New WhatsApp Privacy Policy!!</h4>
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
-                        <p><strong id="docs-internal-guid-d9798011-7fff-6028-c0c6-dcf4c41944c4">Ok, so as we were moving closer to settling the score with COVID (hopefully the vaccine thing would work), I was thinking, what’snext getting the world’s attention ’¦ And BOOMMM!! We have WhatsApp and its data privacy fuss that gripped</strong></p>
+                        <p><strong id="docs-internal-guid-d9798011-7fff-6028-c0c6-dcf4c41944c4">Ok, so as we were moving closer to settling the score with COVID (hopefully the vaccine thing would work), I was thinking, what&#8217;snext getting the world&#8217;s attention &#8217;¦ And BOOMMM!! We have WhatsApp and its data privacy fuss that gripped</strong></p>
                         <p></p>
                         <a href="whats-the-fuss-wtf-about-this-new-whatsapp-privacy-policy.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
@@ -261,8 +261,8 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                             <img src="dashboard/uploads/1927kalyan-blog-1-pic.png" alt="blog-img-1" width="450" height="248">
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
-                        <h4>India’s Data Center Infrastructure ’The Key for Post COVID-19 Economic Era</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <h4>India&#8217;s Data Center Infrastructure &#8216;The Key for Post COVID-19 Economic Era</h4>
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
                         <p><strong id="docs-internal-guid-40e89254-7fff-c3b0-475b-7f4ca3703769">COVID-19 has definitely set in motion an unprecedented and extraordinary play of events in every sphere that involves humankind. Be it education, healthcare, technology, banking, entertainment, travel &amp; tourism or even something as ordinary as household shopping. These and other</strong></p>
                         <p></p>
@@ -278,10 +278,10 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                             <img src="dashboard/uploads/1945B1_Blog.png" alt="blog-img-1" width="450" height="248">
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
-                        <h4>India’s Data is its National Treasure that Needs Strict Data-Localization</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <h4>India&#8217;s Data is its National Treasure that Needs Strict Data-Localization</h4>
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
-                        <p><strong id="docs-internal-guid-01b3fd7d-7fff-2cb6-a038-c1b8cbb02a3e">In February 2019, FireEye ’“ a US cybersecurity firm ’“ zeroed in on a hacker tagged only as ’˜fallensky519’ who was on the Most Wanted List for stealing personal data of 6.8 million users from an Indian healthcare website.</strong></p>
+                        <p><strong id="docs-internal-guid-01b3fd7d-7fff-2cb6-a038-c1b8cbb02a3e">In February 2019, FireEye &#8216; a US cybersecurity firm &#8217; &#8216; zeroed in on a hacker tagged only as &#8216;fallensky519&#8217; who was on the Most Wanted List for stealing personal data of 6.8 million users from an Indian healthcare website.</strong></p>
                         <p></p>
                         <a href="indias-data-is-its-national-treasure-that-needs-strict-data-localization.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
@@ -296,9 +296,9 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
                         <h4>Edge Data Centers to Spark off The Smart City Boom</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
-                        <p><strong id="docs-internal-guid-b60ebc0e-7fff-7e01-c273-c3890d462bb7">’Smart Cities’ is one of the most popular and emerging use cases of data centers, especially in India. There are more than 100 ’Smart City’ projects being already announced and more than 500 ’Amrut Town’ projects are being planned in</strong></p>
+                        <p><strong id="docs-internal-guid-b60ebc0e-7fff-7e01-c273-c3890d462bb7">&#8216;Smart Cities&#8217; is one of the most popular and emerging use cases of data centers, especially in India. There are more than 100 &#8216;Smart City&#8217; projects being already announced and more than 500 &#8216;Amrut Town&#8217; projects are being planned in</strong></p>
                         <p></p>
                         <a href="edge-data-centers-to-spark-off-the-smart-city-boom.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
@@ -312,10 +312,10 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                             <img src="dashboard/uploads/2051PRO (4).jpg" alt="blog-img-1" width="450" height="248">
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
-                        <h4>Decentralization of India’s Infrastructure</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <h4>Decentralization of India&#8217;s Infrastructure</h4>
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
-                        <p><strong id="docs-internal-guid-f1d10dcb-7fff-ad99-1516-4d815f7a1692">The early 2000’s saw a trend of rapid industrialization on Indian soil. Software, Information Technology, E-Commerce, Banking, Pharmaceuticals, Manufacturing, Trade, and several other types of domains, received a boost that had never been witnessed before.&nbsp;</strong></p>
+                        <p><strong id="docs-internal-guid-f1d10dcb-7fff-ad99-1516-4d815f7a1692">The early 2000&#8217;s saw a trend of rapid industrialization on Indian soil. Software, Information Technology, E-Commerce, Banking, Pharmaceuticals, Manufacturing, Trade, and several other types of domains, received a boost that had never been witnessed before.&nbsp;</strong></p>
                         <p></p>
                         <a href="decentralization-of-indias-infrastructure.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
@@ -329,8 +329,8 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                             <img src="dashboard/uploads/8168PRO (3).jpg" alt="blog-img-1" width="450" height="248">
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
-                        <h4>Top 10 Trends in Digital India 2019 ’“ By Kalyan Muppaneni, Founder &amp; CEO, Pi</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <h4>Top 10 Trends in Digital India 2019 &#8217; “ By Kalyan Muppaneni, Founder &amp; CEO, Pi</h4>
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
                         <p><strong id="docs-internal-guid-51524d97-7fff-34c1-7a32-5e2379798beb">2019 is going to see a significant leap in the current digital India trends. Some of the technologies are already going mainstream. These life-enhancing smarter technologies will further boost our productivity and enhance our daily living conditions.&nbsp;</strong></p>
                         <p></p>
@@ -347,7 +347,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
                         <h4>12 Reasons Why Enterprises Should Adopt Cloud</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
                         <p><strong id="docs-internal-guid-e1e51040-7fff-5fd1-f8e5-fede4c416e03">Having spent the last couple of months with experts in the industry and talking to many customers, I thought I will make a humble attempt to put together a few points on why enterprises should adopt cloud on a robust</strong></p>
                         <p></p>
@@ -363,10 +363,10 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                             <img src="dashboard/uploads/6180PRO (1).jpg" alt="blog-img-1" width="450" height="248">
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
-                        <h4>With Pi You Don’t WannaCry</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <h4>With Pi You Don&#8217;t WannaCry</h4>
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
-                        <p><strong id="docs-internal-guid-04d0aa5e-7fff-4383-8f1b-1f635588e278">The ’WannaCry’ ransomware attack ’“ one of the largest ever cyber attacks brought computer systems across the globe to their knees, locking people out of their data and demanding that they pay a ransom or lose everything. More than 200,000</strong></p>
+                        <p><strong id="docs-internal-guid-04d0aa5e-7fff-4383-8f1b-1f635588e278">The &#8216;WannaCry&#8217; ransomware attack &#8217;“ one of the largest ever cyber attacks brought computer systems across the globe to their knees, locking people out of their data and demanding that they pay a ransom or lose everything. More than 200,000</strong></p>
                         <p></p>
                         <a href="with-pi-you-dont-wannacry.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
@@ -381,7 +381,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
                         <h4>How to Kickback Procrastination?</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
                         <p><strong id="docs-internal-guid-e864fb98-7fff-624e-912d-ac7a72e8d3e4">Being lazy is good, exciting and interesting. It is the best feeling always. Be lazy, be happy, stay in comfort. The word is procrastination, coined around 1588 A.D, but being widely used in 20th century. It is the after effects</strong></p>
                         <p></p>
@@ -398,7 +398,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
                         <h4>Unknown Water - My Experience</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
                         <p>First let me categorically state that this is my first honest attempt at blogging. Guess there are always certain things which are new and so is my experience that I want to share with you all. I think it was</p>
                         <p></p>
@@ -415,9 +415,9 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
                         <h4>Starting a day unplanned? Not the right thing to do!!</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
-                        <p><strong id="docs-internal-guid-eb45c09b-7fff-fb90-e6cd-c1f1366d5489">’Failing to plan can be planning to fail’ We should device a habit of planning the day in advance. This lets us know the top agenda tasks for the day before we start. To operate on memory is not advisable</strong></p>
+                        <p><strong id="docs-internal-guid-eb45c09b-7fff-fb90-e6cd-c1f1366d5489">&#8216;Failing to plan can be planning to fail&#8217; We should device a habit of planning the day in advance. This lets us know the top agenda tasks for the day before we start. To operate on memory is not advisable</strong></p>
                         <p></p>
                         <a href="starting-a-day-unplanned-not-the-right-thing-to-do.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
@@ -432,7 +432,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
                         <h4>Demystifying Goods &amp; Services Tax (GST)</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
                         <p><strong id="docs-internal-guid-cd050eeb-7fff-3987-0794-a11c7d7b4a06">Goods and Services Tax (GST) is the latest buzz in Indian commerce today. To explain simply, Goods and Services Tax (GST) is a comprehensive tax levied on manufacture, sale and consumption of goods and services at a national level. Through</strong></p>
                         <p></p>
@@ -449,7 +449,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
                         <h4> Transformational Leadership at your Workplace</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
                         <p><strong id="docs-internal-guid-13b7f422-7fff-ffb7-8291-e2ec9707b739">Transformational leadership is an efficient and effective hand holding that enables the team to undergo a transformation and inspires them to explore the uncharted waters. Transformational leaders inspire great fidelity and confidence in their followers. When to use the transformational</strong></p>
                         <p></p>
@@ -465,8 +465,8 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                             <img src="https://pidatacenters.com/dashboard/uploads/2740Let%E2%80%99s-Break-The-Myths-Of-Cloud-Security-250x139.png" alt="blog-img-1" width="450" height="248">
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
-                        <h4>Let’s Break The Myths Of Cloud Security</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <h4>Let&#8217;s Break The Myths Of Cloud Security</h4>
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
                         <p><strong id="docs-internal-guid-1a3b16df-7fff-3059-be3e-79e79a7dcd25">Cloud computing provides the best solution to a number of long-standing challenges like scalability, true elasticity, barriers to entry, technology refreshes and cost savings. Along with the numerous benefits cloud offers, it also brings in some challenges in adoption to</strong></p>
                         <p></p>
@@ -483,7 +483,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
                         <h4>Essentials Factors in Building an Agile Data Center</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
                         <p><strong id="docs-internal-guid-12b0687b-7fff-3330-4273-e400f192a256">If we look at the scenario of data centers, nearly 75% of all the workloads of DC are Virtualized and this would further increase without any doubt. The major challenge IT admins generally face is that conventional storage is not</strong></p>
                         <p></p>
@@ -500,7 +500,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
                         <h4>Industry Adoption to Cloud Platform - Trends &amp; Facts</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
                         <p><strong id="docs-internal-guid-09e6d716-7fff-9e11-03ca-57caaf464204">Cloud Platform: Market intelligence today shows a constant rise in public cloud IaaS revenues at a 28.2% CAGR from 2015-2020, from $12.6 billion to $43.6 billion. The staggering hike in numbers owes to the fact that nearly 2/3 of</strong></p>
                         <p></p>
@@ -517,7 +517,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                                 </figure>
                                     <!--<span class="date">23 Apr, 2022</span>-->
                 <!--<h4>Industry Adoption to Cloud Platform - Trends &amp; Facts</h4>-->
-                <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                 <!--<p></p><p><strong id="docs-internal-guid-0683f34f-7fff-1dd9-f517-181238598cd5">Cloud Platform: Market intelligence today shows a constant rise in public cloud IaaS revenues at a 28.2% CAGR from 2015-2020, from $12.6 billion to $43.6 billion. The staggering hike in numbers owes to the fact that nearly 2/3 of</strong></p><p></p>-->
                 <!--<a href="blog-details.php?id=8/" class="read-more">Read More</a>
                                     <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
@@ -532,7 +532,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
                         <h4>Positive-Work-Environment-Boosts-the-Productivity</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
                         <p><strong id="docs-internal-guid-44b87a9a-7fff-308a-ac7e-5897d310c854">Positive Work Environment: Organizations today are goal driven entities. They strive to perform the best and make the most out of every thing with an end goal of making profits , which is made possible only with the contribution of</strong></p>
                         <p></p>
@@ -549,9 +549,9 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
                         <h4>Managed Services: Created a Great Buzz in the IT Industry</h4>
-                        <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
-                        <p><strong id="docs-internal-guid-3a909168-7fff-85f0-b0d7-6b3b1cb909b3">Managed services have generated significant buzz in the IT industry over the last few years. In this business model, managed service providers (MSP) viz. systems integrators and solution providers take over all or part of a customer’s technologies and manage</strong></p>
+                        <p><strong id="docs-internal-guid-3a909168-7fff-85f0-b0d7-6b3b1cb909b3">Managed services have generated significant buzz in the IT industry over the last few years. In this business model, managed service providers (MSP) viz. systems integrators and solution providers take over all or part of a customer&#8217;s technologies and manage</strong></p>
                         <p></p>
                         <a href="managed-services-created-a-great-buzz-in-the-it-industry.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
@@ -565,7 +565,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                                 </figure>
                                    <span class="date">09 Apr, 2022</span>
                                     <h4>Metaverse Influx Into Datacenter Innovation</h4>
-                                    <p>Let’s talk about ’˜Metaverses’ First, let’s get a common misconception out of the way. There isn’t just one ’˜Metaverse’. Let me elaborate. Metaverse’ as a term was coined by author Neal Stephenson in his science-fiction novel ’˜Snow Crash’, back in</p>
+                                    <p>Let&#8217;s talk about &#8217;˜Metaverses&#8217; First, let&#8217;s get a common misconception out of the way. There isn&#8217;t just one &#8217;˜Metaverse&#8217;. Let me elaborate. Metaverse&#8217; as a term was coined by author Neal Stephenson in his science-fiction novel &#8217;˜Snow Crash&#8217;, back in</p>
                                     <a href="#" class="read-more">Read More</a>
                                     <span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>
                                     <p><small>Share</small> 0 comment</p>
@@ -577,7 +577,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                                     <img src="images/blog-img-3.png" alt="blog-img-3" width="450" height="248">
                                 </figure>
                                    <span class="date">29 Dec, 2021</span>
-                                    <h4>Pi Datacenters Launches One Platform Container Services ’˜K8SaaS’ On Cloud</h4>
+                                    <h4>Pi Datacenters Launches One Platform Container Services &#8217;˜K8SaaS&#8217; On Cloud</h4>
                                     <p>Pi Kubernetes Container as a Service is a cloud-based one platform framework that allows software developers and IT departments of any organisation to rapidly deploy Kubernetes clusters for building new applications and deploying them on heterogenous</p>
                                     <a href="#" class="read-more">Read More</a>
                                     <span class="edit">Posted by Admin in Modern Technology</span>

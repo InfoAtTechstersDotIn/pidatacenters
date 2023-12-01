@@ -1,13 +1,13 @@
 <?php
-$seo_title= "";
-$seo_description= "";
-$seo_keywords= "";
-$seo_robots="index, follow";
-$seo_canonical= "https://pidatacenters.com/managed-services-created-a-great-buzz-in-the-it-industry";
-$og_sitename= "https://pidatacenters.com";
-$og_type= "website";
-$og_title= "";
-$og_description= "";
+$seo_title = "";
+$seo_description = "";
+$seo_keywords = "";
+$seo_robots = "index, follow";
+$seo_canonical = "https://pidatacenters.com/managed-services-created-a-great-buzz-in-the-it-industry";
+$og_sitename = "https://pidatacenters.com";
+$og_type = "website";
+$og_title = "";
+$og_description = "";
 ?>
 
 <?php include('php/includes-techsters/header.php'); ?>
@@ -21,47 +21,54 @@ $dbname = "search8c_pi";
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
+  die("Connection failed: " . $conn->connect_error);
+}
 ?>
+<style>
+  #myBtn2 {
+    display: none;
+  }
+</style>
 
 
-         <!-- main starts here -->
-         <div class="about-banner">
-                 <div class="about-banner-blk">
-                      <img src="images/blogs-banner.jpg" alt="blogs-banner" width="1920" height="210">
-                         <h2>Blogs</h2>
-                     
-                 </div>
-         </div>
-          <!--board-of-directors starts here -->
-          <div class="case-block">
-              <div class="container">
+<!-- main starts here -->
+<div class="about-banner">
+  <div class="about-banner-blk">
+    <img src="images/blogs-banner.jpg" alt="blogs-banner" width="1920" height="210">
+    <h2>Blogs</h2>
+
+  </div>
+</div>
+<!--board-of-directors starts here -->
+<div class="case-block">
+  <div class="container">
     <div class="case-block-main greenshape1">
-				     
-                             <img src="dashboard/uploads/2454blog-images.jpg" alt="blog-1-img" width="450" height="248">
-							 <p></p><p dir="ltr">Managed services have generated significant buzz in the IT industry over the last few years. In this business model, managed service providers (MSP) viz. systems integrators and solution providers take over all or part of a customer’s technologies and manage them remotely or with a mix of remote and onsite support.</p>
-<p dir="ltr">Managed services has brought in the liberty for the customer to channel their resources towards their core business, while the MSP manages their IT, driving in operational excellence and cost optimization.</p>
-<p dir="ltr">With managed services being of varied pedigree, starting from remote monitoring, hosting, software distribution, to even data warehousing, the offerings surely does not mean the same to every customer.</p>
-<p dir="ltr">Industry demand for managed services is at an all-time high owing to</p>
-<ol>
-<li dir="ltr" role="presentation">Customers’ understanding of the significance of specialized services.</li>
-<li dir="ltr" role="presentation">Cost factor playing a significant role.</li>
-<li dir="ltr" role="presentation">Optimum utilization of customer’s existing resources.</li>
-</ol>
-<p dir="ltr">By offering ongoing and defined services, customers are being provided with a convenient method of successfully maintaining their infrastructure while helping, lower their TCO. This annuity model equally help customers and MSPs meticulously plan their exposures and increase productivity.</p>
-<p dir="ltr">Gartner research says “By 2016, 70% of CIOs expect to change their mix of sourcing providers to get more business value and innovation from new partner relationships. Sourcing managers must consider using the managed services approach to outsourcing, and focus on the key success factors to realize sourcing objectives”</p>
-<p dir="ltr">In line with analyst researches and industry pundits, to derive optimum business value from managed services, both customer and MSP organisations must be cognizant of the following facts:</p>
-<ul>
-<li dir="ltr" role="presentation">Performance is mapped to negotiated scope of work (SOW), and measured through service-level agreements (SLAs)and specified outcomes and deliverables.</li>
-<li dir="ltr" role="presentation">The model must have built-in elements of risks and rewards.</li>
-<li dir="ltr" role="presentation">It must have a joint governance layer.</li>
-<li dir="ltr" role="presentation">The contract must include precise plans for change management, continuous improvement and partnership.</li>
-<li dir="ltr" role="presentation">The delivery risk of agreed outcomes must be shared.</li>
-</ul>
-<p dir="ltr">The benchmark of managed services is, how fundamentally one has got the hang of customer’s business, how close one could get to the roots of customer’s business problems and how well one could establish itself as an advisor to the customer.</p>
-<p><strong id="docs-internal-guid-0e0e4649-7fff-c05f-d5e6-de9d0852d087"><br><br><br><br></strong></p><p></p>
-                      <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the café of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after I hung that barely 10 min call, I chose not to sign on the dotted line of that lucrative offer. Not sure what egged me then to take that daring call, but I did. </p>
+
+      <img src="dashboard/uploads/2454blog-images.jpg" alt="blog-1-img" width="450" height="248">
+      <p></p>
+      <p dir="ltr">Managed services have generated significant buzz in the IT industry over the last few years. In this business model, managed service providers (MSP) viz. systems integrators and solution providers take over all or part of a customer’s technologies and manage them remotely or with a mix of remote and onsite support.</p>
+      <p dir="ltr">Managed services has brought in the liberty for the customer to channel their resources towards their core business, while the MSP manages their IT, driving in operational excellence and cost optimization.</p>
+      <p dir="ltr">With managed services being of varied pedigree, starting from remote monitoring, hosting, software distribution, to even data warehousing, the offerings surely does not mean the same to every customer.</p>
+      <p dir="ltr">Industry demand for managed services is at an all-time high owing to</p>
+      <ol>
+        <li dir="ltr" role="presentation">Customers’ understanding of the significance of specialized services.</li>
+        <li dir="ltr" role="presentation">Cost factor playing a significant role.</li>
+        <li dir="ltr" role="presentation">Optimum utilization of customer’s existing resources.</li>
+      </ol>
+      <p dir="ltr">By offering ongoing and defined services, customers are being provided with a convenient method of successfully maintaining their infrastructure while helping, lower their TCO. This annuity model equally help customers and MSPs meticulously plan their exposures and increase productivity.</p>
+      <p dir="ltr">Gartner research says “By 2016, 70% of CIOs expect to change their mix of sourcing providers to get more business value and innovation from new partner relationships. Sourcing managers must consider using the managed services approach to outsourcing, and focus on the key success factors to realize sourcing objectives”</p>
+      <p dir="ltr">In line with analyst researches and industry pundits, to derive optimum business value from managed services, both customer and MSP organisations must be cognizant of the following facts:</p>
+      <ul>
+        <li dir="ltr" role="presentation">Performance is mapped to negotiated scope of work (SOW), and measured through service-level agreements (SLAs)and specified outcomes and deliverables.</li>
+        <li dir="ltr" role="presentation">The model must have built-in elements of risks and rewards.</li>
+        <li dir="ltr" role="presentation">It must have a joint governance layer.</li>
+        <li dir="ltr" role="presentation">The contract must include precise plans for change management, continuous improvement and partnership.</li>
+        <li dir="ltr" role="presentation">The delivery risk of agreed outcomes must be shared.</li>
+      </ul>
+      <p dir="ltr">The benchmark of managed services is, how fundamentally one has got the hang of customer’s business, how close one could get to the roots of customer’s business problems and how well one could establish itself as an advisor to the customer.</p>
+      <p><strong id="docs-internal-guid-0e0e4649-7fff-c05f-d5e6-de9d0852d087"><br><br><br><br></strong></p>
+      <p></p>
+      <!--<p>It’s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the café of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after I hung that barely 10 min call, I chose not to sign on the dotted line of that lucrative offer. Not sure what egged me then to take that daring call, but I did. </p>
                       <p>In this time and age when everybody seems to be on a constant lookout for change in almost anything, the fact that I managed to beat the 7 years’ itch leading to my second long stint in a 24-year long career (Wow, it’s 24 years already!) never fails to surprise people. I started my career with a 10years’ stint and perhaps now at the closing end on career, a 7years’ and still rolling with Pi Datacenters </p>
                       <p>In fact, at times I wonder how I managed to do it, that too twice and why?</p>
                       <p>I think at the core of it is <span style="color: #012E6A;font-weight: 500;">TRUST</span>.</p>
@@ -100,244 +107,240 @@ if ($conn->connect_error) {
                             </ul>
                       </div>
                       </div>-->
-					                    </div>
-              </div>
-          </div>
-         <?php include('php/includes-techsters/footer.php'); ?>
-          
-          <div id="modal-1" class="modalDialog">
-	<div class="fill-your-details">
-		
-		<div class="modal-content">
-             <div class="modal-container">
-                 <a href="#close" title="Close" class="close">x</a>
-    <div class="modal-body">
-      <div class=" row">
-          <div class="fill-your-details-cnt">
+    </div>
+  </div>
+</div>
+<?php include('php/includes-techsters/footer.php'); ?>
+
+<div id="modal-1" class="modalDialog">
+  <div class="fill-your-details">
+
+    <div class="modal-content">
+      <div class="modal-container">
+        <a href="#close" title="Close" class="close">x</a>
+        <div class="modal-body">
+          <div class=" row">
+            <div class="fill-your-details-cnt">
               <h4>Fill Your Details</h4>
               <form>
                 <ul class="row">
-                <li class="col-md-6">
+                  <li class="col-md-6">
                     <label>Full Name</label>
-                    <input type="text" >    
-                </li>
-                    <li class="col-md-6">
+                    <input type="text">
+                  </li>
+                  <li class="col-md-6">
                     <label>Company Name</label>
-                    <input type="text" >    
-                </li>
-                    <li class="col-md-6">
+                    <input type="text">
+                  </li>
+                  <li class="col-md-6">
                     <label>Mobile No</label>
-                    <input type="text" >    
-                </li>
-                    <li class="col-md-6">
+                    <input type="text">
+                  </li>
+                  <li class="col-md-6">
                     <label>Email Address</label>
-                    <input type="text" >    
-                </li>
-                    <li class="col-12">
-                   <button>Download case study</button>   
-                </li>
-              </ul>
-                  </form>
+                    <input type="text">
+                  </li>
+                  <li class="col-12">
+                    <button>Download case study</button>
+                  </li>
+                </ul>
+              </form>
+            </div>
           </div>
         </div>
+      </div>
     </div>
   </div>
-        </div>
-	</div>
 </div>
-         
-          
-         <!--footer ends-->
-      </div>
-      <!-- wrapper ends -->
-       <script src="js/wow.min.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-       <script src="js/custom.js"></script>
-        <script src="js/main-pi.js"></script>
-       <script>
-         $(document).ready(function(e){
-             var TabBlock = {
-         s: {
-         animLen: 200
-         },
-         
-         init: function() {
-         TabBlock.bindUIActions();
-         TabBlock.hideInactive();
-         },
-         
-         bindUIActions: function() {
-         $('.tabBlock-tabs').on('click', '.tabBlock-tab', function(){
-         TabBlock.switchTab($(this));
-         });
-         },
-         
-         hideInactive: function() {
-         var $tabBlocks = $('.tabBlock');
-         
-         $tabBlocks.each(function(i) {
-         var 
-         $tabBlock = $($tabBlocks[i]),
-         $panes = $tabBlock.find('.tabBlock-pane'),
-         $activeTab = $tabBlock.find('.tabBlock-tab.is-active');
-         
-         $panes.hide();
-         $($panes[$activeTab.index()]).show();
-         });
-         },
-         
-         switchTab: function($tab) {
-         var $context = $tab.closest('.tabBlock');
-         
-         if (!$tab.hasClass('is-active')) {
-         $tab.siblings().removeClass('is-active');
-         $tab.addClass('is-active');
-         
-         TabBlock.showPane($tab.index(), $context);
-         }
-         },
-         
-         showPane: function(i, $context) {
-         var $panes = $context.find('.tabBlock-pane');
-         
-         // Normally I'd frown at using jQuery over CSS animations, but we can't transition between unspecified variable heights, right? If you know a better way, I'd love a read it in the comments or on Twitter @johndjameson
-         $panes.slideUp(TabBlock.s.animLen);
-         $($panes[i]).slideDown(TabBlock.s.animLen);
-         }
-         };
-         
-         $(function() {
-         TabBlock.init();
-         });
-         });
-      </script>
-      <script>
-         $(document).ready(function() {
-                 $('.slider').slick({
-                 slidesToShow: 1,
-                  dots: true,
-                  arrows: false,
-  //adaptiveHeight: true,
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        arrows: false,
-        slidesToShow: 1
+
+
+<!--footer ends-->
+</div>
+<!-- wrapper ends -->
+<script src="js/wow.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/main-pi.js"></script>
+<script>
+  $(document).ready(function(e) {
+    var TabBlock = {
+      s: {
+        animLen: 200
+      },
+
+      init: function() {
+        TabBlock.bindUIActions();
+        TabBlock.hideInactive();
+      },
+
+      bindUIActions: function() {
+        $('.tabBlock-tabs').on('click', '.tabBlock-tab', function() {
+          TabBlock.switchTab($(this));
+        });
+      },
+
+      hideInactive: function() {
+        var $tabBlocks = $('.tabBlock');
+
+        $tabBlocks.each(function(i) {
+          var
+            $tabBlock = $($tabBlocks[i]),
+            $panes = $tabBlock.find('.tabBlock-pane'),
+            $activeTab = $tabBlock.find('.tabBlock-tab.is-active');
+
+          $panes.hide();
+          $($panes[$activeTab.index()]).show();
+        });
+      },
+
+      switchTab: function($tab) {
+        var $context = $tab.closest('.tabBlock');
+
+        if (!$tab.hasClass('is-active')) {
+          $tab.siblings().removeClass('is-active');
+          $tab.addClass('is-active');
+
+          TabBlock.showPane($tab.index(), $context);
+        }
+      },
+
+      showPane: function(i, $context) {
+        var $panes = $context.find('.tabBlock-pane');
+
+        // Normally I'd frown at using jQuery over CSS animations, but we can't transition between unspecified variable heights, right? If you know a better way, I'd love a read it in the comments or on Twitter @johndjameson
+        $panes.slideUp(TabBlock.s.animLen);
+        $($panes[i]).slideDown(TabBlock.s.animLen);
       }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        slidesToShow: 1
-      }
-    }
-  ]
-});
-             
-             
-              //animation
-             wow = new WOW(
-                       {
-                           animateClass: 'animated',
-                           offset: 100,
-                           mobile: true
-                       }
-               );
-               wow.init(); 
-             }); 
-              
-      </script>
- <script>
-    /* jQuery
+    };
+
+    $(function() {
+      TabBlock.init();
+    });
+  });
+</script>
+<script>
+  $(document).ready(function() {
+    $('.slider').slick({
+      slidesToShow: 1,
+      dots: true,
+      arrows: false,
+      //adaptiveHeight: true,
+      responsive: [{
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            slidesToShow: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: false,
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+
+
+    //animation
+    wow = new WOW({
+      animateClass: 'animated',
+      offset: 100,
+      mobile: true
+    });
+    wow.init();
+  });
+</script>
+<script>
+  /* jQuery
 ================================================== */
-$(function() {
-$('.acc__title').click(function(j) {
+  $(function() {
+    $('.acc__title').click(function(j) {
 
-var dropDown = $(this).closest('.acc__card').find('.acc__panel');
-$(this).closest('.acc').find('.acc__panel').not(dropDown).slideUp();
+      var dropDown = $(this).closest('.acc__card').find('.acc__panel');
+      $(this).closest('.acc').find('.acc__panel').not(dropDown).slideUp();
 
-if ($(this).hasClass('active')) {
-$(this).removeClass('active');
-} else {
-$(this).closest('.acc').find('.acc__title.active').removeClass('active');
-$(this).addClass('active');
-}
+      if ($(this).hasClass('active')) {
+        $(this).removeClass('active');
+      } else {
+        $(this).closest('.acc').find('.acc__title.active').removeClass('active');
+        $(this).addClass('active');
+      }
 
-dropDown.stop(false, true).slideToggle();
-j.preventDefault();
-});
-});
-
- </script>
-        <script>
-  $(function () {
+      dropDown.stop(false, true).slideToggle();
+      j.preventDefault();
+    });
+  });
+</script>
+<script>
+  $(function() {
     var fx = function fx() {
-    $(".stat-number").each(function (i, el) {
+      $(".stat-number").each(function(i, el) {
         var data = parseInt(this.dataset.n, 10);
         var props = {
-            "from": {
-                "count": 0
-            },
-                "to": { 
-                "count": data
-            }
+          "from": {
+            "count": 0
+          },
+          "to": {
+            "count": data
+          }
         };
         $(props.from).animate(props.to, {
-            duration: 3000 * 1,
-            step: function (now, fx) {
-                $(el).text(Math.ceil(now));
-            },
-            complete:function() {
-                if (el.dataset.sym !== undefined) {
-                  el.textContent = el.textContent.concat(el.dataset.sym)
-                }
+          duration: 3000 * 1,
+          step: function(now, fx) {
+            $(el).text(Math.ceil(now));
+          },
+          complete: function() {
+            if (el.dataset.sym !== undefined) {
+              el.textContent = el.textContent.concat(el.dataset.sym)
             }
+          }
         });
-    });
+      });
     };
-    
+
     var reset = function reset() {
-        //console.log($(this).scrollTop())
-        if ($(this).scrollTop() > 1990) {
-            $(this).off("scroll");
-          fx()
-        }
+      //console.log($(this).scrollTop())
+      if ($(this).scrollTop() > 1990) {
+        $(this).off("scroll");
+        fx()
+      }
     };
-    
+
     $(window).on("scroll", reset);
-});
-       </script>
-      <script>
-          $(document).ready(function(){
-              $('nav ul li a').click(function(){
-                $('nav ul li a').removeClass("active");
-                $(this).addClass("active");
-            });
-            });
-       </script>
-       <script>
-       const modalBox = document.querySelector(".modal-container");
-const modalBtn = document.querySelector(".modal-btn");
-const closeBtn = document.querySelector(".close-btn");
+  });
+</script>
+<script>
+  $(document).ready(function() {
+    $('nav ul li a').click(function() {
+      $('nav ul li a').removeClass("active");
+      $(this).addClass("active");
+    });
+  });
+</script>
+<script>
+  const modalBox = document.querySelector(".modal-container");
+  const modalBtn = document.querySelector(".modal-btn");
+  const closeBtn = document.querySelector(".close-btn");
 
-modalBtn.addEventListener("click", () => {
-  modalBox.style = "display: block;";
-});
+  modalBtn.addEventListener("click", () => {
+    modalBox.style = "display: block;";
+  });
 
-closeBtn.addEventListener("click", () => {
-  modalBox.style = "display: none;";
-});
-
-window.addEventListener("click", (e) => {
-  if (e.target == modalBox) {
+  closeBtn.addEventListener("click", () => {
     modalBox.style = "display: none;";
-  }
-});
-       </script>
-   </body>
+  });
+
+  window.addEventListener("click", (e) => {
+    if (e.target == modalBox) {
+      modalBox.style = "display: none;";
+    }
+  });
+</script>
+</body>
+
 </html>
