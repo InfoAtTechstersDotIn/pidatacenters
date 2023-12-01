@@ -1,4 +1,3 @@
-
 <?php
 $seo_title = "Whitepapers";
 $seo_description = "";
@@ -41,7 +40,7 @@ $seo_keywords = "";
                         <li class="col-md-4">
                             <div class="case-content ">
                                 <figure>
-                                    <img src="dashboard/uploads/whitepapers/How Well Do We Understand.png" alt="whitepapers" width="450" height="248">
+                                    <img src="dashboard/uploads/whitepapers/how-well-do-we-understand.png" alt="whitepapers" width="450" height="248">
                                 </figure>
                                 <h4>How Well Do We Understand</h4>
 
@@ -53,7 +52,7 @@ $seo_keywords = "";
                         <li class="col-md-4">
                             <div class="case-content">
                                 <figure>
-                                    <img src="dashboard/uploads/whitepapers/Software  Defined  Network.png" alt="whitepapers" width="450" height="248">
+                                    <img src="dashboard/uploads/whitepapers/software-defined-network.png" alt="whitepapers" width="450" height="248">
                                 </figure>
                                 <h4>Software Defined Network</h4>
 
@@ -65,7 +64,7 @@ $seo_keywords = "";
                         <li class="col-md-4">
                             <div class="case-content">
                                 <figure>
-                                    <img src="dashboard/uploads/whitepapers/Redefining Cloud Services, DeliveRing.png" alt="whitepapers" width="450" height="248">
+                                    <img src="dashboard/uploads/whitepapers/redefining-cloud-services-delivering.png" alt="whitepapers" width="450" height="248">
                                 </figure>
                                 <h4>
                                     Redefining Cloud Services,Delivering</h4>
@@ -91,7 +90,7 @@ $seo_keywords = "";
                         <li class="col-md-4">
                             <div class="case-content">
                                 <figure>
-                                    <img src="dashboard/uploads/whitepapers/Secutre Transactions.png" alt="whitepapers" width="450" height="248">
+                                    <img src="dashboard/uploads/whitepapers/secutre-transactions.png" alt="whitepapers" width="450" height="248">
                                 </figure>
                                 <h4>Secure Transactions</h4>
 
@@ -103,7 +102,7 @@ $seo_keywords = "";
                         <li class="col-md-4">
                             <div class="case-content">
                                 <figure>
-                                    <img src="dashboard/uploads/whitepapers/Delivering Happiness.png" alt="whitepapers" width="450" height="248">
+                                    <img src="dashboard/uploads/whitepapers/delivering-happiness.png" alt="whitepapers" width="450" height="248">
                                 </figure>
                                 <h4>Delivering Happiness</h4>
 
@@ -115,7 +114,7 @@ $seo_keywords = "";
                         <li class="col-md-4">
                             <div class="case-content">
                                 <figure>
-                                    <img src="dashboard/uploads/whitepapers/Digital Heathcare.png" alt="whitepapers" width="450" height="248">
+                                    <img src="dashboard/uploads/whitepapers/digital-heathcare.png" alt="whitepapers" width="450" height="248">
                                 </figure>
                                 <h4>Digital Healthcare</h4>
 
@@ -127,7 +126,7 @@ $seo_keywords = "";
                         <li class="col-md-4">
                             <div class="case-content">
                                 <figure>
-                                    <img src="dashboard/uploads/whitepapers/E-Learning (2).png" alt="whitepapers" width="450" height="248">
+                                    <img src="dashboard/uploads/whitepapers/E-Learning-(2).png" alt="whitepapers" width="450" height="248">
                                 </figure>
                                 <h4>E-Learning</h4>
 
@@ -139,7 +138,7 @@ $seo_keywords = "";
                         <li class="col-md-4">
                             <div class="case-content">
                                 <figure>
-                                    <img src="dashboard/uploads/whitepapers/Enabling  Smart  Forming.png" alt="whitepapers" width="450" height="248">
+                                    <img src="dashboard/uploads/whitepapers/enabling-smart-forming.png" alt="whitepapers" width="450" height="248">
                                 </figure>
                                 <h4>Enabling Smart Farming</h4>
 

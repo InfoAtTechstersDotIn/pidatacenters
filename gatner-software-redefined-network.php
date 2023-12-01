@@ -1,4 +1,4 @@
-<?php include('php/inner-header.php'); ?>
+<?php include('php/includes-techsters/header.php'); ?>
 <?php
 $servername = "localhost";
 $username = "marcom";
@@ -98,7 +98,7 @@ sales@pidatacenters.com,</a>
 
       <div class="col-md-6">
         <figure>
-          <img src="dashboard/uploads/whitepapers/defined.png" alt="case-studies-1" width="450" height="248">
+          <img src="dashboard/uploads/whitepapers/software-defined-network.png" alt="case-studies-1" width="450" height="248">
         </figure>
       </div>
       <div class="write-to-us-rt col-md-6">
@@ -147,8 +147,7 @@ sales@pidatacenters.com,</a>
          </div>-->
 
 
-
-<?php include('php/footer.php'); ?>
+<?php include('php/includes-techsters/footer.php'); ?>
 
 
 <!--footer ends-->
