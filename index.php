@@ -908,7 +908,7 @@
                                     <div class="great-rtt col-lg-5">
                                         <figure>
                                             <img src="images/pi-datacenters-ceo.webp
-" alt="ceo">
+                        " alt="ceo">
                                         </figure>
                                     </div>
                                     <div class="great-lt col-lg-7">
@@ -996,6 +996,11 @@
                 </div>
             </div>
         </div>
+
+        <!-- <div class="cookie-block">
+            <p>We use cookies in this website to give you the best experience on our site and show you relevant ads. To find out more, read our <a href="privacy-policy.php"> privacy policy </a> and <a href="acceptable-use-policy.php">Acceptable use policy</a></p>
+            <button class="cookie-btn" onclick="okayBtn()">Okay</button>
+        </div> -->
 
         <div class="backdround-bg1">
             <footer>
@@ -1437,6 +1442,7 @@
             wow.init();
         });
     </script>
+
     <!-- <script>
         document.getElementById('btnShowSection').addEventListener('click', function(event) {
             event.preventDefault(); // Prevent the default behavior of the link
