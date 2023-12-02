@@ -6,42 +6,21 @@ $seo_keywords = "";
 
 
 
-
-<head>
-  <style>
-    #myBtn2 {
-      display: none;
-    }
-
-    .modal-content {
-      background: none !important;
-      border: none !important;
-
-    }
-  </style>
-</head>
-
-
-
 <?php include('php/includes-techsters/header.php'); ?>
 
-<?php
-// $servername = "localhost";
-$servername = "172.20.119.52";
-$username = "marcom";
-$password = "TR*viv3mo?!q";
-$dbname = "search8c_pi";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-?>
 <style>
   .ga-vd ul li {
     padding: 14px;
+  }
+
+  #myBtn2 {
+    display: none;
+  }
+
+  .modal-content {
+    background: none !important;
+    border: none !important;
+
   }
 </style>
 <!-- main starts here -->
@@ -89,10 +68,34 @@ if ($conn->connect_error) {
               </div>
             </a>
           </li>
-
-
+          <!-- second row -->
+          <li class="col-md-4">
+            <a href="#modal-4">
+              <img src="images/4.png" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
+          <li class="col-md-4">
+            <a href="#modal-5">
+              <img src="images/5.PNG" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
+          <li class="col-md-4">
+            <a href="#modal-6">
+              <img src="images/6.PNG" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
         </ul>
       </li>
+      <!--       
       <li>
         <ul class="row">
           <li class="col-md-4">
@@ -120,7 +123,7 @@ if ($conn->connect_error) {
             </a>
           </li>
         </ul>
-      </li>
+      </li> -->
       <li>
         <ul class="row">
           <li class="col-md-4">
@@ -148,10 +151,7 @@ if ($conn->connect_error) {
             </a>
           </li>
 
-        </ul>
-      </li>
-      <li>
-        <ul class="row">
+          <!-- second row -->
 
           <li class="col-md-4">
             <a href="#modal-10">
@@ -179,6 +179,35 @@ if ($conn->connect_error) {
           </li>
         </ul>
       </li>
+      <!-- <li>
+        <ul class="row">
+
+          <li class="col-md-4">
+            <a href="#modal-10">
+              <img src="images/10.PNG" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
+          <li class="col-md-4">
+            <a href="#modal-11">
+              <img src="images/11.PNG" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
+          <li class="col-md-4">
+            <a href="#modal-12">
+              <img src="images/12.PNG" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </li> -->
       <li>
         <ul class="row">
           <li class="col-md-4">
@@ -206,9 +235,34 @@ if ($conn->connect_error) {
             </a>
           </li>
 
+          <!-- second row -->
+          <li class="col-md-4">
+            <a href="#modal-16">
+              <img src="images/16.PNG" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
+          <li class="col-md-4">
+            <a href="#modal-17">
+              <img src="images/17.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
+          <li class="col-md-4">
+            <a href="#modal-18">
+              <img src="images/18.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
         </ul>
       </li>
-      <li>
+      <!-- <li>
         <ul class="row">
 
           <li class="col-md-4">
@@ -236,7 +290,7 @@ if ($conn->connect_error) {
             </a>
           </li>
         </ul>
-      </li>
+      </li> -->
       <li>
         <ul class="row">
           <li class="col-md-4">
@@ -263,10 +317,34 @@ if ($conn->connect_error) {
               </div>
             </a>
           </li>
-
+          <!-- second row -->
+          <li class="col-md-4">
+            <a href="#modal-22">
+              <img src="images/22.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
+          <li class="col-md-4">
+            <a href="#modal-23">
+              <img src="images/23.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
+          <li class="col-md-4">
+            <a href="#modal-24">
+              <img src="images/24.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
         </ul>
       </li>
-      <li>
+      <!-- <li>
         <ul class="row">
 
           <li class="col-md-4">
@@ -294,9 +372,34 @@ if ($conn->connect_error) {
             </a>
           </li>
         </ul>
-      </li>
+      </li> -->
       <li>
         <ul class="row">
+          <li class="col-md-4">
+            <a href="#modal-25">
+              <img src="images/25.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
+          <li class="col-md-4">
+            <a href="#modal-26">
+              <img src="images/26.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
+          <li class="col-md-4">
+            <a href="#modal-27">
+              <img src="images/27.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
+          <!-- second row -->
           <li class="col-md-4">
             <a href="#modal-25">
               <img src="images/25.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
@@ -324,7 +427,7 @@ if ($conn->connect_error) {
 
         </ul>
       </li>
-      <li>
+      <!-- <li>
         <ul class="row">
           <li class="col-md-4">
             <a href="#modal-25">
@@ -352,7 +455,7 @@ if ($conn->connect_error) {
           </li>
 
         </ul>
-      </li>
+      </li> -->
       <li>
         <ul class="row">
           <li class="col-md-4">
@@ -379,10 +482,35 @@ if ($conn->connect_error) {
               </div>
             </a>
           </li>
+          <!-- sceond row -->
+          <li class="col-md-4">
+            <a href="#modal-34">
+              <img src="images/34.PNG" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
+          <li class="col-md-4">
+            <a href="#modal-35">
+              <img src="images/35.PNG" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
+          <li class="col-md-4">
+            <a href="#modal-36">
+              <img src="images/36.PNG" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
 
         </ul>
       </li>
-      <li>
+      <!-- <li>
         <ul class="row">
 
           <li class="col-md-4">
@@ -410,7 +538,7 @@ if ($conn->connect_error) {
             </a>
           </li>
         </ul>
-      </li>
+      </li> -->
       <li>
         <ul class="row">
           <li class="col-md-4">
@@ -437,10 +565,34 @@ if ($conn->connect_error) {
               </div>
             </a>
           </li>
+          <!-- second row -->
 
+          <li class="col-md-4">
+            <a href="#modal-40">
+              <img src="images/40.PNG" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
+          <li class="col-md-4">
+            <a href="#modal-41">
+              <img src="images/41.PNG" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
+          <li class="col-md-4">
+            <a href="#modal-42">
+              <img src="images/42.PNG" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
         </ul>
       </li>
-      <li>
+      <!-- <li>
         <ul class="row">
 
           <li class="col-md-4">
@@ -468,7 +620,7 @@ if ($conn->connect_error) {
             </a>
           </li>
         </ul>
-      </li>
+      </li> -->
       <li>
         <ul class="row">
           <li class="col-md-4">
@@ -495,10 +647,36 @@ if ($conn->connect_error) {
               </div>
             </a>
           </li>
+          <!-- second row -->
+
+          <li class="col-md-4">
+            <a href="#modal-46">
+              <img src="images/46.PNG" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
+          <li class="col-md-4">
+            <a href="#modal-47">
+              <img src="images/47.PNG" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
+          <li class="col-md-4">
+            <a href="#modal-48">
+              <img src="images/48.PNG" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
 
         </ul>
       </li>
-      <li>
+      <!-- <li>
         <ul class="row">
 
           <li class="col-md-4">
@@ -526,7 +704,7 @@ if ($conn->connect_error) {
             </a>
           </li>
         </ul>
-      </li>
+      </li> -->
       <li>
         <ul class="row">
           <li class="col-md-4">
@@ -554,9 +732,35 @@ if ($conn->connect_error) {
             </a>
           </li>
 
+          <!-- second row -->
+          <li class="col-md-4">
+            <a href="#modal-52">
+              <img src="images/52.PNG" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
+          <li class="col-md-4">
+            <a href="#modal-53">
+              <img src="images/53.PNG" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
+          <li class="col-md-4">
+            <a href="#modal-54">
+              <img src="images/54.PNG" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
+
         </ul>
       </li>
-      <li>
+      <!-- <li>
         <ul class="row">
 
           <li class="col-md-4">
@@ -584,7 +788,7 @@ if ($conn->connect_error) {
             </a>
           </li>
         </ul>
-      </li>
+      </li> -->
       <li>
         <ul class="row">
           <li class="col-md-4">
@@ -612,9 +816,34 @@ if ($conn->connect_error) {
             </a>
           </li>
 
+          <!-- second row -->
+          <li class="col-md-4">
+            <a href="#modal-57">
+              <img src="images/57.PNG" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
+          <li class="col-md-4">
+            <a href="#modal-58">
+              <img src="images/58.PNG" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
+          <li class="col-md-4">
+            <a href="#modal-59">
+              <img src="images/59.PNG" alt="kh-video-3" width="500" height="360">
+              <div class="play-icon">
+                <i class="fa fa-play" aria-hidden="true" style="color:#76b543"></i>
+              </div>
+            </a>
+          </li>
         </ul>
       </li>
-      <li>
+      <!-- <li>
         <ul class="row">
 
           <li class="col-md-4">
@@ -642,7 +871,7 @@ if ($conn->connect_error) {
             </a>
           </li>
         </ul>
-      </li>
+      </li> -->
       <li>
         <ul class="row">
           <li class="col-md-4">
@@ -677,74 +906,6 @@ if ($conn->connect_error) {
 
 
 
-    <!--<ul class="row">
-                            <li class="col-md-4">
-                                 <a href="#modal-2">
-                                 <img src="images/video-4.png" alt="kh-video-1" width="500" height="360">
-                                 </a>
-                             </li>
-                             <li class="col-md-4">
-                                  <a href="#modal-3">
-                                 <img src="images/video-5.png" alt="kh-video-2" width="500" height="360">
-                                 </a>
-                             </li>
-                             <li class="col-md-4">
-                                  <a href="#modal-4">
-                                 <img src="images/video-6.png" alt="kh-video-3" width="500" height="360">
-                                 </a>
-                                
-                             </li>    
-                                </ul>-->
-    <!--<li>
-                           <ul class="row">
-                            <li class="col-md-4">
-                                 <img src="images/video-1.png" alt="kh-video-1" width="500" height="360">
-                             </li>
-                             <li class="col-md-4">
-                                 <img src="images/video-2.png" alt="kh-video-2" width="500" height="360">
-                             </li>
-                             <li class="col-md-4">
-                                 <img src="images/video-3.png" alt="kh-video-3" width="500" height="360">
-                             </li>    
-                                </ul>
-								<br>
-								 <ul class="row">
-                            <li class="col-md-4">
-                                 <img src="images/video-4.png" alt="kh-video-1" width="500" height="360">
-                             </li>
-                             <li class="col-md-4">
-                                 <img src="images/video-5.png" alt="kh-video-2" width="500" height="360">
-                             </li>
-                             <li class="col-md-4">
-                                 <img src="images/video-6.png" alt="kh-video-3" width="500" height="360">
-                             </li>    
-                                </ul>
-                    </li>-->
-    <!--<li>
-                               <ul class="row">
-                            <li class="col-md-4">
-                                 <img src="images/video-1.png" alt="kh-video-1" width="500" height="360">
-                             </li>
-                             <li class="col-md-4">
-                                 <img src="images/video-2.png" alt="kh-video-2" width="500" height="360">
-                             </li>
-                             <li class="col-md-4">
-                                 <img src="images/video-3.png" alt="kh-video-3" width="500" height="360">
-                             </li>    
-                                </ul>
-								<br>
-								 <ul class="row">
-                            <li class="col-md-4">
-                                 <img src="images/video-4.png" alt="kh-video-1" width="500" height="360">
-                             </li>
-                             <li class="col-md-4">
-                                 <img src="images/video-5.png" alt="kh-video-2" width="500" height="360">
-                             </li>
-                             <li class="col-md-4">
-                                 <img src="images/video-6.png" alt="kh-video-3" width="500" height="360">
-                             </li>    
-                                </ul>
-                    </li>-->
   </div>
 </div>
 <br>

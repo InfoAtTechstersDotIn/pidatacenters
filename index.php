@@ -997,73 +997,112 @@
             </div>
         </div>
 
-        <!-- <div class="cookie-block">
+        <style>
+            #cookie-block {
+                background-color: black;
+                color: #fff;
+                padding: 10px 30px;
+                position: absolute;
+                left: 10px;
+                right: 0;
+                bottom: 80px;
+                width: 395px;
+            }
+
+            #cookie-block p {
+                line-height: 1.3rem;
+            }
+
+            #cookie-block p a {
+                color: blue;
+            }
+
+            #accept-btn {
+                background-color: white;
+                color: #000;
+                padding: 5px 10px;
+                border-radius: 15px;
+            }
+        </style>
+        </head>
+
+        <body>
+
+            <div id="cookie-block">
+                <p>We use cookies in this website to give you the best experience on our site and show you relevant ads. To find out more, read our <a href="privacy-policy.php"> privacy policy </a> and <a href="acceptable-use-policy.php">Acceptable use policy</a>
+                </p>
+                <button id="accept-btn">Accept</button>
+
+            </div>
+
+
+            <!-- <div class="cookie-block">
             <p>We use cookies in this website to give you the best experience on our site and show you relevant ads. To find out more, read our <a href="privacy-policy.php"> privacy policy </a> and <a href="acceptable-use-policy.php">Acceptable use policy</a></p>
             <button class="cookie-btn" onclick="okayBtn()">Okay</button>
         </div> -->
 
-        <div class="backdround-bg1">
-            <footer>
-                <div class="footer-about footer-bg footer-2" style="background:white;">
-                    <div class="container-fluid">
-                        <div class="row">
+            <div class="backdround-bg1">
+                <footer>
+                    <div class="footer-about footer-bg footer-2" style="background:white;">
+                        <div class="container-fluid">
+                            <div class="row">
 
-                            <div class="col-md-3">
-                                <div class="footer-copy-rights">
-                                    <p>&#169; 2023 Pi DATACENTERS Pvt. Ltd.| All rights reserved.</p>
-                                    <!--<p><a href="https://3dm.agency/" target="_blank" class="three-dm">Design and Developed by @3DM.agency</a></p>-->
-                                    <p><a href="#" target="_blank" class="three-dm">Managed by Nayana Group</a></p>
+                                <div class="col-md-3">
+                                    <div class="footer-copy-rights">
+                                        <p>&#169; 2023 Pi DATACENTERS Pvt. Ltd.| All rights reserved.</p>
+                                        <!--<p><a href="https://3dm.agency/" target="_blank" class="three-dm">Design and Developed by @3DM.agency</a></p>-->
+                                        <p><a href="#" target="_blank" class="three-dm">Managed by Nayana Group</a></p>
+
+                                    </div>
 
                                 </div>
+                                <div class="col-md-4 this-foot">
+                                    <div class="footer-links">
+                                        <ul>
 
-                            </div>
-                            <div class="col-md-4 this-foot">
-                                <div class="footer-links">
-                                    <ul>
+                                            <li><a href="https://www.linkedin.com/company/pidatacenters/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 
-                                        <li><a href="https://www.linkedin.com/company/pidatacenters/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                            <li><a href="https://twitter.com/Pi_DATACENTERS" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                            <li><a href="https://www.facebook.com/PiDATACENTERS/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                            <li><a href="https://youtube.com/@pi_datacenters" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                            <li><a href="https://api.whatsapp.com/send?phone=+918712630334&amp;text=Hi, I need more information on Pidatacenters" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
 
-                                        <li><a href="https://twitter.com/Pi_DATACENTERS" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://www.facebook.com/PiDATACENTERS/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://youtube.com/@pi_datacenters" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://api.whatsapp.com/send?phone=+918712630334&amp;text=Hi, I need more information on Pidatacenters" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-5 top-foot">
+                                    <ul class="row foot-menu">
+                                        <li>
+                                            <a href="case-studies.php">Case Studies </a>
+                                        </li>
+                                        <li>
+                                            <a href="brochure.php">Corporate Brochure</a>
+                                        </li>
+                                        <li>
+                                            <a href="certifications.php">Certifications </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://pidatacenters.com/pi-cloud/partners">Partners</a>
+                                        </li>
+                                        <li>
+                                            <a href="contact-us.php">Reach Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="privacy-policy.php">Privacy Policy</a>
+                                        </li>
 
                                     </ul>
                                 </div>
+
+
                             </div>
-
-                            <div class="col-md-5 top-foot">
-                                <ul class="row foot-menu">
-                                    <li>
-                                        <a href="case-studies.php">Case Studies </a>
-                                    </li>
-                                    <li>
-                                        <a href="brochure.php">Corporate Brochure</a>
-                                    </li>
-                                    <li>
-                                        <a href="certifications.php">Certifications </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://pidatacenters.com/pi-cloud/partners">Partners</a>
-                                    </li>
-                                    <li>
-                                        <a href="contact-us.php">Reach Us</a>
-                                    </li>
-                                    <li>
-                                        <a href="privacy-policy.php">Privacy Policy</a>
-                                    </li>
-
-                                </ul>
-                            </div>
-
 
                         </div>
-
                     </div>
-                </div>
-            </footer>
-        </div>
-        <!--<footer>
+                </footer>
+            </div>
+            <!--<footer>
                 <div class="footer-in">
                 <div class="footer-social-icons">
                      <div class="container">
@@ -1081,10 +1120,10 @@
                 </div>
                
              </footer>-->
-        <!--footer block starts -->
+            <!--footer block starts -->
 
 
-        <!--footer ends-->
+            <!--footer ends-->
 
     </div>
     <!-- wrapper ends -->
@@ -1440,6 +1479,15 @@
                 mobile: true
             });
             wow.init();
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+
+            $('#accept-btn').click(function() {
+                $('#cookie-block').hide();
+            });
+
         });
     </script>
 
