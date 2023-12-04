@@ -68,7 +68,7 @@ $seo_keywords = "";
 
 				</li>
 				<li>
-					<div class="hb-leftCont hb_ppCont">
+					<div class="hb-leftCont hb_ppCont brochure-btn">
 						<a href="./images/new-pi-sap.pdf" style="color:white;" target="_blank">
 							<h2>Download Brochure</h2>
 						</a>

@@ -126,7 +126,7 @@ $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hypers
       <div class="tabBlock">
         <ul class="tabBlock-tabs nav-tabs feature-tab  border-bottom-0 d-flex flex-wrap justify-content-center" data-tabs="tabs">
           <li class="tabBlock-tab is-active animatable fadeInUp">
-            <a href="https://pidatacenters.com/blogs" class="nav-link" data-toggle="tab">Blogs
+            <a href="https://www.pidatacenters.com/blogs.php" class="nav-link" data-toggle="tab">Blogs
             </a>
           </li>
           <li class="tabBlock-tab  animatable fadeInUp">

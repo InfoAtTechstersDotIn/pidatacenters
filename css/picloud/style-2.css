@@ -8480,3 +8480,19 @@
     .videoss .youtube a {
         color: #fff;
     }
+
+    .brochure-btn {
+        background-color: #223f97;
+        padding: 10px 20px;
+        text-align: center !important;
+        border-radius: 10px;
+    }
+
+    .brochure-btn h2 {
+        font-size: 30px !important;
+    }
+
+    .font-color {
+        color: #000;
+        font-weight: 600;
+    }

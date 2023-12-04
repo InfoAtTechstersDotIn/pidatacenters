@@ -154,6 +154,24 @@ $seo_keywords = "";
               <a href="cloud-service-provider.php" class="pres-rel">What are the benefits of using a datacenter-based cloud service provider? </a>
               <div class="readmore-btn"><a href="cloud-service-provider.php">Read More</a></div>
             </li>
+
+
+
+
+            <li class="col-md-3">
+              <a href="what-is-hyperscale.php"><img src="images/what-are-hyperscale.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="what-is-hyperscale.php" class="pres-rel">What are Hyperscale Datacenters and How They Shape Tomorrow's Tech Landscape? </a>
+              <div class="readmore-btn"><a href="what-is-hyperscale.php">Read More</a></div>
+            </li>
+
+            <li class="col-md-3">
+              <a href="what-is-edge-computing.php"><img src="images/what-is-edge-computing.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="what-is-edge-computing.php" class="pres-rel">What is Edge Computing? <br>
+                A Deep Dive into Technical Features and Numerous Advantages </a>
+              <div class="readmore-btn"><a href="what-is-edge-computing.php">Read More</a></div>
+            </li>
+
+
           </ul>
 
 

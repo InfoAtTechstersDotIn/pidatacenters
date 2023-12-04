@@ -446,7 +446,7 @@ $seo_keywords = "";
 											<div class="hb-rightCont hb_ppCont">
 												<h3>HarbourFront<sup>TM</sup>(CDN)</h3>
 												<h5><strong>Deliver content fast, efficiently and securely</strong></h5>
-												<p>Harbourfront<sup>TM</sup><a href="https://pi-cloud.in/harbourfront-cdn">(CDN)</a>, India's first indigenous content service ensures high availability and performace. By geographically distributing a network of proxy servers and caching data spatially relative to end users, Harbourfront<sup>TM</sup>(CDN) ensures ensures high availability and performance. It can be used for content storage and delivery service for web acceleration, file download optimization, transcoding, video on demand and live streaming. <br> <a href="https://pidatacenters.com/harbourfront-services" style="color: #fff;/* padding-left: 24px; */padding: 5px 10px;font-size: 14px;border-radius: 29px;background-color: #3d1b9b;">Learn More &gt;</a></p>
+												<p>Harbourfront<sup>TM</sup><a href="https://pi-cloud.in/harbourfront-cdn">(CDN)</a>, India's first indigenous content service ensures high availability and performace. By geographically distributing a network of proxy servers and caching data spatially relative to end users, Harbourfront<sup>TM</sup>(CDN) ensures ensures high availability and performance. It can be used for content storage and delivery service for web acceleration, file download optimization, transcoding, video on demand and live streaming. <br> <a href="https://pidatacenters.com/harbourfront-services.php" style="color: #fff;/* padding-left: 24px; */padding: 5px 10px;font-size: 14px;border-radius: 29px;background-color: #3d1b9b;">Learn More &gt;</a></p>
 											</div>
 										</li>
 										<li>
@@ -631,205 +631,206 @@ $seo_keywords = "";
 										</ul>
 									</div>
 								</div>
-							</div>
 
-							<div id="Object" class="tabcontent">
-								<ul class="hb-productSec list-inline">
-									<li>
-										<div class="hb-leftCont hb_ppCont">
-											<h3>Object Storage</h3>
 
-											<p> Today&#8217;s digital world requires data archiving and backing-up of unstructured data. Media and web contents like email, videos, image files, web pages and sensor data produced by IoT has taken the center stage. Object storage on Pi Cloud is ideal for archiving data that does not change frequently. </p>
-										</div>
-									</li>
-									<li>
-										<div class="hb-rightCont hb_ppCont">
-											<span>
-												<img src="./pi-cloud/images/product-images/object_img.png" alt="workspace">
-											</span>
-
-										</div>
-									</li>
-								</ul>
-								<div class="hb-features">
-									<h3 class="text-center">Features</h3>
-									<ul class="list-inline hb-featuresList">
+								<div id="Object" class="tabcontent">
+									<ul class="hb-productSec list-inline">
 										<li>
-											<div class="hb-featureBox">
-												<div class="hb-featTopHeader">
-													<p class="hb-featLogo">
-														<img src="./pi-cloud/images/product-page-icons/st/dt.svg" alt="scale-3">
-													</p>
-													<div class="hb-featCont">
-														<h6>Data Transfer</h6>
-														<p>Simple and flexible transfer of data</p>
-													</div>
-												</div>
+											<div class="hb-leftCont hb_ppCont">
+												<h3>Object Storage</h3>
+
+												<p> Today&#8217;s digital world requires data archiving and backing-up of unstructured data. Media and web contents like email, videos, image files, web pages and sensor data produced by IoT has taken the center stage. Object storage on Pi Cloud is ideal for archiving data that does not change frequently. </p>
 											</div>
 										</li>
 										<li>
-											<div class="hb-featureBox">
-												<div class="hb-featTopHeader">
-													<p class="hb-featLogo">
-														<img src="./pi-cloud/images/product-page-icons/st/sc.svg" alt="economics">
-													</p>
-													<div class="hb-featCont">
-														<h6>Scalability</h6>
-														<p>Scalability (upto PBs) and distributed access</p>
-													</div>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="hb-featureBox">
-												<div class="hb-featTopHeader">
-													<p class="hb-featLogo">
-														<img src="./pi-cloud/images/product-page-icons/st/md.svg" alt="Self">
-													</p>
-													<div class="hb-featCont">
-														<h6>Supports Metadata</h6>
-														<p>Supports custom Metadata and various attributes</p>
-													</div>
-												</div>
+											<div class="hb-rightCont hb_ppCont">
+												<span>
+													<img src="./pi-cloud/images/product-images/object_img.png" alt="workspace">
+												</span>
+
 											</div>
 										</li>
 									</ul>
+									<div class="hb-features">
+										<h3 class="text-center">Features</h3>
+										<ul class="list-inline hb-featuresList">
+											<li>
+												<div class="hb-featureBox">
+													<div class="hb-featTopHeader">
+														<p class="hb-featLogo">
+															<img src="./pi-cloud/images/product-page-icons/st/dt.svg" alt="scale-3">
+														</p>
+														<div class="hb-featCont">
+															<h6>Data Transfer</h6>
+															<p>Simple and flexible transfer of data</p>
+														</div>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="hb-featureBox">
+													<div class="hb-featTopHeader">
+														<p class="hb-featLogo">
+															<img src="./pi-cloud/images/product-page-icons/st/sc.svg" alt="economics">
+														</p>
+														<div class="hb-featCont">
+															<h6>Scalability</h6>
+															<p>Scalability (upto PBs) and distributed access</p>
+														</div>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="hb-featureBox">
+													<div class="hb-featTopHeader">
+														<p class="hb-featLogo">
+															<img src="./pi-cloud/images/product-page-icons/st/md.svg" alt="Self">
+														</p>
+														<div class="hb-featCont">
+															<h6>Supports Metadata</h6>
+															<p>Supports custom Metadata and various attributes</p>
+														</div>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div class="hb-features">
+										<h3 class="text-center">Use cases </h3>
+										<ul class="list-inline hb-idealList">
+											<li>
+												<div class="hb-idealFet">
+													<span>
+														<img src="./pi-cloud/images/Tick.svg" alt="tickmark">
+													</span>
+													<p>Petabyte-scale data volumes</p>
+												</div>
+											</li>
+											<li>
+												<div class="hb-idealFet">
+													<span>
+														<img src="./pi-cloud/images/Tick.svg" alt="tickmark">
+													</span>
+													<p>Highly distributed systems</p>
+												</div>
+											</li>
+											<li>
+												<div class="hb-idealFet">
+													<span>
+														<img src="./pi-cloud/images/Tick.svg" alt="tickmark">
+													</span>
+													<p>Static Websites</p>
+												</div>
+											</li>
+											<li>
+												<div class="hb-idealFet">
+													<span>
+														<img src="./pi-cloud/images/Tick.svg" alt="tickmark">
+													</span>
+													<p>Distributed Storage systems </p>
+												</div>
+											</li>
+										</ul>
+									</div>
 								</div>
-								<div class="hb-features">
-									<h3 class="text-center">Use cases </h3>
-									<ul class="list-inline hb-idealList">
-										<li>
-											<div class="hb-idealFet">
-												<span>
-													<img src="./pi-cloud/images/Tick.svg" alt="tickmark">
-												</span>
-												<p>Petabyte-scale data volumes</p>
-											</div>
-										</li>
-										<li>
-											<div class="hb-idealFet">
-												<span>
-													<img src="./pi-cloud/images/Tick.svg" alt="tickmark">
-												</span>
-												<p>Highly distributed systems</p>
-											</div>
-										</li>
-										<li>
-											<div class="hb-idealFet">
-												<span>
-													<img src="./pi-cloud/images/Tick.svg" alt="tickmark">
-												</span>
-												<p>Static Websites</p>
-											</div>
-										</li>
-										<li>
-											<div class="hb-idealFet">
-												<span>
-													<img src="./pi-cloud/images/Tick.svg" alt="tickmark">
-												</span>
-												<p>Distributed Storage systems </p>
-											</div>
-										</li>
-									</ul>
-								</div>
-							</div>
 
-							<div id="File" class="tabcontent">
-								<ul class="hb-productSec list-inline">
-									<li>
-										<div class="hb-leftCont hb_ppCont">
-											<span>
-												<img src="./pi-cloud/images/product-images/file_img.png" alt="tickmark">
-											</span>
-										</div>
-									</li>
-									<li>
-										<div class="hb-rightCont hb_ppCont">
-											<h3>File Storage</h3>
-											<p>A hierarchical storage methodology used to organize and store data on a incompute storage or network-attached storage. File storage on Pi Cloud is a Linux file system, and is the predominant human-readable storage format. </p>
-										</div>
-									</li>
-								</ul>
-								<div class="hb-features">
-									<h3 class="text-center">Features</h3>
-									<ul class="list-inline hb-featuresList">
+								<div id="File" class="tabcontent">
+									<ul class="hb-productSec list-inline">
 										<li>
-											<div class="hb-featureBox">
-												<div class="hb-featTopHeader">
-													<p class="hb-featLogo">
-														<img src="./pi-cloud/images/product-page-icons/st/os.svg" alt="scale">
-													</p>
-													<div class="hb-featCont">
-														<h6>Organised Storage</h6>
-														<p>Hierarchical file storage works well with easily organized structured data</p>
-													</div>
-												</div>
+											<div class="hb-leftCont hb_ppCont">
+												<span>
+													<img src="./pi-cloud/images/product-images/file_img.png" alt="tickmark">
+												</span>
 											</div>
 										</li>
 										<li>
-											<div class="hb-featureBox">
-												<div class="hb-featTopHeader">
-													<p class="hb-featLogo">
-														<img src="./pi-cloud/images/product-page-icons/st/mas.svg" alt="economics">
-													</p>
-													<div class="hb-featCont">
-														<h6>Multi Access and Sharing</h6>
-														<p>Allows multiple user access to the same file data parked at distinct locations</p>
-													</div>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="hb-featureBox">
-												<div class="hb-featTopHeader">
-													<p class="hb-featLogo">
-														<img src="./pi-cloud/images/product-page-icons/st/snap.svg" alt="Self">
-													</p>
-													<div class="hb-featCont">
-														<h6>Cost Effective</h6>
-														<p>Eliminates the cost of maintaining in-house hardware</p>
-													</div>
-												</div>
+											<div class="hb-rightCont hb_ppCont">
+												<h3>File Storage</h3>
+												<p>A hierarchical storage methodology used to organize and store data on a incompute storage or network-attached storage. File storage on Pi Cloud is a Linux file system, and is the predominant human-readable storage format. </p>
 											</div>
 										</li>
 									</ul>
-								</div>
-								<div class="hb-features">
-									<h3 class="text-center">Use Cases</h3>
-									<ul class="list-inline hb-idealList">
-										<li>
-											<div class="hb-idealFet">
-												<span>
-													<img src="./pi-cloud/images/Tick.svg" alt="tickmark">
-												</span>
-												<p>Local file sharing</p>
-											</div>
-										</li>
-										<li>
-											<div class="hb-idealFet">
-												<span>
-													<img src="./pi-cloud/images/Tick.svg" alt="tickmark">
-												</span>
-												<p>Centralized file collaboration</p>
-											</div>
-										</li>
-										<li>
-											<div class="hb-idealFet">
-												<span>
-													<img src="./pi-cloud/images/Tick.svg" alt="tickmark">
-												</span>
-												<p>Hot & Cold Backup</p>
-											</div>
-										</li>
-										<li>
-											<div class="hb-idealFet">
-												<span>
-													<img src="./pi-cloud/images/Tick.svg" alt="tickmark">
-												</span>
-												<p>Newtwork-attached storage systems</p>
-											</div>
-										</li>
-									</ul>
+									<div class="hb-features">
+										<h3 class="text-center">Features</h3>
+										<ul class="list-inline hb-featuresList">
+											<li>
+												<div class="hb-featureBox">
+													<div class="hb-featTopHeader">
+														<p class="hb-featLogo">
+															<img src="./pi-cloud/images/product-page-icons/st/os.svg" alt="scale">
+														</p>
+														<div class="hb-featCont">
+															<h6>Organised Storage</h6>
+															<p>Hierarchical file storage works well with easily organized structured data</p>
+														</div>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="hb-featureBox">
+													<div class="hb-featTopHeader">
+														<p class="hb-featLogo">
+															<img src="./pi-cloud/images/product-page-icons/st/mas.svg" alt="economics">
+														</p>
+														<div class="hb-featCont">
+															<h6>Multi Access and Sharing</h6>
+															<p>Allows multiple user access to the same file data parked at distinct locations</p>
+														</div>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="hb-featureBox">
+													<div class="hb-featTopHeader">
+														<p class="hb-featLogo">
+															<img src="./pi-cloud/images/product-page-icons/st/snap.svg" alt="Self">
+														</p>
+														<div class="hb-featCont">
+															<h6>Cost Effective</h6>
+															<p>Eliminates the cost of maintaining in-house hardware</p>
+														</div>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div class="hb-features">
+										<h3 class="text-center">Use Cases</h3>
+										<ul class="list-inline hb-idealList">
+											<li>
+												<div class="hb-idealFet">
+													<span>
+														<img src="./pi-cloud/images/Tick.svg" alt="tickmark">
+													</span>
+													<p>Local file sharing</p>
+												</div>
+											</li>
+											<li>
+												<div class="hb-idealFet">
+													<span>
+														<img src="./pi-cloud/images/Tick.svg" alt="tickmark">
+													</span>
+													<p>Centralized file collaboration</p>
+												</div>
+											</li>
+											<li>
+												<div class="hb-idealFet">
+													<span>
+														<img src="./pi-cloud/images/Tick.svg" alt="tickmark">
+													</span>
+													<p>Hot & Cold Backup</p>
+												</div>
+											</li>
+											<li>
+												<div class="hb-idealFet">
+													<span>
+														<img src="./pi-cloud/images/Tick.svg" alt="tickmark">
+													</span>
+													<p>Newtwork-attached storage systems</p>
+												</div>
+											</li>
+										</ul>
+									</div>
 								</div>
 							</div>
 
@@ -962,7 +963,7 @@ $seo_keywords = "";
 									<li>
 										<div class="hb-rightCont hb_ppCont">
 											<span>
-												<img src="images/product-images/edr_img.png" alt="workspace">
+												<img src="./pi-cloud/images/product-images/edr_img.png" alt="workspace">
 											</span>
 										</div>
 									</li>

@@ -997,6 +997,11 @@
             </div>
         </div>
 
+
+
+
+
+        <!-- COOKIE SECTION -->
         <style>
             .cookie-block {
                 background-color: black;
@@ -1005,11 +1010,13 @@
                 position: absolute;
                 left: 10px;
                 right: 10px;
-                /* top: -35%; */
-                top: 10px;
+                top: -35%;
                 z-index: 1111;
-                transition: all 0.5s ease-in;
                 border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: all 0.5s ease-in;
             }
 
             .cookie-block p {
@@ -1027,15 +1034,23 @@
                 outline: none !important;
                 background-color: #fff;
             }
-        </style>
-        </head>
 
-        <div class="cookie-block">
+            .active {
+                top: 10px;
+            }
+        </style>
+
+
+        <div class="cookie-block active">
             <p>
                 We use cookies to offer you a better browsing experience, analyze site traffic, and personalize content to give you the most relevant experience by remembering your preferences and repeat visits. By continuing to browse or clicking on "Accept All" you will consent to our use of cookies or you may also visit <a href="terms-conditions.php" target="_blank"> Terms and Conditions </a> to learn more about our Cookie policy.
             </p>
             <button class="cookie-btn">Okay</button>
         </div>
+        <!-- COOKIE SECTION ENDS -->
+
+
+
 
 
         <div class="backdround-bg1">
@@ -1478,6 +1493,11 @@
             wow.init();
         });
     </script>
+
+
+
+
+    <!-- COOKIE SECTION -->
     <script>
         var cookieBlock = document.querySelector(".cookie-block");
         var cookieBtn = document.querySelector(".cookie-btn");
@@ -1486,7 +1506,9 @@
             cookieBlock.classList.remove("active");
         });
         setTimeout(() => {
-            cookieBlock.classList.add("active");
+            if (!localStorage.getItem("cookieBanner")) {
+                cookieBlock.classList.add("active");
+            }
         }, 2000);
     </script>
 
