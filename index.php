@@ -1005,16 +1005,15 @@
                 position: absolute;
                 left: 10px;
                 right: 10px;
-                top: -67px;
+                /* top: -35%; */
+                top: 10px;
                 z-index: 1111;
-                display: flex;
-                justify-content: space-evenly;
-                align-items: baseline;
                 transition: all 0.5s ease-in;
+                border-radius: 10px;
             }
 
-            .cookie-block .active {
-                top: 10px;
+            .cookie-block p {
+                line-height: 1.5rem;
             }
 
             .cookie-block p a {
@@ -1023,16 +1022,17 @@
 
             .cookie-btn {
                 color: #000;
-                padding: 5px 10px;
+                padding: 0px 10px;
                 border-radius: 15px;
                 outline: none !important;
+                background-color: #fff;
             }
         </style>
         </head>
 
         <div class="cookie-block">
             <p>
-                We use cookies in this website to give you the best experience on our site and show you relevant ads. To find out more, read our <a href="privacy-policy.php" target="_blank"> privacy policy </a> and <a href="acceptable-use-policy.php" target="_blank">Acceptable use policy</a>
+                We use cookies to offer you a better browsing experience, analyze site traffic, and personalize content to give you the most relevant experience by remembering your preferences and repeat visits. By continuing to browse or clicking on "Accept All" you will consent to our use of cookies or you may also visit <a href="terms-conditions.php" target="_blank"> Terms and Conditions </a> to learn more about our Cookie policy.
             </p>
             <button class="cookie-btn">Okay</button>
         </div>

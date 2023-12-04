@@ -176,6 +176,202 @@ $seo_keywords = "";
                     <li class="col-md-3">
                         <a href="#modal-9">
                             <img src="images/9.PNG" alt="kh-video-3" width="500" height="360">
+                            <!-- <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
+                            </div> -->
+                            <div class="video-cont">
+                                <h4>A glimpse of Pi's 8 years journey!</h4>
+                                <p></p>
+                            </div>
+                            <div class="youtube">
+                                <a href="#modal-9">Know More</a>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li class="col-md-3">
+                        <a href="#modal-10">
+                            <img src="images/10.PNG" alt="kh-video-3" width="500" height="360">
+                            <!-- <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
+                            </div> -->
+                            <div class="video-cont">
+                                <h4>Mega Walk-in Drive @ Pi Data Centers Amaravati</h4>
+                                <p>We had a mega Walk-in Drive at Pi Amaravati over last weekend, targeting 100+ Fresh tech minds joining Pi's cloud ecosystem. The energy and vibes from the candidates made the drive a huge success. Kudos to all involved in putting this together.</p>
+                            </div>
+                            <div class="youtube">
+                                <a href="#modal-10">Know More</a>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-md-3">
+                        <a href="#modal-11">
+                            <img src="images/11.PNG" alt="kh-video-3" width="500" height="360">
+                            <!-- <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
+                            </div> -->
+                            <div class="video-cont">
+                                <h4>Foundation Day Celebrations @ Vijayawada</h4>
+                                <p>Our achievements are shaped by the strength of the foundations we set. Thank you, Pi'Oneers, for your commitment to excellence and dedication. Recently Pi celebrated its 8th foundation day and felicitated Pi'Oneers, who completed 5 years with the organization. </p>
+                            </div>
+                            <div class="youtube">
+                                <a href="#modal-11">Know More</a>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-md-3">
+                        <a href="#modal-12">
+                            <img src="images/12.PNG" alt="kh-video-3" width="500" height="360">
+                            <!-- <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
+                            </div> -->
+                            <div class="video-cont">
+                                <h4>R&R Employee</h4>
+                                <p>Our achievements are shaped by the strength of the foundations we set. Thank you, Pi'Oneers, for your commitment to excellence and dedication. Recently Pi celebrated its 8th foundation day and felicitated Pi'Oneers, who completed 5 years with the organization. </p>
+                            </div>
+                            <div class="youtube">
+                                <a href="#modal-12">Know More</a>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <!-- 4th row -->
+                    <li class="col-md-3">
+                        <a href="#modal-13">
+                            <img src="images/13.PNG" alt="kh-video-3" width="500" height="360">
+                            <!-- <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
+                            </div> -->
+                            <div class="video-cont">
+                                <h4>Pi'Oscope - On The Move</h4>
+                                <p>Pi'Oscope, The Leadership Connect Conclave, is back again in its new avatar after its grand success in 2021. This time it's coming to Your City with a power-packed theme of "Equating Digital & Business Transformation."</p>
+                            </div>
+                            <div class="youtube">
+                                <a href="#modal-13">Know More</a>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-md-3">
+                        <a href="#modal-14">
+                            <img src="images/14.PNG" alt="kh-video-3" width="500" height="360">
+                            <!-- <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
+                            </div> -->
+                            <div class="video-cont">
+                                <h4>Client Testimonial - In Conversation with Group CTO, Kirloskar Management Services</h4>
+                                <p>Listen to @Mandar Sahasrabudhe, Group CTO, Kirloskar Management Services, speaking on the driving factors behind Kirloskar groups’ #GoCloud initiatives and how they zeroed in on Pi as their partner of choice in this incredible journey of #KirloskarLimitless </p>
+                            </div>
+                            <div class="youtube">
+                                <a href="#modal-14">Know More</a>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-md-3">
+                        <a href="#modal-15">
+                            <img src="images/15.PNG" alt="kh-video-3" width="500" height="360">
+                            <!-- <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
+                            </div> -->
+                            <div class="video-cont">
+                                <h4>Bring Your Own Ganesha @ Pi</h4>
+                                <p>Creativity, Celebration, and Competition were in the air as the Pi'Oneers across India showcased their distinct styles to welcome Ganapati under the Bring your own Ganesha (BYOG) theme. </p>
+                            </div>
+                            <div class="youtube">
+                                <a href="#modal-15">Know More</a>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-md-3">
+                        <a href="#modal-16">
+                            <img src="images/16.PNG" alt="kh-video-3" width="500" height="360">
+                            <!-- <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
+                            </div> -->
+                            <div class="video-cont">
+                                <h4>Pi@ ASSOCHAM Smart Datacenters & Cloud Infrastructure Summit 2022 Part II</h4>
+                                <p>PART II of what Debmalya Dey Roy (Deb), Chief Revenue Officer and Global Marketing Head, Pi DATACENTERS spoke at the 3rd #ASSOCHAM India Smart Datacenters & Cloud Infrastructure Summit 2022 held in New Delhi on 30th July, where he was part (virtually) of an engrossing panel discussion on "Re-inventing the Business-Defining Strategies for Successful Cloud-led Transformation for Large Enterprise and MSMEs."</p>
+                            </div>
+                            <div class="youtube">
+                                <a href="#modal-16">Know More</a>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+
+            <!-- 5th row -->
+            <li>
+                <ul class="row">
+                    <li class="col-md-3">
+                        <a href="#modal-17">
+                            <img src="images/17.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
+                            </div>
+                            <div class="video-cont">
+                                <h4></h4>
+                                <p></p>
+                            </div>
+                            <div class="youtube">
+                                <a href="#modal-17">Know More</a>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li class="col-md-3">
+                        <a href="#modal-18">
+                            <img src="images/18.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
+                            </div>
+                            <div class="video-cont">
+                                <h4></h4>
+                                <p></p>
+                            </div>
+                            <div class="youtube">
+                                <a href="#modal-18">Know More</a>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-md-3">
+                        <a href="#modal-19">
+                            <img src="images/19.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
+                            </div>
+                            <div class="video-cont">
+                                <h4></h4>
+                                <p></p>
+                            </div>
+                            <div class="youtube">
+                                <a href="#modal-19">Know More</a>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-md-3">
+                        <a href="#modal-20">
+                            <img src="images/20.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
+                            </div>
+                            <div class="video-cont">
+                                <h4></h4>
+                                <p></p>
+                            </div>
+                            <div class="youtube">
+                                <a href="#modal-20">Know More</a>
+                            </div>
+                        </a>
+                    </li>
+
+                    <!-- 6th row -->
+                    <li class="col-md-3">
+                        <a href="#modal-21">
+                            <img src="images/21.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
                             <div class="play-icon">
                                 <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
                             </div>
@@ -189,121 +385,18 @@ $seo_keywords = "";
                         </a>
                     </li>
 
-
-                    <li class="col-md-3">
-                        <a href="#modal-10">
-                            <img src="images/10.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-11">
-                            <img src="images/11.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-12">
-                            <img src="images/12.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-
-            <li>
-                <ul class="row">
-                    <li class="col-md-3">
-                        <a href="#modal-13">
-                            <img src="images/13.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-14">
-                            <img src="images/14.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-15">
-                            <img src="images/15.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
-                            </div>
-                        </a>
-                    </li>
-
-                    <!-- second row -->
-                    <li class="col-md-3">
-                        <a href="#modal-16">
-                            <img src="images/16.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-17">
-                            <img src="images/17.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-18">
-                            <img src="images/18.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-
-            <li>
-                <ul class="row">
-                    <li class="col-md-3">
-                        <a href="#modal-19">
-                            <img src="images/19.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-20">
-                            <img src="images/20.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-21">
-                            <img src="images/21.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
-                            </div>
-                        </a>
-                    </li>
-                    <!-- second row -->
                     <li class="col-md-3">
                         <a href="#modal-22">
                             <img src="images/22.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
                             <div class="play-icon">
                                 <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
+                            </div>
+                            <div class="video-cont">
+                                <h4></h4>
+                                <p></p>
+                            </div>
+                            <div class="youtube">
+                                <a href="#modal-2">Know More</a>
                             </div>
                         </a>
                     </li>
@@ -313,6 +406,13 @@ $seo_keywords = "";
                             <div class="play-icon">
                                 <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
                             </div>
+                            <div class="video-cont">
+                                <h4></h4>
+                                <p></p>
+                            </div>
+                            <div class="youtube">
+                                <a href="#modal-2">Know More</a>
+                            </div>
                         </a>
                     </li>
                     <li class="col-md-3">
@@ -321,11 +421,20 @@ $seo_keywords = "";
                             <div class="play-icon">
                                 <i class="fa fa-play" aria-hidden="true" style="color:#ffeb3b"></i>
                             </div>
+                            <div class="video-cont">
+                                <h4></h4>
+                                <p></p>
+                            </div>
+                            <div class="youtube">
+                                <a href="#modal-2">Know More</a>
+                            </div>
                         </a>
                     </li>
                 </ul>
             </li>
 
+
+            <!-- 7th -->
             <li>
                 <ul class="row">
                     <li class="col-md-3">
@@ -352,7 +461,7 @@ $seo_keywords = "";
                             </div>
                         </a>
                     </li>
-                    <!-- second row -->
+
                     <li class="col-md-3">
                         <a href="#modal-25">
                             <img src="images/25.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
@@ -361,6 +470,8 @@ $seo_keywords = "";
                             </div>
                         </a>
                     </li>
+
+                    <!-- 8th row -->
                     <li class="col-md-3">
                         <a href="#modal-26">
                             <img src="images/26.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
@@ -377,12 +488,6 @@ $seo_keywords = "";
                             </div>
                         </a>
                     </li>
-
-                </ul>
-            </li>
-
-            <li>
-                <ul class="row">
                     <li class="col-md-3">
                         <a href="#modal-31">
                             <img src="images/31.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height:298px">
@@ -399,6 +504,13 @@ $seo_keywords = "";
                             </div>
                         </a>
                     </li>
+
+                </ul>
+            </li>
+
+            <!-- 9th row -->
+            <li>
+                <ul class="row">
                     <li class="col-md-3">
                         <a href="#modal-33">
                             <img src="images/33.PNG" alt="kh-video-3" width="500" height="360">
