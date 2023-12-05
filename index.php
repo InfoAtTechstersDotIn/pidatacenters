@@ -245,6 +245,42 @@
         .great-rtt .slick-slide {
             text-align: center !important;
         }
+
+        .cookie-block {
+            background-color: black;
+            color: #fff;
+            padding: 10px 30px;
+            position: absolute;
+            left: 10px;
+            right: 10px;
+            top: -35%;
+            z-index: 1111;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.5s ease-in;
+        }
+
+        .cookie-block p {
+            line-height: 1.5rem;
+        }
+
+        .cookie-block p a {
+            color: blue;
+        }
+
+        .cookie-btn {
+            color: #000;
+            padding: 0px 10px;
+            border-radius: 15px;
+            outline: none !important;
+            background-color: #fff;
+        }
+
+        .active {
+            top: 10px;
+        }
     </style>
     <script>
         (function(w, d) {
@@ -998,55 +1034,14 @@
         </div>
 
 
-
-
-
         <!-- COOKIE SECTION -->
-        <style>
-            .cookie-block {
-                background-color: black;
-                color: #fff;
-                padding: 10px 30px;
-                position: fixed;
-                left: 10px;
-                right: 10px;
-                top: -35%;
-                z-index: 1111;
-                border-radius: 10px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                transition: all 0.5s ease-in;
-            }
-
-            .cookie-block p {
-                line-height: 1.5rem;
-            }
-
-            .cookie-block p a {
-                color: blue;
-            }
-
-            .cookie-btn {
-                color: #000;
-                padding: 0px 10px;
-                border-radius: 15px;
-                outline: none !important;
-                background-color: #fff;
-            }
-
-            .active {
-                top: 10px;
-            }
-        </style>
-
-
-        <div class="cookie-block active">
+        <div class="cookie-block" id="cookie-popup">
             <p>
-                We use cookies to offer you a better browsing experience, analyze site usage, and personalize content to give you the most relevant experience by remembering your preferences. By continuing to browse or by clicking on "Accept All" you consent to our use of cookies.
-                To learn more about our cookie policy you can read the <a href="terms-conditions.php" target="_blank"> Terms and Conditions </a>.
-            </p>
-            <button class="cookie-btn">Okay</button>
+                We use cookies to offer you a better browsing experience, analyze site traffic, and personalize content to give you the most relevant experience by remembering your preferences and repeat visits. By continuing to browse or clicking on "Accept All" you will consent to our use of cookies or you may also visit <a href="terms-conditions.php" target="_blank"> Terms and Conditions </a> to learn more about our Cookie policy.
+            </p><br><br>
+            <div>
+                <button onclick="handleSetCookie()" class="btn btn-primary" style="background: #fff; color: #000 !important;">Okay</button>
+            </div>
         </div>
         <!-- COOKIE SECTION ENDS -->
 
@@ -1500,18 +1495,16 @@
 
     <!-- COOKIE SECTION -->
     <script>
-        var cookieBlock = document.querySelector(".cookie-block");
-        var cookieBtn = document.querySelector(".cookie-btn");
-
-        cookieBtn.addEventListener("click", () => {
-            cookieBlock.classList.remove("active");
-            localStorage.setItem("cookieBanner", "true")
-        });
-        setTimeout(() => {
-            if (!localStorage.getItem("cookieBanner")) {
-                cookieBlock.classList.add(".active");
+        const handleSetCookie = () => {
+            localStorage.setItem('cookiAccepted', true);
+            document.getElementById('cookie-popup').classList.remove('active');
+        }
+        const checkCookie = () => {
+            if (!localStorage.getItem('cookiAccepted')) {
+                document.getElementById('cookie-popup').classList.add('active');
             }
-        }, 2000);
+        }
+        checkCookie()
     </script>
 
     <!-- <script>
