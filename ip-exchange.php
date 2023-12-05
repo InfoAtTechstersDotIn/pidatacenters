@@ -26,14 +26,21 @@ $seo_keywords = "";
 
 <div class="picloud_pages">
 
-	<div class="hb-bannerCont">
-		<div class="hb-bannerImgCont">
-			<div class="hb-bannerImg">
-				<picture>
-					<source media="(max-width: 768px)" srcset="./pi-cloud/images/banners/ipx_mbanner.png">
-					<img src="./pi-cloud/images/banners/ipx_banner.png" alt="pi-cloud Cloud Backup as a Service Banner" style="width:100%">
-				</picture>
-			</div>
+	<!--<div class="hb-bannerCont">
+	<div class="hb-bannerImgCont">
+		<div class="hb-bannerImg">
+			<picture>
+				<source media="(max-width: 768px)" srcset="./pi-cloud/images/banners/ipx_mbanner.png">
+				<img src="./pi-cloud/images/banners/ipx_banner.png" alt="pi-cloud Cloud Backup as a Service Banner" style="width:100%">
+			</picture>
+		</div>
+	</div>
+</div> -->
+
+	<div class="about-banner">
+		<div class="about-banner-blk">
+			<img src="images/new-internet-exchange.jpg" alt="datacenter-services" width="1920" height="210" class="datacenter-services-img res-height">
+			<h2>Internet Exchange</h2>
 		</div>
 	</div>
 
@@ -41,7 +48,7 @@ $seo_keywords = "";
 		<div class="container">
 			<div class="hb-productHead text-center">
 				<h1>Connecting Networks</h1>
-				<p>Internet Protocol (IP) Packet eXchange (IPX) network @PiÂ®ï¸ is the interconnect for exchange of IP based traffic between customers of separate mobile and fixed operator as well as other types of service providers, via IP based Network-to-Network Interface(NNI).</p>
+				<p>Internet Protocol (IP) Packet eXchange (IPX) network @Pi is the interconnect for exchange of IP based traffic between customers of separate mobile and fixed operator as well as other types of service providers, via IP based Network-to-Network Interface(NNI).</p>
 			</div>
 			<div class="hb-childProducts">
 
@@ -99,13 +106,13 @@ $seo_keywords = "";
 
 										<h3>Class of Service(CoS)</h3>
 										<h5>Identify and sort traffic into different Classes</h5>
-										<p><strong>Conversational</strong> â€“ services that needs tight latency and jitter values<br> <strong>Streaming</strong> â€“ Video on demand, live streaming<br> <strong>Interactive</strong> â€“ Corporate sensitive traffic which needs reserved bandwidth to guarantee service requirements<br> <strong>Background</strong> â€“ Suited for large packet sizes and traffic is not that much sensitive to delay and jitter </p>
+										<p><strong>Conversational</strong> services that needs tight latency and jitter values<br> <strong>Streaming</strong> Video on demand, live streaming<br> <strong>Interactive</strong> Corporate sensitive traffic which needs reserved bandwidth to guarantee service requirements<br> <strong>Background</strong> Suited for large packet sizes and traffic is not that much sensitive to delay and jitter </p>
 									</div>
 								</li>
 								<!-- <li  class="hb-fullWid text-center">
 			            		<div class="hb-leftCont hb_ppCont text-center_sk">
 			            			<h3>Identify and sort traffic into different Classe of Service(CoS)</h3>
-			            			<p>MPLS on pi-cloud<sup>Â®</sup> enables enterprises to build advanced and intelligent networks that deliver a wide variety of services over a single infrastructure. This solution can be  utilized for bandwidth adjustment, to reduce network congestion and increase quality of service. Enterprises with diverse access links can be added on an MPLS edge without changing their current environments. </p>
+			            			<p>MPLS on Pi Cloud enables enterprises to build advanced and intelligent networks that deliver a wide variety of services over a single infrastructure. This solution can be  utilized for bandwidth adjustment, to reduce network congestion and increase quality of service. Enterprises with diverse access links can be added on an MPLS edge without changing their current environments. </p>
 			            			<span>
 			            				<img src="images/product-images/ha_img.png" alt="workspace">
 			            			</span>
@@ -170,7 +177,7 @@ $seo_keywords = "";
 									<div class="hb-leftCont hb_ppCont">
 										<h3>Cascading payments </h3>
 										<h5><strong>Fair reward for everyone who plays part in connecting IPX</strong></h5>
-										<p>Each party is remunerated for the work they do to deliver packets over the wire. This business model works well as it encourages a healthy competition â€“ each party is motivated to compete for the delivery of traffic. In this way, there is also an obligation for each party to deliver to a certain quality. This means an SLA is enforced.</p>
+										<p>Each party is remunerated for the work they do to deliver packets over the wire. This business model works well as it encourages a healthy competition Ã¢â‚¬â€œ each party is motivated to compete for the delivery of traffic. In this way, there is also an obligation for each party to deliver to a certain quality. This means an SLA is enforced.</p>
 									</div>
 								</li>
 								<li>

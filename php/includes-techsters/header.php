@@ -280,7 +280,7 @@
                                         </li>
 
                                         <li>
-                                            <a href="#" class="drop-arrow">Knowledge Center </a>
+                                            <a href="#" class="drop-arrow">Resource Center </a>
                                             <div class="sub_drop_down">
                                                 <ul>
                                                     <li>
@@ -552,7 +552,7 @@
                                     </li>
 
                                     <li class="accordion">
-                                        <a href="#">Knowledge Center </a>
+                                        <a href="#">Resource Center </a>
 
                                     </li>
                                     <div class="sub_d_down panel">

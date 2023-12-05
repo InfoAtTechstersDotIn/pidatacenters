@@ -1007,7 +1007,7 @@
                 background-color: black;
                 color: #fff;
                 padding: 10px 30px;
-                position: absolute;
+                position: fixed;
                 left: 10px;
                 right: 10px;
                 top: -35%;
@@ -1043,7 +1043,8 @@
 
         <div class="cookie-block active">
             <p>
-                We use cookies to offer you a better browsing experience, analyze site traffic, and personalize content to give you the most relevant experience by remembering your preferences and repeat visits. By continuing to browse or clicking on "Accept All" you will consent to our use of cookies or you may also visit <a href="terms-conditions.php" target="_blank"> Terms and Conditions </a> to learn more about our Cookie policy.
+                We use cookies to offer you a better browsing experience, analyze site usage, and personalize content to give you the most relevant experience by remembering your preferences. By continuing to browse or by clicking on "Accept All" you consent to our use of cookies.
+                To learn more about our cookie policy you can read the <a href="terms-conditions.php" target="_blank"> Terms and Conditions </a>.
             </p>
             <button class="cookie-btn">Okay</button>
         </div>
@@ -1504,10 +1505,11 @@
 
         cookieBtn.addEventListener("click", () => {
             cookieBlock.classList.remove("active");
+            localStorage.setItem("cookieBanner", "true")
         });
         setTimeout(() => {
             if (!localStorage.getItem("cookieBanner")) {
-                cookieBlock.classList.add("active");
+                cookieBlock.classList.add(".active");
             }
         }, 2000);
     </script>
