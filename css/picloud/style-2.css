@@ -8452,6 +8452,8 @@
 
     .videoss img {
         border-radius: 20px;
+        border: 2px solid #ffffff;
+        box-shadow: 1px 0px 6px grey;
     }
 
     .video-cont h4,
@@ -8540,7 +8542,7 @@
         text-decoration: underline !important;
     }
 
-    .current {
+    .cookie-current {
         bottom: 10px;
     }
 

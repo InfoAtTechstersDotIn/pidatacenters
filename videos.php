@@ -45,7 +45,7 @@ $seo_keywords = "";
 
           <li class="col-md-3">
             <a href="#modal-1">
-              <img src="images/1.PNG" alt="kh-video-3" width="500" height="360">
+              <img src="images/vidoes-page/new-1.png" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
               </div>
@@ -55,7 +55,7 @@ $seo_keywords = "";
           </li>
           <li class="col-md-3">
             <a href="#modal-2">
-              <img src="images/2.png" alt="kh-video-3" width="500" height="360">
+              <img src="images/vidoes-page/new-2.png" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
               </div>
@@ -67,7 +67,7 @@ $seo_keywords = "";
           </li>
           <li class="col-md-3">
             <a href="#modal-3">
-              <img src="images/3.PNG" alt="kh-video-3" width="500" height="360">
+              <img src="images/vidoes-page/new-3.png" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
               </div>
@@ -78,7 +78,7 @@ $seo_keywords = "";
           </li>
           <li class="col-md-3">
             <a href="#modal-4">
-              <img src="images/4.png" alt="kh-video-3" width="500" height="360">
+              <img src="images/vidoes-page/new-4.png" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
               </div>
@@ -93,7 +93,7 @@ $seo_keywords = "";
           <!-- 2nd row -->
           <li class="col-md-3">
             <a href="#modal-5">
-              <img src="images/5.PNG" alt="kh-video-3" width="500" height="360">
+              <img src="images/vidoes-page/new-5.png" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
               </div>
@@ -106,7 +106,7 @@ $seo_keywords = "";
           </li>
           <li class="col-md-3">
             <a href="#modal-6">
-              <img src="images/6.PNG" alt="kh-video-3" width="500" height="360">
+              <img src="images/vidoes-page/new-6.png" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
               </div>
@@ -119,7 +119,7 @@ $seo_keywords = "";
           </li>
           <li class="col-md-3">
             <a href="#modal-7">
-              <img src="images/7.PNG" alt="kh-video-3" width="500" height="360">
+              <img src="images/vidoes-page/new-7.png" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
               </div>
@@ -132,7 +132,7 @@ $seo_keywords = "";
           </li>
           <li class="col-md-3">
             <a href="#modal-8">
-              <img src="images/8.PNG" alt="kh-video-3" width="500" height="360">
+              <img src="images/vidoes-page/new-8.png" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
               </div>
@@ -151,7 +151,7 @@ $seo_keywords = "";
         <ul class="row">
           <li class="col-md-3">
             <a href="#modal-9">
-              <img src="images/9.PNG" alt="kh-video-3" width="500" height="360">
+              <img src="images/vidoes-page/new-9.png" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
               </div>
@@ -166,7 +166,7 @@ $seo_keywords = "";
 
           <li class="col-md-3">
             <a href="#modal-10">
-              <img src="images/10.PNG" alt="kh-video-3" width="500" height="360">
+              <img src="images/vidoes-page/new-10.png" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
               </div>
@@ -179,7 +179,7 @@ $seo_keywords = "";
           </li>
           <li class="col-md-3">
             <a href="#modal-11">
-              <img src="images/11.PNG" alt="kh-video-3" width="500" height="360">
+              <img src="images/vidoes-page/new-11.png" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
               </div>
@@ -192,7 +192,7 @@ $seo_keywords = "";
           </li>
           <li class="col-md-3">
             <a href="#modal-12">
-              <img src="images/12.PNG" alt="kh-video-3" width="500" height="360">
+              <img src="images/vidoes-page/new-12.png" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
               </div>
@@ -208,7 +208,7 @@ $seo_keywords = "";
           <!-- 4th row -->
           <li class="col-md-3">
             <a href="#modal-13">
-              <img src="images/13.PNG" alt="kh-video-3" width="500" height="360">
+              <img src="images/vidoes-page/new-13.png" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
               </div>
@@ -221,7 +221,7 @@ $seo_keywords = "";
           </li>
           <li class="col-md-3">
             <a href="#modal-14">
-              <img src="images/14.PNG" alt="kh-video-3" width="500" height="360">
+              <img src="images/vidoes-page/new-14.png" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
               </div>
@@ -234,7 +234,7 @@ $seo_keywords = "";
           </li>
           <li class="col-md-3">
             <a href="#modal-15">
-              <img src="images/15.PNG" alt="kh-video-3" width="500" height="360">
+              <img src="images/vidoes-page/new-15.png" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
               </div>
@@ -247,7 +247,7 @@ $seo_keywords = "";
           </li>
           <li class="col-md-3">
             <a href="#modal-16">
-              <img src="images/16.PNG" alt="kh-video-3" width="500" height="360">
+              <img src="images/vidoes-page/new-16.png" alt="kh-video-3" width="500" height="360">
               <div class="play-icon">
                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
               </div>

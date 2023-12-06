@@ -17,7 +17,7 @@ $seo_keywords = "Ministry of Electronics and Information Technology, meity certi
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/new-meity.jpg" alt="videos-bann22" class="datacenter-services-img" width="1920" height="210">
-        <h2>Meity Empaneled & On Gem</h2>
+        <h2>MeitY Empaneled & On Gem</h2>
 
     </div>
 </div>

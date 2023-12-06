@@ -34,1051 +34,763 @@ $seo_keywords = "";
 <!--what-is-noc starts here -->
 
 <div class="knowledge-hub-videos1 knowledge-gallery1 videoss">
-    <div class="container">
+    <div class="container pt-5 pb-5">
         <div class="knowledge-hub-videos-top">
         </div>
-        <br>
-        <ul class="slider ga-vd">
-            <li>
-                <!-- 1st row -->
-                <ul class="row">
-
-                    <li class="col-md-3">
-                        <a href="#modal-1">
-                            <img src="images/1.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Kalyan Muppaneni,Founder & CEO, Pi Datacenters at CII Telecom Summit Dec 2022</h4>
-                                <!-- <p>Uncover the future of 5G with Mr. Kalyan Muppaneni, Founder & CEO of Pi Datacenters Pvt. Ltd.; Navnit Nakra, CEO of OnePlus; and Saloni Roy, Partner at Deloitte India, as they join forces for a dynamic panel discussion at the CII National Telecom Summit on the topic of "5G: Enable, Emerge, and Elevate," hosted at The LaLiT in New Delhi.</p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-1">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-2">
-                            <img src="images/2.png" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Pi Employee Video</h4>
-                                <p></p>
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-3">
-                            <img src="images/3.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Take A Tour Of Pi DATACENTERS - Asia's Largest Uptime Institute TIER IV Certified Data Center</h4>
-                                <!-- <p>Experience One Of The World's Best Data Center Facilities At Amaravati In Andhra Pradesh</p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-3">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-4">
-                            <img src="images/4.png" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Key Differentiators of Harbour1® Cloud</h4>
-                                <!-- <p>These are few of the major reasons why Harbour1® - the enterprise cloud platform @Pi® is the most preferred cloud for enterprises</p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-4">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
 
 
+        <div class="video-block">
+            <!-- 1st row -->
+            <div>
+                <div class="row">
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-1"><img src="images/vidoes-page/new-1.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Kalyan Muppaneni,Founder & CEO, Pi Datacenters at CII Telecom Summit Dec 2022</h4>
+                        </div>
+                    </div>
 
-                    <!-- 2nd row -->
-                    <li class="col-md-3">
-                        <a href="#modal-5">
-                            <img src="images/5.PNG" alt="kh-video-3" width="500" height="360">
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-2"><img src="images/vidoes-page/new-2.png">
                             <div class="play-icon">
                                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
                             </div>
-                            <div class="video-cont">
-                                <h4>Kalyan Muppaneni, Founder & CEO, Pi at International Annual Tech Fest VIT University, AP</h4>
-                                <!-- <p>Kalyan Muppaneni, Founder and CEO, Pi Datacenters, was the Chief Guest at International Annual Tech Fest at VIT University, AP. He shared his insights on India's potential as a significant player in the global data economy. He also threw light on the possibilities of creating a robust and evolving data protection roadmap.</p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-5">Know More</a>
-                            </div> -->
                         </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-6">
-                            <img src="images/6.PNG" alt="kh-video-3" width="500" height="360">
+                        <div class="video-cont">
+                            <h4>Pi Employee Video</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-3"><img src="images/vidoes-page/new-3.png">
                             <div class="play-icon">
                                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
                             </div>
-                            <div class="video-cont">
-                                <h4>Sharing glimpses of Pi at ASSOCHAM Data Centre & Cloud Infra Summit'22</h4>
-                                <!-- <p>Sharing glimpses of Pi Datacenters at Assocham Data Centre & Cloud Infra Summit'22: 'Making Tamil Nadu a Hub for Datacentre & Cloud Solutions', which was graced by Sh. Mano T., Minister of Information Technology & Digital Services, Govt. of Tamil Nadu, as the Chief Guest.</p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-6">Know More</a>
-                            </div> -->
                         </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-7">
-                            <img src="images/7.PNG" alt="kh-video-3" width="500" height="360">
+                        <div class="video-cont">
+                            <h4>Take A Tour Of Pi DATACENTERS - Asia's Largest Uptime Institute TIER IV Certified Data Center</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-4"><img src="images/vidoes-page/new-4.png">
                             <div class="play-icon">
                                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
                             </div>
-                            <div class="video-cont">
-                                <h4>Blood Donation Camp</h4>
-                                <!-- <p>One Bottle Of Blood Save Four Lives. At Pi, we had a great day by donating blood and making a difference.</p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-7">Know More</a>
-                            </div> -->
                         </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-8">
-                            <img src="images/8.PNG" alt="kh-video-3" width="500" height="360">
+                        <div class="video-cont">
+                            <h4>Key Differentiators of Pi Cloud</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-5"><img src="images/vidoes-page/new-5.png">
                             <div class="play-icon">
                                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
                             </div>
-                            <div class="video-cont">
-                                <h4>CFO Vision & Innovation Summit & Awards 2022</h4>
-                                <!-- <p>Manu Sharma, CFO, Pi DATACENTERS, was at the 6th Edition of CFO Vision & Innovation Summit & Awards 2022 last month, organized by Transformance Forums held in Hyderabad. He was part of an engaging Fireside Chat on CFO – CIO Shared Vision for Digital Transformation.</p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-8">Know More</a>
-                            </div> -->
                         </a>
-                    </li>
-                </ul>
-            </li>
+                        <div class="video-cont">
+                            <h4>Kalyan Muppaneni, Founder & CEO, Pi at International Annual Tech Fest VIT University, AP</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-6"><img src="images/vidoes-page/new-6.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Sharing glimpses of Pi at ASSOCHAM Data Centre & Cloud Infra Summit'22</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-7"><img src="images/vidoes-page/new-7.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Blood Donation Camp</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-8"><img src="images/vidoes-page/new-8.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>CFO Vision & Innovation Summit & Awards 2022</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- 2nd row -->
+            <div>
+                <div class="row">
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-9"><img src="images/vidoes-page/new-9.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>A glimpse of Pi's 8 years journey!</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-10"><img src="images/vidoes-page/new-10.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Mega Walk-in Drive @ Pi Data Centers Amaravati</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-11"><img src="images/vidoes-page/new-11.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Foundation Day Celebrations @ Vijayawada</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-12"><img src="images/vidoes-page/new-12.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>R&R Employee</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-13"><img src="images/vidoes-page/new-13.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Pi'Oscope - On The Move</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-14"><img src="images/vidoes-page/new-14.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Client Testimonial - In Conversation with Group CTO, Kirloskar Management Services</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-15"><img src="images/vidoes-page/new-15.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Bring Your Own Ganesha @ Pi</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-16"><img src="images/vidoes-page/new-16.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Pi@ ASSOCHAM Smart Datacenters & Cloud Infrastructure Summit 2022 Part II</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- 3rd row -->
-            <li>
-                <ul class="row">
-                    <li class="col-md-3">
-                        <a href="#modal-9">
-                            <img src="images/9.PNG" alt="kh-video-3" width="500" height="360">
+            <div>
+                <div class="row">
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-17"><img src="images/vidoes-page/new-17.png">
                             <div class="play-icon">
                                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
                             </div>
-                            <div class="video-cont">
-                                <h4>A glimpse of Pi's 8 years journey!</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-9">Know More</a>
-                            </div> -->
                         </a>
-                    </li>
+                        <div class="video-cont">
+                            <h4>Pi @ ASSOCHAM India Smart Datacenters & Cloud Infrastructure Summit 2022</h4>
+                        </div>
+                    </div>
 
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-18"><img src="images/vidoes-page/new-18.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Kalyan Muppaneni, Founder & CEO, Pi Datacenters, speaks at CII - Part II</h4>
+                        </div>
+                    </div>
 
-                    <li class="col-md-3">
-                        <a href="#modal-10">
-                            <img src="images/10.PNG" alt="kh-video-3" width="500" height="360">
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-19"><img src="images/vidoes-page/new-19.png">
                             <div class="play-icon">
                                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
                             </div>
-                            <div class="video-cont">
-                                <h4>Mega Walk-in Drive @ Pi Data Centers Amaravati</h4>
-                                <!-- <p>We had a mega Walk-in Drive at Pi Amaravati over last weekend, targeting 100+ Fresh tech minds joining Pi's cloud ecosystem. The energy and vibes from the candidates made the drive a huge success. Kudos to all involved in putting this together.</p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-10">Know More</a>
-                            </div> -->
                         </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-11">
-                            <img src="images/11.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Foundation Day Celebrations @ Vijayawada</h4>
-                                <!-- <p>Our achievements are shaped by the strength of the foundations we set. Thank you, Pi'Oneers, for your commitment to excellence and dedication. Recently Pi celebrated its 8th foundation day and felicitated Pi'Oneers, who completed 5 years with the organization. </p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-11">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-12">
-                            <img src="images/12.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>R&R Employee</h4>
-                                <!-- <p>Our achievements are shaped by the strength of the foundations we set. Thank you, Pi'Oneers, for your commitment to excellence and dedication. Recently Pi celebrated its 8th foundation day and felicitated Pi'Oneers, who completed 5 years with the organization. </p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-12">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
+                        <div class="video-cont">
+                            <h4>Kalyan Muppaneni, Founder & CEO, Pi Datacenters, speaks at CII - Part II</h4>
+                        </div>
+                    </div>
 
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-20"><img src="images/vidoes-page/new-20.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Fun @ Pi #employeeengagement #worklifebalance #fun</h4>
+                        </div>
+                    </div>
+                </div>
 
-                    <!-- 4th row -->
-                    <li class="col-md-3">
-                        <a href="#modal-13">
-                            <img src="images/13.PNG" alt="kh-video-3" width="500" height="360">
+                <div class="row">
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-21"><img src="images/vidoes-page/new-21.png">
                             <div class="play-icon">
                                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
                             </div>
-                            <div class="video-cont">
-                                <h4>Pi'Oscope - On The Move</h4>
-                                <!-- <p>Pi'Oscope, The Leadership Connect Conclave, is back again in its new avatar after its grand success in 2021. This time it's coming to Your City with a power-packed theme of "Equating Digital & Business Transformation."</p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-13">Know More</a>
-                            </div> -->
                         </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-14">
-                            <img src="images/14.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Client Testimonial - In Conversation with Group CTO, Kirloskar Management Services</h4>
-                                <!-- <p>Listen to @Mandar Sahasrabudhe, Group CTO, Kirloskar Management Services, speaking on the driving factors behind Kirloskar groups’ #GoCloud initiatives and how they zeroed in on Pi as their partner of choice in this incredible journey of #KirloskarLimitless </p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-14">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-15">
-                            <img src="images/15.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Bring Your Own Ganesha @ Pi</h4>
-                                <!-- <p>Creativity, Celebration, and Competition were in the air as the Pi'Oneers across India showcased their distinct styles to welcome Ganapati under the Bring your own Ganesha (BYOG) theme. </p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-15">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-16">
-                            <img src="images/16.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Pi@ ASSOCHAM Smart Datacenters & Cloud Infrastructure Summit 2022 Part II</h4>
-                                <!-- <p>PART II of what Debmalya Dey Roy (Deb), Chief Revenue Officer and Global Marketing Head, Pi DATACENTERS spoke at the 3rd #ASSOCHAM India Smart Datacenters & Cloud Infrastructure Summit 2022 held in New Delhi on 30th July, where he was part (virtually) of an engrossing panel discussion on "Re-inventing the Business-Defining Strategies for Successful Cloud-led Transformation for Large Enterprise and MSMEs."</p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-16">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                </ul>
-            </li>
+                        <div class="video-cont">
+                            <h4>World Environment Day, 5th June 2022</h4>
+                        </div>
+                    </div>
 
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-22"><img src="images/vidoes-page/new-22.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Developing cybersecurity expertise of the corporate boards</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-23"><img src="images/vidoes-page/new-23.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>LIVE webinar on Container as Service, Simplifying The Workflow for Applications</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-24"><img src="images/vidoes-page/new-24.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Pi'Oneers Walk the Talk</h4>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 4th row -->
+            <div>
+                <div class="row">
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-25"><img src="images/vidoes-page/new-25-(1).png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Frozen in Memories...Pi'Oscope: The Leadership Connect 2021</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-26"><img src="images/vidoes-page/new-26-(1).png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Marketing Professional of the Year - IT Excellence Awards - CRO & Global Marketing Head - Pi</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-27"><img src="images/vidoes-page/new-26-(1).png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Cloud Company of the Year 2021 - Pi Datacenters - pi-cloud - IT Excellence Awards</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-28"><img src="images/vidoes-page/new-28.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Kalyan Muppaneni on NewsX speaking about Making India A Global Data Hub Presented By ASSOCHAM</h4>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-29"><img src="images/vidoes-page/new-29-(1).png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>When you are at Pi, Be the Pi'oneer</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-30"><img src="images/vidoes-page/new-30.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>SAP Infra Webinar | Pi Cloud | Pi Data Centers</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-31"><img src="images/vidoes-page/new-31.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>HR Speaks on GPTW</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-32"><img src="images/vidoes-page/new-32.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>CEO Talks: What makes Pi a great place to work?</h4>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
 
             <!-- 5th row -->
-            <li>
-                <ul class="row">
-                    <li class="col-md-3">
-                        <a href="#modal-17">
-                            <img src="images/17.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height: 214px;">
+            <div>
+                <div class="row">
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-33"><img src="images/vidoes-page/new-33.png">
                             <div class="play-icon">
                                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
                             </div>
-                            <div class="video-cont">
-                                <h4>Pi @ ASSOCHAM India Smart Datacenters & Cloud Infrastructure Summit 2022</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-17">Know More</a>
-                            </div> -->
                         </a>
-                    </li>
+                        <div class="video-cont">
+                            <h4>The all new Pi Cloud website is NOW LIVE!</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-34"><img src="images/vidoes-page/new-34.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>HarbourFront, India's First Indigenous CDN On Cloud. Another 1st From Pi DATACENTERS</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-35"><img src="images/vidoes-page/new-35.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Happy Diwali from Pi DATACENTERS !</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-36"><img src="images/vidoes-page/new-36.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Colocation & Cloud Services Mega Launch Webinar in association with BroadGroup and Intel Corporation</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-37"><img src="images/vidoes-page/new-37.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Disaster Recovery Summit 2018, Bangalore, Dec 20, 2018</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-38"><img src="images/vidoes-page/new-38.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Why you should NOT delay your cloud journey? Explained by senior leaders from Intel and Pi</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-39"><img src="images/vidoes-page/new-39.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>How Is Pi Ensuring Seamless Operations During COVID?</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-40"><img src="images/vidoes-page/new-40.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Pi Workspaces - The Next Generation VDI Solution</h4>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 6th row -->
+            <div>
+                <div class="row">
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-41"><img src="images/vidoes-page/new-41.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Pi Cloud - Enterprise Cloud Platform @Pi</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-42"><img src="images/vidoes-page/new-42.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Rural-India's Growth is Critical for India's $5T economy - Kalyan Muppaneni, Chairman & CEO, Pi</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-43"><img src="images/vidoes-page/new-43.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Merry Christmas Wishes from Pi!</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-44"><img src="images/vidoes-page/new-44.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Pi celebrates it's 5 years anniversary with a High 'V'</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-45"><img src="images/vidoes-page/new-45.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>#FreedomForAll</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-49"><img src="images/vidoes-page/new-49.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>CEO Talk Series - Episode 1</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-47"><img src="images/vidoes-page/new-47.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Kalyan Muppaneni, Founder & CEO, Pi DATACENTERS Shares His Views About Digital India</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-48"><img src="images/vidoes-page/new-48.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>CEO Talk Series - Episode 2</h4>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
 
 
-                    <li class="col-md-3">
-                        <a href="#modal-18">
-                            <img src="images/18.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height: 214px;">
+            <!-- 7th row -->
+            <div>
+                <div class="row">
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-46"><img src="images/vidoes-page/new-46.png">
                             <div class="play-icon">
                                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
                             </div>
-                            <div class="video-cont">
-                                <h4>Kalyan Muppaneni, Founder & CEO, Pi Datacenters, speaks at CII - Part II</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-18">Know More</a>
-                            </div> -->
                         </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-19">
-                            <img src="images/19.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height: 214px;">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Kalyan Muppaneni, Founder & CEO, Pi Datacenters, speaks at CII - Part II</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-19">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-20">
-                            <img src="images/20.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height: 214px;">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Fun @ Pi #employeeengagement #worklifebalance #fun</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-20">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
+                        <div class="video-cont">
+                            <h4>CEO Talks Series - Episode 3</h4>
+                        </div>
+                    </div>
 
-                    <!-- 6th row -->
-                    <li class="col-md-3">
-                        <a href="#modal-21">
-                            <img src="images/21.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height: 214px;">
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-50"><img src="images/vidoes-page/new-50.png">
                             <div class="play-icon">
                                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
                             </div>
-                            <div class="video-cont">
-                                <h4>World Environment Day, 5th June 2022</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
                         </a>
-                    </li>
+                        <div class="video-cont">
+                            <h4>Pi DATACENTERS: India's 1st Greenfield & World's 4th Largest Uptime Institute TIER IV Data Center</h4>
+                        </div>
+                    </div>
 
-                    <li class="col-md-3">
-                        <a href="#modal-22">
-                            <img src="images/22.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height: 214px;">
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-51"><img src="images/vidoes-page/new-51.png">
                             <div class="play-icon">
                                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
                             </div>
-                            <div class="video-cont">
-                                <h4>Developing cybersecurity expertise of the corporate boards</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
                         </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-23">
-                            <img src="images/23.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height: 214px;">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>LIVE webinar on Container as Service, Simplifying The Workflow for Applications</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-24">
-                            <img src="images/24.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height: 214px;">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Pi'Oneers Walk the Talk</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                </ul>
-            </li>
+                        <div class="video-cont">
+                            <h4>Staying Prepared for Disaster - Location Matters the Most!</h4>
+                        </div>
+                    </div>
 
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-52"><img src="images/vidoes-page/new-52.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Location of Primary DC Site annd DR Site must be of strategic importance</h4>
+                        </div>
+                    </div>
+                </div>
 
-            <!-- 7th -->
-            <li>
-                <ul class="row">
-                    <li class="col-md-3">
-                        <a href="#modal-25">
-                            <img src="images/25.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height: 214px;">
+                <div class="row">
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-53"><img src="images/vidoes-page/new-53.png">
                             <div class="play-icon">
                                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
                             </div>
-                            <div class="video-cont">
-                                <h4>Frozen in Memories...Pi'Oscope: The Leadership Connect 2021</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
                         </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-26">
-                            <img src="images/26.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height: 214px;">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Marketing Professional of the Year - IT Excellence Awards - CRO & Global Marketing Head - Pi</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-27">
-                            <img src="images/27.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height: 214px;">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Cloud Company of the Year 2021 - Pi Datacenters - pi-cloud - IT Excellence Awards</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
+                        <div class="video-cont">
+                            <h4>Check Live Data Center Latency | Pi DATACENTERS</h4>
+                        </div>
+                    </div>
 
-                    <li class="col-md-3">
-                        <a href="#modal-25">
-                            <img src="images/25.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height: 214px;">
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-54"><img src="images/vidoes-page/new-54.png">
                             <div class="play-icon">
                                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
                             </div>
-                            <div class="video-cont">
-                                <h4>Frozen in Memories...Pi'Oscope: The Leadership Connect 2021</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
                         </a>
-                    </li>
+                        <div class="video-cont">
+                            <h4>Welcome Note by Kalyan Muppaneni, Founder & CEO, Pi DATACENTERS at Cyber Security Conclave, Mumbai</h4>
+                        </div>
+                    </div>
 
-                    <!-- 8th row -->
-                    <li class="col-md-3">
-                        <a href="#modal-26">
-                            <img src="images/26.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height: 214px;">
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-55"><img src="images/vidoes-page/new-55-(1).png">
                             <div class="play-icon">
                                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
                             </div>
-                            <div class="video-cont">
-                                <h4>Marketing Professional of the Year - IT Excellence Awards - CRO & Global Marketing Head - Pi</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
                         </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-27">
-                            <img src="images/27.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height: 214px;">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Cloud Company of the Year 2021 - Pi Datacenters - pi-cloud - IT Excellence Awards</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-31">
-                            <img src="images/31.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height: 214px;">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>HR Speaks on GPTW</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-32">
-                            <img src="images/32.PNG" alt="kh-video-3" width="500" height="360" style="width:383px;height: 214px;">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>CEO Talks: What makes Pi a great place to work?</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
+                        <div class="video-cont">
+                            <h4>Take Your Leap To Digital Transformation With pi-cloud | Go Cloud!</h4>
+                        </div>
+                    </div>
 
-                </ul>
-            </li>
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-56"><img src="images/vidoes-page/new-56.PNG">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Pi Amaravati, Asia's Largest Uptime Institute TIER IV Certified Data Center.</h4>
+                        </div>
+                    </div>
 
-            <!-- 9th row -->
-            <li>
-                <ul class="row">
-                    <li class="col-md-3">
-                        <a href="#modal-33">
-                            <img src="images/33.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>The all new Pi Cloud website is NOW LIVE!</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
+                </div>
+            </div>
 
-                    <li class="col-md-3">
-                        <a href="#modal-34">
-                            <img src="images/34.PNG" alt="kh-video-3" width="500" height="360">
+            <!-- 8th row -->
+            <div>
+                <div class="row">
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-57"><img src="images/vidoes-page/new-57.png">
                             <div class="play-icon">
                                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
                             </div>
-                            <div class="video-cont">
-                                <h4>HarbourFront, India's First Indigenous CDN On Cloud. Another 1st From Pi DATACENTERS</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
                         </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-35">
-                            <img src="images/35.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Happy Diwali from Pi DATACENTERS !</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-36">
-                            <img src="images/36.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Colocation & Cloud Services Mega Launch Webinar in association with BroadGroup and Intel Corporation</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
+                        <div class="video-cont">
+                            <h4>IT leaders from BFSI industry being felicitated at BFSI Data center & Cloud Summit 2017</h4>
+                        </div>
+                    </div>
 
-                    <!-- 10th row -->
-                    <li class="col-md-3">
-                        <a href="#modal-37">
-                            <img src="images/37.PNG" alt="kh-video-3" width="500" height="360">
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-58"><img src="images/vidoes-page/new-58.png">
                             <div class="play-icon">
                                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
                             </div>
-                            <div class="video-cont">
-                                <h4>Disaster Recovery Summit 2018, Bangalore, Dec 20, 2018</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
                         </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-38">
-                            <img src="images/38.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Why you should NOT delay your cloud journey? Explained by senior leaders from Intel and Pi</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-39">
-                            <img src="images/39.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>How Is Pi Ensuring Seamless Operations During COVID?</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
+                        <div class="video-cont">
+                            <h4>Watch Pi work its magic at BFSI Data center and cloud summit 2017</h4>
+                        </div>
+                    </div>
 
-                    <li class="col-md-3">
-                        <a href="#modal-40">
-                            <img src="images/40.PNG" alt="kh-video-3" width="500" height="360">
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-59"><img src="images/vidoes-page/new-60.png">
                             <div class="play-icon">
                                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
                             </div>
-                            <div class="video-cont">
-                                <h4>Pi Workspaces - The Next Generation VDI Solution</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
                         </a>
-                    </li>
+                        <div class="video-cont">
+                            <h4>Pi On The Panel - " Role of Data Center & Cloud in Banking Industry"</h4>
+                        </div>
+                    </div>
 
-                </ul>
-            </li>
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-60"><img src="images/vidoes-page/new-60.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Infrastructure as a Service (IaaS) | Pi DATACENTERS"</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-61"><img src="images/vidoes-page/new-61.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Data Center Maintenance | Pi DATACENTERS</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-3">
+                        <a href="#modal-62"><img src="images/vidoes-page/new-62.png">
+                            <div class="play-icon">
+                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
+                            </div>
+                        </a>
+                        <div class="video-cont">
+                            <h4>Life @Pi</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
 
-            <!-- 11th row -->
-
-            <li>
-                <ul class="row">
-                    <li class="col-md-3">
-                        <a href="#modal-41">
-                            <img src="images/41.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Pi Cloud - Enterprise Cloud Platform @Pi</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-42">
-                            <img src="images/42.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Rural-India's Growth is Critical for India's $5T economy - Kalyan Muppaneni, Chairman & CEO, Pi</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    <li class="col-md-3">
-                        <a href="#modal-43">
-                            <img src="images/43.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Merry Christmas Wishes from Pi!</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-44">
-                            <img src="images/44.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Pi celebrates it's 5 years anniversary with a High 'V'</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-
-                    <!-- 12th row -->
-                    <li class="col-md-3">
-                        <a href="#modal-45">
-                            <img src="images/45.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>#FreedomForAll</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-
-                    <li class="col-md-3">
-                        <a href="#modal-46">
-                            <img src="images/46.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>CEO Talks Series - Episode 3</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-47">
-                            <img src="images/47.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Kalyan Muppaneni, Founder & CEO, Pi DATACENTERS Shares His Views About Digital India</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-48">
-                            <img src="images/48.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>CEO Talk Series - Episode 2</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-
-                </ul>
-            </li>
-
-            <!-- 13th row -->
-            <li>
-                <ul class="row">
-                    <li class="col-md-3">
-                        <a href="#modal-49">
-                            <img src="images/49.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>CEO Talk Series - Episode 1</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-50">
-                            <img src="images/50.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Pi DATACENTERS: India's 1st Greenfield & World's 4th Largest Uptime Institute TIER IV Data Center</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-51">
-                            <img src="images/51.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Staying Prepared for Disaster - Location Matters the Most!</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-
-                    <li class="col-md-3">
-                        <a href="#modal-52">
-                            <img src="images/52.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Location of Primary DC Site annd DR Site must be of strategic importance</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-
-                    <!-- 14th row -->
-                    <li class="col-md-3">
-                        <a href="#modal-53">
-                            <img src="images/53.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Check Live Data Center Latency | Pi DATACENTERS</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-54">
-                            <img src="images/54.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Welcome Note by Kalyan Muppaneni, Founder & CEO, Pi DATACENTERS at Cyber Security Conclave, Mumbai</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-55">
-                            <img src="images/55.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Take Your Leap To Digital Transformation With pi-cloud | Go Cloud!</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-55">
-                            <img src="images/55.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Take Your Leap To Digital Transformation With pi-cloud | Go Cloud!</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                </ul>
-            </li>
-
-            <!-- 15th row -->
-            <li>
-                <ul class="row">
-                    <li class="col-md-3">
-                        <a href="#modal-56">
-                            <img src="images/56.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Pi Amaravati, Asia's Largest Uptime Institute TIER IV Certified Data Center.</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-
-                    <li class="col-md-3">
-                        <a href="#modal-57">
-                            <img src="images/57.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>IT leaders from BFSI industry being felicitated at BFSI Data center & Cloud Summit 2017</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-58">
-                            <img src="images/58.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Watch Pi work its magic at BFSI Data center and cloud summit 2017</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-59">
-                            <img src="images/59.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Pi On The Panel - " Role of Data Center & Cloud in Banking Industry"</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-
-                    <!-- 16th row -->
-                    <li class="col-md-3">
-                        <a href="#modal-60">
-                            <img src="images/60.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Infrastructure as a Service (IaaS) | Pi DATACENTERS"</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-61">
-                            <img src="images/61.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Data Center Maintenance | Pi DATACENTERS</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-                    <li class="col-md-3">
-                        <a href="#modal-62">
-                            <img src="images/62.PNG" alt="kh-video-3" width="500" height="360">
-                            <div class="play-icon">
-                                <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
-                            </div>
-                            <div class="video-cont">
-                                <h4>Life @Pi</h4>
-                                <!-- <p></p> -->
-                            </div>
-                            <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
-                        </a>
-                    </li>
-
-                </ul>
-            </li>
-
-        </ul>
-
-
-
+        </div>
     </div>
 </div>
-<br>
-<br>
+
 <?php include('php/includes-techsters/footer.php'); ?>
 <div id="modal-1" class="modalDialog">
     <div>
@@ -1150,7 +862,7 @@ $seo_keywords = "";
                 <div class="modal-body">
                     <div class="director-cnt row">
                         <div class="col-md-12">
-                            <h2 class="text-center">Key Differentiators of pi-cloudÂ® Cloud</h2>
+                            <h2 class="text-center">Key Differentiators of Pi Cloud</h2>
                             <iframe class="youtube-al" src="https://www.youtube.com/embed/7kLjRZ04z7A">
                             </iframe>
 

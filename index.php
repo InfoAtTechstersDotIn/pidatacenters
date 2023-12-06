@@ -1476,11 +1476,11 @@
     <script>
         const handleSetCookie = () => {
             localStorage.setItem('cookiAccepted', true);
-            document.getElementById('cookie-popup').classList.remove('current');
+            document.getElementById('cookie-popup').classList.remove('cookie-current');
         }
         const checkCookie = () => {
             if (!localStorage.getItem('cookiAccepted')) {
-                document.getElementById('cookie-popup').classList.add('current');
+                document.getElementById('cookie-popup').classList.add('cookie-current');
             }
         }
         checkCookie()

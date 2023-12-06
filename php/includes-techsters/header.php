@@ -578,20 +578,21 @@
 
                                     <li class="accordion">
                                         <a href="#">Media </a>
-                                        <div class="sub_d_down panel">
-                                            <ul>
-                                                <li>
-                                                    <a href="<?php echo $site_url ?>press-releases.php">Press Release</a>
-                                                </li>
-                                                <li>
-                                                    <a href="<?php echo $site_url ?>gallery.php">Gallery</a>
-                                                </li>
-                                                <li>
-                                                    <a href="<?php echo $site_url ?>videos.php">Videos</a>
-                                                </li>
-                                            </ul>
-                                        </div>
                                     </li>
+                                    <div class="sub_d_down panel">
+                                        <ul>
+                                            <li>
+                                                <a href="<?php echo $site_url ?>press-releases.php">Press Release</a>
+                                            </li>
+                                            <li>
+                                                <a href="<?php echo $site_url ?>gallery.php">Gallery</a>
+                                            </li>
+                                            <li>
+                                                <a href="<?php echo $site_url ?>videos.php">Videos</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
 
                                     <li class="accordion">
                                         <a href="#">Policies </a>
