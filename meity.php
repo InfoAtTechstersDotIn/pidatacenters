@@ -6,12 +6,19 @@ $seo_keywords = "Ministry of Electronics and Information Technology, meity certi
 
 <?php include('php/includes-techsters/header.php'); ?>
 <!-- main starts here -->
-<div class="about-banner meity">
+<!--<div class="about-banner meity">
     <div class="container">
         <div class="about-banner-blk">
-            <!-- <h2 class="animated fadeInUp wow">Meity</h2>
-                        <p class="animated fadeInUp wow">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec enim eget tellus consequat tincidunt eu sit amet velit.<br> In consequat ligula sed arcu aliquet bibendum.</p>-->
-        </div>
+        <h2 class="animated fadeInUp wow">Meity</h2>
+                        <p class="animated fadeInUp wow">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec enim eget tellus consequat tincidunt eu sit amet velit.<br> In consequat ligula sed arcu aliquet bibendum.</p>-
+</div>
+</div>
+</div> -->
+<div class="about-banner">
+    <div class="about-banner-blk">
+        <img src="images/new-meity.jpg" alt="videos-bann22" class="datacenter-services-img" width="1920" height="210">
+        <h2>Meity Empaneled & On Gem</h2>
+
     </div>
 </div>
 
@@ -76,7 +83,7 @@ $seo_keywords = "Ministry of Electronics and Information Technology, meity certi
             <li class="col-md-3">
                 <div class="inner-teli2">
                     <h6 class="emp">Robust Infrastructure:</h6><br>
-                    <p class="public1">Enterprise cloud infrastructure, riding<br> on Pi’s own World class Uptime<br> Institute TIER IV Certified data center,<br> build to global standards & TIA942<br> certified. Cloud fabric, backed by<br> inhouse Internet Exchange & CDN on<br> cloud.</p>
+                    <p class="public1">Enterprise cloud infrastructure, riding<br> on Piâ€™s own World class Uptime<br> Institute TIER IV Certified data center,<br> build to global standards & TIA942<br> certified. Cloud fabric, backed by<br> inhouse Internet Exchange & CDN on<br> cloud.</p>
 
                 </div>
             </li>
@@ -115,7 +122,7 @@ $seo_keywords = "Ministry of Electronics and Information Technology, meity certi
             <li class="col-md-3">
                 <div class="inner-teli2">
                     <h6 class="emp">Zero Outsourcing</h6><br>
-                    <p class="public1">Inhouse managed services capabilities. Zero outsourcing policy to manage cloud zones and workloads. No third-party access to sensitive client data. Works on a simple framework of “Consulting @ The Core”, as the extended arm of the clients.</p>
+                    <p class="public1">Inhouse managed services capabilities. Zero outsourcing policy to manage cloud zones and workloads. No third-party access to sensitive client data. Works on a simple framework of â€œConsulting @ The Coreâ€, as the extended arm of the clients.</p>
 
                 </div>
             </li>
@@ -193,7 +200,7 @@ $seo_keywords = "Ministry of Electronics and Information Technology, meity certi
                 <div class="tab-content tabBlock-content">
                     <div class="tabBlock-pane">
 
-                        <p class="provide">Providing e-Infrastructure for delivery of e-Services to promote e-Governance for empowering citizens, through inclusive and sustainable growth of the digital footprint. This would help enhance India’s role in Global Platforms of Internet Governance. It is the application of e-ICT in government operations, achieving public ends by digital means with the purpose of increasing efficiency and transparency.
+                        <p class="provide">Providing e-Infrastructure for delivery of e-Services to promote e-Governance for empowering citizens, through inclusive and sustainable growth of the digital footprint. This would help enhance Indiaâ€™s role in Global Platforms of Internet Governance. It is the application of e-ICT in government operations, achieving public ends by digital means with the purpose of increasing efficiency and transparency.
                         </p>
                     </div>
                     <div class="tabBlock-pane">
@@ -846,7 +853,7 @@ $seo_keywords = "Ministry of Electronics and Information Technology, meity certi
                         </div>
                         <div class="director-rt col-12">
                             <h3>Client Testimonial - In Conversation with Group CTO, Kirloskar Management Services</h3>
-                            <p>Listen to @Mandar Sahasrabudhe, Group CTO, Kirloskar Management Services, speaking on the driving factors behind Kirloskar groups’ #GoCloud initiatives and how they zeroed in on Pi as their partner of choice in this incredible journey of #KirloskarLimitless
+                            <p>Listen to @Mandar Sahasrabudhe, Group CTO, Kirloskar Management Services, speaking on the driving factors behind Kirloskar groupsâ€™ #GoCloud initiatives and how they zeroed in on Pi as their partner of choice in this incredible journey of #KirloskarLimitless
 
                                 A #testimonial story from a very #happyclient</p>
                         </div>

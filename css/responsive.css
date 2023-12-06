@@ -7005,10 +7005,6 @@
                  .c-banner-2 {
                      padding-top: 15%;
                  }
-
-                 .c-banner h4 {
-                     margin-top: 25px;
-                 }
              }
 
              @media screen and (max-width:599px) {
@@ -7064,9 +7060,6 @@
                      display: none;
                  }
 
-                 .active:after {
-                     content: "";
-                 }
 
                  .c-banner-2 {
                      padding-top: 0;
@@ -7077,9 +7070,6 @@
                      margin-top: 0 !important;
                  }
 
-                 .active {
-                     bottom: 20px;
-                 }
              }
 
              @media screen and (max-width:400px) {
@@ -7096,5 +7086,9 @@
 
                  .cookie-x-2 {
                      display: block;
+                 }
+
+                 .c-banner h4 {
+                     margin-top: 25px;
                  }
              }

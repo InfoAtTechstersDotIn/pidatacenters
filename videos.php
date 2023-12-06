@@ -51,11 +51,6 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Kalyan Muppaneni,Founder & CEO, Pi Datacenters at CII Telecom Summit Dec 2022</h4>
-                <!-- <p>Uncover the future of 5G with Mr. Kalyan Muppaneni, Founder & CEO of Pi Datacenters Pvt. Ltd.; Navnit Nakra, CEO of OnePlus; and Saloni Roy, Partner at Deloitte India, as they join forces for a dynamic panel discussion at the CII National Telecom Summit on the topic of "5G: Enable, Emerge, and Elevate," hosted at The LaLiT in New Delhi.</p> -->
-              </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-1">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -68,9 +63,6 @@ $seo_keywords = "";
                 <h4>Pi Employee Video</h4>
                 <p></p>
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -81,11 +73,7 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Take A Tour Of Pi DATACENTERS - Asia's Largest Uptime Institute TIER IV Certified Data Center</h4>
-                <!-- <p>Experience One Of The World's Best Data Center Facilities At Amaravati In Andhra Pradesh</p> -->
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-3">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -96,11 +84,7 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Key Differentiators of Harbour1® Cloud</h4>
-                <!-- <p>These are few of the major reasons why Harbour1® - the enterprise cloud platform @Pi® is the most preferred cloud for enterprises</p> -->
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-4">Know More</a>
-                            </div> -->
             </a>
           </li>
 
@@ -115,11 +99,9 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Kalyan Muppaneni, Founder & CEO, Pi at International Annual Tech Fest VIT University, AP</h4>
-                <!-- <p>Kalyan Muppaneni, Founder and CEO, Pi Datacenters, was the Chief Guest at International Annual Tech Fest at VIT University, AP. He shared his insights on India's potential as a significant player in the global data economy. He also threw light on the possibilities of creating a robust and evolving data protection roadmap.</p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-5">Know More</a>
-                            </div> -->
+
             </a>
           </li>
           <li class="col-md-3">
@@ -130,11 +112,9 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Sharing glimpses of Pi at ASSOCHAM Data Centre & Cloud Infra Summit'22</h4>
-                <!-- <p>Sharing glimpses of Pi Datacenters at Assocham Data Centre & Cloud Infra Summit'22: 'Making Tamil Nadu a Hub for Datacentre & Cloud Solutions', which was graced by Sh. Mano T., Minister of Information Technology & Digital Services, Govt. of Tamil Nadu, as the Chief Guest.</p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-6">Know More</a>
-                            </div> -->
+
             </a>
           </li>
           <li class="col-md-3">
@@ -145,11 +125,9 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Blood Donation Camp</h4>
-                <!-- <p>One Bottle Of Blood Save Four Lives. At Pi, we had a great day by donating blood and making a difference.</p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-7">Know More</a>
-                            </div> -->
+
             </a>
           </li>
           <li class="col-md-3">
@@ -160,11 +138,9 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>CFO Vision & Innovation Summit & Awards 2022</h4>
-                <!-- <p>Manu Sharma, CFO, Pi DATACENTERS, was at the 6th Edition of CFO Vision & Innovation Summit & Awards 2022 last month, organized by Transformance Forums held in Hyderabad. He was part of an engaging Fireside Chat on CFO – CIO Shared Vision for Digital Transformation.</p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-8">Know More</a>
-                            </div> -->
+
             </a>
           </li>
         </ul>
@@ -181,11 +157,9 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>A glimpse of Pi's 8 years journey!</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-9">Know More</a>
-                            </div> -->
+
             </a>
           </li>
 
@@ -198,11 +172,9 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Mega Walk-in Drive @ Pi Data Centers Amaravati</h4>
-                <!-- <p>We had a mega Walk-in Drive at Pi Amaravati over last weekend, targeting 100+ Fresh tech minds joining Pi's cloud ecosystem. The energy and vibes from the candidates made the drive a huge success. Kudos to all involved in putting this together.</p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-10">Know More</a>
-                            </div> -->
+
             </a>
           </li>
           <li class="col-md-3">
@@ -213,11 +185,9 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Foundation Day Celebrations @ Vijayawada</h4>
-                <!-- <p>Our achievements are shaped by the strength of the foundations we set. Thank you, Pi'Oneers, for your commitment to excellence and dedication. Recently Pi celebrated its 8th foundation day and felicitated Pi'Oneers, who completed 5 years with the organization. </p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-11">Know More</a>
-                            </div> -->
+
             </a>
           </li>
           <li class="col-md-3">
@@ -228,11 +198,9 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>R&R Employee</h4>
-                <!-- <p>Our achievements are shaped by the strength of the foundations we set. Thank you, Pi'Oneers, for your commitment to excellence and dedication. Recently Pi celebrated its 8th foundation day and felicitated Pi'Oneers, who completed 5 years with the organization. </p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-12">Know More</a>
-                            </div> -->
+
             </a>
           </li>
 
@@ -246,11 +214,9 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Pi'Oscope - On The Move</h4>
-                <!-- <p>Pi'Oscope, The Leadership Connect Conclave, is back again in its new avatar after its grand success in 2021. This time it's coming to Your City with a power-packed theme of "Equating Digital & Business Transformation."</p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-13">Know More</a>
-                            </div> -->
+
             </a>
           </li>
           <li class="col-md-3">
@@ -261,11 +227,9 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Client Testimonial - In Conversation with Group CTO, Kirloskar Management Services</h4>
-                <!-- <p>Listen to @Mandar Sahasrabudhe, Group CTO, Kirloskar Management Services, speaking on the driving factors behind Kirloskar groups’ #GoCloud initiatives and how they zeroed in on Pi as their partner of choice in this incredible journey of #KirloskarLimitless </p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-14">Know More</a>
-                            </div> -->
+
             </a>
           </li>
           <li class="col-md-3">
@@ -276,11 +240,9 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Bring Your Own Ganesha @ Pi</h4>
-                <!-- <p>Creativity, Celebration, and Competition were in the air as the Pi'Oneers across India showcased their distinct styles to welcome Ganapati under the Bring your own Ganesha (BYOG) theme. </p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-15">Know More</a>
-                            </div> -->
+
             </a>
           </li>
           <li class="col-md-3">
@@ -291,11 +253,9 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Pi@ ASSOCHAM Smart Datacenters & Cloud Infrastructure Summit 2022 Part II</h4>
-                <!-- <p>PART II of what Debmalya Dey Roy (Deb), Chief Revenue Officer and Global Marketing Head, Pi DATACENTERS spoke at the 3rd #ASSOCHAM India Smart Datacenters & Cloud Infrastructure Summit 2022 held in New Delhi on 30th July, where he was part (virtually) of an engrossing panel discussion on "Re-inventing the Business-Defining Strategies for Successful Cloud-led Transformation for Large Enterprise and MSMEs."</p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-16">Know More</a>
-                            </div> -->
+
             </a>
           </li>
         </ul>
@@ -313,11 +273,9 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Pi @ ASSOCHAM India Smart Datacenters & Cloud Infrastructure Summit 2022</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-17">Know More</a>
-                            </div> -->
+
             </a>
           </li>
 
@@ -330,11 +288,9 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Kalyan Muppaneni, Founder & CEO, Pi Datacenters, speaks at CII - Part II</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-18">Know More</a>
-                            </div> -->
+
             </a>
           </li>
           <li class="col-md-3">
@@ -345,11 +301,9 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Kalyan Muppaneni, Founder & CEO, Pi Datacenters, speaks at CII - Part II</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-19">Know More</a>
-                            </div> -->
+
             </a>
           </li>
           <li class="col-md-3">
@@ -360,11 +314,9 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Fun @ Pi #employeeengagement #worklifebalance #fun</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-20">Know More</a>
-                            </div> -->
+
             </a>
           </li>
 
@@ -377,11 +329,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>World Environment Day, 5th June 2022</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
 
@@ -393,11 +342,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Developing cybersecurity expertise of the corporate boards</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -408,11 +354,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>LIVE webinar on Container as Service, Simplifying The Workflow for Applications</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -423,11 +366,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Pi'Oneers Walk the Talk</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
         </ul>
@@ -445,11 +385,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Frozen in Memories...Pi'Oscope: The Leadership Connect 2021</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -460,11 +397,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Marketing Professional of the Year - IT Excellence Awards - CRO & Global Marketing Head - Pi</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -475,11 +409,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Cloud Company of the Year 2021 - Pi Datacenters - pi-cloud - IT Excellence Awards</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
 
@@ -491,11 +422,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Frozen in Memories...Pi'Oscope: The Leadership Connect 2021</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
 
@@ -508,11 +436,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Marketing Professional of the Year - IT Excellence Awards - CRO & Global Marketing Head - Pi</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -523,11 +448,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Cloud Company of the Year 2021 - Pi Datacenters - pi-cloud - IT Excellence Awards</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -538,11 +460,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>HR Speaks on GPTW</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -553,11 +472,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>CEO Talks: What makes Pi a great place to work?</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
 
@@ -575,11 +491,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>The all new Pi Cloud website is NOW LIVE!</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
 
@@ -591,11 +504,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>HarbourFront, India's First Indigenous CDN On Cloud. Another 1st From Pi DATACENTERS</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -606,11 +516,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Happy Diwali from Pi DATACENTERS !</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -621,11 +528,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Colocation & Cloud Services Mega Launch Webinar in association with BroadGroup and Intel Corporation</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
 
@@ -638,11 +542,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Disaster Recovery Summit 2018, Bangalore, Dec 20, 2018</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -653,11 +554,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Why you should NOT delay your cloud journey? Explained by senior leaders from Intel and Pi</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -668,11 +566,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>How Is Pi Ensuring Seamless Operations During COVID?</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
 
@@ -684,11 +579,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Pi Workspaces - The Next Generation VDI Solution</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
 
@@ -709,11 +601,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Pi Cloud - Enterprise Cloud Platform @Pi</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -724,11 +613,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Rural-India's Growth is Critical for India's $5T economy - Kalyan Muppaneni, Chairman & CEO, Pi</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           <li class="col-md-3">
             <a href="#modal-43">
@@ -738,11 +624,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Merry Christmas Wishes from Pi!</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -753,11 +636,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Pi celebrates it's 5 years anniversary with a High 'V'</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
 
@@ -770,11 +650,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>#FreedomForAll</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
 
@@ -786,11 +663,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>CEO Talks Series - Episode 3</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -801,11 +675,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Kalyan Muppaneni, Founder & CEO, Pi DATACENTERS Shares His Views About Digital India</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -816,11 +687,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>CEO Talk Series - Episode 2</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
 
@@ -838,11 +706,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>CEO Talk Series - Episode 1</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -853,11 +718,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Pi DATACENTERS: India's 1st Greenfield & World's 4th Largest Uptime Institute TIER IV Data Center</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -868,11 +730,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Staying Prepared for Disaster - Location Matters the Most!</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
 
@@ -884,11 +743,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Location of Primary DC Site annd DR Site must be of strategic importance</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
 
@@ -901,11 +757,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Check Live Data Center Latency | Pi DATACENTERS</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -916,11 +769,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Welcome Note by Kalyan Muppaneni, Founder & CEO, Pi DATACENTERS at Cyber Security Conclave, Mumbai</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -931,11 +781,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Take Your Leap To Digital Transformation With pi-cloud | Go Cloud!</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -946,11 +793,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Take Your Leap To Digital Transformation With pi-cloud | Go Cloud!</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
         </ul>
@@ -967,11 +811,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Pi Amaravati, Asia's Largest Uptime Institute TIER IV Certified Data Center.</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
 
@@ -983,11 +824,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>IT leaders from BFSI industry being felicitated at BFSI Data center & Cloud Summit 2017</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -998,11 +836,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Watch Pi work its magic at BFSI Data center and cloud summit 2017</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -1013,11 +848,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Pi On The Panel - " Role of Data Center & Cloud in Banking Industry"</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
 
@@ -1030,11 +862,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Infrastructure as a Service (IaaS) | Pi DATACENTERS"</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -1045,11 +874,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Data Center Maintenance | Pi DATACENTERS</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
           <li class="col-md-3">
@@ -1060,11 +886,8 @@ $seo_keywords = "";
               </div>
               <div class="video-cont">
                 <h4>Life @Pi</h4>
-                <!-- <p></p> -->
+
               </div>
-              <!-- <div class="youtube">
-                                <a href="#modal-2">Know More</a>
-                            </div> -->
             </a>
           </li>
 

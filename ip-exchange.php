@@ -39,7 +39,7 @@ $seo_keywords = "";
 
 	<div class="about-banner">
 		<div class="about-banner-blk">
-			<img src="images/new-internet-exchange.jpg" alt="datacenter-services" width="1920" height="210" class="datacenter-services-img res-height">
+			<img src="images/new-internet-exchange.jpg" alt="datacenter-services" width="1920" height="210" class="datacenter-services-img">
 			<h2>Internet Exchange</h2>
 		</div>
 	</div>
