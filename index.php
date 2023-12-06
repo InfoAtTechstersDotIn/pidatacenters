@@ -245,42 +245,6 @@
         .great-rtt .slick-slide {
             text-align: center !important;
         }
-
-        .cookie-block {
-            background-color: black;
-            color: #fff;
-            padding: 10px 30px;
-            position: absolute;
-            left: 10px;
-            right: 10px;
-            top: -35%;
-            z-index: 1111;
-            border-radius: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            transition: all 0.5s ease-in;
-        }
-
-        .cookie-block p {
-            line-height: 1.5rem;
-        }
-
-        .cookie-block p a {
-            color: blue;
-        }
-
-        .cookie-btn {
-            color: #000;
-            padding: 0px 10px;
-            border-radius: 15px;
-            outline: none !important;
-            background-color: #fff;
-        }
-
-        .active {
-            top: 10px;
-        }
     </style>
     <script>
         (function(w, d) {
@@ -696,7 +660,7 @@
 
                                         </ul>
                                         <div class="know-more">
-                                            <a href="data-center-infrastructure-services.php#locations" class="dc">Know More</a>
+                                            <a href="data-center-infrastructure-services.php#locations5" class="dc">Know More</a>
 
 
                                         </div>
@@ -1033,84 +997,99 @@
             </div>
         </div>
 
-
         <!-- COOKIE SECTION -->
         <div class="cookie-block" id="cookie-popup">
-            <p>
-                We use cookies to offer you a better browsing experience, analyze site traffic, and personalize content to give you the most relevant experience by remembering your preferences and repeat visits. By continuing to browse or clicking on "Accept All" you will consent to our use of cookies or you may also visit <a href="terms-conditions.php" target="_blank"> Terms and Conditions </a> to learn more about our Cookie policy.
-            </p><br><br>
-            <div>
-                <button onclick="handleSetCookie()" class="btn btn-primary" style="background: #fff; color: #000 !important;">Okay</button>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1 p-3 cookie-x">
+                        <button onclick="handleSetCookie()">&times;</button>
+                    </div>
+                    <div class="col-md-8 mt-4 c-banner">
+                        <h4>We Use Cookies</h4>
+                        <p>
+                            To offer you a better browsing experience, analyze site usage, and personalize content to give you the most relevant experience by remembering your preferences. By continuing to browse or by clicking on "Accept All" you consent to our use of cookies.
+                        </p>
+                    </div>
+                    <div class="col-md-3 text-center c-banner-2">
+                        <button onclick="handleSetCookie()" class="btn">Accept All</button>
+                        <br><br>
+                        <a href="terms-conditions.php#cookie" target="_blank"> Cookie Policy </a>
+                    </div>
+                    <div class="col-md-1 p-3 cookie-x-2">
+                        <button onclick="handleSetCookie()">&times;</button>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- COOKIE SECTION ENDS -->
+    </div>
+    <!-- COOKIE SECTION ENDS -->
 
 
 
 
 
-        <div class="backdround-bg1">
-            <footer>
-                <div class="footer-about footer-bg footer-2" style="background:white;">
-                    <div class="container-fluid">
-                        <div class="row">
+    <div class="backdround-bg1">
+        <footer>
+            <div class="footer-about footer-bg footer-2" style="background:white;">
+                <div class="container-fluid">
+                    <div class="row">
 
-                            <div class="col-md-3">
-                                <div class="footer-copy-rights">
-                                    <p>&#169; 2023 Pi DATACENTERS Pvt. Ltd.| All rights reserved.</p>
-                                    <!--<p><a href="https://3dm.agency/" target="_blank" class="three-dm">Design and Developed by @3DM.agency</a></p>-->
-                                    <p><a href="#" target="_blank" class="three-dm">Managed by Nayana Group</a></p>
-
-                                </div>
+                        <div class="col-md-3">
+                            <div class="footer-copy-rights">
+                                <p>&#169; 2023 Pi DATACENTERS Pvt. Ltd.| All rights reserved.</p>
+                                <!--<p><a href="https://3dm.agency/" target="_blank" class="three-dm">Design and Developed by @3DM.agency</a></p>-->
+                                <p><a href="#" target="_blank" class="three-dm">Managed by Nayana Group</a></p>
 
                             </div>
-                            <div class="col-md-4 this-foot">
-                                <div class="footer-links">
-                                    <ul>
 
-                                        <li><a href="https://www.linkedin.com/company/pidatacenters/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        </div>
+                        <div class="col-md-4 this-foot">
+                            <div class="footer-links">
+                                <ul>
 
-                                        <li><a href="https://twitter.com/Pi_DATACENTERS" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://www.facebook.com/PiDATACENTERS/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://youtube.com/@pi_datacenters" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://api.whatsapp.com/send?phone=+918712630334&amp;text=Hi, I need more information on Pidatacenters" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/pidatacenters/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="col-md-5 top-foot">
-                                <ul class="row foot-menu">
-                                    <li>
-                                        <a href="case-studies.php">Case Studies </a>
-                                    </li>
-                                    <li>
-                                        <a href="brochure.php">Corporate Brochure</a>
-                                    </li>
-                                    <li>
-                                        <a href="certifications.php">Certifications </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://pidatacenters.com/pi-cloud/partners">Partners</a>
-                                    </li>
-                                    <li>
-                                        <a href="contact-us.php">Reach Us</a>
-                                    </li>
-                                    <li>
-                                        <a href="privacy-policy.php">Privacy Policy</a>
-                                    </li>
+                                    <li><a href="https://twitter.com/Pi_DATACENTERS" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.facebook.com/PiDATACENTERS/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://youtube.com/@pi_datacenters" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://api.whatsapp.com/send?phone=+918712630334&amp;text=Hi, I need more information on Pidatacenters" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
 
                                 </ul>
                             </div>
-
-
                         </div>
 
+                        <div class="col-md-5 top-foot">
+                            <ul class="row foot-menu">
+                                <li>
+                                    <a href="case-studies.php">Case Studies </a>
+                                </li>
+                                <li>
+                                    <a href="brochure.php">Corporate Brochure</a>
+                                </li>
+                                <li>
+                                    <a href="certifications.php">Certifications </a>
+                                </li>
+                                <li>
+                                    <a href="https://pidatacenters.com/pi-cloud/partners">Partners</a>
+                                </li>
+                                <li>
+                                    <a href="contact-us.php">Reach Us</a>
+                                </li>
+                                <li>
+                                    <a href="privacy-policy.php">Privacy Policy</a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+
                     </div>
+
                 </div>
-            </footer>
-        </div>
-        <!--<footer>
+            </div>
+        </footer>
+    </div>
+    <!--<footer>
                 <div class="footer-in">
                 <div class="footer-social-icons">
                      <div class="container">
@@ -1128,10 +1107,10 @@
                 </div>
                
              </footer>-->
-        <!--footer block starts -->
+    <!--footer block starts -->
 
 
-        <!--footer ends-->
+    <!--footer ends-->
 
     </div>
     <!-- wrapper ends -->
