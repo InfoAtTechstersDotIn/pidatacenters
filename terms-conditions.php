@@ -24,6 +24,28 @@ $seo_keywords = "";
             -o-user-select: none;
             user-select: none;
         }
+
+        .close {
+            right: 25px !important;
+            outline: none !important;
+            border: none;
+        }
+
+        .modal-content {
+            background: none !important;
+            padding: 20px;
+            border: none !important;
+            width: 100% !important;
+        }
+
+        .modal-header {
+            justify-content: center !important;
+        }
+
+        .modal-footer {
+            justify-content: center !important;
+            padding: 5px 5px !important;
+        }
     </style>
 </head>
 
@@ -88,16 +110,126 @@ $seo_keywords = "";
             <p>In the course of optimizing services to You, Pi may allow authorized third parties to place or recognize a unique cookie on the Your browser. </p>
             <p>Below are the list of third parties that may set cookies when You use Pi&#8217;s services. You can learn more about how these third parties use information collected through cookies by reviewing the privacy policies on their sites. </p>
 
-            <ul class="tools">
-                <li> <a href="https://policies.google.com/?hl=en" target="_blank">Google Analytics</a></li>
-                <li> <a href="https://policies.google.com/?hl=en" target="_blank">Google Busniess Profile</a></li>
-                <li> <a href="https://policies.google.com/?hl=en" target="_blank">Google Ads</a></li>
-                <li> <a href="https://micro.company/privacy/" target="_blank">Chatbot</a></li>
-                <li> <a href="https://privacy.microsoft.com/en-us/privacystatement" target="_blank">Microsoft Clarity</a></li>
-                <li> <a href="https://www.ccavenue.com/privacy.jsp" target="_blank">CC Avenue</a></li>
-            </ul>
+            <div class="tools">
+                <!-- <li> <a href="https://policies.google.com/?hl=en" target="_blank">Google Analytics</a></li> -->
+                <!-- <li> <a href="https://policies.google.com/?hl=en" target="_blank">Google Busniess Profile</a></li> -->
+                <!-- <li> <a href="https://policies.google.com/?hl=en" target="_blank">Google Ads</a></li> -->
+                <!-- <li> <a href="https://micro.company/privacy/" target="_blank">Chatbot</a></li> -->
+                <!-- <li> <a href="https://privacy.microsoft.com/en-us/privacystatement" target="_blank">Microsoft Clarity</a></li> -->
+                <!-- <li> <a href="https://www.ccavenue.com/privacy.jsp" target="_blank">CC Avenue</a></li> -->
+
+                <!-- pop up for 1st three points -->
+                <button type="button" class="btn list-btn" data-toggle="modal" data-target="#exampleModal3">
+                    Google Analytics
+                </button>
+                <br>
+                <button type="button" class="btn list-btn" data-toggle="modal" data-target="#exampleModal3">
+                    Google Busniess Profile
+                </button>
+                <br>
+                <button type="button" class="btn list-btn" data-toggle="modal" data-target="#exampleModal3">
+                    Google Ads
+                </button>
+                <br>
+
+                <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog dialog2" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-title terms-title" id="exampleModalLabel">Disclaimer</h3>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body popup-body">
+                                <p>Clicking the link will redirect you to an external site. Pi DATACENTERS® is not responsible for its content or actions. Proceed at your own discretion.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://policies.google.com/?hl=en" target="_blank" type="button" class="page-btn">Okay</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ends here -->
 
 
+                <!-- popup for 4th point -->
+                <button type="button" class="btn list-btn" data-toggle="modal" data-target="#exampleModal4">
+                    Chatbot
+                </button>
+                <br>
+                <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-title terms-title" id="exampleModalLabel2">Disclaimer</h3>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body popup-body">
+                                <p>Clicking the link will redirect you to an external site. Pi DATACENTERS® is not responsible for its content or actions. Proceed at your own discretion.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://micro.company/privacy/" target="_blank" type="button" class="page-btn">Okay</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ends here -->
+
+                <!-- popup for 4th point -->
+                <button type="button" class="btn list-btn" data-toggle="modal" data-target="#exampleModal5">
+                    Microsoft Clarity
+                </button>
+                <br>
+                <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-title terms-title" id="exampleModalLabel3">Disclaimer</h3>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body popup-body">
+                                <p>Clicking the link will redirect you to an external site. Pi DATACENTERS® is not responsible for its content or actions. Proceed at your own discretion.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://privacy.microsoft.com/en-us/privacystatement" target="_blank" type="button" class="page-btn">Okay</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ends here -->
+
+                <!-- popup for 4th point -->
+                <button type="button" class="btn list-btn" data-toggle="modal" data-target="#exampleModal6">
+                    CC Avenue
+                </button>
+                <br>
+                <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-title terms-title" id="exampleModalLabel4">Disclaimer</h3>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body popup-body">
+                                <p>Clicking the link will redirect you to an external site. Pi DATACENTERS® is not responsible for its content or actions. Proceed at your own discretion.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://www.ccavenue.com/privacy.jsp" target="_blank" type="button" class="page-btn">Okay</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ends here -->
+
+            </div>
 
             <p>We also embed features from third parties on Our Website(s), and those third parties may set cookies if You engage with those features. </p>
 

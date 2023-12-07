@@ -7074,6 +7074,10 @@ top: 185px !important;
         bottom: -60%;
     }
 
+    .popup-body p {
+        padding: 8px 0px !important;
+    }
+
 }
 
 @media screen and (max-width:400px) {
@@ -7094,5 +7098,19 @@ top: 185px !important;
 
     .c-banner h4 {
         margin-top: 25px;
+    }
+
+
+    .video-cont h4 {
+        font-size: 14px;
+        line-height: 1.2rem;
+    }
+
+    .play-icon {
+        top: 26%;
+    }
+
+    .play-icon i {
+        font-size: 35px;
     }
 }

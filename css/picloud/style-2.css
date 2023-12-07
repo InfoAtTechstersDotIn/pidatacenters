@@ -8502,9 +8502,8 @@
         font-weight: 600;
     }
 
-    .play-icon i {
-        position: relative;
-        top: -45px;
+    .play-icon {
+        top: 35%;
     }
 
     .res-height {
@@ -8581,4 +8580,39 @@
         outline: none;
         background: none;
         font-size: 25px;
+    }
+
+    .modal .terms-title {
+        color: #000;
+    }
+
+    .popup-body p {
+        line-height: 1.5rem;
+        color: #000;
+        padding: 5px 25px;
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .page-btn {
+        background-color: #000;
+        color: #fff;
+        padding: 10px 10px;
+        border-radius: 10px;
+    }
+
+    .page-btn:hover {
+        color: #fff;
+    }
+
+    .list-btn {
+        background: none !important;
+        color: #B31312 !important;
+        text-transform: capitalize;
+        font-size: 20px;
+    }
+
+    .list-btn:focus {
+        outline: 0;
+        box-shadow: none;
     }
