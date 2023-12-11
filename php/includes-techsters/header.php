@@ -781,8 +781,6 @@
                         <label for="message">Upload Configuration Document</label>
                         <input type="file" required name="Configuration Document">
 
-
-
                         <input class="sub_mit" type="submit" value="Submit">
 
                         <input type="hidden" name="techsters_subject" value="Request For Quote Form Leads" />
@@ -792,7 +790,6 @@
             </div>
         </div>
     </div>
-
 
 
 

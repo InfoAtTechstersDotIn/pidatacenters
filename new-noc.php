@@ -16,162 +16,6 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
 
     </div>
 </div>
-
-<style>
-    .noc {
-        max-width: 90%;
-        margin: 0 auto;
-    }
-
-    .noc h2 {
-        color: #000;
-        text-align: center;
-        margin: 20px 0;
-    }
-
-    .noc p {
-        color: #000;
-        text-align: justify;
-    }
-
-    .noc h4 {
-        color: #000;
-        text-align: center;
-        font-weight: 500;
-        /* padding: 20px 0 10px 0; */
-        font-size: 18px;
-    }
-
-    .bullets {
-        padding-left: 2rem !important;
-    }
-
-
-    .noc-part-2 .col-md-6 img {
-        border-top-right-radius: 50px;
-        border-bottom-left-radius: 50px;
-    }
-
-    .bullets li {
-        padding: 6px 0;
-        font-size: 18px;
-        margin: 10px 0;
-        border: 1px solid #cccccc91;
-        text-align: center;
-        background-color: #76b54330;
-        border-radius: 20px;
-    }
-
-    .bullets li:hover {
-        box-shadow: 1px 6px #223f97;
-        transform: translate(-6px, -5px);
-    }
-
-    .noc-part img {
-        border-radius: 15px;
-    }
-
-    .noc-part-4 h5 {
-        font-weight: 900;
-        text-align: center;
-        font-size: 15px;
-        padding: 5px 0;
-    }
-
-    .noc-part-4 .col-md-3 p {
-        text-align: center;
-        font-size: 14px;
-    }
-
-    .noc-part-4 .col-md-3 {
-        background: #cccccc4d;
-        border: 6px solid #223f97;
-        display: flex;
-        align-items: center;
-        padding: 10px 3px 10px 3px;
-        flex-direction: column;
-    }
-
-    .noc-part-3 img {
-        border-radius: 20px;
-    }
-
-
-    .noc-part-5 .col-md-3,
-    .noc-part-5 .col-md-4 {
-        display: inline-block;
-        vertical-align: middle;
-        margin: 10px auto;
-        background: #f1f1f100;
-        border-radius: 20px;
-        padding: 1rem;
-        box-shadow: 0px 1px 7px black;
-    }
-
-
-
-    .noc-part-5 .col-md-3 img {
-        width: 30%;
-        margin: 0 auto 5px auto;
-    }
-
-    .noc-part-5 .col-md-4 img {
-        width: 20%;
-        margin: 0 auto 5px auto;
-    }
-
-    .noc-part-5 h5 {
-        text-align: center;
-        font-weight: 600;
-        font-size: 20px;
-        padding: 5px 0;
-    }
-
-    .noc-part-5 .col-md-3 p,
-    .noc-part-5 .col-md-4 p {
-        text-align: center;
-    }
-
-    .noc-part-5 .last-para p {
-        text-align: center;
-        margin: 10px;
-    }
-
-    .hide-cont {
-        display: none;
-        position: absolute;
-        top: 0;
-        background-color: #223f97cc;
-        left: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-        padding: 60px 15px;
-        text-align: center;
-        border-radius: 20px;
-    }
-
-    .hide-cont p {
-        color: #fff;
-        font-weight: 600;
-    }
-
-    .noc-part-5 .col-md-3:hover .hide-cont,
-    .noc-part-5 .col-md-4:hover .hide-cont {
-        display: block;
-    }
-
-    .noc-part-2 img {
-        width: 50%;
-        margin: 0 auto;
-        border-radius: 20px;
-    }
-
-    .single-point {
-        margin: 0 auto;
-        border-radius: 20px;
-    }
-</style>
 <!--what-is-noc starts here -->
 <div class="noc-block">
     <div class="noc">
@@ -268,7 +112,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                     <div class="row">
                         <div class="col-md-3">
                             <div class="visible-cont">
-                                <img src="images/noc-icons/continued-monitoring-and-maintenance.png">
+                                <img src="images/n-s-d-icons/continued-monitoring-and-maintenance.png">
                                 <h5>Continued Monitoring and Maintenance</h5>
                             </div>
                             <div class="hide-cont">
@@ -277,7 +121,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                         </div>
                         <div class="col-md-3">
                             <div class="visible-cont">
-                                <img src="images/noc-icons/zero-disruptions-and-downtime.png">
+                                <img src="images/n-s-d-icons/zero-disruptions-and-downtime.png">
                                 <h5>Zero Disruptions and Downtime</h5>
                             </div>
                             <div class="hide-cont">
@@ -286,7 +130,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                         </div>
                         <div class="col-md-3">
                             <div class="visible-cont">
-                                <img src="images/noc-icons/availability-24-7.png">
+                                <img src="images/n-s-d-icons/availability-24-7.png">
                                 <h5>24/7 Availability</h5>
                             </div>
                             <div class="hide-cont">
@@ -297,7 +141,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                     <div class="row">
                         <div class="col-md-3">
                             <div class="visible-cont">
-                                <img src="images/noc-icons/trained-noc-resources.png">
+                                <img src="images/n-s-d-icons/trained-noc-resources.png">
                                 <h5>Trained NOC Resources</h5>
                             </div>
                             <div class="hide-cont">
@@ -306,7 +150,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                         </div>
                         <div class="col-md-3">
                             <div class="visible-cont">
-                                <img src="images/noc-icons/real-time-response-to-incidents.png">
+                                <img src="images/n-s-d-icons/real-time-response-to-incidents.png">
                                 <h5>Real-time Response to Incidents</h5>
                             </div>
                             <div class="hide-cont">
@@ -315,7 +159,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                         </div>
                         <div class="col-md-3">
                             <div class="visible-cont">
-                                <img src="images/noc-icons/prevent-issues.png">
+                                <img src="images/n-s-d-icons/prevent-issues.png">
                                 <h5>Prevent Issues</h5>
                             </div>
                             <div class="hide-cont">
@@ -326,7 +170,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                     <div class="row">
                         <div class="col-md-3">
                             <div class="visible-cont">
-                                <img src="images/noc-icons/identification-and-resolution-of-the-root-cause.png">
+                                <img src="images/n-s-d-icons/identification-and-resolution-of-the-root-cause.png">
                                 <h5>Identification and Resolution of the Root Cause</h5>
                             </div>
                             <div class="hide-cont">
@@ -335,7 +179,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                         </div>
                         <div class="col-md-3">
                             <div class="visible-cont">
-                                <img src="images/noc-icons/ongoing-support.png">
+                                <img src="images/n-s-d-icons/ongoing-support.png">
                                 <h5>Ongoing Support</h5>
                             </div>
                             <div class="hide-cont">
@@ -344,7 +188,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                         </div>
                         <div class="col-md-3">
                             <div class="visible-cont">
-                                <img src="images/noc-icons/network-optimization.png">
+                                <img src="images/n-s-d-icons/network-optimization.png">
                                 <h5>Network Optimization</h5>
                             </div>
                             <div class="hide-cont">
@@ -355,7 +199,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                     <div class="row">
                         <div class="col-md-4">
                             <div class="visible-cont">
-                                <img src="images/noc-icons/regular-updates-and-reports.png">
+                                <img src="images/n-s-d-icons/regular-updates-and-reports.png">
                                 <h5>Regular Updates and Reports</h5>
                             </div>
                             <div class="hide-cont">
@@ -364,7 +208,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                         </div>
                         <div class="col-md-4">
                             <div class="visible-cont">
-                                <img src="images/noc-icons/dedicated-service-and-support.png">
+                                <img src="images/n-s-d-icons/dedicated-service-and-support.png">
                                 <h5>Dedicated Service and Support</h5>
                             </div>
                             <div class="hide-cont">
