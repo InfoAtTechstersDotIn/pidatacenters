@@ -6934,6 +6934,20 @@ top: 185px !important;
     .c-banner-2 {
         padding-top: 25%;
     }
+
+    .soc-part2 .col-md-7 p {
+        line-height: 1.3rem;
+        padding: 0;
+    }
+
+    .soc-part2 .col-md-5 img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .soc-part-3 .col-md-6 img {
+        width: 35%;
+    }
 }
 
 
@@ -7005,6 +7019,7 @@ top: 185px !important;
     .c-banner-2 {
         padding-top: 15%;
     }
+
 }
 
 @media screen and (max-width:599px) {
@@ -7075,7 +7090,20 @@ top: 185px !important;
     }
 
     .popup-body p {
-        padding: 8px 0px !important;
+        padding: 8px 0px;
+    }
+
+    .soc-part2 .col-md-7 p {
+        line-height: 1.3rem;
+        padding: 10px 0;
+    }
+
+    .soc-part-3 {
+        margin-top: 0 !important;
+    }
+
+    .soc-part-3 .col-md-6 img {
+        width: 35%;
     }
 
 }
@@ -7099,7 +7127,6 @@ top: 185px !important;
     .c-banner h4 {
         margin-top: 25px;
     }
-
 
     .video-cont h4 {
         font-size: 14px;

@@ -33,14 +33,14 @@ $seo_keywords = "";
           <div class="latest-block row">
             <div class="latest-block-left col-md-12">
 
-              <a href="the-data-center-the-unseen-infrastructure-of-our-lives.php"><img src="images/kh-img-1.jpg" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="green-vs-brown.php"><img src="images/green-vs-brown.png" alt="kh-img-1" width="430" height="278"> </a>
 
-              <!--<span>19 June, 2023</span>--><br>
-              <a href="the-data-center-the-unseen-infrastructure-of-our-lives.php">
-                <h3>The Data Center: The Unseen Infrastructure of Our Lives</h3>
+              <br>
+              <a href="green-vs-brown.php">
+                <h3>Choosing Data Center Strategies: Greenfield vs. Brownfield Explained </h3>
               </a>
 
-              <div class="readmore-btn" style="padding:20px 0 0;"><a href="the-data-center-the-unseen-infrastructure-of-our-lives.php">Read More</a></div>
+              <div class="readmore-btn" style="padding:20px 0 0;"><a href="green-vs-brown.php">Read More</a></div>
 
             </div>
 
@@ -54,7 +54,7 @@ $seo_keywords = "";
               <a href="https://pidatacenters.com/case-studies.php" style="cursor:pointer"><img src="dashboard/uploads/services/leading.png" alt="article-img-3" width="172" height="115"> </a>
             </div>
             <div class="new-tranding-rt col-7">
-              <!--<span>19 june, 2023</span>-->
+              
               <a href="https://pidatacenters.com/case-studies.php" style="cursor:pointer">
                 <p style="margin-bottom:5px;color: #1d6fb2;font-weight: 700;">Case Studies</p>
               </a>
@@ -79,7 +79,7 @@ $seo_keywords = "";
               <a href="https://pidatacenters.com/brochure.php" style="cursor:pointer"><img src="images/brochure-img-1.png" alt="article-img-3" width="172" height="115"></a>
             </div>
             <div class="new-tranding-rt col-7">
-              <!--<span>19 june, 2023</span>-->
+              
               <a href="https://pidatacenters.com/brochure.php" style="cursor:pointer">
                 <p style="margin-bottom:5px;color: #1d6fb2;font-weight: 700;">Brochures</p>
               </a>
@@ -88,7 +88,7 @@ $seo_keywords = "";
           </div>
           <div class="new-tranding row align-items-center justify-content-center">
             <div class="new-tranding-lt col-5">
-              <a href="https://pidatacenters.com/whitepapers.php" style="cursor:pointer"><img src="dashboard/uploads/whitepapers/9.png" alt="article-img-3" width="172" height="115"></a>
+              <a href="https://pidatacenters.com/whitepapers.php" style="cursor:pointer"><img src="dashboard/uploads/whitepapers/how-well-do-we-understand.png" alt="article-img-3" width="172" height="115"></a>
             </div>
             <div class="new-tranding-rt col-7">
               <!--<span>20 june, 2023</span>-->
@@ -117,11 +117,41 @@ $seo_keywords = "";
       <div class="what-drives-vission1 row align-middle">
         <div class="what-drives-vission-left1 col-md-12">
           <ul class="slider-knowledge row">
-            <!--<li class="col-3">
-                                     <a href="press-release-1.php"><img src="images/kh-img-1.png" alt="kh-img-1" width="430" height="278"> </a>
-                                      <a href="press-release-1.php" class="pres-rel">The Data Center: The Unseen Infrastructure of Our Lives</a>
-                                      <div class="readmore-btn"><a href="press-release-1.php">Read More</a></div>
-                                  </li>-->
+           
+
+
+          <li class="col-md-3">
+              <a href="cloud-computing-hub.php"><img src="images/cloud-computing.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="cloud-computing-hub.php" class="pres-rel">What is Cloud Computing? A Comprehensive Exploration </a>
+              <div class="readmore-btn"><a href="cloud-computing-hub.php">Read More</a></div>
+            </li>
+
+
+          <li class="col-md-3">
+              <a href="what-is-hyperscale.php"><img src="images/what-are-hyperscale.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="what-is-hyperscale.php" class="pres-rel">What are Hyperscale Datacenters and How They Shape Tomorrow's Tech Landscape? </a>
+              <div class="readmore-btn"><a href="what-is-hyperscale.php">Read More</a></div>
+            </li>
+
+            <li class="col-md-3">
+              <a href="what-is-edge-computing.php"><img src="images/what-is-edge-computing.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="what-is-edge-computing.php" class="pres-rel">What is Edge Computing? <br>
+                A Deep Dive into Technical Features and Numerous Advantages </a>
+              <div class="readmore-btn"><a href="what-is-edge-computing.php">Read More</a></div>
+            </li>
+
+            <li class="col-md-3">
+              <a href="cloud-service-provider.php"><img src="images/kh-cloud service provider.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="cloud-service-provider.php" class="pres-rel">What are the benefits of using a datacenter-based cloud service provider? </a>
+              <div class="readmore-btn"><a href="cloud-service-provider.php">Read More</a></div>
+            </li>
+
+            <li class="col-md-3">
+              <a href="the-data-center-the-unseen-infrastructure-of-our-lives.php"><img src="images/kh-img-1.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="the-data-center-the-unseen-infrastructure-of-our-lives.php" class="pres-rel">What are the benefThe Data Center: The Unseen Infrastructure of Our Lives</a>
+              <div class="readmore-btn"><a href="the-data-center-the-unseen-infrastructure-of-our-lives.php">Read More</a></div>
+            </li>
+
             <li class="col-md-3">
               <a href="unveiling-the-powerhouse-exploring-the-types-and-importance-of-data-centers-in-modern-business-operations.php"><img src="images/kh-img-2.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
               <a href="unveiling-the-powerhouse-exploring-the-types-and-importance-of-data-centers-in-modern-business-operations.php" class="pres-rel">Unveiling the Powerhouse: Exploring the Types and Importance of Data Centers in Modern Business Operations</a>
@@ -147,30 +177,6 @@ $seo_keywords = "";
               <a href="How-Do-Multi-Cloud-Solutions-Transform-Business-Agility-and-Innovation.php" class="pres-rel">How Do Multi-Cloud Solutions Transform Business Agility and Innovation? </a>
               <div class="readmore-btn"><a href="How-Do-Multi-Cloud-Solutions-Transform-Business-Agility-and-Innovation.php">Read More</a></div>
             </li>
-
-
-            <li class="col-md-3">
-              <a href="cloud-service-provider.php"><img src="images/kh-cloud service provider.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="cloud-service-provider.php" class="pres-rel">What are the benefits of using a datacenter-based cloud service provider? </a>
-              <div class="readmore-btn"><a href="cloud-service-provider.php">Read More</a></div>
-            </li>
-
-
-
-
-            <li class="col-md-3">
-              <a href="what-is-hyperscale.php"><img src="images/what-are-hyperscale.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="what-is-hyperscale.php" class="pres-rel">What are Hyperscale Datacenters and How They Shape Tomorrow's Tech Landscape? </a>
-              <div class="readmore-btn"><a href="what-is-hyperscale.php">Read More</a></div>
-            </li>
-
-            <li class="col-md-3">
-              <a href="what-is-edge-computing.php"><img src="images/what-is-edge-computing.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="what-is-edge-computing.php" class="pres-rel">What is Edge Computing? <br>
-                A Deep Dive into Technical Features and Numerous Advantages </a>
-              <div class="readmore-btn"><a href="what-is-edge-computing.php">Read More</a></div>
-            </li>
-
 
           </ul>
 

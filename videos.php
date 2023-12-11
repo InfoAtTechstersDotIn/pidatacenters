@@ -55,7 +55,7 @@ $seo_keywords = "";
           </div>
 
           <div class="col-md-3 p-3">
-            <a href="#modal-2"><img src="images/vidoes-page/new-2.png">
+            <a href="#modal-2"><img src="images/vidoes-page/new-2.jpg">
               <div class="play-icon">
                 <i class="fa fa-play" aria-hidden="true" style="color:#fff"></i>
               </div>
