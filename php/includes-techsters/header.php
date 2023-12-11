@@ -739,6 +739,7 @@
                         <label for="message">Message:</label>
                         <textarea id="message" name="Message" rows="4" required></textarea>
 
+                        <label for="checkbox"><input type="checkbox" required name="checkbox"  class="check-box">I Agree with The <a href="terms-conditions.php" target="_blank"> Terms and Conditions</a></label>
 
                         <input class="sub_mit" type="submit" value="Submit">
 
@@ -781,6 +782,9 @@
                         <label for="message">Upload Configuration Document</label>
                         <input type="file" required name="Configuration Document">
 
+                        <label for="checkbox"><input type="checkbox" required name="checkbox"  class="check-box">I Agree with The <a href="terms-conditions.php" target="_blank"> Terms and Conditions</a></label>
+                       
+
                         <input class="sub_mit" type="submit" value="Submit">
 
                         <input type="hidden" name="techsters_subject" value="Request For Quote Form Leads" />
@@ -790,7 +794,6 @@
             </div>
         </div>
     </div>
-
 
 
 

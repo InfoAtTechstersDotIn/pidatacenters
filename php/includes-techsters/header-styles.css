@@ -3,13 +3,13 @@
             margin: 0;
             padding: 0;
         }
-        
+
         body {
             height: 100vh;
             /* background-color: gainsboro; */
             font-family: 'Roboto', sans-serif !important;
         }
-        
+
         .header {
             width: 100%;
             position: relative;
@@ -21,17 +21,17 @@
             z-index: 9999;
             background-color: #fff;
         }
-        
+
         nav {
             padding: 20px 0px;
         }
-        
+
         nav ul {
             display: flex;
             position: relative;
             margin-top: 5px;
         }
-        
+
         nav ul li {
             list-style-type: none;
             position: relative;
@@ -40,7 +40,7 @@
             -webkit-transition: all 0.3s ease-out 0s;
             margin: 0 5px !important;
         }
-        
+
         nav ul li a {
             color: #000;
             text-decoration: none !important;
@@ -50,7 +50,7 @@
             -webkit-transition: all 0.3s ease-out 0s;
             font-size: 15px;
         }
-        
+
         nav ul li .drop-down {
             position: absolute;
             width: 250px;
@@ -62,18 +62,18 @@
             transition: all 0.3s ease-out 0s;
             -webkit-transition: all 0.3s ease-out 0s;
         }
-        
+
         nav ul li .drop-down ul {
             display: flex;
             flex-direction: column;
         }
-        
+
         nav ul li .drop-down ul li {
             padding: 7px 5px !important;
             transition: all 0.3s ease-out 0s;
             -webkit-transition: all 0.3s ease-out 0s;
         }
-        
+
         .sub_drop_down {
             display: none;
             position: absolute;
@@ -87,12 +87,12 @@
             transition: all 0.3s ease-out 0s;
             -webkit-transition: all 0.3s ease-out 0s;
         }
-        
+
         .drop_down_bars {
             left: -100px !important;
             /* top: -3px !important; */
         }
-        
+
         .drop_down_bars .sub_drop_down {
             /* right: 205px !important; */
             /* top: 25px !important; */
@@ -105,7 +105,7 @@
             padding: 5px;
             left: -250px;
         }
-        
+
         nav ul li:hover .drop-down {
             display: flex;
             transition: all 0.2s ease;
@@ -113,22 +113,23 @@
             -webkit-transition: all 0.3s ease-out 0s;
             transition: all 0.5s ease;
         }
-        
+
         nav ul li:hover .drop-down li:hover .sub_drop_down {
             display: flex;
             transition: all 0.2s ease;
             transition: all 0.5s ease;
         }
+
         /* ******************************* */
-        
+
         .sidenav {}
-        
+
         .sidenav a {}
-        
+
         .sidenav a:hover {
             color: #f1f1f1;
         }
-        
+
         .sidenav .closebtn {
             position: absolute;
             top: 0;
@@ -136,7 +137,7 @@
             font-size: 36px;
             margin-left: 50px;
         }
-        
+
         .hamburger {
             font-size: 30px;
             cursor: pointer;
@@ -145,46 +146,48 @@
             top: -75px;
             display: none;
         }
-        
+
         .desktop {
             display: block;
         }
-        
+
         .mobile {
             display: none;
         }
-        
+
         .m_info {
             display: none;
         }
-        
+
         .fa-bars {
             display: block;
             font-size: 23px;
         }
-        
+
         .logo img {
             width: 100%;
             max-width: 120px;
         }
+
         /*         
         .fonts {
             font-size: 23px !important;
         }
          */
-        
+
         .nav_items_ul {
             /* display: block; */
             display: flex;
             justify-content: center;
             align-items: center;
         }
-        
+
         i.fa.fa-home {
             font-size: 23px;
         }
+
         /* *********************************************************************************************** */
-        
+
         .banners_content a {
             background-color: #fff;
             color: #223f97;
@@ -203,7 +206,7 @@
             font-weight: bold;
             /* letter-spacing: 1px; */
         }
-        
+
         .banners_content {
             position: absolute;
             top: 210px;
@@ -212,8 +215,9 @@
             font-size: 35px;
             cursor: pointer;
         }
+
         /* ************************************ */
-        
+
         .modal-backdrop {
             position: fixed;
             top: 0;
@@ -224,13 +228,13 @@
             background-color: #000;
             display: none !important;
         }
-        
+
         div#myModal {
             z-index: 99999999999;
             top: 0px !important;
             zoom: 0.9;
         }
-        
+
         .modal {
             display: none;
             position: fixed;
@@ -248,7 +252,7 @@
             z-index: 9999999999999 !important;
             overflow-y: scroll !important;
         }
-        
+
         .modal-dialog {
             background-color: #bdc3c7 !important;
             background-color: #f2f5f7 !important;
@@ -258,20 +262,20 @@
             backdrop-filter: blur(42px);
             padding: 0px !important;
         }
-        
+
         .reachus_modal_dialog {
             margin-top: 0px !important;
             top: 10% !important;
         }
-        
+
         .error {
             color: red;
         }
-        
+
         .pop_up form label {
             display: flex;
         }
-        
+
         .pop_up form input {
             width: 100%;
             background-color: #fff;
@@ -283,7 +287,7 @@
             /* border: none; */
             text-align: left;
         }
-        
+
         .pop_up form textarea {
             width: 100%;
             background-color: #fff;
@@ -294,7 +298,7 @@
             text-align: left;
             margin-bottom: 10px;
         }
-        
+
         .pop_up .modal-content {
             position: relative;
             background: transparent;
@@ -302,6 +306,7 @@
             border: 0;
             margin: 0 auto;
         }
+
         /* .modal-dialog {
 background-color: #77b903;
 padding: 15px;
@@ -309,7 +314,7 @@ border-radius: 10px;
 color: #223f97;
 backdrop-filter: blur(42px);
 } */
-        
+
         .pop_up button.close {
             background-color: #000;
             text-align: center;
@@ -323,7 +328,7 @@ backdrop-filter: blur(42px);
             border-radius: 100px;
             margin-top: 15px;
         }
-        
+
         .pop_up form .sub_mit {
             width: 100%;
             max-width: 50%;
@@ -334,7 +339,7 @@ backdrop-filter: blur(42px);
             align-items: center;
             color: #fff !important;
         }
-        
+
         .pop_up .modal-title {
             font-size: 30px;
             font-family: 'Roboto', sans-serif;
@@ -342,7 +347,7 @@ backdrop-filter: blur(42px);
             color: #223f97;
             padding: 10px;
         }
-        
+
         .modal {
             display: none;
             position: fixed;
@@ -359,13 +364,13 @@ backdrop-filter: blur(42px);
             margin: 0 auto;
             z-index: 9999999999999 !important;
         }
-        
+
         .data_card_left_right {
             display: flex;
             justify-content: center;
             align-items: center;
         }
-        
+
         .space::after {
             content: "";
             position: absolute;
@@ -376,16 +381,16 @@ backdrop-filter: blur(42px);
             /* background-color: #fff; */
             border: 0.0000001px dotted #ffffff38;
         }
-        
+
         .plan-button {
             transition: all 0.2s ease !important;
         }
-        
+
         .plan-button:hover {
             background-color: #223f97 !important;
             color: #fff !important;
         }
-        
+
         .content {
             max-width: 98%;
             margin: auto;
@@ -393,7 +398,7 @@ backdrop-filter: blur(42px);
             padding: 40px 0px;
             padding-bottom: 0px;
         }
-        
+
         .pop_up form .sub_mit {
             width: 100%;
             max-width: 50%;
@@ -405,7 +410,7 @@ backdrop-filter: blur(42px);
             background-color: #223f97;
             color: #fff !important;
         }
-        
+
         .data_card .title {
             /* text-align: center; */
             font-size: 22px;
@@ -417,17 +422,17 @@ backdrop-filter: blur(42px);
             font-weight: 700;
             padding-left: 20px;
         }
-        
+
         .plan_detail {
             /* color: red !important; */
             font-weight: 900 !important;
         }
-        
+
         #openPopup {
             z-index: 9999;
             position: relative;
         }
-        
+
         .popup {
             display: none;
             position: fixed;
@@ -438,7 +443,7 @@ backdrop-filter: blur(42px);
             background-color: rgba(0, 0, 0, 0.7);
             z-index: 9999;
         }
-        
+
         .popup-content {
             background-color: #fff;
             position: absolute;
@@ -450,7 +455,7 @@ backdrop-filter: blur(42px);
             text-align: center;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         }
-        
+
         .close {
             position: absolute;
             top: 10px;
@@ -458,8 +463,9 @@ backdrop-filter: blur(42px);
             font-size: 20px;
             cursor: pointer;
         }
+
         /* The Modal (background) */
-        
+
         .modal {
             display: none;
             /* Hidden by default */
@@ -480,8 +486,9 @@ backdrop-filter: blur(42px);
             background-color: rgba(0, 0, 0, 0.4);
             /* Black w/ opacity */
         }
+
         /* Modal Content/Box */
-        
+
         .modal-content {
             background-color: #fefefe;
             margin: 15% auto;
@@ -491,27 +498,28 @@ backdrop-filter: blur(42px);
             width: 80%;
             /* Could be more or less, depending on screen size */
         }
+
         /* The Close Button */
-        
+
         .close {
             color: #aaa;
             float: right;
             font-size: 28px;
             font-weight: bold;
         }
-        
+
         .close:hover,
         .close:focus {
             color: black;
             text-decoration: none;
             cursor: pointer;
         }
-        
+
         .modal-dialog {
             max-width: 520px;
             margin: 1.6rem auto;
         }
-        
+
         .close2 {
             background-color: #000;
             text-align: center;
@@ -525,46 +533,47 @@ backdrop-filter: blur(42px);
             border-radius: 100px;
             margin-top: 15px;
         }
-        
+
         .modal-header {
             display: flex;
             align-items: center;
             justify-content: space-between;
         }
-        
+
         .fade:not(.show) {
             opacity: 1 !important;
         }
-        
+
         .modal-dialog {
             top: 25%;
         }
+
         /*         
         .pop_up form input {
             padding: 3px 10px !important;
         }
          */
-        
+
         .modal-body {
             padding: 0.5rem !important;
         }
-        
+
         .drop_down_bars {
             left: -200px !important;
         }
-        
+
         .pricing_drop_down {
             left: -80px !important;
         }
-        
+
         .drop-down ul li a {
             padding: 10px 20px !important;
         }
-        
+
         .drop_down_bars .drop-down ul li a {
             padding: 10px 20px !important;
         }
-        
+
         .drop_down_bars .drop-arrow:before {
             position: absolute;
             top: 11px !important;
@@ -574,15 +583,15 @@ backdrop-filter: blur(42px);
             font-family: "FontAwesome";
             font-size: 22px;
         }
-        
+
         .logo {
             text-align: left;
         }
-        
+
         .nav_close_btn {
             display: none;
         }
-        
+
         .data_center_build .drop-arrow:before {
             position: absolute;
             top: 10px;
@@ -592,17 +601,20 @@ backdrop-filter: blur(42px);
             font-family: "FontAwesome";
             font-size: 22px;
         }
-        
+
         @media only screen and (max-width: 991px) {
             body {
                 overflow-x: hidden !important;
             }
+
             nav {
                 padding: 0px !important;
             }
+
             .sidenav {
                 display: none;
             }
+
             /* nav ul {
                 display: flex;
                 position: relative;
@@ -613,12 +625,15 @@ backdrop-filter: blur(42px);
             .hamburger {
                 display: block;
             }
+
             .desktop {
                 display: none;
             }
+
             .mobile {
                 display: block;
             }
+
             .mobile .sidenav ul {
                 display: flex;
                 flex-direction: column;
@@ -629,9 +644,11 @@ backdrop-filter: blur(42px);
                 /* border: 1px solid; */
                 margin: 0px 10px;
             }
+
             .panel {
                 transition: max-height 0.2s ease-out;
             }
+
             .accordion {
                 /* background-color: #eee; */
                 /* background-color: #eee; */
@@ -654,6 +671,7 @@ backdrop-filter: blur(42px);
                 border: 1px solid #ddd !important;
                 border-left: none !important;
             }
+
             .panel {
                 /* padding: 0 18px; */
                 /* Initially hidden */
@@ -661,6 +679,7 @@ backdrop-filter: blur(42px);
                 background-color: white;
                 overflow: hidden;
             }
+
             /* .active {
                 border-top: 1px solid#ddd;
             } */
@@ -669,6 +688,7 @@ backdrop-filter: blur(42px);
                 /* background-color: #ccc; */
                 transition: all 0.5s ease;
             }
+
             .accordion:after {
                 content: '\002B';
                 color: #777;
@@ -684,16 +704,20 @@ backdrop-filter: blur(42px);
                 font-weight: 300;
                 right: 25px;
             }
+
             .active:after {
                 content: "\2212";
             }
+
             /* Add your active class style here */
             .fa-bars {
                 display: none;
             }
+
             .m_info {
                 display: block;
             }
+
             .panel {
                 display: none;
                 /* Initially hide the panel */
@@ -702,10 +726,12 @@ backdrop-filter: blur(42px);
                 transition: max-height 0.3s ease;
                 /* Add a smooth transition effect */
             }
+
             .accordion.active+.panel {
                 max-height: 500px;
                 /* Adjust this value as needed to control the open height */
             }
+
             .mobile nav ul li a {
                 color: #000;
                 text-decoration: none !important;
@@ -719,16 +745,20 @@ backdrop-filter: blur(42px);
                 text-align: left !important;
                 padding-left: 10px !important;
             }
+
             .mobile nav ul li a:hover {
                 color: #0056b3 !important;
             }
+
             .mobile .sub_d_down li a {
                 font-weight: normal !important;
             }
+
             .logo img {
                 width: 100%;
                 max-width: 75px !important;
             }
+
             .logo {
                 float: left;
                 padding-top: 10px;
@@ -736,6 +766,7 @@ backdrop-filter: blur(42px);
                 text-align: left;
                 padding-left: 30px;
             }
+
             .logo {
                 float: left;
                 padding-top: 10px;
@@ -743,30 +774,42 @@ backdrop-filter: blur(42px);
                 text-align: left;
                 padding-left: 30px;
             }
+
             .hamburger {
                 right: 50px;
                 top: -45px;
                 font-weight: 900;
             }
+
             .drop-arrow:before {
                 display: none;
             }
+
             .pop_up .modal-title {
                 font-size: 25px;
             }
+
             .panel ul li {
                 border: none !important;
             }
+
             .mobile nav .panel ul li a {
                 color: #000 !important;
                 padding-left: 0px !important;
             }
+
             nav ul li a {
                 margin: 0px !important;
             }
+
             .nav_close_btn {
                 right: 50px;
                 top: -45px;
                 font-weight: 900;
             }
+        }
+
+        /* for checkbox */
+        .pop_up form .check-box {
+            width: 5% !important;
         }
