@@ -33,7 +33,7 @@ $seo_keywords = "security operations center, Security Operations, managed soc se
                 <h4>Understanding the Cybersecurity Landscape: A Constant Evolution </h4>
                 <div class="row">
                     <div class="col-md-5 mt-2">
-                        <div><img src="images/new-soc-1.png"></div>
+                        <div><img src="images/new-soc-2.png"></div>
                     </div>
                     <div class="col-md-7 mt-2">
 

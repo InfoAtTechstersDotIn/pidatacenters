@@ -97,7 +97,7 @@
             <div class="row px-3">
                 <div class="col-lg-2">
                     <div class="logo">
-                        <a href="https://pidatacenters.com">
+                        <a href="https://www.pidatacenters.com">
                             <img src="https://www.pidatacenters.com/images/logo-wt.png" alt="logo">
                         </a>
                     </div>
@@ -111,10 +111,10 @@
                                 <a href="#" class="fonts"></a>
                             </li>
 
-                            <li class=""><a href="https://pidatacenters.com/"><i class="fa fa-home" style="color:black"></i></a></li>
+                            <li class=""><a href="https://www.pidatacenters.com"><i class="fa fa-home" style="color:black"></i></a></li>
 
                             <li>
-                                <!-- <a href="JavaScript:void(0);" class="drop-arrow ">
+                                <!-- <a href="JavaScript:void(0);" class="drop-arrow ">tps://pidatacenters.com/
                                     DATA CENTER
 
 
@@ -739,7 +739,7 @@
                         <label for="message">Message:</label>
                         <textarea id="message" name="Message" rows="4" required></textarea>
 
-                        <label for="checkbox"><input type="checkbox" required name="checkbox"  class="check-box">I Agree with The <a href="terms-conditions.php" target="_blank"> Terms and Conditions</a></label>
+                        <label for="checkbox"><input type="checkbox" required name="checkbox"  class="check-box">I Agree with The <a href="terms-conditions.php" target="_blank" style="color: #CB4721;"> &nbsp;Terms and Conditions</a></label>
 
                         <input class="sub_mit" type="submit" value="Submit">
 
@@ -782,7 +782,7 @@
                         <label for="message">Upload Configuration Document</label>
                         <input type="file" required name="Configuration Document">
 
-                        <label for="checkbox"><input type="checkbox" required name="checkbox"  class="check-box">I Agree with The <a href="terms-conditions.php" target="_blank"> Terms and Conditions</a></label>
+                        <label for="checkbox"><input type="checkbox" required name="checkbox"  class="check-box">I Agree with The  <a href="terms-conditions.php" target="_blank" style="color: #CB4721;">&nbsp;Terms and Conditions</a></label>
                        
 
                         <input class="sub_mit" type="submit" value="Submit">

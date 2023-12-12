@@ -7106,6 +7106,12 @@ top: 185px !important;
         width: 35%;
     }
 
+    .tools {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: left;
+    }
+
 }
 
 @media screen and (max-width:400px) {
