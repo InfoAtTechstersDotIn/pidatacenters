@@ -151,7 +151,7 @@ $seo_keywords = "";
 								<li>
 									<div class="hb-rightCont hb_ppCont">
 										<span>
-											<img src="images/product-images/edr_img.png" alt="workspace">
+											<img src="./pi-cloud/images/product-images/edr_img.png" alt="workspace">
 										</span>
 									</div>
 								</li>

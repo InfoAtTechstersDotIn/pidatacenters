@@ -668,7 +668,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
             <p>Data Center Portfolio</p>
         </div>
         <div class="dc-download-brochure-right text-center">
-            <a href="images/Data-center-services-portfolio-14.pdf" target="_blank">Download Brochure</a>
+            <a href="images/dc-services-portfolio.pdf" target="_blank">Download Brochure</a>
         </div>
     </div>
 </div>

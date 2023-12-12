@@ -95,7 +95,7 @@ $seo_keywords = "";
 
     </div>
 
-    <div class="hb-btn_cl" style="text-align: center;"><a href="images/new-multi-cloud-brochure-2.pdf" class="global-button" target="_blank">
+    <div class="hb-btn_cl" style="text-align: center;"><a href="images/new-multi-cloud-brochure.pdf" class="global-button" target="_blank">
             Download Brochure
         </a>
 

@@ -44,7 +44,7 @@ if ($conn->connect_error) {
   <div class="container">
     <div class="case-block-main greenshape1">
 
-      <img src="dashboard/uploads/2740Let’s-Break-The-Myths-Of-Cloud-Security-250x139.png" alt="blog-1-img" width="450" height="248">
+      <img src="https://pidatacenters.com/dashboard/uploads/2740Let%E2%80%99s-Break-The-Myths-Of-Cloud-Security-250x139.png" alt="blog-1-img" width="450" height="248">
       <p></p>
       <p dir="ltr">Cloud computing provides the best solution to a number of long-standing challenges like scalability, true elasticity, barriers to entry, technology refreshes and cost savings. Along with the numerous benefits cloud offers, it also brings in some challenges in adoption to cloud technology, owing to lack of a total understanding. Pertaining to the abstract nature of the cloud, major challenges are perceived to be in security.</p>
       <p dir="ltr">But to go by facts, Security in the cloud often exceeds the security of an on-premise or legacy facility. It is high time the myth about cloud security is dusted off.</p>

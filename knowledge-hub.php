@@ -33,14 +33,14 @@ $seo_keywords = "";
           <div class="latest-block row">
             <div class="latest-block-left col-md-12">
 
-              <a href="green-vs-brown.php"><img src="images/green-vs-brown.png" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="kh-article-1.php"><img src="images/green-vs-brown.png" alt="kh-img-1" width="430" height="278"> </a>
 
               <br>
-              <a href="green-vs-brown.php">
+              <a href="kh-article-1.php">
                 <h3>Choosing Data Center Strategies: Greenfield vs. Brownfield Explained </h3>
               </a>
 
-              <div class="readmore-btn" style="padding:20px 0 0;"><a href="green-vs-brown.php">Read More</a></div>
+              <div class="readmore-btn" style="padding:20px 0 0;"><a href="kh-article-1.php">Read More</a></div>
 
             </div>
 
@@ -121,61 +121,61 @@ $seo_keywords = "";
 
 
           <li class="col-md-3">
-              <a href="cloud-computing-hub.php"><img src="images/cloud-computing.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="cloud-computing-hub.php" class="pres-rel">What is Cloud Computing? A Comprehensive Exploration </a>
-              <div class="readmore-btn"><a href="cloud-computing-hub.php">Read More</a></div>
+              <a href="kh-article-2.php"><img src="images/cloud-computing.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="kh-article-2.php" class="pres-rel">What is Cloud Computing? A Comprehensive Exploration </a>
+              <div class="readmore-btn"><a href="kh-article-2.php">Read More</a></div>
             </li>
 
 
           <li class="col-md-3">
-              <a href="what-is-hyperscale.php"><img src="images/what-are-hyperscale.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="what-is-hyperscale.php" class="pres-rel">What are Hyperscale Datacenters and How They Shape Tomorrow's Tech Landscape? </a>
-              <div class="readmore-btn"><a href="what-is-hyperscale.php">Read More</a></div>
+              <a href="kh-article-3.php"><img src="images/what-are-hyperscale.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="kh-article-3.php" class="pres-rel">What are Hyperscale Datacenters and How They Shape Tomorrow's Tech Landscape? </a>
+              <div class="readmore-btn"><a href="kh-article-3.php">Read More</a></div>
             </li>
 
             <li class="col-md-3">
-              <a href="what-is-edge-computing.php"><img src="images/what-is-edge-computing.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="what-is-edge-computing.php" class="pres-rel">What is Edge Computing? <br>
+              <a href="kh-article-4.php"><img src="images/what-is-edge-computing.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="kh-article-4.php" class="pres-rel">What is Edge Computing? <br>
                 A Deep Dive into Technical Features and Numerous Advantages </a>
-              <div class="readmore-btn"><a href="what-is-edge-computing.php">Read More</a></div>
+              <div class="readmore-btn"><a href="kh-article-4.php">Read More</a></div>
             </li>
 
             <li class="col-md-3">
-              <a href="cloud-service-provider.php"><img src="images/kh-cloud service provider.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="cloud-service-provider.php" class="pres-rel">What are the benefits of using a datacenter-based cloud service provider? </a>
-              <div class="readmore-btn"><a href="cloud-service-provider.php">Read More</a></div>
+              <a href="kh-article-5.php"><img src="images/kh-cloud service provider.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="kh-article-5.php" class="pres-rel">What are the benefits of using a datacenter-based cloud service provider? </a>
+              <div class="readmore-btn"><a href="kh-article-5.php">Read More</a></div>
             </li>
 
             <li class="col-md-3">
-              <a href="the-data-center-the-unseen-infrastructure-of-our-lives.php"><img src="images/kh-img-1.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="the-data-center-the-unseen-infrastructure-of-our-lives.php" class="pres-rel">What are the benefThe Data Center: The Unseen Infrastructure of Our Lives</a>
-              <div class="readmore-btn"><a href="the-data-center-the-unseen-infrastructure-of-our-lives.php">Read More</a></div>
+              <a href="kh-article-6.php"><img src="images/kh-img-1.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="kh-article-6.php" class="pres-rel">What are the benefThe Data Center: The Unseen Infrastructure of Our Lives</a>
+              <div class="readmore-btn"><a href="kh-article-6.php">Read More</a></div>
             </li>
 
             <li class="col-md-3">
-              <a href="unveiling-the-powerhouse-exploring-the-types-and-importance-of-data-centers-in-modern-business-operations.php"><img src="images/kh-img-2.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="unveiling-the-powerhouse-exploring-the-types-and-importance-of-data-centers-in-modern-business-operations.php" class="pres-rel">Unveiling the Powerhouse: Exploring the Types and Importance of Data Centers in Modern Business Operations</a>
-              <div class="readmore-btn"><a href="unveiling-the-powerhouse-exploring-the-types-and-importance-of-data-centers-in-modern-business-operations.php">Read More</a></div>
+              <a href="kh-article-7.php"><img src="images/kh-img-2.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="kh-article-7.php" class="pres-rel">Unveiling the Powerhouse: Exploring the Types and Importance of Data Centers in Modern Business Operations</a>
+              <div class="readmore-btn"><a href="kh-article-7.php">Read More</a></div>
             </li>
 
             <!--Added new articles-->
 
             <li class="col-md-3">
-              <a href="What-Is-Data-Center-Security-Why-Is-It-Important.php"><img src="images/kh-dc.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="What-Is-Data-Center-Security-Why-Is-It-Important.php" class="pres-rel">
+              <a href="kh-article-8.php"><img src="images/kh-dc.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="kh-article-8.php" class="pres-rel">
 
                 What Is Data Center Security? Why Is It Important? </a>
-              <div class="readmore-btn"><a href="What-Is-Data-Center-Security-Why-Is-It-Important.php">Read More</a></div>
+              <div class="readmore-btn"><a href="kh-article-8.php">Read More</a></div>
             </li>
             <li class="col-md-3">
-              <a href="What-Are-the-Different-Types-of-Data-Centers-in-Cloud-Computing.php"><img src="images/kh-types of dc.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="What-Are-the-Different-Types-of-Data-Centers-in-Cloud-Computing.php" class="pres-rel">What Are the Different Types of Data Centers in Cloud Computing? </a>
-              <div class="readmore-btn"><a href="What-Are-the-Different-Types-of-Data-Centers-in-Cloud-Computing.php">Read More</a></div>
+              <a href="kh-article-9.php"><img src="images/kh-types of dc.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="kh-article-9.php" class="pres-rel">What Are the Different Types of Data Centers in Cloud Computing? </a>
+              <div class="readmore-btn"><a href="kh-article-9.php">Read More</a></div>
             </li>
             <li class="col-md-3">
-              <a href="How-Do-Multi-Cloud-Solutions-Transform-Business-Agility-and-Innovation.php"><img src="images/kh-multi cloud.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="How-Do-Multi-Cloud-Solutions-Transform-Business-Agility-and-Innovation.php" class="pres-rel">How Do Multi-Cloud Solutions Transform Business Agility and Innovation? </a>
-              <div class="readmore-btn"><a href="How-Do-Multi-Cloud-Solutions-Transform-Business-Agility-and-Innovation.php">Read More</a></div>
+              <a href="kh-article-10.php"><img src="images/kh-multi cloud.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="kh-article-10.php" class="pres-rel">How Do Multi-Cloud Solutions Transform Business Agility and Innovation? </a>
+              <div class="readmore-btn"><a href="kh-article-10.php">Read More</a></div>
             </li>
 
           </ul>

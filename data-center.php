@@ -111,7 +111,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                     <h2>Data Center <br>Infrastructure & Services</h2>
                     <p>Embark on a data-driven journey where innovation meets precision. From groundbreaking design strategies to seamless execution, we redefine data center excellence. Explore a world where your data's potential knows no bounds.
                     </p>
-                    <div class="link-btn"> <a href="data-center-infrastructure-services-advisory.php">Know More</a></div>
+                    <div class="link-btn"> <a href="dc-infrastructure.php">Know More</a></div>
                 </div>
 
             </div>
@@ -123,7 +123,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                     </h2>
                     <p>Explore a new era in Colocation Services. From private suites tailored for high compliance to plug-and-play whitespace, we offer flexible solutions for enterprises. Whether you seek control with caged options or modular rack colocation, we are your partner in scaling seamlessly. Experience hands-and-feet support for operational ease.
                     </p>
-                    <div class="link-btn"> <a href="data-center-infrastructure-services.php">Know More</a></div>
+                    <div class="link-btn"> <a href="colocation.php">Know More</a></div>
                 </div>
             </div>
             <div class="col-md-4">
@@ -643,7 +643,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
             <p>Data Center Portfolio</p>
         </div>
         <div class="dc-download-brochure-right text-center">
-            <a href="images/Data-center-services-portfolio-14.pdf" target="_blank">Download Brochure</a>
+            <a href="images/dc-services-portfolio.pdf" target="_blank">Download Brochure</a>
         </div>
     </div>
 </div>
