@@ -394,11 +394,11 @@
                             </li>
                             <div class="panel">
                                 <ul>
+                                    <!-- <li>
+                                        <a href="<?php echo $site_url ?>colocation.php">Colocation</a>
+                                    </li> -->
                                     <li>
-                                        <a href="<?php echo $site_url ?>data-center-infrastructure-services.php">Colocation</a>
-                                    </li>
-                                    <li>
-                                        <a href="<?php echo $site_url ?>data-center-infrastructure-services-advisory.php">Data Center Infrastructure & Services</a>
+                                        <a href="<?php echo $site_url ?>dc-infrastructure.php">Data Center Infrastructure & Services</a>
                                     </li>
                                     <li class="accordion">
                                         <a href="#">Consulting & Data Center Build </a>
@@ -417,6 +417,9 @@
                                 </ul>
                             </div>
                             </li>
+                            <li>
+                                <a href="<?php echo $site_url ?>colocation.php">COLOCATION</a>
+                            </li>
                             <li class="accordion">
                                 <a href="<?php echo $site_url ?>cloud.php" class="drop-arrow">CLOUD</a>
 
@@ -427,7 +430,7 @@
                                         <a href="<?php echo $site_url ?>public-cloud.php">Public Cloud</a>
                                     </li>
                                     <li>
-                                        <a href="<?php echo $site_url ?>compute.php">Private Cloud</a>
+                                        <a href="<?php echo $site_url ?>private-cloud.php">Private Cloud</a>
                                     </li>
                                     <li>
                                         <a href="<?php echo $site_url ?>sap.php">SAP on Cloud</a>
@@ -438,7 +441,7 @@
                                     </li>
 
                                     <li>
-                                        <a href="<?php echo $site_url ?>managed-services.php">Cloud Enablement</a>
+                                        <a href="<?php echo $site_url ?>cloud-enablement.php">Cloud Enablement</a>
                                     </li>
                                     <!-- <li>
                                         <a href="industry-solutions">Other Could Services</a>

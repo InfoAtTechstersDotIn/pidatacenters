@@ -4,7 +4,7 @@ $seo_description = "With Pi Workspaces, Eliminate the Complexities and Experienc
 $seo_keywords = "Pi Workspaces, virtual desktop infrastructure, virtual desktops, VDI Solutions, VDI solutions provider";
 ?>
 
-<?php include('php/inner-header.php'); ?>
+<?php include('php/includes-techsters/header.php'); ?>
 <!-- main starts here -->
 <div class="about-banner">
     <div class="about-banner-blk">
@@ -160,7 +160,8 @@ $seo_keywords = "Pi Workspaces, virtual desktop infrastructure, virtual desktops
     </div>
 </div>
 <!--footer block starts -->
-<?php include('php/footer.php'); ?>
+
+<?php include('php/includes-techsters/footer.php'); ?>
 
 
 

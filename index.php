@@ -754,7 +754,7 @@
                                     <div class="great-rtt col-lg-8 " id="slider2">
                                         <ul class="slider2">
                                             <li class="col-md-6">
-                                                <a href=" harbourfront-services.php">
+                                                <a href="harbourfront-services.php" target="_blank">
                                                     <figure>
                                                         <img src="images/harbourfront-product.webp" alt="img">
                                                         <h3>HarbourFront (CDN)</h3>
@@ -762,7 +762,7 @@
                                                 </a>
                                             </li>
                                             <li class="col-md-6">
-                                                <a href="./pi-cloud/security" target="_blank">
+                                                <a href="security.php" target="_blank">
                                                     <figure>
                                                         <img src="images/cybersecurity-product.webp" alt="img">
                                                         <h3>Cyber Security</h3>
@@ -770,7 +770,7 @@
                                                 </a>
                                             </li>
                                             <li class="col-md-6">
-                                                <a href="pi-work-spaces.php">
+                                                <a href="pi-work-spaces.php" target="_blank">
                                                     <figure>
                                                         <img src="images/pi-work-space-product.webp" alt="img">
                                                         <h3>pi Workspace (VDI)</h3>
@@ -778,7 +778,7 @@
                                                 </a>
                                             </li>
                                             <li class="col-md-6">
-                                                <a href="./pi-cloud/ip-exchange" target="_blank">
+                                                <a href="ip-exchange.php" target="_blank">
                                                     <figure>
                                                         <img src="images/internet-exchange-product.webp" alt="img">
                                                         <h3>internet exchange (IPX)</h3>
