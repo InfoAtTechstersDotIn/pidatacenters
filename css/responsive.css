@@ -6948,6 +6948,22 @@ top: 185px !important;
     .soc-part-3 .col-md-6 img {
         width: 35%;
     }
+
+    .noc-part-2 img {
+        width: 100%;
+        margin: 10px auto;
+        border-radius: 20px;
+    }
+
+    .noc-part-5 .col-md-3 p,
+    .noc-part-5 .col-md-4 p {
+        position: relative;
+        top: 2px;
+    }
+
+    .noc p {
+        padding-top: 15px;
+    }
 }
 
 
@@ -7018,6 +7034,25 @@ top: 185px !important;
 
     .c-banner-2 {
         padding-top: 15%;
+    }
+
+    .bullets li {
+        padding: 1px 5px;
+        font-size: 12px;
+    }
+
+    .noc-part-2 img {
+        margin: 50px auto;
+    }
+
+    .noc-part-3 .col-md-7 p {
+        padding: 0 !important;
+    }
+
+    .noc-part-5 .col-md-3 p,
+    .noc-part-5 .col-md-4 p {
+        position: relative;
+        top: -30px !important;
     }
 
 }
@@ -7112,6 +7147,27 @@ top: 185px !important;
         justify-content: left;
     }
 
+    .noc h4 {
+        line-height: 1.4rem;
+    }
+
+    .noc-part-5 .col-md-3 p,
+    .noc-part-5 .col-md-4 p {
+        position: relative;
+        top: -25px;
+    }
+
+    .noc-part-2 img {
+        margin: 0 auto;
+    }
+
+    .noc-part-3 .col-md-7 p {
+        padding-top: 1rem !important;
+    }
+
+    .noc-part-2 p {
+        padding-top: 1rem !important;
+    }
 }
 
 @media screen and (max-width:400px) {

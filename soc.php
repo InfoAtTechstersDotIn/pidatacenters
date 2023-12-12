@@ -78,7 +78,7 @@ $seo_keywords = "security operations center, Security Operations, managed soc se
                         </div>
                     </div>
                 </div>
-                <div class="last-para mt-3">
+                <div class="last-para py-4">
                     <p>The SOC team at Pi is not merely a security checkpoint; it is a proactive partner in fortifying your business against the ever-evolving cyber threats that characterize the digital frontier. We are committed to continuous improvement, ensuring that our capabilities stay ahead in the cybersecurity landscape. Trust Pi to provide not just security but a robust shield for your business, offering peace of mind and secure operations in an unpredictable digital world. Your cybersecurity needs, regardless of their complexity, find a dedicated ally in the form of Pi. </p>
 
                 </div>

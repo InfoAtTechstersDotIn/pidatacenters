@@ -8637,15 +8637,14 @@
     }
 
     .noc h4 {
-        color: #000;
+        color: #223f97;
         text-align: center;
-        font-weight: 500;
-        /* padding: 20px 0 10px 0; */
+        font-weight: bold;
         font-size: 18px;
     }
 
     .bullets {
-        padding-left: 2rem !important;
+        padding-left: 0rem !important;
     }
 
 
@@ -8654,6 +8653,7 @@
         border-bottom-left-radius: 50px;
     }
 
+    /* 
     .bullets li {
         padding: 6px 0;
         font-size: 18px;
@@ -8662,13 +8662,24 @@
         text-align: center;
         background-color: #76b54330;
         border-radius: 20px;
-        transition: all 0.5s ease;
+        box-shadow: 1px 6px #223f97;
+    } */
+
+    .bullets li {
+        padding: 5px 10px;
+        font-size: 15px;
+        margin: 10px 0;
+        border: 1px solid #cccccc91;
+        text-align: center;
+        border: 2px solid #21252938;
+        border-radius: 20px;
+        box-shadow: 0px 0px 3px #7070708f;
     }
 
-    .bullets li:hover {
+    /* .bullets li:hover {
         box-shadow: 1px 6px #223f97;
         transform: translate(-6px, -5px);
-    }
+    } */
 
     .noc-part img {
         border-radius: 15px;
@@ -8765,8 +8776,8 @@
     }
 
     .noc-part-2 img {
-        width: 50%;
-        margin: 0 auto;
+        width: 100%;
+        margin: 10px auto;
         border-radius: 20px;
     }
 
@@ -8774,6 +8785,11 @@
         margin: 0 auto;
         border-radius: 20px;
     }
+
+    .noc-part-3 .col-md-7 p {
+        padding: 4rem;
+    }
+
 
     /* soc-part */
     .soc {
@@ -8793,7 +8809,7 @@
     }
 
     .soc-part2 h4 {
-        color: #000;
+        color: #223f97;
         font-weight: bold;
         font-size: 20px;
         text-align: center;
@@ -8810,6 +8826,7 @@
         line-height: 1.5rem;
         padding: 50px 0;
     }
+
 
     .soc-part-3 .col-md-6 h3 {
         color: #000;
