@@ -14,6 +14,9 @@
     <div class="container">
         <div class="article-blk-main">
             <div class="press-releases-popup row">
+                <div class="col-md-12 show-img-mobile py-2">
+                <img src="images/what-is-edge-computing.png" alt="pr-image-2" width="1280" height="670">
+                </div>
                 <div class="col-lg-6">
                     <h3>What is Edge Computing? <br>
 
@@ -44,10 +47,7 @@
 
                 </div>
                 <div class="col-lg-6">
-                    <br>
-                    <br>
-                    <img src="images/what-is-edge-computing.png" alt="pr-image-2" width="1280" height="670">
-                    <br>
+                    <img src="images/what-is-edge-computing.png" alt="pr-image-2" width="1280" height="670" class="hide-img-mobile py-3">
                     <p><b>Bandwidth Optimization:</b></p>
                     <p>Edge computing optimizes bandwidth usage by processing data locally, minimizing the need to transmit voluminous raw data to centralized cloud servers. This not only conserves bandwidth but also alleviates network congestion. </p>
                     <p><b> Enhanced Security:</b></p>

@@ -6964,6 +6964,14 @@ top: 185px !important;
     .noc p {
         padding-top: 15px;
     }
+
+    .hide-para-mobile {
+        display: none;
+    }
+
+    .show-para-mobile {
+        display: block;
+    }
 }
 
 
@@ -7167,6 +7175,22 @@ top: 185px !important;
 
     .noc-part-2 p {
         padding-top: 1rem !important;
+    }
+
+    .hide-img-mobile {
+        display: none;
+    }
+
+    .show-img-mobile {
+        display: block;
+    }
+
+    .hide-para-mobile {
+        display: none;
+    }
+
+    .show-para-mobile {
+        display: block;
     }
 }
 

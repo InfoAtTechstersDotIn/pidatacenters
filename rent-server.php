@@ -45,38 +45,38 @@ $seo_keywords = "";
 
             <ul class="slider-rent">
                 <li>
-                    <img src="images/1-B.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
-                    <img src="images/1-G.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+                    <img src="images/b-1.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                    <img src="images/g-1.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
                     <a href="checkout.php?id=1">BUY NOW</a>
                 </li>
                 <li>
-                    <img src="images/2-B.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
-                    <img src="images/2-G.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+                    <img src="images/b-2.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                    <img src="images/g-2.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
                     <a href="checkout.php?id=2">BUY NOW</a>
                 </li>
                 <li>
-                    <img src="images/3-B.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
-                    <img src="images/3-G.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+                    <img src="images/b-3.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                    <img src="images/g-3.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
                     <a href="checkout.php?id=3">BUY NOW</a>
                 </li>
                 <li>
-                    <img src="images/4-B.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
-                    <img src="images/4-G.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+                    <img src="images/b-4.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                    <img src="images/g-4.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
                     <a href="checkout.php?id=4">BUY NOW</a>
                 </li>
                 <li>
-                    <img src="images/5-B.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
-                    <img src="images/5-G.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+                    <img src="images/b-5.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                    <img src="images/g-5.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
                     <a href="checkout.php?id=5">BUY NOW</a>
                 </li>
                 <li>
-                    <img src="images/6-B.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
-                    <img src="images/6-G.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+                    <img src="images/b-6.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                    <img src="images/g-6.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
                     <a href="checkout.php?id=6">BUY NOW</a>
                 </li>
                 <li>
-                    <img src="images/7-B.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
-                    <img src="images/7-G.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+                    <img src="images/b-7.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                    <img src="images/g-7.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
                     <a href="checkout.php?id=7">BUY NOW</a>
                 </li>
             </ul>

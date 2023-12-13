@@ -39,27 +39,31 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                             <li>Performance and Quality Reporting </li>
                             <li>Security Alerts </li>
                             <li>Threat Analysis </li>
-                            <!-- <li>Intrusion Prevention Systems </li>
-                            <li>Incident Response </li>
-                            <li>Policy Enforcement (As Per User Guidelines) </li>
-                            <li>Quality Control and Assurance (in terms of the NOC) </li>
-                            <li>Data and Storage Compliance </li> -->
                         </ul>
                     </div>
-                    <div class="col-md-4"><img src="images/new-noc-1.png"></div>
+                    <div class="col-md-4 img-center"><img src="images/new-noc-1.png"></div>
                     <div class="col-md-4 bullets">
                         <ul>
-                             <li>Intrusion Prevention Systems </li>
+                            <!-- <li>Threat Analysis </li> -->
+                            <li>Intrusion Prevention Systems </li>
                             <li>Incident Response </li>
-                            <li>Policy Enforcement (As Per User Guidelines) </li>
-                            <li>Quality Control and Assurance (in terms of the NOC) </li>
+                            <li>Policy Enforcement <br>(As Per User Guidelines) </li>
+                            <li>Quality Control and Assurance <br>(in terms of the NOC) </li>
                             <li>Data and Storage Compliance </li>
                         </ul>
                     </div>
-                    <div class="list-para py-3">
-                        <p>The key benefit of our NOC service is real-time responses and quick resolution. A prompt response reduces disruptions and prevents major business losses. NOC as a service lets businesses analyze complex network infrastructure, identify disruption causes, and prevent future incidents. A proactive approach can protect sensitive data, avoid costly downtime, and ensure smooth operations. </p>
-                    </div>
                 </div>
+                <!-- <div class="row row-2">
+                    <div class="col-md-4 bullets">
+                        <ul>
+                            <li>Data and Storage Compliance </li>
+                        </ul>
+                    </div>
+                </div> -->
+                <div class="list-para py-4">
+                    <p>The key benefit of our NOC service is real-time responses and quick resolution. A prompt response reduces disruptions and prevents major business losses. NOC as a service lets businesses analyze complex network infrastructure, identify disruption causes, and prevent future incidents. A proactive approach can protect sensitive data, avoid costly downtime, and ensure smooth operations. </p>
+                </div>
+
             </div>
 
             <div class="noc-part-3">
@@ -111,7 +115,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                     <div class="row py-3">
                         <div class="col-md-3">
                             <div class="visible-cont">
-                                <img src="images/n-s-d-icons/continued-monitoring-and-maintenance.png">
+                                <img src="images/n-s-d-icons/monitoring-and-mentainance.png">
                                 <h5>Continued Monitoring and Maintenance</h5>
                             </div>
                             <div class="hide-cont">
@@ -195,8 +199,8 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-4">
+                    <div class="row row-2">
+                        <div class="col-md-3">
                             <div class="visible-cont">
                                 <img src="images/n-s-d-icons/regular-updates-and-reports.png">
                                 <h5>Regular Updates and Reports</h5>
@@ -205,7 +209,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                                 <p>Furnishing detailed insights to keep you informed. </p>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <div class="visible-cont">
                                 <img src="images/n-s-d-icons/dedicated-service-and-support.png">
                                 <h5>Dedicated Service and Support</h5>

@@ -10,6 +10,10 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
 
 <?php include('php/includes-techsters/header.php'); ?>
 
+<head>
+ <link rel="canonical" href="https://www.pidatacenters.com/dc-infrastructure.php"/>
+</head>
+
 
 <style>
     body {

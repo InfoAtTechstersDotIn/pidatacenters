@@ -10,20 +10,17 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
 ?>
 
    <head>
-
-   </head>
-
-   <?php include('php/includes-techsters/header.php'); ?>
-
-   <style>
+      <style>
          #myBtn2 {
             display: none;
          }
 
-       input {
-    line-height: 35px !important;
-}
       </style>
+   </head>
+
+   <?php include('php/includes-techsters/header.php'); ?>
+
+
 
    <style>
       textarea#input_25_8 {
@@ -40,6 +37,13 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
          display: inline;
          color: #0056b3;
       }
+
+
+       input {
+    line-height: 35px !important;
+}
+
+
    </style>
    <!-- main starts here -->
 
@@ -78,31 +82,31 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
                         <?php
                         if ($id == 1) {
                         ?>
-                           <img src="images/1-B.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
+                           <img src="images/b-1.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
                         <?php
                         } else if ($id == 2) {
                         ?>
-                           <img src="images/2-B.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
+                           <img src="images/b-2.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
                         <?php
                         } else if ($id == 3) {
                         ?>
-                           <img src="images/3-B.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
+                           <img src="images/b-3.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
                         <?php
                         } else if ($id == 4) {
                         ?>
-                           <img src="images/4-B.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
+                           <img src="images/b-4.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
                         <?php
                         } else if ($id == 5) {
                         ?>
-                           <img src="images/5-B.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
+                           <img src="images/b-5.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
                         <?php
                         } else if ($id == 6) {
                         ?>
-                           <img src="images/6-B.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
+                           <img src="images/b-6.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
                         <?php
                         } else if ($id == 7) {
                         ?>
-                           <img src="images/7-B.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
+                           <img src="images/b-7.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
                         <?php
                         }
                         ?>
