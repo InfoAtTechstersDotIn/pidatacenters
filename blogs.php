@@ -266,7 +266,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-40e89254-7fff-c3b0-475b-7f4ca3703769">COVID-19 has definitely set in motion an unprecedented and extraordinary play of events in every sphere that involves humankind. Be it education, healthcare, technology, banking, entertainment, travel &amp; tourism or even something as ordinary as household shopping. These and other</strong></p>
                         <p></p>
-                        <a href="blog-14.php" class="read-more">Read More</a>
+                        <a href="data-center-infrastructure-post-COVID-19.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -283,7 +283,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-01b3fd7d-7fff-2cb6-a038-c1b8cbb02a3e">In February 2019, FireEye &#8216; a US cybersecurity firm &#8217; &#8216; zeroed in on a hacker tagged only as &#8216;fallensky519&#8217; who was on the Most Wanted List for stealing personal data of 6.8 million users from an Indian healthcare website.</strong></p>
                         <p></p>
-                        <a href="blog-15.php" class="read-more">Read More</a>
+                        <a href="data-localization.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -300,7 +300,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-b60ebc0e-7fff-7e01-c273-c3890d462bb7">&#8216;Smart Cities&#8217; is one of the most popular and emerging use cases of data centers, especially in India. There are more than 100 &#8216;Smart City&#8217; projects being already announced and more than 500 &#8216;Amrut Town&#8217; projects are being planned in</strong></p>
                         <p></p>
-                        <a href="blog-16.php" class="read-more">Read More</a>
+                        <a href="edge-data-centers.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -317,7 +317,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-f1d10dcb-7fff-ad99-1516-4d815f7a1692">The early 2000&#8217;s saw a trend of rapid industrialization on Indian soil. Software, Information Technology, E-Commerce, Banking, Pharmaceuticals, Manufacturing, Trade, and several other types of domains, received a boost that had never been witnessed before.&nbsp;</strong></p>
                         <p></p>
-                        <a href="blog-17.php" class="read-more">Read More</a>
+                        <a href="decentralization-of-infrastructure.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -334,7 +334,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-51524d97-7fff-34c1-7a32-5e2379798beb">2019 is going to see a significant leap in the current digital India trends. Some of the technologies are already going mainstream. These life-enhancing smarter technologies will further boost our productivity and enhance our daily living conditions.&nbsp;</strong></p>
                         <p></p>
-                        <a href="blog-18.php" class="read-more">Read More</a>
+                        <a href="trends-in-digital-India.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -351,7 +351,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-e1e51040-7fff-5fd1-f8e5-fede4c416e03">Having spent the last couple of months with experts in the industry and talking to many customers, I thought I will make a humble attempt to put together a few points on why enterprises should adopt cloud on a robust</strong></p>
                         <p></p>
-                        <a href="blog-19.php" class="read-more">Read More</a>
+                        <a href="why-enterprises-should-adopt-cloud.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -368,7 +368,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-04d0aa5e-7fff-4383-8f1b-1f635588e278">The &#8216;WannaCry&#8217; ransomware attack &#8217;“ one of the largest ever cyber attacks brought computer systems across the globe to their knees, locking people out of their data and demanding that they pay a ransom or lose everything. More than 200,000</strong></p>
                         <p></p>
-                        <a href="blog-20.php" class="read-more">Read More</a>
+                        <a href="wannacry-ransomware.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -385,7 +385,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-e864fb98-7fff-624e-912d-ac7a72e8d3e4">Being lazy is good, exciting and interesting. It is the best feeling always. Be lazy, be happy, stay in comfort. The word is procrastination, coined around 1588 A.D, but being widely used in 20th century. It is the after effects</strong></p>
                         <p></p>
-                        <a href="blog-21.php" class="read-more">Read More</a>
+                        <a href="kickback-procrastination.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -402,7 +402,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p>First let me categorically state that this is my first honest attempt at blogging. Guess there are always certain things which are new and so is my experience that I want to share with you all. I think it was</p>
                         <p></p>
-                        <a href="blog-22.php" class="read-more">Read More</a>
+                        <a href="experience.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -419,7 +419,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-eb45c09b-7fff-fb90-e6cd-c1f1366d5489">&#8216;Failing to plan can be planning to fail&#8217; We should device a habit of planning the day in advance. This lets us know the top agenda tasks for the day before we start. To operate on memory is not advisable</strong></p>
                         <p></p>
-                        <a href="blog-23.php" class="read-more">Read More</a>
+                        <a href="starting-a-day-unplanned.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -436,7 +436,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-cd050eeb-7fff-3987-0794-a11c7d7b4a06">Goods and Services Tax (GST) is the latest buzz in Indian commerce today. To explain simply, Goods and Services Tax (GST) is a comprehensive tax levied on manufacture, sale and consumption of goods and services at a national level. Through</strong></p>
                         <p></p>
-                        <a href="blog-24.php" class="read-more">Read More</a>
+                        <a href="demystifying-GST.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -453,7 +453,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-13b7f422-7fff-ffb7-8291-e2ec9707b739">Transformational leadership is an efficient and effective hand holding that enables the team to undergo a transformation and inspires them to explore the uncharted waters. Transformational leaders inspire great fidelity and confidence in their followers. When to use the transformational</strong></p>
                         <p></p>
-                        <a href="blog-25.php" class="read-more">Read More</a>
+                        <a href="transformational-leadership.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -470,7 +470,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-1a3b16df-7fff-3059-be3e-79e79a7dcd25">Cloud computing provides the best solution to a number of long-standing challenges like scalability, true elasticity, barriers to entry, technology refreshes and cost savings. Along with the numerous benefits cloud offers, it also brings in some challenges in adoption to</strong></p>
                         <p></p>
-                        <a href="blog-26.php" class="read-more">Read More</a>
+                        <a href="myths-of-cloud-security.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -487,7 +487,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-12b0687b-7fff-3330-4273-e400f192a256">If we look at the scenario of data centers, nearly 75% of all the workloads of DC are Virtualized and this would further increase without any doubt. The major challenge IT admins generally face is that conventional storage is not</strong></p>
                         <p></p>
-                        <a href="blog-27.php" class="read-more">Read More</a>
+                        <a href="building-an-agile-data-center.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -504,7 +504,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-09e6d716-7fff-9e11-03ca-57caaf464204">Cloud Platform: Market intelligence today shows a constant rise in public cloud IaaS revenues at a 28.2% CAGR from 2015-2020, from $12.6 billion to $43.6 billion. The staggering hike in numbers owes to the fact that nearly 2/3 of</strong></p>
                         <p></p>
-                        <a href="blog-28.php" class="read-more">Read More</a>
+                        <a href="adoption-to-cloud-platform.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -521,7 +521,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-44b87a9a-7fff-308a-ac7e-5897d310c854">Positive Work Environment: Organizations today are goal driven entities. They strive to perform the best and make the most out of every thing with an end goal of making profits , which is made possible only with the contribution of</strong></p>
                         <p></p>
-                        <a href="blog-29.php" class="read-more">Read More</a>
+                        <a href="positive-work-environment.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -538,7 +538,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-3a909168-7fff-85f0-b0d7-6b3b1cb909b3">Managed services have generated significant buzz in the IT industry over the last few years. In this business model, managed service providers (MSP) viz. systems integrators and solution providers take over all or part of a customer&#8217;s technologies and manage</strong></p>
                         <p></p>
-                        <a href="blog-30.php" class="read-more">Read More</a>
+                        <a href="managed-services-in-the-IT-industry.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
