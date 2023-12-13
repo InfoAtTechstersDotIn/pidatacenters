@@ -45,7 +45,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-3a909168-7fff-85f0-b0d7-6b3b1cb909b3">In the dynamic landscape of cloud computing and data management, the partnership between Pi Datacenters and Oracle emerges as a paradigm of innovation and reliability.</strong></p>
                         <p></p>
-                        <a href="blog-1.php" class="read-more">Read More</a>
+                        <a href="Pi-oracle-strategic-partnership.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -62,7 +62,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <h4>Finding the Ideal Data Center: The Reliability &amp; Scalability Aspects</h4>
                         <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p>The importance of Data Centers continues to increase as more businesses and individuals rely on them for data storage, processing, and access.</p>
-                        <a href="blog-2.php" class="read-more">Read More</a>
+                        <a href="data-center-reliability-and-scalability.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -79,7 +79,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-a617d0e5-7fff-4857-9c5a-b4f39d644281">&#8216;India lives in its villages&#8217;, stated the father of the nation decades ago which still holds true. The Indian economy has been on a growth trajectory over the last couple of decades. Prime Minister Narendra Modi&#8217;s vision of making India</strong></p>
                         <p></p>
-                        <a href="blog-3.php" class="read-more">Read More</a>
+                        <a href="growth-from-rural-India.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -96,7 +96,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p>&#8216;A leader is one who knows the way, goes the way and shows the way.&#8217; The essence of good leadership lies in these golden words by John C. Maxwell. A leader is also someone who helps you find a way even if he doesn&#8217;t know the way.</p>
                         <p></p>
-                        <a href="blog-4.php" class="read-more">Read More</a>
+                        <a href="leadership-is-earned.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -113,7 +113,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p>Our global home has witnessed innumerable historical milestones across the ages, spanning political upheavals and wars to epidemics and pandemics. From the oldest recorded Typhoid Epidemic in 430 BC Athens</p>
                         <p></p>
-                        <a href="blog-5.php" class="read-more">Read More</a>
+                        <a href="world-and-COVID.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -130,7 +130,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-2909ddca-7fff-3698-8c55-e3d2278631b0">It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the caf© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and afte</strong></p>
                         <p></p>
-                        <a href="blog-6.php" class="read-more">Read More</a>
+                        <a href="the-seven-years-itch.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -147,7 +147,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-16a938fd-7fff-72db-2864-56143bb2ed92">Let&#8217;s talk about &#8216;Metaverses&#8217; First, let&#8217;s get a common misconception out of the way. There isn&#8217;t just one &#8216;Metaverse&#8217;. Let me elaborate. Metaverse&#8217; as a term was coined by author Neal Stephenson in his science-fiction novel &#8216;Snow Crash&#8217;, back in</strong></p>
                         <p></p>
-                        <a href="blog-7.php" class="read-more">Read More</a>
+                        <a href="metaverse-into-data-center-innovation.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -164,7 +164,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-b052dcc4-7fff-524e-c108-96d96c372699">One Platform Container Services &#8216;K8SaaS&#8217; On Cloud</strong></p>
                         <p></p>
-                        <a href="blog-8.php" class="read-more">Read More</a>
+                        <a href="platform-container-services.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -181,7 +181,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-ac16cfe1-7fff-41ff-39cd-d0bac3e2a4b4">The economic turmoil caused by the COVID has significantly disrupted the ecosystem on the whole. The post-pandemic situation in India and other countries has been an eye opener on the significance of having a stable supply chain. I have chosen</strong></p>
                         <p></p>
-                        <a href="blog-9.php" class="read-more">Read More</a>
+                        <a href="coal-carriers-chips-and-the-crisis.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -198,7 +198,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-2455d798-7fff-e787-7d2f-b42ffac548f6">Climate change has been a cause for concern over the last decade. This in turn, has given organisations and consumers alike ample reason to be able to demonstrate their potential for sustenance. Sustainability automatically gets you to veer towards reducing</strong></p>
                         <p></p>
-                        <a href="blog-10.php" class="read-more">Read More</a>
+                        <a href="colocation-to-reducing-carbon-footprint.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -215,7 +215,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-7a0153d3-7fff-3cea-02ed-c9b19d6f39d9">Cloud technology offers diverse advantages to businesses to maintain the competitive streak. Management cost reduction, scaling of technology, achieving efficiency peaks and maintaining low cost of operations are a few advantages to count on. Business journalists indicate that data migration</strong></p>
                         <p></p>
-                        <a href="blog-11.php" class="read-more">Read More</a>
+                        <a href="data-migration-methods.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -232,7 +232,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-72c0243a-7fff-e5b6-ef2e-d2cfd3fa5fbc">Data centers have emerged as the lifeline for organizations when the 90s heralded a massive technology boom, spanning micro to macro businesses, across the globe. With the advent of technology-oriented businesses, came multi-layered data dependency. As new organizations demanded market space</strong></p>
                         <p></p>
-                        <a href="blog-12.php" class="read-more">Read More</a>
+                        <a href="artificial-intelligence-in-data-centers.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>
@@ -249,7 +249,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <p></p>
                         <p><strong id="docs-internal-guid-d9798011-7fff-6028-c0c6-dcf4c41944c4">Ok, so as we were moving closer to settling the score with COVID (hopefully the vaccine thing would work), I was thinking, what&#8217;snext getting the world&#8217;s attention &#8217;¦ And BOOMMM!! We have WhatsApp and its data privacy fuss that gripped</strong></p>
                         <p></p>
-                        <a href="blog-13.php" class="read-more">Read More</a>
+                        <a href="whatsApp-privacy-policy.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>

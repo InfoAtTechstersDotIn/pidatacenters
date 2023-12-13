@@ -36,25 +36,75 @@ $seo_keywords = "unify software development, IT operations, devops software deve
     }
 
     .dev-img img {
-        width: 75%;
+        width: 85%;
         margin: 0 auto;
         border-radius: 20px;
     }
 
-    .dev-part-2 .col-md-6 ul li {
-        padding: 10px 0;
+    .dev-part-2 .col-md-4 img {
+        width: 15%;
     }
+    .dev-part-2 .col-md-4 div {
+    border: 2px solid #cccccc63;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 20px;
+}
 
-    /* 
-    .what-is-noc-lt ul li:nth-child(1):before {
-        position: absolute;
-        left: 15px;
-        top: 5px;
-        content: "";
-        background: url(../images/socicon-1.png) no-repeat;
-        width: 50px;
-        height: 50px;
-    } */
+.dev-part-2 .col-md-4 div:hover {
+    border: 2px solid #76b543;
+}
+
+.dev-part-2 .col-md-4 h5 {
+  padding: 10px 0;
+  font-weight: bold;
+}
+.dev-part-2 .col-md-4 p {
+ text-align: left;
+}
+
+.dev-part-3 .col-md-12{
+ padding: 10px 0 25px 0;
+}
+
+.dev-part-3 .col-md-12 h4{
+    color: #223f97;
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 1.9rem;
+}
+
+.dev-part-3  .col-md-3 div, .dev-part-3  .col-md-4 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 6px grey;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 15px 0;
+}
+.dev-part-3  .col-md-3 img{
+    width: 50%;
+}
+.dev-part-3  .col-md-3 h5{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px 0;
+    text-align: center;
+}
+.dev-part-3  .col-md-3 p{
+   text-align: center;
+   font-size: 15px;
+}
+.dev-part-3 .row-2{
+  display: flex;
+  justify-content: center;
+}
+.dev-part-3  .col-md-3 {
+    margin: 20px 0;
+}
 </style>
 <!--what-is-noc starts here -->
 <div class="dev-block">
@@ -63,52 +113,156 @@ $seo_keywords = "unify software development, IT operations, devops software deve
             <div class="row">
                 <div class="col-md-12">
                     <h2>Why <span style="color: #76b543;">DevOPs</span>?</h2>
-                    <p>In today's fast-paced business world, organizations are under constant pressure to deliver value to customers as quickly as possible. This is especially true in the world of software development, where new features and updates are in high demand.</p>
-                    <p>DevOps is one strategy that has gained popularity recently. A software engineering culture and practice that aims to unify software development (Dev) and IT operations (Ops). The goal of DevOps is to increase efficiency and reduce the time it takes to bring new software features and updates to market.</p>
+                    <p>In the dynamic landscape of contemporary business, organizations face constant demands to swiftly deliver value to their customers, a challenge particularly pronounced in the field of software development with its perpetual demand for new features and updates. </p>
+                    <p>Enter DevOps, a strategy that has garnered significant traction. DevOps is more than a mere methodology; it represents a software engineering culture that harmonizes the disciplines of software development (Dev) and IT operations (Ops). The overarching objective of DevOps is to enhance efficiency and truncate the time required to introduce new software features and updates to the market. </p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 py-3">
                     <div class="dev-img">
                         <img src="images/devops-img.jpg">
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <p>One of the key principles of DevOps is the use of automation and continuous integration (CI) to streamline the development process. By automating repetitive tasks and integrating code changes frequently, teams can detect and fix errors quickly, leading to faster software delivery. DevOps also promotes the use of agile and lean methodologies, which prioritize flexibility and rapid iteration, allowing organizations to respond quickly to changing business needs and customer demands.</p>
-                    <p>In addition to faster software delivery, DevOps also aims to improve software quality. By using automated testing and continuous integration, teams can identify and fix issues early in the development process, rather than waiting until the end of the cycle. This leads to higher quality software that is more stable and reliable.</p>
-                    <p>Another important aspect of DevOps is the emphasis on collaboration and communication between development and operations teams. By breaking down silos and fostering a culture of collaboration, organizations can more effectively work towards common goals and deliver value to customers.</p>
-                    <p>Overall, DevOps is a powerful approach that helps organizations to deliver value to customers faster and more efficiently, while also improving the quality and stability of their software. It is an increasingly important aspect of the software development process, and one that is worth considering for any organization looking to stay competitive in today's fast-paced business world.</p>
+                <div class="col-md-6  py-3">
+                    <p>At the core of DevOps lies the pivotal principle of leveraging automation and continuous integration (CI) to streamline the development process. Through the automation of repetitive tasks and frequent integration of code changes, teams can swiftly detect and rectify errors, expediting the software delivery process. DevOps also advocates for agile and lean methodologies, prioritizing flexibility and rapid iteration, enabling organizations to promptly respond to evolving business needs and customer expectations. </p>
+
+                    <p>Beyond the expeditious delivery of software, DevOps is committed to enhancing software quality. Automated testing and continuous integration enable teams to identify and address issues early in the development cycle, resulting in more robust and reliable software. </p>
+
+                    <p>Collaboration and communication are cornerstones of DevOps, fostering a culture where development and operations teams work seamlessly toward common goals. By dismantling silos and nurturing a collaborative environment, organizations can effectively strive for shared objectives and deliver enhanced value to customers. </p>
+
+                    <p>In the grand scheme, DevOps emerges as a potent approach, empowering organizations to deliver value more rapidly and efficiently while simultaneously elevating the quality and stability of their software. It stands as an indispensable facet of the software development process, a consideration vital for any organization aiming to remain competitive in the fast-paced realm of modern business. </p>
                 </div>
             </div>
 
-            <div class="dev-part-2">
+            <div class="dev-part-2 py-5">
                 <div class="row">
                     <div class="col-md-12">
                         <h2><span style="color: #76b543;">Pi</span> Value Proposition</h2>
                     </div>
-                    <div class="col-md-6">
-                        <ul>
-                            <li>Automates end-to-end delivery pipeline</li>
-                            <li>Facilitates continuous integration and development</li>
-                            <li>Increases efficiency and reduces time-to-value</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <ul>
-                            <li>Improves software quality</li>
-                            <li>Reduces cost of software delivery</li>
-                            <li>Comprehensive set of tools and services</li>
-                        </ul>
-                    </div>
+                   <div class="col-md-4">
+                         <div>
+                            <img src="images/n-s-d-icons/dev-1.png"> 
+    <h5>Automated Delivery Pipeline</h5>
+    <p>Pi automates the entire delivery pipeline for efficient software delivery. </p>
+</div>
+                   </div>
+
+                   <div class="col-md-4">
+                         <div>
+                            <img src="images/n-s-d-icons/dev-2.png"> 
+    <h5>Automated Delivery Pipeline</h5>
+    <p>Pi automates the entire delivery pipeline for efficient software delivery. </p>
+</div>
+                   </div>
+
+                   <div class="col-md-4">
+                         <div>
+                            <img src="images/n-s-d-icons/dev-3.png"> 
+    <h5>Automated Delivery Pipeline</h5>
+    <p>Pi automates the entire delivery pipeline for efficient software delivery. </p>
+</div>
+                   </div>
+
+                   <div class="col-md-4">
+                         <div>
+                            <img src="images/n-s-d-icons/dev-4.png"> 
+    <h5>Automated Delivery Pipeline</h5>
+    <p>Pi automates the entire delivery pipeline for efficient software delivery. </p>
+</div>
+                   </div>
+
+                   <div class="col-md-4">
+                         <div>
+                            <img src="images/n-s-d-icons/dev-5.png"> 
+    <h5>Automated Delivery Pipeline</h5>
+    <p>Pi automates the entire delivery pipeline for efficient software delivery. </p>
+</div>
+                   </div>
+
+                   <div class="col-md-4">
+                         <div>
+                            <img src="images/n-s-d-icons/dev-6.png"> 
+    <h5>Automated Delivery Pipeline</h5>
+    <p>Pi automates the entire delivery pipeline for efficient software delivery. </p>
+</div>
+                   </div>
 
                 </div>
             </div>
 
-            <div class="last-para mt-4">
-                <p>Pi DATACENTERS&#174; DevOps as a service offering helps organizations to quickly onboard their applications by automating the end-to-end delivery pipeline. This includes automating the build, test, and deployment processes, as well as integrating code changes frequently. By automating these tasks, organizations can reduce the time it takes to deliver new software features and updates to market, leading to increased efficiency and faster time-to-value.</p>
-                <p>In addition to automating the delivery process, Pi DATACENTERS&#174; DevOps as a Service also facilitates continuous integration and development across leading cloud platforms. This includes integrating code changes into a shared repository as well as automating the build and testing processes. By integrating code changes frequently, teams can identify and fix errors early in the development process, leading to higher software quality.</p>
-                <p>By using Pi DATACENTERS&#174; DevOps as a service, organizations can benefit from increased efficiency and reduced cost. The automation of repetitive tasks and the streamlined delivery process help to reduce the time and resources required to deliver software, while the focus on continuous integration and development helps to ensure that new software features and updates are of high quality.</p>
-                <p>DevOps as a Service at Pi DATACENTERS&#174; is an effective solution for organizations looking to improve the efficiency and quality of their software delivery process. It provides a comprehensive set of tools and services that help to automate the end-to-end delivery pipeline, facilitating continuous integration and development across leading cloud platforms. By using Pi DATACENTERS&#174; DevOps as a service, organizations can reduce the time and cost of delivering software while also improving the quality of it.</p>
+            <div class="dev-part-3">
+                <div class="row">
+                <div class="col-md-12">
+                        <h4>DevOps as a Service: Elevating Your Software Delivery Process </h4>
+                    </div>
+<div class="col-md-3">
+    <div class="h-100">
+<img src="images/n-s-d-icons/dev-1-1.svg"> 
+    <h5>Pi DevOps as a Service Overview</h5>
+    <p>Empowers organizations to onboard applications swiftly through end-to-end delivery pipeline automation.</p>
+</div>
+</div>
+<div class="col-md-3">
+<div class="h-100">
+<img src="images/n-s-d-icons/dev-1-2.svg"> 
+    <h5>Automation Components</h5>
+    <p>This includes automation of build, test, and deployment processes, ensuring efficiency.</p>
+</div>
+</div>
+<div class="col-md-3">
+    <div class="h-100">
+<img src="images/n-s-d-icons/dev-1-3.svg"> 
+    <h5>Code Changes Integration</h5>
+    <p>Seamless integration of code changes into a shared repository for early error detection.</p>
+</div>
+</div>
+<div class="col-md-3">
+    <div class="h-100">
+<img src="images/n-s-d-icons/dev-1-4.svg"> 
+    <h5>Efficiency and Cost Reduction</h5>
+    <p>This reduces the time and resources required for software delivery, enhancing efficiency.</p>
+</div>
+</div>
+                </div>
+<div class="row row-2">
+<div class="col-md-3">
+    <div class="h-100">
+<img src="images/n-s-d-icons/dev-1-5.svg"> 
+    <h5>Quality Assurance</h5>
+    <p> Emphasizes continuous integration and development to meet high-quality standards.</p>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="h-100">
+<img src="images/n-s-d-icons/dev-1-6.svg"> 
+    <h5>Comprehensive Solution</h5>
+    <p>Pi stands as a comprehensive solution with a suite of tools and services for enhanced efficiency and quality.</p>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="h-100">
+<img src="images/n-s-d-icons/dev-1-7.svg"> 
+    <h5>DevOps as a Service Benefits</h5>
+    <p>Trim delivery time and costs while enhancing software quality by embracing Pi's DevOps as a Service.</p>
+</div>
+</div>
+
+                </div>
 
             </div>
+
+
+            <div class="dev-part-4 py-4">
+<div class="row">
+    <div>
+        <p>The adoption of DevOps principles and leveraging Pi's comprehensive suite of tools and services emerge as essential components for organizations aiming to thrive in the modern business ecosystem. DevOps, with its emphasis on collaboration, automation, and continuous integration, not only accelerates the delivery of software but also elevates its quality. Pi, with its value proposition of automating the entire delivery pipeline, continuous integration, and efficiency enhancement, stands as a strategic partner in this journey. </p>
+        <p>As organizations navigate the challenges of delivering software in a dynamic market, Pi's DevOps as a Service becomes a beacon, offering end-to-end automation and streamlined processes. The result is not just a reduction in time and costs, but a significant improvement in the reliability and robustness of the software delivered. By embracing Pi's DevOps solutions, organizations position themselves not only to meet the demands of the present but also to adapt and innovate for the challenges that lie ahead. </p>
+        <p>In the era of rapid technological evolution, the synergy of DevOps principles and Pi's advanced offerings paves the way for a future where software delivery is not just a process but a strategic advantage. </p>
+    </div>
+
+</div>
+            </div>
+
 
         </div>
 
