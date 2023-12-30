@@ -4,8 +4,7 @@ $seo_description = "";
 $seo_keywords = "";
 ?>
 
-
-
+<?php include('php/includes-techsters/header.php'); ?>
 
 <head>
   <style>
@@ -14,7 +13,7 @@ $seo_keywords = "";
     }
   </style>
 </head>
-<?php include('php/includes-techsters/header.php'); ?>
+
 <?php
 //$servername = "localhost";
 $servername = "172.20.119.52";
@@ -33,7 +32,7 @@ if ($conn->connect_error) {
 <div class="about-banner">
   <div class="about-banner-blk">
     <img src="images/gallery-banner.jpg" alt="gallery-ban11" width="1920" height="210">
-    <h2>Pi Gallery</h2>
+    <h1>Pi Gallery</h1>
 
   </div>
 </div>

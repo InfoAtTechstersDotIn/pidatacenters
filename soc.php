@@ -12,7 +12,7 @@ $seo_keywords = "security operations center, Security Operations, managed soc se
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/soc-banner.jpg" alt="soc-banner" width="1920" height="210">
-        <h2>SOC</h2>
+        <h1>SOC</h1>
 
     </div>
 </div>

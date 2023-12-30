@@ -4,6 +4,9 @@ $seo_description = "Pi Datacenters - World-Class Data Center Infrastructure & Co
 $seo_keywords = "Data Center Infrastructure, colocation data center services, colocation services, Colocation data center providers, data center solution providers, data center management, data center solutions, data centers";
 ?>
 
+
+<?php include('php/includes-techsters/header.php'); ?>
+
 <head>
 
     <style>
@@ -15,14 +18,12 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
     </style>
 </head>
 
-<?php include('php/includes-techsters/header.php'); ?>
-
 
 <!-- main starts here -->
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/datacenter-services.png" alt="datacenter-services" width="1920" height="210" class="datacenter-services-img">
-        <h2>Data Center Infrastructure & Services</h2>
+        <h1>Data Center Infrastructure & Services</h1>
     </div>
 </div>
 <!--board-of-directors starts here -->
@@ -547,7 +548,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                     </div>
                     <br>
                     <p class="paraclass1">VESDA and Multiple Fire Detection System</p>
-                    <p class="paraclass1">Clean Agent â€“ Novec 1230 Gas suppression</p>
+                    <p class="paraclass1">Clean Agent &#8220; Novec 1230 Gas suppression &#8221;</p>
 
 
                 </div>
@@ -668,7 +669,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
             <p>Data Center Portfolio</p>
         </div>
         <div class="dc-download-brochure-right text-center">
-            <a href="images/dc-services-portfolio.pdf" target="_blank">Download Brochure</a>
+            <a href="images/new-data-center-services-portfolio-2.2.pdf" target="_blank">Download Brochure</a>
         </div>
     </div>
 </div>

@@ -61,25 +61,20 @@ $seo_description = "Contact our experts today at Pi Datacenters and explore poss
 $seo_keywords = "Contact Us, best data centers, data center services,  Data center networking provider in india";
 ?>
 
+
+<?php include('php/includes-techsters/header.php'); ?>
+
 <head>
   <style>
     #reach-btn {
       display: none;
     }
 
-
-    .contact_page_form
-      input{
-        line-height: 31px !important;
-      }
-    
+    .contact_page_form input {
+      line-height: 31px !important;
+    }
   </style>
 </head>
-<?php include('php/includes-techsters/header.php'); ?>
-
-
-
-
 
 <style>
   textarea#input_25_8 {
@@ -99,7 +94,7 @@ $seo_keywords = "Contact Us, best data centers, data center services,  Data cent
 <div class="about-banner">
   <div class="about-banner-blk">
     <img src="images/contact-us.jpg" alt="Contact-us-banner1" width="1920" height="210">
-    <h2>Contact Us</h2>
+    <h1>Contact Us</h1>
 
   </div>
 </div>

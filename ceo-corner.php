@@ -4,6 +4,10 @@ $seo_description = "Kalyan Muppineni - the CEO of Pi Datacenters| Business Leade
 $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hyperscale data center in India, Pi Datacenters";
 ?>
 
+
+
+<?php include('php/includes-techsters/header.php'); ?>
+
 <head>
   <style>
     #myBtn2 {
@@ -11,14 +15,11 @@ $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hypers
     }
   </style>
 </head>
-
-<?php include('php/includes-techsters/header.php'); ?>
-
 <!-- main starts here -->
 <div class="about-banner">
   <div class="about-banner-blk">
     <img src="images/ceo-corner-banner.jpg" alt="ceo-corner-banner" width="1920" height="210">
-    <h2>CEO Corner</h2>
+    <h1>CEO Corner</h1>
 
   </div>
 </div>
@@ -139,8 +140,84 @@ $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hypers
             <!--<h3>Testimonial</h3>
                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dui mauris, vehicula vel commodo at, sollicitudin sed magna. Quisque nec ligula ligula. Ut tincidunt molestie auctor. Morbi in lacus sit amet odio ornare tincidunt ut vitae nunc. Praesent iaculis luctus nisl, quis</p>-->
             <ul class="row ceo-block-blk">
+
+
+              <!-- newly added blogs -->
               <li class="col-md-6 col-lg-4">
-                <a href="finding-the-ideal-data-center-the-reliability-scalability-aspects.php">
+                <a href="fitness-for-techies.php">
+                  <div class="case-content ceo-corner">
+                    <figure>
+                      <img src="dashboard/uploads/Fitness.png" alt="blog-img-2" width="450" height="248">
+                    </figure>
+                    <h4>Fitness: The Missing Puzzle Piece for Techies!</h4>
+                    <p><strong id=""></strong>In the fast-paced digital age, techies have emerged as the architects of innovation, crafting our World. Their tireless efforts drive technological advancements, revolutionize industries, and change lives.</p>
+                    <a href="fitness-for-techies.php" class="read-more">Read More</a>
+                    <!--<span class="date">09 Apr, 2022</span>-->
+
+                  </div>
+                </a>
+              </li>
+              <li class="col-md-6 col-lg-4">
+                <a href="working-from-work.php">
+                  <div class="case-content ceo-corner">
+                    <figure>
+                      <img src="dashboard/uploads/WFW.png" alt="blog-img-2" width="450" height="248">
+                    </figure>
+                    <h4>Working From Work: The Ultimate Reality!!</h4>
+                    <p><strong id=""></strong>In this post-COVID era characterized by rapid technological advancements, the allure of remote work and the convenience it offers have captured the attention of professionals worldwide.</p>
+                    <a href="working-from-work.php" class="read-more">Read More</a>
+                    <!--<span class="date">09 Apr, 2022</span>-->
+
+                  </div>
+                </a>
+              </li>
+              <li class="col-md-6 col-lg-4">
+                <a href="emotionally-intelligent-leaders.php">
+                  <div class="case-content ceo-corner">
+                    <figure>
+                      <img src="dashboard/uploads/leader.png" alt="blog-img-2" width="450" height="248">
+                    </figure>
+                    <h4>Emotional Intelligence in Leadership</h4>
+                    <p><strong id=""></strong>In today’s world of artificial intelligence, leadership is a human centered skill that AI can't replace. Enhancing leadership involves far more than mere employee management or task supervision. It encompasses the art of guiding, inspiring, and cultivating relationships to achieve collaborative success.</p>
+                    <a href="emotionally-intelligent-leaders.php" class="read-more">Read More</a>
+                    <!--<span class="date">09 Apr, 2022</span>-->
+
+                  </div>
+                </a>
+              </li>
+              <li class="col-md-6 col-lg-4">
+                <a href="social-media-dc.php">
+                  <div class="case-content ceo-corner">
+                    <figure>
+                      <img src="dashboard/uploads/Social-media.png" alt="blog-img-2" width="450" height="248">
+                    </figure>
+                    <h4>The Impact of Social Media on Data Centers</h4>
+                    <p><strong id=""></strong>Social media has profoundly altered how people communicate and interact with one another, and it has become a tool for conducting business and marketing in addition to online socializing. </p>
+                    <a href="social-media-on-dc.php" class="read-more">Read More</a>
+                    <!--<span class="date">09 Apr, 2022</span>-->
+
+                  </div>
+                </a>
+              </li>
+              <li class="col-md-6 col-lg-4">
+                <a href="gender-equity.php">
+                  <div class="case-content ceo-corner">
+                    <figure>
+                      <img src="dashboard/uploads/womens-day.png" alt="blog-img-2" width="450" height="248">
+                    </figure>
+                    <h4>Gender Equity Today For A Sustainable Tomorrow</h4>
+                    <p><strong id=""></strong>Today, we are celebrating International Women's Day for the year 2023 hashtag#EmbraceEquity, which has marked the contribution of women in every sphere of our lives for more than a century, including the cultural, political, and socio-economic domains. </p>
+                    <a href="gender-equity.php" class="read-more">Read More</a>
+                    <!--<span class="date">09 Apr, 2022</span>-->
+
+                  </div>
+                </a>
+              </li>
+
+
+
+              <li class="col-md-6 col-lg-4">
+                <a href="data-center-reliability-and-scalability.php">
                   <div class="case-content ceo-corner">
                     <figure>
                       <img src="https://pidatacenters.com/uploads/8831Blog-banner-2.png" alt="blog-img-2" width="450" height="248">
@@ -148,7 +225,7 @@ $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hypers
                     <h4>Finding the ideal Data Center</h4>
                     <!--<span class="date">09 Apr, 2022</span>-->
                     <p>The importance of Data Centers continues to increase as more businesses and individuals rely on them for data storage, processing, and access. </p>
-                    <a href="finding-the-ideal-data-center-the-reliability-scalability-aspects.php" class="read-more">Read More</a>
+                    <a href="data-center-reliability-and-scalability.php" class="read-more">Read More</a>
                   </div>
                 </a>
                 <!--<a href="https://pidatacenters.com/blog-details?id=38">
@@ -163,7 +240,7 @@ $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hypers
                                  </a>-->
               </li>
               <li class="col-md-6 col-lg-4">
-                <a href="leadership-is-earned-its-neither-a-promotion-nor-a-pay-raise.php">
+                <a href="leadership-is-earned.php">
                   <div class="case-content ceo-corner">
                     <figure>
                       <img src="https://pidatacenters.com/uploads/2494Leadership is earned.png" alt="blog-img-2" width="450" height="248">
@@ -171,7 +248,7 @@ $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hypers
                     <h4>Leadership is Earned. It&#8217;s Neither a Promotion Nor a Pay Raise !</h4>
                     <!--<span class="date">09 Apr, 2022</span>-->
                     <p>&#8220;A leader is one who knows the way, goes the way and shows the way.&#8221; The essence of good leadership lies in these golden words by John C. Maxwell. A leader is also someone who helps you find a way even if he doesn&#8217;t know the way.</p>
-                    <a href="leadership-is-earned-its-neither-a-promotion-nor-a-pay-raise.php" class="read-more">Read More</a>
+                    <a href="leadership-is-earned.php" class="read-more">Read More</a>
                   </div>
                 </a>
                 <!--<a href="https://pidatacenters.com/blog-details?id=38">
@@ -186,28 +263,28 @@ $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hypers
                                  </a>-->
               </li>
               <li class="col-md-6 col-lg-4">
-                <a href="the-world-before-and-after-covid.php">
+                <a href="world-and-COVID.php">
                   <div class="case-content ceo-corner">
                     <figure>
                       <img src="https://pidatacenters.com/uploads/4402The world before &amp; after covid.png" alt="blog-img-2" width="450" height="248">
                     </figure>
                     <h4>The World Before and After COVID</h4>
                     <p>Our global home has witnessed innumerable historical milestones across the ages, spanning political upheavals and wars to epidemics and pandemics. From the oldest recorded Typhoid Epidemic in 430 BC Athens</p>
-                    <a href="the-world-before-and-after-covid.php" class="read-more">Read More</a>
+                    <a href="world-and-COVID.php" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
 
                   </div>
                 </a>
               </li>
               <li class="col-md-6 col-lg-4">
-                <a href="metaverse-influx-into-data-center-innovation.php">
+                <a href="metaverse-into-data-center-innovation.php">
                   <div class="case-content ceo-corner">
                     <figure>
                       <img src="https://pidatacenters.com/uploads/2697blog-creative-1080x582-1.png" alt="blog-img-2" width="450" height="248">
                     </figure>
                     <h4>Metaverse Influx Into Data Center Innovation</h4>
                     <p><strong id="docs-internal-guid-16a938fd-7fff-72db-2864-56143bb2ed92">Let&#8217;s talk about &#8216;Metaverses&#8217; First, let&#8217;s get a common misconception out of the way. There isn&#8217;t just one &#8216;Metaverse&#8217;. Let me elaborate. Metaverse&#8217; as a term was coined by author Neal Stephenson in his science-fiction novel &#8216;Snow Crash&#8217;, back in</strong></p>
-                    <a href="metaverse-influx-into-data-center-innovation.php" class="read-more">Read More</a>
+                    <a href="metaverse-into-data-center-innovation.php" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
 
                   </div>
@@ -215,42 +292,42 @@ $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hypers
               </li>
 
               <li class="col-md-6 col-lg-4">
-                <a href="coal-carriers-chips-the-crisis.php">
+                <a href="coal-carriers-chips-and-the-crisis.php">
                   <div class="case-content ceo-corner">
                     <figure>
                       <img src="https://pidatacenters.com/uploads/2710kiran.jpg" alt="blog-img-2" width="450" height="248">
                     </figure>
                     <h4>Coal, Carriers, Chips & The Crisis</h4>
                     <p><strong id="docs-internal-guid-ac16cfe1-7fff-41ff-39cd-d0bac3e2a4b4">The economic turmoil caused by the COVID has significantly disrupted the ecosystem on the whole. The post-pandemic situation in India and other countries has been an eye opener on the significance of having a stable supply chain. I have chosen</strong></p>
-                    <a href="coal-carriers-chips-the-crisis.php" class="read-more">Read More</a>
+                    <a href="coal-carriers-chips-and-the-crisis.php" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
 
                   </div>
                 </a>
               </li>
               <li class="col-md-6 col-lg-4">
-                <a href="artificial-intelligence-in-data-centers-the-way-forward.php">
+                <a href="artificial-intelligence-in-data-centers.php">
                   <div class="case-content ceo-corner">
                     <figure>
                       <img src="https://pidatacenters.com/uploads/9435ceo-blog.png" alt="blog-img-2" width="450" height="248">
                     </figure>
                     <h4>Artificial Intelligence In Data Centers - The Way Forward</h4>
                     <p><strong id="docs-internal-guid-72c0243a-7fff-e5b6-ef2e-d2cfd3fa5fbc">Data centers have emerged as the lifeline for organizations when the 90s heralded a massive technology boom, spanning micro to macro businesses, across the globe. With the advent of technology-oriented businesses, came multi-layered data dependency. As new organizations demanded market space</strong></p>
-                    <a href="artificial-intelligence-in-data-centers-the-way-forward.php" class="read-more">Read More</a>
+                    <a href="artificial-intelligence-in-data-centers.php" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
 
                   </div>
                 </a>
               </li>
               <li class="col-md-6 col-lg-4">
-                <a href="Indias-data-center-infrastructure-the-key-for-post-covid-19-economic-era.php">
+                <a href="data-center-infrastructure-post-COVID-19.php">
                   <div class="case-content ceo-corner">
                     <figure>
                       <img src="https://pidatacenters.com/uploads/1927kalyan-blog-1-pic.png" alt="blog-img-2" width="450" height="248">
                     </figure>
                     <h4>India&#8217;s Data Center Infrastructure &#8220;The Key for Post COVID-19 Economic Era</h4>
                     <p><strong id="docs-internal-guid-40e89254-7fff-c3b0-475b-7f4ca3703769">COVID-19 has definitely set in motion an unprecedented and extraordinary play of events in every sphere that involves humankind. Be it education, healthcare, technology, banking, entertainment, travel &amp; tourism or even something as ordinary as household shopping. These and other</strong></p>
-                    <a href="Indias-data-center-infrastructure-the-key-for-post-covid-19-economic-era.php" class="read-more">Read More</a>
+                    <a href="data-center-infrastructure-post-COVID-19.php" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
 
                   </div>
@@ -258,48 +335,47 @@ $seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hypers
               </li>
 
               <li class="col-md-6 col-lg-4">
-                <a href="indias-data-is-its-national-treasure-that-needs-strict-data-localization.php">
+                <a href="data-localization.php">
                   <div class="case-content ceo-corner">
                     <figure>
                       <img src="https://pidatacenters.com/uploads/1945B1_Blog.png" alt="blog-img-2" width="450" height="248">
                     </figure>
                     <h4>India&#8217;s Data is its National Treasure that Needs Strict Data-Localization</h4>
                     <p><strong id="docs-internal-guid-01b3fd7d-7fff-2cb6-a038-c1b8cbb02a3e">In February 2019, FireEye &#8216; a US cybersecurity firm &#8217; &#8216; zeroed in on a hacker tagged only as &#8216;fallensky519&#8217; who was on the Most Wanted List for stealing personal data of 6.8 million users from an Indian healthcare website.</strong></p>
-                    <a href="indias-data-is-its-national-treasure-that-needs-strict-data-localization.php" class="read-more">Read More</a>
+                    <a href="data-localization.php" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
 
                   </div>
                 </a>
               </li>
               <li class="col-md-6 col-lg-4">
-                <a href="economy-needs-inclusive-growth-from-rural-india.php">
+                <a href="growth-from-rural-India.php">
                   <div class="case-content ceo-corner">
                     <figure>
                       <img src="https://pidatacenters.com/uploads/9764Economy needs inclusive growth from rural-India.png" alt="blog-img-2" width="450" height="248">
                     </figure>
                     <h4>$5T Economy Needs Inclusive Growth from Rural-India</h4>
                     <p><strong id="docs-internal-guid-a617d0e5-7fff-4857-9c5a-b4f39d644281">&#8220;India lives in its villages&#8221;, stated the father of the nation decades ago which still holds true. The Indian economy has been on a growth trajectory over the last couple of decades. Prime Minister Narendra Modi&#8217;s vision of making India</strong></p>
-                    <a href="economy-needs-inclusive-growth-from-rural-india.php" class="read-more">Read More</a>
+                    <a href="growth-from-rural-India.php" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
 
                   </div>
                 </a>
               </li>
               <li class="col-md-6 col-lg-4">
-                <a href="top-ten-trends-in-digital-india-2019-by-kalyan-muppaneni-founder-ceo-pi.php">
+                <a href="">
                   <div class="case-content ceo-corner">
                     <figure>
                       <img src="https://pidatacenters.com/uploads/8168PRO (3).jpg" alt="blog-img-2" width="450" height="248">
                     </figure>
                     <h4>Top 10 Trends in Digital India 2019 &#8211; “ By Kalyan Muppaneni, Founder & CEO, Pi</h4>
                     <p><strong id="docs-internal-guid-51524d97-7fff-34c1-7a32-5e2379798beb">2019 is going to see a significant leap in the current digital India trends. Some of the technologies are already going mainstream. These life-enhancing smarter technologies will further boost our productivity and enhance our daily living conditions.&nbsp;</strong></p>
-                    <a href="top-ten-trends-in-digital-india-2019-by-kalyan-muppaneni-founder-ceo-pi.php" class="read-more">Read More</a>
+                    <a href="trends-in-digital-India.php" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
 
                   </div>
                 </a>
               </li>
-
 
               <!--<li><ul class="row">
                              <li class="col-md-4">

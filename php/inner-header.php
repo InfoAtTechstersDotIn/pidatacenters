@@ -3,7 +3,7 @@
 
 <head>
 	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q27EFC7EEJ"></script>
+	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q27EFC7EEJ"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 
@@ -14,7 +14,7 @@
 
 		gtag('config', 'G-Q27EFC7EEJ');
 	</script>
-	<!-- Google Tag Manager -->
+	Google Tag Manager 
 	<script>
 		(function(w, d, s, l, i) {
 			w[l] = w[l] || [];
@@ -30,7 +30,7 @@
 				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
 			f.parentNode.insertBefore(j, f);
 		})(window, document, 'script', 'dataLayer', 'GTM-T3L588D');
-	</script>
+	</script> -->
 	<!-- End Google Tag Manager -->
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 

@@ -9,20 +9,14 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
    $seo_keywords = "Contact Us, best data centers, data center services,  Data center networking provider in india";
 ?>
 
-   <head>
-      <style>
-         #myBtn2 {
-            display: none;
-         }
-
-      </style>
-   </head>
 
    <?php include('php/includes-techsters/header.php'); ?>
 
-
-
    <style>
+      #myBtn2 {
+         display: none;
+      }
+
       textarea#input_25_8 {
          height: 100px !important;
       }
@@ -38,14 +32,23 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
          color: #0056b3;
       }
 
-
-       input {
-    line-height: 35px !important;
-}
-
-
+      input {
+         line-height: 35px !important;
+      }
    </style>
    <!-- main starts here -->
+
+
+   <?php
+   if ($id == 6) { ?>
+      <div>
+         jhkhkjhjkh
+      </div>
+   <?php } else if ($id == 7) { ?>
+      <div>
+
+      </div>
+   <?php } ?>
 
    <div class="about-banner">
       <div class="about-banner-blk">
@@ -102,11 +105,11 @@ if (isset($_GET['id']) && $_GET['id'] != "") {
                         <?php
                         } else if ($id == 6) {
                         ?>
-                           <img src="images/b-6.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
+                           <img src="images/b-6.svg" alt="rank-1-b" style="width:75%;" class="rent-blue">
                         <?php
                         } else if ($id == 7) {
                         ?>
-                           <img src="images/b-7.svg" alt="rank-1-b" style="width:75%" class="rent-blue">
+                           <img src="images/b-7.svg" alt="rank-1-b" style="width:75%;" class="rent-blue">
                         <?php
                         }
                         ?>

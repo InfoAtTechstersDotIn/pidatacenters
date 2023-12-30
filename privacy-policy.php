@@ -4,7 +4,7 @@ $seo_description = "";
 $seo_keywords = "";
 ?>
 
-
+<?php include('php/includes-techsters/header.php'); ?>
 
 <head>
    <style>
@@ -14,13 +14,12 @@ $seo_keywords = "";
       }
    </style>
 </head>
-<?php include('php/includes-techsters/header.php'); ?>
 <!-- main starts here -->
 
 <div class="about-banner">
    <div class="about-banner-blk">
       <img src="images/privacy-policy.png" alt="privacy-policy" width="1920" height="210">
-      <h2 class="text-center">Privacy Policy</h2>
+      <h1 class="text-center">Privacy Policy</h1>
 
    </div>
 </div>

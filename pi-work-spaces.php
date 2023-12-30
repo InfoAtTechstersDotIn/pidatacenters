@@ -9,7 +9,7 @@ $seo_keywords = "Pi Workspaces, virtual desktop infrastructure, virtual desktops
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/pi-workspaces-banner-new.jpg" alt="pi-workspaces-banner" width="1920" height="210">
-        <h2>Pi Workspaces (VDI)</h2>
+        <h1>Pi Workspaces (VDI)</h1>
 
     </div>
 </div>

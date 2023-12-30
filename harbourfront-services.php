@@ -12,7 +12,7 @@ $seo_keywords = "HarbourFront, Content Delivery Network, content delivery networ
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/harbourfront-banner.jpg" alt="harbourfront-banner" width="1920" height="210">
-        <h2>HarbourFront® (CDN)</h2>
+        <h1>HarbourFront® (CDN)</h1>
 
     </div>
 </div>

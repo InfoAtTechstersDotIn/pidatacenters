@@ -6,9 +6,6 @@
     $site_url = "http://localhost/pidatacenters/"
     ?>
 
-
-
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $seo_title ?></title>
@@ -176,7 +173,7 @@
                                             <a href="#">Other Could Services</a>
                                         </li> -->
                                         <li>
-                                            <a href="<?php echo $site_url ?>cloud-enablement.php">Cloud Enablement</a>
+                                            <a href="<?php echo $site_url ?>professional-services.php">Professional Services</a>
                                         </li>
 
                                         <li>
@@ -237,7 +234,7 @@
                                             <a href="https://pidatacenters.com/pi-cloud/pricing/#/cloudStorage">Cloud Storage</a>
                                         </li>
                                         <li>
-                                            <a href="<?php echo $site_url ?>rent-server.php">Rent A Rack</a>
+                                            <a href="<?php echo $site_url ?>rent-a-rack.php">Rent A Rack</a>
                                         </li>
                                         <li>
                                             <a href="https://picloud.ai/">Rent GPU Servers</a>
@@ -441,7 +438,7 @@
                                     </li>
 
                                     <li>
-                                        <a href="<?php echo $site_url ?>cloud-enablement.php">Cloud Enablement</a>
+                                        <a href="<?php echo $site_url ?>professional-services.php">Professional Services</a>
                                     </li>
                                     <!-- <li>
                                         <a href="industry-solutions">Other Could Services</a>
@@ -509,7 +506,7 @@
                                         <a href="https://pidatacenters.com/pi-cloud/pricing/#/cloudStorage">Cloud Storage</a>
                                     </li>
                                     <li>
-                                        <a href="rent-server.php">Rent A Rack</a>
+                                        <a href="rent-a-rack.php">Rent A Rack</a>
                                     </li>
                                     <li>
                                         <a href="https://picloud.ai/">Rent GPU Servers</a>
@@ -742,7 +739,7 @@
                         <label for="message">Message:</label>
                         <textarea id="message" name="Message" rows="4" required></textarea>
 
-                        <label for="checkbox"><input type="checkbox" required name="checkbox"  class="check-box">I Agree with The <a href="terms-conditions.php" target="_blank" style="color: #CB4721;"> &nbsp;Terms and Conditions</a></label>
+                        <label for="checkbox"><input type="checkbox" required name="checkbox" class="check-box">I Agree with The <a href="terms-conditions.php" target="_blank" style="color: #CB4721;"> &nbsp;Terms and Conditions</a></label>
 
                         <input class="sub_mit" type="submit" value="Submit">
 
@@ -785,8 +782,8 @@
                         <label for="message">Upload Configuration Document</label>
                         <input type="file" required name="Configuration Document">
 
-                        <label for="checkbox"><input type="checkbox" required name="checkbox"  class="check-box">I Agree with The  <a href="terms-conditions.php" target="_blank" style="color: #CB4721;">&nbsp;Terms and Conditions</a></label>
-                       
+                        <label for="checkbox"><input type="checkbox" required name="checkbox" class="check-box">I Agree with The <a href="terms-conditions.php" target="_blank" style="color: #CB4721;">&nbsp;Terms and Conditions</a></label>
+
 
                         <input class="sub_mit" type="submit" value="Submit">
 
@@ -836,7 +833,7 @@
 
 
 
-    <?php if (basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']) == 'compute.php') {
+    <?php if (basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']) == 'private-cloud.php') {
     ?>
         <title>Pidata centers</title>
         <meta name="description" content="">

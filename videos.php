@@ -27,7 +27,7 @@ $seo_keywords = "";
 <div class="about-banner">
   <div class="about-banner-blk">
     <img src="images/video.jpg" alt="videos-bann22" width="1920" height="210">
-    <h2>Pi Videos</h2>
+    <h1>Pi Videos</h1>
 
   </div>
 </div>

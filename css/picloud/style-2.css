@@ -7634,7 +7634,7 @@
 
     .article-blk-main {
         max-width: 1215px;
-        margin: -40px auto 0;
+        margin: 0 auto;
         background: #ffffff;
         padding: 20px;
         border-radius: 5px;
@@ -8355,9 +8355,9 @@
         text-align: center;
     }
 
-    .security_page h2 {
+    /* .security_page h2 {
         font-size: 40px !important;
-    }
+    } */
 
     .slick-dots {
         width: fit-content !important;
@@ -8376,9 +8376,9 @@
         z-index: 111;
     }
 
-    .article-blk-main {
+    /* .article-blk-main {
         margin: -40px auto 0;
-    }
+    } */
 
     .videoss .slick-prev,
     .videoss .slick-next {
@@ -8980,4 +8980,172 @@
 
     .show-para-mobile {
         display: none;
+    }
+
+    .show-section-mobile {
+        display: none;
+    }
+
+    /* home footer */
+    .top-foot ul {
+        float: left;
+    }
+
+    .hb-cuJoBox p {
+        text-align: center;
+    }
+
+    .hb-jorInfo {
+        padding: 0 !important;
+    }
+
+    .hb-jorInfo>p {
+        line-height: 3rem !important;
+        font-size: 20px !important;
+    }
+
+    .hb-depad {
+        padding-bottom: 0 !important;
+    }
+
+    .hb-JournLists {
+        padding: 0 0 42px 0 !important;
+    }
+
+    .inner-teli241 {
+        padding: 30px 5px;
+    }
+
+    /* titles */
+    .about-banner h1 {
+        color: #ffffff !important;
+        text-align: left;
+        font-weight: bold;
+        font-size: 45px !important;
+        line-height: 45px !important;
+    }
+
+    .about-banner.how .about-banner-blk h1 {
+        position: static;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .about-banner-blk h1 {
+        position: absolute;
+        top: 35% !important;
+        transform: translateY(-50%);
+        left: 40px;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+    }
+
+    .hb-bannerImg h1 {
+        position: absolute;
+        top: 15% !important;
+        left: 3%;
+        font-weight: bold;
+        color: #fff !important;
+        font-size: 45px;
+    }
+
+    .hb-childProducts>h2 {
+        font-size: 24px;
+    }
+
+    .ceo-blog li {
+        list-style-type: disc;
+    }
+
+    .anchor-color {
+        text-decoration: underline !important;
+        color: blue;
+    }
+
+    .pop_up .modal-content {
+        margin: 75px auto;
+    }
+
+    .hb-featuresList>li {
+        border-top: 5px solid #223f97 !important;
+    }
+
+    .hb-featuresList>li:hover {
+        transform: translateY(-6px);
+        border-top: 5px solid #76b543 !important;
+    }
+
+    /* brochure page */
+    .brochure-block {
+        max-width: 80%;
+        margin: 7% auto;
+    }
+
+    .brochure-block h3 {
+        color: #223f97;
+        font-weight: 700;
+    }
+
+    .brochure-block a {
+        color: #fff;
+        background-color: #223f97;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .brochure-block .brochure-btns {
+        text-align: center;
+        background-color: none;
+    }
+
+
+    .brochure-block .brochure-btns li {
+        padding: 5px 13px;
+        border-radius: 20px;
+        background-color: #223f97;
+    }
+
+    .brochure-block .brochure-btns li button {
+        border: none;
+        background: none;
+        outline: none;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .brochure-block .brochure-btns li:hover {
+        background-color: #76b543;
+    }
+
+    .brochure-block .brochure-btns li.active {
+        background-color: #223f97;
+    }
+
+    .brochure-block .brochure-btns {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .mobile-view-show {
+        display: none;
+    }
+
+    @media only screen and (max-width: 991px) {
+        .tabs-btns .active:after {
+            content: "";
+        }
+    }
+
+    @media screen and (max-width:599px) {
+        .mobile-view-hide {
+            display: none;
+        }
+
+        .mobile-view-show {
+            display: block;
+        }
     }

@@ -6,6 +6,10 @@ $seo_keywords = "";
 
 <?php include('php/includes-techsters/header.php'); ?>
 
+<head>
+	<link rel="canonical" href="https://www.pidatacenters.com/private-cloud.php" />
+</head>
+
 <div class="hb-bannerCont">
 	<div class="hb-bannerImgCont">
 		<div class="hb-bannerImg">
@@ -17,7 +21,7 @@ $seo_keywords = "";
 				<source media="(max-width: 768px)" srcset="./pi-cloud/images/banners/storage-banner.jpg">
 				<img src="./pi-cloud/images/banners/storage-banner.jpg" alt="pi-cloud Cloud Backup as a Service Banner" style="width:100%">
 			</picture>
-			<h2>Storage</h2>
+			<h1>Storage</h1>
 		</div>
 	</div>
 </div>

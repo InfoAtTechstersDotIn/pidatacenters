@@ -1,10 +1,18 @@
 <?php include('php/includes-techsters/header.php'); ?>
 <!-- main starts here -->
 
+
+<style>
+    #myBtn2 {
+        display: none;
+    }
+</style>
+
+
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/knowledge-hub.jpg" alt="knowledge-hub-banner" width="1920" height="210">
-        <h2>Knowledge Hub</h2>
+        <h1>Knowledge Hub</h1>
 
     </div>
 </div>
@@ -14,6 +22,9 @@
     <div class="container">
         <div class="article-blk-main">
             <div class="press-releases-popup row">
+                <div class="col-md-12 show-img-mobile py-2">
+                    <img src="images/what-are-hyperscale.png" alt="pr-image-2" width="1280" height="670">
+                </div>
                 <div class="col-lg-6">
                     <h3>What are Hyperscale Datacenters and How They Shape Tomorrow's Tech Landscape?
                     </h3>
@@ -41,10 +52,7 @@
 
                 </div>
                 <div class="col-lg-6">
-                    <br>
-                    <br>
-                    <img src="images/what-are-hyperscale.png" alt="pr-image-2" width="1280" height="670">
-                    <br>
+                    <img src="images/what-are-hyperscale.png" alt="pr-image-2" width="1280" height="670" class="hide-img-mobile py-3">
                     <p class="font-color">The benefits of hyperscale datacenters are substantial, making them integral to the modern technological landscape: </p>
                     <p><b>Scalability:</b></p>
                     <p>The primary advantage lies in the horizontal scalability of hyperscale datacenters. They can seamlessly expand to accommodate the growing demands for storage and computational power, providing a flexible solution for evolving requirements. </p>

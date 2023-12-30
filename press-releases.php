@@ -4,6 +4,9 @@ $seo_description = "Check Out the Latest News from India's Leading Data Storage 
 $seo_keywords = "data center news, enterprise cloud fabric, Hyperscale datacenter, data center industry in India, data center in India, ";
 ?>
 
+
+<?php include('php/includes-techsters/header.php'); ?>
+
 <head>
   <style>
     #myBtn2 {
@@ -11,12 +14,11 @@ $seo_keywords = "data center news, enterprise cloud fabric, Hyperscale datacente
     }
   </style>
 </head>
-<?php include('php/includes-techsters/header.php'); ?>
 <!-- main starts here -->
 <div class="about-banner">
   <div class="about-banner-blk">
     <img src="images/press-release-banner.jpg" alt="press-ban" width="1920" height="210">
-    <h2>Press Releases</h2>
+    <h1>Press Releases</h1>
 
   </div>
 </div>

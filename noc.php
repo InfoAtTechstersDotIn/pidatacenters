@@ -12,7 +12,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/noc-banner.jpg" alt="noc-banner" width="1920" height="210">
-        <h2>NOC</h2>
+        <h1>NOC</h1>
 
     </div>
 </div>
@@ -82,11 +82,11 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                 <div class="container">
                     <div class="row py-3">
                         <div class="col-md-12">
-                            <h2>Advantages of <span style="color: #76b543;">Pi NOC</span>?</h2>
-                            <p>Our Network Operations Center is not just a reactionary force; it's a proactive ally in optimizing your network's performance and ensuring its security. This extends beyond the scope of simply monitoring for potential issues; it also encompasses implementing best practices to ensure that the network operates optimally and furnishing regular updates and reports on its status. </p>
+                            <!-- <h2>Advantages of <span style="color: #76b543;">Pi NOC</span>?</h2> -->
+                            <h2 style="font-size: 30px;color: #76b543; line-height: 2rem;">Advantages of Pi NOC</h2>
                         </div>
 
-                        <div class="row mt-3">
+                        <div class="row">
                             <div class="col-md-3">
                                 <h5>Installing, Troubleshooting, and Patching</h5>
                                 <p>Our dedicated NOC team handles critical network software, ensuring seamless operations. </p>

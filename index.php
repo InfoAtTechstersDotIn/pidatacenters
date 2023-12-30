@@ -312,32 +312,32 @@
 
                                         <ul class="subslider">
                                             <li>
-                                                <figure> <img src="images/new-white-space.png" alt="data-center-services-img-1" width="866" height="649"></figure>
+                                                <figure> <img src="images/new-white-space.webp" alt="data-center-services-img-1" width="866" height="649"></figure>
                                                 <p class="dcsi">Whitespace</p>
                                             </li>
                                             <li>
-                                                <figure> <img src="images/new-subcabinets.png" alt="data-center-services-img-2" width="866" height="649"></figure>
+                                                <figure> <img src="images/new-subcabinets.webp" alt="data-center-services-img-2" width="866" height="649"></figure>
                                                 <p class="dcsi">Subcabinet Services</p>
                                             </li>
                                             <li>
-                                                <figure> <img src="images/new-racks.png" alt="racks" width="866" height="649"></figure>
+                                                <figure> <img src="images/new-racks.webp" alt="racks" width="866" height="649"></figure>
                                                 <p class="dcsi">Racks</p>
                                             </li>
                                             <li>
-                                                <figure> <img src="images/new-private-suites.png" alt="data-center-services-img-4" width="866" height="649"></figure>
+                                                <figure> <img src="images/new-private-suites.webp" alt="data-center-services-img-4" width="866" height="649"></figure>
                                                 <p class="dcsi">Private Suites</p>
                                             </li>
                                             <li>
-                                                <figure> <img src="images/new-hands-and-feet-support.png" alt="data-center-services-img-5" width="866" height="649"></figure>
+                                                <figure> <img src="images/new-hands-and-feet-support.webp" alt="data-center-services-img-5" width="866" height="649"></figure>
                                                 <p class="dcsi">Hands & Feet</p>
                                             </li>
                                             <li>
-                                                <figure> <img src="images/new-caged-solution.png" alt="data-center-services-img-6" width="866" height="649"></figure>
+                                                <figure> <img src="images/new-caged-solution.webp" alt="data-center-services-img-6" width="866" height="649"></figure>
                                                 <p class="dcsi">Caged Solution</p>
                                             </li>
                                         </ul>
                                         <div class="know-more-btn">
-                                            <a href="data-center-infrastructure-services.php">Know More</a>
+                                            <a href="colocation.php">Know More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -578,7 +578,7 @@
 
                                                     </div>
                                                     <div class="col-md-6 about-loc">
-                                                        <img src="images/new-vijayawada-dc.png" alt="amaravati" width="656" height="316">
+                                                        <img src="images/new-vijayawada-dc.webp" alt="amaravati" width="656" height="316">
                                                     </div>
 
                                                 </div>
@@ -598,7 +598,7 @@
 
                                                     </div>
                                                     <div class="col-md-6 hyd-img about-loc">
-                                                        <img src="images/new-hyd-dc.png" alt="amaravati" width="656" height="316">
+                                                        <img src="images/new-hyd-dc.webp" alt="amaravati" width="656" height="316">
                                                     </div>
 
                                                 </div>
@@ -617,7 +617,7 @@
 
                                                     </div>
                                                     <div class="col-md-6 about-loc">
-                                                        <img src="images/new-kochi-dc.png" alt="dc" width="656" height="316">
+                                                        <img src="images/new-kochi-dc.webp" alt="dc" width="656" height="316">
                                                     </div>
 
                                                 </div>
@@ -660,7 +660,7 @@
 
                                         </ul>
                                         <div class="know-more">
-                                            <a href="data-center-infrastructure-services.php#locations5" class="dc">Know More</a>
+                                            <a href="colocation.php#locations5" class="dc">Know More</a>
 
 
                                         </div>
@@ -823,7 +823,7 @@
                                                 <div class="strategic-core-council-cnt1">
                                                     <h3>Container as a Service</h3>
                                                     <div class="know-more">
-                                                        <a href="compute.php" class="dc" target="_blank">Know More</a>
+                                                        <a href="private-cloud.php" class="dc" target="_blank">Know More</a>
                                                     </div>
                                                 </div>
                                             </li>
@@ -850,7 +850,7 @@
                                                 <div class="strategic-core-council-cnt1">
                                                     <h3> Infrastructure as a service</h3>
                                                     <div class="know-more">
-                                                        <a href="data-center-infrastructure-services-advisory.php" class="dc" target="_blank">Know More</a>
+                                                        <a href="dc-infrastructure.php" class="dc" target="_blank">Know More</a>
                                                     </div>
                                                 </div>
                                             </li>
@@ -1002,7 +1002,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-1 p-3 cookie-x">
-                        <button onclick="handleSetCookie()">&times;</button>
+                        <button onclick="handleCloseCookiePopup()">&times;</button>
                     </div>
                     <div class="col-md-8 mt-4 c-banner">
                         <h4>We Use Cookies</h4>
@@ -1016,7 +1016,7 @@
                         <a href="terms-conditions.php#cookie" target="_blank"> Cookie Policy </a>
                     </div>
                     <div class="col-md-1 p-3 cookie-x-2">
-                        <button onclick="handleSetCookie()">&times;</button>
+                        <button onclick="handleCloseCookiePopup()">&times;</button>
                     </div>
                 </div>
             </div>
@@ -1475,13 +1475,21 @@
     <!-- COOKIE SECTION -->
     <script>
         const handleSetCookie = () => {
-            localStorage.setItem('cookiAccepted', true);
+            localStorage.setItem('cookiAccepted', "accepted");
+            document.getElementById('cookie-popup').style.display = "none";
             document.getElementById('cookie-popup').classList.remove('cookie-current');
         }
         const checkCookie = () => {
             if (!localStorage.getItem('cookiAccepted')) {
                 document.getElementById('cookie-popup').classList.add('cookie-current');
+            } else {
+                document.getElementById('cookie-popup').style.display = "none";
             }
+        }
+        const handleCloseCookiePopup = () => {
+            document.getElementById('cookie-popup').style.display = "none";
+            localStorage.setItem('cookiAccepted', "rejected");
+            document.getElementById('cookie-popup').classList.remove('cookie-current');
         }
         checkCookie()
     </script>

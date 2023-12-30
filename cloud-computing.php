@@ -1,10 +1,16 @@
 <?php include('php/includes-techsters/header.php'); ?>
 <!-- main starts here -->
 
+<style>
+    #myBtn2 {
+        display: none;
+    }
+</style>
+
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/knowledge-hub.jpg" alt="knowledge-hub-banner" width="1920" height="210">
-        <h2>Knowledge Hub</h2>
+        <h1>Knowledge Hub</h1>
 
     </div>
 </div>
@@ -14,6 +20,9 @@
     <div class="container">
         <div class="article-blk-main">
             <div class="press-releases-popup row">
+                <div class="col-md-12 show-img-mobile py-2">
+                    <img src="images/cloud-computing.png" alt="pr-image-2" width="1280" height="670">
+                </div>
                 <div class="col-lg-6">
                     <h3>What is Cloud Computing? A Comprehensive Exploration
                     </h3>
@@ -35,42 +44,39 @@
                     <p><b>Measured Service:</b></p>
                     <p>Cloud usage is metered, allowing organizations to pay for precisely the resources they consume, promoting cost-effectiveness and transparency.</p>
                     <p class="font-color">Service Models: </p>
-                  <p><b> Infrastructure as a Service (IaaS):</b></p>
-                  <p>Organizations can leverage virtualized computing resources such as servers, storage, and networking without the need to invest in or maintain physical hardware.</p>
-                  <p><b>Platform as a Service (PaaS): </b></p>
-                  <p>Developers can focus on application development without concerning themselves with the underlying infrastructure, streamlining the development lifecycle.</p>
-                  <p><b> Software as a Service (SaaS):</b></p>
-                  <p> Users can access software applications over the internet, eliminating the need for local installations and maintenance.</p>
-             
+                    <p><b> Infrastructure as a Service (IaaS):</b></p>
+                    <p>Organizations can leverage virtualized computing resources such as servers, storage, and networking without the need to invest in or maintain physical hardware.</p>
+                    <p><b>Platform as a Service (PaaS): </b></p>
+                    <p>Developers can focus on application development without concerning themselves with the underlying infrastructure, streamlining the development lifecycle.</p>
+                    <p><b> Software as a Service (SaaS):</b></p>
+                    <p> Users can access software applications over the internet, eliminating the need for local installations and maintenance.</p>
+
 
 
 
                 </div>
                 <div class="col-lg-6">
-                    <br>
-                    <br>
-                    <img src="images/cloud-computing.png" alt="pr-image-2" width="1280" height="670">
-                    <br>
+                    <img src="images/cloud-computing.png" alt="pr-image-2" width="1280" height="670" class="hide-img-mobile py-3">
 
-                  <p class="font-color">Deployment Models: </p>
-                  <p><b>Public Cloud:</b></p>
-                  <p>Services are provided by third-party vendors and made available to the general public, offering scalability and cost-effectiveness.</p>
-                  <p><b>Private Cloud:</b></p>
-                  <p>Infrastructure is dedicated to a single organization, providing enhanced control, security, and customization.</p>
-                  <p><b>Hybrid Cloud: </b></p>
-                  <p>Blending elements of public and private clouds, this model allows data and applications to move seamlessly between environments, offering flexibility and strategic optimization.</p>
-                  <p class="font-color">Benefits of Cloud Computing: </p>
-                  <p><b>Cost Efficiency: </b></p>
-                  <p>Cloud computing eliminates the need for large upfront capital expenditures on hardware and infrastructure, enabling a pay-as-you-go model.</p>
-                  <p><b> Scalability: </b></p>
-                  <p>Organizations can scale resources up or down based on demand, ensuring optimal performance without overprovisioning.</p>
-                  <p><b>Flexibility and Mobility:</b></p>
-                  <p>Cloud services enable users to access resources and applications from any location with an internet connection, fostering a mobile and agile work environment.</p>
-                  <p><b>Security: </b></p>
-                  <p>Reputable cloud providers implement robust security measures, often surpassing what individual organizations can achieve, ensuring data integrity and confidentiality.</p>
-                  <p><b> Automatic Updates:</b></p>
-                  <p>Cloud providers handle software and security updates, relieving the burden on internal IT teams and ensuring systems are always up to date. </p>
-                  <p>In conclusion, the adoption of cloud computing is not just a technological shift but a strategic imperative for businesses aiming to thrive in the digital era. The scalability, flexibility, and cost-efficiency offered by cloud services position them as catalysts for innovation and growth. Furthermore, cloud computing enables businesses to access their data and applications from anywhere at any time, allowing for remote work and collaboration. This flexibility is especially crucial in today's globalized and fast-paced business environment. Additionally, the cost-efficiency of cloud services allows organizations to reduce their IT infrastructure expenses, freeing up resources to invest in other areas of their business. Overall, the adoption of cloud computing empowers businesses to stay competitive and adapt to the rapidly evolving digital landscape. </p>
+                    <p class="font-color">Deployment Models: </p>
+                    <p><b>Public Cloud:</b></p>
+                    <p>Services are provided by third-party vendors and made available to the general public, offering scalability and cost-effectiveness.</p>
+                    <p><b>Private Cloud:</b></p>
+                    <p>Infrastructure is dedicated to a single organization, providing enhanced control, security, and customization.</p>
+                    <p><b>Hybrid Cloud: </b></p>
+                    <p>Blending elements of public and private clouds, this model allows data and applications to move seamlessly between environments, offering flexibility and strategic optimization.</p>
+                    <p class="font-color">Benefits of Cloud Computing: </p>
+                    <p><b>Cost Efficiency: </b></p>
+                    <p>Cloud computing eliminates the need for large upfront capital expenditures on hardware and infrastructure, enabling a pay-as-you-go model.</p>
+                    <p><b> Scalability: </b></p>
+                    <p>Organizations can scale resources up or down based on demand, ensuring optimal performance without overprovisioning.</p>
+                    <p><b>Flexibility and Mobility:</b></p>
+                    <p>Cloud services enable users to access resources and applications from any location with an internet connection, fostering a mobile and agile work environment.</p>
+                    <p><b>Security: </b></p>
+                    <p>Reputable cloud providers implement robust security measures, often surpassing what individual organizations can achieve, ensuring data integrity and confidentiality.</p>
+                    <p><b> Automatic Updates:</b></p>
+                    <p>Cloud providers handle software and security updates, relieving the burden on internal IT teams and ensuring systems are always up to date. </p>
+                    <p>In conclusion, the adoption of cloud computing is not just a technological shift but a strategic imperative for businesses aiming to thrive in the digital era. The scalability, flexibility, and cost-efficiency offered by cloud services position them as catalysts for innovation and growth. Furthermore, cloud computing enables businesses to access their data and applications from anywhere at any time, allowing for remote work and collaboration. This flexibility is especially crucial in today's globalized and fast-paced business environment. Additionally, the cost-efficiency of cloud services allows organizations to reduce their IT infrastructure expenses, freeing up resources to invest in other areas of their business. Overall, the adoption of cloud computing empowers businesses to stay competitive and adapt to the rapidly evolving digital landscape. </p>
                 </div>
             </div>
         </div>

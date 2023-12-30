@@ -6,6 +6,9 @@ $seo_keywords = "About datacenters, Data center provider, leading data center, B
 ?>
 
 
+
+<?php include('php/includes-techsters/header.php'); ?>
+
 <head>
     <style>
         #myBtn2 {
@@ -13,16 +16,11 @@ $seo_keywords = "About datacenters, Data center provider, leading data center, B
         }
     </style>
 </head>
-
-
-<?php include('php/includes-techsters/header.php'); ?>
-
-
 <!-- main starts here -->
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/about-us-banner-img.jpg" alt="about-us" width="1920" height="210">
-        <h2>Who We Are</h2>
+        <h1>Who We Are</h1>
 
     </div>
 </div>
@@ -71,7 +69,7 @@ $seo_keywords = "About datacenters, Data center provider, leading data center, B
 
 
 
-                
+
 
                 </div>
                 <div class="what-drives-mission-right col-lg-5 align-middle ">

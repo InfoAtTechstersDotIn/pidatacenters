@@ -5,6 +5,9 @@ $seo_description = "Testimonials from our clients say about us. Being the most r
 $seo_keywords = "Data Center & Cloud related services, reliable Data Center & Cloud Partner, best datacenters in india, pi datacenters, professional Hyperscale Data Center, Data centers";
 ?>
 
+
+<?php include('php/includes-techsters/header.php'); ?>
+
 <head>
     <style>
         #myBtn2 {
@@ -18,9 +21,6 @@ $seo_keywords = "Data Center & Cloud related services, reliable Data Center & Cl
         }
     </style>
 </head>
-
-<?php include('php/includes-techsters/header.php'); ?>
-
 <?php
 
 
@@ -54,7 +54,7 @@ if ($conn->connect_error) {
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/testmonials-banner-img.jpg" alt="testmonials-banner-img" width="1920" height="210">
-        <h2>TESTIMONIAL</h2>
+        <h1>Testimonial</h1>
 
     </div>
 </div>

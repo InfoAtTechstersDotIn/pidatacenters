@@ -1,10 +1,15 @@
 <?php include('php/includes-techsters/header.php'); ?>
 <!-- main starts here -->
+<style>
+    #myBtn2 {
+        display: none;
+    }
+</style>
 
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/knowledge-hub.jpg" alt="knowledge-hub-banner" width="1920" height="210">
-        <h2>Knowledge Hub</h2>
+        <h1>Knowledge Hub</h1>
 
     </div>
 </div>
@@ -14,6 +19,9 @@
     <div class="container">
         <div class="article-blk-main">
             <div class="press-releases-popup row">
+                <div class="col-md-12 show-img-mobile py-2">
+                    <img src="images/kh-dc.jpg" alt="pr-image-2" width="1280" height="670">
+                </div>
                 <div class="col-lg-6">
                     <h3>
 
@@ -31,10 +39,7 @@
 
                 </div>
                 <div class="col-lg-6">
-                    <br>
-                    <br>
-                    <img src="images/kh-dc.jpg" alt="pr-image-2" width="1280" height="670">
-                    <br>
+                    <img src="images/kh-dc.jpg" alt="pr-image-2" width="1280" height="670" class="hide-img-mobile py-3">
                     <p><b>Some new trends and techniques include: </b></p>
                     <p><b>Zero Trust Architecture:</b> Continuous verification and authentication at every level are required to ensure security against unauthorized access, both from within and outside the data center. </p>
                     <p><b>Advanced Threat Detection:</b> The application of AI and ML algorithms allows real-time identification of potential threats or suspicious behaviors by analyzing vast amounts of data. </p>

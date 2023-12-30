@@ -97,7 +97,7 @@ $seo_keywords = "";
 					<source media="(max-width: 768px)" srcset="https://pidatacenters.com/pi-cloud/images/banners/compute-banner.jpg">
 					<img src="https://pidatacenters.com/pi-cloud/images/banners/compute-banner.jpg" alt="pi-cloud Cloud Backup as a Service Banner" style="width:100%">
 				</picture>
-				<h2>Private Cloud</h2>
+				<h1>Private Cloud</h1>
 			</div>
 		</div>
 	</div>
@@ -1823,9 +1823,5 @@ $seo_keywords = "";
 
 	// document.getElementsByClassName("defaultOpen").click();
 </script>
-
-<!-- <?php
-		include_once('includes/footer.php');
-		?> -->
 
 <?php include('php/includes-techsters/footer.php'); ?>

@@ -807,6 +807,11 @@ backdrop-filter: blur(42px);
                 top: -45px;
                 font-weight: 900;
             }
+
+            nav>ul>li>a {
+                line-height: 18px !important;
+            }
+
         }
 
         /* for checkbox */

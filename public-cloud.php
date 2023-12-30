@@ -11,10 +11,6 @@ $seo_keywords = "";
 
 <div class="picloud_pages">
 
-
-
-
-
     <div class="hb-bannerCont">
         <div class="hb-bannerImgCont">
             <div class="hb-bannerImg">
@@ -38,7 +34,7 @@ $seo_keywords = "";
                 <picture>
                     <source media="(max-width: 768px)" srcset="./pi-cloud/images/banners/multi-cloud-img.jpg">
                     <img src="./pi-cloud/images/banners/multi-cloud-img.jpg" alt="pi cloud Cloud Backup as a Service Banner" style="width:100%">
-                    <h2>Public Cloud</h2>
+                    <h1>Public Cloud</h1>
                 </picture>
             </div>
         </div>

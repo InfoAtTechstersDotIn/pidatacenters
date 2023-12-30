@@ -13,7 +13,7 @@ $seo_keywords = "RIMS, remote infrastructure management, remote infrastructure m
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/pi-rims-banner.jpg" alt="pi-rims-banner" width="1920" height="210">
-        <h2>RIMS <span style="font-size: 18px;font-weight:300;">(Remote Infrastructure Management)</span></h2>
+        <h1>RIMS <span style="font-size: 18px;font-weight:300;">(Remote Infrastructure Management)</span></h1>
 
     </div>
 </div>
@@ -93,7 +93,7 @@ $seo_keywords = "RIMS, remote infrastructure management, remote infrastructure m
             <li class="tabBlock-tab animatable fadeInUp">
                 <a class="nav-link" data-toggle="tab">
                     <img src="images/rims/rims-tab-img-5.png" alt="rims-tab-img-5" width="100" height="100">
-                    <p>Benefites</p>
+                    <p>Benefits</p>
                 </a>
             </li>
         </ul>

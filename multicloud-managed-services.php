@@ -1136,6 +1136,10 @@ $seo_keywords = "";
 	.elastic-2 {
 		padding: 6px;
 	}
+
+	.hb-bannerImg h1 {
+		margin: 0;
+	}
 </style>
 
 <div class="picloud_pages">
@@ -1150,7 +1154,7 @@ $seo_keywords = "";
 				<picture>
 					<source media="(max-width: 768px)" srcset="https://pidatacenters.com/pi-cloud/images/banners/Multi-cloud-managed-services-models-banner.jpg">
 					<img src="https://pidatacenters.com/pi-cloud/images/banners/Multi-cloud-managed-services-models-banner.jpg" alt="pi cloud Cloud Backup as a Service Banner" style="width:100%">
-					<h2>Multi Cloud Managed Services </h2>
+					<h1>Multi Cloud Managed Services </h1>
 				</picture>
 			</div>
 		</div>

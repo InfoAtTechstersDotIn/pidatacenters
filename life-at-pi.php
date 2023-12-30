@@ -4,6 +4,8 @@ $seo_description = "Best data center work culture. Explore our work culture at P
 $seo_keywords = "Life At Pi, work culture at pi datacenters, best data centers, Data center networking, data center service providers";
 ?>
 
+<?php include('php/includes-techsters/header.php'); ?>
+
 <head>
   <style>
     #myBtn2 {
@@ -12,16 +14,12 @@ $seo_keywords = "Life At Pi, work culture at pi datacenters, best data centers, 
   </style>
 </head>
 
-
-
-<?php include('php/includes-techsters/header.php'); ?>
-
 <!-- main starts here -->
 
 <div class="about-banner">
   <div class="about-banner-blk">
     <img src="images/life-at-pi-banner.jpg" alt="life-at-pi-banner" width="1920" height="210">
-    <h2>Life At Pi</h2>
+    <h1>Life At Pi</h1>
 
   </div>
 </div>

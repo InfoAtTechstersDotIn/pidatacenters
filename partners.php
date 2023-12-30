@@ -21,7 +21,7 @@ $seo_keywords = "";
 					<source media="(max-width: 768px)" srcset="https://pidatacenters.com/pi-cloud/images/banners/partner-portal-banner.jpg">
 					<img src="https://pidatacenters.com/pi-cloud/images/banners/partner-portal-banner.jpg" alt="pi-cloud Cloud Backup as a Service Banner" style="width:100%">
 				</picture>
-				<h2>Partners</h2>
+				<h1>Partners</h1>
 
 			</div>
 		</div>
@@ -32,9 +32,9 @@ $seo_keywords = "";
 			<ul class="list-inline hb-btn_cl" style="width:60%; margin:0px auto;">
 				<li><img src="<?php echo $site_url ?>pi-cloud/images/partners-new-banner.jpg" style="width:300px;" width="300px" /></li>
 				<li>
-					<a href="http://pidatacenters.com/pi-cloud/partnerportal" target="_blank" class="global-button">Register</a>
+					<a href="partner-register.php" target="_blank" class="global-button">Register</a>
 				</li>
-				<li><a href="http://pidatacenters.com/pi-cloud/partnerportal/login" target="_blank" class="global-button">Login</a></li>
+				<li><a href="partners-login.php" target="_blank" class="global-button">Login</a></li>
 			</ul>
 		</div>
 	</section>

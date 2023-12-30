@@ -17,7 +17,7 @@ $seo_keywords = "data center Case Studies, cloud migration, cyber security, data
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/case-studies.jpg" alt="case-studie-banner" width="1920" height="210">
-        <h2>Case Studies</h2>
+        <h1>Case Studies</h1>
 
     </div>
 </div>

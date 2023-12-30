@@ -4,6 +4,9 @@ $seo_description = "Pi Datacenters' award & recognition as India's best cloud in
 $seo_keywords = "Fast Growing Data Center in India, Best Cloud Infrastructure, Best Data Center Service Provider, Multi Tenant Datacenter Awards, Data Cloud Global Awards, India's Best Multi-Tenant Data Center, Awards, Awards and Recognition";
 ?>
 
+
+<?php include('php/includes-techsters/header.php'); ?>
+
 <head>
   <style>
     #myBtn2 {
@@ -11,8 +14,6 @@ $seo_keywords = "Fast Growing Data Center in India, Best Cloud Infrastructure, B
     }
   </style>
 </head>
-<?php include('php/includes-techsters/header.php'); ?>
-
 
 
 <?php
@@ -39,7 +40,7 @@ if ($conn->connect_error) {
 <div class="about-banner">
   <div class="about-banner-blk">
     <img src="images/awardsandrecognition-banner.jpg" alt="awardsandrecognition-banner" width="1920" height="210">
-    <h2>AWARDS & RECOGNITION</h2>
+    <h1>Awards & Recognition</h1>
 
   </div>
 </div>

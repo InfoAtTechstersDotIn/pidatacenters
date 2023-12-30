@@ -4,6 +4,10 @@ $seo_description = "Check out the latest blogs by Pi Datacenters. Here's a blog 
 $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global market for data centers, data center market, data center physical security, data centers in india, data center network";
 ?>
 
+
+
+<?php include('php/includes-techsters/header.php'); ?>
+
 <head>
     <style>
         #myBtn2 {
@@ -15,15 +19,228 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
             font-style: normal !important;
             font-weight: normal !important;
         }
+
+        .subscribe-btn {
+            position: absolute;
+            top: 57%;
+            left: 12%;
+            border: none;
+            background-color: #fff;
+            width: 130px;
+            height: 35px;
+            font-size: 14px;
+            color: #223f97;
+            font-weight: bold;
+            border-radius: 5px;
+            outline: none !important;
+        }
+
+        .subscribe .sub-btn-2 {
+            position: absolute;
+            top: -71px;
+            left: 141px;
+            font-size: 14px;
+            border: none;
+            background-color: #fff;
+            width: 130px;
+            height: 35px;
+            color: #223f97 !important;
+            font-weight: bold;
+            border-radius: 5px;
+            outline: none !important;
+        }
+
+        @media screen and (max-width:991px) {
+            .subscribe .sub-btn-2 {
+                top: -38px;
+                left: 162px;
+            }
+        }
+
+        @media screen and (max-width:768px) {
+            .subscribe .sub-btn-2 {
+                top: -38px;
+                left: 162px;
+            }
+        }
+
+        @media screen and (max-width:599px) {
+            .subscribe .modal-content {
+                width: 100% !important;
+            }
+
+            .subscribe .sub-btn-2 {
+                top: -38px;
+                left: 170px;
+            }
+        }
+
+        .subscribe .modal-content {
+            background: none;
+            margin: 0 auto;
+            padding: 20px;
+            border: none;
+            width: 80%;
+        }
+
+        .subscribe .sub-close {
+            border: none;
+            font-size: 22px;
+            background: #000;
+            color: #fff;
+            font-weight: bold;
+            outline: none !important;
+            text-align: right;
+            padding: 0px 10px;
+            border-radius: 20px;
+        }
+
+        .subscribe .modal-header {
+            display: flex;
+            justify-content: center;
+        }
+
+        .subscribe .modal-title {
+            color: #223f97;
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .subscribe .modal-body p {
+            color: #000;
+            font-size: 18px;
+            line-height: 1.5rem;
+            text-align: center;
+        }
+
+        #thanks-msg .modal-body p {
+            color: #000;
+            font-size: 18px;
+            line-height: 1.5rem;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .subscribe label {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .subscribe input {
+            width: 100%;
+            background-color: #fff;
+            border: 1px solid #0000002e;
+            border-radius: 10px;
+            outline: none;
+            padding: 8px 10px;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        .subscribe .check-box {
+            width: 5% !important;
+        }
+
+        .subscribe .sub_mit {
+            width: 100%;
+            max-width: 50%;
+            margin: auto !important;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #223f97;
+            color: #fff !important;
+        }
+
+        .subscribe .modal-dialog {
+            margin-top: 0%;
+        }
+
+        .subscribe .okay-btn {
+            justify-content: center;
+        }
+
+        .subscribe .close-btn {
+            border: none;
+            outline: none !important;
+            background-color: #223f97;
+            color: #fff;
+            padding: 6px 20px;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+
+        .subscribe .times-btn {
+            text-align: right;
+        }
     </style>
 </head>
-
-<?php include('php/includes-techsters/header.php'); ?>
 <!-- main starts here -->
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/blogs-banner.jpg" alt="blogs-banner" width="1920" height="210">
-        <h2>Blogs</h2>
+        <h1>Blogs</h1>
+
+        <!-- popup -->
+        <div class="container subscribe">
+            <button type="button" class="sub-btn-2" data-toggle="modal" data-target="#subscribe2">Subscribe</button>
+            <div class="modal fade" id="subscribe2" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="times-btn"><button type="button" class="sub-close" data-g-dismiss="modal">&times;</button></div>
+                        <div class="modal-header">
+                            <h4 class="modal-title">Subscribe</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form action="https://clientele.techsters.in/public/api/client_forms" method="post" enctype="multipart/form-data">
+                                <label for="name">First Name:</label>
+                                <input type="text" id="fname" name="Firstname" required><br>
+
+
+                                <label for="number">Last Name:</label>
+                                <input type="text" id="lname" name="Lastname" required><br>
+
+
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="Email" required><br>
+
+                                <label for="checkbox"><input type="checkbox" required name="checkbox" class="check-box">I Agree with The <a href="terms-conditions.php" target="_blank" style="color: #CB4721;"> &nbsp;Terms and Conditions</a></label><br>
+
+                                <input class="sub_mit submit-detials" type="submit" value="Submit">
+
+                                <input type="hidden" name="techsters_subject" value="Reach Us Form Leads" />
+                                <input type="hidden" name="form_unique_id" value="1ef13057-52fd-11ee-a4b0-525400b78afc" />
+                            </form>
+                        </div>
+                        <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- popup Ends-->
+
+        <!-- Thank you popup -->
+        <div class="container subscribe">
+            <div class="modal fade" id="thanks-msg" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="times-btn"><button type="button" class="sub-close" data-dismiss="modal">&times;</button></div>
+                        <div class="modal-body">
+                            <p>Thank you for joining our community of forward-thinkers! Get ready to explore a future of knowledge and innovation with our upcoming content.
+                                Welcome aboard!</p>
+                        </div>
+                        <div class="modal-footer okay-btn">
+                            <button type="button" class="close-btn" data-dismiss="modal">Okay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Thank you popup Ends-->
+
 
     </div>
 </div>
@@ -615,8 +832,26 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
     </div>
 </div>
 
-<!--footer block starts -->
+<!-- popup -->
+<div class="container subscribe">
+    <div class="modal fade" id="subscribe" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="times-btn"><button type="button" class="sub-close" data-dismiss="modal">&times;</button></div>
+                <div class="modal-header">
+                    <h4 class="modal-title">Subscribe</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Be a visionary reader – subscribe to be the first to glimpse into our upcoming Blogs.</p>
+                </div>
+            </div>
 
+        </div>
+    </div>
+
+</div>
+
+<!--footer block starts -->
 
 <?php include('php/includes-techsters/footer.php'); ?>
 
@@ -660,6 +895,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
         </div>
     </div>
 </div>
+
 
 
 <!--footer ends-->
@@ -830,7 +1066,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
         });
     });
 </script>
-<script>
+<!-- <script>
     const modalBox = document.querySelector(".modal-container");
     const modalBtn = document.querySelector(".modal-btn");
     const closeBtn = document.querySelector(".close-btn");
@@ -847,6 +1083,27 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
         if (e.target == modalBox) {
             modalBox.style = "display: none;";
         }
+    });
+</script> -->
+
+<script>
+    $(window).on('load', function() {
+        $('#subscribe').show();
+    });
+    $('.sub-close').on('click', function() {
+        $('.modal').hide();
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        $('.submit-detials').on('click', function() {
+            $('#subscribe2').hide();
+            $('#thanks-msg').show();
+        });
+        $('.close-btn, .sub-close').on('click', function() {
+            $('#thanks-msg').hide();
+        });
     });
 </script>
 </body>

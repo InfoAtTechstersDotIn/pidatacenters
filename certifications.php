@@ -4,6 +4,9 @@ $seo_description = "Pi Datacenters' certification boutique comprises 15+ certifi
 $seo_keywords = "Datacenter certifications, meity certified cloud service providers, SAP certified datacenters, sap cloud operations, sap infrastructure, information security controls";
 ?>
 
+<?php include('php/includes-techsters/header.php'); ?>
+
+
 <head>
   <style>
     #myBtn2 {
@@ -12,14 +15,11 @@ $seo_keywords = "Datacenter certifications, meity certified cloud service provid
   </style>
 </head>
 
-<?php include('php/includes-techsters/header.php'); ?>
-
-
 <!-- main starts here -->
 <div class="about-banner">
   <div class="about-banner-blk">
     <img src="images/certificsations-banner-img.jpg" alt="certificsations-banner-img" width="1920" height="210" class="datacenter-services-img">
-    <h2>Certifications</h2>
+    <h1>Certifications</h1>
 
   </div>
 </div>

@@ -29,7 +29,7 @@ if ($conn->connect_error) {
 <div class="about-banner">
   <div class="about-banner-blk">
     <img src="images/contact-us.jpg" alt="Contact-us-banner1" width="1920" height="210">
-    <h2>Whitepapers Download</h2>
+    <h1>Whitepapers Download</h1>
 
   </div>
 </div>

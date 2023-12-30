@@ -7,6 +7,10 @@ $seo_keywords = "";
 
 
 
+
+<?php include('php/includes-techsters/header.php'); ?>
+
+
 <head>
   <style>
     #myBtn2 {
@@ -17,17 +21,12 @@ $seo_keywords = "";
 
 
 
-
-
-
-<?php include('php/includes-techsters/header.php'); ?>
-
 <!-- main starts here -->
 
 <div class="about-banner">
   <div class="about-banner-blk">
     <img src="images/leadership-banner-img.jpg" alt="leadership-banner-img" width="1920" height="210">
-    <h2>Leadership</h2>
+    <h1>Leadership</h1>
 
   </div>
 </div>

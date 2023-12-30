@@ -1,10 +1,15 @@
 <?php include('php/includes-techsters/header.php'); ?>
 <!-- main starts here -->
+<style>
+  #myBtn2 {
+    display: none;
+  }
+</style>
 
 <div class="about-banner">
   <div class="about-banner-blk">
     <img src="images/knowledge-hub.jpg" alt="knowledge-hub-banner" width="1920" height="210">
-    <h2>Knowledge Hub</h2>
+    <h1>Knowledge Hub</h1>
 
   </div>
 </div>
@@ -14,6 +19,9 @@
   <div class="container">
     <div class="article-blk-main">
       <div class="press-releases-popup row">
+        <div class="col-md-12 show-img-mobile py-2">
+          <img src="images/press/pr-image-2.webp" alt="pr-image-2" width="1280" height="670">
+        </div>
         <div class="col-lg-6">
           <span>20-June-2023, Monday</span>
           <h3>Unveiling the Powerhouse: Exploring the Types and Importance of Data Centers in Modern Business Operations
@@ -39,10 +47,7 @@
 
         </div>
         <div class="col-lg-6">
-          <br>
-          <br>
-          <img src="images/press/pr-image-2.webp" alt="pr-image-2" width="1280" height="670">
-          <br>
+          <img src="images/press/pr-image-2.webp" alt="pr-image-2" width="1280" height="670" class="hide-img-mobile py-3">
           <p><b>Also Read: </b></p>
           <p><a href="https://pidatacenters.com/blog-details?id=20/blog_title=12_Reasons_Why_Enterprises_Should_Adopt_Cloud ">12_Reasons_Why_Enterprises_Should_Adopt_Cloud
             </a></p>

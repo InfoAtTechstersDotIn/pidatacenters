@@ -1,10 +1,16 @@
 <?php include('php/includes-techsters/header.php'); ?>
 <!-- main starts here -->
 
+<style>
+    #myBtn2 {
+        display: none;
+    }
+</style>
+
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/knowledge-hub.jpg" alt="knowledge-hub-banner" width="1920" height="210">
-        <h2>Knowledge Hub</h2>
+        <h1>Knowledge Hub</h1>
 
     </div>
 </div>
@@ -15,7 +21,7 @@
         <div class="article-blk-main">
             <div class="press-releases-popup row">
                 <div class="col-md-12 show-img-mobile py-2">
-                <img src="images/what-is-edge-computing.png" alt="pr-image-2" width="1280" height="670">
+                    <img src="images/what-is-edge-computing.png" alt="pr-image-2" width="1280" height="670">
                 </div>
                 <div class="col-lg-6">
                     <h3>What is Edge Computing? <br>

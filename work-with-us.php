@@ -4,6 +4,10 @@ $seo_description = "Work with us at Pi Datacenters - India's Best Data Center Se
 $seo_keywords = "Data center services, cloud services, data center sercices provider, cloud services provider in india";
 ?>
 
+<?php ob_start(); ?>
+
+<?php include('php/includes-techsters/header.php'); ?>
+
 <head>
     <style>
         #myBtn2 {
@@ -11,9 +15,6 @@ $seo_keywords = "Data center services, cloud services, data center sercices prov
         }
     </style>
 </head>
-<?php ob_start(); ?>
-
-<?php include('php/includes-techsters/header.php'); ?>
 
 <!-- main starts here -->
 <?php
@@ -34,7 +35,7 @@ if ($conn->connect_error) {
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/work-with-us-banner.jpg" alt="work-with-us-banner" width="1920" height="210">
-        <h2>Work With Us</h2>
+        <h1>Work With Us</h1>
 
     </div>
 </div>

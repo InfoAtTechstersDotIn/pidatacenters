@@ -1,10 +1,14 @@
 <?php include('php/includes-techsters/header.php'); ?>
 <!-- main starts here -->
-
+<style>
+    #myBtn2 {
+        display: none;
+    }
+</style>
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/knowledge-hub.jpg" alt="knowledge-hub-banner" width="1920" height="210">
-        <h2>Knowledge Hub</h2>
+        <h1>Knowledge Hub</h1>
 
     </div>
 </div>
@@ -14,6 +18,9 @@
     <div class="container">
         <div class="article-blk-main">
             <div class="press-releases-popup row">
+                <div class="col-md-12 show-img-mobile py-2">
+                    <img src="images/kh-cloud service provider.jpg" alt="pr-image-2" width="1280" height="670">
+                </div>
                 <div class="col-lg-6">
                     <h3>
 
@@ -45,10 +52,7 @@
 
                 </div>
                 <div class="col-lg-6">
-                    <br>
-                    <br>
-                    <img src="images/kh-cloud service provider.jpg" alt="pr-image-2" width="1280" height="670">
-                    <br>
+                    <img src="images/kh-cloud service provider.jpg" alt="pr-image-2" width="1280" height="670" class="hide-img-mobile py-3">
                     <p><b style="color: #000;">Business Benefits of Cloud Providers with Data Centers: </b></p>
                     <p><b>Achieving Cost-Effectiveness: </b></p>
                     <p>Cloud services provided by data centers liberate businesses from hefty investments in physical infrastructure, maintenance, and manpower. Embracing scalable, pay-as-you-go models reduces capital expenditure and ensures predictable budgeting. This cost-efficiency empowers businesses to redirect resources toward other strategic initiatives, enhancing operational efficiency. </p>

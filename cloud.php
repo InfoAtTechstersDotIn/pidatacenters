@@ -421,27 +421,10 @@ $seo_keywords = "";
         padding: 20px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
     /* new styles after adding new header */
     /* cloud pages changes banner {
         margin-top: 129px;
     } add inline for banner part*/
-
-    .head-cloud {
-        position: relative;
-        top: -145px;
-        left: 40px;
-    }
 
     .hb-forMobile {
         display: none;
@@ -922,7 +905,7 @@ $seo_keywords = "";
 
                 <source media="(max-width: 768px)" srcset="./pi-cloud/images/banners/generic-cloud-services-main-harbour1-main.jpg">
                 <img src="./pi-cloud/images/banners/generic-cloud-services-main-harbour1-main.jpg" alt="pi-cloud Cloud Backup as a Service Banner" style="width:100%;">
-                <h2 class="head-cloud"> Cloud</h2>
+                <h1> Cloud</h1>
             </picture>
         </div>
         <div class="hb-forMobile">

@@ -4,7 +4,7 @@ $seo_description = "";
 $seo_keywords = "";
 ?>
 
-
+<?php include('php/includes-techsters/header.php'); ?>
 
 <head>
     <style>
@@ -49,14 +49,12 @@ $seo_keywords = "";
     </style>
 </head>
 
-<?php include('php/includes-techsters/header.php'); ?>
-
 <!-- main starts here -->
 
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/privacy-policy.png" alt="privacy-policy" width="1920" height="210">
-        <h2 class="text-center">TERMS & CONDITIONS </h2>
+        <h1 class="text-center">Terms and Conditions </h1>
     </div>
 </div>
 <!--what-is-noc starts here -->
@@ -117,14 +115,14 @@ $seo_keywords = "";
                 <!-- <li> <a href="https://micro.company/privacy/" target="_blank">Chatbot</a></li> -->
                 <!-- <li> <a href="https://privacy.microsoft.com/en-us/privacystatement" target="_blank">Microsoft Clarity</a></li> -->
                 <!-- <li> <a href="https://www.ccavenue.com/privacy.jsp" target="_blank">CC Avenue</a></li> -->
-            
+
                 <!-- pop up for 1st three points -->
                 <button type="button" class="btn list-btn" data-toggle="modal" data-target="#exampleModal3">
                     Google Analytics
                 </button>
                 <button type="button" class="btn list-btn" data-toggle="modal" data-target="#exampleModal3">
                     Google Busniess Profile
-               </button>
+                </button>
                 <button type="button" class="btn list-btn" data-toggle="modal" data-target="#exampleModal3">
                     Google Ads
                 </button>
@@ -155,7 +153,7 @@ $seo_keywords = "";
                 <button type="button" class="btn list-btn" data-toggle="modal" data-target="#exampleModal4">
                     Chatbot
                 </button>
-               
+
                 <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
@@ -180,7 +178,7 @@ $seo_keywords = "";
                 <button type="button" class="btn list-btn" data-toggle="modal" data-target="#exampleModal5">
                     Microsoft Clarity
                 </button>
-            
+
                 <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel3" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
@@ -205,7 +203,7 @@ $seo_keywords = "";
                 <button type="button" class="btn list-btn" data-toggle="modal" data-target="#exampleModal6">
                     CC Avenue
                 </button>
-               
+
                 <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel4" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">

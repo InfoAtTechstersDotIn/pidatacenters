@@ -7,10 +7,6 @@ $seo_keywords = "";
 <?php include('php/includes-techsters/header.php'); ?>
 
 
-
-
-
-
 <div class="picloud_pages">
 
 	<div class="hb-bannerCont">
@@ -24,7 +20,7 @@ $seo_keywords = "";
 					<source media="(max-width: 768px)" srcset="https://pidatacenters.com/pi-cloud/images/banners/sap-banner.jpg">
 					<img src="https://pidatacenters.com/pi-cloud/images/banners/sap-banner.jpg" alt="pi-cloud Cloud Backup as a Service Banner" style="width:100%">
 				</picture>
-				<h2>SAP On Cloud</h2>
+				<h1>SAP On Cloud</h1>
 			</div>
 		</div>
 	</div>

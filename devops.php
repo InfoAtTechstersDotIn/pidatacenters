@@ -14,7 +14,7 @@ $seo_keywords = "unify software development, IT operations, devops software deve
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/devops-banner.jpg" alt="devops-banner" width="1920" height="210">
-        <h2>DevOps</h2>
+        <h1>DevOps</h1>
 
     </div>
 </div>
@@ -67,40 +67,40 @@ $seo_keywords = "unify software development, IT operations, devops software deve
                     <div class="col-md-4">
                         <div>
                             <img src="images/n-s-d-icons/dev-2.png">
-                            <h5>Automated Delivery Pipeline</h5>
-                            <p>Pi automates the entire delivery pipeline for efficient software delivery. </p>
+                            <h5>Continuous Integration and Development</h5>
+                            <p>Enables continuous integration and development to streamline processes. </p>
                         </div>
                     </div>
 
                     <div class="col-md-4">
                         <div>
                             <img src="images/n-s-d-icons/dev-3.png">
-                            <h5>Automated Delivery Pipeline</h5>
-                            <p>Pi automates the entire delivery pipeline for efficient software delivery. </p>
+                            <h5>Efficiency Enhancement</h5>
+                            <p>This enhances efficiency and reduces time-to-value for organizations. </p>
                         </div>
                     </div>
 
                     <div class="col-md-4">
                         <div>
                             <img src="images/n-s-d-icons/dev-4.png">
-                            <h5>Automated Delivery Pipeline</h5>
-                            <p>Pi automates the entire delivery pipeline for efficient software delivery. </p>
+                            <h5>Software Quality Improvement</h5>
+                            <p>Improves software quality through automated testing and integration. </p>
                         </div>
                     </div>
 
                     <div class="col-md-4">
                         <div>
                             <img src="images/n-s-d-icons/dev-5.png">
-                            <h5>Automated Delivery Pipeline</h5>
-                            <p>Pi automates the entire delivery pipeline for efficient software delivery. </p>
+                            <h5>Cost Reduction</h5>
+                            <p>Reduces the cost of software delivery through streamlined processes. </p>
                         </div>
                     </div>
 
                     <div class="col-md-4">
                         <div>
                             <img src="images/n-s-d-icons/dev-6.png">
-                            <h5>Automated Delivery Pipeline</h5>
-                            <p>Pi automates the entire delivery pipeline for efficient software delivery. </p>
+                            <h5>Comprehensive Tools and Services</h5>
+                            <p>Offers a comprehensive suite of tools and services for an integrated solution. </p>
                         </div>
                     </div>
 

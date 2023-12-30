@@ -37,7 +37,7 @@ if ($conn->connect_error) {
 <div class="about-banner">
   <div class="about-banner-blk">
     <img src="https://pidatacenters.com/images/blogs-banner.jpg" alt="blogs-banner" width="1920" height="210">
-    <h2>Blogs</h2>
+    <h1>Blogs</h1>
 
   </div>
 </div>

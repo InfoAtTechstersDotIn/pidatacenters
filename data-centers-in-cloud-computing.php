@@ -1,10 +1,14 @@
 <?php include('php/includes-techsters/header.php'); ?>
 <!-- main starts here -->
-
+<style>
+    #myBtn2 {
+        display: none;
+    }
+</style>
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/knowledge-hub.jpg" alt="knowledge-hub-banner" width="1920" height="210">
-        <h2>Knowledge Hub</h2>
+        <h1>Knowledge Hub</h1>
 
     </div>
 </div>
@@ -14,6 +18,9 @@
     <div class="container">
         <div class="article-blk-main">
             <div class="press-releases-popup row">
+                <div class="col-md-12 show-img-mobile py-2">
+                    <img src="images/kh-types of dc.jpg" alt="pr-image-2" width="1280" height="670">
+                </div>
                 <div class="col-lg-6">
                     <h3>What Are the Different Types of Data Centers in Cloud Computing?
                     </h3>
@@ -33,10 +40,7 @@
 
                 </div>
                 <div class="col-lg-6">
-                    <br>
-                    <br>
-                    <img src="images/kh-types of dc.jpg" alt="pr-image-2" width="1280" height="670">
-                    <br>
+                    <img src="images/kh-types of dc.jpg" alt="pr-image-2" width="1280" height="670" class="hide-img-mobile py-3">
                     <p> Colocation data centers provide businesses with better security, power, and cooling infrastructure, improving the uptime and performance of their computing resources.</p>
                     <p><b>Multi-Cloud Data Center </b></p>
                     <p>Multi-Cloud Data Center refers to an approach where businesses utilize multiple public cloud providers simultaneously, distributing their workloads and data across different cloud environments. With this strategy, businesses can benefit from various cloud providers' distinct features and capabilities while minimizing the risks of being stuck with one vendor. It also ensures high availability and redundancy. </p>

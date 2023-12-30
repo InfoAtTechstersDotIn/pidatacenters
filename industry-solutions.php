@@ -28,7 +28,7 @@ $seo_keywords = "";
                <source media="(max-width: 768px)" srcset="https://pidatacenters.com/pi-cloud/images/banners/industry-solutions-banner.jpg">
                <img src="https://pidatacenters.com/pi-cloud/images/banners/industry-solutions-banner.jpg" alt="pi-cloud Cloud Backup as a Service Banner" style="width:100%">
             </picture>
-            <h2>Industry Solutions</h2>
+            <h1>Industry Solutions</h1>
          </div>
 
       </div>
@@ -313,7 +313,7 @@ $seo_keywords = "";
    // Get the modal and buttons
    const modals = document.getElementById("myModal");
    const modalBtns1 = document.querySelectorAll(".modal-btn2");
-   const closeModalBtn1 = document.getElementById("close");
+   const closeModalBtn1 = document.querySelector(".close");
 
    // Function to open the modal
    function openModal() {
@@ -348,7 +348,7 @@ $seo_keywords = "";
    // Get the modal and buttons
    const myModals2 = document.getElementById("myModal2");
    const modalBtns2 = document.querySelectorAll(".modal-btn1");
-   const closeModalBtn2 = document.getElementById("close2");
+   const closeModalBtn2 = document.querySelector(".close2");
 
    // Function to open the modal
    function openModal() {
