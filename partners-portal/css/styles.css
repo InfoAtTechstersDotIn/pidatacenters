@@ -913,7 +913,7 @@ span.selectedValues_style:after {
     }
 
     .cntr_crd {
-        position: fixed;
+        position: relative;
         top: auto;
         bottom: -170px;
         right: 0px;
@@ -1341,9 +1341,4 @@ span.selectedValues_style:after {
 
 .immybox_results ul li.immybox_choice .highlight {
     text-decoration: underline
-}
-
-/* newly added */
-.m_w_logo {
-    top: 55%;
 }

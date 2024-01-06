@@ -51,6 +51,19 @@
             width: auto;
         }
 
+        @media screen and (max-width:991px) {
+            .lft_crd img {
+                height: 80%;
+            }
+
+            .card {
+                margin: 36px 0 !important;
+                width: 170%;
+                position: relative;
+                top: 291px;
+            }
+        }
+
         @media screen and (max-width:768px) {
             .lft_crd {
                 display: none;
@@ -93,7 +106,7 @@
 
             .mobile_view_crd {
                 display: block;
-                top: 69%;
+                top: 60%;
                 left: -10px;
                 position: absolute;
             }

@@ -22,6 +22,156 @@
                 background-repeat: no-repeat;
                 background-size: 100% auto;
                 color: #696969;
+                overflow: hidden;
+            }
+
+            @media (max-width:599px) {
+                .crd-1 img {
+                    height: 61%;
+                    left: 91px;
+                }
+
+                .crd-1 {
+                    left: -62px;
+                    height: 630px;
+                    top: 33%;
+                }
+
+                @keyframes lf_crda_slidin {
+                    0% {
+                        top: -100%;
+                    }
+
+                    100% {
+                        top: -52px;
+                    }
+                }
+
+                .image-responsive {
+                    transform: rotate(90deg);
+                    position: relative;
+                    left: 28%;
+                    top: -7.6%;
+                }
+
+                .m_w_logo img {
+                    width: 175px;
+                }
+
+                .m_w_logo {
+                    left: 107px;
+                    top: 20%;
+                }
+
+                .cntr_crd .image-responsive-2 {
+                    transform: rotate(90deg);
+                    position: relative;
+                    left: -170px;
+                    top: 80px;
+                    height: 309px;
+                    border: 3px solid black;
+                }
+
+                .cntr_crd {
+                    position: relative;
+                    top: 410px;
+                    left: 0px;
+                    animation: cntr_crd_slidein 7s linear;
+                }
+
+                @keyframes cntr_crd_slidein {
+                    0% {
+                        top: -100%;
+                    }
+
+                    20% {
+                        top: -70%;
+                    }
+
+                    30% {
+                        top: 120px;
+                    }
+
+                    100% {
+                        top: 120px;
+                    }
+                }
+
+                .wt_crd {
+                    top: 45%;
+                    left: 40px;
+                    width: 300px;
+                    padding: 0 5px;
+                    height: 418px;
+                }
+
+                .m_w_logo button {
+                    margin: 10px 60px !important;
+                }
+
+                .m_logo {
+                    left: 5%;
+                    top: 600px;
+                }
+
+                .m_logo img {
+                    width: 310px;
+                    position: relative;
+                    top: 100%;
+                    left: 25px;
+                }
+
+                .m_w_logo {
+                    animation: m_w_logo_anim 6s linear;
+                }
+
+                @keyframes m_logo_anim {
+                    0% {
+                        top: -100%;
+                        opacity: 1;
+                    }
+
+                    10% {
+                        top: -100%;
+                        opacity: 1;
+                    }
+
+                    45% {
+                        top: 33%;
+                        opacity: 1;
+                    }
+
+                    65% {
+                        top: 33%;
+                        opacity: 1;
+                    }
+
+                    100% {
+                        top: 33%;
+                        opacity: 0;
+                    }
+
+                }
+
+                .letter_cont {
+                    top: 44%;
+                    left: 35px;
+                    width: 322px;
+                }
+
+                ul.nav li+li:after {
+                    width: 74%;
+                    height: 15px;
+                }
+
+                .nav-tabs .nav-link {
+                    font-size: 11px;
+                }
+
+                .m_b_logo {
+                    left: 75px;
+                }
+
             }
         </style>
 
@@ -38,7 +188,7 @@
 
         <div class="container-fluid">
 
-            <div class="lft_crd">
+            <div class="lft_crd crd-1">
                 <img src="partners-portal/left_crd_main.svg" class="image-responsive">
             </div>
             <!-- <div class="lft_crd_wt">
@@ -48,7 +198,7 @@
 
             <div class="cntr_crd" id="cntr_crd">
 
-                <img src="partners-portal/Group148-1.png">
+                <img src="partners-portal/Group148-1.png" class="image-responsive-2">
             </div>
 
             <div class="m_logo" id="m_logo">

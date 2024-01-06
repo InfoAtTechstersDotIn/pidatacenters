@@ -192,8 +192,8 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <div class="modal-header">
                             <h4 class="modal-title">Subscribe</h4>
                         </div>
-                        <div class="modal-body">
-                            <form action="https://clientele.techsters.in/public/api/client_forms" method="post" enctype="multipart/form-data">
+                        <div class="modal-body" id="form-sub">
+                            <form onsubmit="handleSubmit()">
                                 <label for="name">First Name:</label>
                                 <input type="text" id="fname" name="Firstname" required><br>
 
@@ -208,11 +208,16 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                                 <label for="checkbox"><input type="checkbox" required name="checkbox" class="check-box">I Agree with The <a href="terms-conditions.php" target="_blank" style="color: #CB4721;"> &nbsp;Terms and Conditions</a></label><br>
 
                                 <input class="sub_mit submit-detials" type="submit" value="Submit">
-
-                                <input type="hidden" name="techsters_subject" value="Reach Us Form Leads" />
-                                <input type="hidden" name="form_unique_id" value="1ef13057-52fd-11ee-a4b0-525400b78afc" />
                             </form>
                         </div>
+                        <script defer>
+                            const handleSubmit = () => {
+                                event.preventDefault();
+                                localStorage.setItem('subscribedFormSubmited', true);
+                                $('#subscribe2').hide();
+                                $('#thanks-msg').show();
+                            }
+                        </script>
                         <!-- <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div> -->
@@ -240,7 +245,6 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
             </div>
         </div>
         <!-- Thank you popup Ends-->
-
 
     </div>
 </div>
@@ -1088,7 +1092,11 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
 
 <script>
     $(window).on('load', function() {
-        $('#subscribe').show();
+        if (!localStorage.getItem('subscribedFormSubmited')) {
+            $('#subscribe').show();
+        } else {
+            $('.modal').hide();
+        }
     });
     $('.sub-close').on('click', function() {
         $('.modal').hide();
@@ -1097,10 +1105,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
 
 <script>
     $(document).ready(function() {
-        $('.submit-detials').on('click', function() {
-            $('#subscribe2').hide();
-            $('#thanks-msg').show();
-        });
+
         $('.close-btn, .sub-close').on('click', function() {
             $('#thanks-msg').hide();
         });
