@@ -22,7 +22,6 @@
                 background-repeat: no-repeat;
                 background-size: 100% auto;
                 color: #696969;
-                overflow: hidden;
             }
 
             @media (max-width:599px) {
@@ -186,7 +185,7 @@
 
     <div class="VertiMidwerty">
 
-        <div class="container-fluid">
+        <div class="container">
 
             <div class="lft_crd crd-1">
                 <img src="partners-portal/left_crd_main.svg" class="image-responsive">

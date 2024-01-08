@@ -681,7 +681,7 @@
                         <div class="backdround-bg">
                             <div class="product-blk d-flex flex-wrap flex-row-reverse">
                                 <div class="mobile-headings">
-                                    <span style="color:#ffffff;font-size:17px;line-height:26px;"> Who We Are</span>
+                                    <span style="color:#000;font-size:17px;line-height:26px;"> Who We Are</span>
                                     <h2>Architecting the Digital Future of Businesses</h2>
                                 </div>
                                 <div class="product-rt col-lg-4">
@@ -689,7 +689,7 @@
                                 </div>
                                 <div class="product-lt col-lg-8 ">
                                     <div class="desktop-headings">
-                                        <span style="color:#ffffff;font-size:17px;line-height:26px;"> Who We Are</span>
+                                        <span style="color:#000;font-size:17px;line-height:26px;"> Who We Are</span>
                                         <h2>Architecting the Digital Future of Businesses</h2>
                                     </div>
                                     <p>UPTIME INSTITUTE TIER IV-Certified Infrastructure makes it robust and resilient while providing a transformative experience to our customers.</p>

@@ -9083,7 +9083,7 @@
         margin: 7% auto;
     }
 
-    .brochure-block h3 {
+    .brochure-block h2 {
         color: #223f97;
         font-weight: 700;
     }
@@ -9121,7 +9121,7 @@
     }
 
     .brochure-block .brochure-btns li.active {
-        background-color: #223f97;
+        background-color: #76b543;
     }
 
     .brochure-block .brochure-btns {
@@ -9148,4 +9148,22 @@
         .mobile-view-show {
             display: block;
         }
+    }
+
+    .added-tags h1 {
+        font-size: 43px;
+        color: black;
+        font-weight: bold;
+        line-height: 3.5rem;
+        padding: 0 0 5px 0;
+    }
+
+    .added-tags h2 {
+        font-size: 18px;
+        text-align: left;
+        padding: 0;
+    }
+
+    .added-tags h3 {
+        font-size: 18px;
     }

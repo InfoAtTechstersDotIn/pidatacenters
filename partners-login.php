@@ -106,7 +106,7 @@
 
             .mobile_view_crd {
                 display: block;
-                top: 60%;
+                top: 75%;
                 left: -10px;
                 position: absolute;
             }

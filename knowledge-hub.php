@@ -34,14 +34,14 @@ $seo_keywords = "";
           <div class="latest-block row">
             <div class="latest-block-left col-md-12">
 
-              <a href="what-is-colocation.php"><img src="images/what-is-colocation.png" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="overview-of-private-and-public-clouds.php"><img src="images/public-private-cloud.png" alt="kh-img-1" width="430" height="278"> </a>
 
               <br>
-              <a href="what-is-colocation.php">
-                <h3>What is Colocation? A Guide to the Benefits and Advantages </h3>
+              <a href="overview-of-private-and-public-clouds.php">
+                <h3> An Overview of Private and Public Clouds! What They Are and How They Differ? </h3>
               </a>
 
-              <div class="readmore-btn" style="padding:20px 0 0;"><a href="what-is-colocation.php">Read More</a></div>
+              <div class="readmore-btn" style="padding:20px 0 0;"><a href="overview-of-private-and-public-clouds.php">Read More</a></div>
 
             </div>
 
@@ -118,6 +118,12 @@ $seo_keywords = "";
       <div class="what-drives-vission1 row align-middle">
         <div class="what-drives-vission-left1 col-md-12">
           <ul class="slider-knowledge row">
+
+            <li class="col-md-3">
+              <a href="what-is-colocation.php"><img src="images/what-is-colocation.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="what-is-colocation.php" class="pres-rel">What is Colocation? A Guide to the Benefits and Advantages</a>
+              <div class="readmore-btn"><a href="what-is-colocation.php">Read More</a></div>
+            </li>
 
             <li class="col-md-3">
               <a href="what-is-meity.php"><img src="images/kh-what-is-meity.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
