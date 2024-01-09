@@ -34,7 +34,7 @@ $site_url = "http://localhost/pidatacenters/"
                 <ul>
                     <li>
                         <a href="<?php echo $site_url ?>certifications.php">Certifications</a>
-                        <a href="<?php echo $site_url ?>awards&recognition.php">Awards</a>
+                        <a href="<?php echo $site_url ?>awards-recognition.php">Awards</a>
                         <a href="<?php echo $site_url ?>testimonial.php">Testimonials</a>
                     </li>
                 </ul>
@@ -44,7 +44,7 @@ $site_url = "http://localhost/pidatacenters/"
                     <li>
                         <a href="<?php echo $site_url ?>about.php">About us</a>
                         <a href="<?php echo $site_url ?>leadership.php">Leadership</a>
-                        <a href="<?php echo $site_url ?>data-center-infrastructure-services.php">Services</a>
+                        <a href="<?php echo $site_url ?>colocation.php">Services</a>
                     </li>
                 </ul>
             </div>

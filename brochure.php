@@ -79,7 +79,7 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
     <div class="tabs-content">
       <div class="row">
         <div class="col-md-6 mobile-view-show">
-          <img src="images/" alt="brochure-img-1" width="661" height="446">
+          <img src="images/it-managed-services.png" alt="brochure-img-1" width="661" height="446">
         </div>
         <div class="col-md-6">
           <div>
@@ -93,7 +93,7 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
           </div>
         </div>
         <div class="col-md-6 mobile-view-hide">
-          <img src="images/" alt="brochure-img-1" width="661" height="446">
+          <img src="images/it-managed-services.png" alt="brochure-img-1" width="661" height="446">
         </div>
       </div>
     </div>

@@ -61,7 +61,6 @@ $seo_description = "Contact our experts today at Pi Datacenters and explore poss
 $seo_keywords = "Contact Us, best data centers, data center services,  Data center networking provider in india";
 ?>
 
-
 <?php include('php/includes-techsters/header.php'); ?>
 
 <head>
@@ -70,11 +69,16 @@ $seo_keywords = "Contact Us, best data centers, data center services,  Data cent
       display: none;
     }
 
+
     .contact_page_form input {
       line-height: 31px !important;
     }
   </style>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
+
+
+
 
 <style>
   textarea#input_25_8 {
@@ -104,7 +108,7 @@ $seo_keywords = "Contact Us, best data centers, data center services,  Data cent
   <div class="write-to-us-main branches">
 
     <div class="write-to-us-lt-cnt row">
-      <div class="write-to-us-lt col-md-5">
+      <div class="write-to-us-lt col-md-6">
         <div class="sel-top">
           <div class="tab-container" style="background:#012e6a">
             <div class="tab-navigation">
@@ -123,13 +127,17 @@ $seo_keywords = "Contact Us, best data centers, data center services,  Data cent
                 <ul>
 
                   <li>
-                    <p class=""><a href="tel:+918712630334"><i class="fa fa-phone" aria-hidden="true"></i>08712630334</a></p>
+                    <p class=""><a href="tel:+918712630334"><i class="fa fa-phone" aria-hidden="true"></i>+91 8712630334</a></p>
                   </li>
                   <li>
                     <p class=""><a href="mailto:reachus@pidatacenters.com"><i class="fa fa-envelope" aria-hidden="true"></i>
-                        reachus@pidatacenters.com,</a>
+                        reachus@pidatacenters.com (Sales),</a>
                       <a href="mailto:marcom@pidatacenters.com">
-                        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;marcom@pidatacenters.com</a>
+                        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;marcom@pidatacenters.com (Marketing),</a>
+                      <a href="mailto:hr@pidatacenters.com">
+                        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;hr@pidatacenters.com (HR),</a>
+                      <a href="mailto:pifinance@pidatacenters.com">
+                        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;pifinance@pidatacenters.com (Finance)</a>
                     </p>
                   </li>
                   <!--<li>
@@ -153,13 +161,17 @@ Hyderabad, Telangana.Pin: 500032</p> -->
                 <ul>
 
                   <li>
-                    <p class=""><a href="tel:+918712630334"><i class="fa fa-phone" aria-hidden="true"></i>8712630334</a></p>
+                    <p class=""><a href="tel:+918712630334"><i class="fa fa-phone" aria-hidden="true"></i>+91 8712630334</a></p>
                   </li>
                   <li>
                     <p class=""><a href="mailto:reachus@pidatacenters.com"><i class="fa fa-envelope" aria-hidden="true"></i>
-                        reachus@pidatacenters.com,</a>
+                        reachus@pidatacenters.com (Sales),</a>
                       <a href="mailto:marcom@pidatacenters.com">
-                        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;marcom@pidatacenters.com</a>
+                        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;marcom@pidatacenters.com (Marketing),</a>
+                      <a href="mailto:hr@pidatacenters.com">
+                        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;hr@pidatacenters.com (HR),</a>
+                      <a href="mailto:pifinance@pidatacenters.com">
+                        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;pifinance@pidatacenters.com (Finance)</a>
                     </p>
                   </li>
                   <!--<li>
@@ -179,7 +191,7 @@ SRR Middle East FZCO Technology Park, Mina-Jebel Ali, National Industrial Park,D
 
 
 
-      <div class="write-to-us-rt col-md-7">
+      <div class="write-to-us-rt col-md-6">
         <h2>WRITE TO US</h2>
         <!--<form action="" method="POST">                           
 						  <ul class="row">
@@ -211,12 +223,18 @@ SRR Middle East FZCO Technology Park, Mina-Jebel Ali, National Industrial Park,D
                             </ul>
                             </form>-->
 
-        <form id="contactForm" class="contact_page_form" action="https://clientele.techsters.in/public/api/client_forms" method="post">
+        <!-- <form id="contactForm" class="contact_page_form" action="https://clientele.techsters.in/public/api/client_forms" method="post"> -->
+        <form class="contact_page_form" action="send-contact-form.php" method="post">
           <input class="" type="text" name="name" style="width: 100%;border-radius:5px" placeholder=" Full Name" required=""><br /><br />
           <input class="" type="tel" name="number" style="width: 100%;border-radius:5px" placeholder=" Phone" pattern="[0-9]{10}" required=""><br /><br />
           <input class="" type="email" name="email" style="width: 100%;border-radius:5px" placeholder=" Email Address" required=""><br /><br />
-          <input class="" type="text" name="name" style="width: 100%;border-radius:5px" placeholder=" Company Website" required=""><br /><br />
+          <input class="" type="text" name="company" style="width: 100%;border-radius:5px" placeholder=" Company Website" required=""><br /><br />
           <textarea class="" name="message" style="width: 100%;border-radius:5px" rows="4" placeholder=" Message" required=""></textarea><br /><br />
+
+          <div>
+            <div class="g-recaptcha" data-sitekey="6LeQKSUpAAAAAJSeTQOzIzFNS5veD4M3_RAE89gm"></div>
+          </div>
+
           <input class="btn" style="width: 100%;border-radius:5px" type="submit" value="Submit">
 
           <input type="hidden" name="techsters_subject" value="PiDataCenters - Contact Us">
