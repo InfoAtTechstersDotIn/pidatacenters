@@ -1,5 +1,5 @@
 <?php
-$site_url = "http://localhost/pidatacenters/"
+$site_url = "https://www.pidatacenters.com/"
 ?>
 
 
@@ -24,7 +24,7 @@ $site_url = "http://localhost/pidatacenters/"
             <div class="col-md-3 ">
                 <ul>
                     <li>
-                        <a href="<?php echo $site_url ?>case-studies.php">Case Studies</a>
+                        <a href="<?php echo $site_url ?>industry-case-studies.php">Case Studies</a>
                         <a href="<?php echo $site_url ?>blogs.php">Blogs</a>
                         <a href="<?php echo $site_url ?>press-releases.php">News</a>
                     </li>
@@ -33,25 +33,25 @@ $site_url = "http://localhost/pidatacenters/"
             <div class="col-md-3 ">
                 <ul>
                     <li>
-                        <a href="<?php echo $site_url ?>certifications.php">Certifications</a>
+                        <a href="<?php echo $site_url ?>datacenter-cloud-certifications.php">Certifications</a>
                         <a href="<?php echo $site_url ?>awards-recognition.php">Awards</a>
-                        <a href="<?php echo $site_url ?>testimonial.php">Testimonials</a>
+                        <a href="<?php echo $site_url ?>client-testimonials-and-reviews.php">Testimonials</a>
                     </li>
                 </ul>
             </div>
             <div class="col-md-3 ">
                 <ul>
                     <li>
-                        <a href="<?php echo $site_url ?>about.php">About us</a>
-                        <a href="<?php echo $site_url ?>leadership.php">Leadership</a>
-                        <a href="<?php echo $site_url ?>colocation.php">Services</a>
+                        <a href="<?php echo $site_url ?>about-pi.php">About us</a>
+                        <a href="<?php echo $site_url ?>about-leadership.php">Leadership</a>
+                        <a href="<?php echo $site_url ?>datacenter-colocation-services.php">Services</a>
                     </li>
                 </ul>
             </div>
             <div class="col-md-3 ">
                 <ul>
                     <li>
-                        <a href="<?php echo $site_url ?>partners.php">Partners</a>
+                        <a href="<?php echo $site_url ?>partner-program-portal.php">Partners</a>
                         <a href="<?php echo $site_url ?>contact-us.php">Reach Us</a>
                         <a href="<?php echo $site_url ?>privacy-policy.php">Policies</a>
                     </li>
@@ -73,9 +73,6 @@ $site_url = "http://localhost/pidatacenters/"
                     <li>
                         <a href="https://twitter.com/Pi_DATACENTERS" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                     </li>
-                    <!-- <li>
-                        <a href="https://twitter.com/Pi_DATACENTERS" target="_blank"><i class="fa fa-x-twitter"></i></a>
-                    </li> -->
                 </div>
                 <div class="font_icons">
                     <li>

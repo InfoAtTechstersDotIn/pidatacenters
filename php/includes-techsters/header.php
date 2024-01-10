@@ -6,6 +6,7 @@
     $site_url = "http://localhost/pidatacenters/"
     ?>
 
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $seo_title ?></title>
@@ -44,12 +45,11 @@
     <link href="<?php echo $site_url ?>press-style.css" rel="stylesheet">
     <link rel="canonical" href="<?php echo $seo_canonical; ?>" />
 
-
-
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
 </head>
 
 
@@ -94,8 +94,8 @@
             <div class="row px-3">
                 <div class="col-lg-2">
                     <div class="logo">
-                        <a href="https://www.pidatacenters.com">
-                            <img src="https://www.pidatacenters.com/images/logo-wt.png" alt="logo">
+                        <a href="https://pidatacenters.com">
+                            <img src="https://pidatacenters.com/images/logo-wt.png" alt="logo">
                         </a>
                     </div>
                 </div>
@@ -108,10 +108,10 @@
                                 <a href="#" class="fonts"></a>
                             </li>
 
-                            <li class=""><a href="https://www.pidatacenters.com"><i class="fa fa-home" style="color:black"></i></a></li>
+                            <li class=""><a href="https://pidatacenters.com/"><i class="fa fa-home" style="color:black"></i></a></li>
 
                             <li>
-                                <!-- <a href="JavaScript:void(0);" class="drop-arrow ">tps://pidatacenters.com/
+                                <!-- <a href="JavaScript:void(0);" class="drop-arrow ">
                                     DATA CENTER
 
 
@@ -125,20 +125,20 @@
                                 <div class="drop-down">
                                     <ul>
                                         <!-- <li>
-                                            <a href="<?php echo $site_url ?>data-center-infrastructure-services.php">Colocation</a>
+                                            <a href="<?php echo $site_url ?>colocation.php">Colocation</a>
                                         </li> -->
                                         <li>
-                                            <a href="<?php echo $site_url ?>dc-infrastructure.php">Data Center Infrastructure & Services</a>
+                                            <a href="<?php echo $site_url ?>datacenter-infrastructure.php">Data Center Infrastructure & Services</a>
                                         </li>
                                         <li class="data_center_build">
                                             <a href="JavaScript:void(0);" class="drop-arrow">Consulting & Data Center Build </a>
                                             <div class="sub_drop_down">
                                                 <ul>
                                                     <li>
-                                                        <a href="<?php echo $site_url ?>dc-design-planning.php">Data Center Design & Planning</a>
+                                                        <a href="<?php echo $site_url ?>datacenter-design-planning-consultancy.php">Data Center Design & Planning</a>
                                                     </li>
                                                     <li>
-                                                        <a href="<?php echo $site_url ?>dc-build.php">Data Center Build & Operate</a>
+                                                        <a href="<?php echo $site_url ?>datacenter-build-operate-consultancy.php">Data Center Build & Operate</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -148,24 +148,24 @@
                             </li>
 
                             <li>
-                                <a href="<?php echo $site_url ?>colocation.php">COLOCATION</a>
+                                <a href="<?php echo $site_url ?>datacenter-colocation-services.php">COLOCATION</a>
                             </li>
                             <li>
-                                <a href="<?php echo $site_url ?>cloud.php" class="drop-arrow">CLOUD</a>
+                                <a href="<?php echo $site_url ?>enterprise-cloud-services.php" class="drop-arrow">CLOUD</a>
                                 <div class="drop-down">
                                     <ul>
                                         <li>
-                                            <a href="<?php echo $site_url ?>public-cloud.php">Public Cloud</a>
+                                            <a href="<?php echo $site_url ?>public-cloud-services.php">Public Cloud</a>
                                         </li>
                                         <li>
-                                            <a href="<?php echo $site_url ?>private-cloud.php">Private Cloud</a>
+                                            <a href="<?php echo $site_url ?>private-cloud-infrastructure-services.php">Private Cloud</a>
                                         </li>
                                         <li>
-                                            <a href="<?php echo $site_url ?>sap.php">SAP on Cloud</a>
+                                            <a href="<?php echo $site_url ?>SAP-cloud-platform.php">SAP on Cloud</a>
                                         </li>
 
                                         <li>
-                                            <a href="<?php echo $site_url ?>industry-solutions.php">Industry Solutions</a>
+                                            <a href="<?php echo $site_url ?>industry-cloud-solutions.php">Industry Solutions</a>
                                         </li>
 
                                         <!-- 
@@ -173,11 +173,11 @@
                                             <a href="#">Other Could Services</a>
                                         </li> -->
                                         <li>
-                                            <a href="<?php echo $site_url ?>professional-services.php">Professional Services</a>
+                                            <a href="<?php echo $site_url ?>cloud-professional-services.php">Professional Services</a>
                                         </li>
 
                                         <li>
-                                            <a href="<?php echo $site_url ?>certifications.php">Cloud Certifications</a>
+                                            <a href="<?php echo $site_url ?>datacenter-cloud-certifications.php">Cloud Certifications</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -190,16 +190,16 @@
                                             <a href="<?php echo $site_url ?>multicloud-managed-services.php">Multi Cloud Managed Services</a>
                                         </li>
                                         <li>
-                                            <a href="<?php echo $site_url ?>rims.php">RIMS</a>
+                                            <a href="<?php echo $site_url ?>IT-remote-infrastructure-management.php">RIMS</a>
                                         </li>
                                         <li>
-                                            <a href="<?php echo $site_url ?>noc.php">NOC</a>
+                                            <a href="<?php echo $site_url ?>network-operating-center.php">NOC</a>
                                         </li>
                                         <li>
-                                            <a href="<?php echo $site_url ?>soc.php">SOC</a>
+                                            <a href="<?php echo $site_url ?>security-operations-center.php">SOC</a>
                                         </li>
                                         <li>
-                                            <a href="<?php echo $site_url ?>devops.php">DevOps</a>
+                                            <a href="<?php echo $site_url ?>devops-as-a-service.php">DevOps</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -209,16 +209,16 @@
                                 <div class="drop-down">
                                     <ul>
                                         <li>
-                                            <a href="<?php echo $site_url ?>security.php">Cyber Security</a>
+                                            <a href="<?php echo $site_url ?>cybersecurity-services.php">Cyber Security</a>
                                         </li>
                                         <li>
-                                            <a href="<?php echo $site_url ?>ip-exchange.php">Internet Exchange (IPX)</a>
+                                            <a href="<?php echo $site_url ?>internet-exchange-ip-ipx.php">Internet Exchange (IPX)</a>
                                         </li>
                                         <li>
-                                            <a href="<?php echo $site_url ?>harbourfront-services.php">HarbourFront (CDN)</a>
+                                            <a href="<?php echo $site_url ?>content-delivery-network-cdn.php">HarbourFront (CDN)</a>
                                         </li>
                                         <li>
-                                            <a href="<?php echo $site_url ?>pi-work-spaces.php">Pi Workspaces (VDI)</a>
+                                            <a href="<?php echo $site_url ?>virtual-desktop-infrastructure-vdi.php">Pi Workspaces (VDI)</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -234,8 +234,12 @@
                                             <a href="https://pidatacenters.com/pi-cloud/pricing/#/cloudStorage">Cloud Storage</a>
                                         </li>
                                         <li>
-                                            <a href="<?php echo $site_url ?>rent-a-rack.php">Rent A Rack</a>
+                                            <a href="<?php echo $site_url ?>rent-a-rack-pricing.php" href="<?php echo $site_url ?>rent-server.php">Rent A Rack</a>
                                         </li>
+                                        <li>
+                                            <a href="rent-a-server-pricing.php">Rent A Server</a>
+                                        </li>
+
                                         <li>
                                             <a href="https://picloud.ai/">Rent GPU Servers</a>
                                         </li>
@@ -252,19 +256,19 @@
                                             <div class="sub_drop_down  ">
                                                 <ul>
                                                     <li>
-                                                        <a href="<?php echo $site_url ?>about.php">About us</a>
+                                                        <a href="<?php echo $site_url ?>about-pi.php">About us</a>
                                                     </li>
                                                     <li>
-                                                        <a href="<?php echo $site_url ?>leadership.php">Leadership</a>
+                                                        <a href="<?php echo $site_url ?>about-leadership.php">Leadership</a>
                                                     </li>
                                                     <li>
                                                         <a href="<?php echo $site_url ?>awards-recognition.php">Awards &amp; Recognition</a>
                                                     </li>
                                                     <li>
-                                                        <a href="<?php echo $site_url ?>testimonial.php">Testimonials</a>
+                                                        <a href="<?php echo $site_url ?>client-testimonials-and-reviews.php">Testimonials</a>
                                                     </li>
                                                     <li>
-                                                        <a href="<?php echo $site_url ?>certifications.php">Certifications</a>
+                                                        <a href="<?php echo $site_url ?>datacenter-cloud-certifications.php">Certifications</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -273,7 +277,7 @@
                                             <a href="<?php echo $site_url ?>ceo-corner.php"> CEO Corner</a>
                                         </li>
                                         <li>
-                                            <a href="<?php echo $site_url ?>partners.php"> Partner Portal</a>
+                                            <a href="<?php echo $site_url ?>partner-program-portal.php"> Partner Portal</a>
                                         </li>
 
                                         <li>
@@ -281,7 +285,7 @@
                                             <div class="sub_drop_down">
                                                 <ul>
                                                     <li>
-                                                        <a href="<?php echo $site_url ?>case-studies.php">Case Studies</a>
+                                                        <a href="<?php echo $site_url ?>industry-case-studies.php">Case Studies</a>
                                                     </li>
                                                     <li>
                                                         <a href="<?php echo $site_url ?>blogs.php">Blogs</a>
@@ -370,7 +374,7 @@
                 <div class="col-lg-3">
                     <div class="logo">
                         <a href="https://pidatacenters.com">
-                            <img src="https://www.pidatacenters.com/images/logo-wt.png" alt="logo">
+                            <img src="https://pidatacenters.com/images/logo-wt.png" alt="logo">
                         </a>
                     </div>
                 </div>
@@ -391,11 +395,11 @@
                             </li>
                             <div class="panel">
                                 <ul>
-                                    <!-- <li>
-                                        <a href="<?php echo $site_url ?>colocation.php">Colocation</a>
+                                    <!--<li>
+                                        <a href="<?php echo $site_url ?>datacenter-colocation-services.php">Colocation</a>
                                     </li> -->
                                     <li>
-                                        <a href="<?php echo $site_url ?>dc-infrastructure.php">Data Center Infrastructure & Services</a>
+                                        <a href="<?php echo $site_url ?>datacenter-infrastructure.php">Data Center Infrastructure & Services</a>
                                     </li>
                                     <li class="accordion">
                                         <a href="#">Consulting & Data Center Build </a>
@@ -404,10 +408,10 @@
                                     <div class="panel sub_d_down">
                                         <ul>
                                             <li>
-                                                <a href="<?php echo $site_url ?>dc-design-planning.php">Data Center Design & Planning</a>
+                                                <a href="<?php echo $site_url ?>datacenter-design-planning-consultancy.php">Data Center Design & Planning</a>
                                             </li>
                                             <li>
-                                                <a href="<?php echo $site_url ?>dc-build.php">Data Center Build & Operate</a>
+                                                <a href="<?php echo $site_url ?>datacenter-build-operate-consultancy.php">Data Center Build & Operate</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -415,36 +419,37 @@
                             </div>
                             </li>
                             <li>
-                                <a href="<?php echo $site_url ?>colocation.php">COLOCATION</a>
+                                <a href="<?php echo $site_url ?>datacenter-colocation-services.php">COLOCATION</a>
                             </li>
+
                             <li class="accordion">
-                                <a href="<?php echo $site_url ?>cloud.php" class="drop-arrow">CLOUD</a>
+                                <a href="<?php echo $site_url ?>enterprise-cloud-services.php" class="drop-arrow">CLOUD</a>
 
                             </li>
                             <div class="panel ">
                                 <ul>
                                     <li>
-                                        <a href="<?php echo $site_url ?>public-cloud.php">Public Cloud</a>
+                                        <a href="<?php echo $site_url ?>public-cloud-services.php">Public Cloud</a>
                                     </li>
                                     <li>
-                                        <a href="<?php echo $site_url ?>private-cloud.php">Private Cloud</a>
+                                        <a href="<?php echo $site_url ?>private-cloud-infrastructure-services.php">Private Cloud</a>
                                     </li>
                                     <li>
-                                        <a href="<?php echo $site_url ?>sap.php">SAP on Cloud</a>
-                                    </li>
-
-                                    <li>
-                                        <a href="<?php echo $site_url ?>industry-solutions.php">Industry Solutions</a>
+                                        <a href="<?php echo $site_url ?>SAP-cloud-platform.php">SAP on Cloud</a>
                                     </li>
 
                                     <li>
-                                        <a href="<?php echo $site_url ?>professional-services.php">Professional Services</a>
+                                        <a href="<?php echo $site_url ?>industry-cloud-solutions.php">Industry Solutions</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="<?php echo $site_url ?>cloud-professional-services.php">Professional Services</a>
                                     </li>
                                     <!-- <li>
                                         <a href="industry-solutions">Other Could Services</a>
                                     </li> -->
                                     <li>
-                                        <a href="<?php echo $site_url ?>certifications.php">Cloud Certifications</a>
+                                        <a href="<?php echo $site_url ?>datacenter-cloud-certifications.php">Cloud Certifications</a>
                                     </li>
 
 
@@ -460,16 +465,16 @@
                                         <a href="<?php echo $site_url ?>multicloud-managed-services.php">Multi Cloud Managed Services</a>
                                     </li>
                                     <li>
-                                        <a href="<?php echo $site_url ?>rims.php">RIMS</a>
+                                        <a href="<?php echo $site_url ?>IT-remote-infrastructure-management.php">RIMS</a>
                                     </li>
                                     <li>
-                                        <a href="<?php echo $site_url ?>noc.php">NOC</a>
+                                        <a href="<?php echo $site_url ?>network-operating-center.php">NOC</a>
                                     </li>
                                     <li>
-                                        <a href="<?php echo $site_url ?>soc.php">SOC</a>
+                                        <a href="<?php echo $site_url ?>security-operations-center.php">SOC</a>
                                     </li>
                                     <li>
-                                        <a href="<?php echo $site_url ?>devops.php">DevOps</a>
+                                        <a href="<?php echo $site_url ?>devops-as-a-service.php">DevOps</a>
                                     </li>
                                 </ul>
                             </div>
@@ -481,16 +486,16 @@
                             <div class="panel">
                                 <ul>
                                     <li>
-                                        <a href="<?php echo $site_url ?>security.php">Cyber Security</a>
+                                        <a href="<?php echo $site_url ?>cybersecurity-services.php">Cyber Security</a>
                                     </li>
                                     <li>
-                                        <a href="<?php echo $site_url ?>ip-exchange.php">Internet Exchange (IPX)</a>
+                                        <a href="<?php echo $site_url ?>internet-exchange-ip-ipx.php">Internet Exchange (IPX)</a>
                                     </li>
                                     <li>
-                                        <a href="<?php echo $site_url ?>harbourfront-services.php">HarbourFront (CDN)</a>
+                                        <a href="<?php echo $site_url ?>content-delivery-network-cdn.php">HarbourFront (CDN)</a>
                                     </li>
                                     <li>
-                                        <a href="<?php echo $site_url ?>pi-work-spaces.php">Pi Workspaces (VDI)</a>
+                                        <a href="<?php echo $site_url ?>virtual-desktop-infrastructure-vdi.php">Pi Workspaces (VDI)</a>
                                     </li>
                                 </ul>
                             </div>
@@ -506,8 +511,12 @@
                                         <a href="https://pidatacenters.com/pi-cloud/pricing/#/cloudStorage">Cloud Storage</a>
                                     </li>
                                     <li>
-                                        <a href="rent-a-rack.php">Rent A Rack</a>
+                                        <a href="rent-a-rack-pricing.php" href="rent-server.php">Rent A Rack</a>
                                     </li>
+                                    <li>
+                                        <a href="rent-a-server-pricing.php">Rent A Server</a>
+                                    </li>
+
                                     <li>
                                         <a href="https://picloud.ai/">Rent GPU Servers</a>
                                     </li>
@@ -527,19 +536,19 @@
                                     <div class="sub_d_down panel  ">
                                         <ul>
                                             <li>
-                                                <a href="<?php echo $site_url ?>about.php">About us</a>
+                                                <a href="<?php echo $site_url ?>about-pi.php">About us</a>
                                             </li>
                                             <li>
-                                                <a href="<?php echo $site_url ?>leadership.php">Leadership</a>
+                                                <a href="<?php echo $site_url ?>about-leadership.php">Leadership</a>
                                             </li>
                                             <li>
                                                 <a href="<?php echo $site_url ?>awards-recognition.php">Awards &amp; Recognition</a>
                                             </li>
                                             <li>
-                                                <a href="<?php echo $site_url ?>testimonial.php">Testimonials</a>
+                                                <a href="<?php echo $site_url ?>client-testimonials-and-reviews.php">Testimonials</a>
                                             </li>
                                             <li>
-                                                <a href="<?php echo $site_url ?>certifications.php">Certifications</a>
+                                                <a href="<?php echo $site_url ?>datacenter-cloud-certifications.php">Certifications</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -548,17 +557,17 @@
                                         <a href="<?php echo $site_url ?>ceo-corner.php"> CEO Corner</a>
                                     </li>
                                     <li>
-                                        <a href="<?php echo $site_url ?>partners.php"> Partner Portal</a>
+                                        <a href="<?php echo $site_url ?>partner-program-portal.php"> Partner Portal</a>
                                     </li>
 
                                     <li class="accordion">
-                                        <a href="#">Resource Center </a>
+                                        <a href="#">Resource Center</a>
 
                                     </li>
                                     <div class="sub_d_down panel">
                                         <ul>
                                             <li>
-                                                <a href="<?php echo $site_url ?>case-studies.php">Case Studies</a>
+                                                <a href="<?php echo $site_url ?>industry-case-studies.php">Case Studies</a>
                                             </li>
                                             <li>
                                                 <a href="<?php echo $site_url ?>blogs.php">Blogs</a>
@@ -723,24 +732,20 @@
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <form action="https://clientele.techsters.in/public/api/client_forms" method="post" enctype="multipart/form-data">
+                    <form action="reach-us-form.php" method="post" enctype="multipart/form-data">
                         <label for="name">Name:</label>
-                        <input type="text" id="name" name="Name" required>
+                        <input type="text" id="name" name="name" required>
 
-
-                        <label for="number">Mobile:</label>
-                        <input type="tel" id="number" name="Number" pattern="[0-9]{10}" required>
-
+                        <label for="phone">Mobile:</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
 
                         <label for="email">Email:</label>
-                        <input type="email" id="email" name="Email" required>
-
+                        <input type="email" id="email" name="email" required>
 
                         <label for="message">Message:</label>
-                        <textarea id="message" name="Message" rows="4" required></textarea>
+                        <textarea id="message" name="message" rows="4" required></textarea>
 
                         <label for="checkbox"><input type="checkbox" required name="checkbox" class="check-box">I Agree with The <a href="terms-conditions.php" target="_blank" style="color: #CB4721;"> &nbsp;Terms and Conditions</a></label>
-
                         <input class="sub_mit" type="submit" value="Submit">
 
                         <input type="hidden" name="techsters_subject" value="Reach Us Form Leads" />
@@ -766,24 +771,23 @@
                     <button type="button" class="close2" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <form action="https://clientele.techsters.in/public/api/client_forms" method="post" enctype="multipart/form-data">
+                    <form action="request-quote-form.php" method="post" enctype="multipart/form-data">
                         <label for="name">Name:</label>
-                        <input type="text" id="name2" name="Name" required>
+                        <input type="text" id="name2" name="name" required>
 
-                        <label for="number">Company Name</label>
-                        <input type="text" id="companyname" name="CompanyName" required>
+                        <label for="company">Company Name</label>
+                        <input type="text" id="company" name="company" required>
 
                         <label for="email">Professional Email:</label>
-                        <input type="email" id="email2" name="Email" required>
+                        <input type="email" id="email" name="email" required>
 
-                        <label for="number">Mobile:</label>
-                        <input type="tel" id="number2" name="Number" pattern="[0-9]{10}" required>
+                        <label for="phone">Mobile:</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
 
-                        <label for="message">Upload Configuration Document</label>
-                        <input type="file" required name="Configuration Document">
+                        <label for="document">Upload Configuration Document</label>
+                        <input type="file" required name="document">
 
-                        <label for="checkbox"><input type="checkbox" required name="checkbox" class="check-box">I Agree with The <a href="terms-conditions.php" target="_blank" style="color: #CB4721;">&nbsp;Terms and Conditions</a></label>
-
+                        <label for="checkbox"><input type="checkbox" required name="checkbox" class="check-box">I Agree with The <a href="terms-conditions.php" target="_blank" style="color: #CB4721;"> &nbsp;Terms and Conditions</a></label>
 
                         <input class="sub_mit" type="submit" value="Submit">
 
@@ -794,6 +798,8 @@
             </div>
         </div>
     </div>
+
+
 
 
 
