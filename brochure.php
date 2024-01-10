@@ -39,7 +39,7 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
     <div class="tabs-content">
       <div class="row">
         <div class="col-md-6 mobile-view-show">
-          <img src="images/brochure-img-2.png" alt="brochure-img-1" width="661" height="446">
+          <img src="images/brochure-img-2.png" alt="brochure-img-2" width="661" height="446">
         </div>
         <div class="col-md-6">
           <div>
@@ -50,7 +50,7 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
           </div>
         </div>
         <div class="col-md-6 mobile-view-hide">
-          <img src="images/brochure-img-2.png" alt="brochure-img-1" width="661" height="446">
+          <img src="images/brochure-img-2.png" alt="brochure-img-2" width="661" height="446">
         </div>
       </div>
     </div>
@@ -58,7 +58,7 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
     <div class="tabs-content">
       <div class="row">
         <div class="col-md-6 mobile-view-show">
-          <img src="images/multi-cloud-copy.png" alt="brochure-img-1" width="661" height="446">
+          <img src="images/multi-cloud-copy.png" alt="multi-cloud" width="661" height="446">
         </div>
         <div class="col-md-6">
           <div>
@@ -71,7 +71,7 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
           </div>
         </div>
         <div class="col-md-6 mobile-view-hide">
-          <img src="images/multi-cloud-copy.png" alt="brochure-img-1" width="661" height="446">
+          <img src="images/multi-cloud-copy.png" alt="multi-cloud" width="661" height="446">
         </div>
       </div>
     </div>
@@ -79,7 +79,7 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
     <div class="tabs-content">
       <div class="row">
         <div class="col-md-6 mobile-view-show">
-          <img src="images/it-managed-services.png" alt="brochure-img-1" width="661" height="446">
+          <img src="images/it-managed-services.png" alt="it-managed-services" width="661" height="446">
         </div>
         <div class="col-md-6">
           <div>
@@ -93,7 +93,29 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
           </div>
         </div>
         <div class="col-md-6 mobile-view-hide">
-          <img src="images/it-managed-services.png" alt="brochure-img-1" width="661" height="446">
+          <img src="images/it-managed-services.png" alt="it-managed-services" width="661" height="446">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="tabs-content">
+      <div class="row">
+        <div class="col-md-6 mobile-view-show">
+          <img src="images/pi-snapshot.png" alt="pi-snapshot" width="661" height="446">
+        </div>
+        <div class="col-md-6">
+          <div>
+            <h2 style="line-height:48px">Pi Snapshot:</h2>
+            <p style="color:#242424 !important;" class="py-2">Have you ever considered the importance of keeping your vital data secure? </p>
+            <p style="color:#242424 !important;">Look no further! Pi is your one-stop destination for all your digital challenges. </p>
+            <p style="color:#242424 !important;">We go beyond being a data center; it's an ecosystem crafted for diverse enterprise needs. Our services focus on high-performance solutions, seamless infrastructure management, and unmatched reliability, ensuring operational excellence and Total Cost of Ownership (TCO) optimization.</p>
+            <p style="color:#242424 !important;">Ready to make your data life easier? Take a click to explore Pi Snapshot, your ticket to stress-free data management. Start your journey with us today!</p>
+            <a href="images/" target="_blank">Download Brochure</a>
+          </div>
+        </div>
+        <div class="col-md-6 mobile-view-hide">
+          <img src="images/pi-snapshot.png" alt="pi-snapshot" width="661" height="446">
         </div>
       </div>
     </div>
@@ -103,6 +125,7 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
       <li><button>2</button></li>
       <li><button>3</button></li>
       <li><button>4</button></li>
+      <li><button>5</button></li>
     </ul>
 
   </div>

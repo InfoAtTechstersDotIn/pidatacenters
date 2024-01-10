@@ -43,14 +43,14 @@
                     <p>Platforms like Pi Cloud offer end-user computing services that enable employees to access their work environments remotely. This solution not only facilitates remote work but also ensures that employees can collaborate effectively, regardless of their physical location. This fosters flexibility and maintains productivity, even in a distributed work environment. </p>
 
                     <h2>Challenge: Virtual Private Network (VPN) </h2>
-                    <img src="images/vpn.jpeg" alt="pr-image-2" width="1280" height="670" style="padding: 0 0 10px 0;">
+                    <img src="images/vpn.jpeg" alt="Virtual Private Network" width="1280" height="670" style="padding: 0 0 10px 0;">
                     <p>Securing data transmission between local data centers and cloud environments is a crucial concern for IT/ITES companies. Establishing encrypted connections can be complex and resource intensive. </p>
 
                     <h2>Solution: Encrypted IPsec Connections via Pi Cloud VPC </h2>
                     <p>Virtual Private Networks (VPNs) are a well-established solution for secure data transmission. Platforms like Pi Cloud offer Virtual Private Clouds (VPCs) that enable encrypted IPsec connections between local data centers and cloud environments. This ensures the confidentiality and integrity of data during transmission, mitigating the risks associated with data breaches. </p>
 
                     <h2>Challenge: Security </h2>
-                    <img src="images/challenge-security.jpeg" alt="pr-image-2" width="1280" height="670" style="padding: 0 0 10px 0;">
+                    <img src="images/challenge-security.jpeg" alt="Security" width="1280" height="670" style="padding: 0 0 10px 0;">
                     <p>The ever-evolving cyber threat landscape poses a significant challenge to the IT/ITES industry. Protecting mission-critical data and workloads from cyber threats requires robust security measures. </p>
 
                     <h2>Solution: Advanced Security Measures on Pi Cloud </h2>
@@ -62,19 +62,19 @@
                     <img src="images/digital-frontier.png" alt="pr-image-2" width="1280" height="670" class="hide-img-mobile py-3">
 
                     <h2>Challenge: Strategic Partnerships </h2>
-                    <img src="images/strategic-partner.jpeg" alt="pr-image-2" width="1280" height="670" style="padding: 0 0 10px 0;">
+                    <img src="images/strategic-partner.jpeg" alt="Strategic Partner" width="1280" height="670" style="padding: 0 0 10px 0;">
                     <p>Navigating the complex landscape of IT transformation requires collaboration and partnerships with reliable service providers. Identifying the right partners and fostering meaningful collaborations can be challenging.</p>
 
                     <h2>Solution: <a href="https://pidatacenters.com/partners.php" target="_blank" class="anchor-color">Pi Cloud Partner Program</a> </h2>
                     <p>Strategic partnerships can significantly expedite an organization's journey to cloud transformation. The Pi Cloud Partner Program facilitates collaboration between enterprises and the platform, enabling organizations to tap into expertise and resources that accelerate their IT/ITES initiatives. </p>
                     <p>In the dynamic realm of IT and ITES, the journey towards a seamless digital frontier is paved with challenges that prompt the industry to innovate and evolve. While the strides taken are commendable, there are additional trends that fortify the industry's position in overcoming these hurdles. </p>
 
-                    <img src="images/pi-cloud-partner.jpeg" alt="pr-image-2" width="1280" height="670" style="padding: 0 0 10px 0;">
+                    <img src="images/pi-cloud-partner.jpeg" alt="Pi Cloud Partner" width="1280" height="670" style="padding: 0 0 10px 0;">
 
                     <p>As the need for data processing and storage continues to rise, edge computing has become a game-changing development. Edge computing allows data to be processed at the network's periphery, which improves real-time decision making by drastically decreasing latency. This approach not only alleviates the strain on centralized data centers but also augments the efficiency of IT/ITES operations. </p>
                     <p>Additionally, the emergence of Artificial Intelligence (AI) and Machine Learning (ML) is revolutionizing how IT/ITES companies manage and secure their operations. Advanced analytics fueled by AI/ML algorithms offer predictive insights, enabling proactive identification of potential vulnerabilities and threats. By implementing AI-driven cybersecurity solutions, such as anomaly detection and behavior analysis, IT/ITES companies can proactively mitigate cyber threats and safeguard their critical assets. </p>
 
-                    <img src="images/ai.jpeg" alt="pr-image-2" width="1280" height="670" style="padding: 0 0 10px 0;">
+                    <img src="images/ai.jpeg" alt="Artificial Intelligence" width="1280" height="670" style="padding: 0 0 10px 0;">
 
                     <p>In conclusion, the IT/ITES sector stands at the crossroads of innovation and challenge, where solutions converge to pave the way for a resilient and efficient digital landscape. As the industry continues to harness the potential of edge computing and leverage the predictive power of AI/ML, it not only surmounts existing hurdles but also forges a path towards unprecedented growth and transformation. By embracing these emerging trends, IT/ITES companies can solidify their positions as trailblazers in the ever-evolving technology landscape. </p>
 

@@ -277,6 +277,20 @@ $seo_keywords = "";
               <div class="readmore-btn"><a href="revolutionizing-education.php">Read More</a></div>
             </li>
 
+
+            <!-- articles -->
+            <li class="col-md-3">
+              <a href="people-centric-approach.php"><img src="images/people-centric-approach.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="people-centric-approach.php" class="pres-rel">Celebrating Nine Years of Transforming India's Tech Landscape</a>
+              <div class="readmore-btn"><a href="people-centric-approach.php">Read More</a></div>
+            </li>
+
+            <li class="col-md-3">
+              <a href="digital-personal-data-protection-bill.php"><img src="images/data-protection-bill.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="digital-personal-data-protection-bill.php" class="pres-rel">Digital Personal Data Protection (DPDP) Bill</a>
+              <div class="readmore-btn"><a href="digital-personal-data-protection-bill.php">Read More</a></div>
+            </li>
+
           </ul>
 
 

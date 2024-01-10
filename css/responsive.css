@@ -681,7 +681,7 @@
 
     .sel-top {
         width: 100%;
-        padding: 30px 20px 20px;
+        /* padding: 30px 20px 20px; */
     }
 
     .write-to-us {
@@ -4114,7 +4114,7 @@ top: 185px !important;
 
     .sel-top {
         width: 100%;
-        padding: 30px 20px 20px;
+        /* padding: 30px 20px 20px; */
     }
 
     .write-to-us {
@@ -7281,7 +7281,7 @@ top: 185px !important;
 
     .added-tags h1 {
         line-height: 2rem;
-        padding: 0 0 5px 0;
+        padding: 0px 0 10px 0 !important;
     }
 
     .added-tags h3 {
