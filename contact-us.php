@@ -131,11 +131,11 @@ $seo_keywords = "Contact Us, best data centers, data center services,  Data cent
                   </li>
                   <li>
                     <p class=""><a href="mailto:reachus@pidatacenters.com"><i class="fa fa-envelope" aria-hidden="true"></i>
-                        reachus@pidatacenters.com (Sales),</a>
+                        reachus@pidatacenters.com (Sales)</a>
                       <a href="mailto:marcom@pidatacenters.com">
-                        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;marcom@pidatacenters.com (Marketing),</a>
+                        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;marcom@pidatacenters.com (Marketing)</a>
                       <a href="mailto:hr@pidatacenters.com">
-                        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;hr@pidatacenters.com (HR),</a>
+                        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;hr@pidatacenters.com (HR)</a>
                       <a href="mailto:pifinance@pidatacenters.com">
                         &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;pifinance@pidatacenters.com (Finance)</a>
                     </p>
@@ -165,11 +165,11 @@ Hyderabad, Telangana.Pin: 500032</p> -->
                   </li>
                   <li>
                     <p class=""><a href="mailto:reachus@pidatacenters.com"><i class="fa fa-envelope" aria-hidden="true"></i>
-                        reachus@pidatacenters.com (Sales),</a>
+                        reachus@pidatacenters.com (Sales)</a>
                       <a href="mailto:marcom@pidatacenters.com">
-                        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;marcom@pidatacenters.com (Marketing),</a>
+                        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;marcom@pidatacenters.com (Marketing)</a>
                       <a href="mailto:hr@pidatacenters.com">
-                        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;hr@pidatacenters.com (HR),</a>
+                        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;hr@pidatacenters.com (HR)</a>
                       <a href="mailto:pifinance@pidatacenters.com">
                         &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;pifinance@pidatacenters.com (Finance)</a>
                     </p>

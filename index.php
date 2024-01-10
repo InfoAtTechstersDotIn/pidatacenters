@@ -312,27 +312,27 @@
 
                                         <ul class="subslider">
                                             <li>
-                                                <figure> <img src="images/new-white-space.webp" alt="data-center-services-img-1" width="866" height="649"></figure>
+                                                <figure> <img src="images/new-white-space.webp" alt="Customer-centric whitespace for easy deployment of cabinets and IT equipment" width="866" height="649"></figure>
                                                 <p class="dcsi">Whitespace</p>
                                             </li>
                                             <li>
-                                                <figure> <img src="images/new-subcabinets.webp" alt="data-center-services-img-2" width="866" height="649"></figure>
+                                                <figure> <img src="images/new-subcabinets.webp" alt="Flexible Sub-Cabinet Services: shared rack co-location on a 'Per U' basis" width="866" height="649"></figure>
                                                 <p class="dcsi">Subcabinet Services</p>
                                             </li>
                                             <li>
-                                                <figure> <img src="images/new-racks.webp" alt="racks" width="866" height="649"></figure>
+                                                <figure> <img src="images/new-racks.webp" alt="Customizable rack colocation solutions with dedicated power and network connectivity" width="866" height="649"></figure>
                                                 <p class="dcsi">Racks</p>
                                             </li>
                                             <li>
-                                                <figure> <img src="images/new-private-suites.webp" alt="data-center-services-img-4" width="866" height="649"></figure>
+                                                <figure> <img src="images/new-private-suites.webp" alt="Physically separated private suites catering to enterprise-level colocation requirements" width="866" height="649"></figure>
                                                 <p class="dcsi">Private Suites</p>
                                             </li>
                                             <li>
-                                                <figure> <img src="images/new-hands-and-feet-support.webp" alt="data-center-services-img-5" width="866" height="649"></figure>
+                                                <figure> <img src="images/new-hands-and-feet-support.webp" alt="Remote assistance: Hands and Feet Support for data center equipment checks" width="866" height="649"></figure>
                                                 <p class="dcsi">Hands & Feet</p>
                                             </li>
                                             <li>
-                                                <figure> <img src="images/new-caged-solution.webp" alt="data-center-services-img-6" width="866" height="649"></figure>
+                                                <figure> <img src="images/new-caged-solution.webp" alt="Enterprise-focused caged solution, ensuring flexibility and full control of security and environment" width="866" height="649"></figure>
                                                 <p class="dcsi">Caged Solution</p>
                                             </li>
                                         </ul>
@@ -908,7 +908,7 @@
                                     <div class="great-rtt col-lg-5">
                                         <figure>
                                             <img src="images/pi-datacenters-ceo.webp
-                        " alt="ceo">
+" alt="ceo">
                                         </figure>
                                     </div>
                                     <div class="great-lt col-lg-7">
@@ -997,6 +997,8 @@
             </div>
         </div>
 
+
+
         <!-- COOKIE SECTION -->
         <div class="cookie-block" id="cookie-popup">
             <div class="container">
@@ -1023,9 +1025,6 @@
         </div>
     </div>
     <!-- COOKIE SECTION ENDS -->
-
-
-
 
 
     <div class="backdround-bg1">
@@ -1448,7 +1447,7 @@
                 slidesToScroll: 1,
                 vertical: false,
                 verticalSwiping: false,
-                autoplay: false,
+                autoplay: true,
                 autoplaySpeed: 1000,
                 responsive: [{
                     breakpoint: 768,
@@ -1468,9 +1467,6 @@
             wow.init();
         });
     </script>
-
-
-
 
     <!-- COOKIE SECTION -->
     <script>
@@ -1493,6 +1489,9 @@
         }
         checkCookie()
     </script>
+    <!--COOKIE ENDS-->
+
+
 
     <!-- <script>
         document.getElementById('btnShowSection').addEventListener('click', function(event) {

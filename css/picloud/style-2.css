@@ -9183,3 +9183,48 @@
     .slider-knowledge li a {
         line-height: 20px;
     }
+
+    .article-btns {
+        position: relative;
+        max-width: 65%;
+        margin: 0 auto;
+    }
+
+    .industry-articles {
+        position: absolute;
+        background: linear-gradient(#223f97, #223f97, #76b543, #76b543, #223f97, #223f97);
+        width: fit-content;
+        border-radius: 30px;
+        padding: 2px 2px;
+        top: 15px;
+        right: 0;
+    }
+
+    .industry-articles button {
+        background: none;
+        border: none;
+        border-radius: 30px;
+        outline: none !important;
+        padding: 2px 20px;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .industry-articles .active {
+        border: 2px solid #fff;
+        border-radius: 30px;
+        background-color: #76b543;
+    }
+
+    .industry span {
+        position: absolute;
+        background: #76b543;
+        padding: 4px 10px;
+        border-radius: 50%;
+        font-size: 10px;
+        font-weight: bold;
+        top: 3px;
+        color: #fff;
+        left: 13px;
+        letter-spacing: 1px;
+    }
