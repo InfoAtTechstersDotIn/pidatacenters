@@ -19,161 +19,6 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
             font-style: normal !important;
             font-weight: normal !important;
         }
-
-        .subscribe-btn {
-            position: absolute;
-            top: 57%;
-            left: 12%;
-            border: none;
-            background-color: #fff;
-            width: 130px;
-            height: 35px;
-            font-size: 14px;
-            color: #223f97;
-            font-weight: bold;
-            border-radius: 5px;
-            outline: none !important;
-        }
-
-        .subscribe .sub-btn-2 {
-            position: absolute;
-            top: -71px;
-            left: 141px;
-            font-size: 14px;
-            border: none;
-            background-color: #fff;
-            width: 130px;
-            height: 35px;
-            color: #223f97 !important;
-            font-weight: bold;
-            border-radius: 5px;
-            outline: none !important;
-        }
-
-        @media screen and (max-width:991px) {
-            .subscribe .sub-btn-2 {
-                top: -38px;
-                left: 162px;
-            }
-        }
-
-        @media screen and (max-width:768px) {
-            .subscribe .sub-btn-2 {
-                top: -38px;
-                left: 162px;
-            }
-        }
-
-        @media screen and (max-width:599px) {
-            .subscribe .modal-content {
-                width: 100% !important;
-            }
-
-            .subscribe .sub-btn-2 {
-                top: -38px;
-                left: 170px;
-            }
-        }
-
-        .subscribe .modal-content {
-            background: none;
-            margin: 0 auto;
-            padding: 20px;
-            border: none;
-            width: 80%;
-        }
-
-        .subscribe .sub-close {
-            border: none;
-            font-size: 22px;
-            background: #000;
-            color: #fff;
-            font-weight: bold;
-            outline: none !important;
-            text-align: right;
-            padding: 0px 10px;
-            border-radius: 20px;
-        }
-
-        .subscribe .modal-header {
-            display: flex;
-            justify-content: center;
-        }
-
-        .subscribe .modal-title {
-            color: #223f97;
-            font-weight: bold;
-            font-size: 25px;
-        }
-
-        .subscribe .modal-body p {
-            color: #000;
-            font-size: 18px;
-            line-height: 1.5rem;
-            text-align: center;
-        }
-
-        #thanks-msg .modal-body p {
-            color: #000;
-            font-size: 18px;
-            line-height: 1.5rem;
-            text-align: center;
-            padding: 10px 0;
-        }
-
-        .subscribe label {
-            display: flex;
-            margin-bottom: 10px;
-        }
-
-        .subscribe input {
-            width: 100%;
-            background-color: #fff;
-            border: 1px solid #0000002e;
-            border-radius: 10px;
-            outline: none;
-            padding: 8px 10px;
-            margin-bottom: 10px;
-            text-align: left;
-        }
-
-        .subscribe .check-box {
-            width: 5% !important;
-        }
-
-        .subscribe .sub_mit {
-            width: 100%;
-            max-width: 50%;
-            margin: auto !important;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #223f97;
-            color: #fff !important;
-        }
-
-        .subscribe .modal-dialog {
-            margin-top: 0%;
-        }
-
-        .subscribe .okay-btn {
-            justify-content: center;
-        }
-
-        .subscribe .close-btn {
-            border: none;
-            outline: none !important;
-            background-color: #223f97;
-            color: #fff;
-            padding: 6px 20px;
-            border-radius: 10px;
-            font-size: 20px;
-        }
-
-        .subscribe .times-btn {
-            text-align: right;
-        }
     </style>
 </head>
 <!-- main starts here -->
@@ -192,8 +37,8 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <div class="modal-header">
                             <h4 class="modal-title">Subscribe</h4>
                         </div>
-                        <div class="modal-body" id="form-sub">
-                            <form onsubmit="handleSubmit()">
+                        <div class="modal-body">
+                            <form onsubmit="handleSubscribeFormSubmit(event)">
                                 <label for="name">First Name:</label>
                                 <input type="text" id="fname" name="Firstname" required><br>
 
@@ -209,18 +54,15 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
 
                                 <input class="sub_mit submit-detials" type="submit" value="Submit">
                             </form>
+                            <script defer>
+                                const handleSubscribeFormSubmit = (event) => {
+                                    event.preventDefault();
+                                    localStorage.setItem('subscribed', true);
+                                    $('#subscribe2').hide();
+                                    $('#thanks-msg').show();
+                                }
+                            </script>
                         </div>
-                        <script defer>
-                            const handleSubmit = () => {
-                                event.preventDefault();
-                                localStorage.setItem('subscribedFormSubmited', true);
-                                $('#subscribe2').hide();
-                                $('#thanks-msg').show();
-                            }
-                        </script>
-                        <!-- <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div> -->
                     </div>
                 </div>
             </div>
@@ -245,7 +87,6 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
             </div>
         </div>
         <!-- Thank you popup Ends-->
-
     </div>
 </div>
 <!--board-of-directors starts here -->
@@ -282,6 +123,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                 </li>
 
 
+
                 <li class="col-md-4">
                     <div class="case-content">
                         <figure>
@@ -291,7 +133,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <h4>Transforming Business Dynamics: The Pi-Oracle Strategic Partnership </h4>
                         <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
-                        <p>In the dynamic landscape of cloud computing and data management, the partnership between Pi Datacenters and Oracle emerges as a paradigm of innovation and reliability.</p>
+                        <p><strong id="docs-internal-guid-3a909168-7fff-85f0-b0d7-6b3b1cb909b3">In the dynamic landscape of cloud computing and data management, the partnership between Pi Datacenters and Oracle emerges as a paradigm of innovation and reliability.</strong></p>
                         <p></p>
                         <a href="Pi-oracle-strategic-partnership.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
@@ -309,9 +151,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <!--<span class="date">23 Apr, 2022</span>-->
                         <h4>Finding the Ideal Data Center: The Reliability &amp; Scalability Aspects</h4>
                         <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
-                        <p></p>
                         <p>The importance of Data Centers continues to increase as more businesses and individuals rely on them for data storage, processing, and access.</p>
-                        <p></p>
                         <a href="data-center-reliability-and-scalability.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
@@ -864,7 +704,6 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
         </div>
     </div>
 </div>
-
 <!-- popup -->
 <div class="container subscribe">
     <div class="modal fade" id="subscribe" role="dialog">
@@ -876,15 +715,16 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                 </div>
                 <div class="modal-body">
                     <p>Be a visionary reader – subscribe to be the first to glimpse into our upcoming Blogs.</p>
+                    <button type="button" class="sub-btn-2 pop-sub-btn" data-toggle="modal" data-target="#subscribe2">Subscribe</button>
                 </div>
             </div>
 
         </div>
     </div>
-
 </div>
 
 <!--footer block starts -->
+
 
 <?php include('php/includes-techsters/footer.php'); ?>
 
@@ -928,7 +768,6 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
         </div>
     </div>
 </div>
-
 
 
 <!--footer ends-->
@@ -1099,7 +938,7 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
         });
     });
 </script>
-<!-- <script>
+<script>
     const modalBox = document.querySelector(".modal-container");
     const modalBtn = document.querySelector(".modal-btn");
     const closeBtn = document.querySelector(".close-btn");
@@ -1117,14 +956,11 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
             modalBox.style = "display: none;";
         }
     });
-</script> -->
-
+</script>
 <script>
     $(window).on('load', function() {
-        if (!localStorage.getItem('subscribedFormSubmited')) {
+        if (!localStorage.getItem('subscribed')) {
             $('#subscribe').show();
-        } else {
-            $('.modal').hide();
         }
     });
     $('.sub-close').on('click', function() {
@@ -1137,6 +973,10 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
 
         $('.close-btn, .sub-close').on('click', function() {
             $('#thanks-msg').hide();
+            // $('body').removeClass('modal-open')
+        });
+        $('.pop-sub-btn').on('click', function() {
+            $('#subscribe').hide();
         });
     });
 </script>

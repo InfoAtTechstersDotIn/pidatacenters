@@ -81,7 +81,7 @@
                     <p><b class="font-color">Enhanced Connectivity: </b> The <a href="https://pidatacenters.com/noc.php" target="_blank" class="anchor-color">Network Operations Centers (NOCs)</a> and <a href="https://pidatacenters.com/soc.php" target="_blank" class="anchor-color">Security Operations Centers (SOCs)</a> we provide ensure optimal network quality, which is essential for the successful execution of mission-critical operations. </p>
                     <p><b class="font-color">Manageability: </b> Our extensive range of managed services encompasses a holistic approach to managing various aspects of an organization's operations, including end-to-end management, comprehensive disaster recovery, and strategic business continuity planning. Our team manages the intricacies involved, allowing you to direct your attention towards your primary business operations. </p>
 
-                    <p>Embrace the future of data management and take your business to new heights with <a href="https://pidatacenters.com/" target="_blank" class="anchor-color"> Pi DATACENTERS®</a>. </p>
+                    <p>Embrace the future of data management and take your business to new heights with Pi DATACENTERS®. </p>
 
                 </div>
             </div>

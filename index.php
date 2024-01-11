@@ -128,13 +128,9 @@
             z-index: -1;
         }
 
-
-
-
         .banners_content.gpu_hide {
             display: none;
         }
-
 
         .slick-dots {
             position: absolute;
@@ -147,7 +143,6 @@
             list-style: none;
             text-align: center;
         }
-
 
         .slick-dots li {
             display: block;
@@ -162,20 +157,14 @@
             color: #000 !important;
         }
 
-
-
-
-
         .slick-dots li.slick-active {
             margin: 0 0 35px 0 !important;
         }
-
 
         .backdround-bg {
 
             padding: 100px 60px !important;
         }
-
 
         .locations h2 {
             padding: 0 0 15px;
@@ -337,7 +326,7 @@
                                             </li>
                                         </ul>
                                         <div class="know-more-btn">
-                                            <a href="colocation.php">Know More</a>
+                                            <a href="datacenter-colocation-services.php">Know More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -350,36 +339,36 @@
                                     <div class="certi">
                                         <ul class="slider-certificate">
                                             <li>
-                                                <a href="certifications.php">
+                                                <a href="datacenter-cloud-certifications.php">
                                                     <figure> <img src="images/new-tier1.png" alt="cer-icon-9" width="150" height="150" style="height: 100px;"></figure>
                                                 </a>
 
                                             </li>
                                             <li>
-                                                <a href="certifications.php">
+                                                <a href="datacenter-cloud-certifications.php">
                                                     <figure> <img src="images/tia.webp" alt="cer-icon-8" width="150" height="150"></figure>
                                                 </a>
 
                                             </li>
                                             <li>
-                                                <a href="certifications.php">
+                                                <a href="datacenter-cloud-certifications.php">
                                                     <figure> <img src="images/meity.webp" alt="cer-icon-4" width="150" height="150"></figure>
                                                 </a>
 
                                             </li>
                                             <li>
-                                                <a href="certifications.php">
+                                                <a href="datacenter-cloud-certifications.php">
                                                     <figure> <img src="images/iso.webp" alt="cer-icon-3" width="150" height="150"></figure>
                                                 </a>
 
                                             </li>
                                             <li>
-                                                <a href="certifications.php">
+                                                <a href="datacenter-cloud-certifications.php">
                                                     <figure> <img src="images/aicpa.webp" alt="cer-icon-1" width="150" height="150"></figure>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="certifications.php">
+                                                <a href="datacenter-cloud-certifications.php">
                                                     <figure> <img src="images/hipaa.webp" alt="cer-icon-2" width="150" height="150"></figure>
                                                 </a>
 
@@ -387,18 +376,18 @@
 
 
                                             <li>
-                                                <a href="certifications.php">
+                                                <a href="datacenter-cloud-certifications.php">
                                                     <figure> <img src="images/pci.webp" alt="cer-icon-5" width="150" height="150"></figure>
                                                 </a>
 
                                             </li>
                                             <!--<li>
-                                              <a href="certifications.php">
+                                              <a href="datacenter-cloud-certifications.php">
                                            <figure> <img src="images/cer-icon-6.png" alt="cer-icon-6" width="150" height="150"></figure> 
                                            </a>
                                          </li>-->
                                             <li>
-                                                <a href="certifications.php">
+                                                <a href="datacenter-cloud-certifications.php">
                                                     <figure> <img src="images/stqc.webp" alt="cer-icon-7" width="150" height="150"></figure>
                                                 </a>
 
@@ -660,7 +649,7 @@
 
                                         </ul>
                                         <div class="know-more">
-                                            <a href="colocation.php#locations5" class="dc">Know More</a>
+                                            <a href="datacenter-colocation-services.php#locations5" class="dc">Know More</a>
 
 
                                         </div>
@@ -719,7 +708,7 @@
                                         </li>
                                     </ul>
                                     <div class="know-more">
-                                        <a href="about.php">Know More</a>
+                                        <a href="about-pi.php">Know More</a>
                                     </div>
                                 </div>
 
@@ -754,7 +743,7 @@
                                     <div class="great-rtt col-lg-8 " id="slider2">
                                         <ul class="slider2">
                                             <li class="col-md-6">
-                                                <a href="harbourfront-services.php" target="_blank">
+                                                <a href="content-delivery-network-cdn.php" target="_blank">
                                                     <figure>
                                                         <img src="images/harbourfront-product.webp" alt="img">
                                                         <h3>HarbourFront (CDN)</h3>
@@ -762,7 +751,7 @@
                                                 </a>
                                             </li>
                                             <li class="col-md-6">
-                                                <a href="security.php" target="_blank">
+                                                <a href="cybersecurity-services.php" target="_blank">
                                                     <figure>
                                                         <img src="images/cybersecurity-product.webp" alt="img">
                                                         <h3>Cyber Security</h3>
@@ -770,7 +759,7 @@
                                                 </a>
                                             </li>
                                             <li class="col-md-6">
-                                                <a href="pi-work-spaces.php" target="_blank">
+                                                <a href="virtual-desktop-infrastructure-vdi.php" target="_blank">
                                                     <figure>
                                                         <img src="images/pi-work-space-product.webp" alt="img">
                                                         <h3>pi Workspace (VDI)</h3>
@@ -778,7 +767,7 @@
                                                 </a>
                                             </li>
                                             <li class="col-md-6">
-                                                <a href="ip-exchange.php" target="_blank">
+                                                <a href="internet-exchange-ip-ipx.php" target="_blank">
                                                     <figure>
                                                         <img src="images/internet-exchange-product.webp" alt="img">
                                                         <h3>internet exchange (IPX)</h3>
@@ -823,7 +812,7 @@
                                                 <div class="strategic-core-council-cnt1">
                                                     <h3>Container as a Service</h3>
                                                     <div class="know-more">
-                                                        <a href="private-cloud.php" class="dc" target="_blank">Know More</a>
+                                                        <a href="private-cloud-infrastructure-services.php" class="dc" target="_blank">Know More</a>
                                                     </div>
                                                 </div>
                                             </li>
@@ -850,7 +839,7 @@
                                                 <div class="strategic-core-council-cnt1">
                                                     <h3> Infrastructure as a service</h3>
                                                     <div class="know-more">
-                                                        <a href="dc-infrastructure.php" class="dc" target="_blank">Know More</a>
+                                                        <a href="datacenter-infrastructure.php" class="dc" target="_blank">Know More</a>
                                                     </div>
                                                 </div>
                                             </li>
@@ -868,7 +857,7 @@
                                                 <div class="strategic-core-council-cnt1">
                                                     <h3>Security as a Service </h3>
                                                     <div class="know-more">
-                                                        <a href="security.php" class="dc" target="_blank">Know More</a>
+                                                        <a href="cybersecurity-services.php" class="dc" target="_blank">Know More</a>
                                                     </div>
                                                 </div>
                                             </li>
@@ -1060,16 +1049,16 @@
                         <div class="col-md-5 top-foot">
                             <ul class="row foot-menu">
                                 <li>
-                                    <a href="case-studies.php">Case Studies </a>
+                                    <a href="industry-case-studies.php">Case Studies </a>
                                 </li>
                                 <li>
                                     <a href="brochure.php">Corporate Brochure</a>
                                 </li>
                                 <li>
-                                    <a href="certifications.php">Certifications </a>
+                                    <a href="datacenter-cloud-certifications.php">Certifications </a>
                                 </li>
                                 <li>
-                                    <a href="https://pidatacenters.com/pi-cloud/partners">Partners</a>
+                                    <a href="partner-program-portal.php">Partners</a>
                                 </li>
                                 <li>
                                     <a href="contact-us.php">Reach Us</a>

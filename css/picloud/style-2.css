@@ -9215,18 +9215,188 @@
     }
 
     .industry span {
-        position: absolute;
-        background: #76b543;
-        padding: 4px 10px;
-        border-radius: 50%;
-        font-size: 10px;
-        font-weight: bold;
-        top: 3px;
-        color: #fff;
-        left: 13px;
+        font-size: 18px;
+        font-weight: 900;
+        color: #76b543;
+        letter-spacing: 1px;
+    }
+
+    .articles span {
+        font-size: 18px;
+        font-weight: 900;
+        color: #223f97;
         letter-spacing: 1px;
     }
 
     .who-we-are1 {
         padding: 0 35px 25px 5px;
+    }
+
+    .case-block .added-tags-blog h2 {
+        font-size: 20px;
+        text-align: left;
+        padding: 10px 0;
+        line-height: 1.8rem;
+        color: #162068;
+    }
+
+    /* blog subscribe */
+    .subscribe-btn {
+        position: absolute;
+        top: 57%;
+        left: 12%;
+        border: none;
+        background-color: #fff;
+        width: 130px;
+        height: 35px;
+        font-size: 14px;
+        color: #223f97;
+        font-weight: bold;
+        border-radius: 5px;
+        outline: none !important;
+    }
+
+    .subscribe .sub-btn-2,
+    .subscribe .pop-sub-btn {
+        position: absolute;
+        background-color: #fff;
+        color: #223f97;
+        padding: 50x 10px;
+        width: 130px;
+        height: 35px;
+        text-align: center;
+        line-height: 2.5;
+        border-radius: 5px;
+        font-size: 14px;
+        display: inline-flex;
+        text-align: center;
+        justify-content: center;
+        text-decoration: none !important;
+        font-weight: bold;
+        top: -71px;
+        left: 141px;
+        border: none;
+        outline: none !important;
+    }
+
+    .subscribe .pop-sub-btn {
+        background-color: #223f97;
+        color: #fff;
+        top: 70px;
+        left: 125px;
+    }
+
+    .subscribe .modal-content {
+        background: none;
+        margin: 0 auto;
+        padding: 10px 20px 40px 20px;
+        border: none;
+        width: 80%;
+    }
+
+    .subscribe .sub-close {
+        border: none;
+        font-size: 22px;
+        background: #000;
+        color: #fff;
+        font-weight: bold;
+        outline: none !important;
+        text-align: right;
+        padding: 0px 10px;
+        border-radius: 20px;
+    }
+
+    .subscribe .modal-header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .subscribe .modal-title {
+        color: #223f97;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .subscribe .modal-body p {
+        color: #000;
+        font-size: 18px;
+        line-height: 1.5rem;
+        text-align: center;
+    }
+
+    #thanks-msg .modal-body p {
+        color: #000;
+        font-size: 18px;
+        line-height: 1.5rem;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .subscribe label {
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .subscribe input {
+        width: 100%;
+        background-color: #fff;
+        border: 1px solid #0000002e;
+        border-radius: 10px;
+        outline: none;
+        padding: 8px 10px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .subscribe .check-box {
+        width: 5% !important;
+    }
+
+    .subscribe .sub_mit {
+        width: 100%;
+        max-width: 50%;
+        margin: auto !important;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #223f97;
+        color: #fff !important;
+    }
+
+    .subscribe .modal-dialog {
+        margin-top: 0%;
+    }
+
+    .subscribe .okay-btn {
+        justify-content: center;
+    }
+
+    .subscribe .close-btn {
+        border: none;
+        outline: none !important;
+        background-color: #223f97;
+        color: #fff;
+        padding: 6px 20px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+
+    .subscribe .times-btn {
+        text-align: right;
+    }
+
+    /* added new styles after adding head tags */
+    .fir-icon-incor h6 {
+        font-weight: 700;
+        color: black;
+        font-size: 16px;
+        padding-top: 20px;
+        color: #242424;
+    }
+
+    .dc-advisory-block-rt h2 {
+        text-align: left;
+        padding: 10px 0;
+        color: #000;
     }

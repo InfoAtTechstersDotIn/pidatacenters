@@ -132,127 +132,126 @@ $seo_keywords = "";
 
             <li class="col-md-3 articles">
               <a href="what-is-colocation.php"><img src="images/what-is-colocation.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="what-is-colocation.php" class="pres-rel">What is Colocation? A Guide to the Benefits and Advantages</a>
+              <span>#article</span><a href="what-is-colocation.php" class="pres-rel">What is Colocation? A Guide to the Benefits and Advantages</a>
               <div class="readmore-btn"><a href="what-is-colocation.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 articles">
               <a href="what-is-meity.php"><img src="images/kh-what-is-meity.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="what-is-meity.php" class="pres-rel">What is MeitY? How Does its Certification of Datacenters Safeguard India's Digital Frontier? </a>
+              <span>#article</span><a href="what-is-meity.php" class="pres-rel">What is MeitY? How Does its Certification of Datacenters Safeguard India's Digital Frontier? </a>
               <div class="readmore-btn"><a href="what-is-meity.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 industry">
               <a href="data-dragging.php"><img src="images/data-dragging.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#insight</span>
-              <a href="data-dragging.php" class="pres-rel">Data Dragging You into the Slow Lane?</a>
+              <span>#insight</span><a href="data-dragging.php" class="pres-rel">Data Dragging You into the Slow Lane?</a>
               <div class="readmore-btn"><a href="data-dragging.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 articles">
               <a href="cyber-security-101.php"><img src="images/kh-cyber-security.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="cyber-security-101.php" class="pres-rel">Cybersecurity 101: Protect Your Business with These Essential Tips! </a>
+              <span>#article</span><a href="cyber-security-101.php" class="pres-rel">Cybersecurity 101: Protect Your Business with These Essential Tips! </a>
               <div class="readmore-btn"><a href="cyber-security-101.php">Read More</a></div>
             </li>
 
 
             <li class="col-md-3 articles">
               <a href="what-is-managed-services.php"><img src="images/kh-managed-services.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="what-is-managed-services.php" class="pres-rel">What is Managed Services? Their Role in Enabling Peace of Mind for Businesses</a>
+              <span>#article</span><a href="what-is-managed-services.php" class="pres-rel">What is Managed Services? Their Role in Enabling Peace of Mind for Businesses</a>
               <div class="readmore-btn"><a href="what-is-managed-services.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 industry">
-              <span>#insight</span><a href="colocation-services.php"><img src="images/colocation-services.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="colocation-services.php" class="pres-rel">A Potential Solution No Industry Can Ignore</a>
+              <a href="colocation-services.php"><img src="images/colocation-services.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#insight</span><a href="colocation-services.php" class="pres-rel">A Potential Solution No Industry Can Ignore</a>
               <div class="readmore-btn"><a href="colocation-services.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 articles">
               <a href="Tier-IV-certified-data-centers.php"><img src="images/tier-iv-certified-dc.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="Tier-IV-certified-data-centers.php" class="pres-rel">Tier IV-Certified Data Centers: A Comprehensive Guide</a>
+              <span>#article</span><a href="Tier-IV-certified-data-centers.php" class="pres-rel">Tier IV-Certified Data Centers: A Comprehensive Guide</a>
               <div class="readmore-btn"><a href="Tier-IV-certified-data-centers.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 industry">
-              <span>#insight</span><a href="pharma-toughest-challenges.php"><img src="images/pharma-challenges.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="pharma-toughest-challenges.php" class="pres-rel">Cure-All for Pharma's Toughest Challenges</a>
+              <a href="pharma-toughest-challenges.php"><img src="images/pharma-challenges.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#insight</span><a href="pharma-toughest-challenges.php" class="pres-rel">Cure-All for Pharma's Toughest Challenges</a>
               <div class="readmore-btn"><a href="pharma-toughest-challenges.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 articles">
               <a href="data-center-strategies.php"><img src="images/green-vs-brown.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="data-center-strategies.php" class="pres-rel">Choosing Data Center Strategies: Greenfield vs. Brownfield Explained</a>
+              <span>#article</span><a href="data-center-strategies.php" class="pres-rel">Choosing Data Center Strategies: Greenfield vs. Brownfield Explained</a>
               <div class="readmore-btn"><a href="data-center-strategies.php">Read More</a></div>
             </li>
 
 
             <li class="col-md-3 articles">
               <a href="cloud-computing.php"><img src="images/cloud-computing.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="cloud-computing.php" class="pres-rel">What is Cloud Computing? A Comprehensive Exploration </a>
+              <span>#article</span><a href="cloud-computing.php" class="pres-rel">What is Cloud Computing? A Comprehensive Exploration </a>
               <div class="readmore-btn"><a href="cloud-computing.php">Read More</a></div>
             </li>
 
 
             <li class="col-md-3 articles">
               <a href="hyperscale-datacenters.php"><img src="images/what-are-hyperscale.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="hyperscale-datacenters.php" class="pres-rel">What are Hyperscale Datacenters and How They Shape Tomorrow's Tech Landscape? </a>
+              <span>#article</span><a href="hyperscale-datacenters.php" class="pres-rel">What are Hyperscale Datacenters and How They Shape Tomorrow's Tech Landscape? </a>
               <div class="readmore-btn"><a href="hyperscale-datacenters.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 industry">
-              <span>#insight</span><a href="mutli-layer-cybersecurity.php"><img src="images/multi-layer-cs.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="mutli-layer-cybersecurity.php" class="pres-rel">Why Cybersecurity Is a Buzz Word Across Industries ?</a>
+              <a href="mutli-layer-cybersecurity.php"><img src="images/multi-layer-cs.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#insight</span><a href="mutli-layer-cybersecurity.php" class="pres-rel">Why Cybersecurity Is a Buzz Word Across Industries ?</a>
               <div class="readmore-btn"><a href="mutli-layer-cybersecurity.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 industry">
-              <span>#insight</span><a href="data-centric-solutions.php"><img src="images/data-centric.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="data-centric-solutions.php" class="pres-rel">Data-Centric Solutions for Creative Excellence</a>
+              <a href="data-centric-solutions.php"><img src="images/data-centric.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#insight</span><a href="data-centric-solutions.php" class="pres-rel">Data-Centric Solutions for Creative Excellence</a>
               <div class="readmore-btn"><a href="data-centric-solutions.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 articles">
               <a href="edge-computing.php"><img src="images/what-is-edge-computing.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="edge-computing.php" class="pres-rel">What is Edge Computing? <br>
+              <span>#article</span><a href="edge-computing.php" class="pres-rel">What is Edge Computing? <br>
                 A Deep Dive into Technical Features and Numerous Advantages </a>
               <div class="readmore-btn"><a href="edge-computing.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 articles">
               <a href="datacenter-based-cloud-service.php"><img src="images/kh-cloud service provider.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="datacenter-based-cloud-service.php" class="pres-rel">What are the benefits of using a datacenter-based cloud service provider? </a>
+              <span>#article</span><a href="datacenter-based-cloud-service.php" class="pres-rel">What are the benefits of using a datacenter-based cloud service provider? </a>
               <div class="readmore-btn"><a href="datacenter-based-cloud-service.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 articles">
               <a href="dc-unseen-infrastructure.php"><img src="images/kh-img-1.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="dc-unseen-infrastructure.php" class="pres-rel">The Data Center: The Unseen Infrastructure of Our Lives</a>
+              <span>#article</span><a href="dc-unseen-infrastructure.php" class="pres-rel">The Data Center: The Unseen Infrastructure of Our Lives</a>
               <div class="readmore-btn"><a href="dc-unseen-infrastructure.php">Read More</a></div>
             </li>
 
 
             <li class="col-md-3 industry">
-              <span>#insight</span><a href="struggling-with-data-overload.php"><img src="images/industry-4.0.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="struggling-with-data-overload.php" class="pres-rel">Discover How Data Centers Simplify Everything!</a>
+              <a href="struggling-with-data-overload.php"><img src="images/industry-4.0.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#insight</span><a href="struggling-with-data-overload.php" class="pres-rel">Discover How Data Centers Simplify Everything!</a>
               <div class="readmore-btn"><a href="struggling-with-data-overload.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 articles">
               <a href="types-of-data-centers.php"><img src="images/kh-img-2.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="types-of-data-centers.php" class="pres-rel">Unveiling the Powerhouse: Exploring the Types and Importance of Data Centers in Modern Business Operations</a>
+              <span>#article</span><a href="types-of-data-centers.php" class="pres-rel">Unveiling the Powerhouse: Exploring the Types and Importance of Data Centers in Modern Business Operations</a>
               <div class="readmore-btn"><a href="types-of-data-centers.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 industry">
-              <span>#insight</span><a href="digital-frontier.php"><img src="images/digital-frontier.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="digital-frontier.php" class="pres-rel">Can IT/ITES Overcome These Hurdles?</a>
+              <a href="digital-frontier.php"><img src="images/digital-frontier.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#insight</span><a href="digital-frontier.php" class="pres-rel">Can IT/ITES Overcome These Hurdles?</a>
               <div class="readmore-btn"><a href="digital-frontier.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 industry">
-              <span>#insight</span><a href="unlock-scalability.php"><img src="images/unlock-scalability.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="unlock-scalability.php" class="pres-rel">The Convenience of Online Shopping</a>
+              <a href="unlock-scalability.php"><img src="images/unlock-scalability.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#insight</span><a href="unlock-scalability.php" class="pres-rel">The Convenience of Online Shopping</a>
               <div class="readmore-btn"><a href="unlock-scalability.php">Read More</a></div>
             </li>
 
@@ -260,31 +259,31 @@ $seo_keywords = "";
 
             <li class="col-md-3 articles">
               <a href="data-center-security.php"><img src="images/kh-dc.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="data-center-security.php" class="pres-rel">What Is Data Center Security? Why Is It Important? </a>
+              <span>#article</span><a href="data-center-security.php" class="pres-rel">What Is Data Center Security? Why Is It Important? </a>
               <div class="readmore-btn"><a href="data-center-security.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 articles">
               <a href="data-centers-in-cloud-computing.php"><img src="images/kh-types of dc.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="data-centers-in-cloud-computing.php" class="pres-rel">What Are the Different Types of Data Centers in Cloud Computing? </a>
+              <span>#article</span><a href="data-centers-in-cloud-computing.php" class="pres-rel">What Are the Different Types of Data Centers in Cloud Computing? </a>
               <div class="readmore-btn"><a href="data-centers-in-cloud-computing.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 industry">
-              <span>#insight</span><a href="banking-industry-is-no-exception.php"><img src="images/banking-industry.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="banking-industry-is-no-exception.php" class="pres-rel">From Limits to Liberation: The Rise Of Remote Infrastructure Management In The Banking World</a>
+              <a href="banking-industry-is-no-exception.php"><img src="images/banking-industry.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#insight</span><a href="banking-industry-is-no-exception.php" class="pres-rel">From Limits to Liberation: The Rise Of Remote Infrastructure Management In The Banking World</a>
               <div class="readmore-btn"><a href="banking-industry-is-no-exception.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 articles">
               <a href="multi-cloud-solutions.php"><img src="images/kh-multi cloud.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="multi-cloud-solutions.php" class="pres-rel">How Do Multi-Cloud Solutions Transform Business Agility and Innovation? </a>
+              <span>#article</span><a href="multi-cloud-solutions.php" class="pres-rel">How Do Multi-Cloud Solutions Transform Business Agility and Innovation? </a>
               <div class="readmore-btn"><a href="multi-cloud-solutions.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 industry">
-              <span>#insight</span><a href="revolutionizing-education.php"><img src="images/revolutionizing-education.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="revolutionizing-education.php" class="pres-rel">Revolutionizing Education: The Importance of a Reliable Data Center</a>
+              <a href="revolutionizing-education.php"><img src="images/revolutionizing-education.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#insight</span><a href="revolutionizing-education.php" class="pres-rel">Revolutionizing Education: The Importance of a Reliable Data Center</a>
               <div class="readmore-btn"><a href="revolutionizing-education.php">Read More</a></div>
             </li>
 
@@ -683,15 +682,19 @@ $seo_keywords = "";
   $(document).ready(function() {
     $('#article-1').on('click', function() {
       $('.articles').show();
+      $('.articles span').hide();
       $('.industry').hide();
     });
 
     $('#article-2').on('click', function() {
       $('.articles, .industry').show();
+      $('.articles span').show();
+      $('.industry span').show();
     });
 
     $('#article-3').on('click', function() {
       $('.industry').show();
+      $('.industry span').hide();
       $('.articles').hide();
     });
 
