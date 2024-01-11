@@ -118,7 +118,7 @@ $seo_keywords = "";
   <div class="industry-articles">
     <button id="article-1">Articles</button>
     <button id="article-2">All</button>
-    <button id="article-3">Industry Insight</button>
+    <button id="article-3">Insight</button>
   </div>
 </div>
 <!-- buttons ends -->
@@ -143,7 +143,8 @@ $seo_keywords = "";
             </li>
 
             <li class="col-md-3 industry">
-              <span>#industry insight</span><a href="data-dragging.php"><img src="images/data-dragging.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="data-dragging.php"><img src="images/data-dragging.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#insight</span>
               <a href="data-dragging.php" class="pres-rel">Data Dragging You into the Slow Lane?</a>
               <div class="readmore-btn"><a href="data-dragging.php">Read More</a></div>
             </li>
@@ -162,7 +163,7 @@ $seo_keywords = "";
             </li>
 
             <li class="col-md-3 industry">
-              <span>#industry insight</span><a href="colocation-services.php"><img src="images/colocation-services.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#insight</span><a href="colocation-services.php"><img src="images/colocation-services.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
               <a href="colocation-services.php" class="pres-rel">A Potential Solution No Industry Can Ignore</a>
               <div class="readmore-btn"><a href="colocation-services.php">Read More</a></div>
             </li>
@@ -174,7 +175,7 @@ $seo_keywords = "";
             </li>
 
             <li class="col-md-3 industry">
-              <span>#industry insight</span><a href="pharma-toughest-challenges.php"><img src="images/pharma-challenges.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#insight</span><a href="pharma-toughest-challenges.php"><img src="images/pharma-challenges.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
               <a href="pharma-toughest-challenges.php" class="pres-rel">Cure-All for Pharma's Toughest Challenges</a>
               <div class="readmore-btn"><a href="pharma-toughest-challenges.php">Read More</a></div>
             </li>
@@ -200,13 +201,13 @@ $seo_keywords = "";
             </li>
 
             <li class="col-md-3 industry">
-              <span>#industry insight</span><a href="mutli-layer-cybersecurity.php"><img src="images/multi-layer-cs.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#insight</span><a href="mutli-layer-cybersecurity.php"><img src="images/multi-layer-cs.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
               <a href="mutli-layer-cybersecurity.php" class="pres-rel">Why Cybersecurity Is a Buzz Word Across Industries ?</a>
               <div class="readmore-btn"><a href="mutli-layer-cybersecurity.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 industry">
-              <span>#industry insight</span><a href="data-centric-solutions.php"><img src="images/data-centric.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#insight</span><a href="data-centric-solutions.php"><img src="images/data-centric.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
               <a href="data-centric-solutions.php" class="pres-rel">Data-Centric Solutions for Creative Excellence</a>
               <div class="readmore-btn"><a href="data-centric-solutions.php">Read More</a></div>
             </li>
@@ -232,7 +233,7 @@ $seo_keywords = "";
 
 
             <li class="col-md-3 industry">
-              <span>#industry insight</span><a href="struggling-with-data-overload.php"><img src="images/industry-4.0.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#insight</span><a href="struggling-with-data-overload.php"><img src="images/industry-4.0.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
               <a href="struggling-with-data-overload.php" class="pres-rel">Discover How Data Centers Simplify Everything!</a>
               <div class="readmore-btn"><a href="struggling-with-data-overload.php">Read More</a></div>
             </li>
@@ -244,13 +245,13 @@ $seo_keywords = "";
             </li>
 
             <li class="col-md-3 industry">
-              <span>#industry insight</span><a href="digital-frontier.php"><img src="images/digital-frontier.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#insight</span><a href="digital-frontier.php"><img src="images/digital-frontier.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
               <a href="digital-frontier.php" class="pres-rel">Can IT/ITES Overcome These Hurdles?</a>
               <div class="readmore-btn"><a href="digital-frontier.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 industry">
-              <span>#industry insight</span><a href="unlock-scalability.php"><img src="images/unlock-scalability.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#insight</span><a href="unlock-scalability.php"><img src="images/unlock-scalability.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
               <a href="unlock-scalability.php" class="pres-rel">The Convenience of Online Shopping</a>
               <div class="readmore-btn"><a href="unlock-scalability.php">Read More</a></div>
             </li>
@@ -270,7 +271,7 @@ $seo_keywords = "";
             </li>
 
             <li class="col-md-3 industry">
-              <span>#industry insight</span><a href="banking-industry-is-no-exception.php"><img src="images/banking-industry.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#insight</span><a href="banking-industry-is-no-exception.php"><img src="images/banking-industry.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
               <a href="banking-industry-is-no-exception.php" class="pres-rel">From Limits to Liberation: The Rise Of Remote Infrastructure Management In The Banking World</a>
               <div class="readmore-btn"><a href="banking-industry-is-no-exception.php">Read More</a></div>
             </li>
@@ -281,20 +282,8 @@ $seo_keywords = "";
               <div class="readmore-btn"><a href="multi-cloud-solutions.php">Read More</a></div>
             </li>
 
-            <li class="col-md-3 articles">
-              <a href="people-centric-approach.php"><img src="images/people-centric-approach.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="people-centric-approach.php" class="pres-rel">Celebrating Nine Years of Transforming India's Tech Landscape</a>
-              <div class="readmore-btn"><a href="people-centric-approach.php">Read More</a></div>
-            </li>
-
-            <li class="col-md-3 articles">
-              <a href="digital-personal-data-protection-bill.php"><img src="images/data-protection-bill.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <a href="digital-personal-data-protection-bill.php" class="pres-rel">Digital Personal Data Protection (DPDP) Bill</a>
-              <div class="readmore-btn"><a href="digital-personal-data-protection-bill.php">Read More</a></div>
-            </li>
-
             <li class="col-md-3 industry">
-              <span>#industry insight</span><a href="revolutionizing-education.php"><img src="images/revolutionizing-education.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#insight</span><a href="revolutionizing-education.php"><img src="images/revolutionizing-education.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
               <a href="revolutionizing-education.php" class="pres-rel">Revolutionizing Education: The Importance of a Reliable Data Center</a>
               <div class="readmore-btn"><a href="revolutionizing-education.php">Read More</a></div>
             </li>

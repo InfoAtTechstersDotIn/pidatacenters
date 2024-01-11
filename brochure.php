@@ -108,8 +108,7 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
           <div>
             <h2 style="line-height:48px">Pi Snapshot:</h2>
             <p style="color:#242424 !important;" class="py-2">Have you ever considered the importance of keeping your vital data secure? </p>
-            <p style="color:#242424 !important;">Look no further! Pi is your one-stop destination for all your digital challenges. </p>
-            <p style="color:#242424 !important;">We go beyond being a data center; it's an ecosystem crafted for diverse enterprise needs. Our services focus on high-performance solutions, seamless infrastructure management, and unmatched reliability, ensuring operational excellence and Total Cost of Ownership (TCO) optimization.</p>
+            <p style="color:#242424 !important;">Look no further! Pi is your one-stop destination for all your digital challenges. We go beyond being a data center; it's an ecosystem crafted for diverse enterprise needs. Our services focus on high-performance solutions, seamless infrastructure management, and unmatched reliability, ensuring operational excellence and Total Cost of Ownership (TCO) optimization.</p>
             <p style="color:#242424 !important;">Ready to make your data life easier? Take a click to explore Pi Snapshot, your ticket to stress-free data management. Start your journey with us today!</p>
             <a href="images/pi-snapshot.pdf" target="_blank">Download Brochure</a>
           </div>

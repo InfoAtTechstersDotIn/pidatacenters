@@ -258,13 +258,40 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                 <li class="col-md-4">
                     <div class="case-content">
                         <figure>
+                            <img src="dashboard/uploads/people-centric.png" alt="blog-img-1" width="450" height="248">
+                        </figure>
+                        <h4>Celebrating Nine Years of Transforming India's Tech Landscape </h4>
+                        <p></p>
+                        <p><strong>At Pi Datacenters, we recently commemorated a significant milestone - nine years of unwavering commitment to revolutionizing the world of Cloud Computing and Data Infrastructure Solutions in India.</strong></p>
+                        <p></p>
+                        <a href="people-centric-approach.php" class="read-more">Read More</a>
+                    </div>
+                </li>
+
+                <li class="col-md-4">
+                    <div class="case-content">
+                        <figure>
+                            <img src="dashboard/uploads/data-protection-bill.png" alt="blog-img-1" width="450" height="248">
+                        </figure>
+                        <h4>Digital Personal Data Protection (DPDP) Bill </h4>
+                        <p></p>
+                        <p><strong>The Digital Personal Data Protection (DPDP) Bill marks a significant milestone in India's journey toward establishing comprehensive data privacy and protection regulations. As the country's first law specifically dedicated to data privacy, the DPDP Bill aims to safeguard personal data and enhance the rights of individuals.</strong></p>
+                        <p></p>
+                        <a href="digital-personal-data-protection-bill.php" class="read-more">Read More</a>
+                    </div>
+                </li>
+
+
+                <li class="col-md-4">
+                    <div class="case-content">
+                        <figure>
                             <img src="dashboard/uploads/Parnership-with-oracle.png" alt="blog-img-1" width="450" height="248">
                         </figure>
                         <!--<span class="date">23 Apr, 2022</span>-->
                         <h4>Transforming Business Dynamics: The Pi-Oracle Strategic Partnership </h4>
                         <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
                         <p></p>
-                        <p><strong id="docs-internal-guid-3a909168-7fff-85f0-b0d7-6b3b1cb909b3">In the dynamic landscape of cloud computing and data management, the partnership between Pi Datacenters and Oracle emerges as a paradigm of innovation and reliability.</strong></p>
+                        <p>In the dynamic landscape of cloud computing and data management, the partnership between Pi Datacenters and Oracle emerges as a paradigm of innovation and reliability.</p>
                         <p></p>
                         <a href="Pi-oracle-strategic-partnership.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
@@ -282,7 +309,9 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <!--<span class="date">23 Apr, 2022</span>-->
                         <h4>Finding the Ideal Data Center: The Reliability &amp; Scalability Aspects</h4>
                         <!--<p>It&#8217;s been seven years since I took that supposedly, out of mind call, one fine afternoon of early March 2015. Sitting at the cafÃ© of a global conglomerate at DLF Gurgaon, I picked that call from a head-hunter and after</p>-->
+                        <p></p>
                         <p>The importance of Data Centers continues to increase as more businesses and individuals rely on them for data storage, processing, and access.</p>
+                        <p></p>
                         <a href="data-center-reliability-and-scalability.php" class="read-more">Read More</a>
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->

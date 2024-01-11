@@ -9191,13 +9191,11 @@
     }
 
     .industry-articles {
-        position: absolute;
-        background: linear-gradient(#223f97, #223f97, #76b543, #76b543, #223f97, #223f97);
+        background: radial-gradient(#76b543, #223f97, #223f97);
         width: fit-content;
         border-radius: 30px;
         padding: 2px 2px;
-        top: 15px;
-        right: 0;
+        margin-left: auto;
     }
 
     .industry-articles button {
@@ -9227,4 +9225,8 @@
         color: #fff;
         left: 13px;
         letter-spacing: 1px;
+    }
+
+    .who-we-are1 {
+        padding: 0 35px 25px 5px;
     }

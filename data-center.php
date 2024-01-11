@@ -4,10 +4,6 @@ $seo_description = "Pi Datacenters - World-Class Data Center Infrastructure & Co
 $seo_keywords = "Data Center Infrastructure, colocation data center services, colocation services, Colocation data center providers, data center solution providers, data center management, data center solutions, data centers";
 ?>
 
-
-
-
-
 <?php include('php/includes-techsters/header.php'); ?>
 
 
@@ -97,6 +93,9 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
     <div class="about-banner-blk">
         <img src="images/datacenter-services.png" alt="datacenter-services" width="1920" height="210" class="datacenter-services-img">
         <h1>Data Center</h1>
+
+
+
     </div>
 </div>
 
@@ -108,7 +107,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                     <h2>Data Center <br>Infrastructure & Services</h2>
                     <p>Embark on a data-driven journey where innovation meets precision. From groundbreaking design strategies to seamless execution, we redefine data center excellence. Explore a world where your data's potential knows no bounds.
                     </p>
-                    <div class="link-btn"> <a href="dc-infrastructure.php">Know More</a></div>
+                    <div class="link-btn"> <a href="datacenter-infrastructure.php">Know More</a></div>
                 </div>
 
             </div>
@@ -120,7 +119,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                     </h2>
                     <p>Explore a new era in Colocation Services. From private suites tailored for high compliance to plug-and-play whitespace, we offer flexible solutions for enterprises. Whether you seek control with caged options or modular rack colocation, we are your partner in scaling seamlessly. Experience hands-and-feet support for operational ease.
                     </p>
-                    <div class="link-btn"> <a href="colocation.php">Know More</a></div>
+                    <div class="link-btn"> <a href="datacenter-colocation-services.php">Know More</a></div>
                 </div>
             </div>
             <div class="col-md-4">
@@ -130,7 +129,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                     </h2>
 
                     <p>Revolutionize your data center vision with Pi's unparalleled consulting services. As architects of the world's fourth-largest Tier 4 data center, we bring in-house expertise, end-to-end support, and 8 levels of security. Elevate your project with Pi, where excellence meets innovation.</p>
-                    <div class="link-btn"> <a href="dc-design-planning.php">Know More</a></div>
+                    <div class="link-btn"> <a href="datacenter-design-planning-consultancy.php">Know More</a></div>
                 </div>
             </div>
 

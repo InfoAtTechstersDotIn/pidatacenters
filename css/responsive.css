@@ -7009,6 +7009,18 @@ top: 185px !important;
         line-height: 4rem;
     }
 
+    .industry-articles .active:after {
+        content: "";
+    }
+
+    .industry-articles {
+        right: -50px;
+    }
+
+    .slider-knowledge {
+        padding: 10px 35px 35px 35px;
+    }
+
 }
 
 
@@ -7293,6 +7305,10 @@ top: 185px !important;
         padding: 5px 0;
         line-height: 1.5rem;
         font-size: 18px;
+    }
+
+    .industry-articles button {
+        padding: 4px 5px;
     }
 }
 
