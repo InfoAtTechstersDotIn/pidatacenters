@@ -100,7 +100,7 @@ $seo_keywords = "";
 	<section id="hb_products_Lists">
 		<div class="container">
 			<div class="hb-productHead text-center">
-				<h1>Focus On Your Business, Not IT</h1>
+				<h2>Focus On Your Business, Not IT</h2>
 				<p>Let us manage your IT infrastructure while you manage your business. Instead of investing in building your IT infrastructure and hassling through its maintenance, accelerate your digital transformation with high-performance Compute on Pi Cloud.</p>
 			</div>
 			<div class="hb-childProducts">
@@ -262,7 +262,7 @@ $seo_keywords = "";
 										<div class="hb-featureBox">
 											<div class="hb-featTopHeader">
 												<p class="hb-featLogo">
-													<img src="images/scale-3.svg" alt="scale-3">
+													<img src="./pi-cloud/images/scale-3.svg" alt="scale-3">
 												</p>
 												<div class="hb-featCont">
 													<h6>Lightweight</h6>
@@ -346,7 +346,7 @@ $seo_keywords = "";
 
 							<div class="container">
 								<div class="hb-productHead text-center">
-									<h1>Bridge The Gap Between Your Business & IT</h1>
+									<h2>Bridge The Gap Between Your Business & IT</h2>
 									<p>In the recent years there has been acceleration in the frequency, diversity, and impact of disruptions. Let us plan, build and manage your networks to help your enterprise respond to the unexpected. Our software-defined network services makes it possible to create, provision and manage networks flawlessly. It continues to leverage while continuing to leverage the underlying physical network as the packet-forwarding backplane. Pi Cloud also enables enterprises to gain end-to-end visibility and analysis of applications, users, and devices across the network.</p>
 									<div class="hb-childProducts">
 										<h2 class="text-center">Cloud Networking Products & Solutions
@@ -510,7 +510,7 @@ $seo_keywords = "";
 
 							<div class="container">
 								<div class="hb-productHead text-center">
-									<h1>Go Practically Limitless Capacity with Pi Cloud</h1>
+									<h2>Go Practically Limitless Capacity with Pi Cloud</h2>
 									<p>Data is the lifeline of any business and it is important to consider how enterprises store data, based on enterprise business needs. Pi Cloud allows enterprises to select storage of choice that meets business objectives. Pi Cloud presents varied storage formats to hold, organize and present data with objective driven distinct features and capabilities.</p>
 									<div class="hb-childProducts">
 										<h2 class="text-center">Storage Solutions
@@ -839,7 +839,7 @@ $seo_keywords = "";
 
 						<div class="container">
 							<div class="hb-productHead text-center">
-								<h1>Modern Day Battlefield Is on The Web </h1>
+								<h2>Modern Day Battlefield Is on The Web </h2>
 								<p>In today's connected world, cyber attacks are occurring once in every 14 seconds. With more connected devices In this world than people on earth,
 									there is an increased reliance on the internet, wireless network standards, smart devices and IoT. This has increased the threat vector of enterprises, making them vulnerable to a wide range of risk stemming from cyber threats, disrupting operations and damaging reputation of any enterprise. It won't be an exaggeration to say that multi layered cyber security mechanisms and skilled experts are the last line of defense, for digital data assets of enterprises. It makes the difference between digital harmony and digital chaos</p>
 								<div class="hb-childProducts">
@@ -1041,7 +1041,7 @@ $seo_keywords = "";
 
 						<div class="container">
 							<div class="hb-productHead text-center">
-								<h1> Prevention Is Better Than Cure </h1>
+								<h2> Prevention Is Better Than Cure </h2>
 								<p>IT disasters can be natural or inflicted by human error. Any such threat, causing a data center failure, server corruption, or cyber attacks can be expensive for your business. They not only disrupt your operations, but also cause permanent data loss, damage your reputation and impact your revenue. With business continuity on Pi Cloud<sup></sup>, enterprises can ensure that adverse effect on their business runtime is minimalistic and they get to return to full operational state in no time.</p>
 								<div class="hb-childProducts">
 									<h2 class="text-center">Business Continuity Products
@@ -1366,9 +1366,9 @@ $seo_keywords = "";
 
 						<div class="container">
 							<div class="hb-productHead text-center">
-								<h1>
+								<h2>
 									End-to-end DevOps Solution on Pi Cloud
-								</h1>
+								</h2>
 								<p>DevOps is a portmanteau of &#8220;development & operations&#8221;, it is also a union of best practices and tools which are put in place to improve enterprise performance to deliver applications, products, and services faster. This agility empowers enterprises to serve their clients better and be competitive in the market. DevOps practice on Pi Cloud eliminates the barriers between development and operations team. Under its unified model, development and operations team work collectively all through the software application life cycle, starting from testing an application to launching it.</p>
 								<!-- <div class="hb-childProducts">
 								<h2 class="text-center">Explore our storage solutions</h2>
@@ -1377,7 +1377,7 @@ $seo_keywords = "";
 							<div style="padding: 24px 0">
 								<div class="container">
 
-									<h3 class="hb-sdhsdhsd"> Practices</h3>
+									<h2 class="hb-sdhsdhsd"> Practices</h2>
 									<ul class="list-inline sfdfd_sdajsd">
 										<li class="hb-dibsdd">
 											<div class="sdhsd_ssdud">
@@ -1469,7 +1469,7 @@ $seo_keywords = "";
 					<div class="skltbs-panel" id="tab-8">
 						<div class="container">
 							<div class="hb-productHead text-center">
-								<h1> Digital Workplace Is The New Normal</h1>
+								<h2> Digital Workplace Is The New Normal</h2>
 								<p>Teams today are working remotely and on the go. Without proper visibility into the complex multi-vendor work environments, it's a daunting task to figure out what&#8217;s wrong and who&#8217;s responsible. End User Computing services on Pi Cloud, offers managed Virtual Desktop Infrastructure(VDI) environment on cloud, enabling users for anytime, anywhere and from any device operation.</p>
 								<div class="hb-childProducts">
 									<h2 class="text-center">End User Computing Products & Services</h2>

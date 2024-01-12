@@ -19,7 +19,7 @@ $seo_keywords = "data center design, data center planning, data center reference
 <div class="harbourfront-services-blk">
     <div class="container">
         <div class="harbourfront-services-main">
-            <h3>About Data Center Consultancy</h3>
+            <h2>About Data Center Consultancy</h2>
             <div class="harbourfront row dc-design-planning">
                 <div class="harbourfront-left col-md-5">
                     <img src="images/About-Data-Center-dc.png" alt="about-data-center" width="741" height="822">
@@ -31,7 +31,7 @@ $seo_keywords = "data center design, data center planning, data center reference
                     </p>
                     <p>
 
-                        Pi comes fully armed with experts in the industry and experience of setting up the worldâ€™s fourth largest Uptime institute Tier 4 datacenter in India. Pi undertakes complete due diligence, site survey and presents a project plan basis customers requirement. Pi will review your current setup and consider factors such as your business plan, technology landscape, and future projections to determine the appropriate level of design (Tier III or Tier IV) for your needs. This will involve analyzing your growth projections and presenting a high-level design.
+                        Pi comes fully armed with experts in the industry and experience of setting up the world's fourth largest Uptime institute Tier 4 datacenter in India. Pi undertakes complete due diligence, site survey and presents a project plan basis customers requirement. Pi will review your current setup and consider factors such as your business plan, technology landscape, and future projections to determine the appropriate level of design (Tier III or Tier IV) for your needs. This will involve analyzing your growth projections and presenting a high-level design.
 
                     </p>
                     <p> Datacenter consultancy services include:</p>

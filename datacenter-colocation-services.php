@@ -624,7 +624,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         </div>
                         <div class="col-md-8">
                             <div class="fir-icon-incor">
-                                <p>Security & Surveillance</p>
+                                <h6>Security & Surveillance</h6>
                             </div>
                         </div>
                     </div>
@@ -652,7 +652,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         </div>
                         <div class="col-md-8">
                             <div class="fir-icon-incor">
-                                <p>Fire Safety/ Suppersion</p>
+                                <h6>Fire Safety/ Suppersion</h6>
                             </div>
                         </div>
                     </div>
@@ -674,7 +674,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         </div>
                         <div class="col-md-8">
                             <div class="fir-icon-incor">
-                                <p>SCADA/DCIM</p>
+                                <h6>SCADA/DCIM</h6>
                             </div>
                         </div>
                     </div>
@@ -705,7 +705,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         </div>
                         <div class="col-md-8">
                             <div class="fir-icon-incor">
-                                <p>Fiber Connectivity</p>
+                                <h6>Fiber Connectivity</h6>
                             </div>
                         </div>
                     </div>
@@ -728,7 +728,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         </div>
                         <div class="col-md-8">
                             <div class="fir-icon-incor">
-                                <p>Administrative</p>
+                                <h6>Administrative</h6>
                             </div>
                         </div>
                     </div>
@@ -754,7 +754,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         </div>
                         <div class="col-md-8">
                             <div class="fir-icon-incor">
-                                <p>Other Critical Features</p>
+                                <h6>Other Critical Features</h6>
                             </div>
                         </div>
                     </div>
@@ -1019,6 +1019,18 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                     <li class="col-lg-2 col-6">
                         <img src="images/our-technology-partners-2.png" alt="Public Cloud To Share" class="icon-css1"><br>
                     </li>
+
+
+
+
+
+
+
+
+
+
+
+
 
                     <!--<li class="col-lg-2 col-6">	
 							<img src="images/our-technology-partners-13.png" alt="Public Cloud To Share" class="icon-css1"><br>

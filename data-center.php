@@ -154,13 +154,13 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             <a class="nav-link" data-toggle="tab"> <!--flip-box-inner-->
                                 <div class="hide-icon1"> <!--flip-box-front-->
                                     <img src="images/green-amaravati.png" alt="dc-icon-img-1" width="80" height="80">
-                                    <h6>Vijayawada</h6>
+                                    <h3>Vijayawada</h3>
                                 </div>
                                 <!-- <div class="flip-box-back">
                                                                     </div> -->
                                 <div class="hide-icon2 front-image">
                                     <img src="images/blue-amaravati.png" alt="dc-icon-img-1" width="80" height="80">
-                                    <h6>Vijayawada</h6>
+                                    <h3>Vijayawada</h3>
                                 </div>
                             </a>
                         </li>
@@ -169,12 +169,12 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             <a class="nav-link" data-toggle="tab">
                                 <div class="hide-icon1">
                                     <img src="images/charminar-green.svg" class="hyd" alt="dc-icon-img-1" width="80" height="80">
-                                    <h6>Hyderabad</h6>
+                                    <h3>Hyderabad</h3>
                                 </div>
 
                                 <div class="hide-icon2 front-image">
                                     <img src="images/charminar-blue.svg" class="hyd" alt="dc-icon-img-1" width="80" height="80">
-                                    <h6>Hyderabad</h6>
+                                    <h3>Hyderabad</h3>
                                 </div>
                             </a>
                         </li>
@@ -183,12 +183,12 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
 
                                 <div class="hide-icon1">
                                     <img src="images/green-kochi.png" alt="dc-icon-img-1" width="80" height="80">
-                                    <h6>Kochi</h6>
+                                    <h3>Kochi</h3>
                                 </div>
 
                                 <div class="hide-icon2 front-image">
                                     <img src="images/blue-kochi.png" alt="dc-icon-img-1" width="80" height="80">
-                                    <h6>Kochi</h6>
+                                    <h3>Kochi</h3>
                                 </div>
                             </a>
                         </li>
@@ -197,7 +197,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         <div class="locations-cnt row">
                             <div class="locations-cnt-lt col-md-6">
                                 <div class="amaravathi-dc-top">
-                                    <h3>Vijayawada Data Center <span>(Vijayawada, Andhra Pradesh)</span></h3>
+                                    <h4>Vijayawada Data Center <span>(Vijayawada, Andhra Pradesh)</span></h4>
                                     <ul>
                                         <li>
                                             <p>Uptime Institute Tier IV Certified</p>
@@ -226,7 +226,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                     <img src="images/feature.png" alt="feature" width="852" height="432">
                                 </div>
                                 <div class="features-of-amaravathi-btm">
-                                    <h3>Salient <span style="color:#76b543;">Features</span></h3>
+                                    <h4>Salient <span style="color:#76b543;">Features</span></h4>
 
                                     <p>1. 2N fault tolerant modular architecture providing at least 48 hoursâ€™ power outage protection.</p>
                                     <p>2. Utility power through independent routes from dual substations</p>
@@ -378,7 +378,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             </div>
                             <div class="inner-teli242">
 
-                                <h6 class="p-su">Data Hall</h6>
+                                <h3 class="p-su">Data Hall</h3>
                                 <p class="public111">Room Temperature :<span style="color:#7D7D7D;"> 22+/-2 deg. C</span></p>
                                 <p class="public222">Relative Humidity:<span style="color:#7D7D7D;"> 50+/-10%</span></p>
                                 <p class="demo-info">(controlled by de-humidifiers)</p>
@@ -394,7 +394,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             </div>
                             <div class="inner-teli242">
 
-                                <h6 class="p-su">UPS Switch Rooms</h6>
+                                <h3 class="p-su">UPS Switch Rooms</h3>
                                 <p class="public111">Room Temperature :<span style="color:#7D7D7D;"> 22+/-2 deg. C</span></p>
                                 <p class="public222">Relative Humidity:<span style="color:#7D7D7D;"> 50+/-10%</span></p>
 
@@ -410,7 +410,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             </div>
                             <div class="inner-teli242">
 
-                                <h6 class="p-su">Battery Room</h6>
+                                <h3 class="p-su">Battery Room</h3>
                                 <p class="public111">Room Temperature :<span style="color:#7D7D7D;"> 22+/-2 deg. C</span></p>
                                 <p class="public222">Relative Humidity:<span style="color:#7D7D7D;"> 50+/-10%</span></p>
 
@@ -432,7 +432,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             </div>
                             <div class="inner-teli242">
 
-                                <h6 class="p-su">Chilled Water (CHW)</h6><br>
+                                <h3 class="p-su">Chilled Water (CHW)</h3><br>
                                 <p class="public111">Supply Temperature :<span style="color:#7D7D7D;"> 8 deg. C</span></p>
                                 <p class="public222">Return Temperature :<span style="color:#7D7D7D;"> 10 deg. C</span></p>
 
@@ -448,7 +448,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             </div>
                             <div class="inner-teli242">
 
-                                <h6 class="p-su">Office & All <br>Other Air-Conditioned Rooms</h6>
+                                <h3 class="p-su">Office & All <br>Other Air-Conditioned Rooms</h3>
                                 <p class="public111">Room Temperature :<span style="color:#7D7D7D;"> 22+/-2 deg. C</span></p>
                                 <p class="public222">Relative Humidity:<span style="color:#7D7D7D;"> Less than 70 deg. C</span></p>
 
@@ -484,7 +484,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         </div>
                         <div class="col-md-8">
                             <div class="fir-icon-incor">
-                                <h6>Security & Surveillance</h6>
+                                <h3>Security & Surveillance</h3>
                             </div>
                         </div>
                     </div>
@@ -512,7 +512,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         </div>
                         <div class="col-md-8">
                             <div class="fir-icon-incor">
-                                <h6>Fire Safety/ Suppersion</h6>
+                                <h3>Fire Safety/ Suppersion</h3>
                             </div>
                         </div>
                     </div>
@@ -534,7 +534,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         </div>
                         <div class="col-md-8">
                             <div class="fir-icon-incor">
-                                <h6>SCADA/DCIM</h6>
+                                <h3>SCADA/DCIM</h3>
                             </div>
                         </div>
                     </div>
@@ -565,7 +565,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         </div>
                         <div class="col-md-8">
                             <div class="fir-icon-incor">
-                                <h6>Fiber Connectivity</h6>
+                                <h3>Fiber Connectivity</h3>
                             </div>
                         </div>
                     </div>
@@ -588,7 +588,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         </div>
                         <div class="col-md-8">
                             <div class="fir-icon-incor">
-                                <h6>Administrative</h6>
+                                <h3>Administrative</h3>
                             </div>
                         </div>
                     </div>
@@ -614,7 +614,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         </div>
                         <div class="col-md-8">
                             <div class="fir-icon-incor">
-                                <h6>Other Critical Features</h6>
+                                <h3>Other Critical Features</h3>
                             </div>
                         </div>
                     </div>
@@ -636,7 +636,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
 <div class="dc-download-brochure">
     <div class="dc-download-brochure-mian">
         <div class="dc-download-brochure-left">
-            <p>Data Center Portfolio</p>
+            <h2>Data Center Portfolio</h2>
         </div>
         <div class="dc-download-brochure-right text-center">
             <!-- <a href="images/dc-services-portfolio.pdf" target="_blank">Download Brochure</a> -->
@@ -923,7 +923,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                 <div class="modal-body">
                     <div class=" row">
                         <div class="fill-your-details-cnt features">
-                            <h3>Salient <span style="color:#76b543;">Features</span></h3>
+                            <h4>Salient <span style="color:#76b543;">Features</span></h4>
                             <p>1. 2N fault tolerant modular architecture providing at least 48 hoursâ€™ power outage protection.</p>
                             <p>2. Utility power through independent routes from dual substations</p>
                             <p>3. Lowest power cost in the Industry</p>
@@ -953,7 +953,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                 <div class="modal-body">
                     <div class=" row">
                         <div class="fill-your-details-cnt features">
-                            <h3>Salient <span style="color:#76b543;">Features</span></h3>
+                            <h4>Salient <span style="color:#76b543;">Features</span></h4>
                             <p>1. N+1 fault-tolerant modular architecture provides at least 48 hours of power outage protection.</p>
                             <p>2.Utility power through independent routes from dual substations</p>
                             <p>3. 2N ups and N+1 generator provisioning</p>
@@ -985,7 +985,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                 <div class="modal-body">
                     <div class=" row">
                         <div class="fill-your-details-cnt features">
-                            <h3>Salient <span style="color:#76b543;">Features</span></h3>
+                            <h4>Salient <span style="color:#76b543;">Features</span></h4>
 
                             <p>1. N+1 Fault Tolerant Modular Architecture provides at least 48 hours&#8217 Power Outage Protection. </p>
                             <p>2. Utility Power through Independent Routes from Dual Substations </p>

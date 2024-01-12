@@ -415,11 +415,22 @@ $seo_keywords = "";
     }
 
 
-    .hb-journeyCont>h3 {
+    .hb-journeyCont>h2 {
         margin-bottom: 10px;
         margin-top: 35px;
         padding: 20px;
     }
+
+
+
+
+
+
+
+
+
+
+
 
     /* new styles after adding new header */
     /* cloud pages changes banner {
@@ -526,12 +537,13 @@ $seo_keywords = "";
         margin: 0 auto;
     }
 
-    .hb-journeyCont>h3 {
+    .hb-journeyCont>h2 {
         margin-bottom: 10px;
         margin-top: 35px;
         padding: 20px;
         color: black;
         font-weight: bold;
+        font-size: 30px;
     }
 
     .cloud-icon,
@@ -869,7 +881,7 @@ $seo_keywords = "";
             line-height: 20px;
         }
 
-        .hb-journeyCont>h3 {
+        .hb-journeyCont>h2 {
             line-height: 2rem;
         }
 
@@ -1010,7 +1022,7 @@ $seo_keywords = "";
         <div class="hb-journey">
             <div class="container slide-hov">
                 <div class="hb-journeyCont">
-                    <h3 class="text-center">Service <span style="color: #76b543;">Offerings</span></h3>
+                    <h2 class="text-center">Service <span style="color: #76b543;">Offerings</span></h2>
                 </div>
                 <ul class="cloud-page-1 slide">
                     <li class="cloud">
@@ -1058,8 +1070,8 @@ $seo_keywords = "";
         </div>
 
         <div class="hb-cloudCont text-center" style="text-align:center;">
-            <h3 class="text-center2">Embark on Tomorrow's Computing with <span style="color: #76b543;">Pi Cloud Services</span></h3>
-            <p>Ditch conventional IT constraints and embrace cloud agility and innovation. Let's propel your enterprise to unprecedented altitudes through the cloud's prowess! </p>
+            <h2 class="text-center2">Embark on Tomorrow's Computing with <span style="color: #76b543;">Pi Cloud Services</span></h2>
+            <p class="text-2">Ditch conventional IT constraints and embrace cloud agility and innovation. Let's propel your enterprise to unprecedented altitudes through the cloud's prowess! </p>
         </div>
 
 
@@ -1072,7 +1084,9 @@ $seo_keywords = "";
                                 <span>
                                     <img src="./pi-cloud/images/new-localization-01.svg" alt="data">
                                 </span>
-                                <span><strong>Data Localisation</strong></span>
+                                <h3>
+                                    Data Localisation
+                                </h3>
                                 <span>Absolute regulatory compliance to the digital data protection laws of land, of India!!</span>
                             </a>
                         </div>
@@ -1084,7 +1098,9 @@ $seo_keywords = "";
                                 <span>
                                     <img src="./pi-cloud/images/new-flexibility-01.svg" alt="scale">
                                 </span>
-                                <span><strong>Flexibility @ Core</strong></span>
+                                <h3>
+                                    Flexibility @ Core
+                                </h3>
                                 <span>Get the built-in flexibility of a public cloud, while being on board a secured private cloud</span>
 
                             </a>
@@ -1097,7 +1113,9 @@ $seo_keywords = "";
                                 <span>
                                     <img src="./pi-cloud/images/new-hypervisor-of-choice-01.svg" alt="scale">
                                 </span>
-                                <span><strong>Hypervisor of Choice</strong></span>
+                                <h3>
+                                    Hypervisor of Choice
+                                </h3>
                                 <span> Enterprises get to pick the hypervisor of choice for thier workloads</span>
 
                             </a>
@@ -1112,7 +1130,9 @@ $seo_keywords = "";
                                 <span>
                                     <img src="./pi-cloud/images/new-scalability-01.svg" alt="scale">
                                 </span>
-                                <span><strong>Scale @ Will</strong></span>
+                                <h3>
+                                    Scale @ Will
+                                </h3>
                                 <span>Multi-dimensional and real-time scaling of resources aligned to Enterprise business needs</span>
 
                             </a>
@@ -1125,7 +1145,9 @@ $seo_keywords = "";
                                 <span>
                                     <img src="./pi-cloud/images/new-multi-tiered-security-01.svg" alt="multi">
                                 </span>
-                                <span><strong>Multi-Tiered Security</strong></span>
+                                <h3>
+                                    Multi-Tiered Security
+                                </h3>
                                 <span>Zoned security layers protecting data from vulnerabilities and threats</span>
 
                             </a>
@@ -1139,7 +1161,9 @@ $seo_keywords = "";
                                 <span>
                                     <img src="./pi-cloud/images/new-uptime-01.svg" alt="uptime">
                                 </span>
-                                <span><strong>99.995% Uptime Availability</strong></span>
+                                <h3>
+                                    99.995% Uptime Availability
+                                </h3>
                                 <span>Delivered out of self-owned, multi locale Uptime Institute TIER IV data centers </span>
                             </a>
                         </div>
@@ -1158,7 +1182,7 @@ $seo_keywords = "";
         <div class="hb-journey on-hover">
             <div class="container">
                 <div class="hb-journeyCont">
-                    <h3 class="text-center">Journey With <span style="color: #76b543;">Pi Cloud<span></h3>
+                    <h2 class="text-center">Journey With <span style="color: #76b543;">Pi Cloud<span></h2>
                     <ul class="hb-journeyList list-inline journey_with_picloud">
                         <li class="hb-ListJouney">
                             <div class="hb-Jimg">
@@ -1219,7 +1243,7 @@ $seo_keywords = "";
         <div class="hb-journey">
             <div class="container">
                 <div class="hb-journeyCont">
-                    <h3 class="text-center">Why Embrace <span style="color: #76b543;">Pi Cloud Services?<span> </h3>
+                    <h2 class="text-center">Why Embrace <span style="color: #76b543;">Pi Cloud Services?<span> </h2>
                 </div>
                 <ul class="row cloud-page-2">
                     <li class="col-md-4 cloud cloud2">
@@ -1266,8 +1290,8 @@ $seo_keywords = "";
 <div class="hb-certication">
     <div class="container">
         <div class="hb-CerSetion">
-            <h4 class="text-center">Our <span style="color: #76b543;">Certifications<span>
-            </h4>
+            <h2 class="text-center">Our <span style="color: #76b543;">Certifications<span>
+            </h2>
             <!--<div class="owl-carousel">
            <div class="item">
                   <a href="#">
@@ -1573,7 +1597,7 @@ $seo_keywords = "";
 <div class="hb-certication partner">
     <div class="container">
         <div class="hb-CerSetion">
-            <h4 class="text-center">Technology <span style="color: #76b543;">Partners<span></h4>
+            <h2 class="text-center">Technology <span style="color: #76b543;">Partners<span></h2>
 
             <ul class="list-inline hb-boxLists slider-info">
                 <li>

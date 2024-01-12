@@ -11,6 +11,10 @@ $seo_keywords = "";
 
 <div class="picloud_pages">
 
+
+
+
+
     <div class="hb-bannerCont">
         <div class="hb-bannerImgCont">
             <div class="hb-bannerImg">
@@ -25,7 +29,7 @@ $seo_keywords = "";
                 <!-- <picture>
                 <source media="(max-width: 768px)" srcset="./pi-cloud/images/banners/multi-cloud-img.jpg">
                 <img src="./pi-cloud/images/banners/multi-cloud-img.jpg" alt="pi cloud Cloud Backup as a Service Banner" style="width:100%">
-                <h2>Public Cloud</h2>
+                <h1>Public Cloud</h1>
             </picture>
  -->
 
@@ -44,7 +48,7 @@ $seo_keywords = "";
     <div class="container">
     </div>
     <br>
-    <!-- <h3 class="text-center" style="font-size: 28px; margin: 20px 0;">Why Choose <span style="color: #76b543;">Pi Public Cloud Services</span>?</h3> -->
+    <!-- <h2 class="text-center" style="font-size: 28px; margin: 20px 0;">Why Choose <span style="color: #76b543;">Pi Public Cloud Services</span>?</h2> -->
 
     <div class="hb-productHead">
         <p>The Pi Public Cloud Services helps businesses devise strategies & appropriate planning for building a technology-proficient environment by fostering Flexibility, Scalability, Multi-Tiered Security, and High Redundancy. It brings the best of both worlds for businesses to co-leverage the flexibility of Public Clouds across Oracle (OCI), Azure, AWS, Google (GCP), along with Pi&#8217;s seamless integration and comprehensive management suite. It's all about gaining the trust of customers through the safekeeping of their data across agnostic cloud platforms with a fully integrated products and services stack under one umbrella. </p><br>
@@ -58,7 +62,7 @@ $seo_keywords = "";
 
     <div class="container product">
         <div class="row">
-            <h3 class="text-center" style="font-size: 28px; margin: 15px 0; width:100%;">Why Choose <span style="color: #76b543;">Pi Public Cloud Services</span>?</h3>
+            <h2 class="text-center" style="font-size: 28px; margin: 15px 0; width:100%;">Why Choose <span style="color: #76b543;">Pi Public Cloud Services</span>?</h2>
 
             <div class="box">
                 <div class="jCont col-md-2">
@@ -104,7 +108,7 @@ $seo_keywords = "";
 
     <div class="container product">
         <div class="row">
-            <h3 class="text-center" style="font-size: 28px; margin: 20px 0;width:100%;">Service <span style="color: #76b543;">Offerings</span> </h3>
+            <h2 class="text-center" style="font-size: 28px; margin: 20px 0;width:100%;">Service <span style="color: #76b543;">Offerings</span> </h2>
 
             <div class="box">
                 <div class="jCont col_sm-2">
@@ -272,8 +276,8 @@ $seo_keywords = "";
 
         </div>
 
-        <div class="hb-features">
-            <h3 class="text-center">Key <span style="color: #76b543;">Features</span></h3>
+        <div class="hb-features feature">
+            <h2 class="text-center">Key <span style="color: #76b543;">Features</span></h2>
             <ul class="list-inline hb-featuresList multi-cld-key">
                 <li>
                     <div class="hb-featureBox">
@@ -364,7 +368,7 @@ $seo_keywords = "";
         <div class="hb-certication">
             <div class="container">
                 <div class="hb-CerSetion">
-                    <h4 class="text-center">Technology <span style="color: #76b543;">Partners</span></h4>
+                    <h2 class="text-center">Technology <span style="color: #76b543;">Partners</span></h2>
 
                     <ul class="list-inline hb-boxLists slider-info">
                         <li>

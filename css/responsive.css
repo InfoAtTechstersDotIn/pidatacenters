@@ -7028,6 +7028,19 @@ top: 185px !important;
         top: 65px;
         left: 128px;
     }
+
+    /* newly added after adding head tags */
+    .hb-boxCont>a>h3 {
+        line-height: 1.5rem;
+        padding-bottom: 6px;
+    }
+
+    .text-center .text-2 {
+        padding: 12px 0 0 0;
+    }
+.brochure-btn h2 {
+    font-size: 18px !important;
+}
 }
 
 
@@ -7046,9 +7059,9 @@ top: 185px !important;
     }
 
     .hb-leftCont {
-        width: 100%;
-        margin-top: 0 !important;
-        padding: 0px 20px;
+            width: fit-content;
+    padding: 10px 20px;
+    margin: 0 auto;
     }
 
     .hb-leftCont>span>img,
@@ -7129,6 +7142,9 @@ top: 185px !important;
     .hb-bannerImg h1 {
         left: 6% !important;
     }
+.brochure-btn h2 {
+    font-size: 30px !important;
+}
 
 }
 
@@ -7331,6 +7347,19 @@ top: 185px !important;
         top: 90px;
         left: 100px;
     }
+
+    /* newly added after adding head tags */
+    .owl-dots {
+        margin: 0px auto;
+    }
+
+    .hb-productHead>.main-text {
+        line-height: 1.5rem;
+    }
+.brochure-btn h2 {
+    font-size: 30px !important;
+}
+
 }
 
 @media screen and (max-width:400px) {

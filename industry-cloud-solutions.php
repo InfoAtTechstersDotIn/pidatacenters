@@ -8,7 +8,11 @@ $seo_keywords = "";
 
 <?php include('php/includes-techsters/header.php'); ?>
 
-
+<style>
+   .pop_up .modal-content {
+      margin: 75px auto;
+   }
+</style>
 
 <!-- header section ends here -->
 <!-- banner section starts here -->
@@ -38,7 +42,7 @@ $seo_keywords = "";
       <div class="container">
          <div class="ex-deptCont">
             <div class="ex-dept-Left">
-               <h1 class="heading_text"> Explore Industry<span style="display: block;">Solutions</span></h1>
+               <h2 class="heading_text"> Explore Industry<span style="display: block;">Solutions</span></h2>
                <p class="heading-para">Solve your toughest enterprise challenges irrespective of your industry, organisation type and location</p>
             </div>
             <div class="ex-dept-Right" id="test">

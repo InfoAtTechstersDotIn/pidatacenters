@@ -104,7 +104,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             <img src="images/operator-img.png" alt="advisory" width="829" height="666">
                         </div>
                         <div class="dc-advisory-block-rt  col-md-6">
-                            <h3>Operator</h3>
+                            <h2>Operator</h2>
                             <p>Pi Data Centers have extensive operating experience, with large to medium size data centers, for enterprises and governments. Our data center operation comprises systems and workflows within a data center that keeps it running. It includes installing and maintaining network resources, ensuring data center security, and monitoring systems for power and cooling. The IT requirements of companies that own data centers define many types of data centers, varying in size, reliability, and redundancy. The growth of cloud computing is pushing data centers to modernize, including updated operations that take advantage of virtualization and automation. As time-tested and industry weighted data center operators, we bring in the expertise & in-depth knowledge to put all the dots together and bridge the gaps as your trusted partner to operate your data center.</p>
                         </div>
                     </div>
@@ -116,9 +116,9 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             <img src="images/design-img.png" alt="design-img" width="829" height="666">
                         </div>
                         <div class="dc-advisory-block-rt  col-md-6">
-                            <h3>Design</h3>
+                            <h2>Design</h2>
                             <p>The Data Center design is the vital aspect that determines your total CAPEX and the OPEX. Once the implementation completes, it becomes problematic to undo a sub-optimal design. However, an optimal design can save Millions regarding CAPEX and OPEX. The Pi design team consists of UPTIME-Certified Architects(ATDs) who can bring your vision to reality through their experience and expertise by assimilating essential features required for a Data Center to run. The design includes the Master plan, Structural design, Mechanical & Electrical Design Drawings, HVAC, Security/ Surveillance, Fire Suppression, Access Controls, and End-to-End Automation. Our deliverables also include Design Certifications.</p>
-                            <a href="dc-design-planning.php">Know More</a>
+                            <a href="datacenter-design-planning-consultancy.php">Know More</a>
                         </div>
                     </div>
 
@@ -129,9 +129,9 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             <img src="images/build-img.png" alt="build-img" width="829" height="666">
                         </div>
                         <div class="dc-advisory-block-rt  col-md-6">
-                            <h3>Build</h3>
+                            <h2>Build</h2>
                             <p>Data Center build differs from traditional buildings, and the load-bearing, compartmentalization, and significant structural spans play a critical role. However, often it is easy to overdo the sizing, which inflates the overall cost unless it is designed and built appropriately. We have expertise in selecting the right construction partner for the civil and M&E phases of the project, among others, to execute the build of the DC in the stipulated time. Getting construction & statutory approvals on time is imperative. Our experts have outstanding experience with feet on the ground working with the relevant statutory bodies that will help you achieve the best.</p>
-                            <a href="dc-build.php">Know More</a>
+                            <a href="datacenter-build-operate-consultancy.php">Know More</a>
                         </div>
                     </div>
 
@@ -142,9 +142,9 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             <img src="images/pmc-img.png" alt="pmc-img" width="829" height="666">
                         </div>
                         <div class="dc-advisory-block-rt  col-md-6">
-                            <h3>Project Management Consultancy (PMC)</h3>
+                            <h2>Project Management Consultancy (PMC)</h2>
                             <p>To ensure on-time completion, addressing the project timelines is critical besides the quality task and process being implemented. The PMC encloses execution and completion of the scope of all the essential aspects, including Civil, Electrical, and Mechanical, which contains low side, HVAC, Security/ Surveillance, Fire Suppression, Access Controls, and end-to-end automation. Once the project is completed, we ensure end-to-end testing with the appointed agency to ensure validation against the design parameters before handing it over.</p>
-                            <a href="dc-design-planning.php">Know More</a>
+                            <a href="datacenter-design-planning-consultancy.php">Know More</a>
                         </div>
                     </div>
 

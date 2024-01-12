@@ -9064,10 +9064,6 @@
         color: blue;
     }
 
-    .pop_up .modal-content {
-        margin: 75px auto;
-    }
-
     .hb-featuresList>li {
         border-top: 5px solid #223f97 !important;
     }
@@ -9117,7 +9113,7 @@
     }
 
     .brochure-block .brochure-btns li:hover {
-        background-color: #76b543;
+        background-color: #223f97;
     }
 
     .brochure-block .brochure-btns li.active {
@@ -9400,4 +9396,158 @@
         text-align: left;
         padding: 10px 0;
         color: #000;
+    }
+
+    .harbourfront-services-main h2 {
+        color: #000000;
+        font-weight: 700;
+        padding: 0 0 30px;
+        text-align: center;
+    }
+
+    .hb-boxCont>a>h3 {
+        display: block;
+        padding-top: 0;
+        font-size: 20px;
+        font-weight: 700;
+        color: #000;
+    }
+
+    .hb-boxCont>a>span:last-child {
+        margin: 0 auto !important;
+    }
+
+    .hb-boxCont {
+        padding: 5px 5px !important;
+    }
+
+    .hb-CerSetion>h2 {
+        font-size: 28px;
+        margin-bottom: 40px;
+        margin-top: 30px !important;
+    }
+
+    .picloud_pages h2 {
+        color: #000 !important;
+        line-height: normal;
+        font-weight: bold;
+    }
+
+    .hb-CerSetion>h2,
+    .feature>h2 {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .hb-featCont>h6 {
+        font-weight: bold;
+    }
+
+    .hb-productHead>h2 {
+        font-size: 28px;
+        margin-bottom: 12px;
+        color: #000;
+        font-weight: bold;
+        line-height: normal;
+    }
+
+    .picloud_pages .hb_ppCont h2 {
+        color: #fff !important;
+        font-weight: bold;
+    }
+
+    .hb-sapListInfo>h3 {
+        font-size: 22px;
+        text-align: center;
+        color: #223f97 !important;
+        padding-bottom: 16px;
+    }
+
+    .hb-listInfos_>li:hover .hb-sapListInfo>h3 {
+        color: #fff !important;
+    }
+
+    .dep-moreInfp h2 {
+        color: #fff !important;
+    }
+
+    .hb-ce-tpCont>h2 {
+        color: #1a1a1a !Important;
+        font-size: 45px !Important;
+    }
+
+    .hide-icon1 h3,
+    .hide-icon2 h3 {
+        text-align: center;
+        font-size: 15px;
+        color: #223f97;
+        line-height: 1.5rem;
+    }
+
+    .amaravathi-dc-top h4:before {
+        position: absolute;
+        top: 2px;
+        right: auto;
+        background: url(https://pidatacenters.com/images/blue-amaravati.png) no-repeat;
+        width: 60px;
+        height: 60px;
+        content: "";
+        left: 0px;
+        background-size: contain;
+    }
+
+    .amaravathi-dc-top h4 {
+        color: #000000;
+        font-weight: 700;
+        line-height: 34px;
+        padding: 0 0 10px 55px;
+        position: relative;
+        font-size: 25px;
+    }
+
+    .amaravathi-dc-top h4 span {
+        color: #000000;
+        font-size: 18px;
+        display: block;
+        font-weight: 400;
+    }
+
+    .features-of-amaravathi-btm h4 {
+        color: #000000;
+        font-weight: 700;
+        padding: 0 0 10px;
+        font-size: 25px;
+        line-height: 27px;
+    }
+
+    .fill-your-details-cnt h4 {
+        color: #000000;
+        font-weight: 700;
+        padding: 15px 0 15px;
+        font-size: 35px;
+    }
+
+    .p-su {
+        text-align: center;
+        font-weight: 700;
+        font-size: 15px;
+        padding: 0 0 10px;
+        color: #333333;
+        line-height: 1.5rem;
+    }
+
+    .fir-icon-incor h3 {
+        font-weight: 700;
+        color: black;
+        font-size: 16px;
+        padding-top: 20px;
+        color: #242424;
+    }
+
+    .dc-download-brochure-left h2 {
+        font-size: 42px;
+        line-height: 58px;
+        padding: 0;
+        text-align: center;
+        font-weight: normal;
     }

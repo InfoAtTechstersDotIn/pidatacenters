@@ -32,7 +32,7 @@ $seo_keywords = "";
 		<div class="hb-ceTpHeader">
 			<div class="container">
 				<div class="hb-ce-tpCont text-center">
-					<h1>Let Us Manage Cloud on Your Behalf</h1>
+					<h2>Let Us Manage Cloud on Your Behalf</h2>
 					<p class="color_black py-3">In the age of expansive cloud adoption, enterprises are faced with the intricate task of managing the complexities inherent in the new ecosystem. This challenge spans critical domains, necessitating substantial investments in time, resources, skill enhancement, and process reconfiguration. The intricacies of navigating this multifaceted landscape are undeniable. However, Pi Cloud's robust Cloud Enablement Services, augmented by Professional Services, redefine this narrative. Our technical expertise encompasses the entire spectrum of cloud adoption, migration, and continuous management. Through the meticulous application of professional expertise, we not only streamline these processes but also empower enterprises to refocus on their core objectives, ensuring a seamless and transformative journey into the cloud era.</p>
 				</div>
 
@@ -94,7 +94,7 @@ $seo_keywords = "";
 					<p>Streamline your critical IT processes and simplify management of your cloud ecosystem</p>
 				</div>
 				<p class="hb-depad">
-					<img src="images/ps-journey.svg" alt="mangage">
+					<img src="./pi-cloud/images/banners/CloudEnablement-BannerV7.png" alt="mangage">
 				</p>
 			</div>
 		</div>
@@ -104,7 +104,7 @@ $seo_keywords = "";
 
 	<section class="hb-pServices" style="padding-top: 30px">
 		<div class="container">
-			<h3 class="text-center hb-scWrkAvinash">What's in for you?</h3>
+			<h2 class="text-center hb-scWrkAvinash">What's in for you?</h2>
 			<ul class="hb-ServiceDef list-inline">
 				<li>
 					<div class="hb-service-INfo">
