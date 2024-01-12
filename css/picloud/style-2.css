@@ -9166,7 +9166,8 @@
     }
 
     .added-tags h3 {
-        font-size: 18px;
+        font-size: 18px !important;
+        padding: 0px 0 0px !important;
     }
 
     .press-releases-popup p {

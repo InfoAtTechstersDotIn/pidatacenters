@@ -681,7 +681,7 @@
 
     .sel-top {
         width: 100%;
-       /* padding: 30px 20px 20px; */
+        /* padding: 30px 20px 20px; */
     }
 
     .write-to-us {
@@ -4114,7 +4114,7 @@ top: 185px !important;
 
     .sel-top {
         width: 100%;
-       /* padding: 30px 20px 20px; */
+        /* padding: 30px 20px 20px; */
     }
 
     .write-to-us {
@@ -6994,11 +6994,13 @@ top: 185px !important;
     nav>ul>li>a {
         line-height: 12px !important;
     }
-  .tabs-content .col-md-6 h2 {
+
+    .tabs-content .col-md-6 h2 {
         font-size: 22px;
         line-height: 30px !important;
-text-align: left;
+        text-align: left;
     }
+
     .added-tags h2 {
         padding: 10px 0;
         line-height: 2rem;
@@ -7016,7 +7018,7 @@ text-align: left;
         padding: 10px 35px 35px 35px;
     }
 
-  
+
     .subscribe .sub-btn-2 {
         top: -38px;
         left: 162px;
@@ -7286,14 +7288,16 @@ text-align: left;
     .product-blk {
         width: 70%;
     }
-  .tabs-content .col-md-6 h2 {
+
+    .tabs-content .col-md-6 h2 {
         padding: 10px 0 0 0;
-text-align: left;
+        text-align: left;
     }
-  .list-inline>li {
+
+    .list-inline>li {
         margin: 2px 0;
     }
- 
+
     .added-tags h1 {
         line-height: 2rem;
         padding: 0 0 5px 0;
@@ -7301,7 +7305,7 @@ text-align: left;
 
     .added-tags h3 {
         font-size: 16px;
-        line-height: 2rem;
+        line-height: 1.5rem;
     }
 
     .added-tags h2 {
@@ -7309,21 +7313,24 @@ text-align: left;
         line-height: 1.5rem;
         font-size: 18px;
     }
- .industry-articles button {
+
+    .industry-articles button {
         padding: 4px 5px;
     }
-   .subscribe .modal-content {
+
+    .subscribe .modal-content {
         width: 100% !important;
     }
 
-      .subscribe .sub-btn-2 {
+    .subscribe .sub-btn-2 {
         top: -38px;
         left: 170px;
     }
 
     .subscribe .pop-sub-btn {
         top: 90px;
-        left: 100px;    }
+        left: 100px;
+    }
 }
 
 @media screen and (max-width:400px) {

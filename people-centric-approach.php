@@ -45,13 +45,13 @@ if ($conn->connect_error) {
 
             <img src="dashboard/uploads/people-centric.png" alt="blog-1-img" width="450" height="248">
             <p></p>
-            <p dir="ltr">At <a href="https://pidatacenters.com/" target="_blank" class="anchor-color">Pi Datacenters</a>, we recently commemorated a significant milestone - nine years of unwavering commitment to revolutionizing the world of Cloud Computing and Data Infrastructure Solutions in India. As we reflect upon this remarkable journey, one resounding theme emerges - the extraordinary voyage of Pi has been propelled by a steadfast dedication to passion, diligence, and the exceptional individuals who have been instrumental in our success. </p>
+            <p dir="ltr">At Pi Datacenters, we recently commemorated a significant milestone - nine years of unwavering commitment to revolutionizing the world of Cloud Computing and Data Infrastructure Solutions in India. As we reflect upon this remarkable journey, one resounding theme emerges - the extraordinary voyage of Pi has been propelled by a steadfast dedication to passion, diligence, and the exceptional individuals who have been instrumental in our success. </p>
 
             <h2>Igniting the Spark of Vision: A Journey Back to India </h2>
 
             <p dir="ltr">Our story starts with a captivating tale of rediscovery and a resolute commitment to bringing about transformative change in India's technology landscape. In 2013, our visionary founder, Mr. Kalyan Muppaneni, stood at a crossroads in his life. Having spent two decades in the United States, building a thriving career and accumulating a wealth of experience in the tech industry, he faced a momentous decision: whether to continue on a path of success abroad or heed the call of his homeland, India. </p>
 
-            <h2>Mr. Kalyan's introspection led to a profound realization: India, with its burgeoning potential and rapidly evolving technology ecosystem, was poised for remarkable growth.</h2>
+            <p>Mr. Kalyan's introspection led to a profound realization: India, with its burgeoning potential and rapidly evolving technology ecosystem, was poised for remarkable growth.</p>
 
             <p dir="ltr">It was a land of boundless opportunities, waiting to be harnessed for the greater good. The thought of returning to India after two decades with the intent of contributing to its technological revolution germinated within him. </p>
 
@@ -71,7 +71,7 @@ if ($conn->connect_error) {
 
             <p dir="ltr">In the grand canvas of our journey, one critical chapter stands out—the assembly of a stellar team of visionaries who not only shared our passion but also wholeheartedly embraced our audacious vision. We understand that no monumental vision can be realized in isolation; it takes a community of like-minded individuals to turn dreams into reality. This phase of our journey was marked by the formation of our "A Team," a group of individuals who would become the lifeblood of Pi Datacenters. </p>
 
-            <h2>Our story may have begun with a visionary spark in the mind of our founder. However, to transform this vision into reality, we needed a team of dedicated individuals who could share in the dream and work relentlessly to bring it to fruition. </h2>
+            <p>Our story may have begun with a visionary spark in the mind of our founder. However, to transform this vision into reality, we needed a team of dedicated individuals who could share in the dream and work relentlessly to bring it to fruition. </p>
 
             <p dir="ltr">The initial cadre of founding employees, a pioneering group of 25–30 individuals, played an indispensable role in sculpting our destiny.</p>
 
@@ -83,7 +83,7 @@ if ($conn->connect_error) {
 
             <p dir="ltr">While securing substantial capital was a pivotal milestone, our journey's heart lay in the city we chose—Vijayawada. This deliberate decision wasn't just about raising funds; it was about nurturing a vision of technological progress that extended far beyond conventional boundaries. </p>
 
-            <h2>Vijayawada, a Tier-2 city, became the canvas upon which we painted our dream. </h2>
+            <p>Vijayawada, a Tier-2 city, became the canvas upon which we painted our dream. </p>
 
             <p dir="ltr">This choice was rooted in a profound desire to contribute meaningfully to the progress of such regions. We didn't want to limit our impact to major metropolitan hubs; we wanted to be catalysts for change in underserved areas.</p>
 

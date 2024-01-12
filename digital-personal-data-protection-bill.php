@@ -48,13 +48,13 @@ if ($conn->connect_error) {
 
             <p dir="ltr">The Digital Personal Data Protection (DPDP) Bill marks a significant milestone in India's journey toward establishing comprehensive data privacy and protection regulations. As the country's first law specifically dedicated to data privacy, the DPDP Bill aims to safeguard personal data and enhance the rights of individuals.</p>
 
-            <h2>It introduces stringent provisions to govern private and government entities' collection, storage, processing, and transfer of personal data.</h2>
+            <p>It introduces stringent provisions to govern private and government entities' collection, storage, processing, and transfer of personal data.</p>
 
             <p dir="ltr">By understanding the implications of the DPDP Bill, data centers can play a crucial role in ensuring compliance, reinforcing data security measures, and contributing to the overall success of the legislation.</p>
 
             <p dir="ltr">These data centers, which handle large volumes of sensitive user data, are well-positioned to contribute to the success of this legislation.</p>
 
-            <h2>With their existing infrastructure, expertise, and adherence to industry best practices, data centers can proactively support the DPDP Bill's data privacy and protection objectives. </h2>
+            <p>With their existing infrastructure, expertise, and adherence to industry best practices, data centers can proactively support the DPDP Bill's data privacy and protection objectives. </p>
 
             <p dir="ltr">This article discusses how data centers are already equipped to ensure the success of this bill.</p>
 
@@ -64,7 +64,7 @@ if ($conn->connect_error) {
 
             <p dir="ltr"><b class="font-color"> Data Center Audits and Certifications: </b> Data centers frequently undergo rigorous audits and certifications to validate their adherence to security and privacy standards. Independent audits assess their infrastructure, processes, and controls to ensure compliance with industry best practices.</p>
 
-            <h2>These audits demonstrate data centers' commitment to maintaining high data protection and privacy levels. </h2>
+            <p>These audits demonstrate data centers' commitment to maintaining high data protection and privacy levels. </p>
 
             <p dir="ltr">By already complying with stringent audit requirements, data centers are well-prepared to demonstrate their compliance with the DPDP Bill. </p>
 
@@ -78,7 +78,7 @@ if ($conn->connect_error) {
 
             <p dir="ltr"><b class="font-color"> In conclusion</b>, Data centers in India are already well equipped to ensure the success of the Digital Personal Data Protection Bill. </p>
 
-            <h2>Their robust security measures, compliance with international standards, extensive audits and certifications, encryption and anonymization practices, disaster recovery capabilities, expertise in data governance, and collaboration with regulatory bodies position them as key enablers of data privacy and protection. </h2>
+            <p>Their robust security measures, compliance with international standards, extensive audits and certifications, encryption and anonymization practices, disaster recovery capabilities, expertise in data governance, and collaboration with regulatory bodies position them as key enablers of data privacy and protection. </p>
 
             <p dir="ltr">By leveraging their existing infrastructure, expertise, and commitment to best practices, Data centers play a vital role in supporting the successful implementation of the DPDP Bill and upholding the privacy rights of Indian citizens.</p>
 

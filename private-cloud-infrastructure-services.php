@@ -32,11 +32,6 @@ $seo_keywords = "";
 	}
 
 
-
-
-
-
-
 	/* Style the tab */
 	.tab {
 		overflow: hidden;
