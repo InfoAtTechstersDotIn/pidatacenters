@@ -21,11 +21,11 @@ $seo_keywords = "RIMS, remote infrastructure management, remote infrastructure m
 <div class="rims-blk">
     <div class="container">
         <div class="what-is-rims">
-            <h3>What is <span style="color: #7BBC42;font-weight:400;">RIMS</span>?</h3>
+            <h2>What is <span style="color: #7BBC42;font-weight:400;">RIMS</span>?</h2>
             <p>Remote Infrastructure Management (RIM) is the process of managing the IT infrastructure of an organization entirely, or in parts, from a geographically separated location. The location from where the services are carried out is often at a different geographic area and thus remote from the actual physical location of the IT infrastructure being managed. The IT infrastructure that forms the base of these operations is also scattered across geographies to support the various functional areas.</p>
         </div>
         <div class="why-rims">
-            <h3>Why <span style="color: #7BBC42;font-weight:400;">RIMS</span>?</h3>
+            <h2>Why <span style="color: #7BBC42;font-weight:400;">RIMS</span>?</h2>
             <ul class="row">
                 <li>
                     <div class="why-rims-in">
@@ -100,7 +100,7 @@ $seo_keywords = "RIMS, remote infrastructure management, remote infrastructure m
         <div class="tab-content tabBlock-content">
             <div class="tabBlock-pane" style="">
                 <div class="our-rim-services-tab">
-                    <h3 style="text-align: center;">Our <span style="color: #7BBC42;font-weight:400;">RIM Services</span></h3>
+                    <h2 style="text-align: center;">Our <span style="color: #7BBC42;font-weight:400;">RIM Services</span></h2>
                     <ul class="row">
                         <li class="col-md-3">
                             <div class="rims-services-cnt">

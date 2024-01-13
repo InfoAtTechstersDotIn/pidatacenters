@@ -924,14 +924,14 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                     <div class=" row">
                         <div class="fill-your-details-cnt features">
                             <h4>Salient <span style="color:#76b543;">Features</span></h4>
-                            <p>1. 2N fault tolerant modular architecture providing at least 48 hoursâ€™ power outage protection.</p>
+                            <p>1. 2N fault tolerant modular architecture providing at least 48 hours&#8217 power outage protection.</p>
                             <p>2. Utility power through independent routes from dual substations</p>
                             <p>3. Lowest power cost in the Industry</p>
                             <p>4. 2N UPS and generator provisioning</p>
                             <p>5. 2N cooling system redundancy for better temperature management in line with ASHARE standards</p>
                             <p>6. Global standard uptime of 99.995%</p>
                             <p>7. World class BMS, DCIM Surveillance & Vesda systems with automated monitoring & AI based analytics</p>
-                            <p>8. Location Advantage : On golden quadrilateral and 1KM from NH65, through which undersea cable from Chennai to East India is routed. Assuring network abundance</p>
+                            <p>8. Location Advantage : On golden quadrilateral and 1KM from Nh35, through which undersea cable from Chennai to East India is routed. Assuring network abundance</p>
                             <p>9. Heterogenous ISP interconnects through dual meet me rooms (All major ISPs operating in India)</p>
                             <p>10. Each ISP connected to the data center with 100 gig clear connectivity through dual redundant routes</p>
                             <p>11. Internet Exchange with Global CDN and Google Peering</p>
@@ -954,7 +954,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                     <div class=" row">
                         <div class="fill-your-details-cnt features">
                             <h4>Salient <span style="color:#76b543;">Features</span></h4>
-                            <p>1. N+1 fault-tolerant modular architecture provides at least 48 hours of power outage protection.</p>
+                            <p>1. N+1 fault-tolerant modular architecture provides at least 48 hours&#8217 of power outage protection.</p>
                             <p>2.Utility power through independent routes from dual substations</p>
                             <p>3. 2N ups and N+1 generator provisioning</p>
                             <p>4. N+1 cooling system redundancy for better temperature management</p>

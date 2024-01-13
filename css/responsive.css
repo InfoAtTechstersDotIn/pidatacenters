@@ -7038,9 +7038,34 @@ top: 185px !important;
     .text-center .text-2 {
         padding: 12px 0 0 0;
     }
-.brochure-btn h2 {
-    font-size: 18px !important;
-}
+
+    .brochure-btn h2 {
+        font-size: 18px !important;
+    }
+
+    .amaravathi-dc-top h4 {
+        font-size: 22px;
+        line-height: 32px;
+        padding: 0 0 10px 75px;
+    }
+
+    .fill-your-details-cnt h4 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .service-box h2 {
+        font-size: 25px !important;
+    }
+
+    .dc-download-brochure-left h2 {
+        color: #fff;
+    }
+
+    .harbourfront-services-main h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
 }
 
 
@@ -7059,9 +7084,9 @@ top: 185px !important;
     }
 
     .hb-leftCont {
-            width: fit-content;
-    padding: 10px 20px;
-    margin: 0 auto;
+        width: fit-content;
+        padding: 10px 20px;
+        margin: 0 auto;
     }
 
     .hb-leftCont>span>img,
@@ -7142,9 +7167,21 @@ top: 185px !important;
     .hb-bannerImg h1 {
         left: 6% !important;
     }
-.brochure-btn h2 {
-    font-size: 30px !important;
-}
+
+    /* newly added after adding head tags */
+    .brochure-btn h2 {
+        font-size: 30px !important;
+    }
+
+    .features-of-amaravathi-btm h4 {
+        font-size: 20px;
+    }
+
+    .dc-download-brochure-left h2 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
 
 }
 
@@ -7356,9 +7393,15 @@ top: 185px !important;
     .hb-productHead>.main-text {
         line-height: 1.5rem;
     }
-.brochure-btn h2 {
-    font-size: 30px !important;
-}
+
+    .brochure-btn h2 {
+        font-size: 30px !important;
+    }
+
+    .hide-icon1 h3,
+    .hide-icon2 h3 {
+        font-size: 10px;
+    }
 
 }
 

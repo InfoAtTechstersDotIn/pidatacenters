@@ -50,7 +50,7 @@ $seo_keywords = "Data center build, data center technology, network security, IT
             </div>
             <div class="data-center-design-planing">
                 <div class="data-center-design-planing-cnt">
-                    <h3>WHY Pi FOR DATA CENTER BUILD AND OPERATE?</h3>
+                    <h2>WHY Pi FOR DATA CENTER BUILD AND OPERATE?</h2>
                     <p class="paraclassinfo">Indigenous/In-house design and solutions</p><br>
                     <p class="paraclassinfo">Inhouse ATDs (Accredited Tier Designers) - No need to hire consultants</p><br>
                     <p class="paraclassinfo">Inhouse ATS (Accredited Tier Specialist) - No need to hire consultants</p><br>

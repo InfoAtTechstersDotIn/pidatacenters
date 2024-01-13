@@ -112,7 +112,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                                     <div class="colocation-services-img">
                                                         <img src="images/colocation-services-icon-1.png" alt="colocation-services-icon" class="icon-css1">
                                                     </div>
-                                                    <h6 class="p-su">Private Suites</h6>
+                                                    <h3 class="p-su">Private Suites</h3>
                                                     <p class="public1">With an innovative modular design, we offer physically separated private suites (DC in a DC) to meet high on compliance and high volume colocation requirements from enterprises. These private suites are designed keeping in mind varied quantum of racks with various power capacities, critical operations and security needs.</p>
 
                                                 </div>
@@ -122,7 +122,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                                     <div class="colocation-services-img">
                                                         <img src="images/colocation-services-icon-2.png" alt="colocation-services-icon-2" class="icon-css1">
                                                     </div>
-                                                    <h6 class="p-su">Whitespace</h6>
+                                                    <h3 class="p-su">Whitespace</h3>
                                                     <p class="public1">State-Of-The-Art equipped Plug-And-Play ready space available for customer as per their requirement for deploying their own cabinets and IT equipment.</p>
 
                                                 </div>
@@ -132,7 +132,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                                     <div class="colocation-services-img">
                                                         <img src="images/colocation-services-icon-3.png" alt="colocation-services-icon-3" class="icon-css1">
                                                     </div>
-                                                    <h6 class="p-su">Caged Solution</h6>
+                                                    <h3 class="p-su">Caged Solution</h3>
                                                     <p class="public1">Designed for enterprises looking for flexible options but desiring to retain complete control over their environment, from environmental conditions to security.</p>
 
                                                 </div>
@@ -144,7 +144,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                                     <div class="colocation-services-img">
                                                         <img src="images/colocation-services-icon-4.png" alt="colocation-services-icon-4" class="icon-css1">
                                                     </div>
-                                                    <h6 class="p-su">Rack Colocation</h6>
+                                                    <h3 class="p-su">Rack Colocation</h3>
                                                     <p class="public1">We provide secure lockable rack cabinets with power and high speed network connectivity in modular data suites of varied sizes to co-locate compute, storage and network appliances. These data suites are equipped with dedicated air conditioning. These digitally secured cabinets are available as a part of dedicated suite and shared suite depending on customer requirements.</p>
 
                                                 </div>
@@ -154,7 +154,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                                     <div class="colocation-services-img">
                                                         <img src="images/colocation-services-icon-5.png" alt="colocation-services-icon-5" class="icon-css1">
                                                     </div>
-                                                    <h6 class="p-su">Sub-Cabinet Services</h6>
+                                                    <h3 class="p-su">Sub-Cabinet Services</h3>
                                                     <p class="public1">This is suitable for enterprises who want to leverage a shared rack to co-locate handful of IT appliances on a "Per U" basis, yet enjoying a fully redundant data center environment. This is backed by independent N+N power and cable feeds. Best suited for starting small and scaling at will.</p>
 
                                                 </div>
@@ -164,7 +164,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                                     <div class="colocation-services-img">
                                                         <img src="images/colocation-services-icon-6.png" alt="colocation-services-icon-6" class="icon-css1">
                                                     </div>
-                                                    <h6 class="p-su">Hands and Feet Support</h6>
+                                                    <h3 class="p-su">Hands and Feet Support</h3>
                                                     <p class="public1">Our Hands and Feet Support helps in assisting customers in preliminary physical checks of their hosted environment, port & cabling checks, reporting equipment indicators and on-demand physical re-boots. This service plays a crucial role of an extended arm for customers who do not have personnel presence inside the data center.</p>
 
                                                 </div>
@@ -294,13 +294,13 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             <a class="nav-link" data-toggle="tab"> <!--flip-box-inner-->
                                 <div class="hide-icon1"> <!--flip-box-front-->
                                     <img src="images/green-amaravati.png" alt="dc-icon-img-1" width="80" height="80">
-                                    <h6>Vijayawada</h6>
+                                    <h3>Vijayawada</h3>
                                 </div>
                                 <!-- <div class="flip-box-back">
                                                                     </div> -->
                                 <div class="hide-icon2 front-image">
                                     <img src="images/blue-amaravati.png" alt="dc-icon-img-1" width="80" height="80">
-                                    <h6>Vijayawada</h6>
+                                    <h3>Vijayawada</h3>
                                 </div>
                             </a>
                         </li>
@@ -309,12 +309,12 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             <a class="nav-link" data-toggle="tab">
                                 <div class="hide-icon1">
                                     <img src="images/charminar-green.svg" class="hyd" alt="dc-icon-img-1" width="80" height="80">
-                                    <h6>Hyderabad</h6>
+                                    <h3>Hyderabad</h3>
                                 </div>
 
                                 <div class="hide-icon2 front-image">
                                     <img src="images/charminar-blue.svg" class="hyd" alt="dc-icon-img-1" width="80" height="80">
-                                    <h6>Hyderabad</h6>
+                                    <h3>Hyderabad</h3>
                                 </div>
                             </a>
                         </li>
@@ -323,12 +323,12 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
 
                                 <div class="hide-icon1">
                                     <img src="images/green-kochi.png" alt="dc-icon-img-1" width="80" height="80">
-                                    <h6>Kochi</h6>
+                                    <h3>Kochi</h3>
                                 </div>
 
                                 <div class="hide-icon2 front-image">
                                     <img src="images/blue-kochi.png" alt="dc-icon-img-1" width="80" height="80">
-                                    <h6>Kochi</h6>
+                                    <h3>Kochi</h3>
                                 </div>
                             </a>
                         </li>
@@ -337,7 +337,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         <div class="locations-cnt row">
                             <div class="locations-cnt-lt col-md-6">
                                 <div class="amaravathi-dc-top">
-                                    <h3>Vijayawada Data Center <span>(Vijayawada, Andhra Pradesh)</span></h3>
+                                    <h4>Vijayawada Data Center <span>(Vijayawada, Andhra Pradesh)</span></h4>
                                     <ul>
                                         <li>
                                             <p>Uptime Institute Tier IV Certified</p>
@@ -366,7 +366,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                     <img src="images/feature.png" alt="feature" width="852" height="432">
                                 </div>
                                 <div class="features-of-amaravathi-btm">
-                                    <h3>Salient <span style="color:#76b543;">Features</span></h3>
+                                    <h4>Salient <span style="color:#76b543;">Features</span></h4>
 
                                     <p>1. 2N fault tolerant modular architecture providing at least 48 hoursâ€™ power outage protection.</p>
                                     <p>2. Utility power through independent routes from dual substations</p>
@@ -382,7 +382,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         <div class="locations-cnt row">
                             <div class="locations-cnt-lt col-md-6">
                                 <div class="amaravathi-dc-top">
-                                    <h3 class="hyderabad">Hyderabad Data Center <span> (Financial District)</span></h3>
+                                    <h4 class="hyderabad">Hyderabad Data Center <span> (Financial District)</span></h4>
                                     <ul>
                                         <li>
                                             <p>Uptime Institute Tier III Design Compliant (Build To Suit)</p>
@@ -418,7 +418,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                     <img src="images/hyderabad-dc-2.jpg" class="hyd-dc" alt="feature" width="852" height="432">
                                 </div>
                                 <div class="features-of-amaravathi-btm">
-                                    <h3>Salient <span style="color:#76b543;">Features</span> </h3>
+                                    <h4>Salient <span style="color:#76b543;">Features</span> </h4>
 
                                     <p>1. N+1 Fault Tolerant Modular Architecture provides at least 48 hours of Power Outage Protection. </p>
                                     <p>2. Utility Power through Independent Routes from Dual Substations </p>
@@ -436,7 +436,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         <div class="locations-cnt row">
                             <div class="locations-cnt-lt col-md-6">
                                 <div class="amaravathi-dc-top">
-                                    <h3 class="kdc">Kochi Data Center <span>(Kottapuram Road, Aroor)</span></h3>
+                                    <h4 class="kdc">Kochi Data Center <span>(Kottapuram Road, Aroor)</span></h4>
                                     <ul>
                                         <li>
                                             <p>Uptime Institute Tier 3 Design Compliant</p>
@@ -464,7 +464,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                     <img src="images/kochi-img.jpg" alt="feature" width="852" height="432">
                                 </div>
                                 <div class="features-of-amaravathi-btm">
-                                    <h3>Salient <span style="color:#76b543;">Features</span></h3>
+                                    <h4>Salient <span style="color:#76b543;">Features</span></h4>
 
                                     <p>1.N+1 fault-tolerant modular architecture provides at least 48 hours of power outage protection.</p>
                                     <p>2.Utility power through independent routes from dual substations</p>
@@ -518,7 +518,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             </div>
                             <div class="inner-teli242">
 
-                                <h6 class="p-su">Data Hall</h6>
+                                <h3 class="p-su">Data Hall</h3>
                                 <p class="public111">Room Temperature :<span style="color:#7D7D7D;"> 22+/-2 deg. C</span></p>
                                 <p class="public222">Relative Humidity:<span style="color:#7D7D7D;"> 50+/-10%</span></p>
                                 <p class="demo-info">(controlled by de-humidifiers)</p>
@@ -534,7 +534,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             </div>
                             <div class="inner-teli242">
 
-                                <h6 class="p-su">UPS Switch Rooms</h6>
+                                <h3 class="p-su">UPS Switch Rooms</h3>
                                 <p class="public111">Room Temperature :<span style="color:#7D7D7D;"> 22+/-2 deg. C</span></p>
                                 <p class="public222">Relative Humidity:<span style="color:#7D7D7D;"> 50+/-10%</span></p>
 
@@ -550,7 +550,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             </div>
                             <div class="inner-teli242">
 
-                                <h6 class="p-su">Battery Room</h6>
+                                <h3 class="p-su">Battery Room</h3>
                                 <p class="public111">Room Temperature :<span style="color:#7D7D7D;"> 22+/-2 deg. C</span></p>
                                 <p class="public222">Relative Humidity:<span style="color:#7D7D7D;"> 50+/-10%</span></p>
 
@@ -572,7 +572,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             </div>
                             <div class="inner-teli242">
 
-                                <h6 class="p-su">Chilled Water (CHW)</h6><br>
+                                <h3 class="p-su">Chilled Water (CHW)</h3><br>
                                 <p class="public111">Supply Temperature :<span style="color:#7D7D7D;"> 8 deg. C</span></p>
                                 <p class="public222">Return Temperature :<span style="color:#7D7D7D;"> 10 deg. C</span></p>
 
@@ -588,7 +588,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             </div>
                             <div class="inner-teli242">
 
-                                <h6 class="p-su">Office & All <br>Other Air-Conditioned Rooms</h6>
+                                <h3 class="p-su">Office & All <br>Other Air-Conditioned Rooms</h3>
                                 <p class="public111">Room Temperature :<span style="color:#7D7D7D;"> 22+/-2 deg. C</span></p>
                                 <p class="public222">Relative Humidity:<span style="color:#7D7D7D;"> Less than 70 deg. C</span></p>
 
@@ -624,7 +624,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         </div>
                         <div class="col-md-8">
                             <div class="fir-icon-incor">
-                                <h6>Security & Surveillance</h6>
+                                <h3>Security & Surveillance</h3>
                             </div>
                         </div>
                     </div>
@@ -652,7 +652,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         </div>
                         <div class="col-md-8">
                             <div class="fir-icon-incor">
-                                <h6>Fire Safety/ Suppersion</h6>
+                                <h3>Fire Safety/ Suppersion</h3>
                             </div>
                         </div>
                     </div>
@@ -674,7 +674,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         </div>
                         <div class="col-md-8">
                             <div class="fir-icon-incor">
-                                <h6>SCADA/DCIM</h6>
+                                <h3>SCADA/DCIM</h3>
                             </div>
                         </div>
                     </div>
@@ -705,7 +705,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         </div>
                         <div class="col-md-8">
                             <div class="fir-icon-incor">
-                                <h6>Fiber Connectivity</h6>
+                                <h3>Fiber Connectivity</h3>
                             </div>
                         </div>
                     </div>
@@ -728,7 +728,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         </div>
                         <div class="col-md-8">
                             <div class="fir-icon-incor">
-                                <h6>Administrative</h6>
+                                <h3>Administrative</h3>
                             </div>
                         </div>
                     </div>
@@ -754,7 +754,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         </div>
                         <div class="col-md-8">
                             <div class="fir-icon-incor">
-                                <h6>Other Critical Features</h6>
+                                <h3>Other Critical Features</h3>
                             </div>
                         </div>
                     </div>
@@ -776,7 +776,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
 <div class="dc-download-brochure">
     <div class="dc-download-brochure-mian">
         <div class="dc-download-brochure-left">
-            <p>Data Center Portfolio</p>
+            <h2>Data Center Portfolio</h2>
         </div>
         <div class="dc-download-brochure-right text-center">
             <a href="images/new-data-center-services-portfolio-2.2.pdf" target="_blank">Download Brochure</a>
@@ -798,7 +798,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             <div class="modular-architecture">
                                 <img src="images/ben1.png" alt="Public Cloud To Share" class="icon-css1">
                             </div>
-                            <h6 class="p-su">Modular Architecture</h6>
+                            <h3 class="p-su">Modular Architecture</h3>
                             <p class="public1">Modular Private Data Suites with capacities of 60 Racks and 120 Racks each, with total facility capacity of up to 5000 Racks. Each suite is dedicated or a multi-tenant environment in itself.</p>
 
                         </div>
@@ -808,7 +808,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             <div class="modular-architecture">
                                 <img src="images/icon_modular.png" alt="Public Cloud To Share" class="icon-css1">
                             </div>
-                            <h6 class="p-su">SCADA/DCIM</h6>
+                            <h3 class="p-su">SCADA/DCIM</h3>
                             <p class="public1">Pi Vijayawada is a 100% automated SCADA/DCIM facility wherein all electrical, mechanical, HVAC, fire safety, security and surveillance equipment are monitored live and can be controlled instantly with a click of a button from the Global Command Center located within the facility.</p>
 
                         </div>
@@ -818,7 +818,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             <div class="modular-architecture">
                                 <img src="images/ben2.png" alt="Public Cloud To Share" class="icon-css1">
                             </div>
-                            <h6 class="p-su">Uncompromised Security</h6>
+                            <h3 class="p-su">Uncompromised Security</h3>
                             <p class="public1">8 levels of stringent security from the main entrance to the data racks. All Data suites and NOCs are provided with biometric/physical key access and are monitored and managed by the iBMS.</p>
 
                         </div>
@@ -830,7 +830,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             <div class="modular-architecture">
                                 <img src="images/ben4.png" alt="Public Cloud To Share" class="icon-css1">
                             </div>
-                            <h6 class="p-su">Dedicated NOCs</h6>
+                            <h3 class="p-su">Dedicated NOCs</h3>
                             <p class="public1">Exclusive Customer-NOCs for Enterprises to manage their network, systems, applications and security in a private secured environment.</p>
 
                         </div>
@@ -840,7 +840,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             <div class="modular-architecture">
                                 <img src="images/ben5.png" alt="Public Cloud To Share" class="icon-css1">
                             </div>
-                            <h6 class="p-su">Rapid Deployment</h6>
+                            <h3 class="p-su">Rapid Deployment</h3>
                             <p class="public1">Plug-And-Play private suites enable customers to quickly colocate their IT infrastructure at Pi, rather than taking months at traditional data centers.
                             </p>
 
@@ -851,7 +851,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             <div class="modular-architecture">
                                 <img src="images/contract.png" alt="Public Cloud To Share" class="icon-css1">
                             </div>
-                            <h6 class="p-su">Low Total Cost-Of-Ownership</h6>
+                            <h3 class="p-su">Low Total Cost-Of-Ownership</h3>
                             <p class="public1">Innovative data center design, better PUE, low Power cost and Flexible business model translate to significant cost savings for our customers.</p>
 
                         </div>
@@ -1062,8 +1062,8 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                 <div class="modal-body">
                     <div class=" row">
                         <div class="fill-your-details-cnt features">
-                            <h3>Salient <span style="color:#76b543;">Features</span></h3>
-                            <p>1. 2N fault tolerant modular architecture providing at least 48 hoursâ€™ power outage protection.</p>
+                            <h4>Salient <span style="color:#76b543;">Features</span></h4>
+                            <p>1. 2N fault tolerant modular architecture providing at least 48 hours&#8217 power outage protection.</p>
                             <p>2. Utility power through independent routes from dual substations</p>
                             <p>3. Lowest power cost in the Industry</p>
                             <p>4. 2N UPS and generator provisioning</p>
@@ -1092,8 +1092,8 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                 <div class="modal-body">
                     <div class=" row">
                         <div class="fill-your-details-cnt features">
-                            <h3>Salient <span style="color:#76b543;">Features</span></h3>
-                            <p>1. N+1 fault-tolerant modular architecture provides at least 48 hours of power outage protection.</p>
+                            <h4>Salient <span style="color:#76b543;">Features</span></h4>
+                            <p>1. N+1 fault-tolerant modular architecture provides at least 48 hours&#8217 of power outage protection.</p>
                             <p>2.Utility power through independent routes from dual substations</p>
                             <p>3. 2N ups and N+1 generator provisioning</p>
                             <p>4. N+1 cooling system redundancy for better temperature management</p>
@@ -1124,7 +1124,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                 <div class="modal-body">
                     <div class=" row">
                         <div class="fill-your-details-cnt features">
-                            <h3>Salient <span style="color:#76b543;">Features</span></h3>
+                            <h4>Salient <span style="color:#76b543;">Features</span></h4>
 
                             <p>1. N+1 Fault Tolerant Modular Architecture provides at least 48 hours&#8217 Power Outage Protection. </p>
                             <p>2. Utility Power through Independent Routes from Dual Substations </p>

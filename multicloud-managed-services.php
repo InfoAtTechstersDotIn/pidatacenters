@@ -1183,7 +1183,7 @@ $seo_keywords = "";
 							<img src="./images/managed-services-icons/CM.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Compute Management</h6>
+							<h3>Compute Management</h3>
 
 						</div>
 					</div>
@@ -1197,7 +1197,7 @@ $seo_keywords = "";
 							<img src="./images/managed-services-icons/SM.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Security Management</h6>
+							<h3>Security Management</h3>
 
 						</div>
 					</div>
@@ -1211,7 +1211,7 @@ $seo_keywords = "";
 							<img src="./images/managed-services-icons/BM.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Backup Management</h6>
+							<h3>Backup Management</h3>
 
 						</div>
 					</div>
@@ -1225,7 +1225,7 @@ $seo_keywords = "";
 							<img src="./images/managed-services-icons/NM.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Network Management</h6>
+							<h3>Network Management</h3>
 
 						</div>
 					</div>
@@ -1239,7 +1239,7 @@ $seo_keywords = "";
 							<img src="./images/managed-services-icons/IM.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Identity Management</h6>
+							<h3>Identity Management</h3>
 
 						</div>
 					</div>
@@ -1253,7 +1253,7 @@ $seo_keywords = "";
 							<img src="./images/managed-services-icons/STORAGE-M.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Storage Management</h6>
+							<h3>Storage Management</h3>
 
 						</div>
 					</div>
@@ -1267,7 +1267,7 @@ $seo_keywords = "";
 							<img src="./images/managed-services-icons/SOM.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Server OS Management</h6>
+							<h3>Server OS Management</h3>
 
 						</div>
 					</div>
@@ -1281,7 +1281,7 @@ $seo_keywords = "";
 							<img src="./images/managed-services-icons/MM.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Monitoring Management</h6>
+							<h3>Monitoring Management</h3>
 
 						</div>
 					</div>
@@ -1295,7 +1295,7 @@ $seo_keywords = "";
 							<img src="./images/managed-services-icons/CONFIG-M.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Configuration Management</h6>
+							<h3>Configuration Management</h3>
 
 						</div>
 					</div>
@@ -1309,7 +1309,7 @@ $seo_keywords = "";
 							<img src="./images/managed-services-icons/BSA.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Basic Support Availability</h6>
+							<h3>Basic Support Availability</h3>
 
 						</div>
 					</div>
@@ -1323,7 +1323,7 @@ $seo_keywords = "";
 							<img src="./images/managed-services-icons/CHANGE-M.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Change Management</h6>
+							<h3>Change Management</h3>
 
 						</div>
 					</div>
@@ -1337,7 +1337,7 @@ $seo_keywords = "";
 							<img src="./images/managed-services-icons/BR.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Basic Response/Resolution</h6>
+							<h3>Basic Response/Resolution</h3>
 
 						</div>
 					</div>
@@ -1351,7 +1351,7 @@ $seo_keywords = "";
 							<img src="./images/managed-services-icons/PROBLEM-M.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Problem Management</h6>
+							<h3>Problem Management</h3>
 
 						</div>
 					</div>
@@ -1365,7 +1365,7 @@ $seo_keywords = "";
 							<img src="./images/managed-services-icons/BSL.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Basic Support Level</h6>
+							<h3>Basic Support Level</h3>
 
 						</div>
 					</div>
@@ -1379,7 +1379,7 @@ $seo_keywords = "";
 							<img src="./images/managed-services-icons/INCIDENT-M.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Incident Management</h6>
+							<h3>Incident Management</h3>
 
 						</div>
 					</div>
@@ -1395,7 +1395,7 @@ $seo_keywords = "";
 							<img src="./images/managed-services-icons/GOVERNANCE.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Governance</h6>
+							<h3>Governance</h3>
 
 						</div>
 					</div>
@@ -1413,7 +1413,7 @@ $seo_keywords = "";
 
 
 	<div>
-		<h1 class="text-center mt-5" style="padding:0px 0 0;color:#1a1a1a;font-size:45px; margin-top: 90px;">Managed Services Models</h1>
+		<h2 class="text-center mt-5 multi-cloud">Managed Services Models</h2>
 		<ul class="hb-productSec list-inline">
 			<li>
 				<div class="hb-leftCon hb_ppCont">

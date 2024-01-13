@@ -9542,6 +9542,7 @@
         font-size: 16px;
         padding-top: 20px;
         color: #242424;
+        line-height: 1.5rem;
     }
 
     .dc-download-brochure-left h2 {
@@ -9550,4 +9551,55 @@
         padding: 0;
         text-align: center;
         font-weight: normal;
+    }
+
+    .data-center-design-planing h2 {
+        color: #242424;
+        font-size: 35px;
+        line-height: 37px;
+        padding: 0 0 20px 0;
+        text-align: left;
+        position: relative;
+    }
+
+    .testimonial-block h3:before {
+        background: none;
+    }
+
+    .testimonial-block h3 {
+        padding: 0;
+        color: #333333;
+    }
+
+    .card-head>h3 {
+        min-height: 40px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        padding-top: 20px;
+    }
+
+    .multi-cloud {
+        padding: 0px 0 0;
+        color: #1a1a1a;
+        font-size: 45px;
+        margin-top: 90px;
+    }
+
+    .what-is-rims h2 {
+        color: #000000;
+        font-weight: 700;
+        padding: 0 0 10px;
+    }
+
+    .why-rims h2 {
+        color: #000000;
+        font-weight: 700;
+        padding: 0 0 10px;
+    }
+
+    .our-rim-services h2 {
+        color: #000000;
+        font-weight: 700;
+        padding: 0 0 30px;
     }
