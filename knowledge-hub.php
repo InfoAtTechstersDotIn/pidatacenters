@@ -34,14 +34,14 @@ $seo_keywords = "";
           <div class="latest-block row">
             <div class="latest-block-left col-md-12">
 
-              <a href="overview-of-private-and-public-clouds.php"><img src="images/public-private-cloud.png" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="realize-managed-services-full-potential.php"><img src="images/industry-obstacles.svg" alt="kh-img-1" width="430" height="278"> </a>
 
               <br>
-              <a href="overview-of-private-and-public-clouds.php">
-                <h3> An Overview of Private and Public Clouds! What They Are and How They Differ? </h3>
+              <a href="realize-managed-services-full-potential.php">
+                <h3>How to Overcome Industry Obstacles and Realize Managed Services' Full Potential for Your Business? </h3>
               </a>
 
-              <div class="readmore-btn" style="padding:20px 0 0;"><a href="overview-of-private-and-public-clouds.php">Read More</a></div>
+              <div class="readmore-btn" style="padding:20px 0 0;"><a href="realize-managed-services-full-potential.php">Read More</a></div>
 
             </div>
 
@@ -129,6 +129,12 @@ $seo_keywords = "";
       <div class="what-drives-vission1 row align-middle">
         <div class="what-drives-vission-left1 col-md-12">
           <ul class="slider-knowledge row">
+
+            <li class="col-md-3 articles">
+              <a href="overview-of-private-and-public-clouds.php"><img src="images/public-private-cloud.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#article</span><a href="overview-of-private-and-public-clouds.php" class="pres-rel">An Overview of Private and Public Clouds! What They Are and How They Differ?</a>
+              <div class="readmore-btn"><a href="overview-of-private-and-public-clouds.php">Read More</a></div>
+            </li>
 
             <li class="col-md-3 articles">
               <a href="what-is-colocation.php"><img src="images/what-is-colocation.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
