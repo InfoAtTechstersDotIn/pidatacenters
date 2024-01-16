@@ -59,7 +59,7 @@ $seo_keywords = "unify software development, IT operations, devops software deve
                     <div class="col-md-4">
                         <div>
                             <img src="images/n-s-d-icons/dev-1.png">
-                            <h5>Automated Delivery Pipeline</h5>
+                            <h3>Automated Delivery Pipeline</h3>
                             <p>Pi automates the entire delivery pipeline for efficient software delivery. </p>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ $seo_keywords = "unify software development, IT operations, devops software deve
                     <div class="col-md-4">
                         <div>
                             <img src="images/n-s-d-icons/dev-2.png">
-                            <h5>Continuous Integration and Development</h5>
+                            <h3>Continuous Integration and Development</h3>
                             <p>Enables continuous integration and development to streamline processes. </p>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ $seo_keywords = "unify software development, IT operations, devops software deve
                     <div class="col-md-4">
                         <div>
                             <img src="images/n-s-d-icons/dev-3.png">
-                            <h5>Efficiency Enhancement</h5>
+                            <h3>Efficiency Enhancement</h3>
                             <p>This enhances efficiency and reduces time-to-value for organizations. </p>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ $seo_keywords = "unify software development, IT operations, devops software deve
                     <div class="col-md-4">
                         <div>
                             <img src="images/n-s-d-icons/dev-4.png">
-                            <h5>Software Quality Improvement</h5>
+                            <h3>Software Quality Improvement</h3>
                             <p>Improves software quality through automated testing and integration. </p>
                         </div>
                     </div>
@@ -91,7 +91,7 @@ $seo_keywords = "unify software development, IT operations, devops software deve
                     <div class="col-md-4">
                         <div>
                             <img src="images/n-s-d-icons/dev-5.png">
-                            <h5>Cost Reduction</h5>
+                            <h3>Cost Reduction</h3>
                             <p>Reduces the cost of software delivery through streamlined processes. </p>
                         </div>
                     </div>
@@ -99,7 +99,7 @@ $seo_keywords = "unify software development, IT operations, devops software deve
                     <div class="col-md-4">
                         <div>
                             <img src="images/n-s-d-icons/dev-6.png">
-                            <h5>Comprehensive Tools and Services</h5>
+                            <h3>Comprehensive Tools and Services</h3>
                             <p>Offers a comprehensive suite of tools and services for an integrated solution. </p>
                         </div>
                     </div>
@@ -110,33 +110,33 @@ $seo_keywords = "unify software development, IT operations, devops software deve
             <div class="dev-part-3">
                 <div class="row">
                     <div class="col-md-12">
-                        <h4>DevOps as a Service: Elevating Your Software Delivery Process </h4>
+                        <h2>DevOps as a Service: Elevating Your Software Delivery Process </h2>
                     </div>
                     <div class="col-md-3">
                         <div class="h-100">
                             <img src="images/n-s-d-icons/dev-1-1.svg">
-                            <h5>Pi DevOps as a Service Overview</h5>
+                            <h3>Pi DevOps as a Service Overview</h3>
                             <p>Empowers organizations to onboard applications swiftly through end-to-end delivery pipeline automation.</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="h-100">
                             <img src="images/n-s-d-icons/dev-1-2.svg">
-                            <h5>Automation Components</h5>
+                            <h3>Automation Components</h3>
                             <p>This includes automation of build, test, and deployment processes, ensuring efficiency.</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="h-100">
                             <img src="images/n-s-d-icons/dev-1-3.svg">
-                            <h5>Code Changes Integration</h5>
+                            <h3>Code Changes Integration</h3>
                             <p>Seamless integration of code changes into a shared repository for early error detection.</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="h-100">
                             <img src="images/n-s-d-icons/dev-1-4.svg">
-                            <h5>Efficiency and Cost Reduction</h5>
+                            <h3>Efficiency and Cost Reduction</h3>
                             <p>This reduces the time and resources required for software delivery, enhancing efficiency.</p>
                         </div>
                     </div>
@@ -145,7 +145,7 @@ $seo_keywords = "unify software development, IT operations, devops software deve
                     <div class="col-md-3">
                         <div class="h-100">
                             <img src="images/n-s-d-icons/dev-1-5.svg">
-                            <h5>Quality Assurance</h5>
+                            <h3>Quality Assurance</h3>
                             <p> Emphasizes continuous integration and development to meet high-quality standards.</p>
                         </div>
                     </div>
@@ -153,7 +153,7 @@ $seo_keywords = "unify software development, IT operations, devops software deve
                     <div class="col-md-3">
                         <div class="h-100">
                             <img src="images/n-s-d-icons/dev-1-6.svg">
-                            <h5>Comprehensive Solution</h5>
+                            <h3>Comprehensive Solution</h3>
                             <p>Pi stands as a comprehensive solution with a suite of tools and services for enhanced efficiency and quality.</p>
                         </div>
                     </div>
@@ -161,7 +161,7 @@ $seo_keywords = "unify software development, IT operations, devops software deve
                     <div class="col-md-3">
                         <div class="h-100">
                             <img src="images/n-s-d-icons/dev-1-7.svg">
-                            <h5>DevOps as a Service Benefits</h5>
+                            <h3>DevOps as a Service Benefits</h3>
                             <p>Trim delivery time and costs while enhancing software quality by embracing Pi's DevOps as a Service.</p>
                         </div>
                     </div>

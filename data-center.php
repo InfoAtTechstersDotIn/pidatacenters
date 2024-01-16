@@ -242,7 +242,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         <div class="locations-cnt row">
                             <div class="locations-cnt-lt col-md-6">
                                 <div class="amaravathi-dc-top">
-                                    <h3 class="hyderabad">Hyderabad Data Center <span> (Financial District)</span></h3>
+                                    <h4 class="hyderabad">Hyderabad Data Center <span> (Financial District)</span></h4>
                                     <ul>
                                         <li>
                                             <p>Uptime Institute Tier III Design Compliant (Build To Suit)</p>
@@ -278,7 +278,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                     <img src="images/hyderabad-dc-2.jpg" class="hyd-dc" alt="feature" width="852" height="432">
                                 </div>
                                 <div class="features-of-amaravathi-btm">
-                                    <h3>Salient <span style="color:#76b543;">Features</span> </h3>
+                                    <h4>Salient <span style="color:#76b543;">Features</span> </h4>
 
                                     <p>1. N+1 Fault Tolerant Modular Architecture provides at least 48 hours of Power Outage Protection. </p>
                                     <p>2. Utility Power through Independent Routes from Dual Substations </p>
@@ -296,7 +296,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                         <div class="locations-cnt row">
                             <div class="locations-cnt-lt col-md-6">
                                 <div class="amaravathi-dc-top">
-                                    <h3 class="kdc">Kochi Data Center <span>(Kottapuram Road, Aroor)</span></h3>
+                                    <h4 class="kdc">Kochi Data Center <span>(Kottapuram Road, Aroor)</span></h4>
                                     <ul>
                                         <li>
                                             <p>Uptime Institute Tier 3 Design Compliant</p>
@@ -324,7 +324,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                                     <img src="images/kochi-img.jpg" alt="feature" width="852" height="432">
                                 </div>
                                 <div class="features-of-amaravathi-btm">
-                                    <h3>Salient <span style="color:#76b543;">Features</span></h3>
+                                    <h4>Salient <span style="color:#76b543;">Features</span></h4>
 
                                     <p>1.N+1 fault-tolerant modular architecture provides at least 48 hours of power outage protection.</p>
                                     <p>2.Utility power through independent routes from dual substations</p>
@@ -659,7 +659,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             <div class="modular-architecture">
                                 <img src="images/ben1.png" alt="Public Cloud To Share" class="icon-css1">
                             </div>
-                            <h6 class="p-su">Modular Architecture</h6>
+                            <h3 class="p-su">Modular Architecture</h3>
                             <p class="public1">Modular Private Data Suites with capacities of 60 Racks and 120 Racks each, with total facility capacity of up to 5000 Racks. Each suite is dedicated or a multi-tenant environment in itself.</p>
 
                         </div>
@@ -669,7 +669,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             <div class="modular-architecture">
                                 <img src="images/icon_modular.png" alt="Public Cloud To Share" class="icon-css1">
                             </div>
-                            <h6 class="p-su">SCADA/DCIM</h6>
+                            <h3 class="p-su">SCADA/DCIM</h3>
                             <p class="public1">Pi Vijayawada is a 100% automated SCADA/DCIM facility wherein all electrical, mechanical, HVAC, fire safety, security and surveillance equipment are monitored live and can be controlled instantly with a click of a button from the Global Command Center located within the facility.</p>
 
                         </div>
@@ -679,7 +679,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             <div class="modular-architecture">
                                 <img src="images/ben2.png" alt="Public Cloud To Share" class="icon-css1">
                             </div>
-                            <h6 class="p-su">Uncompromised Security</h6>
+                            <h3 class="p-su">Uncompromised Security</h3>
                             <p class="public1">8 levels of stringent security from the main entrance to the data racks. All Data suites and NOCs are provided with biometric/physical key access and are monitored and managed by the iBMS.</p>
 
                         </div>
@@ -691,7 +691,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             <div class="modular-architecture">
                                 <img src="images/ben4.png" alt="Public Cloud To Share" class="icon-css1">
                             </div>
-                            <h6 class="p-su">Dedicated NOCs</h6>
+                            <h3 class="p-su">Dedicated NOCs</h3>
                             <p class="public1">Exclusive Customer-NOCs for Enterprises to manage their network, systems, applications and security in a private secured environment.</p>
 
                         </div>
@@ -701,7 +701,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             <div class="modular-architecture">
                                 <img src="images/ben5.png" alt="Public Cloud To Share" class="icon-css1">
                             </div>
-                            <h6 class="p-su">Rapid Deployment</h6>
+                            <h3 class="p-su">Rapid Deployment</h3>
                             <p class="public1">Plug-And-Play private suites enable customers to quickly colocate their IT infrastructure at Pi, rather than taking months at traditional data centers.
                             </p>
 
@@ -712,7 +712,7 @@ $seo_keywords = "Data Center Infrastructure, colocation data center services, co
                             <div class="modular-architecture">
                                 <img src="images/contract.png" alt="Public Cloud To Share" class="icon-css1">
                             </div>
-                            <h6 class="p-su">Low Total Cost-Of-Ownership</h6>
+                            <h3 class="p-su">Low Total Cost-Of-Ownership</h3>
                             <p class="public1">Innovative data center design, better PUE, low Power cost and Flexible business model translate to significant cost savings for our customers.</p>
 
                         </div>

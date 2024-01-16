@@ -165,7 +165,7 @@ $seo_keywords = "";
 													<img src="./pi-cloud/images/scale-3.svg" alt="scale">
 												</p>
 												<div class="hb-featCont">
-													<h6>Auto scaling</h6>
+													<h4>Auto scaling</h4>
 													<p>Upscale and downsize your resources on a click</p>
 												</div>
 											</div>
@@ -178,7 +178,7 @@ $seo_keywords = "";
 													<img src="./pi-cloud/images/Economics.svg" alt="economics">
 												</p>
 												<div class="hb-featCont">
-													<h6>Scale of economics</h6>
+													<h4>Scale of economics</h4>
 													<p>Optimal TCO without compromising on quality and availability</p>
 												</div>
 											</div>
@@ -191,7 +191,7 @@ $seo_keywords = "";
 													<img src="./pi-cloud/images/Self.svg" alt="Self">
 												</p>
 												<div class="hb-featCont">
-													<h6>Simple service interface</h6>
+													<h4>Simple service interface</h4>
 													<p>Configure and optimise your capacity with minimal friction</p>
 												</div>
 											</div>
@@ -265,7 +265,7 @@ $seo_keywords = "";
 													<img src="./pi-cloud/images/scale-3.svg" alt="scale-3">
 												</p>
 												<div class="hb-featCont">
-													<h6>Lightweight</h6>
+													<h4>Lightweight</h4>
 													<p>Achieve high server efficiency and optimize investment on server and licencing costs</p>
 												</div>
 											</div>
@@ -278,7 +278,7 @@ $seo_keywords = "";
 													<img src="./pi-cloud/images/Economics.svg" alt="economics">
 												</p>
 												<div class="hb-featCont">
-													<h6>Run anywhere</h6>
+													<h4>Run anywhere</h4>
 													<p>On developers machine, on- premise or on hybrid cloud environments</p>
 												</div>
 											</div>
@@ -291,7 +291,7 @@ $seo_keywords = "";
 													<img src="./pi-cloud/images/Self.svg" alt="Self">
 												</p>
 												<div class="hb-featCont">
-													<h6>Secure & consistent</h6>
+													<h4>Secure & consistent</h4>
 													<p>Predictable environments that are isolated from other applications</p>
 												</div>
 											</div>
@@ -379,14 +379,14 @@ $seo_keywords = "";
 										<li>
 											<div class="hb-rightCont hb_ppCont">
 												<h3>Software Defined WAN (SD-WAN)</h3>
-												<h5><strong>Improved network speed, enhanced security</strong></h5>
+												<h4><strong>Improved network speed, enhanced security</strong></h4>
 												<p>Pi Cloud, with its underlying Software Defined infrastructure has integrated SD-WAN to its architecture. It has enabled network admins to use bandwidth more efficiently, ensuring high performance for critical applications without compromising on security or data privacy. The unified WAN backbone delivers comprehensive analytics across the enterprise backbone. </p>
 											</div>
 										</li>
 										<li>
 											<div class="hb-leftCont hb_ppCont">
 												<h3>Multiprotocol Label Switching (MPLS)</h3>
-												<h5><strong>Reliable connectivity for real-time applications</strong></h5>
+												<h4><strong>Reliable connectivity for real-time applications</strong></h4>
 												<p>MPLS on Pi Cloud enables enterprises to build advanced and intelligent networks that deliver a wide variety of services over a single infrastructure. This solution can be utilized for bandwidth adjustment, to reduce network congestion and increase quality of service. Enterprises with diverse access links can be added on an MPLS edge without changing their current environments. </p>
 											</div>
 										</li>
@@ -407,14 +407,14 @@ $seo_keywords = "";
 										<li>
 											<div class="hb-rightCont hb_ppCont">
 												<h3>Direct Connect (P2P)</h3>
-												<h5><strong>Dedicated connection from your premises to Pi Cloud</strong></h5>
+												<h4><strong>Dedicated connection from your premises to Pi Cloud</strong></h4>
 												<p>Seamless and secure Point to Point ethernet connection ensures your premise is directly connected to Pi Cloud. Enterprises can also establish private connectivity between Pi Cloud and their multi cloud environments. This ensures increased bandwidth throughput up to hundreds of Gigs to meet real-time spikes and eases the transfer of large data sets over the wire. </p>
 											</div>
 										</li>
 										<li>
 											<div class="hb-leftCont hb_ppCont">
 												<h3>Wifi on Cloud</h3>
-												<h5><strong>Centralized and managed wifi solution</strong></h5>
+												<h4><strong>Centralized and managed wifi solution</strong></h4>
 												<p>Pi Cloud allows enterprises to operate its multi-locale wifi environment on cloud. Managing the entire wifi network on cloud is equally seamless. It eliminates the need of having on-premise wireless controller hardware, thereby ensuring swift scalability. It also offers users, an enhanced experience through location-based and context-aware applications, while reducing capex and operational expense with a pay-as-you-go model. </p>
 											</div>
 										</li>
@@ -440,14 +440,14 @@ $seo_keywords = "";
 										<li>
 											<div class="hb-rightCont hb_ppCont">
 												<h3>HarbourFront<sup>TM</sup>(CDN)</h3>
-												<h5><strong>Deliver content fast, efficiently and securely</strong></h5>
+												<h4><strong>Deliver content fast, efficiently and securely</strong></h4>
 												<p>Harbourfront<sup>TM</sup><a href="https://pi-cloud.in/harbourfront-cdn">(CDN)</a>, India's first indigenous content service ensures high availability and performace. By geographically distributing a network of proxy servers and caching data spatially relative to end users, Harbourfront<sup>TM</sup>(CDN) ensures ensures high availability and performance. It can be used for content storage and delivery service for web acceleration, file download optimization, transcoding, video on demand and live streaming. <br> <a href="https://pidatacenters.com/harbourfront-services.php" style="color: #fff;/* padding-left: 24px; */padding: 5px 10px;font-size: 14px;border-radius: 29px;background-color: #3d1b9b;">Learn More &gt;</a></p>
 											</div>
 										</li>
 										<li>
 											<div class="hb-leftCont hb_ppCont">
 												<h3>Load Balancer (LB)</h3>
-												<h5><strong>Increased performance and high availability</strong></h5>
+												<h4><strong>Increased performance and high availability</strong></h4>
 												<p>Enterprises can leverage Pi Cloud to distribute workloads and compute resources on hybrid and heterogeneous cloud environments. This service is adopted by enterprises to dynamically manage resource allocation and workload demands. Lower cost of ownership, ease of scale and manageability, are some of its key advantages over conventional on-premise load balancing . </p>
 											</div>
 										</li>
@@ -468,7 +468,7 @@ $seo_keywords = "";
 										<li>
 											<div class="hb-leftCont hb_ppCont">
 												<h3>Virtual Private Network (VPN)</h3>
-												<h5><strong>Securely access your network resources</strong></h5>
+												<h4><strong>Securely access your network resources</strong></h4>
 												<p>VPN on Pi Cloud provides anonymity by creating a private network over open internet. It enables enterprises to access their workloads on cloud from anywhere, any time, and through any device, without compromising the security. Masking of internet protocol (IP) address keeps your transactions at bay from intrusion. Network admins can use VPN to gain visibility into network, certificate pinning, and encrypting data </p>
 											</div>
 										</li>
@@ -489,7 +489,7 @@ $seo_keywords = "";
 										<li>
 											<div class="hb-rightCont hb_ppCont">
 												<h3>Firewall as a Service (FWaaS)</h3>
-												<h5><strong>Monitor and control network traffic, basis pre-defined rules</strong></h5>
+												<h4><strong>Monitor and control network traffic, basis pre-defined rules</strong></h4>
 												<p>FWaaS on Pi Cloud is the first layer of defence for enterprise workloads and eliminates the need for appliance form factor. Our fwaas ensures perimter level security for enterprises at their hub offices,branch locations and end-points. All of these without the need to install additional hardware. </p>
 												<p><strong>Features:</strong> URL filtering | Intrusion Prevention | Intrusion Detection | Global Connect</p>
 											</div>
@@ -554,7 +554,7 @@ $seo_keywords = "";
 															<img src="./pi-cloud/images/product-page-icons/st/hp.svg" alt="scale">
 														</p>
 														<div class="hb-featCont">
-															<h6>High Performance</h6>
+															<h4>High Performance</h4>
 															<p>Ideal for high-performing, mission-critical applications that require consistent input/output (I/O) performance</p>
 														</div>
 													</div>
@@ -567,7 +567,7 @@ $seo_keywords = "";
 															<img src="./pi-cloud/images/product-page-icons/st/dr.svg" alt="economics">
 														</p>
 														<div class="hb-featCont">
-															<h6>Data Retention</h6>
+															<h4>Data Retention</h4>
 															<p>Retains data even after deletion of virtual server</p>
 														</div>
 													</div>
@@ -580,7 +580,7 @@ $seo_keywords = "";
 															<img src="./pi-cloud/images/product-page-icons/st/snap.svg" alt="Self">
 														</p>
 														<div class="hb-featCont">
-															<h6>Snapshot and Resizing</h6>
+															<h4>Snapshot and Resizing</h4>
 															<p>Features such as snapshot and resizing, are available for block volumes</p>
 														</div>
 													</div>
@@ -656,7 +656,7 @@ $seo_keywords = "";
 															<img src="./pi-cloud/images/product-page-icons/st/dt.svg" alt="scale-3">
 														</p>
 														<div class="hb-featCont">
-															<h6>Data Transfer</h6>
+															<h4>Data Transfer</h4>
 															<p>Simple and flexible transfer of data</p>
 														</div>
 													</div>
@@ -669,7 +669,7 @@ $seo_keywords = "";
 															<img src="./pi-cloud/images/product-page-icons/st/sc.svg" alt="economics">
 														</p>
 														<div class="hb-featCont">
-															<h6>Scalability</h6>
+															<h4>Scalability</h4>
 															<p>Scalability (upto PBs) and distributed access</p>
 														</div>
 													</div>
@@ -682,7 +682,7 @@ $seo_keywords = "";
 															<img src="./pi-cloud/images/product-page-icons/st/md.svg" alt="Self">
 														</p>
 														<div class="hb-featCont">
-															<h6>Supports Metadata</h6>
+															<h4>Supports Metadata</h4>
 															<p>Supports custom Metadata and various attributes</p>
 														</div>
 													</div>
@@ -755,7 +755,7 @@ $seo_keywords = "";
 															<img src="./pi-cloud/images/product-page-icons/st/os.svg" alt="scale">
 														</p>
 														<div class="hb-featCont">
-															<h6>Organised Storage</h6>
+															<h4>Organised Storage</h4>
 															<p>Hierarchical file storage works well with easily organized structured data</p>
 														</div>
 													</div>
@@ -768,7 +768,7 @@ $seo_keywords = "";
 															<img src="./pi-cloud/images/product-page-icons/st/mas.svg" alt="economics">
 														</p>
 														<div class="hb-featCont">
-															<h6>Multi Access and Sharing</h6>
+															<h4>Multi Access and Sharing</h4>
 															<p>Allows multiple user access to the same file data parked at distinct locations</p>
 														</div>
 													</div>
@@ -781,7 +781,7 @@ $seo_keywords = "";
 															<img src="./pi-cloud/images/product-page-icons/st/snap.svg" alt="Self">
 														</p>
 														<div class="hb-featCont">
-															<h6>Cost Effective</h6>
+															<h4>Cost Effective</h4>
 															<p>Eliminates the cost of maintaining in-house hardware</p>
 														</div>
 													</div>
@@ -869,7 +869,7 @@ $seo_keywords = "";
 									<li>
 										<div class="hb-rightCont hb_ppCont">
 											<h3>Firewall as a Service (FWaaS)</h3>
-											<h5><strong>Monitor and control network traffic, basis pre-defined rules</strong></h5>
+											<h4><strong>Monitor and control network traffic, basis pre-defined rules</strong></h4>
 											<p>FWaaS on Pi Cloud<sup></sup> is the first layer of defence for enterprise workloads and eliminates the need for appliance form factor. Network admins can ensure virtual firewall is available at hub office, branch locations and end-points, without the need to install additional hardware. </p>
 											<p><strong>Features:</strong> URL filtering | Intrusion Prevention | Intrusion Detection | Global Connect</p>
 										</div>
@@ -877,7 +877,7 @@ $seo_keywords = "";
 									<li>
 										<div class="hb-leftCont hb_ppCont">
 											<h3>Anti-DDoS</h3>
-											<h5><strong>Mitigation from Distributed Denial of Service(DDoS) attacks</strong></h5>
+											<h4><strong>Mitigation from Distributed Denial of Service(DDoS) attacks</strong></h4>
 											<p>Anti-DDoS on Pi Cloud<sup></sup>, secures websites, applications, and entire network while ensuring the performance of legitimate traffic is not compromised. It is designed to protect enterprise network, transport and application Layer </p>
 											<p><strong>DDoS Protection for:</strong> Network infrastructure, web assets (HTTP/HTTPs), and for any application such as FTP, SSH, VoIP, gaming, or any application running over a TCP/UDP protocol, on enterprise cloud and on-premise networks</p>
 
@@ -906,7 +906,7 @@ $seo_keywords = "";
 									<li>
 										<div class="hb-rightCont hb_ppCont">
 											<h3>Antivirus Software</h3>
-											<h5><strong>Prevent, detect, and remove malware</strong></h5>
+											<h4><strong>Prevent, detect, and remove malware</strong></h4>
 											<p>Being connected to internet also opens up avenues for increased threat vector. Pi Cloud<sup></sup> antivirus software scans for security and performance issues and ensures enterprise systems, data and end-users are malware-safe and immune to the zero-day vulnerabilities. </p>
 											<p><strong>Protection against: </strong> Browser hijackers | Ransomware | Keyloggers | Backdoors | Rootkits | Trojan horses | Worms | Malicious LSPs | Adware and spyware</p>
 										</div>
@@ -914,7 +914,7 @@ $seo_keywords = "";
 									<li>
 										<div class="hb-leftCont hb_ppCont">
 											<h3>Web Application Firewall (WAF)</h3>
-											<h5><strong>Filter , monitor and block unsolicited http traffic</strong></h5>
+											<h4><strong>Filter , monitor and block unsolicited http traffic</strong></h4>
 											<p>WAF service on Pi Cloud<sup></sup> monitors, logs and analyses the HTTP traffic between enterprise application and internet. It aims to protect against vulnerabilities in the application by filtering out malicious traffic. WAF on Pi Cloud protects web applications from cross-site forgery, cross-site-scripting (XSS), file inclusion, and SQL injection, among others that may sabotage important transactions and steal sensitive data. </p>
 										</div>
 									</li>
@@ -942,14 +942,14 @@ $seo_keywords = "";
 									<li>
 										<div class="hb-rightCont hb_ppCont">
 											<h3>Endpoint Protection Platform (EPP)</h3>
-											<h5><strong>Integrated suite of endpoint protection technologies</strong></h5>
+											<h4><strong>Integrated suite of endpoint protection technologies</strong></h4>
 											<p>EPP on Pi Cloud<sup></sup> provides essential security for many types of endpoints, from smartphones to printers. It is an integrated suite of technologies, such as antivirus, data encryption, intrusion prevention, and data loss prevention. EPP framework includes data sharing between endpoint protection technologies, this provides a more effective approach than a collection of siloed security products that lack the ability to communicate.</p>
 										</div>
 									</li>
 									<li>
 										<div class="hb-leftCont hb_ppCont">
 											<h3>Endpoint Detection and Response (EDR)</h3>
-											<h5><strong>Securely access Enterprise network resources</strong></h5>
+											<h4><strong>Securely access Enterprise network resources</strong></h4>
 											<p>Reduce the time to detect and respond to threats with EDR on Pi-cloud<sup></sup>. It provides additional tools to hunt for threats, forensically analyse intrusions and respond swiftly and effectively to attacks. </p>
 											<p><strong>Features: </strong> Simplify deployment | Incident response | Gain visibility into emerging threats | AI-guided investigations | Automated processes
 											</p>
@@ -972,7 +972,7 @@ $seo_keywords = "";
 									<li>
 										<div class="hb-rightCont hb_ppCont">
 											<h3>Identity & Access Management (IAM)</h3>
-											<h5><strong>Securely manage access across enterprise IT resources</strong></h5>
+											<h4><strong>Securely manage access across enterprise IT resources</strong></h4>
 											<p>IAM on Pi Cloud<sup></sup> is a periphery security to the cloud. It acts as a foundation to a secured and fully compliant cloud architecture. Admins can create and manage end-users, groups, relative policies and use permissions to allow or deny their access . </p>
 											<p><strong>Use Cases: </strong> Multi-factor Authentication(MFA) | Granular access controls | Monitor & analyze access | Privileged-user file & resources access </p>
 										</div>
@@ -995,7 +995,7 @@ $seo_keywords = "";
 									<li>
 										<div class="hb-rightCont hb_ppCont">
 											<h3>Security Operations Center (SOC)</h3>
-											<h5><strong>Detect, analyze, and respond to cybersecurity incidents</strong></h5>
+											<h4><strong>Detect, analyze, and respond to cybersecurity incidents</strong></h4>
 											<p>Security Information and Event Management (SIEM) enabled SOC on Pi Cloud<sup></sup> is a centralized 24x7 function to continuously monitor and enhance the enterprise security posture for an organization, while preventing, detecting, analyzing, and responding to cybersecurity incidents. </p>
 											<p><strong>Features: </strong> Monitoring & assessment | Advanced intelligence gathering | Forensics | Contingency planning | Malware protection </p>
 										</div>
@@ -1003,7 +1003,7 @@ $seo_keywords = "";
 									<li>
 										<div class="hb-leftCont hb_ppCont">
 											<h3>Vulnerability Assessment(VA) & Penetration Testing(PT)</h3>
-											<h5><strong>Comprehensive evaluation of cyber-threat readiness</strong></h5>
+											<h4><strong>Comprehensive evaluation of cyber-threat readiness</strong></h4>
 											<p>VA allows enterprises to scan, identify and prioritize vulnerabilities and threats early on, to ensure, most critical vulnerabilities are fixed first. Pen Test or ethical hacking, is an authorized simulated cyberattack on a computer system, performed to evaluate the security of the enterprise infrastructure and end-users.</p>
 										</div>
 									</li>
@@ -1025,7 +1025,7 @@ $seo_keywords = "";
 									<li>
 										<div class="hb-rightCont hb_ppCont">
 											<h3>MicroVault (MV) & DataVault (DV)</h3>
-											<h5><strong>Eliminate exposure of servers, data and processes </strong></h5>
+											<h4><strong>Eliminate exposure of servers, data and processes </strong></h4>
 											<p>Protect data and processes from tampering, unauthorized access and destruction. Movement is restrained by containerizing the user into a secure shell/vault, while zero trust segmentation prevents lateral movement and elevation of user accounts. In contrast to MV, which is built for servers, DV is designed as a secure file repository for the executive teams, vital business functions, IP protection, and critical backups.</p>
 										</div>
 									</li>
@@ -1081,7 +1081,7 @@ $seo_keywords = "";
 														<img src="./pi-cloud/images/product-page-icons/bc/cd.svg" alt="onesize">
 													</p>
 													<div class="hb-featCont">
-														<h6>Custom Deployment</h6>
+														<h4>Custom Deployment</h4>
 														<p>Recovery of business-critical applications and data within prescribed RPO and RTO your business needs</p>
 													</div>
 												</div>
@@ -1094,7 +1094,7 @@ $seo_keywords = "";
 														<img src="./pi-cloud/images/product-page-icons/bc/rf.svg" alt="low">
 													</p>
 													<div class="hb-featCont">
-														<h6>Low Business Risk</h6>
+														<h4>Low Business Risk</h4>
 														<p>Optimal TCO without compromising on quality and availability</p>
 													</div>
 												</div>
@@ -1107,7 +1107,7 @@ $seo_keywords = "";
 														<img src="./pi-cloud/images/product-page-icons/bc/drd.svg" alt="workspace">
 													</p>
 													<div class="hb-featCont">
-														<h6>DR Drills </h6>
+														<h4>DR Drills </h4>
 														<p>Periodic drills enable operational readiness and use cases to improve resiliency and recovery time</p>
 													</div>
 												</div>
@@ -1181,7 +1181,7 @@ $seo_keywords = "";
 														<img src="./pi-cloud/images/product-page-icons/bc/eou.svg" alt="workspace">
 													</p>
 													<div class="hb-featCont">
-														<h6>Ease of use</h6>
+														<h4>Ease of use</h4>
 														<p>Schedule, manage and restore centrally from one interface</p>
 													</div>
 												</div>
@@ -1194,7 +1194,7 @@ $seo_keywords = "";
 														<img src="./pi-cloud/images/product-page-icons/bc/hcb.svg" alt="workspace">
 													</p>
 													<div class="hb-featCont">
-														<h6>Hybrid backup solution</h6>
+														<h4>Hybrid backup solution</h4>
 														<p>Single point solution for your workloads running on cloud and on-premise</p>
 													</div>
 												</div>
@@ -1207,7 +1207,7 @@ $seo_keywords = "";
 														<img src="./pi-cloud/images/product-page-icons/bc/fdb.svg" alt="workspace">
 													</p>
 													<div class="hb-featCont">
-														<h6>Flexible backup options</h6>
+														<h4>Flexible backup options</h4>
 														<p>Restore your entire workloads or specific files and folders for a given duration window</p>
 													</div>
 												</div>
@@ -1283,7 +1283,7 @@ $seo_keywords = "";
 														<img src="./pi-cloud/images/onesize.svg" alt="workspace">
 													</p>
 													<div class="hb-featCont">
-														<h6>HA clustering</h6>
+														<h4>HA clustering</h4>
 														<p>Cloud servers customized and grouped to support workloads with zero or minimal downtime</p>
 													</div>
 												</div>
@@ -1296,7 +1296,7 @@ $seo_keywords = "";
 														<img src="./pi-cloud/images/onesize.svg" alt="workspace">
 													</p>
 													<div class="hb-featCont">
-														<h6>No single point of failure</h6>
+														<h4>No single point of failure</h4>
 														<p>The redundancy built in by enterprise grade HA softwares provides clusters, ensuring service continuity</p>
 													</div>
 												</div>
@@ -1309,7 +1309,7 @@ $seo_keywords = "";
 														<img src="./pi-cloud/images/onesize.svg" alt="workspace">
 													</p>
 													<div class="hb-featCont">
-														<h6>Monitoring & Detection</h6>
+														<h4>Monitoring & Detection</h4>
 														<p>Follow the sun monitoring of all servers, resource pools and workloads for preventive detection of possible failures</p>
 													</div>
 												</div>
@@ -1508,7 +1508,7 @@ $seo_keywords = "";
 														<img src="./pi-cloud/images/product-page-icons/euc/cm.svg" alt="onesize">
 													</p>
 													<div class="hb-featCont">
-														<h6>Centralised Management</h6>
+														<h4>Centralised Management</h4>
 														<p>Configure, apply software patches and enforce policies centrally</p>
 													</div>
 												</div>
@@ -1521,7 +1521,7 @@ $seo_keywords = "";
 														<img src="./pi-cloud/images/product-page-icons/euc/e2ev.svg" alt="low">
 													</p>
 													<div class="hb-featCont">
-														<h6>End to End Visibility</h6>
+														<h4>End to End Visibility</h4>
 														<p>Find out the root cause of incidents and isolate threats in real-time</p>
 													</div>
 												</div>
@@ -1534,7 +1534,7 @@ $seo_keywords = "";
 														<img src="./pi-cloud/images/product-page-icons/euc/ce.svg" alt="euc">
 													</p>
 													<div class="hb-featCont">
-														<h6>Consistent Experience </h6>
+														<h4>Consistent Experience </h4>
 														<p>Run environment of your choice on PCs, tablets, smartphones and thin clients, alike.</p>
 													</div>
 												</div>
@@ -1609,7 +1609,7 @@ $seo_keywords = "";
 														<img src="./pi-cloud/images/product-page-icons/euc/simple.svg" alt="euc">
 													</p>
 													<div class="hb-featCont">
-														<h6>Ease of operation</h6>
+														<h4>Ease of operation</h4>
 														<p>Configure, apply software patches and enforce policies centrally</p>
 													</div>
 												</div>
@@ -1622,7 +1622,7 @@ $seo_keywords = "";
 														<img src="./pi-cloud/images/product-page-icons/euc/ux.svg" alt="euc">
 													</p>
 													<div class="hb-featCont">
-														<h6>Enhanced user experience</h6>
+														<h4>Enhanced user experience</h4>
 														<p>Apps are highly responsive to provide a frictionless workspace</p>
 													</div>
 												</div>
@@ -1635,7 +1635,7 @@ $seo_keywords = "";
 														<img src="./pi-cloud/images/product-page-icons/euc/secure.svg" alt="euc">
 													</p>
 													<div class="hb-featCont">
-														<h6>Secure apps and data</h6>
+														<h4>Secure apps and data</h4>
 														<p>Encryption while streaming ensures data travels secured over the wire across networks</p>
 													</div>
 												</div>
@@ -1710,7 +1710,7 @@ $seo_keywords = "";
 														<img src="./pi-cloud/images/product-page-icons/euc/zt.svg" alt="euc">
 													</p>
 													<div class="hb-featCont">
-														<h6>Zero Trust Access</h6>
+														<h4>Zero Trust Access</h4>
 														<p>Secure access to desktops, apps and network anywhere, anytime.</p>
 													</div>
 												</div>
@@ -1723,7 +1723,7 @@ $seo_keywords = "";
 														<img src="./pi-cloud/images/product-page-icons/euc/sso.svg" alt="euc">
 													</p>
 													<div class="hb-featCont">
-														<h6>Single sign on</h6>
+														<h4>Single sign on</h4>
 														<p>For virtual desktops and apps to ensure strong end point control</p>
 													</div>
 												</div>
@@ -1736,7 +1736,7 @@ $seo_keywords = "";
 														<img src="./pi-cloud/images/product-page-icons/euc/sa.svg" alt="euc">
 													</p>
 													<div class="hb-featCont">
-														<h6>Strong Authentication</h6>
+														<h4>Strong Authentication</h4>
 														<p>Enabling Multi Factor Authentication for Identity management</p>
 													</div>
 												</div>

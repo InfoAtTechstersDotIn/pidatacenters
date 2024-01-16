@@ -10,298 +10,6 @@ $seo_keywords = "";
 
 <script type="module" src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall"></script>
 <style type="text/css">
-    /* .get-in-touch-blk {
-        max-width: 945px;
-        margin: 0 auto;
-        background: #2680EB;
-        border-radius: 80px;
-        padding: 10px;
-        border: 20px solid #ffffff;
-    }
-
-    .get-in-touch-lft {
-        float: left;
-    }
-
-    .get-in-touch-lft:first-child {
-        width: 70%;
-        color: #fff;
-    }
-
-    .get-in-touch {
-        margin: 0 0 -74px 0;
-        position: relative;
-    }
-
-    .get-in-touch-lft p {
-        font-size: 31.5px;
-        line-height: 35px;
-        padding-top: 29px;
-        text-align: center;
-    }
-
-    .get-in-touch-rit a {
-        font-size: 25.5px;
-        line-height: 40px;
-        background: #ECECEC;
-        border-radius: 39px;
-        height: 40px;
-        text-align: center;
-        color: #2680EB;
-        width: 200px;
-        margin: 0;
-    }
-
-    .footer-about {
-        background: url(../images/footer-bg.png) no-repeat center;
-        width: 100%;
-        padding: 10px 0 0;
-        background-size: cover;
-    }
-
-    .footer-about ul {
-        max-width: 875px;
-        margin: 0 auto;
-    }
-
-    .footer-about ul li a {
-        margin: 0 0 15px;
-        color: #ffffff !important;
-        text-align: center;
-    }
-
-    .footer-about p {
-        text-align: center;
-        padding: 5px 0 0px;
-    }
-
-    .social-icons {
-        max-width: 150px !important;
-        padding: 20px 0 0;
-    }
-
-    .social-icons li a i {
-        max-width: 100px;
-        color: #ffffff;
-        opacity: 1;
-    }
-
-    .white-bg #nav-icon span {
-        background: #223f97;
-    }
-
-    .col-md-1 {
-        -webkit-flex: 0 0 8.33333%;
-    }
-
-    .col-md-2 {
-        -webkit-flex: 0 0 16.66667%;
-    }
-
-    .col-md-3 {
-        -webkit-flex: 0 0 25%;
-    }
-
-    .col-md-4 {
-        -webkit-flex: 0 0 33.33333%;
-    }
-
-    .col-md-5 {
-        -webkit-flex: 0 0 41.66667%;
-    }
-
-    .col-md-6 {
-        -webkit-flex: 0 0 50%;
-    }
-
-    .col-md-7 {
-        -webkit-flex: 0 0 58.33333%;
-    }
-
-    .col-md-8 {
-        -webkit-flex: 0 0 66.66667%;
-    }
-
-    .col-md-9 {
-        -webkit-flex: 0 0 75%;
-    }
-
-    .col-md-10 {
-        -webkit-flex: 0 0 83.33333%;
-    }
-
-    .col-md-11 {
-        -webkit-flex: 0 0 91.66667%;
-    }
-
-    .col-md-12 {
-        -webkit-flex: 0 0 100%;
-    }
-
-    .hb-certication.partner .hb-boxCont {
-        box-shadow: none;
-    }
-
-    .footer-about .col-md-3 {
-        -webkit-flex: 0 0 45%;
-        float: left;
-        width: 40%;
-        text-align: center;
-    }
-
-    footer {
-        width: 100%;
-        padding: 10px 0;
-    }
-
-    .footer-cnt {
-        padding-bottom: 60px
-    }
-
-    .footer-nav>li {
-        width: 18%;
-        margin-right: 2%;
-        float: left;
-        color: #fff;
-    }
-
-    .footer-nav>li h4 {
-        font-size: 19px;
-        margin-bottom: 20px
-    }
-
-    .footer-nav li a {
-        display: block;
-        font-size: 16px;
-        color: #83A6BF;
-        padding-bottom: 10px
-    }
-
-    .col-md-8 {
-        -webkit-flex: 0 0 66.66667%;
-    }
-
-    .footer-nav li a:hover {
-        color: #fff
-    }
-
-    .footer-about {
-        background: url("https://pidatacenters.com/images/footer-bg.png") no-repeat center;
-    }
-
-    .footer-bottom {
-        width: 100%;
-        border-top: 1px solid #516877;
-        padding: 25px 0 0 0;
-        color: #fff
-    }
-
-    .footer-about .col-md-3 {
-        -webkit-flex: 0 0 25%;
-        float: left;
-    }
-
-    .col-md-3 {
-        -ms-flex: 0 0 25%;
-        flex: 0 0 25%;
-        max-width: 25%;
-    }
-
-    .footer-bottom p {
-        font-size: 15px;
-        color: #83A6BF;
-        line-height: 30px
-    }
-
-    .footer-bottom p a {
-        color: #83A6BF
-    }
-
-    .footer-bottom .lft,
-    .footer-bottom .lft p {
-        display: flex;
-        justify-content: center;
-        line-height: 25px;
-    }
-
-    .footer-bottom p a:hover {
-        color: #fff
-    }
-
-    .footer-bottom .powered {
-        float: right;
-        display: block;
-        padding-bottom: 0
-    }
-
-    .social-icons {
-        display: flex;
-        justify-content: center;
-    }
-
-    .social-icons a {
-        display: block;
-        float: left;
-        margin-left: 8px;
-        width: 25px;
-        height: 25px;
-        background: url(../images/social.png) no-repeat 0 0;
-        opacity: .6
-    }
-
-    .social-icons .fb {
-        background-position: -93px 0px
-    }
-
-    .social-icons .twr {
-        background-position: -31px 0px
-    }
-
-    .social-icons .tube {
-        background-position: -125px 0px
-    }
-
-    .social-icons .gp {
-        background-position: -64px 0px
-    }
-
-    .social-icons .in {
-        background-position: 0px 0px
-    }
-
-    .social-icons a:hover {
-        opacity: 1;
-        -webkit-transform: translateY(-3px);
-    }
-
-    @media (max-width:991px) {
-        .get-in-touch-lft:first-child {
-            width: 100%;
-            padding: 0 0 20px;
-            float: none;
-        }
-
-        .get-in-touch-rit a {
-            display: block;
-            margin: 0 auto;
-        }
-
-        .footer-about .col-md-3 {
-            -webkit-flex: 0 0 100%;
-            float: none;
-            max-width: 100%;
-            width: 100%;
-        }
-
-        .hb-Jimg {
-            display: none;
-        }
-
-        .hb-jCont {
-            width: 100%;
-        }
-    } */
-
     .hb-btn_cl>a {
         background-color: #223f97;
         padding: 12px 19px;
@@ -421,21 +129,7 @@ $seo_keywords = "";
         padding: 20px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
     /* new styles after adding new header */
-    /* cloud pages changes banner {
-        margin-top: 129px;
-    } add inline for banner part*/
 
     .hb-forMobile {
         display: none;
@@ -792,10 +486,10 @@ $seo_keywords = "";
         text-align: center;
     }
 
-    .section-content h3 {
+    /* .section-content h3 {
         font-size: 54px;
         font-weight: bold;
-    }
+    } */
 
     .section-content h4 {
         margin: 14px auto 10px;
@@ -968,45 +662,45 @@ $seo_keywords = "";
             <div class="container">
                 <div class="row hb-statLists">
                     <div class="col-md-4 section-content cc-color-1">
-                        <h3><span class="Count">14800</span><span>+</span></h3>
-                        <h4>Mission Critical Workloads </h4>
+                        <h2><span class="Count">14800</span><span>+</span></h2>
+                        <h3>Mission Critical Workloads </h3>
                         <p>Hosted on Pi Cloud, across three Availability Zones in India</p>
                     </div>
 
 
                     <div class="col-md-4 section-content cc-color-2">
-                        <h3><span class="Count">20</span><span>+</span></h3>
-                        <h4>Banks & NBFCs</h4>
+                        <h2><span class="Count">20</span><span>+</span></h2>
+                        <h3>Banks & NBFCs</h3>
                         <p>Develop, deploy workloads on Pi Cloud in a complaint environment</p>
                     </div>
 
 
                     <div class="col-md-4 section-content cc-color-3">
-                        <h3><span class="Count">4</span></h3>
-                        <h4>Payment Gateways</h4>
+                        <h2><span class="Count">4</span></h2>
+                        <h3>Payment Gateways</h3>
                         <p>Are processing thousands of transactions every second on Pi Cloud</p>
                     </div>
 
 
 
                     <div class="col-md-4  section-content cc-color-4">
-                        <h3><span class="Count">4</span></h3>
-                        <h4>Smart Cities</h4>
+                        <h2><span class="Count">4</span></h2>
+                        <h3>Smart Cities</h3>
                         <p>With integrated IT, IoT and data on Pi Cloud, delivering operational and service
                             efficiency to citizens</p>
                     </div>
 
 
                     <div class="col-md-4  section-content cc-color-1">
-                        <h3><span class="Count">5</span></h3>
-                        <h4>A-listed Indian Universities</h4>
+                        <h2><span class="Count">5</span></h2>
+                        <h3>A-listed Indian Universities</h3>
                         <p>Leveraging Pi Cloud to deliver enhanced digital learning experience</p>
                     </div>
 
 
                     <div class="col-md-4  section-content cc-color-2">
-                        <h3><span class="Count">30</span><span>%</span></h3>
-                        <h4>TCO Optimal</h4>
+                        <h2><span class="Count">30</span><span>%</span></h2>
+                        <h3>TCO Optimal</h3>
                         <p>Compared to any major cloud service provider across the globe</p>
                     </div>
 
@@ -1027,37 +721,37 @@ $seo_keywords = "";
                 <ul class="cloud-page-1 slide">
                     <li class="cloud">
                         <div class="cloud-icon"><img src="images/managed-services-icons/CIE.svg" alt="onesize"></div>
-                        <h4>Infrastructure Excellence</h4>
+                        <h3>Infrastructure Excellence</h3>
                         <p>Immerse your applications, websites, and databases in our dependable and scalable cloud infrastructure. Revel in high availability, automatic backups, and effortless resource management. </p>
                     </li>
 
                     <li class="cloud">
                         <div class="cloud-icon"><img src="images/managed-services-icons/CSB.svg" alt="onesize"></div>
-                        <h4>Storage Brilliance </h4>
+                        <h3>Storage Brilliance </h3>
                         <p>Entrust your data to the cloud's secure integration. Our flexible storage solutions grant seamless access and file sharing while upholding data redundancy and compliance. </p>
                     </li>
 
                     <li class="cloud">
                         <div class="cloud-icon"><img src="images/managed-services-icons/CBR.svg" alt="onesize"></div>
-                        <h4>Backup and Resilience</h4>
+                        <h3>Backup and Resilience</h3>
                         <p>Fortify your business against data loss and downtime through our cloud backup and disaster recovery prowess. Bounce back swiftly from unexpected incidents, minimizing operational disruptions. </p>
                     </li>
 
                     <li class="cloud">
                         <div class="cloud-icon"><img src="images/managed-services-icons/SCM.svg" alt="onesize"></div>
-                        <h4>Seamless Migration</h4>
+                        <h3>Seamless Migration</h3>
                         <p>Delegate the seamless migration of your current systems and applications to our cloud experts. Transition gracefully, minimizing business hiccups.</p>
                     </li>
 
                     <li class="cloud">
                         <div class="cloud-icon"><img src="images/managed-services-icons/CSM.svg" alt="onesize"></div>
-                        <h4>Security Mastery</h4>
+                        <h3>Security Mastery</h3>
                         <p>Shield your cloud infrastructure and data with our holistic security services. From identity and access management to threat vigilance and compliance assurance, we're your comprehensive guardians. </p>
                     </li>
 
                     <li class="cloud">
                         <div class="cloud-icon"><img src="images/managed-services-icons/PCCS.svg" alt="onesize"></div>
-                        <h4>Personalized Consulting and Support</h4>
+                        <h3>Personalized Consulting and Support</h3>
                         <p>Our cloud connoisseurs stand by, ready to offer tailored guidance and consistent support for your cloud expedition. Expert assistance is just a step away. </p>
                     </li>
 
@@ -1191,7 +885,7 @@ $seo_keywords = "";
                                 </p>
                             </div>
                             <div class="hb-jCont">
-                                <h4>One Size Doesn't Fit All</h4>
+                                <h3>One Size Doesn't Fit All</h3>
                                 <p>Start Enterprise custom journey with a unique cloud adoption framework </p>
                             </div>
                         </li>
@@ -1202,7 +896,7 @@ $seo_keywords = "";
                                 </p>
                             </div>
                             <div class="hb-jCont">
-                                <h4>Any To Any Migration</h4>
+                                <h3>Any To Any Migration</h3>
                                 <p>Migration of servers, apps, databases & other workloads with diverse tools, techniques &
                                     technologies </p>
                             </div>
@@ -1214,7 +908,7 @@ $seo_keywords = "";
                                 </p>
                             </div>
                             <div class="hb-jCont">
-                                <h4>Self Service</h4>
+                                <h3>Self Service</h3>
                                 <p>Provision, scale and manage Enterprise workloads through a self service </p>
                             </div>
                         </li>
@@ -1225,7 +919,7 @@ $seo_keywords = "";
                                 </p>
                             </div>
                             <div class="hb-jCont">
-                                <h4>Future Ready</h4>
+                                <h3>Future Ready</h3>
                                 <p>Take advantage of emerging technologies like AI & ML, Cloud computing, IoT and Data
                                     Analytics </p>
                             </div>
@@ -1248,19 +942,19 @@ $seo_keywords = "";
                 <ul class="row cloud-page-2">
                     <li class="col-md-4 cloud cloud2">
                         <div class="cloud-icon2"><img src="images/managed-services-icons/scalability (2).svg" alt="onesize"></div>
-                        <h4>Scalability</h4>
+                        <h3>Scalability</h3>
                         <p>Bid farewell to hardware restraints and costly upgrades. Our cloud solutions provide scalable infrastructure that grows hand in hand with your business, be it through seasonal surges or exponential expansion. </p>
                     </li>
 
                     <li class="col-md-4 cloud cloud2">
                         <div class="cloud-icon2"><img src="images/managed-services-icons/BF.svg" alt="onesize"></div>
-                        <h4>Boundless Flexibility </h4>
+                        <h3>Boundless Flexibility </h3>
                         <p>Unleash the liberty to work anytime, anywhere. Our cloud services grant seamless access to your data, apps, and resources from any device with an internet tether. Be productive and collaborative, regardless of your team's location. </p>
                     </li>
 
                     <li class="col-md-4 cloud cloud2">
                         <div class="cloud-icon2"><img src="images/managed-services-icons/CEI.svg" alt="onesize"></div>
-                        <h4>Cost-Effective Ingenuity</h4>
+                        <h3>Cost-Effective Ingenuity</h3>
                         <p>Sharpen your IT budget with our budget-friendly cloud solutions. Pay for what you use and dodge upfront hardware expenses. The pay-as-you-go model maximizes your investment's worth. </p>
                     </li>
                 </ul>
@@ -1268,13 +962,13 @@ $seo_keywords = "";
                 <ul class="row cloud-page-3">
                     <li class="col-md-6 cloud cloud2">
                         <div class="cloud-icon2"><img src="images/managed-services-icons/RFLS.svg" alt="onesize"></div>
-                        <h4>Reliability and Fortress-Level Security</h4>
+                        <h3>Reliability and Fortress-Level Security</h3>
                         <p>Trust in the safety of your data within our cloud realm. Our potent security protocols, routine backups, and disaster recovery plans shield your critical data from potential threats, ensuring unceasing business flow. </p>
                     </li>
 
                     <li class="col-md-6 cloud cloud2">
                         <div class="cloud-icon2"><img src="images/managed-services-icons/TTP.svg" alt="onesize"></div>
-                        <h4 style="text-align:center">Top-Tier Performance</h4>
+                        <h3 style="text-align:center">Top-Tier Performance</h3>
                         <p> Immerse yourself in top-notch performance and diminished latency through our high-speed cloud infrastructure. Our cutting-edge data centers and advanced technology ensure a prime user experience for your services and applications. </p>
                     </li>
                 </ul>

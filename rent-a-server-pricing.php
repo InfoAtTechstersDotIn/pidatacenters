@@ -134,7 +134,7 @@ require_once "./ecomm/connection.php";
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/datacenter-services.png" alt="datacenter-services" width="1920" height="210" class="datacenter-services-img">
-        <h2>Rent A Sever</h2>
+        <h1>Rent A Sever</h1>
     </div>
 </div>
 

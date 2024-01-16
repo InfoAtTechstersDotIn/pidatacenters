@@ -24,7 +24,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                 <div class="col-md-12">
                     <h2>Why <span style="color: #76b543;">NOC</span>?</h2>
                     <p>NOC services are essential to any modern business's IT infrastructure. As a service, Pi's Network Operating Center (NOC) aims to ensure that your business's networks are continuously supervised, monitored, and maintained to minimize disruptions and downtime. It is designed to help organizations strengthen their networks' optimal performance and perform other business-critical tasks like network troubleshooting, software distribution & updating, coordination with interconnected networks, and more. </p>
-                    <h4 class="py-3">Our team of highly trained NOC engineers is available around the clock and carries out activities like: </h4>
+                    <h2 class="py-3 blue-text">Our team of highly trained NOC engineers is available around the clock and carries out activities like: </h2>
                 </div>
             </div>
 
@@ -88,20 +88,20 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
 
                         <div class="row">
                             <div class="col-md-3">
-                                <h5>Installing, Troubleshooting, and Patching</h5>
+                                <h3>Installing, Troubleshooting, and Patching</h3>
                                 <p>Our dedicated NOC team handles critical network software, ensuring seamless operations. </p>
                             </div>
                             <div class="col-md-3">
-                                <h5>Security Alerts and Reporting </h5>
+                                <h3>Security Alerts and Reporting </h3>
                                 <p>Collaborating with your security team, we provide alerts and detailed reports to prevent potential incidents.</p>
 
                             </div>
                             <div class="col-md-3">
-                                <h5>Firewall Management</h5>
+                                <h3>Firewall Management</h3>
                                 <p>Monitor and manage firewalls to fortify ongoing network and business security.</p>
                             </div>
                             <div class="col-md-3">
-                                <h5>Threat Identification and Mitigation </h5>
+                                <h3>Threat Identification and Mitigation </h3>
                                 <p> Adept at spotting and mitigating security issues, minimizing potential damage.</p>
                             </div>
                         </div>
@@ -116,7 +116,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                         <div class="col-md-3">
                             <div class="visible-cont">
                                 <img src="images/n-s-d-icons/monitoring-and-mentainance.png">
-                                <h5>Continued Monitoring and Maintenance</h5>
+                                <h3>Continued Monitoring and Maintenance</h3>
                             </div>
                             <div class="hide-cont">
                                 <p> Ensuring your network operates at its peak performance. </p>
@@ -125,7 +125,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                         <div class="col-md-3">
                             <div class="visible-cont">
                                 <img src="images/n-s-d-icons/zero-disruptions-and-downtime.png">
-                                <h5>Zero Disruptions and Downtime</h5>
+                                <h3>Zero Disruptions and Downtime</h3>
                             </div>
                             <div class="hide-cont">
                                 <p>Minimizing interruptions for uninterrupted business operations. </p>
@@ -134,7 +134,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                         <div class="col-md-3">
                             <div class="visible-cont">
                                 <img src="images/n-s-d-icons/availability-24-7.png">
-                                <h5>24/7 Availability</h5>
+                                <h3>24/7 Availability</h3>
                             </div>
                             <div class="hide-cont">
                                 <p>Our NOC resources are at your service round the clock. </p>
@@ -145,7 +145,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                         <div class="col-md-3">
                             <div class="visible-cont">
                                 <img src="images/n-s-d-icons/trained-noc-resources.png">
-                                <h5>Trained NOC Resources</h5>
+                                <h3>Trained NOC Resources</h3>
                             </div>
                             <div class="hide-cont">
                                 <p>A team of highly skilled professionals dedicated to safeguarding your network. </p>
@@ -154,7 +154,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                         <div class="col-md-3">
                             <div class="visible-cont">
                                 <img src="images/n-s-d-icons/real-time-response-to-incidents.png">
-                                <h5>Real-time Response to Incidents</h5>
+                                <h3>Real-time Response to Incidents</h3>
                             </div>
                             <div class="hide-cont">
                                 <p>Swift action to mitigate the impact of disruptions. </p>
@@ -163,7 +163,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                         <div class="col-md-3">
                             <div class="visible-cont">
                                 <img src="images/n-s-d-icons/prevent-issues.png">
-                                <h5>Prevent Issues</h5>
+                                <h3>Prevent Issues</h3>
                             </div>
                             <div class="hide-cont">
                                 <p>Proactive measures to avoid severe business losses. </p>
@@ -174,7 +174,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                         <div class="col-md-3">
                             <div class="visible-cont">
                                 <img src="images/n-s-d-icons/identification-and-resolution-of-the-root-cause.png">
-                                <h5>Identification and Resolution of the Root Cause</h5>
+                                <h3>Identification and Resolution of the Root Cause</h3>
                             </div>
                             <div class="hide-cont">
                                 <p> Analyzing disruptions at their source for long-term solutions. </p>
@@ -183,7 +183,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                         <div class="col-md-3">
                             <div class="visible-cont">
                                 <img src="images/n-s-d-icons/ongoing-support.png">
-                                <h5>Ongoing Support</h5>
+                                <h3>Ongoing Support</h3>
                             </div>
                             <div class="hide-cont">
                                 <p>Beyond monitoring, we provide continuous support for your network. </p>
@@ -192,7 +192,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                         <div class="col-md-3">
                             <div class="visible-cont">
                                 <img src="images/n-s-d-icons/network-optimization.png">
-                                <h5>Network Optimization</h5>
+                                <h3>Network Optimization</h3>
                             </div>
                             <div class="hide-cont">
                                 <p> Implementing best practices to ensure your network operates optimally. </p>
@@ -203,7 +203,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                         <div class="col-md-3">
                             <div class="visible-cont">
                                 <img src="images/n-s-d-icons/regular-updates-and-reports.png">
-                                <h5>Regular Updates and Reports</h5>
+                                <h3>Regular Updates and Reports</h3>
                             </div>
                             <div class="hide-cont">
                                 <p>Furnishing detailed insights to keep you informed. </p>
@@ -212,7 +212,7 @@ $seo_keywords = "Network Operating Center, network operations center,  network t
                         <div class="col-md-3">
                             <div class="visible-cont">
                                 <img src="images/n-s-d-icons/dedicated-service-and-support.png">
-                                <h5>Dedicated Service and Support</h5>
+                                <h3>Dedicated Service and Support</h3>
                             </div>
                             <div class="hide-cont">
                                 <p> Tailored support to meet your specific business needs. </p>

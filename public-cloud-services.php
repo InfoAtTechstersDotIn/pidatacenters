@@ -11,30 +11,9 @@ $seo_keywords = "";
 
 <div class="picloud_pages">
 
-
-
-
-
     <div class="hb-bannerCont">
         <div class="hb-bannerImgCont">
             <div class="hb-bannerImg">
-                <!--	<picture>
-			     <source media="(max-width: 768px)" srcset="./pi-cloud/images/banners/Web-banner-Ai.png">
-			      <img  src="./pi-cloud/images/banners/Web-banner-Ai.png" alt="pi cloud Cloud Backup as a Service Banner" style="width:100%">
-      		</picture>-->
-
-
-
-
-                <!-- <picture>
-                <source media="(max-width: 768px)" srcset="./pi-cloud/images/banners/multi-cloud-img.jpg">
-                <img src="./pi-cloud/images/banners/multi-cloud-img.jpg" alt="pi cloud Cloud Backup as a Service Banner" style="width:100%">
-                <h1>Public Cloud</h1>
-            </picture>
- -->
-
-
-
                 <picture>
                     <source media="(max-width: 768px)" srcset="./pi-cloud/images/banners/multi-cloud-img.jpg">
                     <img src="./pi-cloud/images/banners/multi-cloud-img.jpg" alt="pi cloud Cloud Backup as a Service Banner" style="width:100%">
@@ -48,14 +27,9 @@ $seo_keywords = "";
     <div class="container">
     </div>
     <br>
-    <!-- <h2 class="text-center" style="font-size: 28px; margin: 20px 0;">Why Choose <span style="color: #76b543;">Pi Public Cloud Services</span>?</h2> -->
 
     <div class="hb-productHead">
         <p>The Pi Public Cloud Services helps businesses devise strategies & appropriate planning for building a technology-proficient environment by fostering Flexibility, Scalability, Multi-Tiered Security, and High Redundancy. It brings the best of both worlds for businesses to co-leverage the flexibility of Public Clouds across Oracle (OCI), Azure, AWS, Google (GCP), along with Pi&#8217;s seamless integration and comprehensive management suite. It's all about gaining the trust of customers through the safekeeping of their data across agnostic cloud platforms with a fully integrated products and services stack under one umbrella. </p><br>
-
-        <!-- <p>In the pursuit of technological excellence, Pi Multi Cloud casts a wide net of services and features, thus providing clients with an expansive toolkit to craft their cloud environment precisely as per their requirements. This abundance translates into augmented flexibility and scalability, two attributes that have become paramount in navigating the fluid landscape of modern business.
-      At the heart of the Pi Multi Cloud computing paradigm lie several integral elements, each meticulously integrated to bolster our clients' capabilities in today's dynamic business landscape. The fusion of cutting-edge technology, strategic vision, and unwavering commitment to excellence creates an environment where businesses can not only thrive but also pioneer new horizons of success.
-        In the ever-changing realm of cloud technology, Pi emerges not just as a solution but as a strategy—one that is primed to propel enterprises forward by harnessing the collective power of multiple cloud providers. It's a paradigm shift that redefines the boundaries of what's possible, equipping businesses with a competitive edge that is as adaptable as it is resilient. </p> -->
 
     </div>
 
@@ -66,27 +40,27 @@ $seo_keywords = "";
 
             <div class="box">
                 <div class="jCont col-md-2">
-                    <h4>Global Reach and Accessibility</h4>
+                    <h3>Global Reach and Accessibility</h3>
                     <img src="./images/public-cloud-icons/GRA.svg">
                     <p>Our public cloud services offer a vast global network of data centers, ensuring low-latency access to your applications and data from anywhere in the world. Enjoy the freedom to reach a broader audience and expand your business on a global scale. </p>
                 </div>
                 <div class="jCont jCont2 col-md-2">
-                    <h4>Unmatched Scalability </h4>
+                    <h3>Unmatched Scalability </h3>
                     <img src="./images/public-cloud-icons/US.svg">
                     <p>Experience unparalleled scalability with our public cloud solutions. As your business grows, our cloud infrastructure seamlessly adapts to handle increasing workloads and user demands, allowing you to stay agile and responsive. </p>
                 </div>
                 <div class="jCont col-md-2">
-                    <h4>Cost-Efficiency</h4>
+                    <h3>Cost-Efficiency</h3>
                     <img src="./images/public-cloud-icons/CE.svg">
                     <p>Eliminate the need for expensive hardware and infrastructure investments. With our pay-as-you-go pricing model, you only pay for the resources you consume, optimizing your IT budget and reducing operational costs. </p>
                 </div>
                 <div class="jCont jCont2 col-md-2">
-                    <h4>High Performance</h4>
+                    <h3>High Performance</h3>
                     <img src="./images/public-cloud-icons/HP.svg">
                     <p>Enjoy blazing-fast performance and reliability with our state-of-the-art public cloud infrastructure. Our cutting-edge technologies and robust data centers ensure that your applications and services perform at their best. </p>
                 </div>
                 <div class="jCont col-md-2">
-                    <h4>Security and Compliance</h4>
+                    <h3>Security and Compliance</h3>
                     <img src="./images/public-cloud-icons/SAC.svg">
                     <p>Security is our top priority. Rest assured that your data and applications are protected by multiple layers of security controls, encryption, and regular security updates. We comply with industry standards and regulations to keep your data safe. </p>
                 </div>
@@ -112,33 +86,33 @@ $seo_keywords = "";
 
             <div class="box">
                 <div class="jCont col_sm-2">
-                    <h4>Infrastructure</h4>
+                    <h3>Infrastructure</h3>
                     <img src="./images/public-cloud-icons/PCI-2.svg">
                     <p>Leverage our secure and scalable public cloud infrastructure to deploy and manage your applications, websites, and databases. Experience the flexibility and power of the cloud with a wide range of compute, storage, and networking options. </p>
                 </div>
                 <div class="jCont jCont2 col_sm-2">
-                    <h4>Storage </h4>
+                    <h3>Storage </h3>
                     <img src="./images/public-cloud-icons/PCS.svg">
                     <p>Store, backup, and share your data with ease using our reliable public cloud storage solutions. Enjoy high availability, data redundancy, and automatic backups to safeguard your critical information. </p>
                 </div>
                 <div class="jCont col_sm-2">
-                    <h4>Computing</h4>
+                    <h3>Computing</h3>
                     <img src="./images/public-cloud-icons/PCC.svg">
                     <p>Take advantage of our on-demand computing resources to run applications and workloads without the need for physical servers. Our public cloud computing services offer flexibility and cost-effectiveness for your business. </p>
                 </div>
                 <div class="jCont jCont2 col_sm-2">
 
-                    <h4>Analytics</h4>
+                    <h3>Analytics</h3>
                     <img src="./images/public-cloud-icons/PCA.svg">
                     <p>Unlock valuable insights from your data with our public cloud analytics services. Analyze large datasets, gain actionable intelligence, and make data-driven decisions to fuel your business growth. </p>
                 </div>
                 <div class="jCont col_sm-2">
-                    <h4>AI and Machine Learning</h4>
+                    <h3>AI and Machine Learning</h3>
                     <img src="./images/public-cloud-icons/PC-AI-ML (1).svg">
                     <p> Embrace the power of artificial intelligence and machine learning with our public cloud AI services. Build smart applications, automate processes, and enhance user experiences using cutting-edge AI technologies. </p>
                 </div>
                 <div class="jCont jCont2 col_sm-2">
-                    <h4>Security and Compliance</h4>
+                    <h3>Security and Compliance</h3>
                     <img src="./images/public-cloud-icons/PCS-C.svg">
                     <p>Trust in our robust security measures to protect your data and applications. Our public cloud security services include identity and access management, threat detection, and compliance support. </p>
                 </div>
@@ -152,22 +126,12 @@ $seo_keywords = "";
     <div class="hb-productHead text-center">
         <p class="main-text">Experience the limitless possibilities of the cloud with Pi Public Cloud Services. Let our cloud experts guide you on your digital transformation journey.</p>
     </div>
-    <!-- <div class="hb-btn_cl" style="text-align: center; margin-top: 20px;"><a href="images/new-multi-cloud-brochure-2.pdf" class="global-button" target="_blank">
-                Download Brochure
-    </a>
-    
-</div> -->
 
 
     <div class="hb-btn_cl" style="text-align: center; margin-top: 20px;"><a href="contact-us.php" class="global-button">Reach Us</a>
-        <!-- <span><a href="images/Multi-Cloud-Brochure.pdf" class="sch-your global-button" target="_blank">
-                Download Brochure
-    </a></span> -->
     </div>
 
     <div class="hb-childProducts" id="Managed">
-
-        <!-- <p class="text-center">Address your growing infrastructure needs, regional expansions, and redundancy plans</p> -->
         <div id="outer" class="skltbs-theme-light" data-skeletabs='{ "startIndex": 3 }'>
             <ul class="skltbs-tab-group list-inline text-center templine">
                 <li class="skltbs-tab-item current">
@@ -286,7 +250,7 @@ $seo_keywords = "";
                                 <img src="./pi-cloud/images/combination25.png" alt="scale">
                             </p>
                             <div class="hb-featCont">
-                                <h6>Combination of Private and Public Cloud</h6>
+                                <h3>Combination of Private and Public Cloud</h3>
 
                             </div>
                         </div>
@@ -300,7 +264,7 @@ $seo_keywords = "";
                                 <img src="./pi-cloud/images/diverse25.png" alt="economics">
                             </p>
                             <div class="hb-featCont">
-                                <h6>Diverse Workload Hosting Locations</h6>
+                                <h3>Diverse Workload Hosting Locations</h3>
 
                             </div>
                         </div>
@@ -314,7 +278,7 @@ $seo_keywords = "";
                                 <img src="./pi-cloud/images/cross25.png" alt="Self">
                             </p>
                             <div class="hb-featCont">
-                                <h6>Cross-Geographical Cloud Integration</h6>
+                                <h3>Cross-Geographical Cloud Integration</h3>
 
                             </div>
                         </div>
@@ -328,7 +292,7 @@ $seo_keywords = "";
                                 <img src="./pi-cloud/images/self25.png" alt="scale">
                             </p>
                             <div class="hb-featCont">
-                                <h6>Self-Service Provision</h6>
+                                <h3>Self-Service Provision</h3>
 
                             </div>
                         </div>
@@ -342,7 +306,7 @@ $seo_keywords = "";
                                 <img src="./pi-cloud/images/cost25.png" alt="economics">
                             </p>
                             <div class="hb-featCont">
-                                <h6>Cost Optimization and Competitive Pricing</h6>
+                                <h3>Cost Optimization and Competitive Pricing</h3>
 
                             </div>
                         </div>
@@ -356,7 +320,7 @@ $seo_keywords = "";
                                 <img src="./pi-cloud/images/optimal25.png" alt="Self">
                             </p>
                             <div class="hb-featCont">
-                                <h6>Optimal Mix Of Services From Multiple Cloud Platforms</h6>
+                                <h3>Optimal Mix Of Services From Multiple Cloud Platforms</h3>
 
                             </div>
                         </div>

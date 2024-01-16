@@ -200,7 +200,7 @@ $seo_keywords = "";
             <div class="board-of-directors-in">
               <img src="images/abhinav-kotari.jpg" alt="strategic-5" width="186" height="76">
               <h4>Abhinav Kotagiri</h4>
-              <p>Chief Data Center Delivery Officer & Director Procurement</p>
+              <p>Vice President and Chief Datacenter Delivery Officer</p>
               <div class="linked-in-icon">
                 <a href="https://www.linkedin.com/in/abhinav-kotagiri-455096115/?originalSubdomain=in" target="_blank">
                   <img src="images/linkedin-icon.png" width="90" height="30" alt="linkedin-icon">
@@ -265,7 +265,7 @@ $seo_keywords = "";
             <div class="board-of-directors-in">
               <img src="images/abhinav-kotari.jpg" alt="strategic-5" width="186" height="76">
               <h4>Abhinav Kotagiri</h4>
-              <p>Chief Data Center Delivery Officer & Director Procurement</p>
+              <p>Vice President and Chief Datacenter Delivery Officer</p>
               <div class="linked-in-icon">
                 <a href="https://www.linkedin.com/in/abhinav-kotagiri-455096115/?originalSubdomain=in" target="_blank">
                   <img src="images/linkedin-icon.png" width="90" height="30" alt="linkedin-icon">
@@ -344,9 +344,22 @@ $seo_keywords = "";
             <div class="board-of-directors-management">
               <img src="images/abhi-mc.jpg" alt="mangement-5" width="525" height="580">
               <h4>Abhinav Kotagiri</h4>
-              <p>Chief Data Center Delivery Officer & Director Procurement</p>
+              <p>Vice President and Chief Datacenter Delivery Officer</p>
               <div class="linked-in-icon">
                 <a href="https://www.linkedin.com/in/abhinav-kotagiri-455096115/?originalSubdomain=in" target="_blank">
+                  <img src="images/linkedin-icon.png" width="90" height="30" alt="linkedin-icon">
+                </a>
+              </div>
+
+            </div>
+          </li>
+          <li class="">
+            <div class="board-of-directors-management">
+              <img src="images/geo-leader.svg" alt="mangement-8" width="525" height="580">
+              <h4>Geo Kurian</h4>
+              <p>Chief of Staff</p>
+              <div class="linked-in-icon">
+                <a href="https://www.linkedin.com/in/geo-kurian/" target="_blank">
                   <img src="images/linkedin-icon.png" width="90" height="30" alt="linkedin-icon">
                 </a>
               </div>
@@ -393,19 +406,7 @@ $seo_keywords = "";
 
             </div>
           </li>
-          <li class="">
-            <div class="board-of-directors-management">
-              <img src="images/geo-mc.jpg" alt="mangement-8" width="525" height="580">
-              <h4>Geo Kurian</h4>
-              <p>Director - Kerala Data Center & Head, SAP Practice</p>
-              <div class="linked-in-icon">
-                <a href="https://www.linkedin.com/in/geo-kurian/" target="_blank">
-                  <img src="images/linkedin-icon.png" width="90" height="30" alt="linkedin-icon">
-                </a>
-              </div>
 
-            </div>
-          </li>
           <li class="">
             <div class="board-of-directors-management">
               <img src="images/ravi-varma-mc.jpg" alt="mangement-9" width="525" height="580">
@@ -480,7 +481,7 @@ $seo_keywords = "";
           <div class="board-of-directors-management">
             <img src="images/abhi-mc.jpg" alt="mangement-5" width="525" height="580">
             <h4>Abhinav Kotagiri</h4>
-            <p>Chief Data Center Delivery Officer & Director Procurement</p>
+            <p>Vice President and Chief Datacenter Delivery Officer</p>
             <div class="linked-in-icon">
               <a href="https://www.linkedin.com/in/abhinav-kotagiri-455096115/?originalSubdomain=in" target="_blank">
                 <img src="images/linkedin-icon.png" width="90" height="30" alt="linkedin-icon">
@@ -517,9 +518,9 @@ $seo_keywords = "";
         </li>
         <li class="">
           <div class="board-of-directors-management">
-            <img src="images/geo-mc.jpg" alt="mangement-8" width="525" height="580">
+            <img src="images/geo-leader.svg" alt="mangement-8" width="525" height="580">
             <h4>Geo Kurian</h4>
-            <p>Director - Kerala Data Center & Head, SAP Practice</p>
+            <p>Chief of Staff</p>
             <div class="linked-in-icon">
               <a href="https://www.linkedin.com/in/geo-kurian/" target="_blank">
                 <img src="images/linkedin-icon.png" width="90" height="30" alt="linkedin-icon">
@@ -726,7 +727,7 @@ $seo_keywords = "";
               <img src="images/mangement-5.png" alt="management-5" width="525" height="580">
               <div class="director-lt-cnt">
                 <h3>Abhinav Kotagiri</h3>
-                <p>Chief Data Center Delivery Officer & Director Procurement</p>
+                <p>Vice President and Chief Datacenter Delivery Officer</p>
                 <ul class="row social-icons">
                   <li class="col-4">
                     <a href="#">

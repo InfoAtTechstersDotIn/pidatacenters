@@ -51,12 +51,12 @@ $seo_keywords = "";
                      <div class="dept-list">
                         <div class="grid_view">
                            <p class="plus_ico"><img src="./pi-cloud/images/BFSI.svg" alt="TopPicks" /></p>
-                           <h2>BFSI </h2>
+                           <h3>BFSI </h3>
                         </div>
 
                         <div class="full-cont hwi">
                            <div class="dep-moreInfp">
-                              <h2>BFSI </h2>
+                              <h4>BFSI </h4>
                               <p>Cloud solutions focused on compliance, innovation & cyber security</p>
                            </div>
                            <div class="pop-up-btns">
@@ -67,23 +67,23 @@ $seo_keywords = "";
 
                            <ul class="list-inline child_deptCont">
                               <li>
-                                 <h3>Comply with RBI guidelines</h3>
+                                 <h5>Comply with RBI guidelines</h5>
                                  <p>RBI has mandated payment system data to be stored within the geographical boundaries of India only</p>
                               </li>
                               <li>
-                                 <h3>Advanced threat prevention</h3>
+                                 <h5>Advanced threat prevention</h5>
                                  <p>Pi-Cloud<sup></sup> is PCI DSS certified to ensure robust defence against internal & external threats </p>
                               </li>
                               <li>
-                                 <h3>Cyber SOC</h3>
+                                 <h5>Cyber SOC</h5>
                                  <p>Monitor, analyze using SIEM tools and escalate security incidents</p>
                               </li>
                               <li>
-                                 <h3>Offensive measures</h3>
+                                 <h5>Offensive measures</h5>
                                  <p>Periodically conduct vulnerability assessment and penetration testing exercises</p>
                               </li>
                               <li>
-                                 <h3>Data loss prevention strategy</h3>
+                                 <h5>Data loss prevention strategy</h5>
                                  <p>Comprehensive DLP strategy to safeguard sensitive business and customer data</p>
                               </li>
 
@@ -98,11 +98,11 @@ $seo_keywords = "";
                      <div class="dept-list">
                         <div class="grid_view">
                            <p class="plus_ico"><img src="./pi-cloud/images/E-Commerce.svg" alt="Compute" /></p>
-                           <h2>e-Commerce </h2>
+                           <h3>e-Commerce </h3>
                         </div>
                         <div class="full-cont hwi">
                            <div class="dep-moreInfp">
-                              <h2>e-Commerce</h2>
+                              <h4>e-Commerce</h4>
                               <p>Scalable and secured resources to beat the peak with enhanced user experience and customer satisfaction</p>
                            </div>
                            <div class="pop-up-btns">
@@ -111,19 +111,19 @@ $seo_keywords = "";
                            </div>
                            <ul class="list-inline child_deptCont">
                               <li>
-                                 <h3>Scalable & stable</h3>
+                                 <h5>Scalable & stable</h5>
                                  <p>Prepare for those traffic spikes by hosting in state-of-the-art data centres for peace of mind</p>
                               </li>
                               <li>
-                                 <h3>Fast load times</h3>
+                                 <h5>Fast load times</h5>
                                  <p>By hosting on Pi-Cloud<sup></sup>, enterprises will benefit from speeds that no on-site infrastructure could promise</p>
                               </li>
                               <li>
-                                 <h3>Savings on TCO</h3>
+                                 <h5>Savings on TCO</h5>
                                  <p>You only pay for what you need and use with Pi-Cloud<sup></sup>, profits can be reinvested into creative ways to grow your business</p>
                               </li>
                               <li>
-                                 <h3>Cyber security</h3>
+                                 <h5>Cyber security</h5>
                                  <p>Protection from DDoS attacks, which can cause customers to lose confidence in the reliability of your website</p>
                               </li>
                            </ul>
@@ -135,11 +135,11 @@ $seo_keywords = "";
                      <div class="dept-list">
                         <div class="grid_view">
                            <p class="plus_ico"><img src="./pi-cloud/images/IT_IES.svg" alt="Network" /></p>
-                           <h2>IT / ITES </h2>
+                           <h3>IT / ITES </h3>
                         </div>
                         <div class="full-cont hwi">
                            <div class="dep-moreInfp">
-                              <h2>IT / ITES </h2>
+                              <h4>IT / ITES </h4>
                               <p>Adopt more agile development processes, including decentralized development teams</p>
 
                            </div>
@@ -149,23 +149,23 @@ $seo_keywords = "";
                            </div>
                            <ul class="list-inline child_deptCont">
                               <li>
-                                 <h3>Ease of provisioning and manageability</h3>
+                                 <h5>Ease of provisioning and manageability</h5>
                                  <p>With self service provisioning and management, enterprises can manage their environment with minimal friction</p>
                               </li>
                               <li>
-                                 <h3>Collaboration & remote work</h3>
+                                 <h5>Collaboration & remote work</h5>
                                  <p>End User Computing services on Pi-Cloud<sup></sup> gives your employees mobility and remote work options</p>
                               </li>
                               <li>
-                                 <h3>Virtual Private Network </h3>
+                                 <h5>Virtual Private Network </h5>
                                  <p>Encrypted IPsec connections between a local data center and Pi-Cloud<sup></sup> VPC</p>
                               </li>
                               <li>
-                                 <h3>Security</h3>
+                                 <h5>Security</h5>
                                  <p>We ensure your mission critical data and workloads are secure from ever evolving cyber threat</p>
                               </li>
                               <li>
-                                 <h3>Strategic partnerships</h3>
+                                 <h5>Strategic partnerships</h5>
                                  <p>Pi-Cloud<sup></sup> Partner Program enables enterprises to collaborate with us in their journey to cloud transformation</p>
                               </li>
 
@@ -177,11 +177,11 @@ $seo_keywords = "";
                      <div class="dept-list">
                         <div class="grid_view">
                            <p class="plus_ico"><img src="./pi-cloud/images/Manufacturing.svg" alt="Storage" /></p>
-                           <h2>Manufacturing </h2>
+                           <h3>Manufacturing </h3>
                         </div>
                         <div class="full-cont hwi">
                            <div class="dep-moreInfp">
-                              <h2>Manufacturing </h2>
+                              <h4>Manufacturing </h4>
                               <p>Optimize your production and achieve faster go to market with Pi-Cloud<sup></sup></p>
 
                            </div>
@@ -191,23 +191,23 @@ $seo_keywords = "";
                            </div>
                            <ul class="list-inline child_deptCont">
                               <li>
-                                 <h3>Industry 4.0</h3>
+                                 <h5>Industry 4.0</h5>
                                  <p>Take advantage of IoT by building smart factories and faster production lines</p>
                               </li>
                               <li>
-                                 <h3>Improve your operations</h3>
+                                 <h5>Improve your operations</h5>
                                  <p>Add a wide variety of cost effective and powerful analytics to process, analyze, and visualize data </p>
                               </li>
                               <li>
-                                 <h3>Innovate faster with SAP on Pi-Cloud<sup></sup></h3>
+                                 <h5>Innovate faster with SAP on Pi-Cloud<sup></sup></h5>
                                  <p>Pi-Cloud<sup></sup> allows engineers to solve complex problems quickly enabling enterprises to reduce time-to-results</p>
                               </li>
                               <li>
-                                 <h3>Lower your IT costs</h3>
+                                 <h5>Lower your IT costs</h5>
                                  <p>Focus on improving business operations and innovation, not IT infrastructure</p>
                               </li>
                               <li>
-                                 <h3>Enhanced security</h3>
+                                 <h5>Enhanced security</h5>
                                  <p>Data center and network architecture built to meet the requirements of the most security-sensitive organizations</p>
                               </li>
 
@@ -222,11 +222,11 @@ $seo_keywords = "";
                      <div class="dept-list">
                         <div class="grid_view">
                            <p class="plus_ico"><img src="./pi-cloud/images/Education.svg" alt="Security" /></p>
-                           <h2> Education </h2>
+                           <h3> Education </h3>
                         </div>
                         <div class="full-cont hwi">
                            <div class="dep-moreInfp">
-                              <h2>Education </h2>
+                              <h4>Education </h4>
                               <p>Migrate from legacy systems and as you transform into e-learning with enhanced research and innovation</p>
 
                            </div>
@@ -236,19 +236,19 @@ $seo_keywords = "";
                            </div>
                            <ul class="list-inline child_deptCont">
                               <li>
-                                 <h3>Virtualize your labs</h3>
+                                 <h5>Virtualize your labs</h5>
                                  <p>With app streaming on Pi-Cloud<sup></sup>, institutions and schools can centrally manage thousands of applications</p>
                               </li>
                               <li>
-                                 <h3>Access desktop from any device</h3>
+                                 <h5>Access desktop from any device</h5>
                                  <p>Support remote work and remote learning with Workspace on pi-cloud<sup>®</sup></p>
                               </li>
                               <li>
-                                 <h3>Security & Compliance</h3>
+                                 <h5>Security & Compliance</h5>
                                  <p>Pi-Cloud<sup></sup> is built to help even the most security-sensitive institutions meet student data privacy and security requirements</p>
                               </li>
                               <li>
-                                 <h3>Scalability</h3>
+                                 <h5>Scalability</h5>
                                  <p>Quickly and easily scale up during peak usage times, including enrollment and scale down over vacations</p>
                               </li>
 
@@ -261,11 +261,11 @@ $seo_keywords = "";
                      <div class="dept-list">
                         <div class="grid_view">
                            <p class="plus_ico"><img src="./pi-cloud/images/Healthcare.svg" alt="SAP" /></p>
-                           <h2>Healthcare</h2>
+                           <h3>Healthcare</h3>
                         </div>
                         <div class="full-cont hwi">
                            <div class="dep-moreInfp">
-                              <h2>Healthcare </h2>
+                              <h4>Healthcare </h4>
                               <p>Improve your compliance and safeguard your workloads, research & customer data</p>
 
                            </div>
@@ -275,19 +275,19 @@ $seo_keywords = "";
                            </div>
                            <ul class="list-inline child_deptCont">
                               <li>
-                                 <h3>Support regulatory compliance</h3>
+                                 <h5>Support regulatory compliance</h5>
                                  <p>Pi-Cloud<sup></sup> being HIPAA certified ensures effective data security, protecting from unauthorized access and breaches</p>
                               </li>
                               <li>
-                                 <h3>Connect your infrastructure</h3>
+                                 <h5>Connect your infrastructure</h5>
                                  <p>Achieve best performance by transferring data within branches, headquarters and availability zones efficiently</p>
                               </li>
                               <li>
-                                 <h3>Business continuity</h3>
+                                 <h5>Business continuity</h5>
                                  <p>High data availability, robust backup and disaster recovery capabilities, supporting minimal RTOs and RPOs</p>
                               </li>
                               <li>
-                                 <h3>Facilitate collaboration</h3>
+                                 <h5>Facilitate collaboration</h5>
                                  <p>Pi-Cloud<sup></sup> can help your employees to work from remote locations in a secure and compliant manner</p>
                               </li>
 
@@ -379,6 +379,7 @@ $seo_keywords = "";
       }
    });
 </script>
+
 
 <!--       **************Footer*************-->
 <?php include('php/includes-techsters/footer.php'); ?>
