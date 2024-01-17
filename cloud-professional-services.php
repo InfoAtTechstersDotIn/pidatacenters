@@ -94,7 +94,7 @@ $seo_keywords = "";
 					<p>Streamline your critical IT processes and simplify management of your cloud ecosystem</p>
 				</div>
 				<p class="hb-depad">
-					<img src="./pi-cloud/images/banners/CloudEnablement-BannerV7.png" alt="mangage">
+					<img src="images/journey-with-pi-cloud.svg" alt="mangage">
 				</p>
 			</div>
 		</div>

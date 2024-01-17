@@ -703,12 +703,42 @@ $seo_keywords = "";
                         <h3>TCO Optimal</h3>
                         <p>Compared to any major cloud service provider across the globe</p>
                     </div>
-
-
                 </div>
-
             </div>
+        </div>
 
+        <div class="cloud-tabs">
+            <div class="hb-journeyCont">
+                <h2 class="text-center">Interested <span style="color: #76b543;">In</span></h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="public-cloud-services.php" target="_blank">
+                            <h3 class="hide-head">Public Cloud</h3>
+                            <h3 class="btn-click">Click Here</h3>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="private-cloud-infrastructure-services.php" target="_blank">
+                            <h3 class="hide-head">Private Cloud</h3>
+                            <h3 class="btn-click">Click Here</h3>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="SAP-cloud-platform.php" target="_blank">
+                            <h3 class="hide-head">SAP On Cloud</h3>
+                            <h3 class="btn-click">Click Here</h3>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="cloud-professional-services.php" target="_blank">
+                            <h3 class="hide-head">Professional Services</h3>
+                            <h3 class="btn-click">Click Here</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!--four--->

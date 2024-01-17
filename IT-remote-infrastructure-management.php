@@ -162,13 +162,13 @@ $seo_keywords = "RIMS, remote infrastructure management, remote infrastructure m
                             <div class="computer-network-left col-lg-6">
 
                                 <h3>Computer</h3>
-                                <span>OS, Physical Servers, VMs, Containers</span>
+                                <h4>OS, Physical Servers, VMs, Containers</h4>
                                 <p>Best Practice Guidelines | General Consultations | Planning | Service Documentation | Vendor & Asset management | Tools & techniques</p>
-                                <span>Administration</span>
+                                <h4>Administration</h4>
                                 <p>Configuring | Patch Management | Installations | Inventory Management (Physical & Virtual) | Hardening | Document & Maintain SOPs | Backups</p>
-                                <span>Monitoring</span>
+                                <h4>Monitoring</h4>
                                 <p>24/7 Alert Monitoring | Resource utilization | Events & Error capturing | Performance Monitoring | Infrastructure Health | Scheduled reporting</p>
-                                <span>Support</span>
+                                <h4>Support</h4>
                                 <p>Incident Management | Major Incident management | Problem management | Change Management | Service Requests | Performance Optimization</p>
 
                             </div>
@@ -184,16 +184,16 @@ $seo_keywords = "RIMS, remote infrastructure management, remote infrastructure m
                             <div class="computer-network-left col-lg-6">
 
                                 <h3>Network</h3>
-                                <span>Network Devices, Network Operations Center & Content Delivery</span>
+                                <h4>Network Devices, Network Operations Center & Content Delivery</h4>
                                 <p>Best Practice Guidelines | General Consultations | Planning | Service Documentation | Vendor & Asset management | Tools & techniques</p>
 
-                                <span>Administration</span>
+                                <h4>Administration</h4>
                                 <p>Switches, Routers, Firewalls, MPLS, Wireless Access Points | Inventory Mapping | Testing drills | Network Restrictions | Access controls | VPN management | Backups | Wireless Network Management</p>
 
-                                <span>Monitoring</span>
+                                <h4>Monitoring</h4>
                                 <p>24/7 Alert Monitoring | Resource utilization | Events & Error capturing | Performance Monitoring | Infrastructure Health | Scheduled reporting</p>
 
-                                <span>Support</span>
+                                <h4>Support</h4>
                                 <p>Incident Management | Major Incident management | Problem management | Change Management | Service Requests | Performance Optimization</p>
                             </div>
                         </div>
@@ -205,16 +205,16 @@ $seo_keywords = "RIMS, remote infrastructure management, remote infrastructure m
                             </div>
                             <div class="computer-network-left col-lg-6">
                                 <h3>Security</h3>
-                                <span>Security Operations Center with SIEM | App, User, Data & Infrastructure Security</span>
+                                <h4>Security Operations Center with SIEM | App, User, Data & Infrastructure Security</h4>
                                 <p>Best Practice Guidelines | General Consultations | Planning | Service Documentation | Vendor & Asset management | Tools & techniques</p>
 
-                                <span>Administration</span>
+                                <h4>Administration</h4>
                                 <p>Vulnerability Assessment & Penetration Testing | DDoS Protection | Advanced Threat Prevention | Web Filtering | Antivirus & Patch Management | Firewall Management | WAF management</p>
 
-                                <span>Monitoring</span>
+                                <h4>Monitoring</h4>
                                 <p>24/7 Monitoring for External and Internal threats | Detailed Reporting</p>
 
-                                <span>Support</span>
+                                <h4>Support</h4>
                                 <p>Incident Management | Major Incident management | Problem management | Change Management | Service Requests</p>
                             </div>
 
@@ -228,16 +228,16 @@ $seo_keywords = "RIMS, remote infrastructure management, remote infrastructure m
                             </div>
                             <div class="computer-network-left col-lg-6">
                                 <h3>Storage</h3>
-                                <span>Object Storage, Block Storage, Files Storage & Archival</span>
+                                <h4>Object Storage, Block Storage, Files Storage & Archival</h4>
                                 <p>Best Practice Guidelines | General Consultations | Planning | Service Documentation | Vendor & Asset management | Tools & techniques</p>
 
-                                <span>Administration</span>
+                                <h4>Administration</h4>
                                 <p>Vulnerability Assessment & Penetration Testing | DDoS Protection | Advanced Threat Prevention | Web Filtering | Antivirus & Patch Management | Firewall Management | WAF management</p>
 
-                                <span>Monitoring</span>
+                                <h4>Monitoring</h4>
                                 <p>SAN Availability Monitoring | Storage event Log Monitoring | Monitoring Storage Boxes | Software Monitoring | Capacity Management | provisioning | Scheduled Reporting</p>
 
-                                <span>Support</span>
+                                <h4>Support</h4>
                                 <p>Incident Management | Major Incident management | Service Requests | Change Management | Problem Management | Performance Optimization | Firmware Maintenance</p>
                             </div>
                         </div>
@@ -249,19 +249,19 @@ $seo_keywords = "RIMS, remote infrastructure management, remote infrastructure m
                             </div>
                             <div class="computer-network-left col-lg-6">
                                 <h3>Databases</h3>
-                                <span>HANA, Ms SQL Server, DB2, Sybase, MySQL, Oracle, MongoDB etc</span>
+                                <h4>HANA, Ms SQL Server, DB2, Sybase, MySQL, Oracle, MongoDB etc</h4>
                                 <p>Best Practice Guidelines | General Consultations | Planning | Service Documentation | Vendor & Asset management | Tools & techniques</p>
 
-                                <span>Administration</span>
+                                <h4>Administration</h4>
                                 <p>Database Instances | DB Export and Import | Event Management | Periodic Report Generation | Objects Creation / Review</p>
 
-                                <span>Monitoring</span>
+                                <h4>Monitoring</h4>
                                 <p>24/7 Alert Monitoring | Activity / Log segment monitoring | Session Monitoring | Space usage /growth of Database objects/Creation of Logical devices Monitoring | Query or Transaction monitoring</p>
 
-                                <span>Data Resiliency</span>
+                                <h4>Data Resiliency</h4>
                                 <p>DBSetup and Configuration | Backup, Failover management, Recovery | Cluster Setup and Configuratio | Mirroring and Log Shipping | Migrations</p>
 
-                                <span>Support</span>
+                                <h4>Support</h4>
                                 <p>Incident Management | Major Incident management | Problem management | Change Management | Service Requests | Performance Optimization</p>
                             </div>
 
@@ -275,13 +275,13 @@ $seo_keywords = "RIMS, remote infrastructure management, remote infrastructure m
                             </div>
                             <div class="computer-network-left col-lg-6">
                                 <h3>ERP</h3>
-                                <span>SAP</span>
+                                <h4>SAP</h4>
                                 <p>Best Practice Guidelines | Service Documentation | General Consultations | Vendor & Asset management | Planning | Tools & techniques</p>
 
-                                <span>Service Portfolio</span>
+                                <h4>Service Portfolio</h4>
                                 <p>Enterprise application management | Technical/Functional Consultation & Manage services | S4HANA Implementation & Services | Application upgrade services | Capacity planning | Performance Optimization | Data Center migration services | Solman setup and Integrationservices</p>
 
-                                <span>Support</span>
+                                <h4>Support</h4>
                                 <p>Incident Management | Major Incident management | Problem Management| Change Management | Service Requests</p>
                             </div>
                         </div>
@@ -293,16 +293,16 @@ $seo_keywords = "RIMS, remote infrastructure management, remote infrastructure m
                             </div>
                             <div class="computer-network-left col-lg-6">
                                 <h3>Business Continuity</h3>
-                                <span>Backups, Disaster Recovery & High Availability</span>
+                                <h4>Backups, Disaster Recovery & High Availability</h4>
                                 <p>Best Practice Guidelines | Service Documentation | General Consultations | Vendor & Asset management | Planning | Tools & techniques</p>
 
-                                <span>Administration</span>
+                                <h4>Administration</h4>
                                 <p>Scheduling Backups | Setting RTO & RPO for Failover | Deleting Obsolete backups | Migrations | Recovery Processes | DR Drills</p>
 
-                                <span>Monitoring</span>
+                                <h4>Monitoring</h4>
                                 <p>24/7 Alert Monitoring | Infrastructure Health | Tools & Techniques | Proactive & reactive alert notifications</p>
 
-                                <span>Support</span>
+                                <h4>Support</h4>
                                 <p>Incident Management | Major Incident management | Problem management | Change Management | Service Requests | Performance Optimization</p>
                             </div>
 
@@ -317,11 +317,11 @@ $seo_keywords = "RIMS, remote infrastructure management, remote infrastructure m
                             <div class="computer-network-left col-lg-6">
 
                                 <h3>Vendor & Asset Management</h3>
-                                <span>IT Vendor Databases</span>
+                                <h4>IT Vendor Databases</h4>
                                 <p>Database of your various IT Vendors with all necessary details is maintained</p>
-                                <span>Communication Logging</span>
+                                <h4>Communication Logging</h4>
                                 <p>Vendor communication is logged for reference</p>
-                                <span>SLA Compliance</span>
+                                <h4>SLA Compliance</h4>
                                 <p>Vendors are closely monitored on their SLA adherence</p>
                             </div>
                         </div>
@@ -339,7 +339,7 @@ $seo_keywords = "RIMS, remote infrastructure management, remote infrastructure m
                             </div>
                             <div class="incident-management-left col-md-7">
                                 <div class="incident-management-wf">
-                                    <h4>Incident Management</h4>
+                                    <h2>Incident Management</h2>
                                     <ul class="row">
                                         <li class="col-3"><span>Priority Level</span></li>
                                         <li class="col-3"><span>Response Time</span></li>
@@ -386,7 +386,7 @@ $seo_keywords = "RIMS, remote infrastructure management, remote infrastructure m
                             </div>
                             <div class="incident-management-left col-md-7">
                                 <div class="incident-management-wf">
-                                    <h4>Major Incident Management</h4>
+                                    <h2>Major Incident Management</h2>
                                     <ul class="row">
                                         <li class="col-3"><span>Priority Level</span></li>
                                         <li class="col-3"><span>Response Time</span></li>
@@ -416,7 +416,7 @@ $seo_keywords = "RIMS, remote infrastructure management, remote infrastructure m
                             </div>
                             <div class="incident-management-left col-md-7">
                                 <div class="incident-management-wf">
-                                    <h4>Problem Management <br> <span>(Underlying Cause of One or More Incidents)</span></h4>
+                                    <h2>Problem Management <br> <span>(Underlying Cause of One or More Incidents)</span></h2>
 
                                     <ul class="row">
                                         <li class="col-4"><span>Priority Level</span></li>
@@ -445,7 +445,7 @@ $seo_keywords = "RIMS, remote infrastructure management, remote infrastructure m
                             </div>
                             <div class="incident-management-left col-md-7">
                                 <div class="incident-management-wf">
-                                    <h4>Change Management <br> <span>(Elimination of Problem)</span></h4>
+                                    <h2>Change Management <br> <span>(Elimination of Problem)</span></h2>
 
                                     <ul class="row">
                                         <li class="col-4"><span>Priority Level</span></li>
@@ -473,7 +473,7 @@ $seo_keywords = "RIMS, remote infrastructure management, remote infrastructure m
                             </div>
                             <div class="incident-management-left col-md-7">
                                 <div class="incident-management-wf">
-                                    <h4>Service Requests <br> <span>(Request Full filment)</span></h4>
+                                    <h2>Service Requests <br> <span>(Request Full filment)</span></h2>
 
                                     <ul class="row">
                                         <li class="col-4"><span>Priority Level</span></li>
@@ -498,20 +498,20 @@ $seo_keywords = "RIMS, remote infrastructure management, remote infrastructure m
                     <div class="row custom-scheduled-reporting-main">
                         <div class="custom-scheduled-reporting-lt col-md-7">
                             <h2>Custom Scheduled Reporting</h2>
-                            <h4>List of Assets</h4>
+                            <h3>List of Assets</h3>
                             <p>List of Assets managed by Pi | List of Assets discovered but not managed by Pi | List of Assets managed under each domain</p>
 
-                            <h4>Service Metrics</h4>
+                            <h3>Service Metrics</h3>
                             <p>Service Maps | Availability & Performance metrics under each domain</p>
-                            <h4>People Metrics</h4>
+                            <h3>People Metrics</h3>
                             <p>Productivity | Quality</p>
-                            <h4>Alerts</h4>
+                            <h3>Alerts</h3>
                             <p>Classifying genuine and false alerts | Number of self-heals | Total tickets generated priority wise | | Alert to Ticket ratio, etc..</p>
 
-                            <h4>Management Reporting</h4>
+                            <h3>Management Reporting</h3>
                             <p>Incidents by priority level handled during time period | Problem & Change management activities taken up with results obtained</p>
 
-                            <h4>Upcoming tasks</h4>
+                            <h3>Upcoming tasks</h3>
                             <p>Proactive CSI (Continual Service Improvement) Plans | Projection of planned upgrades or Changes to the Environment</p>
 
                         </div>
@@ -556,7 +556,7 @@ $seo_keywords = "RIMS, remote infrastructure management, remote infrastructure m
                                 </li>
 
                             </ul>
-                            <p>* Subject to vary on case to case basis as per Clientâ€™s IT layout</p>
+                            <p>* Subject to vary on case to case basis as per Client&#8217;s IT layout</p>
                         </div>
                     </div>
                 </div>
@@ -578,7 +578,7 @@ $seo_keywords = "RIMS, remote infrastructure management, remote infrastructure m
                         <div class="resource-distribution-right col-md-5 table">
                             <img src="images/rims/resource-distribution-table.png" alt="resource-distribution-table" width="432" height="260">
 
-                            <p>* Subject to vary on case to case basis as per Clientâ€™s IT layout</p>
+                            <p>* Subject to vary on case to case basis as per Client&#8217;s IT layout</p>
                         </div>
                     </div>
                 </div>

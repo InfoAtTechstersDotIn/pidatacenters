@@ -224,7 +224,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#" class="drop-arrow">PRICING</a>
+                                <a href="<?php echo $site_url ?>pricing.php" class="drop-arrow">PRICING</a>
                                 <div class="drop-down pricing_drop_down">
                                     <ul>
                                         <li>
@@ -733,6 +733,7 @@
                 </div>
                 <div class="modal-body">
                     <form action="reach-us-form.php" method="post" enctype="multipart/form-data">
+                        <!-- <form onsubmit="handleFormSubmit(event)"> -->
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="name" required>
 
@@ -751,6 +752,12 @@
                         <input type="hidden" name="techsters_subject" value="Reach Us Form Leads" />
                         <input type="hidden" name="form_unique_id" value="1ef13057-52fd-11ee-a4b0-525400b78afc" />
                     </form>
+                    <!-- <script defer>
+                        const handleSubscribeFormSubmit = (event) => {
+                            event.preventDefault();
+                            $('#thanks-msg').show();
+                        }
+                    </script> -->
                 </div>
             </div>
         </div>

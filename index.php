@@ -1063,7 +1063,7 @@
                                 <li>
                                     <a href="contact-us.php">Reach Us</a>
                                 </li>
-                                <li>
+                                <li class="line">
                                     <a href="privacy-policy.php">Privacy Policy</a>
                                 </li>
 

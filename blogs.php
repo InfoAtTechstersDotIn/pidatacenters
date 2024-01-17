@@ -973,10 +973,13 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
 
         $('.close-btn, .sub-close').on('click', function() {
             $('#thanks-msg').hide();
-            // $('body').removeClass('modal-open')
+            $('body').removeClass('modal-open');
+            $('body').css('padding-right', '0px');
         });
         $('.pop-sub-btn').on('click', function() {
             $('#subscribe').hide();
+            $('body').removeClass('modal-open');
+            $('body').css('padding-right', '0px');
         });
     });
 </script>

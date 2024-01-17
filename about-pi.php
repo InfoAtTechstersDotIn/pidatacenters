@@ -1,8 +1,7 @@
 <?php
-$seo_title = "Hyperscale Datacenter Services & Multi-Cloud Provider - Pi Datacenters";
-$seo_description = "Pi Datacenters is India's First Greenfield and World's 4th Largest Uptime Institute TIER-IV Certified Data Center, providing reliable & world-class colocation, multi-tenant data center network, and hyper-scale data center services provider
-";
-$seo_keywords = "About datacenters, Data center provider, leading data center, Best Multi-Tenant Data Center, Pi Datacenters,  Data center networking provider in india";
+$seo_title = "Know More About Pi - Hyperscale data center in India";
+$seo_description = "Pi Datacenter provides secure, scalable, and efficient data solutions for businesses. Offering hosting, colocation, and cloud services";
+$seo_keywords = "datacenter, data solutions, hosting, colocation, cloud services, secure data";
 ?>
 
 

@@ -9759,3 +9759,151 @@
         text-align: center;
         margin: 10px auto;
     }
+
+    .what-is-rims h2 {
+        color: #000000;
+        font-weight: 700;
+        padding: 0 0 10px;
+    }
+
+    .why-rims h2 {
+        color: #000000;
+        font-weight: 700;
+        padding: 0 0 10px;
+    }
+
+    .our-rim-services h2 {
+        color: #000000;
+        font-weight: 700;
+        padding: 0 0 30px;
+        text-align: center;
+    }
+
+    .computer-network-main h4 {
+        color: #223F98;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        line-height: 22px;
+        padding: 10px 0 10px;
+        display: block;
+    }
+
+    .incident-management-wf h2 {
+        font-size: 24px;
+        line-height: 30px;
+        color: #000000;
+        padding: 0 0 20px;
+        font-weight: 700;
+    }
+
+    .custom-scheduled-reporting h3 {
+        color: #1C1C1C;
+        font-size: 24px;
+        font-weight: 500;
+        padding: 10px 0 10px;
+        line-height: 1.5rem;
+    }
+
+    .brochure-tabs {
+        max-width: 80%;
+        margin: 15px auto;
+    }
+
+    .brochure-tabs h2 {
+        color: #3c3c3c;
+        font-size: 23px;
+        text-align: left;
+    }
+
+    .brochure-tabs img {
+        width: 90%;
+        padding: 5px;
+    }
+
+    .brochure-tabs a {
+        background-color: #76b543;
+        color: #fff;
+        padding: 5px 5px;
+        border-radius: 5px;
+        margin: 5px 0 0 0;
+        font-size: 15px;
+    }
+
+    .brochure-tabs a:hover {
+        background-color: #223f97;
+    }
+
+    .cloud-tabs {
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .cloud-tabs h3 {
+        color: #000;
+        font-weight: bold;
+        text-align: center;
+        font-size: 22px;
+        line-height: 1.5rem;
+    }
+
+    .cloud-tabs .btn-click {
+        display: none;
+        font-size: 18px;
+        color: #fff !important;
+    }
+
+    .cloud-tabs a {
+        padding: 20px 10px;
+        background-color: #fff;
+        margin: 10px;
+        width: 100%;
+        border-radius: 60px;
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+            rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+            rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+            rgba(0, 0, 0, 0.06) 0px 2px 1px,
+            rgba(0, 0, 0, 0.09) 0px 4px 2px,
+            rgba(0, 0, 0, 0.09) 0px 8px 4px,
+            rgba(0, 0, 0, 0.09) 0px 16px 8px,
+            rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    }
+
+    .cloud-tabs a:hover {
+        background-color: #223f97;
+    }
+
+    .cloud-tabs a:hover .hide-head {
+        display: none;
+    }
+
+    .cloud-tabs a:hover .btn-click {
+        display: block;
+    }
+
+    .pricing-tabs {
+        max-width: 85%;
+        margin: 20px auto;
+    }
+
+    .pricing-tabs h2 {
+        color: #000;
+        font-size: 30px;
+    }
+
+    .pricing-tabs a {
+        background-color: #223f97;
+        padding: 5px 10px;
+        border-radius: 10px;
+        color: #fff !important;
+        font-weight: bold;
+    }
+
+    .hb-deContO:after {
+        background-color: #223f97 !important;
+    }
+
+    .foot-menu .line {
+        float: right;
+        border-right: none !important;
+    }
