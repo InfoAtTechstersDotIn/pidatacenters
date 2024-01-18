@@ -131,19 +131,19 @@ $seo_keywords = "articles, informative articles, datacenter articles, cloud arti
           <ul class="slider-knowledge row">
 
             <li class="col-md-3 articles">
-              <a href="overview-of-private-and-public-clouds.php"><img src="images/public-private-cloud.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="overview-of-private-and-public-clouds.php"><img src="images/public-private-clouds.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
               <span>#article</span><a href="overview-of-private-and-public-clouds.php" class="pres-rel">An Overview of Private and Public Clouds! What They Are and How They Differ?</a>
               <div class="readmore-btn"><a href="overview-of-private-and-public-clouds.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 articles">
-              <a href="what-is-colocation.php"><img src="images/what-is-colocation.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="what-is-colocation.php"><img src="images/what-is-colocation.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
               <span>#article</span><a href="what-is-colocation.php" class="pres-rel">What is Colocation? A Guide to the Benefits and Advantages</a>
               <div class="readmore-btn"><a href="what-is-colocation.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 articles">
-              <a href="what-is-meity.php"><img src="images/kh-what-is-meity.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="what-is-meity.php"><img src="images/what-is-meity.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
               <span>#article</span><a href="what-is-meity.php" class="pres-rel">What is MeitY? How Does its Certification of Datacenters Safeguard India's Digital Frontier? </a>
               <div class="readmore-btn"><a href="what-is-meity.php">Read More</a></div>
             </li>
@@ -155,14 +155,14 @@ $seo_keywords = "articles, informative articles, datacenter articles, cloud arti
             </li>
 
             <li class="col-md-3 articles">
-              <a href="cyber-security-101.php"><img src="images/kh-cyber-security.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="cyber-security-101.php"><img src="images/protect-business-cybersecurity.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
               <span>#article</span><a href="cyber-security-101.php" class="pres-rel">Cybersecurity 101: Protect Your Business with These Essential Tips! </a>
               <div class="readmore-btn"><a href="cyber-security-101.php">Read More</a></div>
             </li>
 
 
             <li class="col-md-3 articles">
-              <a href="what-is-managed-services.php"><img src="images/kh-managed-services.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="what-is-managed-services.php"><img src="images/managed-services.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
               <span>#article</span><a href="what-is-managed-services.php" class="pres-rel">What is Managed Services? Their Role in Enabling Peace of Mind for Businesses</a>
               <div class="readmore-btn"><a href="what-is-managed-services.php">Read More</a></div>
             </li>
@@ -193,14 +193,14 @@ $seo_keywords = "articles, informative articles, datacenter articles, cloud arti
 
 
             <li class="col-md-3 articles">
-              <a href="cloud-computing.php"><img src="images/cloud-computing.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="cloud-computing.php"><img src="images/cloud-computing.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
               <span>#article</span><a href="cloud-computing.php" class="pres-rel">What is Cloud Computing? A Comprehensive Exploration </a>
               <div class="readmore-btn"><a href="cloud-computing.php">Read More</a></div>
             </li>
 
 
             <li class="col-md-3 articles">
-              <a href="hyperscale-datacenters.php"><img src="images/what-are-hyperscale.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="hyperscale-datacenters.php"><img src="images/hyperscale-datacenters.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
               <span>#article</span><a href="hyperscale-datacenters.php" class="pres-rel">What are Hyperscale Datacenters and How They Shape Tomorrow's Tech Landscape? </a>
               <div class="readmore-btn"><a href="hyperscale-datacenters.php">Read More</a></div>
             </li>

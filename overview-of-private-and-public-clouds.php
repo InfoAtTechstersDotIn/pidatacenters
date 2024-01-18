@@ -21,7 +21,7 @@
         <div class="article-blk-main added-tags">
             <div class="press-releases-popup row">
                 <div class="col-md-12 show-img-mobile py-2">
-                    <img src="images/public-private-cloud.png" alt="pr-image-2" width="1280" height="670">
+                    <img src="images/public-private-clouds.svg" alt="pr-image-2" width="1280" height="670">
                 </div>
                 <div class="col-lg-6">
                     <h1>An Overview of Private and Public Clouds! What They Are and How They Differ?</h1>
@@ -59,7 +59,7 @@
                     <p>The level of customization and control varies significantly between the two models. Private clouds afford organizations the freedom to tailor infrastructure to specific needs, while public clouds offer standardized solutions with less flexibility but greater ease of use. </p>
                 </div>
                 <div class="col-lg-6">
-                    <img src="images/public-private-cloud.png" alt="pr-image-2" width="1280" height="670" class="hide-img-mobile py-3">
+                    <img src="images/public-private-clouds.svg" alt="pr-image-2" width="1280" height="670" class="hide-img-mobile py-3">
 
                     <h2>Choosing the Right Cloud Model </h2>
                     <p><b class="font-color">Factors Influencing Decision Making: </b> The choice between private and public clouds hinges on various factors, including data sensitivity, regulatory compliance, scalability requirements, and budget considerations. A thorough assessment of these factors is crucial for making an informed decision. </p>

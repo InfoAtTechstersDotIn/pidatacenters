@@ -21,7 +21,7 @@
         <div class="article-blk-main">
             <div class="press-releases-popup row">
                 <div class="col-md-12 show-img-mobile py-2">
-                    <img src="images/kh-managed-services.png" alt="pr-image-2" width="1280" height="670">
+                    <img src="images/managed-services.svg" alt="pr-image-2" width="1280" height="670">
                 </div>
                 <div class="col-lg-6">
                     <h3>What is Managed Services?
@@ -52,7 +52,7 @@
                     <p>As cyber threats continue to evolve; the importance of robust cybersecurity measures cannot be overstated. IT Managed Services providers implement advanced security protocols, protecting businesses from the ever-growing spectrum of cyber threats.</p>
                 </div>
                 <div class="col-lg-6">
-                    <img src="images/kh-managed-services.png" alt=" pr-image-2" width="1280" height="670" class="hide-img-mobile py-3">
+                    <img src="images/managed-services.svg" alt=" pr-image-2" width="1280" height="670" class="hide-img-mobile py-3">
 
 
                     <p><b>Advanced Security Protocols: </b></p>

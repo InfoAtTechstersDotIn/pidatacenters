@@ -21,7 +21,7 @@
         <div class="article-blk-main">
             <div class="press-releases-popup row">
                 <div class="col-md-12 show-img-mobile py-2">
-                    <img src="images/cloud-computing.png" alt="pr-image-2" width="1280" height="670">
+                    <img src="images/cloud-computing.svg" alt="pr-image-2" width="1280" height="670">
                 </div>
                 <div class="col-lg-6">
                     <h3>What is Cloud Computing? A Comprehensive Exploration
@@ -56,7 +56,7 @@
 
                 </div>
                 <div class="col-lg-6">
-                    <img src="images/cloud-computing.png" alt="pr-image-2" width="1280" height="670" class="hide-img-mobile py-3">
+                    <img src="images/cloud-computing.svg" alt="pr-image-2" width="1280" height="670" class="hide-img-mobile py-3">
 
                     <p class="font-color">Deployment Models: </p>
                     <p><b>Public Cloud:</b></p>

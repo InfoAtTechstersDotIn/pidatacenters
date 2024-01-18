@@ -7533,6 +7533,14 @@ top: 185px !important;
     .pricing-tabs h2 {
         padding: 10px 0;
     }
+
+    .footer-about .show-copyright {
+        display: none;
+    }
+
+    .footer-about .hide-copyright {
+        display: block;
+    }
 }
 
 @media screen and (max-width:400px) {

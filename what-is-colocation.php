@@ -21,7 +21,7 @@
         <div class="article-blk-main">
             <div class="press-releases-popup row">
                 <div class="col-md-12 show-img-mobile py-2">
-                    <img src="images/what-is-colocation.png" alt="pr-image-2" width="1280" height="670">
+                    <img src="images/what-is-colocation.svg" alt="pr-image-2" width="1280" height="670">
                 </div>
                 <div class="col-lg-6">
                     <h3>What is Colocation? A Guide to the Benefits and Advantages
@@ -69,7 +69,7 @@
 
                 </div>
                 <div class="col-lg-6">
-                    <img src="images/what-is-colocation.png" alt="pr-image-2" width="1280" height="670" class="hide-img-mobile py-3">
+                    <img src="images/what-is-colocation.svg" alt="pr-image-2" width="1280" height="670" class="hide-img-mobile py-3">
 
 
                     <p><b class="font-color"> Global Reach: </b></p>

@@ -19,7 +19,7 @@
         <div class="article-blk-main">
             <div class="press-releases-popup row">
                 <div class="col-md-12 show-img-mobile py-2">
-                    <img src="images/kh-cyber-security.png" alt="pr-image-2" width="1280" height="670">
+                    <img src="images/protect-business-cybersecurity.svg" alt="pr-image-2" width="1280" height="670">
                 </div>
                 <div class="col-lg-6">
                     <h3>Cybersecurity 101: Protect Your Business with These Essential Tips!
@@ -77,7 +77,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <img src="images/kh-cyber-security.png" alt="pr-image-2" width="1280" height="670" class="hide-img-mobile py-3">
+                    <img src="images/protect-business-cybersecurity.svg" alt=" pr-image-2" width="1280" height="670" class="hide-img-mobile py-3">
                     <p class="font-color">Identity and Access Management (IAM):</p>
                     <p>Managing and controlling access to systems and data based on user roles and permissions. </p>
 

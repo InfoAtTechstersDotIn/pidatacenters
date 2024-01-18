@@ -19,27 +19,27 @@ $seo_keywords = "";
     <div class="container">
         <div class="row">
             <div class="col-md-4 my-3">
-                <img src="images/cloud-server.jpg">
+                <img src="images/pricing-cloud-server.svg">
                 <h2>Cloud Sever</h2>
                 <a href="./pi-cloud/pricing/#/cloudServers" target="_blank">Know More</a>
             </div>
             <div class="col-md-4 my-3">
-                <img src="images/cloud-server.jpg">
+                <img src="images/pricing-cloud-storage.svg">
                 <h2>Cloud Storage</h2>
                 <a href="./pi-cloud/pricing/#/cloudStorage" target="_blank">Know More</a>
             </div>
             <div class="col-md-4 my-3">
-                <img src="images/cloud-server.jpg">
+                <img src="images/pricing-rent-a-rack.svg">
                 <h2>Rent A Rack</h2>
                 <a href="rent-a-rack-pricing.php" target="_blank">Know More</a>
             </div>
             <div class="col-md-4 my-3">
-                <img src="images/cloud-server.jpg">
+                <img src="images/pricing-rent-a-server.svg">
                 <h2>Rent A Sever</h2>
                 <a href="rent-a-server-pricing.php" target="_blank">Know More</a>
             </div>
             <div class="col-md-4 my-3">
-                <img src="images/cloud-server.jpg">
+                <img src="images/pricing-rent-gpu-server.svg">
                 <h2>Rent GPU Servers</h2>
                 <a href="https://picloud.ai/" target="_blank">Know More</a>
             </div>
