@@ -1,7 +1,7 @@
 <?php
-$seo_title = "Videos";
-$seo_description = "";
-$seo_keywords = "";
+$seo_title = "Video Library: Explore Our Visual Content";
+$seo_description = "Watch compelling videos highlighting the story, achievements, culture, and services offered by Pi Datacenters";
+$seo_keywords = "company videos, brand story, achievements, company culture, services, Pi Datacenters videos";
 ?>
 
 
@@ -1452,7 +1452,7 @@ $seo_keywords = "";
         <div class="modal-body">
           <div class="director-cnt row">
             <div class="col-md-12">
-              <h4 class="text-center" style="font-size:20px;">SAP Infra Webinar | pi-cloudÂ® | Pi Data Centers
+              <h4 class="text-center" style="font-size:20px;">SAP Infra Webinar | pi-cloud® | Pi Data Centers
 
               </h4>
               <iframe class="youtube-al" src="https://www.youtube.com/embed/N1xrLGQpv-U">
@@ -1524,7 +1524,7 @@ $seo_keywords = "";
         <div class="modal-body">
           <div class="director-cnt row">
             <div class="col-md-12">
-              <h4 class="text-center" style="font-size:20px;">The all new pi-cloudÂ® website is NOW LIVE!
+              <h4 class="text-center" style="font-size:20px;">The all new pi-cloud® website is NOW LIVE!
 
               </h4>
               <iframe class="youtube-al" src="https://www.youtube.com/embed/qkq1D8h-lec">
@@ -1549,7 +1549,7 @@ $seo_keywords = "";
         <div class="modal-body">
           <div class="director-cnt row">
             <div class="col-md-12">
-              <h4 class="text-center" style="font-size:20px;">HarbourFront, Indiaâ€™s First Indigenous CDN On Cloud. Another 1st From Pi DATACENTERS
+              <h4 class="text-center" style="font-size:20px;">HarbourFront, India’s First Indigenous CDN On Cloud. Another 1st From Pi DATACENTERS
 
               </h4>
               <iframe class="youtube-al" src="https://www.youtube.com/embed/NxHgdxbgBqY">
@@ -1717,7 +1717,7 @@ $seo_keywords = "";
         <div class="modal-body">
           <div class="director-cnt row">
             <div class="col-md-12">
-              <h4 class="text-center" style="font-size:20px;">pi-cloudÂ® - Enterprise Cloud Platform @PiÂ®
+              <h4 class="text-center" style="font-size:20px;">pi-cloud® - Enterprise Cloud Platform @Pi®
               </h4>
               <iframe class="youtube-al" src="https://www.youtube.com/embed/FTYyytOtHEc">
               </iframe>
@@ -2108,7 +2108,7 @@ $seo_keywords = "";
         <div class="modal-body">
           <div class="director-cnt row">
             <div class="col-md-12">
-              <h4 class="text-center" style="font-size:20px;">IT leaders from BFSI industry being felicitated at BFSI Data center & Cloud Summit â€˜2017</h4>
+              <h4 class="text-center" style="font-size:20px;">IT leaders from BFSI industry being felicitated at BFSI Data center & Cloud Summit ‘2017</h4>
               <iframe class="youtube-al" src="https://www.youtube.com/embed/84UPRo3VzGY">
               </iframe>
 

@@ -1,7 +1,8 @@
 <?php
-$seo_title = "Rent A Server";
-$seo_description = "";
-$seo_keywords = "";
+$seo_title = "Rent a Server Services: Secure and Scalable Server Solutions";
+$seo_description = "Explore our server rental pricing plans for powerful and scalable hosting solutions. Find the perfect server for your needs with flexible pricing options, high performance, and reliable infrastructure.";
+$seo_keywords = "rack hosting, colocation server, rent a server
+dedicated server rental, rent gpu server, colocation services, rent vps, colocation hosting, server colocation pricing, rent vps server";
 
 require_once "./ecomm/connection.php";
 

@@ -1,7 +1,7 @@
 <?php
-$seo_title = "Security Operations Center - Pi Datacenters - Complete Data Center Security";
-$seo_description = "At the Security Operation Center of Pi Datacenters, Our Experts Work Round the Clock to Identify Potential Threats and Vulnerabilities & Ensure That Everything Is Promptly Addressed. Explore Information Security Operations Center and Data Center Security at Pi. ";
-$seo_keywords = "security operations center, Security Operations, managed soc services,  information security operations center, data center security";
+$seo_title = "Comprehensive Security Operations Center (SOC) from Pi";
+$seo_description = "Discover our Security Operating Center (SOC) services for comprehensive cybersecurity monitoring, incident response, and threat detection. Benefit from real-time threat intelligence, proactive security measures, and 24/7 support to safeguard your digital assets.";
+$seo_keywords = "soc cybersecurity, datacenter soc services, cloud soc services, managed soc services, soc it security, security ops, soc center, it security operations,  security ops center.";
 ?>
 
 

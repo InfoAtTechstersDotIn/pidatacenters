@@ -1,8 +1,7 @@
 <?php
-$seo_title = "Client Testimonials - Pi Datacenters | Most Reliable Data Center&Cloud Partner";
-$seo_description = "Testimonials from our clients say about us. Being the most reliable data center & cloud partner, Pi Datacenters offers cutting-edge data storage and management services, leading to 100% client satisfaction.
-";
-$seo_keywords = "Data Center & Cloud related services, reliable Data Center & Cloud Partner, best datacenters in india, pi datacenters, professional Hyperscale Data Center, Data centers";
+$seo_title = "Pi Customer's Success Stories - Testimonials";
+$seo_description = "Read testimonials from our clients sharing their experiences and satisfaction with the services provided by Pi Datacenters";
+$seo_keywords = "testimonials, client feedback, customer reviews, satisfaction, experiences, Your Company Name testimonials";
 ?>
 
 

@@ -37,12 +37,12 @@
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-    <meta name="keywords" content="Data Center Service Provider, Colocation data center providers, Hyperscale Data Center Service Provider, Pi Dataceters, Datacenters in india, Data center services , Data center networking provider in india, Best Multi-Tenant Data Center, professional Hyperscale Data Center">
-    <meta name="description" content="Pi Datacenters is a 100% automated SCADA-enabled, India's first Greenfield, and Uptime Institute TIER IV Certified Datacenter offering 100% reliable, world-class Colocation and Professional Hyperscale Data Center Provider.
+    <meta name="keywords" content="datacenter, data center, hosting, colocation, cloud services,Hyperscale datacenter, datacenter service provider, datacenter service provider in india,Cloud services,managed services">
+    <meta name="description" content="Greenfield Hyperscale datacenter Infrastructure automated SCADA-enabled & UPTIME Tier 4 certified. Datacenter service provider secure and scalable data center solutions for businesses
 ">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- SET: Title -->
-    <title>Pi Datacenter is India's First Uptime Institute TIER IV certified data center!</title>
+    <title>Pi-India's 1st Uptime Institute TIER IV Certified Datacenter</title>
     <!-- SET: Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
     <!-- SET: Stylesheet -->
@@ -1024,9 +1024,9 @@
 
                         <div class="col-md-3">
                             <div class="footer-copy-rights">
-                                <p>&#169; 2023 Pi DATACENTERS Pvt. Ltd.| All rights reserved.</p>
+                                <p>&#169; 2023 Pi DATACENTERS Pvt. Ltd.| All rights reserved. <a href="#" target="_blank" class="three-dm">Managed by Nayana Group</a></p>
                                 <!--<p><a href="https://3dm.agency/" target="_blank" class="three-dm">Design and Developed by @3DM.agency</a></p>-->
-                                <p><a href="#" target="_blank" class="three-dm">Managed by Nayana Group</a></p>
+                                <!-- <p><a href="#" target="_blank" class="three-dm">Managed by Nayana Group</a></p> -->
 
                             </div>
 

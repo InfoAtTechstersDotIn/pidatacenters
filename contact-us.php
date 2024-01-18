@@ -56,9 +56,9 @@ if (isset($_POST['submit'])) {
   }
 }
 
-$seo_title = "Get in Touch with Us - Pi Datacenters | Data Center Networking Provider in India";
-$seo_description = "Contact our experts today at Pi Datacenters and explore possibilities for your data storage, management & analytics needs with India's best data center networking provider. Get expert solutions for every data storage, server & cloud requirement.";
-$seo_keywords = "Contact Us, best data centers, data center services,  Data center networking provider in india";
+$seo_title = "Get in Touch: Contact Us for Inquiries";
+$seo_description = "Get in touch with Your Company Name for inquiries, support, or collaborations. Contact us for reliable services and expert solutions tailored to your needs.";
+$seo_keywords = "contact us, get in touch, inquiries, support, collaborations, reliable services, expert solutions";
 ?>
 
 <?php include('php/includes-techsters/header.php'); ?>

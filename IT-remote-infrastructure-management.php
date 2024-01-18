@@ -1,7 +1,7 @@
 <?php
-$seo_title = "RIMS - Pi Datacenter | Best Remote Infrastructure Management Services Hyderabad ";
-$seo_description = "Best Remote Infrastructure Management Services in India by Pi Datacenters. Explore RIMS, Infrastructure Security, Enterprise Application Management, Data Center Migration Services, Server Colocation, and other cloud services.";
-$seo_keywords = "RIMS, remote infrastructure management, remote infrastructure management services, remote infrastructure management solutions, rim services,  Network Operations Center, Security Operations Center, Infrastructure Security, Enterprise application management, Data Center migration services";
+$seo_title = "Remote Infrastructure Management Services Across World";
+$seo_description = "Discover comprehensive Remote Infrastructure Management (RIM) services by Pi for efficient monitoring, maintenance, and optimization of your IT infrastructure. Benefit from remote support, proactive issue resolution, and cost-effective IT operations.";
+$seo_keywords = "remote infrastructure management, remote IT management, remote IT infrastructure";
 ?>
 
 

@@ -1,7 +1,7 @@
 <?php
-$seo_title = "Data Center - Pi Datacenters | Data Center Solutions";
-$seo_description = "Pi Datacenters - World-Class Data Center Infrastructure & Colocation Services Providers in India. Connect with Award-Winning Data Center Solution Providers and Explore Storage, Management, and Analytics Solutions for Your Data.";
-$seo_keywords = "Data Center Infrastructure, colocation data center services, colocation services, Colocation data center providers, data center solution providers, data center management, data center solutions, data centers";
+$seo_title = "Pi Data Center Solutions: Secure, Scalable, Reliable Infrastructure";
+$seo_description = "Discover state-of-the-art data center solutions with Pi. Explore our secure, scalable, and reliable infrastructure designed to meet the demanding requirements of modern businesses.";
+$seo_keywords = "data center, data center solutions, secure infrastructure, scalable data center, reliable infrastructure, modern businesses";
 ?>
 
 <?php include('php/includes-techsters/header.php'); ?>

@@ -1,11 +1,10 @@
 <?php
-$seo_title = "Case Studies - Pi Datacenter | Studies & Success Stories with inferences";
-$seo_description = "Pi Datacenters' case studies on successful implementation of Data analytics & storage in Industries, with significant observations & experiences. Data Center Case studies in Banking, Large Scale Government, Power Grids, Healthcare, Cloud Migration, Cybersecurity & more.";
-$seo_keywords = "data center Case Studies, cloud migration, cyber security, data center services, best data ceenters, data center networking";
+$seo_title = "Pi Case Studies: Real-world Solutions & Successes";
+$seo_description = "Explore our case studies to discover real-world examples of successful projects and solutions. Learn how our services have helped businesses overcome challenges and achieve their goals through innovative strategies and effective implementations.";
+$seo_keywords = "datacenter case studies, colocation, case studies, cloud solutions, cloud strategies, cloud challenges, migration challenges";
 ?>
 <?php #include('php/inner-header.php'); 
 ?>
-
 <?php include('php/includes-techsters/header.php'); ?>
 
 <style>
@@ -72,12 +71,9 @@ $seo_keywords = "data center Case Studies, cloud migration, cyber security, data
         </div>
     </div>
 </div>
-
 <?php #include('php/footer.php'); 
 ?>
-
 <?php include('php/includes-techsters/footer.php'); ?>
-
 <div id="modal-1" class="modalDialog">
     <div class="fill-your-details">
         <div class="modal-content" style="margin: 5% 0%;width:100%">

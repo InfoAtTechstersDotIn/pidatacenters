@@ -1,7 +1,7 @@
 <?php
-$seo_title = "Gallery";
-$seo_description = "";
-$seo_keywords = "";
+$seo_title = "Explore Our Gallery: Visuals & Highlights";
+$seo_description = "Explore the vibrant and captivating photo gallery of Your Company Name, showcasing our events, products, team, and more.";
+$seo_keywords = "photo gallery, images, event photos, product images, team photos, Your Company Name gallery";
 ?>
 
 <?php include('php/includes-techsters/header.php'); ?>

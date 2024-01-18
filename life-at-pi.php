@@ -1,7 +1,7 @@
 <?php
-$seo_title = "Life at Pi - Working at Pi Datacenters | Explore our work culture & environment";
-$seo_description = "Best data center work culture. Explore our work culture at Pi Datacenters - India's best Data Center Networking, Management & Service Providers. Get to know about our values, environment, stories, and many more.";
-$seo_keywords = "Life At Pi, work culture at pi datacenters, best data centers, Data center networking, data center service providers";
+$seo_title = "Life at Pi: Celebrating Moments, Building Memories";
+$seo_description = "Explore the vibrant culture at Your Company Name. Discover our values, diversity, work environment, and the essence that drives our team's success.";
+$seo_keywords = "company culture, values, diversity, work environment, team success, Your Company Name culture";
 ?>
 
 <?php include('php/includes-techsters/header.php'); ?>

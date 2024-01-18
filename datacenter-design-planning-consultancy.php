@@ -1,7 +1,7 @@
 <?php
-$seo_title = "Data Center Design & Planning with Pi Datacenters | Data Center Infrastructure";
-$seo_description = "Get Complete Data Center Design & Planning Assistance with Experts from Pi Datacenters. Our Experts Will Help You with Data Center Reference, Infrastructure & Architecture Design. Get Complete Data Center Building and Operating Assistance with Pi Datacenters.";
-$seo_keywords = "data center design, data center planning, data center reference design, data center infrastructure design, data center design architecture";
+$seo_title = "Pi's Consultancy for Tier III/IV datacenter planning & design";
+$seo_description = "Explore our expert datacenter design and planning services, tailored to create efficient, scalable, and innovative infrastructure solutions for businesses.";
+$seo_keywords = "datacenter design, datacenter planning, infrastructure design, scalable data solutions, innovative datacenter solutions";
 ?>
 
 <?php include('php/includes-techsters/header.php'); ?>

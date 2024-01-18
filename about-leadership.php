@@ -1,7 +1,7 @@
 <?php
-$seo_title = "Leadership";
-$seo_description = "";
-$seo_keywords = "";
+$seo_title = "Pi Leadership: Leading the Way under Leaders Principles";
+$seo_description = "Explore leadership and expertise from industry leaders at Pi datacenters.";
+$seo_keywords = "leadership, management, industry insights, leadership tips, executive leadership";
 ?>
 
 

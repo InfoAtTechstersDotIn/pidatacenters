@@ -9280,7 +9280,7 @@
         background-color: #223f97;
         color: #fff;
         top: 70px;
-        left: 125px;
+        left: 175px;
     }
 
     .subscribe .modal-content {
@@ -9288,7 +9288,7 @@
         margin: 0 auto;
         padding: 10px 20px 40px 20px;
         border: none;
-        width: 80%;
+        width: 100%;
     }
 
     .subscribe .sub-close {
@@ -9327,6 +9327,24 @@
         line-height: 1.5rem;
         text-align: center;
         padding: 10px 0;
+    }
+
+    #thanks-msg .modal-body h2 {
+        text-align: center;
+        color: #223F97;
+    }
+
+    #thanks-msg2 .modal-body p {
+        color: #000;
+        font-size: 18px;
+        line-height: 1.5rem;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    #thanks-msg2 .modal-body h2 {
+        text-align: center;
+        color: #223F97;
     }
 
     .subscribe label {
@@ -9888,7 +9906,7 @@
 
     .pricing-tabs h2 {
         color: #000;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .pricing-tabs a {
@@ -9899,6 +9917,14 @@
         font-weight: bold;
     }
 
+    .pricing-tabs img {
+        border-radius: 30px 0 30px 0;
+    }
+
+    .pricing-tabs a:hover {
+        background-color: #76b543;
+    }
+
     .hb-deContO:after {
         background-color: #223f97 !important;
     }
@@ -9906,4 +9932,30 @@
     .foot-menu .line {
         float: right;
         border-right: none !important;
+    }
+
+    .hwi {
+        background-color: #223f97 !important;
+    }
+
+    .subscribe #thanks-msg2 .sub-close2 {
+        border: none;
+        font-size: 22px;
+        background: #000;
+        color: #fff;
+        font-weight: bold;
+        outline: none !important;
+        text-align: right;
+        padding: 0px 10px;
+        border-radius: 20px;
+    }
+
+    .subscribe #thanks-msg2 .close-btn2 {
+        border: none;
+        outline: none !important;
+        background-color: #223f97;
+        color: #fff;
+        padding: 6px 20px;
+        border-radius: 10px;
+        font-size: 20px;
     }

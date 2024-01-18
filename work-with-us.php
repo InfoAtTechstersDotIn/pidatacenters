@@ -1,7 +1,7 @@
 <?php
-$seo_title = "Careers - Pi Datacenters | Work with us at India's Best Data Center & Cloud ";
-$seo_description = "Work with us at Pi Datacenters - India's Best Data Center Services provider, which allows you to explore opportunities in cloud services, Infrastructure Management, DevOps, Azure, and many more.";
-$seo_keywords = "Data center services, cloud services, data center sercices provider, cloud services provider in india";
+$seo_title = "Join Our Team: Explore Current Openings and Apply Now";
+$seo_description = "Explore exciting career opportunities at Pi Datacenters. Join us and be part of a dynamic team, contributing to innovative projects and professional growth.";
+$seo_keywords = "Join us, apply now,careers, job opportunities, employment, job openings, professional growth";
 ?>
 
 <?php ob_start(); ?>

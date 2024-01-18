@@ -1,7 +1,7 @@
 <?php
-$seo_title = "MeitY Certified Cloud Service Providers - Pi Datacenter | SAP, ISO, SOC2 & Many";
-$seo_description = "Pi Datacenters' certification boutique comprises 15+ certifications - ISO, SAP Cloud Certified, STQC Certified, SOC 2 Certified, HIPAA, DSS Certified, Tier 4 Certified by Uptime Institute, SAP Hosting, SAP Infrastructure, SAP HANA Ops, Great Place To Work Certified & more.";
-$seo_keywords = "Datacenter certifications, meity certified cloud service providers, SAP certified datacenters, sap cloud operations, sap infrastructure, information security controls";
+$seo_title = "Our Certified Standards & Quality Commitments - Pi";
+$seo_description = "Explore the certifications and accreditations achieved by Pi datacenters, showcasing our commitment to quality and excellence.ISO, STQC, SAP, SOC 2, HIPAA, DSS, TIA 942, Uptime Institute Tier 4 Certified , Great Place To Work ,GPTW";
+$seo_keywords = "certifications, accreditations, company certifications, quality standards, industry compliance,Pi certifications";
 ?>
 
 <?php include('php/includes-techsters/header.php'); ?>

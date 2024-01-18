@@ -1,7 +1,7 @@
 <?php
-$seo_title = "Full Automation & Continuous Integration with Pi Datacenters' DevOps Solution";
-$seo_description = "Unify Software Development Complexes with DevOps Software in Data Centers. Harbour 1 powered by Pi Datacenters, One of the Leading Cloud Platforms, offers DevOps Software Development, Continuous Integration, End-to-end Process Automation, Effective IT Operations & many more.";
-$seo_keywords = "unify software development, IT operations, devops software development, leading cloud platforms, continuous integration, devops in datacenters, Devops software, devops software in data centers";
+$seo_title = "DevOps as a Service: Elevating Your Software Delivery Process";
+$seo_description = "Explore the power of DevOps with our comprehensive services. Streamline your development and operations, automate workflows, and enhance collaboration for faster and more reliable enviornment for software development.";
+$seo_keywords = "devops, devop, devops services, cloud devops, devops lifecycle, agile devops, devops tooling";
 ?>
 
 

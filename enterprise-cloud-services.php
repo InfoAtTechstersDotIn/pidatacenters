@@ -1,7 +1,7 @@
 <?php
-$seo_title = "Cloud";
-$seo_description = "";
-$seo_keywords = "";
+$seo_title = "Public, Private and Multi Cloud Services for Enterprises from Pi";
+$seo_description = "Our comprehensive cloud services offering secure, scalable, and efficient solutions for businesses, including cloud hosting, storage, and computing resources.";
+$seo_keywords = "cloud services, cloud hosting, cloud storage, cloud computing, scalable solutions, secure cloud services";
 ?>
 
 

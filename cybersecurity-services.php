@@ -1,7 +1,7 @@
 <?php
-$seo_title = "Cyber Security";
-$seo_description = "";
-$seo_keywords = "";
+$seo_title = "Secure Your Infrastructure: Data Center Cybersecurity";
+$seo_description = "Enhance your cybersecurity defenses with our cutting-edge solutions. Explore our comprehensive cybersecurity services, including threat detection, vulnerability assessments, incident response, and proactive security measures.";
+$seo_keywords = "cyber security, cyberecurity, it security, information security, threat intelligence, cyber threat intelligence, online security, cloud computing security, cyber threats, cyber security threats";
 ?>
 
 

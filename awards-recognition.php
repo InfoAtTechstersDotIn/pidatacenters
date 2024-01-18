@@ -1,7 +1,7 @@
 <?php
-$seo_title = "Awards - Pi Datacenter | The award-winning fast-growing data center in India";
-$seo_description = "Pi Datacenters' award & recognition as India's best cloud infrastructure and multi-tenant data center provider. Earning numerous awards from global leaders, making our position as a top data center service provider in India.";
-$seo_keywords = "Fast Growing Data Center in India, Best Cloud Infrastructure, Best Data Center Service Provider, Multi Tenant Datacenter Awards, Data Cloud Global Awards, India's Best Multi-Tenant Data Center, Awards, Awards and Recognition";
+$seo_title = "Awards and Recognition - Pi";
+$seo_description = "Discover the awards, accolades, and recognition earned by Your Company Name for excellence in our industry.";
+$seo_keywords = "awards, recognition, accolades, achievements, honors, industry awards, company achievements";
 ?>
 
 

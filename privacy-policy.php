@@ -1,7 +1,7 @@
 <?php
-$seo_title = "Privacy Policy";
-$seo_description = "";
-$seo_keywords = "";
+$seo_title = "Your Privacy Matters: Read Our Privacy Policy";
+$seo_description = "Read and understand the terms and conditions governing the use of services provided by Pi Datacenters.";
+$seo_keywords = "terms and conditions, service terms, legal terms, usage policy, terms";
 ?>
 
 <?php include('php/includes-techsters/header.php'); ?>

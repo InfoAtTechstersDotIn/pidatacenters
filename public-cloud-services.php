@@ -1,7 +1,7 @@
 <?php
-$seo_title = "Public Cloud";
-$seo_description = "";
-$seo_keywords = "";
+$seo_title = "Pi Public Cloud Services with High Scalability & Security";
+$seo_description = "Our public cloud services providing flexible, scalable, and cost-effective solutions for businesses, offering shared resources accessible over the internet.";
+$seo_keywords = "public cloud services, cloud computing, scalable cloud, cost-effective cloud, shared resources, internet-based services";
 ?>
 
 

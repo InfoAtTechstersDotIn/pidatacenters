@@ -1,10 +1,8 @@
 <?php
-$seo_title = "Blog - Pi Datacenter | Breakthroughs & Latest Digital India trends in Hyderabad ";
-$seo_description = "Check out the latest blogs by Pi Datacenters. Here's a blog by your Ideal Data Center Partner with everything about the global market of data centers in India, Data storage & analytics trends, Artificial Intelligence & other latest news from the Indian Technology world.";
-$seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global market for data centers, data center market, data center physical security, data centers in india, data center network";
+$seo_title = "Insights & Knowledge: Read Our Latest Blogs";
+$seo_description = "Explore latest blog posts for thought leadership on various topics, trends, and innovations in the field.";
+$seo_keywords = "blogs, blog posts, blogs on colocation, blogs on data center, blogs on cloud";
 ?>
-
-
 
 <?php include('php/includes-techsters/header.php'); ?>
 
@@ -40,15 +38,15 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                         <div class="modal-body">
                             <form onsubmit="handleSubscribeFormSubmit(event)">
                                 <label for="name">First Name:</label>
-                                <input type="text" id="fname" name="Firstname" required><br>
+                                <input type="text" id="fname" name="first_name" required><br>
 
 
                                 <label for="number">Last Name:</label>
-                                <input type="text" id="lname" name="Lastname" required><br>
+                                <input type="text" id="lname" name="last_name" required><br>
 
 
                                 <label for="email">Email:</label>
-                                <input type="email" id="email" name="Email" required><br>
+                                <input type="email" id="email" name="email" required><br>
 
                                 <label for="checkbox"><input type="checkbox" required name="checkbox" class="check-box">I Agree with The <a href="terms-conditions.php" target="_blank" style="color: #CB4721;"> &nbsp;Terms and Conditions</a></label><br>
 
@@ -57,9 +55,23 @@ $seo_keywords = "Ideal Data Center Partner, importance of Data Centers, global m
                             <script defer>
                                 const handleSubscribeFormSubmit = (event) => {
                                     event.preventDefault();
-                                    localStorage.setItem('subscribed', true);
-                                    $('#subscribe2').hide();
-                                    $('#thanks-msg').show();
+                                    const form = new FormData(event.target);
+                                    const data = {
+                                        first_name: form.get('first_name'),
+                                        last_name: form.get('last_name'),
+                                        email: form.get('email'),
+                                    };
+                                    $.ajax({
+                                        method: 'POST',
+                                        url: 'subscribe-form.php',
+                                        data: data,
+                                        success: function(data) {
+                                            console.log(data);
+                                            localStorage.setItem('subscribed', true);
+                                            $('#subscribe2').hide();
+                                            $('#thanks-msg').show();
+                                        }
+                                    })
                                 }
                             </script>
                         </div>

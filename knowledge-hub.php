@@ -1,7 +1,7 @@
 <?php
-$seo_title = "Knowledge Hub";
-$seo_description = "";
-$seo_keywords = "";
+$seo_title = "Explore Our Knowledge Hub Articles for Every Reader";
+$seo_description = "Brief summary of the article or blog post";
+$seo_keywords = "articles, informative articles, datacenter articles, cloud articles";
 ?>
 
 

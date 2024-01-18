@@ -6,7 +6,6 @@
     $site_url = "http://localhost/pidatacenters/"
     ?>
 
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $seo_title ?></title>
@@ -224,7 +223,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="<?php echo $site_url ?>pricing.php" class="drop-arrow">PRICING</a>
+                                <a href="#" class="drop-arrow">PRICING</a>
                                 <div class="drop-down pricing_drop_down">
                                     <ul>
                                         <li>
@@ -732,8 +731,7 @@
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <form action="reach-us-form.php" method="post" enctype="multipart/form-data">
-                        <!-- <form onsubmit="handleFormSubmit(event)"> -->
+                    <form onsubmit="handleReachUsFormSubmit(event)" enctype="multipart/form-data">
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="name" required>
 
@@ -752,12 +750,28 @@
                         <input type="hidden" name="techsters_subject" value="Reach Us Form Leads" />
                         <input type="hidden" name="form_unique_id" value="1ef13057-52fd-11ee-a4b0-525400b78afc" />
                     </form>
-                    <!-- <script defer>
-                        const handleSubscribeFormSubmit = (event) => {
+                    <script defer>
+                        const handleReachUsFormSubmit = (event) => {
                             event.preventDefault();
-                            $('#thanks-msg').show();
+                            const form = new FormData(event.target);
+                            const data = {
+                                name: form.get('name'),
+                                phone: form.get('phone'),
+                                email: form.get('email'),
+                                message: form.get('message')
+                            };
+                            $.ajax({
+                                method: 'POST',
+                                url: 'reach-us-form.php',
+                                data: data,
+                                success: function(data) {
+                                    console.log(data);
+                                    $('#thanks-msg2').show();
+                                    $('#myModal').hide();
+                                }
+                            })
                         }
-                    </script> -->
+                    </script>
                 </div>
             </div>
         </div>
@@ -806,7 +820,24 @@
         </div>
     </div>
 
-
+    <!-- Thank you popup -->
+    <div class="container subscribe">
+        <div class="modal fade" id="thanks-msg2" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="times-btn"><button type="button" class="sub-close2" data-dismiss="modal">&times;</button></div>
+                    <div class="modal-body">
+                        <h2>Thank You!</h2>
+                        <p>We Will Get Back To You As Soon As Possible</p>
+                    </div>
+                    <div class="modal-footer okay-btn">
+                        <button type="button" class="close-btn2" data-dismiss="modal">Okay</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Thank you popup Ends-->
 
 
 
@@ -837,6 +868,13 @@
                 modall.style.display = "none";
             }
         }
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('.close-btn2, .sub-close2').on('click', function() {
+                $('#thanks-msg2').hide();
+            });
+        });
     </script>
 
 

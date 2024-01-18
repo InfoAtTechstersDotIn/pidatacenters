@@ -1,7 +1,7 @@
 <?php
-$seo_title = "Network Operating Center - Pi Datacenters | World-Class Network Troubleshooting";
-$seo_description = "Manage Complex Network Infrastructure with a World-Class Network Operating Center at Pi Datacenters That Continuously Supervises, Monitors & Maintains Your Networks & Manages Network Troubleshooting & Software Distribution to Minimize Disruptions & Downtime. ";
-$seo_keywords = "Network Operating Center, network operations center,  network troubleshooting, software distribution, complex network infrastructure, Patch management software";
+$seo_title = "Maximize Network Stability | Network Operating Center Services";
+$seo_description = "Explore our Network Operating Center (NOC) services for proactive monitoring, management, and maintenance of your network infrastructure. Benefit from real-time insights, rapid issue resolution, and 24/7 support to ensure the optimal performance of your network operations.";
+$seo_keywords = "Network operating center, noc services, noc monitoring, noc network, noc center, network ops center, noc network operation";
 ?>
 
 

@@ -1,7 +1,7 @@
 <?php
-$seo_title = "Pi Workspaces from Pi Datacenter | Work from anywhere, anytime with Pi Workspaces";
-$seo_description = "With Pi Workspaces, Eliminate the Complexities and Experience Application & Desktop Virtualization, Desktop-As-Service Solution & Secure Remote Access to VDI & Hybrid & Green Endpoint Devices. Work from Anywhere, Bring-Your-Own-Device, Testing & Development, Cloud Computing.";
-$seo_keywords = "Pi Workspaces, virtual desktop infrastructure, virtual desktops, VDI Solutions, VDI solutions provider";
+$seo_title = "Pi Workspaces - Managed & Secure Desktop-as-a-Service Solution";
+$seo_description = "Explore our Virtual Desktop Infrastructure (VDI) solutions for secure and flexible remote desktop access. Benefit from centralized management, enhanced data security, and improved scalability for a seamless virtual desktop experience.";
+$seo_keywords = "virtual desktop infrastructure, vdi virtual desktop infrastructure, virtual desktop environment, vdi infrastructure, vdi technology, vdi cloud desktop";
 ?>
 
 <?php include('php/includes-techsters/header.php'); ?>

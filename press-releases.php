@@ -1,7 +1,7 @@
 <?php
-$seo_title = "Press Release Updates - Pi Datacenters | Latest News";
-$seo_description = "Check Out the Latest News from India's Leading Data Storage & Management Service. Hear the Most Recent Stories About Hyper-Scale Data Centers, Enterprise Cloud Fabric, Data Center Industry News in India & Many More.";
-$seo_keywords = "data center news, enterprise cloud fabric, Hyperscale datacenter, data center industry in India, data center in India, ";
+$seo_title = "News & Updates: Latest Press Releases";
+$seo_description = "Find the latest press releases and news updates";
+$seo_keywords = "News,press release, latest update";
 ?>
 
 

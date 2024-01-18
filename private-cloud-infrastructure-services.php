@@ -1,7 +1,7 @@
 <?php
-$seo_title = "Private Cloud";
-$seo_description = "";
-$seo_keywords = "";
+$seo_title = "Pi Private Cloud Infrastructure Services for Enterprises";
+$seo_description = "Our private cloud services providing secure, dedicated, and customizable solutions for businesses, offering exclusive resources for enhanced control and privacy.";
+$seo_keywords = "private cloud services, dedicated cloud, secure cloud, customizable cloud, enhanced control, exclusive resources";
 ?>
 
 

@@ -1,7 +1,7 @@
 <?php
-$seo_title = "CEO - Pi Datacenter | IT CEO Of The Year 2020, Best Indian Data Center CEO";
-$seo_description = "Kalyan Muppineni - the CEO of Pi Datacenters| Business Leader of the Year, Leading Executive in Data center, Data Storage, Artificial Intelligence & Cloud Space | Pioneer, and Top mind in IT | Hear about innovative data storage tech and data center space | CEO Corner.";
-$seo_keywords = "CEO Mr. Kalyan Muppaneni, TIER IV Certified Data Center, hyperscale data center in India, Pi Datacenters";
+$seo_title = "Pi DATACENTERS CEO Corner: Insights from Kalyan Muppaneni";
+$seo_description = "Insightful blogs and articles written by the CEO of Pi Datacenters, sharing expertise, industry insights, and vision for the company's future.";
+$seo_keywords = "CEO blogs, CEO articles, executive insights, industry vision, leadership articles, Pi datacenter CEO";
 ?>
 
 

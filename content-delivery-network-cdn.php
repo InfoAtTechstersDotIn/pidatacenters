@@ -1,9 +1,8 @@
 <?php
-$seo_title = "Harbour Front CDN From Pi Datacenter | India's First Indigenous CDN Solution";
-$seo_description = "First & Leading Content Delivery Network (CDN) in India from Pi Datacenters. With Built-In Network Intelligence, Dynamic Routing, Multi-Tier Security & Real-Time Analytics, Accelerate Performance with Harbour Front - India's Best Cloud-Based Solutions Provider.";
-$seo_keywords = "HarbourFront, Content Delivery Network, content delivery network india, cloud-based solutions provider, CDN solution provides,  CDN";
+$seo_title = "HarbourFront® CDN: Accelerated Content Delivery with Advanced Security";
+$seo_description = "Accelerate your content delivery with our robust Content Delivery Network. Enjoy faster website loading times, improved user experience, and seamless content distribution globally.";
+$seo_keywords = "content delivery network, cdn, cdn server, cloud cdn, cdn providers, cdn hosting, cdn service, cdns, cdn network, cdn content delivery network, content distribution network, content delivery, cdn delivery, content delivery services, cdn delivery network, cdn content distribution network";
 ?>
-
 
 
 <?php include('php/includes-techsters/header.php'); ?>

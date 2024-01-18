@@ -1,7 +1,7 @@
 <?php
-$seo_title = "Industry Solutions";
-$seo_description = "";
-$seo_keywords = "";
+$seo_title = "Industry Specific Cloud Solutions by Pi Datacenters";
+$seo_description = "Explore industry-specific cloud solutions by Pi Datacenters for enhanced business performance and efficiency.";
+$seo_keywords = "industry-specific, cloud solutions,  business efficiency, cloud services";
 ?>
 
 

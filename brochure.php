@@ -1,7 +1,7 @@
 <?php
-$seo_title = "Download Brochure - Pi Datacenters | Explore our Product Portfolio";
-$seo_description = "Download the Pi Datacenters' latest brochure and explore everything you need to know about data center services, infrastructure, and management in India. Get to know about our unique solutions and advanced product range. Download the brochure today!";
-$seo_keywords = "Product Portfolio, Data Center Services, data center infrastructure, data centers in india";
+$seo_title = "Our Portfolio: Comprehensive Company Brochures";
+$seo_description = "Explore our digital brochure to discover comprehensive information about our products, services, and offerings. ";
+$seo_keywords = "brochures, data center brochures, colocation brochure, cloud brochure";
 ?>
 <?php include('php/includes-techsters/header.php'); ?>
 

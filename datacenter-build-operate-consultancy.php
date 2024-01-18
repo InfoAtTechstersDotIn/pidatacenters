@@ -1,7 +1,7 @@
 <?php
-$seo_title = "Data Center Building Consultancy from Pi Datacenters | Get Expert's Guidance";
-$seo_description = "Data Center Building Guidance by Pi Datacenters | Get Complete Data Center Technology, Network Security, and IT Infrastructure Assistance from Pi Datacenters' Industry Leaders and Set Up Your Own Data Center at Your Desired Location. ";
-$seo_keywords = "Data center build, data center technology, network security, IT infrastructure, Data center network ";
+$seo_title = "Pi Consultancy Services for Optimal Datacenter Build & Operate";
+$seo_description = "Datacenter design and build services, delivering tailored solutions for creating efficient, secure, and scalable infrastructure for businesses.";
+$seo_keywords = "datacenter design, datacenter build, infrastructure construction, scalable data solutions, secure datacenter architecture";
 ?>
 
 <?php include('php/includes-techsters/header.php'); ?>

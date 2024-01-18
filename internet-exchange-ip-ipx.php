@@ -1,7 +1,7 @@
 <?php
-$seo_title = "Internet Exchange";
-$seo_description = "";
-$seo_keywords = "";
+$seo_title = "Enhanced Connectivity Hub: Internet Exchange Solutions";
+$seo_description = "Discover our Internet Exchange services for enhanced connectivity and network peering. Join our platform to benefit from high-speed, low-latency internet traffic exchange, improved network performance, and diverse connectivity options.";
+$seo_keywords = "Internet exchange, IPX, IP, internet exchange points, peering exchange, internet exchange point ixp, internet ixp";
 ?>
 
 
@@ -177,7 +177,7 @@ $seo_keywords = "";
 									<div class="hb-leftCont hb_ppCont">
 										<h3>Cascading payments </h3>
 										<h5><strong>Fair reward for everyone who plays part in connecting IPX</strong></h5>
-										<p>Each party is remunerated for the work they do to deliver packets over the wire. This business model works well as it encourages a healthy competition Ã¢â‚¬â€œ each party is motivated to compete for the delivery of traffic. In this way, there is also an obligation for each party to deliver to a certain quality. This means an SLA is enforced.</p>
+										<p>Each party is remunerated for the work they do to deliver packets over the wire. This business model works well as it encourages a healthy competition â€“ each party is motivated to compete for the delivery of traffic. In this way, there is also an obligation for each party to deliver to a certain quality. This means an SLA is enforced.</p>
 									</div>
 								</li>
 								<li>

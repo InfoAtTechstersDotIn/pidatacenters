@@ -1,7 +1,7 @@
 <?php
 $seo_title = "Whitepapers";
-$seo_description = "";
-$seo_keywords = "";
+$seo_description = "Explore our collection of white papers for in-depth insights into industry trends, technology solutions, and best practices.";
+$seo_keywords = "whitepapers, technology solutions, white papers on colocation, white papers on data center solutions, white papers on cloud services";
 ?>
 
 

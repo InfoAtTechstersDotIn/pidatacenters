@@ -1,7 +1,7 @@
 <?php
-$seo_title = "SAP On Cloud";
-$seo_description = "";
-$seo_keywords = "";
+$seo_title = "End to End SAP Solutions to Optimize Workloads with Pi";
+$seo_description = "Explore our comprehensive SAP services offering implementation, support, and consultation for SAP solutions, tailored to optimize businesses' operations.";
+$seo_keywords = "SAP services, SAP implementation, SAP support, SAP consultation, business optimization, SAP solutions";
 ?>
 
 <?php include('php/includes-techsters/header.php'); ?>

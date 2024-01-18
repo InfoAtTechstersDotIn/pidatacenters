@@ -1,7 +1,7 @@
 <?php
-$seo_title = "Rent A Rack";
-$seo_description = "";
-$seo_keywords = "";
+$seo_title = "Rent a Rack Services: Secure and Scalable Rack Solutions";
+$seo_description = "Explore our Rent a Rack services offering secure and scalable solutions. Find tailored rack options designed to meet your hosting needs. Choose the ideal rack solution for your business infrastructure";
+$seo_keywords = "rent a rack, rack pricing, colocation racks, full rack colocation pricing, rackspace colocation, colocation rack space pricing, rack hosting, data centre rack space costs";
 ?>
 
 

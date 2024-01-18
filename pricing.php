@@ -18,30 +18,30 @@ $seo_keywords = "";
 <div class="pricing-tabs">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 my-3">
                 <img src="images/cloud-server.jpg">
                 <h2>Cloud Sever</h2>
-                <a>Know More</a>
+                <a href="./pi-cloud/pricing/#/cloudServers" target="_blank">Know More</a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 my-3">
                 <img src="images/cloud-server.jpg">
                 <h2>Cloud Storage</h2>
-                <a>Know More</a>
+                <a href="./pi-cloud/pricing/#/cloudStorage" target="_blank">Know More</a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 my-3">
                 <img src="images/cloud-server.jpg">
-                <h2>Cloud Sever</h2>
-                <a>Know More</a>
+                <h2>Rent A Rack</h2>
+                <a href="rent-a-rack-pricing.php" target="_blank">Know More</a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 my-3">
                 <img src="images/cloud-server.jpg">
-                <h2>Cloud Sever</h2>
-                <a>Know More</a>
+                <h2>Rent A Sever</h2>
+                <a href="rent-a-server-pricing.php" target="_blank">Know More</a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 my-3">
                 <img src="images/cloud-server.jpg">
-                <h2>Cloud Sever</h2>
-                <a>Know More</a>
+                <h2>Rent GPU Servers</h2>
+                <a href="https://picloud.ai/" target="_blank">Know More</a>
             </div>
         </div>
     </div>
