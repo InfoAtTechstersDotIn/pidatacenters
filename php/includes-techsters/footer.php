@@ -2,7 +2,6 @@
 $site_url = "https://www.pidatacenters.com/"
 ?>
 
-
 <div class="footer-block">
 
 
@@ -70,9 +69,9 @@ $site_url = "https://www.pidatacenters.com/"
                     </li>
                 </div>
                 <div class="font_icons">
-                    <li>
-                        <a href="https://twitter.com/Pi_DATACENTERS" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    </li>
+                    <li><a href="https://twitter.com/Pi_DATACENTERS" target="_blank"><svg class="mt-2" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
+                            </svg></a></li>
                 </div>
                 <div class="font_icons">
                     <li>

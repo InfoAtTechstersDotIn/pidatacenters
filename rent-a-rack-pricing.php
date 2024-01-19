@@ -4,11 +4,7 @@ $seo_description = "Explore our Rent a Rack services offering secure and scalabl
 $seo_keywords = "rent a rack, rack pricing, colocation racks, full rack colocation pricing, rackspace colocation, colocation rack space pricing, rack hosting, data centre rack space costs";
 ?>
 
-
-
 <?php include('php/includes-techsters/header.php'); ?>
-
-
 
 <style>
     .banners_content.gpu_hide {
@@ -87,46 +83,105 @@ $seo_keywords = "rent a rack, rack pricing, colocation racks, full rack colocati
     <div class="container">
         <div class="about-banner-blk pt-3">
             <!--  <img src="images/istockphoto-1356466745-612x612.jpg" alt="soc-banner" width="1920" height="210" style="max-width:612px;height:auto;margin:0 auto;">-->
-            <h2>SOC</h2>
+            <!-- <h2>SOC</h2> -->
+            <div id="hide">
+                <ul class="slider-rent">
+                    <li>
+                        <img src="images/blured-b-1.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                        <img src="images/blured-g-1.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+                    </li>
+                    <li>
+                        <img src="images/blured-b-2.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                        <img src="images/blured-g-2.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+                    </li>
+                    <li>
+                        <img src="images/blured-b-3.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                        <img src="images/blured-g-3.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+                    </li>
+                    <li>
+                        <img src="images/blured-b-4.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                        <img src="images/blured-g-4.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+                    </li>
+                    <li>
+                        <img src="images/blured-b-5.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                        <img src="images/blured-g-5.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+                    </li>
+                    <li>
+                        <img src="images/blured-b-6.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                        <img src="images/blured-g-6.svg" alt="rank-1-b" width="211" height="1520" class="rent-green" id="myImg">
+                    </li>
+                    <li>
+                        <img src="images/blured-b-7.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                        <img src="images/blured-g-7.svg" alt="rank-1-b" width="211" height="1520" class="rent-green" id="myImg2">
+                    </li>
+                </ul>
 
-            <ul class="slider-rent">
-                <li>
-                    <img src="images/b-1.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
-                    <img src="images/g-1.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
-                    <a href="checkout.php?id=1">BUY NOW</a>
-                </li>
-                <li>
-                    <img src="images/b-2.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
-                    <img src="images/g-2.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
-                    <a href="checkout.php?id=2">BUY NOW</a>
-                </li>
-                <li>
-                    <img src="images/b-3.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
-                    <img src="images/g-3.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
-                    <a href="checkout.php?id=3">BUY NOW</a>
-                </li>
-                <li>
-                    <img src="images/b-4.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
-                    <img src="images/g-4.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
-                    <a href="checkout.php?id=4">BUY NOW</a>
-                </li>
-                <li>
-                    <img src="images/b-5.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
-                    <img src="images/g-5.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
-                    <a href="checkout.php?id=5">BUY NOW</a>
-                </li>
-                <li>
-                    <img src="images/b-6.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
-                    <img src="images/g-6.svg" alt="rank-1-b" width="211" height="1520" class="rent-green" id="myImg">
-                    <a href="checkout.php?id=6">BUY NOW</a>
-                </li>
-                <li>
-                    <img src="images/b-7.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
-                    <img src="images/g-7.svg" alt="rank-1-b" width="211" height="1520" class="rent-green" id="myImg2">
-                    <a href="checkout.php?id=7">BUY NOW</a>
-                </li>
-            </ul>
-            <center style="position: relative; top: -50px;font-size:10px;margin-left:75px">*All Prices are Excluding Convenience Fee & Taxes</center>
+                <div class="container">
+                    <form class="rack-form">
+                        <p>For pricing information, kindly fill in the following details:</p>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label>Your Name</label><br>
+                                <input type="text" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-4">
+                                <label>Email Address</label><br>
+                                <input type="text" placeholder="Email Address" required>
+                            </div>
+                            <div class="col-md-4">
+                                <label>Phone</label><br>
+                                <input type="tel" placeholder="Phone" required>
+                            </div>
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4 my-3 sub-button">
+                                <button class="btn-submit">Submit</button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div id="show">
+                <ul class="slider-rent">
+                    <li>
+                        <img src="images/b-1.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                        <img src="images/g-1.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+                        <a href="checkout.php?id=1">BUY NOW</a>
+                    </li>
+                    <li>
+                        <img src="images/b-2.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                        <img src="images/g-2.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+                        <a href="checkout.php?id=2">BUY NOW</a>
+                    </li>
+                    <li>
+                        <img src="images/b-3.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                        <img src="images/g-3.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+                        <a href="checkout.php?id=3">BUY NOW</a>
+                    </li>
+                    <li>
+                        <img src="images/b-4.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                        <img src="images/g-4.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+                        <a href="checkout.php?id=4">BUY NOW</a>
+                    </li>
+                    <li>
+                        <img src="images/b-5.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                        <img src="images/g-5.svg" alt="rank-1-b" width="211" height="1520" class="rent-green">
+                        <a href="checkout.php?id=5">BUY NOW</a>
+                    </li>
+                    <li>
+                        <img src="images/b-6.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                        <img src="images/g-6.svg" alt="rank-1-b" width="211" height="1520" class="rent-green" id="myImg">
+                        <a href="checkout.php?id=6">BUY NOW</a>
+                    </li>
+                    <li>
+                        <img src="images/b-7.svg" alt="rank-1-b" width="211" height="1520" class="rent-blue">
+                        <img src="images/g-7.svg" alt="rank-1-b" width="211" height="1520" class="rent-green" id="myImg2">
+                        <a href="checkout.php?id=7">BUY NOW</a>
+                    </li>
+                </ul>
+                <center style="position: relative; top: -50px;font-size:10px;margin-left:75px">*All Prices are Excluding Convenience Fee & Taxes</center>
+            </div>
         </div>
         <div id="myModal4" class="modal4">
             <span class="close4">x</span>
@@ -217,6 +272,7 @@ $seo_keywords = "rent a rack, rack pricing, colocation racks, full rack colocati
         modal2.style.display = "none";
     }
 </script>
+
 
 </body>
 

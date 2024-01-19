@@ -786,7 +786,7 @@ $seo_keywords = "colocation services, server hosting, data center colocation, se
 <div class="knowledge-hub-videos1 knowledge-galleryd">
     <div class="container">
         <div class="knowledge-hub-videos-top">
-            <h2 style="color:#414141;text-align:center"><span style="color:#7BBC42;font-weight:500;">Benefits</span> Of Our Colocation <br>Services</h2><br>
+            <h2 style="color:#414141;text-align:center; padding-top: 20px;"><span style="color:#7BBC42;font-weight:500;">Benefits</span> Of Our Colocation <br>Services</h2><br>
 
         </div>
         <br>
@@ -794,7 +794,7 @@ $seo_keywords = "colocation services, server hosting, data center colocation, se
             <li>
                 <ul class="row">
                     <li class="col-md-4">
-                        <div class="inner-teli241">
+                        <div class="inner-teli241 colo-inner">
                             <div class="modular-architecture">
                                 <img src="images/ben1.png" alt="Public Cloud To Share" class="icon-css1">
                             </div>
@@ -804,7 +804,7 @@ $seo_keywords = "colocation services, server hosting, data center colocation, se
                         </div>
                     </li>
                     <li class="col-md-4">
-                        <div class="inner-teli241">
+                        <div class="inner-teli241 colo-inner">
                             <div class="modular-architecture">
                                 <img src="images/icon_modular.png" alt="Public Cloud To Share" class="icon-css1">
                             </div>
@@ -814,7 +814,7 @@ $seo_keywords = "colocation services, server hosting, data center colocation, se
                         </div>
                     </li>
                     <li class="col-md-4">
-                        <div class="inner-teli241">
+                        <div class="inner-teli241 colo-inner">
                             <div class="modular-architecture">
                                 <img src="images/ben2.png" alt="Public Cloud To Share" class="icon-css1">
                             </div>
@@ -826,7 +826,7 @@ $seo_keywords = "colocation services, server hosting, data center colocation, se
                 </ul>
                 <ul class="row">
                     <li class="col-md-4">
-                        <div class="inner-teli241">
+                        <div class="inner-teli241 colo-inner">
                             <div class="modular-architecture">
                                 <img src="images/ben4.png" alt="Public Cloud To Share" class="icon-css1">
                             </div>
@@ -836,7 +836,7 @@ $seo_keywords = "colocation services, server hosting, data center colocation, se
                         </div>
                     </li>
                     <li class="col-md-4">
-                        <div class="inner-teli241">
+                        <div class="inner-teli241 colo-inner">
                             <div class="modular-architecture">
                                 <img src="images/ben5.png" alt="Public Cloud To Share" class="icon-css1">
                             </div>
@@ -847,7 +847,7 @@ $seo_keywords = "colocation services, server hosting, data center colocation, se
                         </div>
                     </li>
                     <li class="col-md-4">
-                        <div class="inner-teli241">
+                        <div class="inner-teli241 colo-inner">
                             <div class="modular-architecture">
                                 <img src="images/contract.png" alt="Public Cloud To Share" class="icon-css1">
                             </div>

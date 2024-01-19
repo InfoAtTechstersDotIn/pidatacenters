@@ -15,6 +15,7 @@
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- SET: Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
@@ -223,7 +224,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#" class="drop-arrow">PRICING</a>
+                                <a href="<?php echo $site_url ?>pricing.php" class="drop-arrow">PRICING</a>
                                 <div class="drop-down pricing_drop_down">
                                     <ul>
                                         <li>
@@ -499,7 +500,7 @@
                                 </ul>
                             </div>
                             <li class="accordion">
-                                <a href="#" class="drop-arrow">PRICING</a>
+                                <a href="<?php echo $site_url ?>pricing.php" class="drop-arrow">PRICING</a>
                             </li>
                             <div class="panel">
                                 <ul>

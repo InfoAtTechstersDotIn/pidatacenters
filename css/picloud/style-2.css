@@ -9329,24 +9329,6 @@
         padding: 10px 0;
     }
 
-    #thanks-msg .modal-body h2 {
-        text-align: center;
-        color: #223F97;
-    }
-
-    #thanks-msg2 .modal-body p {
-        color: #000;
-        font-size: 18px;
-        line-height: 1.5rem;
-        text-align: center;
-        padding: 10px 0;
-    }
-
-    #thanks-msg2 .modal-body h2 {
-        text-align: center;
-        color: #223F97;
-    }
-
     .subscribe label {
         display: flex;
         margin-bottom: 10px;
@@ -9400,6 +9382,7 @@
     .subscribe .times-btn {
         text-align: right;
     }
+
 
     /* added new styles after adding head tags */
     .fir-icon-incor h6 {
@@ -9899,6 +9882,58 @@
         display: block;
     }
 
+    .foot-menu .line {
+        float: right;
+        border-right: none !important;
+    }
+
+    .hwi {
+        background-color: #223f97 !important;
+    }
+
+    #thanks-msg2 .modal-body p {
+        color: #000;
+        font-size: 18px;
+        line-height: 1.5rem;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    #thanks-msg2 .modal-body h2 {
+        text-align: center;
+        color: #223F97;
+    }
+
+    .subscribe #thanks-msg2 .sub-close2 {
+        border: none;
+        font-size: 22px;
+        background: #000;
+        color: #fff;
+        font-weight: bold;
+        outline: none !important;
+        text-align: right;
+        padding: 0px 10px;
+        border-radius: 20px;
+    }
+
+    .subscribe #thanks-msg2 .close-btn2 {
+        border: none;
+        outline: none !important;
+        background-color: #223f97;
+        color: #fff;
+        padding: 6px 20px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+
+    .footer-about .hide-copyright {
+        display: none;
+    }
+
+    .backdround-bg1 {
+        height: 65px;
+    }
+
     .pricing-tabs {
         max-width: 85%;
         margin: 20px auto;
@@ -9926,57 +9961,75 @@
         background-color: #76b543;
     }
 
-    .hb-deContO:after {
-        background-color: #223f97 !important;
-    }
-
-    .foot-menu .line {
-        float: right;
-        border-right: none !important;
-    }
-
-    .hwi {
-        background-color: #223f97 !important;
-    }
-
-    .subscribe #thanks-msg2 .sub-close2 {
-        border: none;
-        font-size: 22px;
-        background: #000;
-        color: #fff;
-        font-weight: bold;
-        outline: none !important;
-        text-align: right;
-        padding: 0px 10px;
-        border-radius: 20px;
-    }
-
-    .subscribe #thanks-msg2 .close-btn2 {
-        border: none;
-        outline: none !important;
-        background-color: #223f97;
-        color: #fff;
-        padding: 6px 20px;
-        border-radius: 10px;
-        font-size: 20px;
-    }
-
     .hb-jorCont:after {
-        position: absolute;
-        content: "";
         background-image: none !important;
-        height: 250px;
-        width: 100%;
-        bottom: 0;
         background-color: #223f97;
         border-top-left-radius: 200%;
         border-top-right-radius: 200%;
     }
 
-    .footer-about .hide-copyright {
-        display: none;
+    .hb-jorInfo>p {
+        line-height: 3rem !important;
+        font-size: 23px !important;
     }
 
-    .backdround-bg1 {
-        height: 65px;
+    .hb-deContO:after {
+        background-color: #223f97 !important;
+    }
+
+    .dc-download-brochure {
+        padding: 30px;
+    }
+
+    .our-features {
+        padding: 50px 0px 0px;
+    }
+
+    .inner-teli244 {
+        height: 535px;
+    }
+
+    .colo-inner {
+        min-height: 475px;
+    }
+
+    .knowledge-hub-videos1 {
+        padding: 20px 30px;
+    }
+
+    .write-to-us-main.branches {
+        box-shadow: 0px 0px 6px black;
+    }
+
+    .rack-form p {
+        color: #000;
+        text-align: center;
+        line-height: 3rem;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .rack-form label {
+        font-weight: bold;
+    }
+
+    .rack-form input {
+        width: 100%;
+        height: 30px;
+        border: 1px solid #3c3c3c91;
+        padding: 0 15px;
+        border-radius: 5px;
+    }
+
+    .rack-form .sub-button button {
+        background-color: #223f97;
+        color: #fff;
+        border-radius: 20px;
+        width: 50%;
+        border: none;
+        outline: none !important;
+    }
+
+    .rack-form .sub-button {
+        text-align: center;
     }

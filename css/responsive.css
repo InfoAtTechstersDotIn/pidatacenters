@@ -3910,12 +3910,13 @@ top: 185px !important;
     }
 
     .footer-copy-rights p {
-        font-size: 8px;
+        font-size: 7px;
     }
 
     .three-dm {
         font-size: 8px !important;
     }
+
 }
 
 @media (max-width:1200px) {
@@ -7131,9 +7132,10 @@ top: 185px !important;
     }
 
     .footer-about.footer-bg a {
-        font-size: 9.9px;
+        font-size: 8px;
         text-align: center !important;
         line-height: 12px;
+        padding: 0 3px 0 6px;
     }
 
     .top-foot ul {
@@ -7154,6 +7156,14 @@ top: 185px !important;
         padding: 10px 0;
         text-align: left;
         font-size: 20px;
+    }
+
+    .inner-teli244 {
+        height: 570px;
+    }
+
+    .colo-inner {
+        min-height: 500px;
     }
 }
 
@@ -7275,6 +7285,30 @@ top: 185px !important;
         font-size: 19px;
         text-align: center;
         line-height: 1.6rem;
+    }
+
+    .hb-jorCont {
+        background-color: #223f97;
+    }
+
+    .hb-deContO {
+        display: block;
+    }
+
+    .hb-jorInfo>h2 {
+        text-align: center;
+        font-size: 20px !Important;
+    }
+
+    .hb-jorInfo>p {
+        text-align: center;
+        padding-top: 10px;
+        font-size: 10px !important;
+        line-height: 1rem !important;
+    }
+
+    .colo-inner {
+        min-height: 525px;
     }
 }
 
@@ -7530,16 +7564,20 @@ top: 185px !important;
         padding: 1px;
     }
 
-    .pricing-tabs h2 {
-        padding: 10px 0;
-    }
-
     .footer-about .show-copyright {
         display: none;
     }
 
     .footer-about .hide-copyright {
         display: block;
+    }
+
+    .pricing-tabs h2 {
+        padding: 10px 0;
+    }
+
+    .colo-inner {
+        min-height: 341px;
     }
 }
 
@@ -7575,4 +7613,22 @@ top: 185px !important;
     .play-icon i {
         font-size: 35px;
     }
+
+    .hb-cuJoBox {
+        height: 42vh;
+    }
+
+    .hb-jorInfo>p {
+        font-size: 16px !important;
+    }
+
+    .hb-jorInfo>h2 {
+        font-size: 28px !Important;
+        padding-top: 10px;
+    }
+
+    .hb-serviceListing {
+        height: 800px;
+    }
+
 }

@@ -1037,7 +1037,9 @@
 
                                     <li><a href="https://www.linkedin.com/company/pidatacenters/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 
-                                    <li><a href="https://twitter.com/Pi_DATACENTERS" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://twitter.com/Pi_DATACENTERS" target="_blank"><svg class="mt-2" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1.2em" width="1.2em" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
+                                            </svg></a></li>
                                     <li><a href="https://www.facebook.com/PiDATACENTERS/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                     <li><a href="https://youtube.com/@pi_datacenters" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
                                     <li><a href="https://api.whatsapp.com/send?phone=+918712630334&amp;text=Hi, I need more information on Pidatacenters" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
