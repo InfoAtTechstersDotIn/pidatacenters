@@ -41,35 +41,35 @@ $seo_keywords = "virtual desktop infrastructure, vdi virtual desktop infrastruct
 <div class="harbourfront-services-blk">
     <div class="container">
         <div class="harbourfront-services-main">
-            <h3>Our <span style="color: #7BBC42;font-weight: 500;">Technology</span></h3>
+            <h2>Our <span style="color: #7BBC42;font-weight: 500;">Technology</span></h2>
 
             <div class="our-technology">
                 <ul class="row">
                     <li class="col-md-3">
                         <div class="our-technology-cnt">
                             <img src="images/our-tech-img-1.png" alt="our-tech-img-1" width="52" height="52">
-                            <h4>Application & Desktop Virtualization</h4>
+                            <h3>Application & Desktop Virtualization</h3>
                             <p>Enterprise admins can consolidate business applications and desktops on premise or on cloud before delivering to the end users securely.</p>
                         </div>
                     </li>
                     <li class="col-md-3">
                         <div class="our-technology-cnt">
                             <img src="images/our-tech-img-2.png" alt="our-tech-img-2" width="52" height="52">
-                            <h4>Desktop-as-a-Service Solution</h4>
+                            <h3>Desktop-as-a-Service Solution</h3>
                             <p>High-performance HTML5 Client enables agentless browser based access across virtualized corporate workspace, so users can access apps & data from any web browsers without plugins, Java or Flash.</p>
                         </div>
                     </li>
                     <li class="col-md-3">
                         <div class="our-technology-cnt">
                             <img src="images/our-tech-img-3.png" alt="our-tech-img-3" width="52" height="52">
-                            <h4>Secure Remote Access to VDI</h4>
+                            <h3>Secure Remote Access to VDI</h3>
                             <p>Users can experience enterprise mobility and secure access to applications, desktops, and network services from any devices while working on any network.</p>
                         </div>
                     </li>
                     <li class="col-md-3">
                         <div class="our-technology-cnt">
                             <img src="images/our-tech-img-4.png" alt="our-tech-img-4" width="52" height="52">
-                            <h4>Hybrid, Green Endpoint Devices</h4>
+                            <h3>Hybrid, Green Endpoint Devices</h3>
                             <p>Compliments the corporate environment by allowing enterprises to replace legacy PC based computing with the centralized server side of web-based computing.</p>
                         </div>
                     </li>
@@ -88,42 +88,42 @@ $seo_keywords = "virtual desktop infrastructure, vdi virtual desktop infrastruct
                 <li class="col-md-4">
                     <div class="our-technology-cntt">
                         <img src="images/why-work-img-1.png" alt="why-work-img-1" width="76" height="77">
-                        <h4>Work From Anywhere</h4>
+                        <h3>Work From Anywhere</h3>
                         <p>Remote working is the new normal! Experience improved productivity and increased employee responsiveness.</p>
                     </div>
                 </li>
                 <li class="col-md-4">
                     <div class="our-technology-cntt">
                         <img src="images/why-work-img-2.png" alt="why-work-img-2" width="76" height="77">
-                        <h4>Bring Your Own Device (BYOD)</h4>
+                        <h3>Bring Your Own Device (BYOD)</h3>
                         <p>Start saving more! Users can continue to use their personally owned devices while working remotely.</p>
                     </div>
                 </li>
                 <li class="col-md-4">
                     <div class="our-technology-cntt">
                         <img src="images/why-work-img-3.png" alt="why-work-img-3" width="76" height="77">
-                        <h4>Multi Factor Authentication (MFA)</h4>
+                        <h3>Multi Factor Authentication (MFA)</h3>
                         <p>Security comes first! The MFA protocol enables secure access to your business applications via Pi Workspaces.</p>
                     </div>
                 </li>
                 <li class="col-md-4">
                     <div class="our-technology-cntt">
                         <img src="images/why-work-img-4.png" alt="why-work-img-4" width="76" height="77">
-                        <h4>Secure Access to SaaS applications</h4>
+                        <h3>Secure Access to SaaS applications</h3>
                         <p>Control over cloud applications! The stringent security features include read-only access to SaaS application from approved devices.</p>
                     </div>
                 </li>
                 <li class="col-md-4">
                     <div class="our-technology-cntt">
                         <img src="images/why-work-img-5.png" alt="why-work-img-5" width="76" height="77">
-                        <h4>Hybrid Cloud Computing</h4>
+                        <h3>Hybrid Cloud Computing</h3>
                         <p>The best of both the worlds! The hybrid environment that contains Pi workspaces consists of both on-premise VDI and cloud desktops.</p>
                     </div>
                 </li>
                 <li class="col-md-4">
                     <div class="our-technology-cntt">
                         <img src="images/why-work-img-6.png" alt="why-work-img-6" width="76" height="77">
-                        <h4>Testing & Development</h4>
+                        <h3>Testing & Development</h3>
                         <p>Time is the essence! Admins can rapidly provision cloud desktops to the users on-demand thereby supporting seamless software testing & development.</p>
                     </div>
                 </li>
@@ -139,19 +139,19 @@ $seo_keywords = "virtual desktop infrastructure, vdi virtual desktop infrastruct
             <ul class="row">
                 <li class="col-md-4">
                     <div class="pi-work-benefits-cnt">
-                        <span>Protect Your Data</span>
-                        <p>Pi Workspaces is deployed within a VPN that is powered by pi-cloudÂ® - the enterprise cloud platform @PiÂ®, known for its ultra-secure environment.</p>
+                        <h3>Protect Your Data</h3>
+                        <p>Pi Workspaces is deployed within a VPN that is powered by Pi Cloud - the enterprise cloud platform @Pi, known for its ultra-secure environment.</p>
                     </div>
                 </li>
                 <li class="col-md-4">
                     <div class="pi-work-benefits-cnt">
-                        <span>Simplify Desktop Management</span>
+                        <h3>Simplify Desktop Management</h3>
                         <p>Pi Workspaces helps you in eliminating tasks associated with managing your desktop lifecycle including provisioning, deploying, maintaining, and reassigning.</p>
                     </div>
                 </li>
                 <li class="col-md-4">
                     <div class="pi-work-benefits-cnt">
-                        <span>Ensure Business as Usual</span>
+                        <h3>Ensure Business as Usual</h3>
                         <p>Pi Wokspaces enables you to provide your employees with on-demand access to cloud desktops that include a range of compute, memory, network, and storage resources.</p>
                     </div>
                 </li>

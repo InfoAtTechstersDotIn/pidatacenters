@@ -58,7 +58,7 @@ $site_url = "https://www.pidatacenters.com/"
             </div>
         </div>
         <div class="copy_rights">
-            <p>©2023 Pi DATACENTERS® Pvt. Ltd. All rights reserved</p>
+            <p>©2024 Pi DATACENTERS® Pvt. Ltd. All rights reserved</p>
         </div>
         <div class="footer_icons">
             <br>

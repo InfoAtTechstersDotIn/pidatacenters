@@ -10033,3 +10033,69 @@
     .rack-form .sub-button {
         text-align: center;
     }
+
+    .card-head>h3 {
+        font-size: 18px;
+        padding-top: 20px;
+        min-height: 40px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .hb-productHead>h2 {
+        font-size: 28px !important;
+        margin-bottom: 12px;
+        color: #545454;
+        font-weight: bold;
+    }
+
+    .start-your-journey-main h2 {
+        font-size: 30px;
+        line-height: 40px;
+        color: #FFFFFF;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .start-your-journey-main h2 span {
+        color: #7BBC42;
+        font-weight: 400;
+    }
+
+    .harbourfront-services-main h2 {
+        color: #000000;
+        font-weight: 700;
+        padding: 0 0 30px;
+        text-align: center;
+    }
+
+    .our-technology ul li h3 {
+        font-size: 22px;
+        line-height: 26px;
+        color: #000000;
+        padding: 20px 0;
+        font-weight: 700;
+    }
+
+    .why-work-with-us-main h3 {
+        font-size: 22px;
+        line-height: 26px;
+        color: #000000;
+        padding: 20px 0;
+        font-weight: 700;
+    }
+
+    .pi-work-benefits-cnt h3 {
+        color: #7BBC42;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 700;
+        text-align: center;
+        display: block;
+        padding: 0 0 20px;
+    }
+
+    .about-pi-workspaces-main {
+        padding: 50px 50px 0 50px;
+    }

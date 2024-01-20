@@ -48,7 +48,7 @@ $seo_keywords = "content delivery network, cdn, cdn server, cloud cdn, cdn provi
 <div class="start-your-journey">
     <div class="container">
         <div class="start-your-journey-main text-center">
-            <h3>Begin <span>your journey</span> With <br> India's First Indigenous Cloud Content Delivery Network (CDN) <br> at INR 1.6/GB.</h3>
+            <h2>Begin <span>your journey</span> With <br> India's First Indigenous Cloud Content Delivery Network (CDN) <br> at INR 1.6/GB.</h2>
             <a href="contact-us.php">Talk To Our Experts Now</a>
             <!--<p>HarbourFrontTM CDN on cloud, delivers enhanced user experience for dynamic web applications and websites, by geographically distributing the network and caching data spatially relative to end users. It enables enterprises to accelerate live or on-demand media streaming and push data-rich content locally. Auto mapping of network conditions and intelligent routing of user traffic to our nearest edge location, allows enterprises to leverage cached or dynamic content. 30+ Points of Presence across the globe are interconnected to deliver sub-single digit millisecond latency and high availability to end-users</p>-->
         </div>

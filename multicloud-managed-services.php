@@ -387,7 +387,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 	.content_1 h2 {
 		text-align: center;
 		font-size: 32px;
-		color: #76b543;
+		color: #76b543 !important;
 		margin: 20px;
 	}
 
@@ -487,7 +487,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 		display: none;
 	}
 
-	.Monitoring .card-2 .face.face1 .content h3 {
+	.Monitoring .card-2 .face.face1 .content h2 {
 		margin: 10px 0 0;
 		padding: 0;
 		color: #000;
@@ -1093,13 +1093,13 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 
 
 
-	.carte-model h3 {
+	.carte-model h2 {
 		font-size: 18px !important;
 		color: #fff !important;
 	}
 
 
-	.carte-model h5 {
+	.carte-model h3 {
 		color: #fff !important;
 		font-weight: 600 !important;
 		font-size: 13px !important;
@@ -1183,7 +1183,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 							<img src="./images/managed-services-icons/CM.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Compute Management</h6>
+							<h3>Compute Management</h3>
 
 						</div>
 					</div>
@@ -1197,7 +1197,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 							<img src="./images/managed-services-icons/SM.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Security Management</h6>
+							<h3>Security Management</h3>
 
 						</div>
 					</div>
@@ -1211,7 +1211,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 							<img src="./images/managed-services-icons/BM.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Backup Management</h6>
+							<h3>Backup Management</h3>
 
 						</div>
 					</div>
@@ -1225,7 +1225,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 							<img src="./images/managed-services-icons/NM.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Network Management</h6>
+							<h3>Network Management</h3>
 
 						</div>
 					</div>
@@ -1239,7 +1239,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 							<img src="./images/managed-services-icons/IM.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Identity Management</h6>
+							<h3>Identity Management</h3>
 
 						</div>
 					</div>
@@ -1253,7 +1253,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 							<img src="./images/managed-services-icons/STORAGE-M.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Storage Management</h6>
+							<h3>Storage Management</h3>
 
 						</div>
 					</div>
@@ -1267,7 +1267,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 							<img src="./images/managed-services-icons/SOM.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Server OS Management</h6>
+							<h3>Server OS Management</h3>
 
 						</div>
 					</div>
@@ -1281,7 +1281,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 							<img src="./images/managed-services-icons/MM.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Monitoring Management</h6>
+							<h3>Monitoring Management</h3>
 
 						</div>
 					</div>
@@ -1295,7 +1295,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 							<img src="./images/managed-services-icons/CONFIG-M.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Configuration Management</h6>
+							<h3>Configuration Management</h3>
 
 						</div>
 					</div>
@@ -1309,7 +1309,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 							<img src="./images/managed-services-icons/BSA.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Basic Support Availability</h6>
+							<h3>Basic Support Availability</h3>
 
 						</div>
 					</div>
@@ -1323,7 +1323,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 							<img src="./images/managed-services-icons/CHANGE-M.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Change Management</h6>
+							<h3>Change Management</h3>
 
 						</div>
 					</div>
@@ -1337,7 +1337,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 							<img src="./images/managed-services-icons/BR.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Basic Response/Resolution</h6>
+							<h3>Basic Response/Resolution</h3>
 
 						</div>
 					</div>
@@ -1351,7 +1351,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 							<img src="./images/managed-services-icons/PROBLEM-M.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Problem Management</h6>
+							<h3>Problem Management</h3>
 
 						</div>
 					</div>
@@ -1365,7 +1365,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 							<img src="./images/managed-services-icons/BSL.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Basic Support Level</h6>
+							<h3>Basic Support Level</h3>
 
 						</div>
 					</div>
@@ -1379,7 +1379,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 							<img src="./images/managed-services-icons/INCIDENT-M.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Incident Management</h6>
+							<h3>Incident Management</h3>
 
 						</div>
 					</div>
@@ -1395,7 +1395,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 							<img src="./images/managed-services-icons/GOVERNANCE.svg" class="img" width="70">
 						</p>
 						<div class="card-head">
-							<h6>Governance</h6>
+							<h3>Governance</h3>
 
 						</div>
 					</div>
@@ -1413,7 +1413,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 
 
 	<div>
-		<h1 class="text-center mt-5" style="padding:0px 0 0;color:#1a1a1a;font-size:45px; margin-top: 90px;">Managed Services Models</h1>
+		<h2 class="text-center mt-5">Managed Services Models</h2>
 		<ul class="hb-productSec list-inline">
 			<li>
 				<div class="hb-leftCon hb_ppCont">
@@ -1471,12 +1471,8 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 					<ul class="hb-productSec list-inline">
 						<div class="hb-leftCont hb_ppCont">
 							<p style="text-align:center">
-								Provides different tiers of service levels based on the business's needs, ensuring that you pay only for the services you require. 
+								Provides different tiers of service levels based on the business's needs, ensuring that you pay only for the services you require.
 							</p>
-							<!--<span>
-			            				<img src="images/product-images/TIERED-MODEL.png" alt="advanced">
-			            			</span>-->
-
 
 						</div>
 
@@ -1645,11 +1641,11 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 						<div class="model-2">
 							<div class="carte-content">
 								<div class="carte-head">
-									<h3 style="margin: 5px 0 10px 0;">Application & DB Migration</h3>
-									<h5>Depending on business requirements, a
+									<h2 style="margin: 5px 0 10px 0;">Application & DB Migration</h2>
+									<h3>Depending on business requirements, a
 										fully customized app and database
 										migration model is available.
-									</h5>
+									</h3>
 								</div>
 								<div class="read">
 									<ul style="text-align: justify;">
@@ -1661,10 +1657,10 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 							</div>
 							<div class="carte-content">
 								<div class="carte-head">
-									<h3 style="margin: 5px 0 10px 0;">Database Services</h3>
-									<h5>Cosmos DB, MySQL, MS-SQL, Maria DB,
+									<h2 style="margin: 5px 0 10px 0;">Database Services</h2>
+									<h3>Cosmos DB, MySQL, MS-SQL, Maria DB,
 										PostgreSQL, Redies, Data Factories
-									</h5>
+									</h3>
 								</div>
 								<div class="read">
 									<ul>
@@ -1676,7 +1672,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 							</div>
 							<div class="carte-content">
 								<div class="carte-head">
-									<h3 style="margin: 25px;">Container Services</h3>
+									<h2 style="margin: 25px;">Container Services</h2>
 								</div>
 								<div class="read">
 									<ul>
@@ -1688,9 +1684,9 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 							</div>
 							<div class="carte-content">
 								<div class="carte-head">
-									<h3 style="margin: 10px 0 10px 0;">Analytics</h3>
-									<h5>(Data Engineering Services)
-									</h5>
+									<h2 style="margin: 10px 0 10px 0;">Analytics</h2>
+									<h3>(Data Engineering Services)
+									</h3>
 								</div>
 								<div class="read">
 									<ul>
@@ -1705,7 +1701,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 						<div class="model-3">
 							<div class="carte-content">
 								<div class="carte-head">
-									<h3 style="margin: 25px;">DevOps Services</h3>
+									<h2 style="margin: 25px;">DevOps Services</h2>
 								</div>
 								<div class="read">
 									<ul>
@@ -1717,7 +1713,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 							</div>
 							<div class="carte-content">
 								<div class="carte-head">
-									<h3 style="margin: 25px;">Managed Application Services</h3>
+									<h2 style="margin: 25px;">Managed Application Services</h2>
 								</div>
 								<div class="read">
 									<ul>
@@ -1729,7 +1725,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 							</div>
 							<div class="carte-content">
 								<div class="carte-head">
-									<h3 style="margin: 25px;">Disaster Recovery Services</h3>
+									<h2 style="margin: 25px;">Disaster Recovery Services</h2>
 								</div>
 								<div class="read">
 									<ul>
@@ -1767,7 +1763,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 									<div class="content">
 										<img class="show" src="./images/managed-services-icons/service-monitoring-new.png">
 										<img class="hide" src="./images/managed-services-icons/service-monitoring2-new.png">
-										<h3>Service Monitoring</h3>
+										<h2>Service Monitoring</h2>
 										<a>Read More</a>
 									</div>
 								</div>
@@ -1787,13 +1783,13 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 									<div class="content">
 										<img class="show" src="./images/managed-services-icons/hourly-support-new.png">
 										<img class="hide" src="./images/managed-services-icons/hourly-support2-new.png">
-										<h3>Hourly Support</h3>
+										<h2>Hourly Support</h2>
 										<a>Read More</a>
 									</div>
 								</div>
 								<div class="face face2">
 									<div class="content">
-										<p style="text-align:center; color: #223f97;">Monitoring has three models of support:</p>
+										<p style="text-align:center; color: #223f97 !important;">Monitoring has three models of support:</p>
 										<ul style="list-style-type: circle;list-style-position: inside;width: 100% !important;margin: 0 auto;padding: 10px 8px; color: #223f97;">
 											<li>24/7</li>
 											<li>16/7</li>
@@ -1807,7 +1803,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 									<div class="content">
 										<img class="show" src="./images/managed-services-icons/third-party-new.png">
 										<img class="hide" src="./images/managed-services-icons/third-party2-new.png">
-										<h3>Third Party Integration</h3>
+										<h2>Third Party Integration</h2>
 										<a>Read More</a>
 									</div>
 								</div>
