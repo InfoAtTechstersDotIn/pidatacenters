@@ -1080,7 +1080,7 @@ $seo_keywords = "cloud services, cloud hosting, cloud storage, cloud computing, 
                     <div class="hb-boxCont text-center" style="min-height:auto">
                         <a href="javascript:void(0)" style="cursor: auto;">
                             <span>
-                                <img src="images/hipaa-1.png" alt="scale">
+                                <img src="images/hipaa-1.svg" alt="scale">
                             </span>
 
 

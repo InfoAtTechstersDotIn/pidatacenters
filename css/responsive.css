@@ -7185,6 +7185,27 @@ top: 185px !important;
     .our-technology-cnt {
         min-height: 100%;
     }
+
+    .hover-award h2 {
+        font-size: 25px;
+        line-height: 27px;
+        color: #ffffff;
+    }
+
+    .hb-patnerLeft>h1 {
+        padding: 15px 0 0 0;
+    }
+
+    .case-content h2 {
+        font-size: 18px;
+        line-height: 22px;
+        text-align: left;
+    }
+
+    .fill-your-details-cnt h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
 }
 
 
@@ -7624,6 +7645,10 @@ top: 185px !important;
 
     .footer-links ul li a svg {
         margin-top: 0.3rem !important;
+    }
+
+    .board-of-directors-in h3 {
+        font-size: 27px;
     }
 }
 

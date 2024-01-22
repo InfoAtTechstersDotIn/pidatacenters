@@ -34,14 +34,14 @@ $seo_keywords = "articles, informative articles, datacenter articles, cloud arti
           <div class="latest-block row">
             <div class="latest-block-left col-md-12">
 
-              <a href="realize-managed-services-full-potential.php"><img src="images/industry-obstacles.svg" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="breaking-down-iaas-paas-saas.php"><img src="images/breaking-down.svg" alt="kh-img-1" width="430" height="278"> </a>
 
               <br>
-              <a href="realize-managed-services-full-potential.php">
-                <h3>How to Overcome Industry Obstacles and Realize Managed Services' Full Potential for Your Business? </h3>
+              <a href="breaking-down-iaas-paas-saas.php">
+                <h3>Breaking Down IaaS, PaaS, and SaaS: How to Understand Cloud Computing </h3>
               </a>
 
-              <div class="readmore-btn" style="padding:20px 0 0;"><a href="realize-managed-services-full-potential.php">Read More</a></div>
+              <div class="readmore-btn" style="padding:20px 0 0;"><a href="breaking-down-iaas-paas-saas.php">Read More</a></div>
 
             </div>
 
@@ -129,6 +129,12 @@ $seo_keywords = "articles, informative articles, datacenter articles, cloud arti
       <div class="what-drives-vission1 row align-middle">
         <div class="what-drives-vission-left1 col-md-12">
           <ul class="slider-knowledge row">
+
+            <li class="col-md-3 industry">
+              <a href="realize-managed-services-full-potential.php"><img src="images/industry-obstacles.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#insight</span><a href="realize-managed-services-full-potential.php" class="pres-rel">How to Overcome Industry Obstacles and Realize Managed Services' Full Potential for Your Business? </a>
+              <div class="readmore-btn"><a href="realize-managed-services-full-potential.php">Read More</a></div>
+            </li>
 
             <li class="col-md-3 articles">
               <a href="overview-of-private-and-public-clouds.php"><img src="images/public-private-clouds.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>

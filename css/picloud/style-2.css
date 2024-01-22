@@ -9147,7 +9147,7 @@
     }
 
     .added-tags h1 {
-        font-size: 43px;
+        font-size: 42px;
         color: black;
         font-weight: bold;
         line-height: 3.5rem;
@@ -10103,4 +10103,117 @@
 
     #chat-bot-launcher-container.chat-bot-launcher-enabled .chat-bot-launcher-button {
         background-image: url("https://avatars.collectcdn.com/64cca04864532f27c3dc3b39/64cca04864532f27c3dc3b39-64ccede764532f27c3dc3bb2.jpeg?t=1692790198226") !important;
+    }
+
+    .vision-info h3 {
+        position: absolute;
+        left: 20px;
+        bottom: 20px;
+        font-size: 35px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .mission-data h4 {
+        padding: 0 0 15px;
+        color: white;
+        font-weight: 500;
+        font-size: 31px;
+    }
+
+    .board-of-directors-in h3 {
+        color: #000000;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 700;
+        padding: 20px 0 0px;
+        min-height: 72px;
+    }
+
+    .board-of-directors-management h3 {
+        color: #223F97;
+        font-size: 20px;
+        line-height: 22px;
+        font-weight: 700;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .hover-award h2 {
+        font-size: 30px;
+        line-height: 35px;
+        color: #ffffff;
+    }
+
+    .our-technology-cnt {
+        cursor: pointer;
+    }
+
+    .director-rt h2 {
+        line-height: 12px !important;
+        padding-top: 5px;
+        font-size: 20px;
+        font-weight: 400;
+        color: #ffffff;
+        text-align: left;
+    }
+
+    .director-rt h3 {
+        color: #ffffff;
+        /* padding: 10px 0; */
+        line-height: 43px;
+    }
+
+    .director-rt h4 {
+        padding: 0px !important;
+        color: #ffffff;
+    }
+
+    .case-content.ceo-corner h3 {
+        font-size: 18px;
+        line-height: 24px;
+        text-align: left;
+        padding: 15px 0 0;
+    }
+
+    .hb-patnerLeft>h2 {
+        font-size: 28px;
+        text-align: left;
+        margin-bottom: 18px;
+    }
+
+    .hb-whatDoGet>h2 {
+        font-size: 28px;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+
+    .case-content h2 {
+        font-size: 24px;
+        line-height: 26px;
+        color: #000000;
+        font-weight: 500;
+        padding: 15px 0 0px;
+        min-height: 70px;
+    }
+
+    .fill-your-details-cnt h3 {
+        color: #000000;
+        font-weight: 700;
+        padding: 5px 0 5px;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .case-content h2 {
+        font-size: 24px;
+        line-height: 26px;
+        color: #000000;
+        font-weight: 500;
+        padding: 15px 0 0px;
+        min-height: 70px;
+    }
+
+    .case-block-main.greenshape .case-content h2 {
+        padding: 10px 0 0;
     }

@@ -78,7 +78,7 @@ if ($conn->connect_error) {
               ?>
                   <li class="col-md-4" style="padding:12px">
                     <div class="hover-award">
-                      <h5><?php print($title); ?></h5>
+                      <h2><?php print($title); ?></h2>
                       <p><?php print($description); ?></p>
                       <span><?php print($year); ?></span>
                     </div>
@@ -159,7 +159,7 @@ if ($conn->connect_error) {
             <ul class="slider certifications-mbl">
               <li class="col-md-4">
                 <div class="hover-award">
-                  <h5>CIOReview India</h5>
+                  <h2>CIOReview India</h2>
                   <p>20 Most Promising Cloud Solution Providers</p>
                   <span>2020</span>
                 </div>
@@ -169,7 +169,7 @@ if ($conn->connect_error) {
               </li>
               <li class="col-md-4">
                 <div class="hover-award">
-                  <h5>Datacenter Dynamics</h5>
+                  <h2>Datacenter Dynamics</h2>
                   <p>India's Best Multi-Tenant Data Center</p>
                   <span>2019</span>
                 </div>
@@ -179,7 +179,7 @@ if ($conn->connect_error) {
               </li>
               <li class="col-md-4">
                 <div class="hover-award">
-                  <h5>CIOReview India</h5>
+                  <h2>CIOReview India</h2>
                   <p>Company Of The Year 2018 In IaaS Vertical</p>
                   <span>2018</span>
                 </div>
@@ -189,7 +189,7 @@ if ($conn->connect_error) {
               </li>
               <li class="col-md-4">
                 <div class="hover-award">
-                  <h5>India's Most Promising Brand</h5>
+                  <h2>India's Most Promising Brand</h2>
                   <p>UK Asia Business Summit </p>
                   <span>2018</span>
                 </div>
@@ -199,7 +199,7 @@ if ($conn->connect_error) {
               </li>
               <li class="col-md-4">
                 <div class="hover-award">
-                  <h5>Start-Up of the Year</h5>
+                  <h2>Start-Up of the Year</h2>
                   <p>TV5 Business Leader Awards</p>
                   <span>2017</span>
                 </div>
@@ -209,7 +209,7 @@ if ($conn->connect_error) {
               </li>
               <li class="col-md-4">
                 <div class="hover-award">
-                  <h5>Leading CMO of the Year</h5>
+                  <h2>Leading CMO of the Year</h2>
                   <p>Enterprise IT CMO Leadership Awards</p>
                   <span>2017</span>
                 </div>
@@ -219,7 +219,7 @@ if ($conn->connect_error) {
               </li>
               <li class="col-md-4">
                 <div class="hover-award">
-                  <h5>Upcoming Cloud Service Provider in Asia</h5>
+                  <h2>Upcoming Cloud Service Provider in Asia</h2>
                   <p>Datacloud Asia</p>
                   <span>2017</span>
                 </div>
@@ -235,7 +235,7 @@ if ($conn->connect_error) {
 
               <li class="col-md-4">
                 <div class="hover-award rec">
-                  <h5>Recognized By CIOReview India</h5>
+                  <h2>Recognized By CIOReview India</h2>
                   <p>Company Of The Year In IaaS Vertical</p>
                 </div>
                 <figure>
@@ -244,7 +244,7 @@ if ($conn->connect_error) {
               </li>
               <li class="col-md-4">
                 <div class="hover-award rec">
-                  <h5>Recognized By GPTW</h5>
+                  <h2>Recognized By GPTW</h2>
                   <p>One Of Indiaâ€™s Top 50 IT Companies To Work With</p>
                 </div>
                 <figure>
@@ -253,7 +253,7 @@ if ($conn->connect_error) {
               </li>
               <li class="col-md-4">
                 <div class="hover-award rec">
-                  <h5>Recognized By GPTW</h5>
+                  <h2>Recognized By GPTW</h2>
                   <p>One Of India's Top 50 Great Mid-Size Workplaces</p>
                 </div>
                 <figure>
@@ -262,7 +262,7 @@ if ($conn->connect_error) {
               </li>
               <li class="col-md-4">
                 <div class="hover-award rec">
-                  <h5>Recognized By GPTW</h5>
+                  <h2>Recognized By GPTW</h2>
                   <p>One Of Indiaâ€™s Best Mid-Sized Organizations</p>
                 </div>
                 <figure>
@@ -271,7 +271,7 @@ if ($conn->connect_error) {
               </li>
               <li class="col-md-4">
                 <div class="hover-award rec">
-                  <h5>Included in Gartner's Market Guide</h5>
+                  <h2>Included in Gartner's Market Guide</h2>
                   <p>Top Data Center Service Providers in India</p>
                 </div>
                 <figure>
@@ -281,7 +281,7 @@ if ($conn->connect_error) {
 
               <li class="col-md-4">
                 <div class="hover-award">
-                  <h5>Title</h5>
+                  <h2>Title</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   <span>Year</span>
                 </div>
@@ -294,7 +294,7 @@ if ($conn->connect_error) {
             <ul class="slider certifications-mbl">
               <li class="col-md-4">
                 <div class="hover-award">
-                  <h5>Recognized By CIOReview India</h5>
+                  <h2>Recognized By CIOReview India</h2>
                   <p>Company Of The Year In IaaS Vertical</p>
                 </div>
                 <figure>
@@ -303,7 +303,7 @@ if ($conn->connect_error) {
               </li>
               <li class="col-md-4">
                 <div class="hover-award">
-                  <h5>Recognized By GPTW</h5>
+                  <h2>Recognized By GPTW</h2>
                   <p>One Of Indiaâ€™s Top 50 IT Companies To Work With</p>
                 </div>
                 <figure>
@@ -312,7 +312,7 @@ if ($conn->connect_error) {
               </li>
               <li class="col-md-4">
                 <div class="hover-award">
-                  <h5>Recognized By GPTW</h5>
+                  <h2>Recognized By GPTW</h2>
                   <p>One Of India's Top 50 Great Mid-Size Workplaces</p>
                 </div>
                 <figure>
@@ -321,7 +321,7 @@ if ($conn->connect_error) {
               </li>
               <li class="col-md-4">
                 <div class="hover-award">
-                  <h5>Recognized By GPTW</h5>
+                  <h2>Recognized By GPTW</h2>
                   <p>One Of Indiaâ€™s Best Mid-Sized Organizations</p>
                 </div>
                 <figure>
@@ -330,7 +330,7 @@ if ($conn->connect_error) {
               </li>
               <li class="col-md-4">
                 <div class="hover-award">
-                  <h5>Included in Gartner's Market Guide</h5>
+                  <h2>Included in Gartner's Market Guide</h2>
                   <p>Top Data Center Service Providers in India</p>
                 </div>
                 <figure>

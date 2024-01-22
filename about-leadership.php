@@ -39,7 +39,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
         <li class="col-md-3">
           <div class="board-of-directors-in">
             <img src="images/kiran-bd.png" alt="director-1" width="284" height="284">
-            <h4>Kalyan Muppaneni</h4>
+            <h3>Kalyan Muppaneni</h3>
             <p>Founder and CEO</p>
             <div class="linked-in-icon">
               <a href="https://www.linkedin.com/in/kalyan-muppaneni-591378b7/" target="_blank">
@@ -51,7 +51,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
         <li class="col-md-3">
           <div class="board-of-directors-in">
             <img src="images/sudheer-bd.png" alt="director-1" width="284" height="284">
-            <h4>Sudheer Kuppam</h4>
+            <h3>Sudheer Kuppam</h3>
             <p>General Partner, VentureRock</p>
             <div class="linked-in-icon">
               <a href="https://www.linkedin.com/in/sudheer-kuppam-531434/ " target="_blank">
@@ -63,7 +63,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
         <li class="col-md-3">
           <div class="board-of-directors-in">
             <img src="images/krishna-nimmagadda-2.png" alt="director-3" width="284" height="284">
-            <h4>Krishna Nimmagadda</h4>
+            <h3>Krishna Nimmagadda</h3>
             <p>General Partner, Capitalize Ventures <br> Serial Entrepreneurs and Angel Investors</p>
             <div class="linked-in-icon">
               <!-- <a href="https://www.linkedin.com/in/sridhargadhi/?originalSubdomain=in " target="_blank"> -->
@@ -77,7 +77,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
         <li class="col-md-3">
           <div class="board-of-directors-in">
             <img src="images/mahesh-bd.png" alt="director-4" width="284" height="284">
-            <h4>Mahesh Vaidya</h4>
+            <h3>Mahesh Vaidya</h3>
             <p>General Partner, Epsilon Venture Partners</p>
             <div class="linked-in-icon">
               <a href="https://www.linkedin.com/in/mahesh-vaidya-9a2867/ " target="_blank">
@@ -92,7 +92,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
         <li class="col-md-3">
           <div class="board-of-directors-in">
             <img src="images/kiran-bd.png" alt="director-1" width="284" height="284">
-            <h4>Kalyan Muppaneni</h4>
+            <h3>Kalyan Muppaneni</h3>
             <p>Founder and CEO</p>
             <div class="linked-in-icon">
               <a href="https://www.linkedin.com/in/kalyan-muppaneni-591378b7/" target="_blank">
@@ -104,7 +104,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
         <li class="col-md-3">
           <div class="board-of-directors-in">
             <img src="images/sudheer-bd.png" alt="director-1" width="284" height="284">
-            <h4>Sudheer Kuppam</h4>
+            <h3>Sudheer Kuppam</h3>
             <p>General Partner, VentureRock</p>
             <div class="linked-in-icon">
               <a href="https://www.linkedin.com/in/sudheer-kuppam-531434/ " target="_blank">
@@ -117,7 +117,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
           <div class="board-of-directors-in">
             <!-- <img src="images/director-3.png" alt="director-3" width="284" height="284"> -->
             <img src="images/krishna-nimmagadda-2.png" alt="director-3" width="284" height="284">
-            <h4>Krishna Nimmagadda</h4>
+            <h3>Krishna Nimmagadda</h3>
             <p>General Partner, Capitalize Ventures <br> Serial Entrepreneurs and Angel Investors</p>
             <div class="linked-in-icon">
               <a href="https://www.linkedin.com/in/krishna2002?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
@@ -130,7 +130,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
         <li class="col-md-3">
           <div class="board-of-directors-in">
             <img src="images/mahesh-bd.png" alt="director-4" width="284" height="284">
-            <h4>Mahesh Vaidya</h4>
+            <h3>Mahesh Vaidya</h3>
             <p>General Partner, Epsilon Venture Partners</p>
             <div class="linked-in-icon">
               <a href="https://www.linkedin.com/in/mahesh-vaidya-9a2867/ " target="_blank">
@@ -148,7 +148,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
           <li class="">
             <div class="board-of-directors-in">
               <img src="images/kalyan-scc.jpg" alt="director-img-1" width="186" height="76" class="modal-btn">
-              <h4>Kalyan Muppaneni</h4>
+              <h3>Kalyan Muppaneni</h3>
               <p>Founder and CEO</p>
               <div class="linked-in-icon">
                 <a href="https://www.linkedin.com/in/kalyan-muppaneni-591378b7/" target="_blank">
@@ -161,7 +161,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
           <li class="">
             <div class="board-of-directors-in">
               <img src="images/manu-scc.jpg" alt="strategic-1" width="186" height="76" class="modal-btn">
-              <h4>Manu Sharma</h4>
+              <h3>Manu Sharma</h3>
               <p>Chief Financial Officer</p>
               <div class="linked-in-icon">
                 <a href="https://www.linkedin.com/in/manu-sharma-58aa0117/ " target="_blank">
@@ -174,7 +174,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
           <li class="">
             <div class="board-of-directors-in">
               <img src="images/deb-mc.jpg" alt="deb-mc" width="186" height="76">
-              <h4>Debmalya Dey Roy (Deb)</h4>
+              <h3>Debmalya Dey Roy (Deb)</h3>
               <p>Chief Revenue Officer <br> & Global Marketing Head</p>
               <div class="linked-in-icon">
                 <a href="https://www.linkedin.com/in/debmalya-dey-roy-deb-7771228/ " target="_blank">
@@ -187,7 +187,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
           <li class="">
             <div class="board-of-directors-in">
               <img src="images/sudher-scc.jpg" alt="strategic-4" width="186" height="76">
-              <h4>Sunder Muthevi</h4>
+              <h3>Sunder Muthevi</h3>
               <p>Chief Technology Officer</p>
               <div class="linked-in-icon">
                 <a href="https://www.linkedin.com/in/sunder-m-abb72663/ " target="_blank">
@@ -199,7 +199,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
           <li class="">
             <div class="board-of-directors-in">
               <img src="images/abhinav-kotari.jpg" alt="strategic-5" width="186" height="76">
-              <h4>Abhinav Kotagiri</h4>
+              <h3>Abhinav Kotagiri</h3>
               <p>Vice President and Chief Datacenter Delivery Officer</p>
               <div class="linked-in-icon">
                 <a href="https://www.linkedin.com/in/abhinav-kotagiri-455096115/?originalSubdomain=in" target="_blank">
@@ -213,7 +213,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
           <li class="">
             <div class="board-of-directors-in">
               <img src="images/kalyan-scc.jpg" alt="director-img-1" width="186" height="76" class="modal-btn">
-              <h4>Kalyan Muppaneni</h4>
+              <h3>Kalyan Muppaneni</h3>
               <p>Founder and CEO</p>
               <div class="linked-in-icon">
                 <a href="https://www.linkedin.com/in/kalyan-muppaneni-591378b7/" target="_blank">
@@ -226,7 +226,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
           <li class="">
             <div class="board-of-directors-in">
               <img src="images/manu-scc.jpg" alt="strategic-1" width="186" height="76" class="modal-btn">
-              <h4>Manu Sharma</h4>
+              <h3>Manu Sharma</h3>
               <p>Chief Financial Officer</p>
               <div class="linked-in-icon">
                 <a href="https://www.linkedin.com/in/manu-sharma-58aa0117/ " target="_blank">
@@ -239,7 +239,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
           <li class="">
             <div class="board-of-directors-in">
               <img src="images/deb-mc.jpg" alt="deb-mc" width="186" height="76">
-              <h4>Debmalya Dey Roy (Deb)</h4>
+              <h3>Debmalya Dey Roy (Deb)</h3>
               <p>Chief Revenue Officer <br> & Global Marketing Head</p>
               <div class="linked-in-icon">
                 <a href="https://www.linkedin.com/in/debmalya-dey-roy-deb-7771228/ " target="_blank">
@@ -252,7 +252,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
           <li class="">
             <div class="board-of-directors-in">
               <img src="images/sudher-scc.jpg" alt="strategic-4" width="186" height="76">
-              <h4>Sunder Muthevi</h4>
+              <h3>Sunder Muthevi</h3>
               <p>Chief Technology Officer</p>
               <div class="linked-in-icon">
                 <a href="https://www.linkedin.com/in/sunder-m-abb72663/ " target="_blank">
@@ -264,7 +264,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
           <li class="">
             <div class="board-of-directors-in">
               <img src="images/abhinav-kotari.jpg" alt="strategic-5" width="186" height="76">
-              <h4>Abhinav Kotagiri</h4>
+              <h3>Abhinav Kotagiri</h3>
               <p>Vice President and Chief Datacenter Delivery Officer</p>
               <div class="linked-in-icon">
                 <a href="https://www.linkedin.com/in/abhinav-kotagiri-455096115/?originalSubdomain=in" target="_blank">
@@ -291,7 +291,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
           <li class="">
             <div class="board-of-directors-management">
               <img src="images/kalyan-mc.jpg" alt="management-1" width="525" height="580">
-              <h4>Kalyan Muppaneni</h4>
+              <h3>Kalyan Muppaneni</h3>
               <p>Founder and CEO</p>
               <div class="linked-in-icon">
                 <a href="https://www.linkedin.com/in/kalyan-muppaneni-591378b7/" target="_blank">
@@ -304,7 +304,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
           <li class="">
             <div class="board-of-directors-management">
               <img src="images/manu-mc.jpg" alt="management-1" width="525" height="580">
-              <h4>Manu Sharma</h4>
+              <h3>Manu Sharma</h3>
               <p>Chief Financial Officer</p>
               <div class="linked-in-icon">
                 <a href="https://www.linkedin.com/in/manu-sharma-58aa0117/" target="_blank">
@@ -317,7 +317,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
           <li class="">
             <div class="board-of-directors-management">
               <img src="images/deb-mc.jpg" alt="management-3" width="525" height="580">
-              <h4>Debmalya Dey Roy (Deb)</h4>
+              <h3>Debmalya Dey Roy (Deb)</h3>
               <p>Chief Revenue Officer <br> & Global Marketing Head</p>
               <div class="linked-in-icon">
                 <a href="https://www.linkedin.com/in/debmalya-dey-roy-deb-7771228/" target="_blank">
@@ -330,7 +330,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
           <li class="">
             <div class="board-of-directors-management">
               <img src="images/sudher-mc.jpg" alt="mangement-4" width="525" height="580">
-              <h4>Sunder Muthevi</h4>
+              <h3>Sunder Muthevi</h3>
               <p>Chief Technology Officer</p>
               <div class="linked-in-icon">
                 <a href="https://www.linkedin.com/in/sunder-m-abb72663/" target="_blank">
@@ -343,7 +343,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
           <li class="">
             <div class="board-of-directors-management">
               <img src="images/abhi-mc.jpg" alt="mangement-5" width="525" height="580">
-              <h4>Abhinav Kotagiri</h4>
+              <h3>Abhinav Kotagiri</h3>
               <p>Vice President and Chief Datacenter Delivery Officer</p>
               <div class="linked-in-icon">
                 <a href="https://www.linkedin.com/in/abhinav-kotagiri-455096115/?originalSubdomain=in" target="_blank">
@@ -356,7 +356,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
           <li class="">
             <div class="board-of-directors-management">
               <img src="images/geo-leader.svg" alt="mangement-8" width="525" height="580">
-              <h4>Geo Kurian</h4>
+              <h3>Geo Kurian</h3>
               <p>Chief of Staff</p>
               <div class="linked-in-icon">
                 <a href="https://www.linkedin.com/in/geo-kurian/" target="_blank">
@@ -369,7 +369,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
           <li class="">
             <div class="board-of-directors-management">
               <img src="images/raviku.jpg" alt="mangement-9" width="525" height="580">
-              <h4>Ravi Kumar Kanchaboina </h4>
+              <h3>Ravi Kumar Kanchaboina </h3>
               <p>Director and Business Head <br>Cloud and Managed Services</p>
               <div class="linked-in-icon">
                 <a href="https://www.linkedin.com/in/ravi-kumar-3812b521/" target="_blank">
@@ -382,7 +382,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
           <li class="">
             <div class="board-of-directors-management">
               <img src="images/prakash-mc.jpg" alt="mangement-6" width="525" height="580">
-              <h4>KVS Prakasa Rao</h4>
+              <h3>KVS Prakasa Rao</h3>
               <!-- <p>Director - Pre Sales, Partner Alliance & Account Management</p> -->
               <p>Director IT & Cloud Operations</p>
               <div class="linked-in-icon">
@@ -395,7 +395,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
           <li class="">
             <div class="board-of-directors-management">
               <img src="images/kishore-mc.jpg" alt="mangement-7" width="525" height="580">
-              <h4>Kishore PRP</h4>
+              <h3>Kishore PRP</h3>
               <!-- <p>Director - Cloud Operations & Governance</p> -->
               <p>Director Pre Sales, Partner Alliance & Governance</p>
               <div class="linked-in-icon">
@@ -410,7 +410,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
           <li class="">
             <div class="board-of-directors-management">
               <img src="images/ravi-varma-mc.jpg" alt="mangement-9" width="525" height="580">
-              <h4>Ravi Varma</h4>
+              <h3>Ravi Varma</h3>
               <p>GM - HR & Managed Services</p>
               <div class="linked-in-icon">
                 <a href="https://www.linkedin.com/in/ravivarmahr/ " target="_blank">
@@ -428,7 +428,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
         <li class="">
           <div class="board-of-directors-management">
             <img src="images/kalyan-mc.jpg" alt="management-1" width="525" height="580">
-            <h4>Kalyan Muppaneni</h4>
+            <h3>Kalyan Muppaneni</h3>
             <p>Founder and CEO</p>
             <div class="linked-in-icon">
               <a href="https://www.linkedin.com/in/kalyan-muppaneni-591378b7/" target="_blank">
@@ -441,7 +441,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
         <li class="">
           <div class="board-of-directors-management">
             <img src="images/manu-mc.jpg" alt="management-1" width="525" height="580">
-            <h4>Manu Sharma</h4>
+            <h3>Manu Sharma</h3>
             <p>Chief Financial Officer</p>
             <div class="linked-in-icon">
               <a href="https://www.linkedin.com/in/manu-sharma-58aa0117/" target="_blank">
@@ -454,7 +454,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
         <li class="">
           <div class="board-of-directors-management">
             <img src="images/deb-mc.jpg" alt="management-3" width="525" height="580">
-            <h4>Debmalya Dey Roy (Deb)</h4>
+            <h3>Debmalya Dey Roy (Deb)</h3>
             <p>Chief Revenue Officer <br> & Global Marketing Head</p>
             <div class="linked-in-icon">
               <a href="https://www.linkedin.com/in/debmalya-dey-roy-deb-7771228/" target="_blank">
@@ -467,7 +467,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
         <li class="">
           <div class="board-of-directors-management">
             <img src="images/sudher-mc.jpg" alt="mangement-4" width="525" height="580">
-            <h4>Sunder Muthevi</h4>
+            <h3>Sunder Muthevi</h3>
             <p>Chief Technology Officer</p>
             <div class="linked-in-icon">
               <a href="https://www.linkedin.com/in/sunder-m-abb72663/" target="_blank">
@@ -480,7 +480,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
         <li class="">
           <div class="board-of-directors-management">
             <img src="images/abhi-mc.jpg" alt="mangement-5" width="525" height="580">
-            <h4>Abhinav Kotagiri</h4>
+            <h3>Abhinav Kotagiri</h3>
             <p>Vice President and Chief Datacenter Delivery Officer</p>
             <div class="linked-in-icon">
               <a href="https://www.linkedin.com/in/abhinav-kotagiri-455096115/?originalSubdomain=in" target="_blank">
@@ -494,7 +494,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
         <li class="">
           <div class="board-of-directors-management">
             <img src="images/prakash-mc.jpg" alt="mangement-6" width="525" height="580">
-            <h4>KVS Prakasa Rao</h4>
+            <h3>KVS Prakasa Rao</h3>
             <p>Director IT & Cloud Operations</p>
             <div class="linked-in-icon">
               <a href="https://www.linkedin.com/in/kvs-prakasa-rao-8190342a/" target="_blank">
@@ -506,7 +506,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
         <li class="">
           <div class="board-of-directors-management">
             <img src="images/kishore-mc.jpg" alt="mangement-7" width="525" height="580">
-            <h4>Kishore PRP</h4>
+            <h3>Kishore PRP</h3>
             <p>Director Pre Sales, Partner Alliance & Governance</p>
             <div class="linked-in-icon">
               <a href="https://www.linkedin.com/in/kishoreprp/" target="_blank">
@@ -519,7 +519,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
         <li class="">
           <div class="board-of-directors-management">
             <img src="images/geo-leader.svg" alt="mangement-8" width="525" height="580">
-            <h4>Geo Kurian</h4>
+            <h3>Geo Kurian</h3>
             <p>Chief of Staff</p>
             <div class="linked-in-icon">
               <a href="https://www.linkedin.com/in/geo-kurian/" target="_blank">
@@ -532,7 +532,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
         <li class="">
           <div class="board-of-directors-management">
             <img src="images/ravi-varma-mc.jpg" alt="mangement-9" width="525" height="580">
-            <h4>Ravi Varma</h4>
+            <h3>Ravi Varma</h3>
             <p>GM - HR & Managed Services</p>
             <div class="linked-in-icon">
               <a href="https://www.linkedin.com/in/ravivarmahr/ " target="_blank">
@@ -545,7 +545,7 @@ $seo_keywords = "leadership, management, industry insights, leadership tips, exe
         <li class="">
           <div class="board-of-directors-management">
             <img src="images/Ravi-Kumar-Kanchaboina.png" alt="mangement-9" width="525" height="580">
-            <h4>Ravi Kumar Kanchaboina </h4>
+            <h3>Ravi Kumar Kanchaboina </h3>
             <p>Director and Business Head <br>Cloud and Managed Services</p>
             <div class="linked-in-icon">
               <a href="https://www.linkedin.com/in/ravi-kumar-3812b521/" target="_blank">

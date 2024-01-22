@@ -39,12 +39,12 @@ if ($conn->connect_error) {
 
 ?>
 <style>
-    .director-rt h3 {
+    .director-rt h2 {
         line-height: 12px !important;
         padding-top: 5px;
     }
 
-    .director-rt h5 {
+    .director-rt h4 {
         padding: 0px !important;
     }
 </style>
@@ -74,7 +74,7 @@ if ($conn->connect_error) {
                 </ul>
                 <div class="tab-content tabBlock-content">
                     <div class="tabBlock-pane">
-                        <!--<h3>Testimonial</h3>
+                        <!--<h2>Testimonial</h2>
                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dui mauris, vehicula vel commodo at, sollicitudin sed magna. Quisque nec ligula ligula. Ut tincidunt molestie auctor. Morbi in lacus sit amet odio ornare tincidunt ut vitae nunc. Praesent iaculis luctus nisl, quis</p>-->
                         <ul class="slider">
                             <li>
@@ -89,7 +89,7 @@ if ($conn->connect_error) {
                                                     </figure>
                                                 </div>
                                                 <div class="testimonial-content-rt col-8">
-                                                    <!--                                            <h4>PDCC</h4>-->
+                                                    <!--                                            <h3>PDCC</h3>-->
                                                 </div>
                                             </div>
                                             <div class="testimonial-content-btm">
@@ -109,7 +109,7 @@ if ($conn->connect_error) {
                                                     </figure>
                                                 </div>
                                                 <div class="testimonial-content-rt col-8">
-                                                    <!--                                            <h4>N Rajagopalan, Head IT</h4>-->
+                                                    <!--                                            <h3>N Rajagopalan, Head IT</h3>-->
                                                     <!--<p>CEO, Amazon</p>-->
                                                 </div>
                                             </div>
@@ -130,7 +130,7 @@ if ($conn->connect_error) {
                                                     </figure>
                                                 </div>
                                                 <div class="testimonial-content-rt col-8">
-                                                    <!--                                            <h4>Sanketh Chukkapalli</h4>-->
+                                                    <!--                                            <h3>Sanketh Chukkapalli</h3>-->
                                                 </div>
                                             </div>
                                             <div class="testimonial-content-btm">
@@ -150,7 +150,7 @@ if ($conn->connect_error) {
                                                     </figure>
                                                 </div>
                                                 <div class="testimonial-content-rt col-8">
-                                                    <!--                                            <h4>Niyogin Fintech </h4>-->
+                                                    <!--                                            <h3>Niyogin Fintech </h3>-->
                                                 </div>
                                             </div>
                                             <div class="testimonial-content-btm">
@@ -172,7 +172,7 @@ if ($conn->connect_error) {
                                                     </figure>
                                                 </div>
                                                 <div class="testimonial-content-rt col-8">
-                                                    <!--                                            <h4>PDCC</h4>-->
+                                                    <!--                                            <h3>PDCC</h3>-->
                                                 </div>
                                             </div>
                                             <div class="testimonial-content-btm">
@@ -195,7 +195,7 @@ if ($conn->connect_error) {
                                                     </figure>
                                                 </div>
                                                 <div class="testimonial-content-rt col-8">
-                                                    <!--                                            <h4>GDCC</h4>-->
+                                                    <!--                                            <h3>GDCC</h3>-->
                                                 </div>
                                             </div>
                                             <div class="testimonial-content-btm">
@@ -266,7 +266,7 @@ if ($conn->connect_error) {
                                                         </figure>
                                                     </div>
                                                     <div class="testimonial-content-rt col-8">
-                                                        <!--                                            <h4>PDCC</h4>-->
+                                                        <!--                                            <h3>PDCC</h3>-->
                                                     </div>
                                                 </div>
                                                 <div class="testimonial-content-btm">
@@ -294,7 +294,7 @@ if ($conn->connect_error) {
                                             </figure> 
                                     </div>
                                     <div class="testimonial-content-rt col-8">
-                                            <h4>Vijay khanna</h4>
+                                            <h3>Vijay khanna</h3>
                                         <p>CEO, Amazon</p>
                                     </div>
                                 </div>
@@ -314,7 +314,7 @@ if ($conn->connect_error) {
                                             </figure> 
                                     </div>
                                     <div class="testimonial-content-rt col-8">
-                                            <h4>Vijay khanna</h4>
+                                            <h3>Vijay khanna</h3>
                                         <p>CEO, Amazon</p>
                                     </div>
                                 </div>
@@ -331,7 +331,7 @@ if ($conn->connect_error) {
 
                     </div>
                     <div class="tabBlock-pane">
-                        <!--<h3>Testimonial</h3>
+                        <!--<h2>Testimonial</h2>
                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dui mauris, vehicula vel commodo at, sollicitudin sed magna. Quisque nec ligula ligula. Ut tincidunt molestie auctor. Morbi in lacus sit amet odio ornare tincidunt ut vitae nunc. Praesent iaculis luctus nisl, quis</p>-->
                         <ul>
                             <li>
@@ -426,9 +426,9 @@ if ($conn->connect_error) {
                         <div class="director-rt col-md-8">
 
                             <p>&#8220; As a Business IT owner for one of the largest fertilizer manufacturing companies in India and pioneer in providing need-based solutions for the farming community throughout the country, I can attest to the power of technology in streamlining processes, managing employee records, and cost optimization. At SPIC we made the decision to go with Pi as our cloud partner after thorough industry research and our experience with other Indian and global cloud players. Pi has been delivering exemplary service experience through its commitment to best practices and cost-effective solutions. It has been a magnificent journey with Pi. We highly recommend them to other industry peers as a reliable Data Center & Cloud Partner for hosting their mission-critical business data."</p>
-                            <h3> N Rajagopalan</h3>
-                            <h4> Head IT</h4>
-                            <h5> Southern Petrochemical Industries Corporation</h5>
+                            <h2> N Rajagopalan</h2>
+                            <h3> Head IT</h3>
+                            <h4> Southern Petrochemical Industries Corporation</h4>
                         </div>
                     </div>
                 </div>
@@ -450,9 +450,9 @@ if ($conn->connect_error) {
                         <div class="director-rt col-md-8">
 
                             <p>&#8220; We have been extremely impressed with the team at Pi Data Centers and their outstanding support in Data Center & Cloud related services availed by us. From the moment we started working with them, they have consistently demonstrated reliability, thoroughness, intelligence, availability, excellent communication, and a friendly demeanor. We highly recommend Pi Data Centers to anyone seeking a productivity-oriented and solution-driven team to manage critical data. We plan to continue working with them as part of our retail outlet expansions and associated long-term vision. &#8221;</p>
-                            <h3> Sanketh Chukkapalli</h3>
-                            <h4> Managing Director</h4>
-                            <h5> Popular Shoe Mart</h5>
+                            <h2> Sanketh Chukkapalli</h2>
+                            <h3> Managing Director</h3>
+                            <h4> Popular Shoe Mart</h4>
                         </div>
                     </div>
                 </div>
@@ -473,10 +473,10 @@ if ($conn->connect_error) {
                         <div class="director-rt col-md-8">
 
                             <p>&#8220; Pi helped us enhance our cloud journey and gave us a robust platform for our DR, UAT, and Test environments for both SAP & Non- SAP. When we transformed our digital journey with Pi Datacenters, Our business growth improved with its flexibility, scalability, and accessibility with a solution. Our Expected TCO turned into reality over the past four years. &#8221;</p>
-                            <!--<h3>Niyogin Fintech</h3>-->
-                            <h3>Chandrakant Ovhal</h3>
-                            <h4> Head of IT Infrastructure </h4>
-                            <h5>Niyogin Fintech Limited</h5>
+                            <!--<h2>Niyogin Fintech</h2>-->
+                            <h2>Chandrakant Ovhal</h2>
+                            <h3> Head of IT Infrastructure </h3>
+                            <h4>Niyogin Fintech Limited</h4>
                         </div>
                     </div>
                 </div>
@@ -498,10 +498,10 @@ if ($conn->connect_error) {
                         <div class="director-rt col-md-8">
 
                             <p>&#8220; Pi Datacenters, with their proven experience in working with banks and NBFCs, made it simple for us to colocate our servers to their Data Centers. They began helping us plan our journey from On-premise to Hosting on a professional Hyperscale Data Center. From the moment we signed up, we knew we made the right choice. Pi had a proper SOP in place to analyze our current environment, a thorough migration plan, and a quick go-live with near ZERO downtime. This gave us, as a bank and our customers, a seamless experience. To date, their account management and post-delivery support gave us no reason to complain. We would be more than happy to recommend Pi Data Centers to other banks and companies. &#8221;</p>
-                            <!--<h3>PDCC</h3>-->
-                            <h3>Vijay Pawar</h3>
-                            <h4> DGM IT </h4>
-                            <h5>PDCC Bank</h5>
+                            <!--<h2>PDCC</h2>-->
+                            <h2>Vijay Pawar</h2>
+                            <h3> DGM IT </h3>
+                            <h4>PDCC Bank</h4>
                         </div>
                     </div>
                 </div>
@@ -523,9 +523,9 @@ if ($conn->connect_error) {
                         <div class="director-rt col-md-8">
 
                             <p>&#8220; Kirloskar Management Services values technology as a key factor in driving business growth and has adopted the cloud to enhance efficiency and provide seamless solutions. We chose Pi as our cloud partner due to their technical proficiency, expertise in handling complex PLM workloads, excellent account management, and quick resolution of issues. Our experience with Pi has been outstanding, with consistent delivery on promises and minimal change requests. We highly recommend them to our industry peers as true partners for any data center needs. &#8221;</p>
-                            <h3>Mandar Sahasrabudhe</h3>
-                            <h4>Group CTO</h4>
-                            <h5>Kirloskar Management Services</h5>
+                            <h2>Mandar Sahasrabudhe</h2>
+                            <h3>Group CTO</h3>
+                            <h4>Kirloskar Management Services</h4>
                         </div>
                     </div>
                 </div>
@@ -543,7 +543,7 @@ if ($conn->connect_error) {
                         <div class="director-lt col-md-4">
                             <img src="images/testimonial-6.png" alt="testimonial-1" width="729" height="943">
                             <div class="director-lt-cnt">
-                                <h3>Vijay khanna</h3>
+                                <h2>Vijay khanna</h2>
                                 <p>CEO, Amazon</p>
                                 <ul class="row social-icons">
                                     <li class="col-4">
@@ -560,7 +560,7 @@ if ($conn->connect_error) {
                             </div>
                         </div>
                         <div class="director-rt col-md-8">
-                            <h3>Lorem ipsum dolor</h3>
+                            <h2>Lorem ipsum dolor</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula sit amet turpis faucibus ornare. Phasellus tempus ligula in arcu consectetur tempor. Cras tempor congue purus, ut condimentum ex aliquam eu. Suspendisse viverra ex sit amet tellus tristique facilisis. Nunc pharetra pretium felis vitae molestie. Praesent suscipit vitae libero et euismod. Nullam lacinia luctus ante et tempus. Etiam faucibus venenatis neque, sit amet varius urna finibus sit amet. Nulla volutpat accumsan nulla, eu convallis massa ultrices ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla mollis mattis dolor, semper elementum lorem rutrum sit amet. Proin posuere lacinia purus sit amet venenatis. Aliquam feugiat ipsum ut auctor ultrices. Nunc vitae tellus porttitor odio luctus ullamcorper. Etiam bibendum tortor turpis, vitae pharetra velit eleifend quis. Nam ex elit, gravida non fermentum vitae, varius eget est.</p>
                         </div>
                     </div>
@@ -585,9 +585,9 @@ if ($conn->connect_error) {
                         <div class="director-rt col-md-8">
 
                             <p>&#8220; As a rapidly expanding cooperative bank celebrating its 25th anniversary, we found an indispensable partner in Pi Datacenters. Their cutting-edge design and build approach, combined with quick time-to-market enablement capabilities, helped us build a robust in-house data center infrastructure within the defined timeline. Their stringent security protocols and seamless migration process empowered us to navigate regulatory mandates, upgrade legacy systems, and elevate operational efficiency. Pi Datacenters' commitment to operational excellence and innovative approach fortified our position as a leading financial institution in the region. With utmost appreciation, we commend Pi Datacenters for their outstanding work and look forward to sustained success through this invaluable partnership. &#8221;</p>
-                            <h3>Satish Ayalwar </h3>
-                            <h4>CEO</h4>
-                            <h5>GDCC Bank</h5>
+                            <h2>Satish Ayalwar </h2>
+                            <h3>CEO</h3>
+                            <h4>GDCC Bank</h4>
                         </div>
                     </div>
                 </div>
@@ -612,11 +612,11 @@ if ($conn->connect_error) {
                         <div class="director-rt col-md-8">
 
                             <p>&#8220; Migration to SAP on cloud was made seamless & effective by the Pi team. The very tight timelines and schedules were perfectly met with no compromise on quality. &#8221;</p>
-                            <h3>Hariharan Balakrishnan
+                            <h2>Hariharan Balakrishnan
+                            </h2>
+                            <h3>SAP Head
                             </h3>
-                            <h4>SAP Head
-                            </h4>
-                            <h5>Oaknet Healthcare</h5>
+                            <h4>Oaknet Healthcare</h4>
                         </div>
                     </div>
                 </div>
@@ -640,11 +640,11 @@ if ($conn->connect_error) {
                         <div class="director-rt col-md-8">
 
                             <p>&#8220; We were looking at viable options for hosting our smart metering R&D infrastructure on the cloud. As a part of this exercise, we evaluated multiple global and Indian cloud solutions. After an extensive period of due diligence, we finalized our selection of Pi Cloud. The major driving factors for choosing Pi were its simple architecture, dedicated support model, and cost-effectiveness. Since our first collaboration, the association has grown significantly. &#8221;</p>
-                            <h3>Mr. Abhrajit De
+                            <h2>Mr. Abhrajit De
+                            </h2>
+                            <h3>Executive Vice President
                             </h3>
-                            <h4>Executive Vice President
-                            </h4>
-                            <h5>Information Systems Genus Power Infrastructures Ltd</h5>
+                            <h4>Information Systems Genus Power Infrastructures Ltd</h4>
                         </div>
                     </div>
                 </div>
@@ -670,7 +670,7 @@ if ($conn->connect_error) {
                         <div class="director-lt col-12">
                             <iframe width="100%" height="350" src="https://www.youtube.com/embed/3mr5MEyHSgo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             <!--<div class="director-lt-cnt">
-                  <h3>Kalyan Muppaneni</h3>
+                  <h2>Kalyan Muppaneni</h2>
                   <p>Founder and CEO</p>
                   <ul class="row social-icons">
                                     <li class="col-4">
@@ -687,7 +687,7 @@ if ($conn->connect_error) {
               </div>-->
                         </div>
                         <div class="director-rt col-12">
-                            <h3>Client Testimonial - In Conversation with Group CTO, Kirloskar Management Services</h3>
+                            <h2>Client Testimonial - In Conversation with Group CTO, Kirloskar Management Services</h2>
                             <p>Listen to @Mandar Sahasrabudhe, Group CTO, Kirloskar Management Services, speaking on the driving factors behind Kirloskar groups’ #GoCloud initiatives and how they zeroed in on Pi as their partner of choice in this incredible journey of #KirloskarLimitless
 
                                 A #testimonial story from a very #happyclient</p>
@@ -708,7 +708,7 @@ if ($conn->connect_error) {
                         <div class="director-lt col-12">
                             <iframe width="100%" height="350" src="https://www.youtube.com/embed/jBe11lBUsR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             <!--<div class="director-lt-cnt">
-                  <h3>Kalyan Muppaneni</h3>
+                  <h2>Kalyan Muppaneni</h2>
                   <p>Founder and CEO</p>
                   <ul class="row social-icons">
                                     <li class="col-4">
@@ -725,7 +725,7 @@ if ($conn->connect_error) {
               </div>-->
                         </div>
                         <div class="director-rt col-12">
-                            <h3>Kalyan Muppaneni,Founder & CEO, Pi Datacenters at CII Telecom Summit Dec 2022</h3>
+                            <h2>Kalyan Muppaneni,Founder & CEO, Pi Datacenters at CII Telecom Summit Dec 2022</h2>
                             <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula sit amet turpis faucibus ornare. Phasellus tempus ligula in arcu consectetur tempor. Cras tempor congue purus, ut condimentum ex aliquam eu. Suspendisse viverra ex sit amet tellus tristique facilisis. Nunc pharetra pretium felis vitae molestie. Praesent suscipit vitae libero et euismod. Nullam lacinia luctus ante et tempus. Etiam faucibus venenatis neque, sit amet varius urna finibus sit amet. Nulla volutpat accumsan nulla, eu convallis massa ultrices ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla mollis mattis dolor, semper elementum lorem rutrum sit amet. Proin posuere lacinia purus sit amet venenatis. Aliquam feugiat ipsum ut auctor ultrices. Nunc vitae tellus porttitor odio luctus ullamcorper. Etiam bibendum tortor turpis, vitae pharetra velit eleifend quis. Nam ex elit, gravida non fermentum vitae, varius eget est.</p>-->
                         </div>
                     </div>
@@ -744,7 +744,7 @@ if ($conn->connect_error) {
                         <div class="director-lt col-12">
                             <iframe width="100%" height="350" src="https://www.youtube.com/embed/aDjnMwJDz38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             <!--<div class="director-lt-cnt">
-                  <h3>Kalyan Muppaneni</h3>
+                  <h2>Kalyan Muppaneni</h2>
                   <p>Founder and CEO</p>
                   <ul class="row social-icons">
                                     <li class="col-4">
@@ -761,7 +761,7 @@ if ($conn->connect_error) {
               </div>-->
                         </div>
                         <div class="director-rt col-12">
-                            <h3>Kalyan Muppaneni, Founder & CEO, Pi at International Annual Tech Fest VIT University, AP</h3>
+                            <h2>Kalyan Muppaneni, Founder & CEO, Pi at International Annual Tech Fest VIT University, AP</h2>
                             <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula sit amet turpis faucibus ornare. Phasellus tempus ligula in arcu consectetur tempor. Cras tempor congue purus, ut condimentum ex aliquam eu. Suspendisse viverra ex sit amet tellus tristique facilisis. Nunc pharetra pretium felis vitae molestie. Praesent suscipit vitae libero et euismod. Nullam lacinia luctus ante et tempus. Etiam faucibus venenatis neque, sit amet varius urna finibus sit amet. Nulla volutpat accumsan nulla, eu convallis massa ultrices ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla mollis mattis dolor, semper elementum lorem rutrum sit amet. Proin posuere lacinia purus sit amet venenatis. Aliquam feugiat ipsum ut auctor ultrices. Nunc vitae tellus porttitor odio luctus ullamcorper. Etiam bibendum tortor turpis, vitae pharetra velit eleifend quis. Nam ex elit, gravida non fermentum vitae, varius eget est.</p>-->
                         </div>
                     </div>
@@ -780,7 +780,7 @@ if ($conn->connect_error) {
                         <div class="director-lt col-12">
                             <iframe width="100%" height="350" src="https://www.youtube.com/embed/ekZtCGaRRYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             <!--<div class="director-lt-cnt">
-                  <h3>Kalyan Muppaneni</h3>
+                  <h2>Kalyan Muppaneni</h2>
                   <p>Founder and CEO</p>
                   <ul class="row social-icons">
                                     <li class="col-4">
@@ -797,7 +797,7 @@ if ($conn->connect_error) {
               </div>-->
                         </div>
                         <div class="director-rt col-md-8">
-                            <h3 style="line-height:23px !important;">Kalyan Muppaneni, Founder & CEO, Pi Datacenters, speaks at CII on Responsive Supply Chain with Cloud</h3>
+                            <h2 style="line-height:23px !important;">Kalyan Muppaneni, Founder & CEO, Pi Datacenters, speaks at CII on Responsive Supply Chain with Cloud</h2>
                             <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula sit amet turpis faucibus ornare. Phasellus tempus ligula in arcu consectetur tempor. Cras tempor congue purus, ut condimentum ex aliquam eu. Suspendisse viverra ex sit amet tellus tristique facilisis. Nunc pharetra pretium felis vitae molestie. Praesent suscipit vitae libero et euismod. Nullam lacinia luctus ante et tempus. Etiam faucibus venenatis neque, sit amet varius urna finibus sit amet. Nulla volutpat accumsan nulla, eu convallis massa ultrices ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla mollis mattis dolor, semper elementum lorem rutrum sit amet. Proin posuere lacinia purus sit amet venenatis. Aliquam feugiat ipsum ut auctor ultrices. Nunc vitae tellus porttitor odio luctus ullamcorper. Etiam bibendum tortor turpis, vitae pharetra velit eleifend quis. Nam ex elit, gravida non fermentum vitae, varius eget est.</p>-->
                         </div>
                     </div>
@@ -816,7 +816,7 @@ if ($conn->connect_error) {
                         <div class="director-lt col-md-4">
                             <img src="images/video-5.png" alt="testimonial-img-1" width="729" height="943">
                             <div class="director-lt-cnt">
-                                <h3>Kalyan Muppaneni</h3>
+                                <h2>Kalyan Muppaneni</h2>
                                 <p>Founder and CEO</p>
                                 <ul class="row social-icons">
                                     <li class="col-4">
@@ -833,7 +833,7 @@ if ($conn->connect_error) {
                             </div>
                         </div>
                         <div class="director-rt col-md-8">
-                            <h3>Lorem ipsum dolor</h3>
+                            <h2>Lorem ipsum dolor</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula sit amet turpis faucibus ornare. Phasellus tempus ligula in arcu consectetur tempor. Cras tempor congue purus, ut condimentum ex aliquam eu. Suspendisse viverra ex sit amet tellus tristique facilisis. Nunc pharetra pretium felis vitae molestie. Praesent suscipit vitae libero et euismod. Nullam lacinia luctus ante et tempus. Etiam faucibus venenatis neque, sit amet varius urna finibus sit amet. Nulla volutpat accumsan nulla, eu convallis massa ultrices ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla mollis mattis dolor, semper elementum lorem rutrum sit amet. Proin posuere lacinia purus sit amet venenatis. Aliquam feugiat ipsum ut auctor ultrices. Nunc vitae tellus porttitor odio luctus ullamcorper. Etiam bibendum tortor turpis, vitae pharetra velit eleifend quis. Nam ex elit, gravida non fermentum vitae, varius eget est.</p>
                         </div>
                     </div>

@@ -72,7 +72,7 @@ $seo_keywords = "datacenter, data solutions, hosting, colocation, cloud services
 
                 </div>
                 <div class="what-drives-mission-right col-lg-5 align-middle ">
-                    <img src="images/about-sec.png" alt="mission" width="852" height="654" class="about-page-img" style="">
+                    <img src="images/about-sec.png" alt="mission" width="852" height="654" class="about-page-img">
                 </div>
 
             </div>
@@ -107,9 +107,9 @@ $seo_keywords = "datacenter, data solutions, hosting, colocation, cloud services
                 <li class="col-md-4">
                     <div class="vision-info">
                         <img src="images/vision13.jpg" alt="vision13">
-                        <h2>Vision</h2>
+                        <h3>Vision</h3>
                         <div class="mission-data">
-                            <h6>Our Vision</h6>
+                            <h4>Our Vision</h4>
                             <p>To excel in the areas of expertise, execution, and innovation in Data Center Infrastructure, with a focus on redefining the customer experience and supporting the growth of our clients' businesses.</p>
                         </div>
                     </div>
@@ -117,9 +117,9 @@ $seo_keywords = "datacenter, data solutions, hosting, colocation, cloud services
                 <li class="col-md-4">
                     <div class="vision-info">
                         <img src="images/mission.jpg" alt="mission">
-                        <h2>Mission</h2>
+                        <h3>Mission</h3>
                         <div class="mission-data">
-                            <h6>Our Mission</h6>
+                            <h4>Our Mission</h4>
                             <p>To develop intelligent and innovative Data Centers featuring affordable and reliable infrastructure with World-class service and security.</p>
                         </div>
                     </div>
@@ -128,9 +128,9 @@ $seo_keywords = "datacenter, data solutions, hosting, colocation, cloud services
                 <li class="col-md-4">
                     <div class="vision-info">
                         <img src="images/value.jpg" alt="value">
-                        <h2>Value</h2>
+                        <h3>Value</h3>
                         <div class="mission-data">
-                            <h6>Our Values</h6>
+                            <h4>Our Values</h4>
                             <p>Uncompromised ethical standards and an environment-friendly approach, providing exemplary quality and integrity with respect for stakeholders.</p>
                         </div>
                     </div>

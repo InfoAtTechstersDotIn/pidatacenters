@@ -68,6 +68,11 @@ $seo_keywords = "CEO blogs, CEO articles, executive insights, industry vision, l
               left: 10px;
             }
 
+
+            .testimonial-block1 h3:before {
+              background: none;
+            }
+
             @media (max-width:576px) {
 
               .display-right,
@@ -149,7 +154,7 @@ $seo_keywords = "CEO blogs, CEO articles, executive insights, industry vision, l
                     <figure>
                       <img src="dashboard/uploads/Fitness.png" alt="blog-img-2" width="450" height="248">
                     </figure>
-                    <h4>Fitness: The Missing Puzzle Piece for Techies!</h4>
+                    <h3>Fitness: The Missing Puzzle Piece for Techies!</h3>
                     <p><strong id=""></strong>In the fast-paced digital age, techies have emerged as the architects of innovation, crafting our World. Their tireless efforts drive technological advancements, revolutionize industries, and change lives.</p>
                     <a href="fitness-for-techies.php" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
@@ -163,7 +168,7 @@ $seo_keywords = "CEO blogs, CEO articles, executive insights, industry vision, l
                     <figure>
                       <img src="dashboard/uploads/WFW.png" alt="blog-img-2" width="450" height="248">
                     </figure>
-                    <h4>Working From Work: The Ultimate Reality!!</h4>
+                    <h3>Working From Work: The Ultimate Reality!!</h3>
                     <p><strong id=""></strong>In this post-COVID era characterized by rapid technological advancements, the allure of remote work and the convenience it offers have captured the attention of professionals worldwide.</p>
                     <a href="working-from-work.php" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
@@ -177,7 +182,7 @@ $seo_keywords = "CEO blogs, CEO articles, executive insights, industry vision, l
                     <figure>
                       <img src="dashboard/uploads/leader.png" alt="blog-img-2" width="450" height="248">
                     </figure>
-                    <h4>Emotional Intelligence in Leadership</h4>
+                    <h3>Emotional Intelligence in Leadership</h3>
                     <p><strong id=""></strong>In today’s world of artificial intelligence, leadership is a human centered skill that AI can't replace. Enhancing leadership involves far more than mere employee management or task supervision. It encompasses the art of guiding, inspiring, and cultivating relationships to achieve collaborative success.</p>
                     <a href="emotionally-intelligent-leaders.php" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
@@ -191,7 +196,7 @@ $seo_keywords = "CEO blogs, CEO articles, executive insights, industry vision, l
                     <figure>
                       <img src="dashboard/uploads/Social-media.png" alt="blog-img-2" width="450" height="248">
                     </figure>
-                    <h4>The Impact of Social Media on Data Centers</h4>
+                    <h3>The Impact of Social Media on Data Centers</h3>
                     <p><strong id=""></strong>Social media has profoundly altered how people communicate and interact with one another, and it has become a tool for conducting business and marketing in addition to online socializing. </p>
                     <a href="social-media-on-dc.php" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
@@ -205,7 +210,7 @@ $seo_keywords = "CEO blogs, CEO articles, executive insights, industry vision, l
                     <figure>
                       <img src="dashboard/uploads/womens-day.png" alt="blog-img-2" width="450" height="248">
                     </figure>
-                    <h4>Gender Equity Today For A Sustainable Tomorrow</h4>
+                    <h3>Gender Equity Today For A Sustainable Tomorrow</h3>
                     <p><strong id=""></strong>Today, we are celebrating International Women's Day for the year 2023 hashtag#EmbraceEquity, which has marked the contribution of women in every sphere of our lives for more than a century, including the cultural, political, and socio-economic domains. </p>
                     <a href="gender-equity.php" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
@@ -222,7 +227,7 @@ $seo_keywords = "CEO blogs, CEO articles, executive insights, industry vision, l
                     <figure>
                       <img src="https://pidatacenters.com/uploads/8831Blog-banner-2.png" alt="blog-img-2" width="450" height="248">
                     </figure>
-                    <h4>Finding the ideal Data Center</h4>
+                    <h3>Finding the ideal Data Center</h3>
                     <!--<span class="date">09 Apr, 2022</span>-->
                     <p>The importance of Data Centers continues to increase as more businesses and individuals rely on them for data storage, processing, and access. </p>
                     <a href="data-center-reliability-and-scalability.php" class="read-more">Read More</a>
@@ -233,7 +238,7 @@ $seo_keywords = "CEO blogs, CEO articles, executive insights, industry vision, l
                                 <figure>
                                     <img src="https://pidatacenters.com/uploads/9764Economy needs inclusive growth from rural-India.png" alt="blog-img-2" width="450" height="248">
                                 </figure>
-                                <h4>$5T Economy Needs Inclusive Growth from Rural-India</h4>
+                                <h3>$5T Economy Needs Inclusive Growth from Rural-India</h3>
                                  <span class="date">09 Apr, 2022</span>
                                     
                                  </div>
@@ -245,7 +250,7 @@ $seo_keywords = "CEO blogs, CEO articles, executive insights, industry vision, l
                     <figure>
                       <img src="https://pidatacenters.com/uploads/2494Leadership is earned.png" alt="blog-img-2" width="450" height="248">
                     </figure>
-                    <h4>Leadership is Earned. It&#8217;s Neither a Promotion Nor a Pay Raise !</h4>
+                    <h3>Leadership is Earned. It&#8217;s Neither a Promotion Nor a Pay Raise !</h3>
                     <!--<span class="date">09 Apr, 2022</span>-->
                     <p>&#8220;A leader is one who knows the way, goes the way and shows the way.&#8221; The essence of good leadership lies in these golden words by John C. Maxwell. A leader is also someone who helps you find a way even if he doesn&#8217;t know the way.</p>
                     <a href="leadership-is-earned.php" class="read-more">Read More</a>
@@ -256,7 +261,7 @@ $seo_keywords = "CEO blogs, CEO articles, executive insights, industry vision, l
                                 <figure>
                                     <img src="https://pidatacenters.com/uploads/9764Economy needs inclusive growth from rural-India.png" alt="blog-img-2" width="450" height="248">
                                 </figure>
-                                <h4>$5T Economy Needs Inclusive Growth from Rural-India</h4>
+                                <h3>$5T Economy Needs Inclusive Growth from Rural-India</h3>
                                   <span class="date">09 Apr, 2022</span>
                                     
                                  </div>
@@ -268,7 +273,7 @@ $seo_keywords = "CEO blogs, CEO articles, executive insights, industry vision, l
                     <figure>
                       <img src="https://pidatacenters.com/uploads/4402The world before &amp; after covid.png" alt="blog-img-2" width="450" height="248">
                     </figure>
-                    <h4>The World Before and After COVID</h4>
+                    <h3>The World Before and After COVID</h3>
                     <p>Our global home has witnessed innumerable historical milestones across the ages, spanning political upheavals and wars to epidemics and pandemics. From the oldest recorded Typhoid Epidemic in 430 BC Athens</p>
                     <a href="world-and-COVID.php" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
@@ -282,7 +287,7 @@ $seo_keywords = "CEO blogs, CEO articles, executive insights, industry vision, l
                     <figure>
                       <img src="https://pidatacenters.com/uploads/2697blog-creative-1080x582-1.png" alt="blog-img-2" width="450" height="248">
                     </figure>
-                    <h4>Metaverse Influx Into Data Center Innovation</h4>
+                    <h3>Metaverse Influx Into Data Center Innovation</h3>
                     <p><strong id="docs-internal-guid-16a938fd-7fff-72db-2864-56143bb2ed92">Let&#8217;s talk about &#8216;Metaverses&#8217; First, let&#8217;s get a common misconception out of the way. There isn&#8217;t just one &#8216;Metaverse&#8217;. Let me elaborate. Metaverse&#8217; as a term was coined by author Neal Stephenson in his science-fiction novel &#8216;Snow Crash&#8217;, back in</strong></p>
                     <a href="metaverse-into-data-center-innovation.php" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
@@ -297,7 +302,7 @@ $seo_keywords = "CEO blogs, CEO articles, executive insights, industry vision, l
                     <figure>
                       <img src="https://pidatacenters.com/uploads/2710kiran.jpg" alt="blog-img-2" width="450" height="248">
                     </figure>
-                    <h4>Coal, Carriers, Chips & The Crisis</h4>
+                    <h3>Coal, Carriers, Chips & The Crisis</h3>
                     <p><strong id="docs-internal-guid-ac16cfe1-7fff-41ff-39cd-d0bac3e2a4b4">The economic turmoil caused by the COVID has significantly disrupted the ecosystem on the whole. The post-pandemic situation in India and other countries has been an eye opener on the significance of having a stable supply chain. I have chosen</strong></p>
                     <a href="coal-carriers-chips-and-the-crisis.php" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
@@ -311,7 +316,7 @@ $seo_keywords = "CEO blogs, CEO articles, executive insights, industry vision, l
                     <figure>
                       <img src="https://pidatacenters.com/uploads/9435ceo-blog.png" alt="blog-img-2" width="450" height="248">
                     </figure>
-                    <h4>Artificial Intelligence In Data Centers - The Way Forward</h4>
+                    <h3>Artificial Intelligence In Data Centers - The Way Forward</h3>
                     <p><strong id="docs-internal-guid-72c0243a-7fff-e5b6-ef2e-d2cfd3fa5fbc">Data centers have emerged as the lifeline for organizations when the 90s heralded a massive technology boom, spanning micro to macro businesses, across the globe. With the advent of technology-oriented businesses, came multi-layered data dependency. As new organizations demanded market space</strong></p>
                     <a href="artificial-intelligence-in-data-centers.php" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
@@ -325,7 +330,7 @@ $seo_keywords = "CEO blogs, CEO articles, executive insights, industry vision, l
                     <figure>
                       <img src="https://pidatacenters.com/uploads/1927kalyan-blog-1-pic.png" alt="blog-img-2" width="450" height="248">
                     </figure>
-                    <h4>India&#8217;s Data Center Infrastructure &#8220;The Key for Post COVID-19 Economic Era</h4>
+                    <h3>India&#8217;s Data Center Infrastructure &#8220;The Key for Post COVID-19 Economic Era</h3>
                     <p><strong id="docs-internal-guid-40e89254-7fff-c3b0-475b-7f4ca3703769">COVID-19 has definitely set in motion an unprecedented and extraordinary play of events in every sphere that involves humankind. Be it education, healthcare, technology, banking, entertainment, travel &amp; tourism or even something as ordinary as household shopping. These and other</strong></p>
                     <a href="data-center-infrastructure-post-COVID-19.php" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
@@ -340,7 +345,7 @@ $seo_keywords = "CEO blogs, CEO articles, executive insights, industry vision, l
                     <figure>
                       <img src="https://pidatacenters.com/uploads/1945B1_Blog.png" alt="blog-img-2" width="450" height="248">
                     </figure>
-                    <h4>India&#8217;s Data is its National Treasure that Needs Strict Data-Localization</h4>
+                    <h3>India&#8217;s Data is its National Treasure that Needs Strict Data-Localization</h3>
                     <p><strong id="docs-internal-guid-01b3fd7d-7fff-2cb6-a038-c1b8cbb02a3e">In February 2019, FireEye &#8216; a US cybersecurity firm &#8217; &#8216; zeroed in on a hacker tagged only as &#8216;fallensky519&#8217; who was on the Most Wanted List for stealing personal data of 6.8 million users from an Indian healthcare website.</strong></p>
                     <a href="data-localization.php" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
@@ -354,7 +359,7 @@ $seo_keywords = "CEO blogs, CEO articles, executive insights, industry vision, l
                     <figure>
                       <img src="https://pidatacenters.com/uploads/9764Economy needs inclusive growth from rural-India.png" alt="blog-img-2" width="450" height="248">
                     </figure>
-                    <h4>$5T Economy Needs Inclusive Growth from Rural-India</h4>
+                    <h3>$5T Economy Needs Inclusive Growth from Rural-India</h3>
                     <p><strong id="docs-internal-guid-a617d0e5-7fff-4857-9c5a-b4f39d644281">&#8220;India lives in its villages&#8221;, stated the father of the nation decades ago which still holds true. The Indian economy has been on a growth trajectory over the last couple of decades. Prime Minister Narendra Modi&#8217;s vision of making India</strong></p>
                     <a href="growth-from-rural-India.php" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->
@@ -368,7 +373,7 @@ $seo_keywords = "CEO blogs, CEO articles, executive insights, industry vision, l
                     <figure>
                       <img src="https://pidatacenters.com/uploads/8168PRO (3).jpg" alt="blog-img-2" width="450" height="248">
                     </figure>
-                    <h4>Top 10 Trends in Digital India 2019 &#8211; “ By Kalyan Muppaneni, Founder & CEO, Pi</h4>
+                    <h3>Top 10 Trends in Digital India 2019 &#8211; “ By Kalyan Muppaneni, Founder & CEO, Pi</h3>
                     <p><strong id="docs-internal-guid-51524d97-7fff-34c1-7a32-5e2379798beb">2019 is going to see a significant leap in the current digital India trends. Some of the technologies are already going mainstream. These life-enhancing smarter technologies will further boost our productivity and enhance our daily living conditions.&nbsp;</strong></p>
                     <a href="trends-in-digital-India.php" class="read-more">Read More</a>
                     <!--<span class="date">09 Apr, 2022</span>-->

@@ -57,7 +57,7 @@ $seo_keywords = "datacenter case studies, colocation, case studies, cloud soluti
                                     <figure>
                                         <img src="case_study_files/<?php echo $each ?>.png" alt="<?php echo $each ?>" width="450" height="248">
                                     </figure>
-                                    <h4><?php echo $each ?></h4>
+                                    <h2><?php echo $each ?></h2>
                                     <!-- <br> <br> -->
                                     <a href="#modal-1" onclick="document.getElementById('File_Downloaded').value = '<?php echo $each ?>';" class="download">Download case study</a>
                                 </div>
@@ -82,7 +82,7 @@ $seo_keywords = "datacenter case studies, colocation, case studies, cloud soluti
                 <div class="modal-body">
                     <div class=" row">
                         <div class="fill-your-details-cnt" style="width: 100%;">
-                            <h4>Fill Your Details</h4>
+                            <h3>Fill Your Details</h3>
                             <form onsubmit="return myFunction()" id="contactForm" action="https://clientele.techsters.in/public/api/client_forms" method="post">
                                 <input type="text" name="name" style="width: 100%;border-radius:5px" placeholder=" Full Name" required=""><br /><br />
                                 <input type="tel" name="number" style="width: 100%;border-radius:5px" placeholder=" Phone" pattern="[0-9]{10}" required=""><br /><br />
