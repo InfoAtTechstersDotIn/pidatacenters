@@ -7134,8 +7134,9 @@ top: 185px !important;
     .footer-about.footer-bg a {
         font-size: 8px;
         text-align: center !important;
-        line-height: 12px;
+        line-height: 9px;
         padding: 0 3px 0 6px;
+        vertical-align: top;
     }
 
     .top-foot ul {
@@ -7610,6 +7611,19 @@ top: 185px !important;
 
     .card-desc {
         font-size: 0.7rem !important;
+    }
+
+    .foot-menu li {
+        border-right: 1px solid grey !important;
+        height: 9px;
+    }
+
+    .new-changes {
+        display: block;
+    }
+
+    .footer-links ul li a svg {
+        margin-top: 0.3rem !important;
     }
 }
 

@@ -408,7 +408,7 @@ $seo_keywords = "cloud services, cloud hosting, cloud storage, cloud computing, 
     }
 
     .hb-boxCont>a>span>img {
-        max-width: 140px !important;
+        max-width: 200px !important;
     }
 
     .hb-boxCont>a>span:last-child {
@@ -1053,12 +1053,12 @@ $seo_keywords = "cloud services, cloud hosting, cloud storage, cloud computing, 
                   </a>
             </div>
         </div>-->
-            <ul class="list-inline hb-boxLists">
+            <ul class="list-inline hb-boxLists new-changes">
                 <li>
                     <div class="hb-boxCont text-center" style="min-height:auto">
                         <a href="javascript:void(0)" style="cursor: auto;">
                             <span>
-                                <img src="./pi-cloud/images/1.png" alt="data">
+                                <img src="images/iso-1.png" alt="data">
                             </span>
 
                         </a>
@@ -1069,7 +1069,7 @@ $seo_keywords = "cloud services, cloud hosting, cloud storage, cloud computing, 
                     <div class="hb-boxCont text-center" style="min-height:auto">
                         <a href="javascript:void(0)" style="cursor: auto;">
                             <span>
-                                <img src="./pi-cloud/images/2.png" alt="scale">
+                                <img src="images/pci-1.png" alt="scale">
                             </span>
 
 
@@ -1080,7 +1080,7 @@ $seo_keywords = "cloud services, cloud hosting, cloud storage, cloud computing, 
                     <div class="hb-boxCont text-center" style="min-height:auto">
                         <a href="javascript:void(0)" style="cursor: auto;">
                             <span>
-                                <img src="./pi-cloud/images/3.png" alt="scale">
+                                <img src="images/hipaa-1.png" alt="scale">
                             </span>
 
 
@@ -1091,7 +1091,7 @@ $seo_keywords = "cloud services, cloud hosting, cloud storage, cloud computing, 
                     <div class="hb-boxCont text-center" style="min-height:auto">
                         <a href="javascript:void(0)" style="cursor: auto;">
                             <span>
-                                <img src="./pi-cloud/images/4.png" alt="scale">
+                                <img src="images/tier-iv-1.png" alt="scale">
                             </span>
 
 
@@ -1102,7 +1102,7 @@ $seo_keywords = "cloud services, cloud hosting, cloud storage, cloud computing, 
                     <div class="hb-boxCont text-center" style="min-height:auto">
                         <a href="javascript:void(0)" style="cursor: auto;">
                             <span>
-                                <img src="./pi-cloud/images/5.png" alt="multi">
+                                <img src="images/stoc-1.png" alt="multi">
                             </span>
 
                         </a>
@@ -1112,7 +1112,7 @@ $seo_keywords = "cloud services, cloud hosting, cloud storage, cloud computing, 
                     <div class="hb-boxCont text-center" style="min-height:auto">
                         <a href="javascript:void(0)" style="cursor: auto;">
                             <span>
-                                <img src="./pi-cloud/images/6.png" alt="uptime">
+                                <img src="images/aicpa-1.png" alt="uptime">
                             </span>
 
                         </a>
