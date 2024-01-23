@@ -1087,7 +1087,7 @@
 
                         <div class="col-md-3 hide-copyright">
                             <div class="footer-copy-rights">
-                                <p>&#169; 2023 Pi DATACENTERS Pvt. Ltd.| All rights reserved. <a href="#" target="_blank" class="three-dm">Managed by Nayana Group</a></p>
+                                <p>&#169; 2024 Pi DATACENTERS Pvt. Ltd.| All rights reserved. <a href="#" target="_blank" class="three-dm">Managed by Nayana Group</a></p>
                                 <!--<p><a href="https://3dm.agency/" target="_blank" class="three-dm">Design and Developed by @3DM.agency</a></p>-->
                                 <!-- <p><a href="#" target="_blank" class="three-dm">Managed by Nayana Group</a></p> -->
 
