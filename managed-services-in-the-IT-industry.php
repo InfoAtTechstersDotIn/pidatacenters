@@ -45,7 +45,7 @@ if ($conn->connect_error) {
     <div class="case-block-main greenshape1 added-tags-blog">
 
       <img src="dashboard/uploads/2454blog-images.jpg" alt="blog-1-img" width="450" height="248">
-      <p></p>
+      <h2>Managed Services: Created a Great Buzz in the IT Industry</h2>
       <p dir="ltr">Managed services have generated significant buzz in the IT industry over the last few years. In this business model, managed service providers (MSP) viz. systems integrators and solution providers take over all or part of a customer’s technologies and manage them remotely or with a mix of remote and onsite support.</p>
       <p dir="ltr">Managed services has brought in the liberty for the customer to channel their resources towards their core business, while the MSP manages their IT, driving in operational excellence and cost optimization.</p>
       <p dir="ltr">With managed services being of varied pedigree, starting from remote monitoring, hosting, software distribution, to even data warehousing, the offerings surely does not mean the same to every customer.</p>

@@ -45,9 +45,12 @@ if ($conn->connect_error) {
 <!--board-of-directors starts here -->
 <div class="case-block">
   <div class="container">
-    <div class="case-block-main greenshape1">
+    <div class="case-block-main greenshape1 added-tags-blog">
 
       <img src="dashboard/uploads/1945B1_Blog.png" alt="blog-1-img" width="450" height="248">
+
+      <h2>India’s Data is its National Treasure that Needs Strict Data-Localization</h2>
+
       <p>In February 2019, FireEye – a US cybersecurity firm – zeroed in on a hacker tagged only as ‘fallensky519’ who was on the Most Wanted List for stealing personal data of 6.8 million users from an Indian healthcare website. A few months later, in October, a Singapore-based cybersecurity company – Group IB – spotted over 1.3 million credit and debit card details from Indian banks for sale at $100 apiece. A month later in November, Facebook and Twitter were the unlucky targets of malicious third-party apps who were stealing user data using One Audience and Mobiburn SDKs.</p>
       <p>What then do these nefarious data breaches predict for the future of data privacy and data security in our ever-evolving technological world? Who is to be held responsible for data maneuverability with criminal intent? Is it the user, the government’s regulatory laws, or just the fact that sensitive data is not always stored at the source of its birth but entrusted to foreign countries for safe-keeping?</p>
       <p>This is where data localization and data sovereignty come into the picture. Data localization is the act of physically storing data – electronic or otherwise – within the borders of the country where it was created. Data sovereignty is a symbolic concept which makes data subservient to the laws and governance structures of the country where it resides.</p>

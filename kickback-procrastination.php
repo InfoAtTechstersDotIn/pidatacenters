@@ -41,10 +41,11 @@ if ($conn->connect_error) {
 <!--board-of-directors starts here -->
 <div class="case-block">
   <div class="container">
-    <div class="case-block-main greenshape1">
+    <div class="case-block-main greenshape1 added-tags-blog">
 
       <img src="dashboard/uploads/468PRO.jpg" alt="blog-1-img" width="450" height="248">
 
+      <h2>How to Kickback Procrastination?</h2>
 
       <p>Being lazy is good, exciting and interesting. It is the best feeling always. Be lazy, be happy, stay in comfort. The word is procrastination, coined around 1588 A.D, but being widely used in 20th century. It is the after effects of laziness. Delaying things, missing targets, skipping deadlines, act of being lazy and repeating the same subconsciously.</p>
       <p>Bill Gates inspired millions around the globe, so was I among them. I was fascinated with his intelligence, quick response, thought process and ideology. Building products to reach every human and for greater sustainability of mankind was his foresight in every decision. Unfortunately, lately I was attracted towards his famous statement – “I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.”</p>

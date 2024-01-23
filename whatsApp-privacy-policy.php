@@ -43,9 +43,11 @@ if ($conn->connect_error) {
 <!--board-of-directors starts here -->
 <div class="case-block">
   <div class="container">
-    <div class="case-block-main greenshape1">
+    <div class="case-block-main greenshape1 added-tags-blog">
 
       <img src="dashboard/uploads/8111A1_1515-x-855.png" alt="blog-1-img" width="450" height="248">
+
+      <h2>What’s the Fuss (WTF), About this New WhatsApp Privacy Policy!!</h2>
 
       <p>Ok, so as we were moving closer to settling the score with COVID (hopefully the vaccine thing would work), I was thinking, what’snext getting the world’s attention …</p>
       <p>And BOOMMM!! We have WhatsApp and its data privacy fuss that gripped the world over night …</p>

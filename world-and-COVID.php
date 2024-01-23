@@ -48,9 +48,11 @@ if ($conn->connect_error) {
 <!--board-of-directors starts here -->
 <div class="case-block">
   <div class="container">
-    <div class="case-block-main greenshape1">
+    <div class="case-block-main greenshape1 added-tags-blog">
 
       <img src="dashboard/uploads/4402The world before &amp; after covid.png" alt="blog-1-img" width="450" height="248">
+
+      <h2>The World Before and After COVID</h2>
 
       <p>Our global home has witnessed innumerable historical milestones across the ages, spanning political upheavals and wars to epidemics and pandemics. From the oldest recorded Typhoid Epidemic in 430 BC Athens, a series of plagues between 165 AD and 541 AD, to Black Death in 1350, Cholera Pandemic in 1817, Spanish Flu in 1918 and the most recent ongoing COVID-19 pandemic, our planet has rolled out wave after wave of adversities on its inhabitants. From a political vantage point too, humankind has witnessed scores of battles for power, the most recent ones being the two World Wars and the 9/11 terror attack on the USA.</p>
       <p>If we were to travel from our planet’s Pre-Christ days to the modern 21st century, we would surely see how each event has had an impact on people in all aspects of life. From industrial revolutions to socio-economic transformations, human beings have always adapted towards self-preservation. Consider for example the G.I Generation of the early 1900s who lived through WW-I and WW-II. They have witnessed indescribable shifts in economy, livelihood, security, and lifestyle because of the devastating effects of two back-to-back wars. Especially after World War II, with the death of 4% (80 million) of the world’s 2 billion population, innumerable factories were destroyed in a bid to dismantle the economic viability of Europe and Asia. In fact, the aftermath of the Second World War is still impacting many peoples’ lives and political decisions around the globe, even though it is over 65 years to the day.</p>

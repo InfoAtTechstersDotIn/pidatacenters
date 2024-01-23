@@ -46,10 +46,33 @@ if ($conn->connect_error) {
 <!--board-of-directors starts here -->
 <div class="case-block">
   <div class="container">
-    <div class="case-block-main greenshape1">
+    <div class="case-block-main greenshape1 added-tags-blog">
 
       <img src="dashboard/uploads/48creative-1-1.png" alt="blog-1-img" width="450" height="248">
 
+      <p dir="ltr">Cloud technology offers diverse advantages to businesses to maintain the competitive streak. Management cost reduction, scaling of technology, achieving efficiency peaks and maintaining low cost of operations are a few advantages to count on. Business journalists indicate that data migration services are all slated to achieve a market capitalisation of 29 billion dollars by the end of 2022. </p>
+
+      <p dir="ltr">Businesses can conduct data migration enterprise cloud from their existing legacy infrastructure and derive the modern technological benefits of centralized data analysis using cloud technology. However, shifting of data comes with its own set of challenges. Let’s glance through some of the migration service challenges and explore the different ways to mitigate them. </p>
+
+      <h2>1. Identifying the key goals of the business organization </h2>
+      <p dir="ltr">The pivotal step that businesses face during ramping up their data migration process is to identify the different features and functionalities that they need to concentrate on. The next generation data migration services should not only enhance the efficiency factor but also be able to meet the enterprise’s objectives in a sustainable timeline. Business organizations need to understand the various knowledge process indicators and do their correct measurement. </p>
+
+      <h2>2. Assimilation of modern technology </h2>
+      <p dir="ltr">User adoption is a crucial factor which determines the quality of integration between the local applications and database migration service. It is essential for the businesses to get a holistic understanding of the various advantages of database migration services for flawless adoption. The various product teams of the enterprise should be able to demonstrate their capability in using the migration service at all levels of their business. The mental skill sets of every team member should be expanded so as to arrive at out of the box solutions for any technological issues during the infusion of the next generation cloud to their infrastructure. </p>
+
+      <h2>3. Achieving optimal quality and high performance </h2>
+      <p dir="ltr">The success of a smooth and flawless migration service is heavily dependent on the reliability, quality and performance parameters of the cloud application service. To ensure data integrity, selection of a competent and fit to purpose database migration service needs to be done. The crucial parameters of minimum downtime and swift access need to be placed on high priority before planning for a data migration. </p>
+
+      <h2>4. Anxiety issues spike with regards to data security and compliance </h2>
+      <p dir="ltr">The top management brain space is muddled with panic to ensure error-free data safety protocols between the incumbent IT Infrastructure and cloud . Data compliance and integrity are one of the key and vital obstacles that hinder proper cloud migration. The pertinent question which rises in the data architect’s mind is regarding the type of data that needs to be stored in the cloud. </p>
+      <p dir="ltr">Categorisation and classification of data along with their analogous storage services are an important component of maintaining data security. Management of secure access through standard encryption protocols is important to protect the financial information of the end customers through payment portals. Efficient data migration services guarantee a cloud infrastructure system that is compliant with the top industry standards which allows businesses run without hindrances. </p>
+
+      <h2>5. Overall cost should be recognised early in the operation </h2>
+      <p dir="ltr">Failure to correctly estimate the technical parameters of a job will result in increased data migration costs for the businesses. Data migration service should work around a robust and flexible cost structure that can be customized depending on the organization’s business dynamics . Data and IT architects recommend initiating the cloud migration with the least commonly used customer services. This ensures that in case of any unexpected events, disruption to the main line of business is kept minimal. Also, any errors can be acted and researched upon to ensure that the data migration service happens flawlessly. </p>
+
+      <h2>6. Legacy system migration </h2>
+      <p dir="ltr">Legacy systems are considered the structural backbone of the crucial operations of the business. The process of migrating legacy systems to the cloud is one of the challenging tasks of a data specialist. Businesses have to ensure that their teams are up to date in knowledge and skills to offer a swift and long-lasting answer when dealing with legacy systems. In such cases the usage of hybrid cloud is gaining momentum which contains a combination of legacy system and cloud applications. </p>
+      <p dir="ltr">An effectively planned data migration to cloud helps businesses implement its cloud strategy with a well-structured and risk-mitigated approach. It not only lays a base for continuous performance improvements, but also helps in adoption of cloud with agile business processes and quicker time to market. </p>
 
 
 

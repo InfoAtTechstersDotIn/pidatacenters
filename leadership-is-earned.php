@@ -46,10 +46,11 @@ if ($conn->connect_error) {
 <!--board-of-directors starts here -->
 <div class="case-block">
   <div class="container">
-    <div class="case-block-main greenshape1">
+    <div class="case-block-main greenshape1 added-tags-blog">
 
       <img src="dashboard/uploads/2494Leadership is earned.png" alt="blog-1-img" width="450" height="248">
 
+      <h2>Leadership is Earned. It’s Neither a Promotion Nor a Pay Raise !</h2>
       <p>
         “A leader is one who knows the way, goes the way and shows the way.” The essence of good leadership lies in these golden words by John C. Maxwell. A leader is also someone who helps you find a way even if he doesn’t know the way. Though our professional and personal experiences might condition us into believing that a leader is someone who controls, manages and issues instructions from a pedestal, the truth is quite surprising. Leaders can emerge from anywhere in the organization. They do not necessarily have to be managers or C-Level Executives. It could be your teammate or a fresher, who can excel as a leader and create a positive impact on the company’s ecosystem.</p>
       <p>Your value as a leader lies in the foresight, vision and energy with which you drive an idea towards reality. The idea could be simple, but the impact should be powerful and accepted well by majority of stakeholders. And the one significant quality that drives this acceptance is influence. Irrespective of the hierarchical position you hold, as a leader you must be able to leverage your people skills and demonstrate the value of the idea. The leader’s capacity to influence must transcend hierarchical authorities and make believers of everyone within the boundaries of communication.</p>

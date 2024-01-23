@@ -50,6 +50,19 @@
 
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
+    <!-- newly added chatbot script -->
+    <script>
+        (function(w, d) {
+            w.CollectId = "64ccede764532f27c3dc3bb2";
+            var h = d.head || d.getElementsByTagName("head")[0];
+            var s = d.createElement("script");
+            s.setAttribute("type", "text/javascript");
+            s.async = true;
+            s.setAttribute("src", "https://collectcdn.com/launcher.js");
+            h.appendChild(s);
+        })(window, document);
+    </script>
+
 </head>
 
 
@@ -73,7 +86,7 @@
         })(document, 'script');
     })('3P1w24dvX2J8mY5n');
 </script>
-<script>
+<!-- <script>
     (function(w, d) {
         w.CollectId = "64ccede764532f27c3dc3bb2";
         var h = d.head || d.getElementsByTagName("head")[0];
@@ -83,7 +96,8 @@
         s.setAttribute("src", "https://collectcdn.com/launcher.js");
         h.appendChild(s);
     })(window, document);
-</script>
+</script> -->
+
 
 <body>
 

@@ -979,6 +979,7 @@ $seo_keywords = "blogs, blog posts, blogs on colocation, blogs on data center, b
         }
     });
     $('.sub-close').on('click', function() {
+        localStorage.setItem('subscribed', false);
         $('.modal').hide();
     });
 </script>

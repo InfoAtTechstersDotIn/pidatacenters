@@ -6,6 +6,7 @@ $seo_keywords = "rent a rack, rack pricing, colocation racks, full rack colocati
 
 <?php include('php/includes-techsters/header.php'); ?>
 
+
 <style>
     .banners_content.gpu_hide {
         display: none;
@@ -79,11 +80,51 @@ $seo_keywords = "rent a rack, rack pricing, colocation racks, full rack colocati
 </style>
 <!-- main starts here -->
 
+<?php 
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require "./PHPMailer/src/PHPMailer.php";
+require "./PHPMailer/src/Exception.php";
+require "./PHPMailer/src/SMTP.php";
+
+if (isset($_GET['submit'])) {
+
+    $mail = new PHPMailer(true);
+    $mail->SMTPDebug = 0;
+    $mail->isSMTP();
+    $mail->Host = 'smtp.office365.com';
+    $mail->SMTPAuth = true;
+    $mail->Username = 'reachus@pidatacenters.com';
+    $mail->Password = 'a2&;m4A6gb#R/Qu';
+    $mail->SMTPSecure = 'tsl';
+    $mail->Port = 587;
+
+    $mail->setFrom('reachus@pidatacenters.com', 'Pi-Datacenters');
+    $mail->addAddress('reachus@pidatacenters.com', "Pi-Datacenters");
+
+    $message = "";
+    $message .= "<h3>Rent a Rack User Details</h3><br>";
+    $message .= "Name = " . $_GET['name']. '<br>';
+    $message .= "Email = " . $_GET['email'] . '<br>';
+    $message .= "Phone = " . $_GET['phone'] . '<br>';
+
+    $mail->isHTML(true);
+    $mail->Subject = 'Rent a Rack User Details';
+    $mail->Body = $message;
+
+    $mail->send();
+}
+
+?>
+
 <div class="about-banner">
     <div class="container">
         <div class="about-banner-blk pt-3">
             <!--  <img src="images/istockphoto-1356466745-612x612.jpg" alt="soc-banner" width="1920" height="210" style="max-width:612px;height:auto;margin:0 auto;">-->
             <!-- <h2>SOC</h2> -->
+            <?php if (!isset($_GET['submit'])) { ?>
             <div id="hide">
                 <ul class="slider-rent">
                     <li>
@@ -117,31 +158,32 @@ $seo_keywords = "rent a rack, rack pricing, colocation racks, full rack colocati
                 </ul>
 
                 <div class="container">
-                    <form class="rack-form">
+                    <form class="rack-form" action="rent-a-rack-pricing.php" methood="GET">
                         <p>For pricing information, kindly fill in the following details:</p>
                         <div class="row">
                             <div class="col-md-4">
                                 <label>Your Name</label><br>
-                                <input type="text" placeholder="Your Name" required>
+                                <input type="text" name="name" minlength="3" maxlength="100" placeholder="Your Name" required>
                             </div>
                             <div class="col-md-4">
                                 <label>Email Address</label><br>
-                                <input type="text" placeholder="Email Address" required>
+                                <input type="text" name="email" minlength="5" maxlength="100" placeholder="Email Address" required>
                             </div>
                             <div class="col-md-4">
                                 <label>Phone</label><br>
-                                <input type="tel" placeholder="Phone" required>
+                                <input type="tel" name="phone" pattern="[0-9]{10}" minlength="10" maxlength="10" placeholder="Phone" required>
                             </div>
                             <div class="col-md-4"></div>
                             <div class="col-md-4 my-3 sub-button">
-                                <button class="btn-submit">Submit</button>
+                                <input type="submit" value="Submit" class="btn-submit" name="submit">
                             </div>
-
                         </div>
                     </form>
                 </div>
             </div>
-
+            <?php } ?>
+            
+            <?php if (isset($_GET['submit'])) { ?>
             <div id="show">
                 <ul class="slider-rent">
                     <li>
@@ -182,6 +224,7 @@ $seo_keywords = "rent a rack, rack pricing, colocation racks, full rack colocati
                 </ul>
                 <center style="position: relative; top: -50px;font-size:10px;margin-left:75px">*All Prices are Excluding Convenience Fee & Taxes</center>
             </div>
+            <?php } ?>
         </div>
         <div id="myModal4" class="modal4">
             <span class="close4">x</span>

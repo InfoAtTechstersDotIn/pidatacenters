@@ -42,9 +42,11 @@ if ($conn->connect_error) {
 <!--board-of-directors starts here -->
 <div class="case-block">
   <div class="container">
-    <div class="case-block-main greenshape1">
+    <div class="case-block-main greenshape1 added-tags-blog">
 
       <img src="dashboard/uploads/2051PRO (4).jpg" alt="blog-1-img" width="450" height="248">
+
+      <h2>Decentralization of India’s Infrastructure</h2>
 
       <p>The early 2000’s saw a trend of rapid industrialization on Indian soil. Software, Information Technology, E-Commerce, Banking, Pharmaceuticals, Manufacturing, Trade, and several other types of domains, received a boost that had never been witnessed before. From our country’s leaders and decision-makers to the small-town professional – everyone accepted the outcomes of globalization eagerly and for the first time in decades, they dared to dream big. Growth and development meant there would be a lot more room for opportunities in every field, domain, and industry. They would bring with them economic, financial and social advancements. And that is exactly what happened.</p>
       <p>For a start, however, this unprecedented influx of industries and corporate establishments had to be accommodated. In response, cities extended their boundaries. They brought outlying towns and villages, which had lived independently up until then, into their fold. They were swept into the melee of unchecked growth and development, without warning, and the trend still continues to define our societal life.</p>

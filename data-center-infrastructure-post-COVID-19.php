@@ -44,9 +44,11 @@ if ($conn->connect_error) {
 <!--board-of-directors starts here -->
 <div class="case-block">
   <div class="container">
-    <div class="case-block-main greenshape1">
+    <div class="case-block-main greenshape1 added-tags-blog">
 
       <img src="dashboard/uploads/1927kalyan-blog-1-pic.png" alt="blog-1-img" width="450" height="248">
+
+      <h2>India’s Data Center Infrastructure ‘The Key for Post COVID-19 Economic Era</h2>
 
       <p>COVID-19 has definitely set in motion an unprecedented and extraordinary play of events in every sphere that involves humankind. Be it education, healthcare, technology, banking, entertainment, travel & tourism or even something as ordinary as household shopping. These and other related domains have mutated under the COVID touch. Whether these mutations have improved or deteriorated our way of life, depends on how we perceive them – As a breakdown of normal patterns or a breakthrough to build a more accessible technology-friendly world.</p>
       <p>Consider for example, a group of children in a remote village, from where the nearest school is dozens of miles away and is, for most part of the year, devoid of employed teachers. But as the COVID-entrenched world turns to e-classrooms for knowledge transfer, technology is already bringing in accessibility to each child, even in the remotest geographical corners. Or consider the crammed outpatient consultations in hospitals and private clinics that could cater to only a certain number of patients, a day in the pre-COVID era. Things have changed on its head with infusion of technology into these areas of basic needs.</p>
