@@ -41,41 +41,41 @@ if ($conn->connect_error) {
 <!--board-of-directors starts here -->
 <div class="case-block">
     <div class="container">
-        <div class="case-block-main greenshape1">
+        <div class="case-block-main greenshape1  added-tags-blog">
 
             <img src="dashboard/uploads/Parnership-with-oracle.png" alt="blog-1-img" width="450" height="248">
             <p></p>
             <p dir="ltr">In the dynamic landscape of cloud computing and data management, the partnership between Pi Datacenters and Oracle emerges as a paradigm of innovation and reliability. This collaboration brings forth a complete cloud solution, seamlessly integrating core and edge capabilities to fulfill the diverse expectations of users, including customers, partners, and employees. </p>
             <p dir="ltr">This also enables organizations to harness the power of cloud computing for enhanced scalability, security, and performance. The integrated solution offers a comprehensive suite of services, empowering businesses to streamline their operations and drive digital transformation. </p>
 
-            <p style="font-size: 25px;"><b>The Pi-Oracle Cloud Ecosystem </b></p>
-            <p><b>Core Infrastructure and Services: </b></p>
+            <h2>The Pi-Oracle Cloud Ecosystem </h2>
+            <h3 class="font-color">Core Infrastructure and Services: </h3>
 
             <p dir="ltr">Pi-Oracle Cloud Infrastructure offers a robust foundation with features tailored to address diverse workloads. From bare-metal and VM compute options to high-performance computing (HPC) and developer services, it provides a comprehensive suite for IT professionals, DevOps, administrators, and architects. The infrastructure spans low-code development with APEX, digital assistant services, and a full range of application development tools. </p>
 
-            <p><b>Cloud-Native Services and Ecosystems: </b></p>
+            <h3 class="font-color">Cloud-Native Services and Ecosystems: </h3>
             <p dir="ltr">Built for all workloads, Pi-Oracle Cloud Infrastructure ensures end-to-end security with complete hybrid and multi-cloud support. Cloud-native services and a vast ecosystem facilitate the easiest migration and deployment of enterprise applications. The infrastructure also supports autonomous services, ensuring superior price performance and a common console across functionalities. </p>
 
 
-            <p><b>Database and Storage Solutions: </b></p>
+            <h3 class="font-color">Database and Storage Solutions: </h3>
             <p dir="ltr">With a focus on data management, Pi-Oracle Cloud offers a spectrum of database options, including ATP, ADW, DBCS, and distributed databases like MySQL and Postgres. Storage solutions encompass NVMe, block, file, and object storage, ensuring a comprehensive approach to data handling. </p>
 
-            <p><b>AI Services and Big Data Integration: </b></p>
+            <h3 class="font-color">AI Services and Big Data Integration: </h3>
             <p dir="ltr">Pi-Oracle Cloud doesn't stop at infrastructure; it extends into the fields of AI services, big data, and analytics. From data science and text analytics to streaming and queueing, the ecosystem provides a holistic solution for organizations seeking innovative technologies. </p>
 
 
-            <p style="font-size: 25px;"><b>Pi-Oracle Cloud Triangle: Unleashing Potential </b></p>
-            <p><b>Private and Public Cloud On-Ramp: </b></p>
+            <h2>Pi-Oracle Cloud Triangle: Unleashing Potential </h2>
+            <h3 class="font-color">Private and Public Cloud On-Ramp: </h3>
             <p dir="ltr">The Pi-Oracle Cloud Triangle serves as a gateway to a dynamic cloud environment. It facilitates outsourcing hardware and software to Oracle Cloud Infrastructure, enabling data center consolidation and fostering digital transformation with global reach. </p>
 
-            <p><b>Managed Services and Security: </b></p>
+            <h3 class="font-color">Managed Services and Security: </h3>
             <p dir="ltr">Pi Datacenters, in collaboration with Oracle, offers managed services and security with operational efficiency. The partnership supports the 6 R's of cloud migration—Re-host, Re-platform, Repurchase, Retain, Retire, and Re-factor—ensuring a tailored approach to each organization's needs. </p>
 
 
-            <p><b>OCI Full Stack: </b></p>
+            <h3 class="font-color">OCI Full Stack: </h3>
             <p dir="ltr">Oracle Professional Services steps in to manage OCI workloads effectively. From foundational services to migration, provisioning, monitoring, and security management, the team ensures a seamless transition to the cloud. The focus on achieving organizational change and tangible business outcomes emphasizes the holistic approach to cloud adoption. </p>
 
-            <p style="font-size: 25px;"><b>Conclusion: Elevating Business with the Pi-Oracle Cloud </b></p>
+            <h2>Conclusion: Elevating Business with the Pi-Oracle Cloud </h2>
             <p dir="ltr">The Pi-Oracle Cloud partnership transcends traditional cloud solutions, offering a dynamic, secure, and scalable ecosystem for businesses of all sizes. Whether you're a financial institution, a major bank, or an educational giant, the collaborative efforts of Pi Datacenters and Oracle promise not just cloud services but a transformative journey toward efficiency, innovation, and business excellence. Embrace the future with the Pi-Oracle Cloud—the catalyst for your digital evolution. </p>
 
         </div>

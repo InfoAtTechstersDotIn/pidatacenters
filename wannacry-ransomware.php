@@ -41,7 +41,7 @@ if ($conn->connect_error) {
 <!--board-of-directors starts here -->
 <div class="case-block">
   <div class="container">
-    <div class="case-block-main greenshape1">
+    <div class="case-block-main greenshape1 added-tags-blog">
 
       <img src="dashboard/uploads/6180PRO (1).jpg" alt="blog-1-img" width="450" height="248">
 
@@ -50,12 +50,12 @@ if ($conn->connect_error) {
 
       <p>
         The “WannaCry” ransomware attack – one of the largest ever cyber attacks brought computer systems across the globe to their knees, locking people out of their data and demanding that they pay a ransom or lose everything. More than 200,000 computers (at its conservative best) in 150 countries have been affected. Russia and India are the most affected with victims including hospitals, banks, telecommunications companies and handful of federal organizations.</p>
-      <p>What is WannaCry and who is it targeting?</p>
+      <h2>What is WannaCry and who is it targeting?</h2>
       <p>These attacks, known in the cyber community as WannaCrypt or WannaCry, used a vulnerability in certain versions of Microsoft Windows to implant malicious software which encrypted user data files. Then the program puts up a screen demanding you pay money to get access back.</p>
-      <p>Also Read: <a href="https://pidatacenters.com/blog-details?id=13/blog_title=Demystifying_Goods_&amp;Services_Tax" style="display:inline-block">Demystifying Goods and Service Tax (GST)</a></p>
-      <p>Who got most affected? </p>
+      <p><b class="font-color">Also Read: </b><a href="demystifying-GST.php" style="display:inline-block" target="_blank" class="anchor-color">Demystifying Goods and Service Tax (GST)</a></p>
+      <h2>Who got most affected? </h2>
       <p>Two primary reasons, for being the target, are ‘out of date or un updated software’ and ‘pirated software’. Those establishments / service providers who acquire licenses through illegal channels or are procuring pirated softwares won’t patch softwares and are by definition out of date. Establishments which had an up-to-date software keeping, did not fall a prey to the attacks. </p>
-      <p>Is your data safe at Pi? </p>
+      <h2>Is your data safe at Pi? </h2>
       <p>At Pi we have aggressive testing and implementation procedures to ensure our operating systems and applications are always kept at the most current levels possible. Our in and out-bound communications are monitored 24X7 for malicious traffic, and every system operated by Pi is designed for sophisticated malware protection. Our Security Operations Centre, manned 24X7 throughout the year stands ready to respond at the first indication of a problem. This “defense in depth” is designed to provide redundant layers of protection and will keep you from ever having to “cry” over the loss of your data.</p>
       <p>Habour1™, Pi’s enterprise cloud platform, is Payment Card Industry Security Standard (PCI DSS) compliant; the standards apply to any or all entities that store, process or transmit information. Knowing that Pi has done everything it can to ensure the safety and security of data, customers need not worry about any potential vulnerability in the system.</p>
 

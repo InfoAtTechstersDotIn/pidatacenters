@@ -50,7 +50,7 @@ if ($conn->connect_error) {
 <!--board-of-directors starts here -->
 <div class="case-block">
   <div class="container">
-    <div class="case-block-main greenshape1">
+    <div class="case-block-main greenshape1 added-tags-blog">
 
       <img src="dashboard/uploads/9764Economy needs inclusive growth from rural-India.png" alt="blog-1-img" width="450" height="248">
       <p>“India lives in its villages”, stated the father of the nation decades ago which still holds true. The Indian economy has been on a growth trajectory over the last couple of decades. Prime Minister Narendra Modi's vision of making India a $5 trillion economy and a global economic powerhouse by 2024-25 is "challenging" but "realizable", stated the Finance Minister - Nirmala Sitharaman.
@@ -58,15 +58,15 @@ if ($conn->connect_error) {
       <p>However, for this national dream to be realized, India needs inclusive growth from its rural corners. It is imperative that all sectors across rural/urban India contribute to its full potential on various development projects through social, cultural and technological transformations. India has one billion populations and there needs to be a way to make every single citizen of India a stakeholder in this economic growth, to be able to reach the audacious goal of a $5T economy. Youths across rural India need to play a significant role in this economic journey just like their counterparts across the major cities. Only when rural India contributes to its full potential, can we realize the $5T dream.</p>
       <p>So, is this doable? And if yes, then what is the way forward? In order to attain the $ 5T economy dream, we need to power up both the Digital and Physical Infrastructure of rural geographies equally.</p>
 
-      <h3>Digital Infrastructure</h3>
+      <h2>Digital Infrastructure</h2>
       <p>As India gears up for an era of increased digitalization, the issue of holistic and inclusive economic growth remains a pivotal concern. Digital India – a program launched to transform India into a digitally empowered society and knowledge economy, is gradually taking a steer from all angles. Has Digital India really reached the last mile?</p>
       <p>Few of the digital initiatives like DigiLocker, MyGov, and e-Sign services were executed. But the question is, how many are in the loop. Post demonetization, the country witnessed precipitous adaptation to digital payments. While shopping and paying bills can now be easily performed online using a smartphone, people in rural areas still find it more convenient to use cash for daily transactions. According to IAMAI, only 16% of users from rural India have accessed the internet for digital payments until now. Moreover, some perceive the internet pertinent to people who are educated enough to use mobile phones or to make transactions with large sums of money. The advantages of a few other initiatives like Video Conferencing Solutions, E-commerce, Content delivery platforms, digital classrooms, et.al have still not reached the rural population. </p>
       <p>Today, the internet has become a necessity and not an option. Affordable bandwidth (wired & wireless), digital awareness, and intuitive delivery medium must be implemented in order to rule out the rural-urban divide.</p>
       <p>Digital technologies will transform the global flow of goods, services, money, and people. According to analysts, the digital India plan could boost the country's GDP significantly. These digital initiatives in rural-India will play a major role in India becoming a $5T economy.</p>
-      <h3>Physical Infrastructure</h3>
+      <h2>Physical Infrastructure</h2>
       <p>Even today, the quantity and quality of the infrastructure facilities are substantially lower in rural areas than in urban areas. There must be an improvement in basic infrastructures, such as roads, transport, electricity, communications, healthcare, water and sanitation for the development and well-being of the rural population. Seamless connectivity to the core national highway network will create decentralized development corridors. Even today, it takes several days to reach many places in India. Decentralization is indeed the need of the hour.</p>
       <p>Air travels are not luxury anymore but an economic necessity for business. There must be seamless regional air connectivity from Tier 1 to Tier-II & III cities to travel from one business corridor to another seamlessly.</p>
-      <h3>Conclusion</h3>
+      <h2>Conclusion</h2>
       <p>There is no denying the fact that there is an urgent need to boost India’s rural economy. This will foster inclusive economic growth, enhance the standard of living, reduce the discrepancy between the rural and urban India, and narrow the gap between the rich and the poor. A special focus to make rural India a key stakeholder in all sectors of economic activity will enable a significant contribution to India’s dream of a $5T economy. </p>
       <p>India’s population, while perceived as a weakness, can catapult India to a $5T economy if taken advantage of its potential. Reaching a $5T economy without inclusive growth from rural India will further widen the gap between the rich and the poor. Time to architect a comprehensive Rural-India inclusive growth strategy.</p>
 

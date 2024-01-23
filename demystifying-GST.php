@@ -42,11 +42,11 @@ if ($conn->connect_error) {
 <!--board-of-directors starts here -->
 <div class="case-block">
   <div class="container">
-    <div class="case-block-main greenshape1">
+    <div class="case-block-main greenshape1 added-tags-blog">
 
       <img src="dashboard/uploads/2SNOW-Spring-OPEN-TRAILS-992F200-OPEN-LIFTS-132F37-SNOW-DEPTH-198cm-BASE-198cm-SUMMIT.png" alt="blog-1-img" width="450" height="248">
       <p></p>
-      <h1 dir="ltr" style="color: #000;">Goods and Services Tax (GST) is the latest buzz in Indian commerce today.</h1>
+      <h2>Goods and Services Tax (GST) is the latest buzz in Indian commerce today.</h2>
       <p dir="ltr">To explain simply, Goods and Services Tax (GST) is a comprehensive tax levied on manufacture, sale and consumption of goods and services at a national level. Through a tax credit mechanism, this tax is collected on value-added goods and services at each stage of sale or purchase in the supply chain</p>
       <p dir="ltr">Globally more than 75% countries have adopted GST legislation to streamline their taxes on products and services.&nbsp; All OECD* countries (except US) follow GST tax model as the general standard for taxing their products and services.</p>
       <p dir="ltr">This landmark legislation took more than 7 years to become a reality.&nbsp; The clash of ego amongst the Indian mainstream political diaspora, coupled with the lack of clarity and consensus on various legislative aspects and the supposed loss of revenues to states contributed to the delay. Does GST mean that we have a new tax in addition to various taxes we already have?&nbsp; The answer is no.&nbsp; What does this all mean to a common man on the street?&nbsp; Let us understand in detail.</p>

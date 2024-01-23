@@ -43,27 +43,27 @@ if ($conn->connect_error) {
 <!--board-of-directors starts here -->
 <div class="case-block">
   <div class="container">
-    <div class="case-block-main greenshape1">
+    <div class="case-block-main greenshape1 added-tags-blog">
 
       <img src="dashboard/uploads/9435ceo-blog.png" alt="blog-1-img" width="450" height="248">
       <p>Datacenters have emerged as the lifeline for organizations when the 90s heralded a massive technology boom, spanning micro to macro businesses, across the globe. With the advent of technology-oriented businesses, came multi-layered data dependency. As new organizations demanded market space and existing ones expanded, a proportionate evolution of the need of data management, complete with hardware and software necessities, also grew. This new market trend beckoned innovative breakthroughs in the form of Internet of Things (IoT), Artificial Intelligence (AI), Blockchain, and others.</p>
       <p>But the best was yet to come. And it did, under cover of the novel Coronavirus. Covid-19 wrapped a stifling cloak over all business markets around the world, preventing people from physically assembling under one roof and, instead, locked them up at homes to work remotely. Companies developed new ways of conducting business both locally and globally, as consumers resorted to online buying and cashless transactions. This led to an unpredicted rise in data consumption, catalysed further by a plethora of interconnected devices and applications that came into the picture.</p>
       <p>If this was the early 90s, when datacenters were just large rooms filled with networked micro-computers, data management would have been a nightmarish disaster. Thankfully, datacenter infrastructure has adapted to the increasingly networked world of today. Therefore, we can expect more from technologically modern ambience, which boasts of application hosting, portable design, as well as power and cooling efficiency.</p>
-      <p>Powering Data centre Efficiency the AI / ML Way</p>
+      <h2>Powering Data centre Efficiency the AI / ML Way</h2>
       <p>But there is more to this technological metamorphosis that’s perking up everybody’s interests. And there are just two words for it – Artificial Intelligence! In an age when AI is the popular answer to hundreds of domestic, industrial, and professional amenities, why shouldn’t datacentres be in the groove? In fact, business leaders will find it worthwhile if they rapidly align their corporate landscapes with the inescapable increase of data demands if they want to embrace the future profitably.</p>
       <p>AI is already re-defining datacentre management by factoring in new efficiencies in human effort, operations, workload distribution, and energy management, by using a clever combination of automation, machine learning, and predictive analysis.</p>
-      <p>Artificial Intelligence and Human intelligence</p>
+      <h2>Artificial Intelligence and Human intelligence</h2>
       <p>In their days of simplicity, even the most high-end datacentre could be run by just a few qualified professionals. But with the increased complexity in datacentre demands, datacentres must now allow an automated culture to take over. The reason for this is not human ineptitude, but so that professionals can invest their expertise in more demanding activities of DC management. Automation also allows companies to cut down on their staffing requirements and invest human resources in other areas. While AI can be used in automation, human intelligence can be used in R&D and, in times like Covid, human dependency can be curbed without sacrificing efficiency. Also, AI can then take centre stage in DC management where human resources are limited.</p>
-      <p>Overcoming Operational Unpredictability</p>
+      <h2>Overcoming Operational Unpredictability</h2>
       <p>Downtime – a word which spells customer dissatisfaction; loss of revenue, credibility and reputation; and even possible client loss. But businesses can turn tables in their favour by introducing AI powered Machine Learning and Predictive Analysis to create channels for long-term sustenance and profitability. Predictive analytics are crucial to a proactive business approach which can help servers develop and improve upon their innate intelligence to predict highs and lows of consumer demand accurately and dictate efficiency protocols to mitigate downtime risks.
 
       </p>
-      <p>Handling Workloads Efficiently</p>
+      <h2>Handling Workloads Efficiently</h2>
       <p>With the help of AI, organizations can also optimize their server performance by devising productive ways of disk utilization, network bandwidth, etc. When these tasks were performed by human-generated algorithms, workload distribution posed several inefficiencies, which can depreciate operational viability of the company. With AI, data-processing operations across 1000s of servers is possible with minimal human intervention.</p>
-      <p>Bolstering Energy Management</p>
+      <h2>Bolstering Energy Management</h2>
       <p>The biggest battle a traditional datacentre faces is that of energy consumption. An enormous quantity of power is utilised in running a server’s computational and storage functions. The silent killers, however, are the cooling systems which are essential in maintaining workable temperatures within the infrastructure for glitch-free operations. However, introducing AI into this traditional datacentre setup, the result can be overwhelming – double digit percentage reduction in cooling without lowering server performance saving millions of dollars in energy costs every year.</p>
       <p>AI can also optimize datacentre design and utilization by identifying frequency of application usage, determining the most efficient way for performing tasks, demarcating applications which consume most power, and so on.</p>
-      <p>Creating Intelligent DC Infrastructure – The Way Forward</p>
+      <h2>Creating Intelligent DC Infrastructure – The Way Forward</h2>
       <p>Given the numerous ways in which AI, ML, and Predictive Analytics can empower business management and profitability, it is easy to see why companies are rapidly embracing these technologies and customizing them further to suit their own unique business needs. Surely AI-dependent datacenters explorations is the way forward and is already the new baseline by which organizations are going to measure their growth and sustainability.</p>
 
 

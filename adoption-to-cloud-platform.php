@@ -41,14 +41,14 @@ if ($conn->connect_error) {
 <!--board-of-directors starts here -->
 <div class="case-block">
   <div class="container">
-    <div class="case-block-main greenshape1">
+    <div class="case-block-main greenshape1 added-tags-blog">
 
       <img src="dashboard/uploads/1947Industry-Adoption-to-Cloud-Platform-1.png" alt="blog-1-img" width="450" height="248">
       <p></p>
-      <h2 dir="ltr">Cloud Platform: Market intelligence today shows a constant rise in public cloud IaaS revenues at a 28.2% CAGR from 2015-2020, from $12.6 billion to $43.6 billion.</h2>
+      <h2>Cloud Platform: Market intelligence today shows a constant rise in public cloud IaaS revenues at a 28.2% CAGR from 2015-2020, from $12.6 billion to $43.6 billion.</h2>
       <p dir="ltr">The staggering hike in numbers owes to the fact that nearly 2/3 of more than 6,000 IT organizations surveyed have either already adopted to or planning to use public cloud <!--<a href="https://pidatacenters.com/products-pi-data-centers/self-service-provisioning/iaas-infrastructure-as-a-service/">-->IaaS<!--</a>--> by the end of the year.</p>
       <p dir="ltr">The growth trend for public <!--<a href="https://pidatacenters.com/products-pi-data-centers/self-service-provisioning/iaas-infrastructure-as-a-service/">-->cloud IaaS<!--</a>--> has been a constant evidence of growing adoption for the same. The rate stood at around 51% in 2015 and is predicted by research biggies to be around 41% this year and in 2017.</p>
-      <h2 dir="ltr">Why the drop in rate?</h2>
+      <h2>Why the drop in rate?</h2>
       <p dir="ltr">The cloud solution range has widened the options for organizations today, to choose from, for better optimization.</p>
       <p dir="ltr">The solution stack around managed private cloud services continues to improve as the industry/application/organization specific requirements lead the course. Owing to the same, the public cloud use is being optimized, causing a narrowed growth rate.</p>
       <p dir="ltr">Enterprise-scale organizations today, are also taking the path of a hybrid cloud infrastructure for a higher optimization. Researches show 80 % of IT organizations would adopt a hybrid cloud strategy by 2018.</p>

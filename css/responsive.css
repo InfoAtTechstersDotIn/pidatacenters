@@ -7206,6 +7206,15 @@ top: 185px !important;
         font-size: 25px;
         line-height: 30px;
     }
+
+    .added-tags-blog h3 {
+        font-size: 18px;
+        line-height: 1.5rem;
+    }
+
+    .case-block .added-tags-blog h2 {
+        padding: 0px 0;
+    }
 }
 
 
@@ -7649,6 +7658,10 @@ top: 185px !important;
 
     .board-of-directors-in h3 {
         font-size: 27px;
+    }
+
+    .privacy-policy-main h3 {
+        font-size: 18px;
     }
 }
 

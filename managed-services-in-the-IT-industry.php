@@ -42,7 +42,7 @@ if ($conn->connect_error) {
 <!--board-of-directors starts here -->
 <div class="case-block">
   <div class="container">
-    <div class="case-block-main greenshape1">
+    <div class="case-block-main greenshape1 added-tags-blog">
 
       <img src="dashboard/uploads/2454blog-images.jpg" alt="blog-1-img" width="450" height="248">
       <p></p>
@@ -50,7 +50,7 @@ if ($conn->connect_error) {
       <p dir="ltr">Managed services has brought in the liberty for the customer to channel their resources towards their core business, while the MSP manages their IT, driving in operational excellence and cost optimization.</p>
       <p dir="ltr">With managed services being of varied pedigree, starting from remote monitoring, hosting, software distribution, to even data warehousing, the offerings surely does not mean the same to every customer.</p>
       <p dir="ltr">Industry demand for managed services is at an all-time high owing to</p>
-      <ol>
+      <ol type="1">
         <li dir="ltr" role="presentation">Customers’ understanding of the significance of specialized services.</li>
         <li dir="ltr" role="presentation">Cost factor playing a significant role.</li>
         <li dir="ltr" role="presentation">Optimum utilization of customer’s existing resources.</li>

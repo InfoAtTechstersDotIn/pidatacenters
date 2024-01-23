@@ -147,7 +147,8 @@ $seo_keywords = "blogs, blog posts, blogs on colocation, blogs on data center, b
                         <p></p>
                         <p><strong id="docs-internal-guid-3a909168-7fff-85f0-b0d7-6b3b1cb909b3">In the dynamic landscape of cloud computing and data management, the partnership between Pi Datacenters and Oracle emerges as a paradigm of innovation and reliability.</strong></p>
                         <p></p>
-                        <a href="Pi-oracle-strategic-partnership.php" class="read-more">Read More</a>
+                        <a href="Pi-oracle-strategic-partnership.php" href="transforming-business-dynamics-the-pi-oracle-strategic-partnership.php" class="read-more">Read More</a>
+                        <!--  onclick="window.open('transforming-business-dynamics-the-pi-oracle-strategic-partnership.php')"  -->
                         <!--<span class="edit">Posted by Admin in Cloud Managed Services, Data Center</span>-->
                         <!--<p><small>Share</small> 0 comment</p>-->
                     </div>

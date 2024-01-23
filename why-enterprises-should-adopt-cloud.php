@@ -41,34 +41,34 @@ if ($conn->connect_error) {
 <!--board-of-directors starts here -->
 <div class="case-block">
   <div class="container">
-    <div class="case-block-main greenshape1">
+    <div class="case-block-main greenshape1 added-tags-blog">
 
       <img src="dashboard/uploads/5452PRO (2).jpg" alt="blog-1-img" width="450" height="248">
 
       <p>Having spent the last couple of months with experts in the industry and talking to many customers, I thought I will make a humble attempt to put together a few points on why enterprises should adopt cloud on a robust infrastructure base of a professional Data Center. A dozen reasons for you to choose from!</p>
-      <p><b>1. CapEx to OpEx</b></p>
+      <h2>1. CapEx to OpEx</h2>
       <p>With your infrastructure on the cloud, you are freed up from huge Capex spendings. You can now leverage the huge infrastructure available with cloud players and convert your spending to Opex with the desired frequency.</p>
-      <p><b>2. Scale at Will</b></p>
+      <h2>2. Scale at Will</h2>
       <p>You can start with your bare minimum requirement and scale up and down as per the need. That’s the beauty of having your infrastructure on the cloud. Keep your focus on scaling the business and your cloud provider will take care of scaling your infrastructure for your business.</p>
-      <p><b>3. Pay As You Go (PAYG)</b></p>
+      <h2>3. Pay As You Go (PAYG)</h2>
       <p>Cloud services are offered in PAYG model where the users are charged based on their usage, perhaps hourly, per minute etc. You don’t have to lock yourself and pay for something you don’t need, and you don’t use. You are free to provision resources during peak time and de-provision it when it’s no more required. (eCommerce sites leverage this during holiday sales). Industry averages tell that across the globe, on-premise infrastructure utilization is around 15%, can you believe this!</p>
-      <p><b>4. Time-To-Market</b></p>
+      <h2>4. Time-To-Market</h2>
       <p>With cloud computing, you can push your product or services quickly to the market. This is the time for you, to include “cloud first” in your “Go to market” strategy as it removes obstacles and lowers entry barriers irrespective of the scale of your business.</p>
-      <p><b>5. Security</b></p>
+      <h2>5. Security</h2>
       <p>There are multiple myths concerning the security of applications/data on the cloud. We have seen many enterprises suffering recently due to virus attacks in their own premises. Cloud operators today, take extra care in every possible form. By deploying various security measures at Network, Server levels and physical levels, they ensure that their customers’ data is highly and rightly secured. While the fear of a CIO/CTO is understandable, it’s only the trust issue and not the technology issue!</p>
-      <p><b>6. High Availability</b></p>
+      <h2>6. High Availability</h2>
       <p>Cloud technologies and solutions are evolving every day ensuring real-time and high data availability round the clock & 365 days. For example, Cloud Services deployed on Tier IV Datacenter commits 99.995% availability today.</p>
-      <p><b>7. Disaster Recovery</b></p>
+      <h2>7. Disaster Recovery</h2>
       <p>Most of the enterprises today, do not have a DR strategy, owing to costs and lack of knowledge. We have seen in the very recent past, losses suffered by organizations, for lack of a DR. Hence DR on the cloud, with the right cloud partner thus comes as an aid to you, to educate and design the right strategy for your business, at a significantly lower TCO.</p>
-      <p><b>8. Leverage Technology</b></p>
+      <h2>8. Leverage Technology</h2>
       <p>With your infrastructure and applications hosted on the cloud, you are in the ecosystem where there is continuous innovation available on a click. Many technology advancements are taken care of and implemented by your cloud partner</p>
-      <p><b>9. Different Skills</b></p>
+      <h2>9. Different Skills</h2>
       <p>Easily you must have more than 10+ different skilled personnel to ensure you cover every part of your on-premise infrastructure. This is again an overhead and productivity deterrent while you want to focus on your business and skills required to enhance your business. The ease of operation of a cloud is significantly high when compared to an on-premise physical infrastructure.</p>
-      <p><b>10. Multiple Vendors</b></p>
+      <h2>10. Multiple Vendors</h2>
       <p>Can you imagine how many vendors you must deal in negotiations, ensuring SLA’s are met etc by having your infrastructure on-premise? Easily 10+, do you want to do that instead of focussing on your business and leave everything to your cloud partner.</p>
-      <p><b>11. Let The Experts Handle</b></p>
+      <h2>11. Let The Experts Handle</h2>
       <p>Most of the organizations have their own IT teams and they want to have their infrastructure in their own premises as they feel that they are capable of handling and are in control. Yes, they are but the only element they miss out is the experience and the best practices that Cloud operators bring in by handling hundreds of customers day in day out. </p>
-      <p><b>12. Eco-Friendly</b></p>
+      <h2>12. Eco-Friendly</h2>
       <p>Finally, there are enterprises who are looking to move to the cloud to have a tick-mark on being Eco-friendly and reduce the carbon footprint as Cloud servers are optimally used. You can compare the PUE metric between your premise and cloud operator to see it for yourself. If we must believe the research, moving all or part of a large organization’s business to the cloud would lower the CO2 emissions by 3000 metric tonnes within 5 years, which is equivalent to 6000 cars off the road.</p>
 
 

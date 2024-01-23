@@ -45,28 +45,28 @@ if ($conn->connect_error) {
 <!--board-of-directors starts here -->
 <div class="case-block">
   <div class="container">
-    <div class="case-block-main greenshape1">
+    <div class="case-block-main greenshape1 added-tags-blog">
 
       <img src="dashboard/uploads/2710kiran.jpg" alt="blog-1-img" width="450" height="248">
       <p>The economic turmoil caused by the COVID has significantly disrupted the ecosystem on the whole. The post-pandemic situation in India and other countries has been an eye opener on the significance of having a stable supply chain.</p>
       <p>I have chosen three important categories that explain the fragility of the complex global supply chain.</p>
-      <p><b>1.Coal Shortage and Energy Crisis</b></p>
+      <h2>1.Coal Shortage and Energy Crisis</h2>
       <p>Since the post-pandemic scenario, the power consumption in India jumped by almost 17% in the last 2 months in comparison to the same period during 2019. The country’s 135 coal fired power plants supply 70% of India’s electricity. To overcome the crisis, we need to use a mix of coal and clean sources of energy.</p>
       <p>Shortages in power supply can lead the country into a deep and wide crisis leading to dire consequences and even a possible blackout. India recently had a close call due to coal shortages.</p>
       <p>Eliminating external dependencies on imports and shifting focus on natural resources and green energy supplies like wind, solar and hydro power can help us in the long run to overcome the crisis. Innovative approaches should be adopted that will aid during catastrophic risk events.</p>
       <p>With 70% of the consumption powered by coal, is India ready for this challenge? The answer is – YES. Over the next 10 years India should move toward a model where 100% of the India’s power production is not dependent on imports. India should move towards a 75% clean energy model.</p>
-      <p><b>2. Semiconductor Chip Shortage</b></p>
+      <h2>2. Semiconductor Chip Shortage</h2>
       <p>Chips/microprocessors are tiny components that go into many of the items we use on a daily basis such as smartphones, Laptops, refrigerators, automobiles etc. This is a valuable component and its demand spiked due to increased consumption during and post COVID.</p>
       <p>Why the shortage? The demand has been outstripping supply. There’s a significant shortage in mass production of chips due to COVID. These chips are made at huge fabs or foundries as they’re otherwise known. The production is made way ahead of time based on future projected demand and any changes to those demand/supply cycles due to sudden increase in demand would create imbalance just like in the case of COVID. Thus, causing the shortage.</p>
       <p>People are in the perception that semiconductor market is one single market but the fact is there are 20 to 30 separate markets that are oriented by technology. A typical Design and Manufacturing cycle of chips typically takes close to a year or more and involves giant fabs, and several billions in investments. To make matters worse, chip factories themselves have also been hit by the lockdowns during the pandemic.</p>
       <p>There are two ways in which this crisis is solved- First one is we build more factories, typically to build a new factory, it takes about 3-4 years so there is some new capacity that’s coming online. India needs to seriously get into semiconductor manufacturing. India is discussing this topic for almost 25 years with very minimal progress even towards the first step. In the short term if we start seeing demand for PCs, smartphones, and servers decline as people go back to work, that’s another way to solve this crisis, maybe a bit faster.</p>
       <p>Over the next 5 to 10 years India should be self-reliant (Local manufacturing). With so much talent and young work force and favorable manufacturing incentives and policies India needs to have a strong roadmap to manufacture chips locally in India and even export. Just like how Make in India cars are being exported from India.</p>
-      <p><b>3. Carriers – Global Supply chain complexity</b></p>
+      <h2>3. Carriers – Global Supply chain complexity</h2>
       <p>In the recent past supply chains worldwide has come to its knees due to various issues. One such example is caused by the container ship that got stuck in the Suez canal that blocked thousands of ships for many days. This one incident had proved how dependent the countries have become on the worldwide supply chain.</p>
       <p>India needs to create its own local supply chain for all types of raw material that goes into food to electronics and create local green supply chain. India should remove dependency on imported coal to avoid major catastrophize that could be a result of many reasons including geo political issues.</p>
       <p> Enabling local manufacturing can really cut down on external dependency. It’s imperative that India, in the next 10 years, gets self-sustained and makes use of the local supply chain infrastructure. The time taken to import certain complex goods like electronics and servers take 10 to 12 weeks which should be reduced to less than 3 weeks if produced locally.</p>
       <p>Such approaches will have a powerful impact on the supply chain. India has the skill and tools to overcome issues and bring more positive impact when the country grapples to overcome such challenges.</p>
-      <p><b>Conclusion-</b></p>
+      <h2>Conclusion</h2>
       <p>It’s about time India holistically becomes as self-reliant as possible. Especially for essential commodities that runs our life on a daily basis. The recent issues with coal shortages to chip shortages could have had a catastrophic impact on Indian economy, India had a very close call and time to reflect with action.</p>
       <p>India has the natural and human resources and is a technology power house (if it actually leverages its potential). If India can manufacture COVID vaccine locally why not Chips and the rest.</p>
       <p>I look forward to a self-reliant India that pushes a green supply chain into action!!</p>

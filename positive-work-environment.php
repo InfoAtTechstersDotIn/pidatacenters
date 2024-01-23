@@ -41,7 +41,7 @@ if ($conn->connect_error) {
 <!--board-of-directors starts here -->
 <div class="case-block">
   <div class="container">
-    <div class="case-block-main greenshape1">
+    <div class="case-block-main greenshape1 added-tags-blog">
 
       <img src="dashboard/uploads/486Positive-Work-Environment-Boosts-the-Productivity.jpg" alt="blog-1-img" width="450" height="248">
       <p></p>
@@ -52,14 +52,14 @@ if ($conn->connect_error) {
       <p dir="ltr">According a meta-analysis of 225 academic studies, done by Sonja Lyubomirsky and team, it was found that happy employees have, on average, 31% higher productivity; their sales are 37% higher; their creativity is three times higher¹.</p>
       <p dir="ltr">What makes an employee happy is not just the monetary benefit out of his/her work but the work itself along with the work culture. It is on every person working for the organization to put efforts in making it the best place to work, for each of his colleagues, sub ordinates, officials and of course himself.</p>
       <p dir="ltr">What constitutes a best work place, never has horizons and can never limit to few points. But many researches say that a positive work environment is what every employee dreams of.</p>
-      <p dir="ltr">Let us double click on ‘positive work environment’.</p>
-      <p dir="ltr">What It is not:</p>
+      <h2 dir="ltr">Let us double click on ‘positive work environment’.</h2>
+      <h3 dir="ltr">What It is not:</h3>
       <ul>
         <li dir="ltr" role="presentation">This is not mere ‘head nodding’ or ‘acceptance to every act of the employee’. Neither is to never say no.</li>
         <li dir="ltr" role="presentation">It is not about ‘no rules and no discipline’.</li>
         <li dir="ltr" role="presentation">It is not just about a ‘high pay’ and more team outings</li>
       </ul>
-      <p>But:</p>
+      <h3 dir="ltr">But:</h3>
       <ul>
         <li dir="ltr" role="presentation">It is about the happiness and satisfaction an employee gets stepping in for work each day.</li>
         <li dir="ltr" role="presentation">It is about the smile which is passed on and little gestures to make each other happy.</li>
@@ -75,11 +75,12 @@ if ($conn->connect_error) {
         <li dir="ltr" role="presentation">It is about openness to learn from your surroundings.</li>
         <li dir="ltr" role="presentation">It is about acceptance with a responsibility towards each others growth.</li>
       </ul>
-      <p dir="ltr">The role of leadership : “Outstanding leaders go out of their way to boost the self esteem of their personnel. If people believe in themselves, its amazing what they can accomplish. “ – Sam Walton.</p>
+      <h3 dir="ltr">The role of leadership : </h3>
+      <p dir="ltr">“Outstanding leaders go out of their way to boost the self esteem of their personnel. If people believe in themselves, its amazing what they can accomplish. “ – Sam Walton.</p>
       <p dir="ltr">Leadership is not about being authoritative but about leading by example. People follow them and their deeds. They should give a positive inspiration to many young brains and great talents.They should realize the importance of the employees individual goals and help them achieve those within the workplace limits. This would make them reach their personal goals and never ends there, but also helps accomplish the organizational goals to have great teams at work , giving the maximum productivity. The more approachable and responsive the leaders are, the more is the employee engagement and there by productivity².</p>
       <p dir="ltr">³Research shows that when people work with a positive mind-set, performance on nearly every level—productivity, creativity, engagement—improves.</p>
       <p dir="ltr">To conclude, be positively energetic and spread the aura. All you see then, is that no goal would remain unfulfilled at any level, be it for an individual or for an organization.</p>
-      <h3 dir="ltr">References</h3>
+      <h2 dir="ltr">References</h2>
       <ol>
         <li dir="ltr" aria-level="1">
           <p dir="ltr" role="presentation"><a href="https://hbr.org/2012/01/positive-intelligence">Positive Intelligence.</a></p>

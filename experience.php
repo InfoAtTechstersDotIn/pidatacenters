@@ -41,12 +41,12 @@ if ($conn->connect_error) {
 <!--board-of-directors starts here -->
 <div class="case-block">
   <div class="container">
-    <div class="case-block-main greenshape1">
+    <div class="case-block-main greenshape1 added-tags-blog">
 
       <img src="dashboard/uploads/9644810X450PX.jpg" alt="blog-1-img" width="450" height="248">
 
 
-      <h3>First let me categorically state that this is my first honest attempt at blogging.</h3>
+      <h2>First let me categorically state that this is my first honest attempt at blogging.</h2>
 
       <p>Guess there are always certain things which are new and so is my experience that I want to share with you all.</p>
       <p>I think it was in the first week of Feb.’16 that a Job/Role was offered to me in a new <a href="https://www.pidatacenters.com/" style="display:inline-block">Data Center</a>

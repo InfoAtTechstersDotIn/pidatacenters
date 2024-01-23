@@ -27,29 +27,29 @@ $seo_keywords = "terms and conditions, service terms, legal terms, usage policy,
 <div class="privacy-policy-blk">
    <div class="container">
       <div class="privacy-policy-main">
-         <h3>Privacy Policy</h3>
+         <h2>Privacy Policy</h2>
          <p>Pi Data Centers Private Limited, its subsidiaries, and affiliated companies (hereinafter referred to as "Pi", "us", "we," or "our") are committed to respecting your privacy and complying with applicable data protection and privacy laws. You can visit https://pidatacenters.com without disclosing any personally identifiable information about yourself.</p>
          <p>We have provided this privacy policy statement (â€œPrivacy Policyâ€) to help you understand how we collect, use, and protect your information when you visit the website or mobile application. Please take a moment to read the sections below and learn how we may use your personal information so that you can make informed decisions.</p>
          <p>You should read this notice in conjunction with the terms and conditions of use for this website and the mobile application.</p>
-         <h4>Acceptance</h4>
+         <h3>Acceptance</h3>
          <p>By using this website or the mobile application, you signify your agreement to the Piâ€™s Privacy Policy. If you do not agree with this Privacy Policy, please do not use this website or the mobile application. Your continued use of Piâ€™s website or mobile application following the posting of changes to these Privacy Policy terms will mean you accept those changes.</p>
-         <h3>My Information</h3>
-         <p style="color: #012E6A;font-weight:700;"> What kind of information is collected?</p>
+         <h2>My Information</h2>
+         <h3> What kind of information is collected?</h3>
          <h4>Anonymous Information</h4>
          <p>Anonymous information cannot be tied directly to personally identifiable information. We use this information to improve our website and mobile application. This information helps us focus our resources on the features that are most popular with our customers. We may collect information regarding your IP address, browser type, domain name, and access time. This information is used for our own research purposes and is separate from any personally identifiable information that you may submit via this website or mobile application. We do not link IP addresses to any personal information. In rare instances, IP addresses may be used to assist in deterring and/or preventing abusive or criminal activity on the website and mobile app.</p>
          <h4>Personally Identifiable Information: <span style="color: #707070;font-weight:400;line-height: 30px;">The following forms on https://pidatacenters.com collect Personally Identifiable Information:</span></h4>
-         <h4>(i) Registration Form for Downloading Knowledge Materials</h4>
+         <h5>(i) Registration Form for Downloading Knowledge Materials</h5>
          <p>Information in this form will be used to capture the basics.</p>
-         <h4>(ii) Contact Us Form</h4>
+         <h5>(ii) Contact Us Form</h5>
          <p>Information provided through this form will be used solely to respond to customer inquiries and/or service requests.</p>
-         <h4>(iii) Site Feedback Form</h4>
+         <h5>(iii) Site Feedback Form</h5>
          <p>Information provided through this form will be used solely to provide enhancements to pidatacenters.com.</p>
-         <h4>(iv) Registration Form for Online Purchase</h4>
+         <h5>(iv) Registration Form for Online Purchase</h5>
          <p>Information provided in this form will be used for recording purchase information, excluding any details about the payment.</p>
-         <p style="color: #012E6A;font-weight:700;">Who will use this information?</p>
+         <h3>Who will use this information?</h3>
          <p>As a general rule, Pi will not disclose any specific personal information that you submit to us about you ("Personal Information") in a manner that connects you with the Personal Information, except when we have your explicit permission or under special circumstances, such as when we believe in good faith that the law requires it or under the circumstances described below.</p>
 
-         <p style="color: #012E6A;font-weight:700;">How can I control my information?</p>
+         <h3>How can I control my information?</h3>
          <p>In case you change your mind or some Personal Information changes (such as your mailing address or e-mail address), we will try to provide a way to correct, update, or remove the Personal Information that you have provided us. Additionally, if a customer wishes to update Personal Information, email us at marcom@pidatacenters.com.</p>
       </div>
 

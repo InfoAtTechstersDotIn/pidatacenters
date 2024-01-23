@@ -41,10 +41,10 @@ if ($conn->connect_error) {
 <!--board-of-directors starts here -->
 <div class="case-block">
   <div class="container">
-    <div class="case-block-main greenshape1">
+    <div class="case-block-main greenshape1 added-tags-blog">
 
       <img src="dashboard/uploads/8853the-art-of.png" alt="blog-1-img" width="450" height="248">
-      <h3>“Failing to plan can be planning to fail”</h3>
+      <h2>“Failing to plan can be planning to fail”</h2>
 
       <p>We should device a habit of planning the day in advance. This lets us know the top agenda tasks for the day before we start. To operate on memory is not advisable always. Planning and listing lays out the tasks in front of us and sorts it for us. Studies say, making a daily task list improves productivity multiple folds.</p>
       <p>With the tasks listed, lot of unessential stuff can be avoided or at least can be prioritised.</p>
@@ -53,14 +53,14 @@ if ($conn->connect_error) {
       <p>Adding some lower-priority tasks to the list ensures visible progress to encourage our self.</p>
       <p>Planning is not about listing the tasks, but about being prepared and ensuring the background readiness to close them. For example, it could be preparing all the documents for a meeting or planning the outline for the story you are about to write.</p>
       <p>With this extra step, we can get started with our tasks much quicker and finish at an easy pace. The core task can be given the complete focus with all the axillary task surrounding it being in place already.</p>
-      <p>To ensure further effective output, we have two further steps.</p>
-      <p>First is to make and freeze the To Do list</p>
+      <h2>To ensure further effective output, we have two further steps.</h2>
+      <h3>First is to make and freeze the To Do list</h3>
       <p>A freezed task list means that, we decide not to add any new tasks to the list, even if something new comes up in the middle of the day. To mark the list as closed, all that is required is to draw a solid line under the last item on the task list.</p>
       <p>However, if we have an open list, we end up clearing tasks off your list while adding some new ones to it as the day goes by. Not only does this make it harder for us to get all the tasks cleared off by the end of the day and also is demotivating; no matter how hard we work, the number of tasks never decreases. This might sometimes end up with more tasks on our list than what we started with.</p>
-      <p>also read: <a href="https://pidatacenters.com/blog-details?id=12/blog_title=Transformational_Leadership_at_your_Workplace" style="display:inline-block">TRANSFORMATIONAL LEADERSHIP AT YOUR WORK PLACE</a></p>
+      <p><b class="font-color">Also read:</b> <a href="transformational-leadership.php" style="display:inline-block" target="_blank" class="anchor-color">TRANSFORMATIONAL LEADERSHIP AT YOUR WORK PLACE</a></p>
 
       <p>With gadgets making our lives easier these days, a solid line might not work in case of a task list app we use. The line becomes virtual in this case where we decide to not add any further tasks to the list in the middle of our work day.</p>
-      <p>The second thing is to a<a href="https://en.wikipedia.org/wiki/Pessimism" style="display:inline-block">“become pessimist”</a> when the tasks are concerned.</p>
+      <h3>The second thing is to a<a href="https://en.wikipedia.org/wiki/Pessimism" style="display:inline-block" target="_blank" class="anchor-color">“become pessimist”</a> when the tasks are concerned.</h3>
       <p>This has got nothing to do with being positive and optimistic as person by nature. Being pessimist only helps us plan our task list right, for the next day. When the list is being flooded with tasks, it is okay to say to our self that we don’t necessarily have time for new tasks. This approach deliberately cuts down the tasks off our list for the next day and also increases the likelihood of finishing all the prioritised and planned tasks for the next day.</p>
       <p>Along with listing and executing, it is always suggested to have back-up tasks with an optimistic thought of closing the tasks before the work day ends</p>
 
