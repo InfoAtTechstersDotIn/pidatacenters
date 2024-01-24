@@ -37,8 +37,8 @@ $seo_keywords = "articles, informative articles, datacenter articles, cloud arti
               <a href="breaking-down-iaas-paas-saas.php"><img src="images/breaking-down.svg" alt="kh-img-1" width="430" height="278"> </a>
 
               <br>
-              <a href="breaking-down-iaas-paas-saas.php">
-                <h3>Breaking Down IaaS, PaaS, and SaaS: How to Understand Cloud Computing </h3>
+              <a href="breaking-down-iaas-paas-saas.php" class="new-article-head">
+                <h2>Breaking Down IaaS, PaaS, and SaaS: How to Understand Cloud Computing </h2>
               </a>
 
               <div class="readmore-btn" style="padding:20px 0 0;"><a href="breaking-down-iaas-paas-saas.php">Read More</a></div>
@@ -52,49 +52,49 @@ $seo_keywords = "articles, informative articles, datacenter articles, cloud arti
           <!--<strong>New Trending</strong>-->
           <div class="new-tranding row align-items-center justify-content-center">
             <div class="new-tranding-lt col-5">
-              <a href="https://pidatacenters.com/case-studies.php" style="cursor:pointer"><img src="dashboard/uploads/services/leading.png" alt="article-img-3" width="172" height="115"> </a>
+              <a href="industry-case-studies.php" style="cursor:pointer"><img src="dashboard/uploads/services/leading.png" alt="article-img-3" width="172" height="115"> </a>
             </div>
             <div class="new-tranding-rt col-7">
 
-              <a href="https://pidatacenters.com/case-studies.php" style="cursor:pointer">
-                <p style="margin-bottom:5px;color: #1d6fb2;font-weight: 700;">Case Studies</p>
+              <a href="industry-case-studies.php" style="cursor:pointer">
+                <h3>Case Studies</h3>
               </a>
               <p>Real-world Success Stories Unveiling Strategic Triumphs</p>
             </div>
           </div>
           <div class="new-tranding row align-items-center justify-content-center">
             <div class="new-tranding-lt col-5">
-              <a href="https://pidatacenters.com/blogs.php" style="cursor:pointer"><img src="dashboard/uploads/banner-data.png" alt="article-img-3" width="172" height="115"> </a>
+              <a href="blogs.php" style="cursor:pointer"><img src="dashboard/uploads/banner-data.png" alt="article-img-3" width="172" height="115"> </a>
 
             </div>
             <div class="new-tranding-rt col-7">
               <!--<span>16 june, 2023</span>-->
-              <a href="https://pidatacenters.com/blogs.php" style="cursor:pointer">
-                <p style="margin-bottom:5px;color: #1d6fb2;font-weight: 700;">Blogs</p>
+              <a href="blogs.php" style="cursor:pointer">
+                <h3>Blogs</h3>
               </a>
               <p>Navigating the Complexities of Business with Expert Blogs</p>
             </div>
           </div>
           <div class="new-tranding row align-items-center justify-content-center">
             <div class="new-tranding-lt col-5">
-              <a href="https://pidatacenters.com/brochure.php" style="cursor:pointer"><img src="images/brochure-img-1.png" alt="article-img-3" width="172" height="115"></a>
+              <a href="brochure.php" style="cursor:pointer"><img src="images/brochure-img-1.png" alt="article-img-3" width="172" height="115"></a>
             </div>
             <div class="new-tranding-rt col-7">
 
-              <a href="https://pidatacenters.com/brochure.php" style="cursor:pointer">
-                <p style="margin-bottom:5px;color: #1d6fb2;font-weight: 700;">Brochures</p>
+              <a href="brochure.php" style="cursor:pointer">
+                <h3>Brochures</h3>
               </a>
               <p>Communicating Value and Innovation That Sets Our Products and Services Apart</p>
             </div>
           </div>
           <div class="new-tranding row align-items-center justify-content-center">
             <div class="new-tranding-lt col-5">
-              <a href="https://pidatacenters.com/whitepapers.php" style="cursor:pointer"><img src="dashboard/uploads/whitepapers/how-well-do-we-understand.png" alt="article-img-3" width="172" height="115"></a>
+              <a href="whitepapers.php" style="cursor:pointer"><img src="dashboard/uploads/whitepapers/how-well-do-we-understand.png" alt="article-img-3" width="172" height="115"></a>
             </div>
             <div class="new-tranding-rt col-7">
               <!--<span>20 june, 2023</span>-->
-              <a href="https://pidatacenters.com/whitepapers.php" style="cursor:pointer">
-                <p style="margin-bottom:5px;color: #1d6fb2;font-weight: 700;">Whitepapers</p>
+              <a href="whitepapers.php" style="cursor:pointer">
+                <h3>Whitepapers</h3>
               </a>
               <p>Innovative Solutions Backed by Comprehensive Research
               </p>
@@ -132,138 +132,182 @@ $seo_keywords = "articles, informative articles, datacenter articles, cloud arti
 
             <li class="col-md-3 industry">
               <a href="realize-managed-services-full-potential.php"><img src="images/industry-obstacles.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#insight</span><a href="realize-managed-services-full-potential.php" class="pres-rel">How to Overcome Industry Obstacles and Realize Managed Services' Full Potential for Your Business? </a>
+              <span>#insight</span><a href="realize-managed-services-full-potential.php" class="pres-rel">
+                <h2>How to Overcome Industry Obstacles and Realize Managed Services' Full Potential for Your Business?</h2>
+              </a>
               <div class="readmore-btn"><a href="realize-managed-services-full-potential.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 articles">
               <a href="overview-of-private-and-public-clouds.php"><img src="images/public-private-clouds.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#article</span><a href="overview-of-private-and-public-clouds.php" class="pres-rel">An Overview of Private and Public Clouds! What They Are and How They Differ?</a>
+              <span>#article</span><a href="overview-of-private-and-public-clouds.php" class="pres-rel">
+                <h2>An Overview of Private and Public Clouds! What They Are and How They Differ?</h2>
+              </a>
               <div class="readmore-btn"><a href="overview-of-private-and-public-clouds.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 articles">
               <a href="what-is-colocation.php"><img src="images/what-is-colocation.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#article</span><a href="what-is-colocation.php" class="pres-rel">What is Colocation? A Guide to the Benefits and Advantages</a>
+              <span>#article</span><a href="what-is-colocation.php" class="pres-rel">
+                <h2>What is Colocation? A Guide to the Benefits and Advantages</h2>
+              </a>
               <div class="readmore-btn"><a href="what-is-colocation.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 articles">
               <a href="what-is-meity.php"><img src="images/what-is-meity.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#article</span><a href="what-is-meity.php" class="pres-rel">What is MeitY? How Does its Certification of Datacenters Safeguard India's Digital Frontier? </a>
+              <span>#article</span><a href="what-is-meity.php" class="pres-rel">
+                <h2>What is MeitY? How Does its Certification of Datacenters Safeguard India's Digital Frontier?</h2>
+              </a>
               <div class="readmore-btn"><a href="what-is-meity.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 industry">
               <a href="data-dragging.php"><img src="images/data-dragging.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#insight</span><a href="data-dragging.php" class="pres-rel">Data Dragging You into the Slow Lane?</a>
+              <span>#insight</span><a href="data-dragging.php" class="pres-rel">
+                <h2>Data Dragging You into the Slow Lane?</h2>
+              </a>
               <div class="readmore-btn"><a href="data-dragging.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 articles">
               <a href="cyber-security-101.php"><img src="images/protect-business-cybersecurity.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#article</span><a href="cyber-security-101.php" class="pres-rel">Cybersecurity 101: Protect Your Business with These Essential Tips! </a>
+              <span>#article</span><a href="cyber-security-101.php" class="pres-rel">
+                <h2>Cybersecurity 101: Protect Your Business with These Essential Tips! </h2>
+              </a>
               <div class="readmore-btn"><a href="cyber-security-101.php">Read More</a></div>
             </li>
 
 
             <li class="col-md-3 articles">
               <a href="what-is-managed-services.php"><img src="images/managed-services.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#article</span><a href="what-is-managed-services.php" class="pres-rel">What is Managed Services? Their Role in Enabling Peace of Mind for Businesses</a>
+              <span>#article</span><a href="what-is-managed-services.php" class="pres-rel">
+                <h2>What is Managed Services? Their Role in Enabling Peace of Mind for Businesses</h2>
+              </a>
               <div class="readmore-btn"><a href="what-is-managed-services.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 industry">
               <a href="colocation-services.php"><img src="images/colocation-services.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#insight</span><a href="colocation-services.php" class="pres-rel">A Potential Solution No Industry Can Ignore</a>
+              <span>#insight</span><a href="colocation-services.php" class="pres-rel">
+                <h2>A Potential Solution No Industry Can Ignore</h2>
+              </a>
               <div class="readmore-btn"><a href="colocation-services.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 articles">
               <a href="Tier-IV-certified-data-centers.php"><img src="images/tier-iv-certified-dc.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#article</span><a href="Tier-IV-certified-data-centers.php" class="pres-rel">Tier IV-Certified Data Centers: A Comprehensive Guide</a>
+              <span>#article</span><a href="Tier-IV-certified-data-centers.php" class="pres-rel">
+                <h2>Tier IV-Certified Data Centers: A Comprehensive Guide</h2>
+              </a>
               <div class="readmore-btn"><a href="Tier-IV-certified-data-centers.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 industry">
               <a href="pharma-toughest-challenges.php"><img src="images/pharma-challenges.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#insight</span><a href="pharma-toughest-challenges.php" class="pres-rel">Cure-All for Pharma's Toughest Challenges</a>
+              <span>#insight</span><a href="pharma-toughest-challenges.php" class="pres-rel">
+                <h2>Cure-All for Pharma's Toughest Challenges</h2>
+              </a>
               <div class="readmore-btn"><a href="pharma-toughest-challenges.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 articles">
               <a href="data-center-strategies.php"><img src="images/green-vs-brown.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#article</span><a href="data-center-strategies.php" class="pres-rel">Choosing Data Center Strategies: Greenfield vs. Brownfield Explained</a>
+              <span>#article</span><a href="data-center-strategies.php" class="pres-rel">
+                <h2>Choosing Data Center Strategies: Greenfield vs. Brownfield Explained</h2>
+              </a>
               <div class="readmore-btn"><a href="data-center-strategies.php">Read More</a></div>
             </li>
 
 
             <li class="col-md-3 articles">
               <a href="cloud-computing.php"><img src="images/cloud-computing.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#article</span><a href="cloud-computing.php" class="pres-rel">What is Cloud Computing? A Comprehensive Exploration </a>
+              <span>#article</span><a href="cloud-computing.php" class="pres-rel">
+                <h2>What is Cloud Computing? A Comprehensive Exploration</h2>
+              </a>
               <div class="readmore-btn"><a href="cloud-computing.php">Read More</a></div>
             </li>
 
 
             <li class="col-md-3 articles">
               <a href="hyperscale-datacenters.php"><img src="images/hyperscale-datacenters.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#article</span><a href="hyperscale-datacenters.php" class="pres-rel">What are Hyperscale Datacenters and How They Shape Tomorrow's Tech Landscape? </a>
+              <span>#article</span><a href="hyperscale-datacenters.php" class="pres-rel">
+                <h2>What are Hyperscale Datacenters and How They Shape Tomorrow's Tech Landscape?</h2>
+              </a>
               <div class="readmore-btn"><a href="hyperscale-datacenters.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 industry">
               <a href="mutli-layer-cybersecurity.php"><img src="images/multi-layer-cs.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#insight</span><a href="mutli-layer-cybersecurity.php" class="pres-rel">Why Cybersecurity Is a Buzz Word Across Industries ?</a>
+              <span>#insight</span><a href="mutli-layer-cybersecurity.php" class="pres-rel">
+                <h2>Why Cybersecurity Is a Buzz Word Across Industries ?</h2>
+              </a>
               <div class="readmore-btn"><a href="mutli-layer-cybersecurity.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 industry">
               <a href="data-centric-solutions.php"><img src="images/data-centric.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#insight</span><a href="data-centric-solutions.php" class="pres-rel">Data-Centric Solutions for Creative Excellence</a>
+              <span>#insight</span><a href="data-centric-solutions.php" class="pres-rel">
+                <h2>Data-Centric Solutions for Creative Excellence</h2>
+              </a>
               <div class="readmore-btn"><a href="data-centric-solutions.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 articles">
               <a href="edge-computing.php"><img src="images/what-is-edge-computing.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#article</span><a href="edge-computing.php" class="pres-rel">What is Edge Computing? <br>
-                A Deep Dive into Technical Features and Numerous Advantages </a>
+              <span>#article</span><a href="edge-computing.php" class="pres-rel">
+                <h2>What is Edge Computing? <br>
+                  A Deep Dive into Technical Features and Numerous Advantages</h2>
+              </a>
               <div class="readmore-btn"><a href="edge-computing.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 articles">
               <a href="datacenter-based-cloud-service.php"><img src="images/kh-cloud service provider.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#article</span><a href="datacenter-based-cloud-service.php" class="pres-rel">What are the benefits of using a datacenter-based cloud service provider? </a>
+              <span>#article</span><a href="datacenter-based-cloud-service.php" class="pres-rel">
+                <h2>What are the benefits of using a datacenter-based cloud service provider?</h2>
+              </a>
               <div class="readmore-btn"><a href="datacenter-based-cloud-service.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 articles">
               <a href="dc-unseen-infrastructure.php"><img src="images/kh-img-1.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#article</span><a href="dc-unseen-infrastructure.php" class="pres-rel">The Data Center: The Unseen Infrastructure of Our Lives</a>
+              <span>#article</span><a href="dc-unseen-infrastructure.php" class="pres-rel">
+                <h2>The Data Center: The Unseen Infrastructure of Our Lives</h2>
+              </a>
               <div class="readmore-btn"><a href="dc-unseen-infrastructure.php">Read More</a></div>
             </li>
 
 
             <li class="col-md-3 industry">
               <a href="struggling-with-data-overload.php"><img src="images/industry-4.0.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#insight</span><a href="struggling-with-data-overload.php" class="pres-rel">Discover How Data Centers Simplify Everything!</a>
+              <span>#insight</span><a href="struggling-with-data-overload.php" class="pres-rel">
+                <h2>Discover How Data Centers Simplify Everything!</h2>
+              </a>
               <div class="readmore-btn"><a href="struggling-with-data-overload.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 articles">
               <a href="types-of-data-centers.php"><img src="images/kh-img-2.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#article</span><a href="types-of-data-centers.php" class="pres-rel">Unveiling the Powerhouse: Exploring the Types and Importance of Data Centers in Modern Business Operations</a>
+              <span>#article</span><a href="types-of-data-centers.php" class="pres-rel">
+                <h2>Unveiling the Powerhouse: Exploring the Types and Importance of Data Centers in Modern Business Operations</h2>
+              </a>
               <div class="readmore-btn"><a href="types-of-data-centers.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 industry">
               <a href="digital-frontier.php"><img src="images/digital-frontier.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#insight</span><a href="digital-frontier.php" class="pres-rel">Can IT/ITES Overcome These Hurdles?</a>
+              <span>#insight</span><a href="digital-frontier.php" class="pres-rel">
+                <h2>Can IT/ITES Overcome These Hurdles?</h2>
+              </a>
               <div class="readmore-btn"><a href="digital-frontier.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 industry">
               <a href="unlock-scalability.php"><img src="images/unlock-scalability.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#insight</span><a href="unlock-scalability.php" class="pres-rel">The Convenience of Online Shopping</a>
+              <span>#insight</span><a href="unlock-scalability.php" class="pres-rel">
+                <h2>The Convenience of Online Shopping</h2>
+              </a>
               <div class="readmore-btn"><a href="unlock-scalability.php">Read More</a></div>
             </li>
 
@@ -271,31 +315,41 @@ $seo_keywords = "articles, informative articles, datacenter articles, cloud arti
 
             <li class="col-md-3 articles">
               <a href="data-center-security.php"><img src="images/kh-dc.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#article</span><a href="data-center-security.php" class="pres-rel">What Is Data Center Security? Why Is It Important? </a>
+              <span>#article</span><a href="data-center-security.php" class="pres-rel">
+                <h2>What Is Data Center Security? Why Is It Important?</h2>
+              </a>
               <div class="readmore-btn"><a href="data-center-security.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 articles">
               <a href="data-centers-in-cloud-computing.php"><img src="images/kh-types of dc.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#article</span><a href="data-centers-in-cloud-computing.php" class="pres-rel">What Are the Different Types of Data Centers in Cloud Computing? </a>
+              <span>#article</span><a href="data-centers-in-cloud-computing.php" class="pres-rel">
+                <h2>What Are the Different Types of Data Centers in Cloud Computing? </h2>
+              </a>
               <div class="readmore-btn"><a href="data-centers-in-cloud-computing.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 industry">
               <a href="banking-industry-is-no-exception.php"><img src="images/banking-industry.jpeg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#insight</span><a href="banking-industry-is-no-exception.php" class="pres-rel">From Limits to Liberation: The Rise Of Remote Infrastructure Management In The Banking World</a>
+              <span>#insight</span><a href="banking-industry-is-no-exception.php" class="pres-rel">
+                <h2>From Limits to Liberation: The Rise Of Remote Infrastructure Management In The Banking World</h2>
+              </a>
               <div class="readmore-btn"><a href="banking-industry-is-no-exception.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 articles">
               <a href="multi-cloud-solutions.php"><img src="images/kh-multi cloud.jpg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#article</span><a href="multi-cloud-solutions.php" class="pres-rel">How Do Multi-Cloud Solutions Transform Business Agility and Innovation? </a>
+              <span>#article</span><a href="multi-cloud-solutions.php" class="pres-rel">
+                <h2>How Do Multi-Cloud Solutions Transform Business Agility and Innovation?</h2>
+              </a>
               <div class="readmore-btn"><a href="multi-cloud-solutions.php">Read More</a></div>
             </li>
 
             <li class="col-md-3 industry">
               <a href="revolutionizing-education.php"><img src="images/revolutionizing-education.png" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
-              <span>#insight</span><a href="revolutionizing-education.php" class="pres-rel">Revolutionizing Education: The Importance of a Reliable Data Center</a>
+              <span>#insight</span><a href="revolutionizing-education.php" class="pres-rel">
+                <h2>Revolutionizing Education: The Importance of a Reliable Data Center</h2>
+              </a>
               <div class="readmore-btn"><a href="revolutionizing-education.php">Read More</a></div>
             </li>
 
@@ -317,49 +371,49 @@ $seo_keywords = "articles, informative articles, datacenter articles, cloud arti
           <!--<strong>New Trending</strong>-->
           <div class="new-tranding row align-items-center justify-content-center">
             <div class="new-tranding-lt col-5">
-              <a href="https://pidatacenters.com/case-studies.php" style="cursor:pointer"><img src="dashboard/uploads/services/leading.png" alt="article-img-3" width="172" height="115"> </a>
+              <a href="industry-case-studies.php" style="cursor:pointer"><img src="dashboard/uploads/services/leading.png" alt="article-img-3" width="172" height="115"> </a>
             </div>
             <div class="new-tranding-rt col-7">
 
-              <a href="https://pidatacenters.com/case-studies.php" style="cursor:pointer">
-                <p style="margin-bottom:5px;color: #1d6fb2;font-weight: 700;">Case Studies</p>
+              <a href="industry-case-studies.php" style="cursor:pointer">
+                <h3>Case Studies</h3>
               </a>
               <p>Real-world Success Stories Unveiling Strategic Triumphs</p>
             </div>
           </div>
           <div class="new-tranding row align-items-center justify-content-center">
             <div class="new-tranding-lt col-5">
-              <a href="https://pidatacenters.com/blogs.php" style="cursor:pointer"><img src="dashboard/uploads/banner-data.png" alt="article-img-3" width="172" height="115"> </a>
+              <a href="blogs.php" style="cursor:pointer"><img src="dashboard/uploads/banner-data.png" alt="article-img-3" width="172" height="115"> </a>
 
             </div>
             <div class="new-tranding-rt col-7">
               <!--<span>16 june, 2023</span>-->
-              <a href="https://pidatacenters.com/blogs.php" style="cursor:pointer">
-                <p style="margin-bottom:5px;color: #1d6fb2;font-weight: 700;">Blogs</p>
+              <a href="blogs.php" style="cursor:pointer">
+                <h3>Blogs</h3>
               </a>
               <p>Navigating the Complexities of Business with Expert Blogs</p>
             </div>
           </div>
           <div class="new-tranding row align-items-center justify-content-center">
             <div class="new-tranding-lt col-5">
-              <a href="https://pidatacenters.com/brochure.php" style="cursor:pointer"><img src="images/brochure-img-1.png" alt="article-img-3" width="172" height="115"></a>
+              <a href="brochure.php" style="cursor:pointer"><img src="images/brochure-img-1.png" alt="article-img-3" width="172" height="115"></a>
             </div>
             <div class="new-tranding-rt col-7">
 
-              <a href="https://pidatacenters.com/brochure.php" style="cursor:pointer">
-                <p style="margin-bottom:5px;color: #1d6fb2;font-weight: 700;">Brochures</p>
+              <a href="brochure.php" style="cursor:pointer">
+                <h3>Brochures</h3>
               </a>
               <p>Communicating Value and Innovation That Sets Our Products and Services Apart</p>
             </div>
           </div>
           <div class="new-tranding row align-items-center justify-content-center">
             <div class="new-tranding-lt col-5">
-              <a href="https://pidatacenters.com/whitepapers.php" style="cursor:pointer"><img src="dashboard/uploads/whitepapers/how-well-do-we-understand.png" alt="article-img-3" width="172" height="115"></a>
+              <a href="whitepapers.php" style="cursor:pointer"><img src="dashboard/uploads/whitepapers/how-well-do-we-understand.png" alt="article-img-3" width="172" height="115"></a>
             </div>
             <div class="new-tranding-rt col-7">
               <!--<span>20 june, 2023</span>-->
-              <a href="https://pidatacenters.com/whitepapers.php" style="cursor:pointer">
-                <p style="margin-bottom:5px;color: #1d6fb2;font-weight: 700;">Whitepapers</p>
+              <a href="whitepapers.php" style="cursor:pointer">
+                <h3>Whitepapers</h3>
               </a>
               <p>Innovative Solutions Backed by Comprehensive Research
               </p>

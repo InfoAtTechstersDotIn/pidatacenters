@@ -8,7 +8,7 @@ $seo_keywords = "data center news, enterprise cloud fabric, Hyperscale datacente
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/press-release-banner.jpg" alt="press-ban" width="1920" height="210">
-        <h2>Press Releases</h2>
+        <h1>Press Releases</h1>
 
     </div>
 </div>
@@ -29,7 +29,7 @@ $seo_keywords = "data center news, enterprise cloud fabric, Hyperscale datacente
         <div class="container">
             <div class="news-main">
                 <div class="press-releases">
-                    <h3>Our current and future datacenters and enterprise cloud fabric are modularly designed keeping dynamic data surge in the formula</h3>
+                    <h2>Our current and future datacenters and enterprise cloud fabric are modularly designed keeping dynamic data surge in the formula</h2>
                     <img src="images/press/press-news-5.png" class="press-img1" alt="press-news-1" width="1000" height="500">
                     <!-- <h3>Our current and future datacenters and enterprise cloud fabric are modularly designed keeping dynamic data surge in the formula</h3> -->
                     <p class="date">30-Mar-2021, Tuesday</p>

@@ -8,7 +8,7 @@ $seo_keywords = "data center news, enterprise cloud fabric, Hyperscale datacente
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/press-release-banner.jpg" alt="press-ban" width="1920" height="210">
-        <h2>Press Releases</h2>
+        <h1>Press Releases</h1>
 
     </div>
 </div>
@@ -29,7 +29,7 @@ $seo_keywords = "data center news, enterprise cloud fabric, Hyperscale datacente
         <div class="container">
             <div class="news-main">
                 <div class="press-releases">
-                    <h3>Pi DATACENTERS® Inaugurates Its Headquarters in Hyderabad's Financial District. </h3>
+                    <h2>Pi DATACENTERS® Inaugurates Its Headquarters in Hyderabad's Financial District. </h2>
                     <img src="images/press/Press-news-11.jpg" class="press-img1" alt="press-news-1" width="1000" height="500">
                     <!-- <h3>Pi DATACENTERS® Inaugurates Its Headquarters in Hyderabad's Financial District. </h3> -->
                     <p class="date">21 September, 2023</p>

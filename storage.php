@@ -29,7 +29,7 @@ $seo_keywords = "";
 <section id="hb_products_Lists">
 	<div class="container">
 		<div class="hb-productHead text-center">
-			<h1>Go Practically Limitless Capacity With Pi Cloud</h1>
+			<h2>Go Practically Limitless Capacity With Pi Cloud</h2>
 			<p>Data is the lifeline of any business and it is important to consider how enterprises store data, based on enterprise business needs. Pi Cloud allows enterprises to select storage of choice that meets business objectives. Pi Cloud presents varied storage formats to hold, organize and present data with objective driven distinct features and capabilities.</p>
 		</div>
 		<div class="hb-childProducts">
@@ -76,7 +76,7 @@ $seo_keywords = "";
 												<img src="./pi-cloud/images/product-page-icons/st/hp.svg" alt="scale">
 											</p>
 											<div class="hb-featCont">
-												<h6>High Performance</h6>
+												<h4>High Performance</h4>
 												<p>Ideal for high-performing, mission-critical applications that require consistent input/output (I/O) performance</p>
 											</div>
 										</div>
@@ -89,7 +89,7 @@ $seo_keywords = "";
 												<img src="./pi-cloud/images/product-page-icons/st/dr.svg" alt="economics">
 											</p>
 											<div class="hb-featCont">
-												<h6>Data Retention</h6>
+												<h4>Data Retention</h4>
 												<p>Retains data even after deletion of virtual server</p>
 											</div>
 										</div>
@@ -102,7 +102,7 @@ $seo_keywords = "";
 												<img src="./pi-cloud/images/product-page-icons/st/snap.svg" alt="Self">
 											</p>
 											<div class="hb-featCont">
-												<h6>Snapshot and Resizing</h6>
+												<h4>Snapshot and Resizing</h4>
 												<p>Features such as snapshot and resizing, are available for block volumes</p>
 											</div>
 										</div>
@@ -176,7 +176,7 @@ $seo_keywords = "";
 												<img src="./pi-cloud/images/product-page-icons/st/dt.svg" alt="scale-3">
 											</p>
 											<div class="hb-featCont">
-												<h6>Data Transfer</h6>
+												<h4>Data Transfer</h4>
 												<p>Simple and flexible transfer of data</p>
 											</div>
 										</div>
@@ -189,7 +189,7 @@ $seo_keywords = "";
 												<img src="./pi-cloud/images/product-page-icons/st/sc.svg" alt="economics">
 											</p>
 											<div class="hb-featCont">
-												<h6>Scalability</h6>
+												<h4>Scalability</h4>
 												<p>Scalability (upto PBs) and distributed access</p>
 											</div>
 										</div>
@@ -202,7 +202,7 @@ $seo_keywords = "";
 												<img src="./pi-cloud/images/product-page-icons/st/md.svg" alt="Self">
 											</p>
 											<div class="hb-featCont">
-												<h6>Supports Metadata</h6>
+												<h4>Supports Metadata</h4>
 												<p>Supports custom Metadata and various attributes</p>
 											</div>
 										</div>
@@ -275,7 +275,7 @@ $seo_keywords = "";
 												<img src="./pi-cloud/images/product-page-icons/st/os.svg" alt="scale">
 											</p>
 											<div class="hb-featCont">
-												<h6>Organised Storage</h6>
+												<h4>Organised Storage</h4>
 												<p>Hierarchical file storage works well with easily organized structured data</p>
 											</div>
 										</div>
@@ -288,7 +288,7 @@ $seo_keywords = "";
 												<img src="./pi-cloud/images/product-page-icons/st/mas.svg" alt="economics">
 											</p>
 											<div class="hb-featCont">
-												<h6>Multi Access and Sharing</h6>
+												<h4>Multi Access and Sharing</h4>
 												<p>Allows multiple user access to the same file data parked at distinct locations</p>
 											</div>
 										</div>
@@ -301,7 +301,7 @@ $seo_keywords = "";
 												<img src="./pi-cloud/images/product-page-icons/st/snap.svg" alt="Self">
 											</p>
 											<div class="hb-featCont">
-												<h6>Cost Effective</h6>
+												<h4>Cost Effective</h4>
 												<p>Eliminates the cost of maintaining in-house hardware</p>
 											</div>
 										</div>

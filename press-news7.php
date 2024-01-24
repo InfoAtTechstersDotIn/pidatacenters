@@ -8,7 +8,7 @@ $seo_keywords = "data center news, enterprise cloud fabric, Hyperscale datacente
 <div class="about-banner">
     <div class="about-banner-blk">
         <img src="images/press-release-banner.jpg" alt="press-ban" width="1920" height="210">
-        <h2>Press Releases</h2>
+        <h1>Press Releases</h1>
 
     </div>
 </div>
@@ -29,7 +29,7 @@ $seo_keywords = "data center news, enterprise cloud fabric, Hyperscale datacente
         <div class="container">
             <div class="news-main">
                 <div class="press-releases">
-                    <h3>Economic Times featured a recent interview of Kalyan Muppaneni about India achieving the goal of $5 trillion economy</h3>
+                    <h2>Economic Times featured a recent interview of Kalyan Muppaneni about India achieving the goal of $5 trillion economy</h2>
                     <img src="images/press/press-news-7.png" class="press-img1" alt="press-news-1" width="1000" height="500">
                     <!-- <h3>Economic Times featured a recent interview of Kalyan Muppaneni about India achieving the goal of $5 trillion economy</h3> -->
                     <p class="date">03-Feb-2020, Monday</p>
@@ -41,8 +41,8 @@ $seo_keywords = "data center news, enterprise cloud fabric, Hyperscale datacente
         </div>
     </div>
     <?php include('php/includes-techsters/footer.php'); ?>
-    
-    
+
+
 </body>
 
 </html>

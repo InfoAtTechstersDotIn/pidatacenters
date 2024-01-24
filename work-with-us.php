@@ -46,7 +46,7 @@ if ($conn->connect_error) {
 <div class="workwithus-blk">
     <div class="container">
         <div class="workwithus-main">
-            <h3><span style="color: #7BBC42;font-weight:400;">Career</span> Opportunities</h3>
+            <h2><span style="color: #7BBC42;font-weight:400;">Career</span> Opportunities</h2>
             <div class="career-opportunities">
                 <ul class="row">
                     <li class="col-md-8">
@@ -324,7 +324,7 @@ if (isset($_POST['button']) && isset($_FILES['attachment'])) {
 
 <div class="apply-for-position">
     <div class="apply-for-position-main">
-        <h4>Apply for a Position</h4>
+        <h2>Apply for a Position</h2>
 
         <form enctype="multipart/form-data" method="POST" action="">
             <ul class="row">

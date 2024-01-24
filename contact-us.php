@@ -64,6 +64,42 @@ $seo_keywords = "contact us, get in touch, inquiries, support, collaborations, r
 <?php include('php/includes-techsters/header.php'); ?>
 
 <head>
+  <!-- Google tag (gtag.js) event - delayed navigation helper -->
+  <script>
+    // Helper function to delay opening a URL until a gtag event is sent.
+    // Call it in response to an action that should navigate to a URL.
+    function gtagSendEvent(url) {
+      var callback = function() {
+        if (typeof url === 'string') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion_event_submit_lead_form', {
+        'event_callback': callback,
+        'event_timeout': 2000,
+        // <event_parameters>
+      });
+      return false;
+    }
+  </script>
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5J7TD3KS');
+  </script>
+  <!-- End Google Tag Manager -->
   <style>
     #reach-btn {
       display: none;
@@ -73,24 +109,20 @@ $seo_keywords = "contact us, get in touch, inquiries, support, collaborations, r
     .contact_page_form input {
       line-height: 31px !important;
     }
+
+    textarea#input_25_8 {
+      height: 100px !important;
+    }
+
+    .tab-navigation {
+      width: 185px;
+      margin-left: auto;
+      padding-top: 30px;
+    }
   </style>
   <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
-
-
-
-<style>
-  textarea#input_25_8 {
-    height: 100px !important;
-  }
-
-  .tab-navigation {
-    width: 185px;
-    margin-left: auto;
-    padding-top: 30px;
-  }
-</style>
 <!-- main starts here -->
 
 

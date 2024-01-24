@@ -38,23 +38,28 @@
 
                     <h2>Data Centers as Catalysts for Low Latency: </h2>
 
-                    <p>The strategic placement of <a href="https://pidatacenters.com/" target="_blank" class="anchor-color"> data centers</a> geographically ensures that information travels shorter distances, reducing transmission time. Additionally, advancements in hardware and network architecture within data centers contribute to the swift processing and delivery of data. </p>
+                    <p>The strategic placement of data centers geographically ensures that information travels shorter distances, reducing transmission time. Additionally, advancements in hardware and network architecture within data centers contribute to the swift processing and delivery of data. </p>
 
                     <h2>Impact on Industries: </h2>
 
-                    <p><b class="font-color">Finance: </b> In the financial sector, microseconds can make the difference between profit and loss. Low latency enables high-frequency trading, algorithmic transactions, and real-time market analysis, empowering financial institutions to stay competitive in rapidly changing markets. </p>
+                    <h3>Finance: </h3>
+                    <p> In the financial sector, microseconds can make the difference between profit and loss. Low latency enables high-frequency trading, algorithmic transactions, and real-time market analysis, empowering financial institutions to stay competitive in rapidly changing markets. </p>
                     <p>According to a recent study, nearly 90% of business executives require 10 milliseconds or less of latency to ensure the success of their applications. Additionally, the impact of latency on emerging use cases such as cryptocurrency, peripheral computing, artificial intelligence (AI), and machine learning (ML) must be considered by financial services organizations. Banks can employ AI for real-time fraud detection, and data scientists can make informed real-time business intelligence decisions by leveraging minimal latency. </p>
 
 
-                    <p><b class="font-color">Healthcare: </b> In healthcare, quick access to patient data is critical for timely decision-making. Low latency supports telemedicine applications, enhances the efficiency of electronic health records (EHRs), and facilitates the seamless integration of medical devices. </p>
+                    <h3>Healthcare: </h3>
+                    <p> In healthcare, quick access to patient data is critical for timely decision-making. Low latency supports telemedicine applications, enhances the efficiency of electronic health records (EHRs), and facilitates the seamless integration of medical devices. </p>
 
 
                 </div>
                 <div class="col-lg-6">
                     <img src="images/data-dragging.jpeg" alt="pr-image-2" width="1280" height="670" class="hide-img-mobile py-3">
-                    <p><b class="font-color">Gaming: </b> The gaming industry thrives on real-time interactions. Low latency is crucial for online multiplayer gaming, where even the slightest delay can result in a poor gaming experience. A first-person shooter (FPS) such as Call of Duty imposes a strict time limit on action completion, and any latency exceeding 100 milliseconds can negatively impact the player's experience. Although the impact of latency is not as significant in turn-based or simulation games like Civilization or The Sims, it can still have an adverse influence on the user experience. Publishers and game developers must devise methods to eliminate as much latency as is feasible from the entire value chain. </p>
-                    <p><b class="font-color">Manufacturing: </b> In manufacturing, low latency contributes to the efficiency of automated processes and the coordination of supply chain activities. This is particularly vital for industries adopting <a href="" target="_blank" class="anchor-color">Industry 4.0</a> practices, where interconnected devices rely on instant data exchange. The World Economic Forum emphasizes how high latency can cause delays in data transmission that can disrupt the supply chain. This disruption can lead to inventory shortages, production delays, and increased lead times, affecting the entire manufacturing process. </p>
-                    <p><b class="font-color">E-commerce: </b>For e-commerce platforms, swift response times are integral to providing a seamless shopping experience. Low latency ensures that users can browse, select, and purchase products without frustrating delays, thereby improving customer satisfaction. </p>
+                    <h3>Gaming: </h3>
+                    <p> The gaming industry thrives on real-time interactions. Low latency is crucial for online multiplayer gaming, where even the slightest delay can result in a poor gaming experience. A first-person shooter (FPS) such as Call of Duty imposes a strict time limit on action completion, and any latency exceeding 100 milliseconds can negatively impact the player's experience. Although the impact of latency is not as significant in turn-based or simulation games like Civilization or The Sims, it can still have an adverse influence on the user experience. Publishers and game developers must devise methods to eliminate as much latency as is feasible from the entire value chain. </p>
+                    <h3>Manufacturing: </h3>
+                    <p> In manufacturing, low latency contributes to the efficiency of automated processes and the coordination of supply chain activities. This is particularly vital for industries adopting <a href="" target="_blank" class="anchor-color">Industry 4.0</a> practices, where interconnected devices rely on instant data exchange. The World Economic Forum emphasizes how high latency can cause delays in data transmission that can disrupt the supply chain. This disruption can lead to inventory shortages, production delays, and increased lead times, affecting the entire manufacturing process. </p>
+                    <h3>E-commerce: </h3>
+                    <p>For e-commerce platforms, swift response times are integral to providing a seamless shopping experience. Low latency ensures that users can browse, select, and purchase products without frustrating delays, thereby improving customer satisfaction. </p>
 
                     <ul class="article-list">
                         <p>

@@ -26,7 +26,7 @@
                 <div class="col-lg-6">
                     <h1>Data-Centric Solutions for Creative Excellence</h1>
 
-                    <p>The Information Technology (IT) and Information Technology Enabled Services (ITES) sectors are at the forefront of innovation and progress in today's rapidly changing digital landscape. However, with innovation come challenges, and the IT/ITES industry is not exempt from facing various hurdles that can impede its growth and efficiency. Fortunately, there are a number of options that can be implemented to deal with these issues and pave the way for a more streamlined and productive IT/ITES setting. In this article, we will delve into some of the most pressing challenges faced by the IT/ITES sector and explore the <a href="https://pidatacenters.com/industry-solutions.php" target="_blank" class="anchor-color">solutions</a> that can effectively resolve them. </p>
+                    <p>The Information Technology (IT) and Information Technology Enabled Services (ITES) sectors are at the forefront of innovation and progress in today's rapidly changing digital landscape. However, with innovation come challenges, and the IT/ITES industry is not exempt from facing various hurdles that can impede its growth and efficiency. Fortunately, there are a number of options that can be implemented to deal with these issues and pave the way for a more streamlined and productive IT/ITES setting. In this article, we will delve into some of the most pressing challenges faced by the IT/ITES sector and explore the <a href="industry-cloud-solutions.php" target="_blank" class="anchor-color">solutions</a> that can effectively resolve them. </p>
 
                     <h2>Introduction to IT/ITES Challenges </h2>
 
@@ -39,7 +39,7 @@
 
                     <h2>Challenge: Collaboration & Remote Work </h2>
                     <p>The COVID-19 pandemic has highlighted the importance of remote work and collaboration tools. Providing employees with seamless remote work options while maintaining productive collaboration can be a significant challenge. </p>
-                    <h2>Solution: End User Computing Services on <a href="https://pidatacenters.com/cloud.php" target="_blank" class="anchor-color">Pi Cloud</a> </h2>
+                    <h2>Solution: End User Computing Services on <a href="enterprise-cloud-services.php" target="_blank" class="anchor-color">Pi Cloud</a> </h2>
                     <p>Platforms like Pi Cloud offer end-user computing services that enable employees to access their work environments remotely. This solution not only facilitates remote work but also ensures that employees can collaborate effectively, regardless of their physical location. This fosters flexibility and maintains productivity, even in a distributed work environment. </p>
 
                     <h2>Challenge: Virtual Private Network (VPN) </h2>
@@ -65,7 +65,7 @@
                     <img src="images/strategic-partner.jpeg" alt="Strategic Partner" width="1280" height="670" style="padding: 0 0 10px 0;width: 60%;margin: 0 auto;">
                     <p>Navigating the complex landscape of IT transformation requires collaboration and partnerships with reliable service providers. Identifying the right partners and fostering meaningful collaborations can be challenging.</p>
 
-                    <h2>Solution: <a href="https://pidatacenters.com/partners.php" target="_blank" class="anchor-color">Pi Cloud Partner Program</a> </h2>
+                    <h2>Solution: <a href="partner-program-portal.php" target="_blank" class="anchor-color">Pi Cloud Partner Program</a> </h2>
                     <p>Strategic partnerships can significantly expedite an organization's journey to cloud transformation. The Pi Cloud Partner Program facilitates collaboration between enterprises and the platform, enabling organizations to tap into expertise and resources that accelerate their IT/ITES initiatives. </p>
                     <p>In the dynamic realm of IT and ITES, the journey towards a seamless digital frontier is paved with challenges that prompt the industry to innovate and evolve. While the strides taken are commendable, there are additional trends that fortify the industry's position in overcoming these hurdles. </p>
 

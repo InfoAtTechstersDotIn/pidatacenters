@@ -30,10 +30,10 @@ $seo_keywords = "terms and conditions, service terms, legal terms, usage policy,
         <div class="privacy-policy-main">
 
 
-            <h3 style="color: #012E6A;">Acceptable Use Policy</h3>
+            <h2 style="color: #012E6A;">Acceptable Use Policy</h2>
             <p>Use of the services (“Cloud Services”) provided and/or made available by or on behalf of Pi Data Centers Private Limited and its affiliates (“Company” or “We” or “our”) is subject to this Acceptable Use Policy (“AUP”) and this AUP describes the prohibited usage of such Cloud Services. This AUP is an integrate part of any applicable customer or service agreement (the “Agreement”). The examples and restrictions described herein are not exhaustive. We may update this AUP from time to time at our discretion by posting the latest version on www.pidatacenters.com (the “website”).</p>
 
-            <p style="color: #2680EB;">By using the Cloud Services, the customer, user, or client (as applicable) agrees not to, and not to allow third parties to access or use the Cloud Services to:</p>
+            <h3 style="color: #2680EB; line-height: 1.8rem;">By using the Cloud Services, the customer, user, or client (as applicable) agrees not to, and not to allow third parties to access or use the Cloud Services to:</h3>
             <p> &#9679; Violate any applicable local, national or international laws, regulations and rules.</p>
             <p> &#9679; Violate, or encourage the violation of, the legal rights of others, including but not limited to privacy or intellectual property rights.</p>
             <p> &#9679; Use the Cloud Services in a manner that violates applicable law or regulation, infringes on the rights of any person or entity, or violates any agreement with the Company.</p>

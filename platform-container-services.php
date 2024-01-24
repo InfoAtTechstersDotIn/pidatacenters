@@ -48,9 +48,9 @@ if ($conn->connect_error) {
   <div class="container">
     <div class="case-block-main greenshape1">
 
-      <img src="dashboard/uploads/6750pi-blog.jpeg" alt="blog-1-img" width="450" height="248">
-      <img src="images/sunder.jpg" alt="blog-1-img" width="450" height="248">
-      <img src="images/sunder2.jpg" alt="blog-1-img" width="450" height="248">
+      <img src="dashboard/uploads/6750pi-blog.jpeg" alt="Platform Container Services K8SaaS On Cloud" width="450" height="248">
+      <img src="images/sunder.jpg" alt="Kubernetes" width="450" height="248">
+      <img src="images/sunder2.jpg" alt="Advantages of pi K8SaaS CMP" width="450" height="248">
 
 
 

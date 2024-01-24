@@ -29,10 +29,10 @@ $seo_keywords = "terms and conditions, service terms, legal terms, usage policy,
       <div class="privacy-policy-main">
          <h2>Privacy Policy</h2>
          <p>Pi Data Centers Private Limited, its subsidiaries, and affiliated companies (hereinafter referred to as "Pi", "us", "we," or "our") are committed to respecting your privacy and complying with applicable data protection and privacy laws. You can visit https://pidatacenters.com without disclosing any personally identifiable information about yourself.</p>
-         <p>We have provided this privacy policy statement (â€œPrivacy Policyâ€) to help you understand how we collect, use, and protect your information when you visit the website or mobile application. Please take a moment to read the sections below and learn how we may use your personal information so that you can make informed decisions.</p>
+         <p>We have provided this privacy policy statement ("Privacy Policy") to help you understand how we collect, use, and protect your information when you visit the website or mobile application. Please take a moment to read the sections below and learn how we may use your personal information so that you can make informed decisions.</p>
          <p>You should read this notice in conjunction with the terms and conditions of use for this website and the mobile application.</p>
          <h3>Acceptance</h3>
-         <p>By using this website or the mobile application, you signify your agreement to the Piâ€™s Privacy Policy. If you do not agree with this Privacy Policy, please do not use this website or the mobile application. Your continued use of Piâ€™s website or mobile application following the posting of changes to these Privacy Policy terms will mean you accept those changes.</p>
+         <p>By using this website or the mobile application, you signify your agreement to the Pi's Privacy Policy. If you do not agree with this Privacy Policy, please do not use this website or the mobile application. Your continued use of Pi's website or mobile application following the posting of changes to these Privacy Policy terms will mean you accept those changes.</p>
          <h2>My Information</h2>
          <h3> What kind of information is collected?</h3>
          <h4>Anonymous Information</h4>

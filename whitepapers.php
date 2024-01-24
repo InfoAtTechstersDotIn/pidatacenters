@@ -42,7 +42,7 @@ $seo_keywords = "whitepapers, technology solutions, white papers on colocation, 
                                 <figure>
                                     <img src="dashboard/uploads/whitepapers/how-well-do-we-understand.png" alt="whitepapers" width="450" height="248">
                                 </figure>
-                                <h4>How Well Do We Understand</h4>
+                                <h2>How Well Do We Understand</h2>
 
                                 <!--<a href="#modal-1.php" class="download">Download case study</a>-->
                                 <!--<a href="case-study-download.php" download class="download">Download case study</a>-->
@@ -54,7 +54,7 @@ $seo_keywords = "whitepapers, technology solutions, white papers on colocation, 
                                 <figure>
                                     <img src="dashboard/uploads/whitepapers/software-defined-network.png" alt="whitepapers" width="450" height="248">
                                 </figure>
-                                <h4>Software Defined Network</h4>
+                                <h2>Software Defined Network</h2>
 
                                 <!--<a href="#modal-1.php.php" class="download">Download case study</a>-->
                                 <!--<a href="case-study-download.php" download class="download">Download case study</a>-->
@@ -66,8 +66,8 @@ $seo_keywords = "whitepapers, technology solutions, white papers on colocation, 
                                 <figure>
                                     <img src="dashboard/uploads/whitepapers/redefining-cloud-services-delivering.png" alt="whitepapers" width="450" height="248">
                                 </figure>
-                                <h4>
-                                    Redefining Cloud Services,Delivering</h4>
+                                <h2>
+                                    Redefining Cloud Services,Delivering</h2>
 
                                 <!--<a href="#modal-1.php.php" class="download">Download case study</a>-->
                                 <!--<a href="case-study-download.php" download class="download">Download case study</a>-->
@@ -80,7 +80,7 @@ $seo_keywords = "whitepapers, technology solutions, white papers on colocation, 
                                 <figure>
                                     <img src="dashboard/uploads/whitepapers/Digitalizing.png" alt="whitepapers" width="450" height="248">
                                 </figure>
-                                <h4>Mastering the Digital Frontier</h4>
+                                <h2>Mastering the Digital Frontier</h2>
 
                                 <!--<a href="#modal-1.php" class="download">Download case study</a>-->
                                 <!--<a href="case-study-download.php" download class="download">Download case study</a>-->
@@ -92,7 +92,7 @@ $seo_keywords = "whitepapers, technology solutions, white papers on colocation, 
                                 <figure>
                                     <img src="dashboard/uploads/whitepapers/secutre-transactions.png" alt="whitepapers" width="450" height="248">
                                 </figure>
-                                <h4>Secure Transactions</h4>
+                                <h2>Secure Transactions</h2>
 
                                 <!--<a href="#modal-1.php" class="download">Download case study</a>-->
                                 <!--<a href="case-study-download.php" download class="download">Download case study</a>-->
@@ -104,7 +104,7 @@ $seo_keywords = "whitepapers, technology solutions, white papers on colocation, 
                                 <figure>
                                     <img src="dashboard/uploads/whitepapers/delivering-happiness.png" alt="whitepapers" width="450" height="248">
                                 </figure>
-                                <h4>Delivering Happiness</h4>
+                                <h2>Delivering Happiness</h2>
 
                                 <!--<a href="#modal-1.php" class="download">Download case study</a>-->
                                 <!--<a href="case-study-download.php" download class="download">Download case study</a>-->
@@ -116,7 +116,7 @@ $seo_keywords = "whitepapers, technology solutions, white papers on colocation, 
                                 <figure>
                                     <img src="dashboard/uploads/whitepapers/digital-heathcare.png" alt="whitepapers" width="450" height="248">
                                 </figure>
-                                <h4>Digital Healthcare</h4>
+                                <h2>Digital Healthcare</h2>
 
                                 <!--<a href="#modal-1.php" class="download">Download case study</a>-->
                                 <!--<a href="case-study-download.php" download class="download">Download case study</a>-->
@@ -128,7 +128,7 @@ $seo_keywords = "whitepapers, technology solutions, white papers on colocation, 
                                 <figure>
                                     <img src="dashboard/uploads/whitepapers/E-Learning-(2).png" alt="whitepapers" width="450" height="248">
                                 </figure>
-                                <h4>E-Learning</h4>
+                                <h2>E-Learning</h2>
 
                                 <!--<a href="#modal-1.php" class="download">Download case study</a>-->
                                 <!--<a href="case-study-download.php" download class="download">Download case study</a>-->
@@ -140,7 +140,7 @@ $seo_keywords = "whitepapers, technology solutions, white papers on colocation, 
                                 <figure>
                                     <img src="dashboard/uploads/whitepapers/enabling-smart-forming.png" alt="whitepapers" width="450" height="248">
                                 </figure>
-                                <h4>Enabling Smart Farming</h4>
+                                <h2>Enabling Smart Farming</h2>
 
                                 <!--<a href="#modal-1.php" class="download">Download case study</a>-->
                                 <!--<a href="case-study-download.php" download class="download">Download case study</a>-->
@@ -152,7 +152,7 @@ $seo_keywords = "whitepapers, technology solutions, white papers on colocation, 
                                 <figure>
                                     <img src="images/case-studies-2.png" alt="case-studies-2" width="450" height="248">
                                 </figure>
-                                    <h4>DR Solution Enabling to Business Continuity During COVID-19</h4>
+                                    <h2>DR Solution Enabling to Business Continuity During COVID-19</h2>
                                     <p>The customer was able to secure a DR solution in record time and have been also replicating huge volumes of data within...</p>
                                     <a href="#modal-1.php" class="download">Download case study</a>
                                  </div>

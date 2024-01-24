@@ -29,7 +29,7 @@ $seo_keywords = "";
 <section id="hb_products_Lists">
 	<div class="container">
 		<div class="hb-productHead text-center">
-			<h1> Prevention Is Better Than Cure</h1>
+			<h2> Prevention Is Better Than Cure</h2>
 			<p>IT disasters can be natural or inflicted by human error. Any such threat, causing a data center failure, server corruption, or cyber attacks can be expensive for your business. They not only disrupt your operations, but also cause permanent data loss, damage your reputation and impact your revenue. With business continuity on Pi Cloud<sup></sup>, enterprises can ensure that adverse effect on their business runtime is minimalistic and they get to return to full operational state in no time.</p>
 		</div>
 		<div class="hb-childProducts">
@@ -76,7 +76,7 @@ $seo_keywords = "";
 												<img src="./pi-cloud/images/product-page-icons/bc/cd.svg" alt="onesize">
 											</p>
 											<div class="hb-featCont">
-												<h6>Custom Deployment</h6>
+												<h4>Custom Deployment</h4>
 												<p>Recovery of business-critical applications and data within prescribed RPO and RTO your business needs</p>
 											</div>
 										</div>
@@ -89,7 +89,7 @@ $seo_keywords = "";
 												<img src="./pi-cloud/images/product-page-icons/bc/rf.svg" alt="low">
 											</p>
 											<div class="hb-featCont">
-												<h6>Low Business Risk</h6>
+												<h4>Low Business Risk</h4>
 												<p>Optimal TCO without compromising on quality and availability</p>
 											</div>
 										</div>
@@ -102,7 +102,7 @@ $seo_keywords = "";
 												<img src="./pi-cloud/images/product-page-icons/bc/drd.svg" alt="workspace">
 											</p>
 											<div class="hb-featCont">
-												<h6>DR Drills </h6>
+												<h4>DR Drills </h4>
 												<p>Periodic drills enable operational readiness and use cases to improve resiliency and recovery time</p>
 											</div>
 										</div>
@@ -175,7 +175,7 @@ $seo_keywords = "";
 												<img src="./pi-cloud/images/product-page-icons/bc/eou.svg" alt="workspace">
 											</p>
 											<div class="hb-featCont">
-												<h6>Ease of use</h6>
+												<h4>Ease of use</h4>
 												<p>Schedule, manage and restore centrally from one interface</p>
 											</div>
 										</div>
@@ -188,7 +188,7 @@ $seo_keywords = "";
 												<img src="./pi-cloud/images/product-page-icons/bc/hcb.svg" alt="workspace">
 											</p>
 											<div class="hb-featCont">
-												<h6>Hybrid backup solution</h6>
+												<h4>Hybrid backup solution</h4>
 												<p>Single point solution for your workloads running on cloud and on-premise</p>
 											</div>
 										</div>
@@ -201,7 +201,7 @@ $seo_keywords = "";
 												<img src="./pi-cloud/images/product-page-icons/bc/fdb.svg" alt="workspace">
 											</p>
 											<div class="hb-featCont">
-												<h6>Flexible backup options</h6>
+												<h4>Flexible backup options</h4>
 												<p>Restore your entire workloads or specific files and folders for a given duration window</p>
 											</div>
 										</div>
@@ -277,7 +277,7 @@ $seo_keywords = "";
 												<img src="./pi-cloud/images/onesize.svg" alt="workspace">
 											</p>
 											<div class="hb-featCont">
-												<h6>HA clustering</h6>
+												<h4>HA clustering</h4>
 												<p>Cloud servers customized and grouped to support workloads with zero or minimal downtime</p>
 											</div>
 										</div>
@@ -290,7 +290,7 @@ $seo_keywords = "";
 												<img src="./pi-cloud/images/onesize.svg" alt="workspace">
 											</p>
 											<div class="hb-featCont">
-												<h6>No single point of failure</h6>
+												<h4>No single point of failure</h4>
 												<p>The redundancy built in by enterprise grade HA softwares provides clusters, ensuring service continuity</p>
 											</div>
 										</div>
@@ -303,7 +303,7 @@ $seo_keywords = "";
 												<img src="./pi-cloud/images/onesize.svg" alt="workspace">
 											</p>
 											<div class="hb-featCont">
-												<h6>Monitoring & Detection</h6>
+												<h4>Monitoring & Detection</h4>
 												<p>Follow the sun monitoring of all servers, resource pools and workloads for preventive detection of possible failures</p>
 											</div>
 										</div>

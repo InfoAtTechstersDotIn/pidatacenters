@@ -16,6 +16,43 @@
 
         gtag('config', 'G-Q27EFC7EEJ');
     </script>
+<!-- Google tag (gtag.js) event - delayed navigation helper -->
+<script>
+  // Helper function to delay opening a URL until a gtag event is sent.
+  // Call it in response to an action that should navigate to a URL.
+  function gtagSendEvent(url) {
+    var callback = function () {
+      if (typeof url === 'string') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion_event_submit_lead_form', {
+      'event_callback': callback,
+      'event_timeout': 2000,
+      // <event_parameters>
+    });
+    return false;
+  }
+</script>
+    <!-- Google Tag Manager -->
+    <!--<script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-T3L588D');
+    </script> -->
+    <!-- End Google Tag Manager -->
+
     <!-- Google Tag Manager -->
     <script>
         (function(w, d, s, l, i) {
@@ -31,7 +68,7 @@
             j.src =
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-T3L588D');
+        })(window, document, 'script', 'dataLayer', 'GTM-5J7TD3KS');
     </script>
     <!-- End Google Tag Manager -->
 
@@ -235,7 +272,7 @@
             text-align: center !important;
         }
     </style>
-    <!-- <script>
+   <!-- <script>
         (function(w, d) {
             w.CollectId = "64ccede764532f27c3dc3bb2";
             var h = d.head || d.getElementsByTagName("head")[0];
@@ -246,9 +283,8 @@
             h.appendChild(s);
         })(window, document);
     </script> -->
-
-    <!-- newly added chatbot script -->
-    <script>
+<!--newly added chatbot script-->
+ <script>
         (function(w, d) {
             w.CollectId = "64ccede764532f27c3dc3bb2";
             var h = d.head || d.getElementsByTagName("head")[0];
@@ -259,13 +295,19 @@
             h.appendChild(s);
         })(window, document);
     </script>
+
 </head>
 
 <body>
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3L588D" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!--<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3L588D" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
     <!-- End Google Tag Manager (noscript) -->
+
+ <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5J7TD3KS" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- wrapper starts -->
 
 
@@ -1087,7 +1129,7 @@
 
                         <div class="col-md-3 hide-copyright">
                             <div class="footer-copy-rights">
-                                <p>&#169; 2024 Pi DATACENTERS Pvt. Ltd.| All rights reserved. <a href="#" target="_blank" class="three-dm">Managed by Nayana Group</a></p>
+                                <p>&#169; 2023 Pi DATACENTERS Pvt. Ltd.| All rights reserved. <a href="#" target="_blank" class="three-dm">Managed by Nayana Group</a></p>
                                 <!--<p><a href="https://3dm.agency/" target="_blank" class="three-dm">Design and Developed by @3DM.agency</a></p>-->
                                 <!-- <p><a href="#" target="_blank" class="three-dm">Managed by Nayana Group</a></p> -->
 
