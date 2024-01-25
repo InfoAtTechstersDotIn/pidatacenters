@@ -34,14 +34,14 @@ $seo_keywords = "articles, informative articles, datacenter articles, cloud arti
           <div class="latest-block row">
             <div class="latest-block-left col-md-12">
 
-              <a href="breaking-down-iaas-paas-saas.php"><img src="images/breaking-down.svg" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="understanding-data-centers.php"><img src="images/understanding-data-centers.svg" alt="kh-img-1" width="430" height="278"> </a>
 
               <br>
-              <a href="breaking-down-iaas-paas-saas.php" class="new-article-head">
-                <h2>Breaking Down IaaS, PaaS, and SaaS: How to Understand Cloud Computing </h2>
+              <a href="understanding-data-centers.php" class="new-article-head">
+                <h2>Understanding Data Centers: Types, Services, and Benefits </h2>
               </a>
 
-              <div class="readmore-btn" style="padding:20px 0 0;"><a href="breaking-down-iaas-paas-saas.php">Read More</a></div>
+              <div class="readmore-btn" style="padding:20px 0 0;"><a href="understanding-data-centers.php">Read More</a></div>
 
             </div>
 
@@ -129,6 +129,14 @@ $seo_keywords = "articles, informative articles, datacenter articles, cloud arti
       <div class="what-drives-vission1 row align-middle">
         <div class="what-drives-vission-left1 col-md-12">
           <ul class="slider-knowledge row">
+
+            <li class="col-md-3 articles">
+              <a href="breaking-down-iaas-paas-saas.php"><img src="images/breaking-down.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#article</span><a href="breaking-down-iaas-paas-saas.php" class="pres-rel">
+                <h2>Breaking Down IaaS, PaaS, and SaaS: How to Understand Cloud Computing</h2>
+              </a>
+              <div class="readmore-btn"><a href="breaking-down-iaas-paas-saas.php">Read More</a></div>
+            </li>
 
             <li class="col-md-3 industry">
               <a href="realize-managed-services-full-potential.php"><img src="images/industry-obstacles.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
