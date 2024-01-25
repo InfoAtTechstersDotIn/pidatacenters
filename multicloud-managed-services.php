@@ -1425,17 +1425,21 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 			<li>
 				<div class="hb-rightCont hb_ppCont">
 
-					<p style="text-align:left;">Our Managed Services offer varied models to cater to unique business needs of enterprises. These include the A La Carte, Dedicated Resource, Tiered, Elastic (Pay-Per-Use), and Monitoring Only models. This is to ensure that businesses could focus on their core activities while our managed services ecosystem takes care of the smooth operations and service availability of the IT infrastructure landscape.</p>
+					<p style="text-align: justify;">Our Managed Services offer varied models to cater to unique business needs of enterprises. These include the A La Carte, Dedicated Resource, Tiered, Elastic (Pay-Per-Use), and Monitoring Only models. This is to ensure that businesses could focus on their core activities while our managed services ecosystem takes care of the smooth operations and service availability of the IT infrastructure landscape.</p>
+					<div class="hb-btn_cl multi-hb-btn"><a href="images/new-multi-cloud-brochure.pdf" class="global-button" target="_blank">
+							Download Brochure
+						</a>
+					</div>
 				</div>
 			</li>
 		</ul>
 	</div>
 
-	<div class="hb-btn_cl" style="text-align: center; margin-top: 20px;"><a href="images/new-multi-cloud-brochure.pdf" class="global-button" target="_blank">
+	<!-- <div class="hb-btn_cl" style="text-align: center; margin-top: 20px;"><a href="images/new-multi-cloud-brochure.pdf" class="global-button" target="_blank">
 			Download Brochure
 		</a>
 
-	</div>
+	</div> -->
 
 
 	<div class="hb-childProducts2">

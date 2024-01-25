@@ -72,7 +72,7 @@
 
                     <p>The Data Center's resilience guarantees safe data storage and seamless access. With round-the-clock support, educational institutions can focus on their core operations. Adopting Data Center services empowers institutions to provide an exceptional learning experience, shaping the future of education in a transformative and impactful way. </p>
 
-                    <p>To address the aforementioned issues, <a href="" target="_blank" class="anchor-color">educational institutions</a> must collaborate with a dependable and scalable data center, such as </p>
+                    <p>To address the aforementioned issues, <a href="industry-cloud-solutions.php" target="_blank" class="anchor-color">educational institutions</a> must collaborate with a dependable and scalable data center, such as </p>
 
                 </div>
             </div>

@@ -72,7 +72,7 @@
                     <p>In the context of a dynamic and evolving business environment, the utilization of colocation services is increasingly recognized as a crucial asset for industries aiming to maintain a competitive edge. These services offer tailored solutions to effectively address the unique challenges faced by modern businesses, providing benefits such as flexibility, scalability, security, enhanced compliance, reduced IT personnel, heightened focus on business objectives, and efficient management. </p>
 
                     <h2>Benefits of Working with Us </h2>
-                    <p>At Pi, we understand the unique challenges faced by businesses across industries. Our <a href="" target="_blank" class="anchor-color">datacenter facilities</a> and expert teams are geared to address these challenges head-on. </p>
+                    <p>At Pi, we understand the unique challenges faced by businesses across industries. Our <a href="datacenter-colocation-services.php" target="_blank" class="anchor-color">datacenter facilities</a> and expert teams are geared to address these challenges head-on. </p>
 
                     <h2>Our approach: </h2>
                     <h3>Tailored Solutions:</h3>

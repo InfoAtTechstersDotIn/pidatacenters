@@ -7392,6 +7392,11 @@ top: 185px !important;
         font-size: 15px;
         line-height: 1rem;
     }
+
+    .multi-hb-btn {
+        text-align: center;
+        margin-top: 10px;
+    }
 }
 
 @media screen and (max-width:599px) {
