@@ -7242,6 +7242,10 @@ top: 185px !important;
     .slider-knowledge li a.pres-rel {
         min-height: 215px;
     }
+
+    .article-btns {
+        max-width: 75%;
+    }
 }
 
 
@@ -7710,6 +7714,10 @@ top: 185px !important;
 
     .slider-knowledge li a.pres-rel {
         min-height: 160px;
+    }
+
+    .industry-articles {
+        margin: auto;
     }
 }
 

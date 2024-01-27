@@ -280,6 +280,15 @@ $seo_keywords = "colocation services, server hosting, data center colocation, se
     </div>
 </div>
 
+<!-- <div>
+    <div class="">
+        <p>
+            <a id="myBtn2" data-toggle="modal" data-target="#myModal2" style="color: #223f97;">Request For Quote</a>
+            <a id="reach-btn" data-toggle="modal" data-target="#myModal" style="color: #223f97;">Reach Us</a>
+        </p>
+    </div>
+</div> -->
+
 <!--why-work-with-us starts here -->
 <div class="about-locations-blk more-btn" id="locations5">
     <div class="container">
