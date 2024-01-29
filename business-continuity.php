@@ -7,7 +7,7 @@ $seo_keywords = "";
 <?php include('php/includes-techsters/header.php'); ?>
 
 <head>
-	<link rel="canonical" href="https://www.pidatacenters.com/private-cloud.php" />
+	<link rel="canonical" href="https://www.pidatacenters.com/private-cloud-infrastructure-services.php" />
 </head>
 
 <div class="hb-bannerCont">

@@ -728,10 +728,8 @@
 
     <div class="banners_content gpu_hide" style=>
         <p>
-            <a id="myBtn2" style="color: #223f97
-;">Request For Quote</a>
-            <a id="reach-btn" data-toggle="modal" data-target="#myModal" style="color: #223f97
-;">Reach Us</a>
+            <a id="myBtn2" style="color: #223f97;">Request For Quote</a>
+            <a id="reach-btn" data-toggle="modal" data-target="#myModal" style="color: #223f97;">Reach Us</a>
         </p>
     </div>
 

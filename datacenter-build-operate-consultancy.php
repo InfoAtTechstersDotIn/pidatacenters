@@ -36,6 +36,7 @@ $seo_keywords = "datacenter design, datacenter build, infrastructure constructio
                            <p>In a short span of time, our data center consulting practice has helped build data centers of varying sizes for clients across the globe. These include data centers for captive use as well as for third party clients. We have a team of highly specialized data center specialists that include IT engineers, network specialists, software engineers and other technical staff. We also have on board specialized data center architects and civil engineers to design the optimal data center facilities for our clients.</p>-->
                 </div>
             </div>
+
             <div class="harbourfront row row-reverse">
                 <div class="harbourfront-left col-md-5">
                     <img src="images/dc-build-about2.jpg" alt="dc-build-img" width="799" height="684">
@@ -100,16 +101,12 @@ $seo_keywords = "datacenter design, datacenter build, infrastructure constructio
 
     </div>
 </div>
-<!--start-your-journey starts here -->
 
 
 <!--footer block starts -->
-
 <?php include('php/includes-techsters/footer.php'); ?>
-
-
 <!--footer ends-->
-</div>
+
 <!-- wrapper ends -->
 <script src="js/wow.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

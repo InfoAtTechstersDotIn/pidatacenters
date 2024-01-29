@@ -10434,6 +10434,58 @@
         padding: 7px 10px !important;
     }
 
-    .privacy-policy-blk {
-        user-select: auto !important;
+    .contact-form-cta {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0 10px 0;
+    }
+
+    .contact-form-cta a {
+        background-color: #223f97;
+        padding: 12px 19px;
+        color: #fff;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 6px;
+        z-index: 1;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+
+    .contact-form-cta p a {
+        position: relative;
+    }
+
+    .contact-form-cta p a:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        width: 0%;
+        height: 100%;
+        margin: 0 auto;
+        transition: .5s;
+        border-radius: 2px;
+    }
+
+    .contact-form-cta p a:hover:after {
+        width: 100%;
+        background-color: #76b543;
+    }
+
+    .testimonial-block-main {
+        padding: 0px 40px 0px;
+    }
+
+    .pop_up button.close {
+        outline: none !important;
+    }
+
+    .harbourfront-services-blk {
+        padding: 0px 0;
     }
