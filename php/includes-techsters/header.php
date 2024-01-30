@@ -50,6 +50,8 @@
 
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
     <!-- newly added chatbot script -->
     <script>
         (function(w, d) {
@@ -197,11 +199,11 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#" class="drop-arrow">MANAGED SERVICES</a>
+                                <a href="<?php echo $site_url ?>managed-services.php" class="drop-arrow">MANAGED SERVICES</a>
                                 <div class="drop-down">
                                     <ul>
                                         <li>
-                                            <a href="<?php echo $site_url ?>multicloud-managed-services.php">Multi Cloud Managed Services</a>
+                                            <a href="<?php echo $site_url ?>multicloud-managed-services.php">Multi Cloud</a>
                                         </li>
                                         <li>
                                             <a href="<?php echo $site_url ?>IT-remote-infrastructure-management.php">RIMS</a>
@@ -471,12 +473,12 @@
                             </div>
 
                             <li class="accordion">
-                                <a href="#" class="drop-arrow">MANAGED SERVICES</a>
+                                <a href="<?php echo $site_url ?>managed-services.php" class="drop-arrow">MANAGED SERVICES</a>
                             </li>
                             <div class=" panel">
                                 <ul>
                                     <li>
-                                        <a href="<?php echo $site_url ?>multicloud-managed-services.php">Multi Cloud Managed Services</a>
+                                        <a href="<?php echo $site_url ?>multicloud-managed-services.php">Multi Cloud</a>
                                     </li>
                                     <li>
                                         <a href="<?php echo $site_url ?>IT-remote-infrastructure-management.php">RIMS</a>
@@ -758,6 +760,11 @@
                         <textarea id="message" name="message" rows="4" required></textarea>
 
                         <label for="checkbox"><input type="checkbox" required name="checkbox" class="check-box">I Agree with The <a href="terms-conditions.php" target="_blank" style="color: #CB4721;"> &nbsp;Terms and Conditions</a></label>
+
+                        <div>
+                            <div class="g-recaptcha" data-sitekey="6LeQKSUpAAAAAJSeTQOzIzFNS5veD4M3_RAE89gm"></div>
+                        </div>
+
                         <input class="sub_mit" type="submit" value="Submit">
 
                         <input type="hidden" name="techsters_subject" value="Reach Us Form Leads" />
@@ -822,6 +829,10 @@
                         <input type="file" required name="document">
 
                         <label for="checkbox"><input type="checkbox" required name="checkbox" class="check-box">I Agree with The <a href="terms-conditions.php" target="_blank" style="color: #CB4721;"> &nbsp;Terms and Conditions</a></label>
+
+                        <div>
+                            <div class="g-recaptcha" data-sitekey="6LeQKSUpAAAAAJSeTQOzIzFNS5veD4M3_RAE89gm"></div>
+                        </div>
 
                         <input class="sub_mit" type="submit" value="Submit">
 

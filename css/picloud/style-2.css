@@ -10489,3 +10489,35 @@
     .harbourfront-services-blk {
         padding: 0px 0;
     }
+
+    .managed-services-block {
+        max-width: 85%;
+        margin: 20px auto;
+    }
+
+    .managed-services-block img {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    .managed-services-block h2 {
+        color: #76b543;
+        font-size: 25px;
+        text-align: center;
+        padding: 10px 0;
+        line-height: 2rem;
+    }
+
+    .managed-services-block a {
+        background-color: #223f97;
+        color: #fff;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .managed-services-block .col-md-4 div {
+        position: absolute;
+        bottom: 0;
+        left: 42%;
+        top: 105%;
+    }

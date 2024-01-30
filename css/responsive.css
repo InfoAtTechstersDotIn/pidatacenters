@@ -7011,7 +7011,7 @@ top: 185px !important;
     }
 
     .added-tags h2 {
-        padding: 5px 0;
+        padding: 10px 0;
         line-height: 2rem;
     }
 
@@ -7243,8 +7243,17 @@ top: 185px !important;
         min-height: 215px;
     }
 
-    .article-btns {
-        max-width: 75%;
+    .managed-services-block h2 {
+        font-size: 18px;
+        line-height: 1.5rem;
+    }
+
+    .managed-services-block img {
+        width: 45%;
+    }
+
+    .managed-services-block .col-md-4 div {
+        left: 34%;
     }
 }
 
@@ -7716,8 +7725,13 @@ top: 185px !important;
         min-height: 160px;
     }
 
-    .industry-articles {
-        margin: auto;
+    .managed-services-block .col-md-4 div {
+        left: 40% !important;
+    }
+
+    .managed-services-block h2 {
+        font-size: 24px;
+        padding: 20px 0;
     }
 }
 
