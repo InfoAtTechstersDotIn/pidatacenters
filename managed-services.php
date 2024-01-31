@@ -19,30 +19,40 @@ $seo_keywords = "";
     <div class="container">
         <div class="row">
             <div class="col-md-4 my-5">
-                <img src="images/multi-cloud-icon.png">
-                <h2>Multi Cloud</h2>
-                <div class="managed-subtabs"><a href="multicloud-managed-services.php" target="_blank">Explore</a></div>
+                <div>
+                    <img src="images/multi-cloud-vector.svg">
+                    <h2>Multi Cloud</h2>
+                    <div class="managed-subtabs"><a href="multicloud-managed-services.php" target="_blank">Explore</a></div>
+                </div>
             </div>
             <div class="col-md-4 my-5">
-                <img src="images/rims-icon.png">
-                <h2>Remote Infrastructure Management</h2>
-                <div><a href="IT-remote-infrastructure-management.php" target="_blank">Explore</a></div>
+                <div>
+                    <img src="images/rims-icon.png">
+                    <h2>Remote Infrastructure Management</h2>
+                    <div><a href="IT-remote-infrastructure-management.php" target="_blank">Explore</a></div>
+                </div>
             </div>
             <div class="col-md-4 my-5">
-                <img src="images/noc-icon.png">
-                <h2>Network Operating Center</h2>
-                <div><a href="network-operating-center.php" target="_blank">Explore</a></div>
+                <div>
+                    <img src="images/noc-vector.svg">
+                    <h2>Network Operating Center</h2>
+                    <div><a href="network-operating-center.php" target="_blank">Explore</a></div>
+                </div>
             </div>
             <div class="col-md-2"></div>
-            <div class="col-md-4 my-5">
-                <img src="images/soc-icon.png">
-                <h2>Security Operations Center</h2>
-                <div><a href="security-operations-center.php" target="_blank">Explore</a></div>
+            <div>
+                <div class="col-md-4 my-5">
+                    <img src="images/soc-vector.svg">
+                    <h2>Security Operations Center</h2>
+                    <div><a href="security-operations-center.php" target="_blank">Explore</a></div>
+                </div>
             </div>
             <div class="col-md-4 my-5">
-                <img src="images/devops-icon.png">
-                <h2>DevOps</h2>
-                <div><a href="devops-as-a-service.php" target="_blank">Explore</a></div>
+                <div>
+                    <img src="images/devops-vector.svg">
+                    <h2>DevOps</h2>
+                    <div><a href="devops-as-a-service.php" target="_blank">Explore</a></div>
+                </div>
             </div>
         </div>
     </div>
