@@ -38,7 +38,7 @@ $seo_keywords = "articles, informative articles, datacenter articles, cloud arti
 
               <br>
               <a href="evolution-of-computing.php" class="new-article-head">
-                <h2>The Evolution Of Computing: A Guide To Cloud Computing </h2>
+                <h2>The Evolution Of Computing: A Guide To Cloud Hosting </h2>
               </a>
 
               <div class="readmore-btn" style="padding:20px 0 0;"><a href="evolution-of-computing.php">Read More</a></div>
