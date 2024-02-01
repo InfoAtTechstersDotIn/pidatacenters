@@ -27,7 +27,7 @@ $seo_keywords = "";
             </div>
             <div class="col-md-4 my-5">
                 <div>
-                    <img src="images/rims-icon.png">
+                    <img src="images/rims-vector.svg">
                     <h2>Remote Infrastructure Management</h2>
                     <div><a href="IT-remote-infrastructure-management.php" target="_blank">Explore</a></div>
                 </div>

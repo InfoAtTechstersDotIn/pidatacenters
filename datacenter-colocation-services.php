@@ -11,7 +11,7 @@ $seo_keywords = "colocation services, server hosting, data center colocation, se
 <?php include('php/includes-techsters/header.php'); ?>
 
 <head>
-    <link rel="canonical" href="https://www.pidatacenters.com/datacenter-infrastructure.php" />
+    <link rel="canonical" href="https://www.pidatacenters.com/dc-infrastructure.php" />
 </head>
 
 
@@ -280,6 +280,7 @@ $seo_keywords = "colocation services, server hosting, data center colocation, se
     </div>
 </div>
 
+<!--why-work-with-us starts here -->
 <div class="about-locations-blk more-btn" id="locations5">
     <div class="container">
         <div class="about-locations-main">
@@ -474,12 +475,16 @@ $seo_keywords = "colocation services, server hosting, data center colocation, se
                             </div>
                         </div>
                     </div>
+
                 </div>
+
             </div>
+
+
+
         </div>
     </div>
 </div>
-
 <div class="about-data-center-infrastructure-blk dc">
     <div class="container">
         <div class="about-data-center-infrastructure-main">
@@ -586,16 +591,23 @@ $seo_keywords = "colocation services, server hosting, data center colocation, se
                                 <h3 class="p-su">Office & All <br>Other Air-Conditioned Rooms</h3>
                                 <p class="public111">Room Temperature :<span style="color:#7D7D7D;"> 22+/-2 deg. C</span></p>
                                 <p class="public222">Relative Humidity:<span style="color:#7D7D7D;"> Less than 70 deg. C</span></p>
+
+
+
                             </div>
                         </div>
                     </li>
                 </ul>
+
+
+
             </li>
+
+
+
         </ul>
     </div>
 </div>
-
-
 <div class="our-features">
     <div class="container-fluid">
         <div class="our">
@@ -761,7 +773,6 @@ $seo_keywords = "colocation services, server hosting, data center colocation, se
 
     </div>
 </div>
-
 <div class="dc-download-brochure">
     <div class="dc-download-brochure-mian">
         <div class="dc-download-brochure-left">

@@ -93,6 +93,9 @@ $seo_keywords = "data center, data center solutions, secure infrastructure, scal
     <div class="about-banner-blk">
         <img src="images/datacenter-services.png" alt="datacenter-services" width="1920" height="210" class="datacenter-services-img">
         <h1>Data Center</h1>
+
+
+
     </div>
 </div>
 
@@ -332,20 +335,16 @@ $seo_keywords = "data center, data center solutions, secure infrastructure, scal
                             </div>
                         </div>
                     </div>
+
                 </div>
+
             </div>
+
+
+
         </div>
     </div>
 </div>
-
-<!-- Reach Us CTA -->
-<div class="gpu_hide contact-form-cta">
-    <p>
-        <a id="reach-btn" data-toggle="modal" data-target="#myModal">Reach Us</a>
-    </p>
-</div>
-<!-- Reach Us CTA Ends-->
-
 <div class="about-data-center-infrastructure-blk dc">
     <div class="container">
         <div class="about-data-center-infrastructure-main">
@@ -452,23 +451,23 @@ $seo_keywords = "data center, data center solutions, secure infrastructure, scal
                                 <h3 class="p-su">Office & All <br>Other Air-Conditioned Rooms</h3>
                                 <p class="public111">Room Temperature :<span style="color:#7D7D7D;"> 22+/-2 deg. C</span></p>
                                 <p class="public222">Relative Humidity:<span style="color:#7D7D7D;"> Less than 70 deg. C</span></p>
+
+
+
                             </div>
                         </div>
                     </li>
                 </ul>
+
+
+
             </li>
+
+
+
         </ul>
     </div>
 </div>
-
-<!-- RFQ CTA -->
-<div class="gpu_hide contact-form-cta">
-    <p>
-        <a id="myBtn2" data-toggle="modal" data-target="#myModal2">Request For Quote</a>
-    </p>
-</div>
-<!-- RFQ CTA Ends-->
-
 <div class="our-features">
     <div class="container-fluid">
         <div class="our">

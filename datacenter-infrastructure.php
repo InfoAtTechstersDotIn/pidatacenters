@@ -139,7 +139,7 @@ $seo_keywords = "data center, infrastructure services, data center solutions, se
                 <div class="tabBlock-pane">
                     <div class="dc-advisory-block row">
                         <div class="dc-advisory-block-lt col-md-6">
-                            <img src="images/pmc-img.png" alt="pmc-img" width="829" height="666">
+                            <img src="images/pmc-dc.png" alt="pmc-img" width="829" height="666">
                         </div>
                         <div class="dc-advisory-block-rt  col-md-6">
                             <h2>Project Management Consultancy (PMC)</h2>
@@ -361,13 +361,17 @@ $seo_keywords = "data center, infrastructure services, data center solutions, se
                             </div>
                         </div>
                     </div>
+
+
                 </div>
+
             </div>
+
+
+
         </div>
     </div>
 </div>
-
-
 <div class="about-data-center-infrastructure-blk dc">
     <div class="container">
         <div class="about-data-center-infrastructure-main">
@@ -477,15 +481,23 @@ $seo_keywords = "data center, infrastructure services, data center solutions, se
                                 <h3 class="p-su">Office & All <br>Other Air-Conditioned Rooms</h3>
                                 <p class="public111">Room Temperature :<span style="color:#7D7D7D;"> 22+/-2 deg. C</span></p>
                                 <p class="public222">Relative Humidity:<span style="color:#7D7D7D;"> Less than 70 deg. C</span></p>
+
+
+
                             </div>
                         </div>
                     </li>
                 </ul>
+
+
+
             </li>
+
+
+
         </ul>
     </div>
 </div>
-
 <div class="our-features">
     <div class="container-fluid">
         <div class="our">

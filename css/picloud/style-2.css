@@ -6002,7 +6002,7 @@
         font-weight: 400;
     }
 
-    .amaravathi-dc-top h3:before {
+    .amaravathi-dc-top h4:before {
         position: absolute;
         top: 2px;
         right: auto;
@@ -6014,7 +6014,7 @@
         background-size: contain;
     }
 
-    .amaravathi-dc-top h3.kdc:before {
+    .amaravathi-dc-top h4.kdc:before {
         position: absolute;
         top: 10px;
         right: auto;
@@ -6023,6 +6023,18 @@
         height: 50px;
         content: "";
         left: 4px;
+        background-size: contain;
+    }
+
+    .amaravathi-dc-top h4.hyderabad:before {
+        position: absolute;
+        top: 0px;
+        right: auto;
+        background: url(https://pidatacenters.com/images/charminar-blue.svg) no-repeat;
+        width: 41px;
+        height: 50px;
+        content: "";
+        left: 6px;
         background-size: contain;
     }
 
