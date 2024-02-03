@@ -6,7 +6,12 @@ $seo_keywords = "soc cybersecurity, datacenter soc services, cloud soc services,
 
 
 <?php include('php/includes-techsters/header.php'); ?>
-
+<style>
+    .modal-content {
+        background-color: transparent;
+        border: none;
+    }
+</style>
 <!-- main starts here -->
 
 <div class="about-banner">
@@ -37,8 +42,9 @@ $seo_keywords = "soc cybersecurity, datacenter soc services, cloud soc services,
                     </div>
                     <div class="col-md-7 mt-2">
 
-                        <p>The very nature of cybersecurity challenges lies in their ceaseless evolution. Hackers and cybercriminals are adept at developing new tactics and techniques to circumvent detection and compromise systems. This reality necessitates a constant state of vigilance and the implementation of proactive measures to safeguard organizational assets and sensitive data. A SOC serves as the key component in this defense strategy, providing not just a reactive response but a continuous and vigilant shield against potential threats. </p>
-
+                        <p>The very nature of cybersecurity challenges lies in their ceaseless evolution. Hackers and cybercriminals are adept at developing new tactics and techniques to circumvent detection and compromise systems. This reality necessitates a constant state of vigilance and the implementation of proactive measures to safeguard organizational assets and sensitive data. A SOC serves as the key component in this defense strategy, providing not just a reactive response but a continuous and vigilant shield against potential threats.
+                            <a href="#modal-1" onclick="document.getElementById('File_Downloaded').value = '<?php echo $each ?>';" class="download case-btn">Download case study</a>
+                        </p>
                     </div>
 
                 </div>
@@ -94,6 +100,47 @@ $seo_keywords = "soc cybersecurity, datacenter soc services, cloud soc services,
 
 
 <?php include('php/includes-techsters/footer.php'); ?>
+<div id="modal-1" class="modalDialog">
+    <div class="fill-your-details">
+        <div class="modal-content" style="margin: 5% 0%;width:100%">
+            <div class="modal-container">
+                <a href="#close" title="Close" class="close">x</a>
+                <div class="modal-body">
+                    <div class=" row">
+                        <div class="fill-your-details-cnt" style="width: 100%;">
+                            <h3>Fill Your Details</h3>
+                            <form onsubmit="return myFunction()" id="contactForm" action="https://clientele.techsters.in/public/api/client_forms" method="post">
+                                <input type="text" name="name" style="width: 100%;border-radius:5px" placeholder=" Full Name" required=""><br /><br />
+                                <input type="tel" name="number" style="width: 100%;border-radius:5px" placeholder=" Phone" pattern="[0-9]{10}" required=""><br /><br />
+                                <input id="email_address" type="email" name="email" style="width: 100%;border-radius:5px" placeholder=" Email Address" required=""><br /><br />
+                                <input type="text" name="website" style="width: 100%;border-radius:5px" placeholder=" Company Website" required=""><br /><br />
+                                <textarea name="message" style="width: 100%;border-radius:5px" rows="4" placeholder=" Message" required=""></textarea><br /><br />
+                                <input class="btn" style="width: 100%;border-radius:5px" type="submit" value="Submit">
+                                <input type="hidden" name="downloaded" id="File_Downloaded" value="">
+                                <input type="hidden" name="techsters_subject" value="PiDataCenters - Case Studies">
+                                <input type="hidden" name="form_unique_id" value="1ef13057-52fd-11ee-a4b0-525400b78afc">
+                            </form>
+                            <script>
+                                function myFunction() {
+                                    let email_address = document.getElementById('email_address').value;
+                                    if (email_address.includes('gmail') || email_address.includes('yahoo') || email_address.includes('outlook') ||
+                                        email_address.includes('hotmail') || email_address.includes('live') || email_address.includes('aol')) {
+                                        alert('Invalid Email Address, Please use your Work Email');
+                                        return false;
+                                    } else {
+                                        let File_Downloaded = document.getElementById('File_Downloaded').value;
+                                        let URL = 'case_study_files/' + File_Downloaded + '.pdf';
+                                        window.open(URL);
+                                    }
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- wrapper ends -->
 <script src="js/wow.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

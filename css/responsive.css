@@ -7243,17 +7243,14 @@ top: 185px !important;
         min-height: 215px;
     }
 
-    .managed-services-block h2 {
+    .managed-services-block .managed-services-cont h2 {
         font-size: 18px;
-        line-height: 1.5rem;
+        color: black;
+        line-height: 1.2rem;
     }
 
-    .managed-services-block img {
-        width: 45%;
-    }
-
-    .managed-services-block .col-md-4 div {
-        left: 34%;
+    .managed-services-block .managed-services-cont {
+        padding: 4px;
     }
 }
 
@@ -7723,15 +7720,6 @@ top: 185px !important;
 
     .slider-knowledge li a.pres-rel {
         min-height: 160px;
-    }
-
-    .managed-services-block .col-md-4 div {
-        left: 40% !important;
-    }
-
-    .managed-services-block h2 {
-        font-size: 24px;
-        padding: 20px 0;
     }
 }
 

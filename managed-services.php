@@ -18,41 +18,51 @@ $seo_keywords = "";
 <div class="managed-services-block">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 my-5">
-                <div>
-                    <img src="images/multi-cloud-vector.svg">
-                    <h2>Multi Cloud</h2>
-                    <div class="managed-subtabs"><a href="multicloud-managed-services.php" target="_blank">Explore</a></div>
-                </div>
+            <div class="col-md-4">
+                <a href="multicloud-managed-services.php" target="_blank">
+                    <div class="managed-services-cont">
+                        <img src="images/multi-cloud-vector.svg">
+                        <h2>Multi Cloud</h2>
+                        <div class="managed-subtabs"><a href="multicloud-managed-services.php" target="_blank" class="whole-box">Explore</a></div>
+                    </div>
+                </a>
             </div>
-            <div class="col-md-4 my-5">
-                <div>
-                    <img src="images/rims-vector.svg">
-                    <h2>Remote Infrastructure Management</h2>
-                    <div><a href="IT-remote-infrastructure-management.php" target="_blank">Explore</a></div>
-                </div>
+            <div class="col-md-4">
+                <a href="IT-remote-infrastructure-management.php" target="_blank">
+                    <div class="managed-services-cont">
+                        <img src="images/rims-vector.svg">
+                        <h2>Remote Infrastructure Management</h2>
+                        <div class="managed-subtabs"><a href="IT-remote-infrastructure-management.php" target="_blank" class="whole-box">Explore</a></div>
+                    </div>
+                </a>
             </div>
-            <div class="col-md-4 my-5">
-                <div>
-                    <img src="images/noc-vector.svg">
-                    <h2>Network Operating Center</h2>
-                    <div><a href="network-operating-center.php" target="_blank">Explore</a></div>
-                </div>
+            <div class="col-md-4">
+                <a href="network-operating-center.php" target="_blank">
+                    <div class="managed-services-cont">
+                        <img src="images/noc-vector.svg">
+                        <h2>Network Operating Center</h2>
+                        <div class="managed-subtabs"><a href="network-operating-center.php" target="_blank" class="whole-box">Explore</a></div>
+                    </div>
+                </a>
             </div>
             <div class="col-md-2"></div>
-            <div>
-                <div class="col-md-4 my-5">
-                    <img src="images/soc-vector.svg">
-                    <h2>Security Operations Center</h2>
-                    <div><a href="security-operations-center.php" target="_blank">Explore</a></div>
-                </div>
+            <div class="col-md-4 cont-2">
+                <a href="security-operations-center.php" target="_blank">
+                    <div class="managed-services-cont">
+                        <img src="images/soc-vector.svg">
+                        <h2>Security Operations Center</h2>
+                        <div class="managed-subtabs"><a href="security-operations-center.php" target="_blank" class="whole-box">Explore</a></div>
+                    </div>
+                </a>
             </div>
-            <div class="col-md-4 my-5">
-                <div>
-                    <img src="images/devops-vector.svg">
-                    <h2>DevOps</h2>
-                    <div><a href="devops-as-a-service.php" target="_blank">Explore</a></div>
-                </div>
+            <div class="col-md-4 cont-2">
+                <a href="devops-as-a-service.php" target="_blank">
+                    <div class="managed-services-cont">
+                        <img src="images/devops-vector.svg">
+                        <h2>DevOps</h2>
+                        <div class="managed-subtabs"><a href="devops-as-a-service.php" target="_blank" class="whole-box">Explore</a></div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

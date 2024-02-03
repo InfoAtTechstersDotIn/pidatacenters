@@ -10446,7 +10446,7 @@
         padding: 7px 10px !important;
     }
 
-    .contact-form-cta {
+    /* .contact-form-cta {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -10488,7 +10488,7 @@
     .contact-form-cta p a:hover:after {
         width: 100%;
         background-color: #76b543;
-    }
+    } */
 
     .testimonial-block-main {
         padding: 0px 40px 0px;
@@ -10504,5 +10504,68 @@
 
     .managed-services-block {
         max-width: 85%;
-        margin: 20px auto;
+        margin: 30px auto;
+        padding: 20px 0;
+        background-color: #8080800d;
+        border-radius: 10px;
+    }
+
+
+    .managed-services-block .managed-services-cont {
+        box-shadow: 0px 0px 5px #8080807a;
+        border-radius: 10px;
+        text-align: center;
+        height: 100%;
+        background-color: white;
+        transform: scale(0.9);
+        transition: all .5s linear;
+    }
+
+    .managed-services-block .managed-services-cont:hover {
+        transform: scale(1);
+    }
+
+    .managed-services-block .managed-services-cont h2 {
+        font-size: 20px;
+        color: black;
+        line-height: 2rem;
+    }
+
+    .managed-services-block .managed-services-cont img {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .managed-services-block .managed-subtabs {
+        padding: 15px 0;
+    }
+
+    .managed-services-block .managed-subtabs .whole-box {
+        background-color: #223f97;
+        padding: 5px 10px;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .managed-services-block .managed-subtabs a:hover {
+        background-color: #76b543;
+    }
+
+    .managed-services-block .cont-2 {
+        margin-top: 20px;
+    }
+
+    .case-btn {
+        display: block;
+        margin-top: 20px;
+        background-color: #223f97;
+        width: fit-content;
+        padding: 5px 10px;
+        border-radius: 4px;
+        color: white;
+    }
+
+    .case-btn:hover {
+        background-color: #76b543;
+        color: white;
     }

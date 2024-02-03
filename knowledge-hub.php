@@ -34,14 +34,15 @@ $seo_keywords = "articles, informative articles, datacenter articles, cloud arti
           <div class="latest-block row">
             <div class="latest-block-left col-md-12">
 
-              <a href="evolution-of-computing.php"><img src="images/evolution-of-computing.svg" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="rent-a-rack-what-it-means.php"><img src="images/rent-a-rack.svg" alt="kh-img-1" width="430" height="278"> </a>
 
               <br>
-              <a href="evolution-of-computing.php" class="new-article-head">
-                <h2>The Evolution Of Computing: A Guide To Cloud Hosting </h2>
+              <a href="rent-a-rack-what-it-means.php" class="new-article-head">
+                <!-- article -->
+                <h2>"Rent a Rack": What It Means?</h2>
               </a>
 
-              <div class="readmore-btn" style="padding:20px 0 0;"><a href="evolution-of-computing.php">Read More</a></div>
+              <div class="readmore-btn" style="padding:20px 0 0;"><a href="rent-a-rack-what-it-means.php">Read More</a></div>
 
             </div>
 
@@ -129,6 +130,23 @@ $seo_keywords = "articles, informative articles, datacenter articles, cloud arti
       <div class="what-drives-vission1 row align-middle">
         <div class="what-drives-vission-left1 col-md-12">
           <ul class="slider-knowledge row">
+
+            <li class="col-md-3 articles">
+              <a href="ideal-for-businesses-of-all-sizes.php"><img src="images/rent-a-server.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#article</span><a href="ideal-for-businesses-of-all-sizes.php" class="pres-rel">
+                <h2>Rent a Server: Why is it Ideal for Businesses of All Sizes? </h2>
+              </a>
+              <div class="readmore-btn"><a href="ideal-for-businesses-of-all-sizes.php">Read More</a></div>
+            </li>
+
+
+            <li class="col-md-3 articles">
+              <a href="evolution-of-computing.php"><img src="images/evolution-of-computing.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#article</span><a href="evolution-of-computing.php" class="pres-rel">
+                <h2>The Evolution Of Computing: A Guide To Cloud Hosting</h2>
+              </a>
+              <div class="readmore-btn"><a href="evolution-of-computing.php">Read More</a></div>
+            </li>
 
 
             <li class="col-md-3 articles">

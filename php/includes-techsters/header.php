@@ -50,7 +50,7 @@
 
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 
     <!-- newly added chatbot script -->
     <script>
@@ -761,9 +761,7 @@
 
                         <label for="checkbox"><input type="checkbox" required name="checkbox" class="check-box">I Agree with The <a href="terms-conditions.php" target="_blank" style="color: #CB4721;"> &nbsp;Terms and Conditions</a></label>
 
-                        <div>
-                            <div class="g-recaptcha" data-sitekey="6LeQKSUpAAAAAJSeTQOzIzFNS5veD4M3_RAE89gm"></div>
-                        </div>
+
 
                         <input class="sub_mit" type="submit" value="Submit">
 
@@ -830,9 +828,7 @@
 
                         <label for="checkbox"><input type="checkbox" required name="checkbox" class="check-box">I Agree with The <a href="terms-conditions.php" target="_blank" style="color: #CB4721;"> &nbsp;Terms and Conditions</a></label>
 
-                        <div>
-                            <div class="g-recaptcha" data-sitekey="6LeQKSUpAAAAAJSeTQOzIzFNS5veD4M3_RAE89gm"></div>
-                        </div>
+
 
                         <input class="sub_mit" type="submit" value="Submit">
 
