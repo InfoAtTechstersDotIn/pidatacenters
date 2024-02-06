@@ -6,87 +6,114 @@ $seo_keywords = "data center, data center solutions, secure infrastructure, scal
 
 <?php include('php/includes-techsters/header.php'); ?>
 
+<head>
 
-<style>
-    body {
-        font-family: 'Roboto', sans-serif !important;
-    }
+    <script type="text/javascript">
+        _linkedin_partner_id = "4836476";
+        window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+        window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script>
+    <script type="text/javascript">
+        (function(l) {
+            if (!l) {
+                window.lintrk = function(a, b) {
+                    window.lintrk.q.push([a, b])
+                };
+                window.lintrk.q = []
+            }
+            var s = document.getElementsByTagName("script")[0];
+            var b = document.createElement("script");
+            b.type = "text/javascript";
+            b.async = true;
+            b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+            s.parentNode.insertBefore(b, s);
+        })(window.lintrk);
+    </script>
+    <noscript> <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=4836476&fmt=gif" /> </noscript>
 
-    .anchor-tag {
-        background-color: blue;
-        color: white;
-        width: 100px;
-        text-align: center;
-        padding: 10px;
-        font-size: 15px;
-        border-radius: 5px;
-        position: absolute;
-        top: 120px;
-        left: 40px;
-        text-transform: uppercase;
-        font-weight: bold;
-    }
 
-    .anchor-tag:hover {
-        color: white;
-    }
 
-    .modal-content {
-        background-color: transparent !important;
-        margin: 0 auto !important;
-        border: none !important;
-    }
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif !important;
+        }
 
-    .new-services {
-        margin: 40px 0;
-        padding: 0 25px;
-        text-align: center;
-    }
+        .anchor-tag {
+            background-color: blue;
+            color: white;
+            width: 100px;
+            text-align: center;
+            padding: 10px;
+            font-size: 15px;
+            border-radius: 5px;
+            position: absolute;
+            top: 120px;
+            left: 40px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
 
-    .service-box {
-        box-shadow: 0px 0px 20px grey;
-        border-radius: 20px;
-        padding: 30px;
-        transform: scale(0.8);
-    }
+        .anchor-tag:hover {
+            color: white;
+        }
 
-    .service-box:hover {
-        transform: scale(1);
-        transition: all 0.5s ease-in-out;
-    }
+        .modal-content {
+            background-color: transparent !important;
+            margin: 0 auto !important;
+            border: none !important;
+        }
 
-    .service-box h2 {
-        font-size: 28px;
-        line-height: 2.5rem;
-        color: #000;
-        font-weight: bold;
-    }
+        .new-services {
+            margin: 40px 0;
+            padding: 0 25px;
+            text-align: center;
+        }
 
-    .service-box p {
-        font-size: 18px;
-        text-align: center;
-        padding: 15px 0;
-        color: #000;
-        line-height: 1.5rem;
-    }
+        .service-box {
+            box-shadow: 0px 0px 20px grey;
+            border-radius: 20px;
+            padding: 30px;
+            transform: scale(0.8);
+        }
 
-    .link-btn {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+        .service-box:hover {
+            transform: scale(1);
+            transition: all 0.5s ease-in-out;
+        }
 
-    .link-btn a {
-        background-color: #223f97;
-        color: #fff;
-        padding: 10px 15px;
-        border-radius: 10px;
-    }
+        .service-box h2 {
+            font-size: 28px;
+            line-height: 2.5rem;
+            color: #000;
+            font-weight: bold;
+        }
 
-    .link-btn a:hover {
-        background-color: #76b543;
-    }
-</style>
+        .service-box p {
+            font-size: 18px;
+            text-align: center;
+            padding: 15px 0;
+            color: #000;
+            line-height: 1.5rem;
+        }
+
+        .link-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .link-btn a {
+            background-color: #223f97;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 10px;
+        }
+
+        .link-btn a:hover {
+            background-color: #76b543;
+        }
+    </style>
+</head>
 
 <!-- main starts here -->
 <div class="about-banner">
