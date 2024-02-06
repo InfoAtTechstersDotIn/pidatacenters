@@ -8,6 +8,45 @@ $seo_keywords = "public cloud services, cloud computing, scalable cloud, cost-ef
 
 <?php include('php/includes-techsters/header.php'); ?>
 
+<style>
+    .owl-dots {
+        top: 0px;
+        margin: 0 auto;
+    }
+
+    .owl-carousel .owl-item img {
+        height: 800px;
+    }
+
+    .owl-carousel .item {
+        top: 25px;
+    }
+
+    .hb-features {
+        top: 50px;
+    }
+
+    .hb-CerSetion>h2 {
+        margin-top: 60px !important;
+    }
+
+    @media screen and (max-width: 991px) {
+        .hb-leftCont {
+            width: auto;
+        }
+
+        .owl-carousel .owl-item img {
+            height: 510px;
+        }
+    }
+
+    @media screen and (max-width: 599px) {
+        .owl-carousel .owl-item img {
+            height: 265px;
+        }
+    }
+</style>
+
 
 <div class="picloud_pages">
 
@@ -161,29 +200,30 @@ $seo_keywords = "public cloud services, cloud computing, scalable cloud, cost-ef
                             <div class="owl-carousel" id="cloudinfo">
                                 <div class="item" style="">
 
-                                    <a href="https://pi-cloud.in/multi-cloud#cloudinfo"> <img src="./pi-cloud/images/product-images/AWS28.png" alt="certfication" style="max-width:100%;"></a>
+                                    <!-- <a href="https://pi-cloud.in/multi-cloud#cloudinfo"> <img src="images/Sliders-02-aws.svg" alt="certfication" style="max-width:100%;"></a> -->
+                                    <a href=""> <img src="images/Sliders-02-aws.svg" alt="certfication" style="max-width:100%;"></a>
 
                                 </div>
                                 <div class="item" style="">
 
-                                    <a href="https://pi-cloud.in/multi-cloud#cloudinfo"><img src="dashboard/uploads/services/8-infographics-2-latest.png" alt="certfication" style="max-width:100%;"></a>
+                                    <a href=""><img src="images/Sliders-05-multi.svg" alt="certfication" style="max-width:100%;"></a>
 
                                 </div>
                                 <div class="item" style="">
-                                    <a href="https://pi-cloud.in/multi-cloud#cloudinfo">
-                                        <img src="./pi-cloud/images/product-images/Google28.png" alt="certfication" style="max-width:100%;">
+                                    <a href="">
+                                        <img src="images/Sliders-04-g.svg" alt="certfication" style="max-width:100%;">
                                     </a>
                                 </div>
 
                                 <div class="item" style="">
-                                    <a href="https://pi-cloud.in/multi-cloud#cloudinfo">
-                                        <img src="./pi-cloud/images/product-images/Oracle28.png" alt="certfication" style="max-width:100%;">
+                                    <a href="">
+                                        <img src="images/Sliders-03-oracle.svg" alt="certfication" style="max-width:100%;">
                                     </a>
                                 </div>
 
                                 <div class="item" style="">
-                                    <a href="https://pi-cloud.in/multi-cloud#cloudinfo">
-                                        <img src="https://pidatacenters.com/pi-cloud/images/product-images/Azure28.png" alt="certfication" style="max-width:100%;">
+                                    <a href="">
+                                        <img src="images/Sliders-01-azure.svg" alt="certfication" style="max-width:100%;">
                                     </a>
                                 </div>
 

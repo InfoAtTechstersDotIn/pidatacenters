@@ -841,7 +841,7 @@ $seo_keywords = "company videos, brand story, achievements, company culture, ser
         <div class="modal-body">
           <div class="director-cnt row">
             <div class="col-md-12">
-              <h5 class="text-center">Take A Tour Of Pi DATACENTERS - Asia's Largest Uptime Institute TIER IV Certified Data Center </h5>
+              <h3 class="text-center" style="font-size:20px; line-height: 1.6rem;">Take A Tour Of Pi DATACENTERS - Asia's Largest Uptime Institute TIER IV Certified Data Center </h3>
               <iframe class="youtube-al" src="https://www.youtube.com/embed/QVmcE4FXS9E">
               </iframe>
 
@@ -862,7 +862,7 @@ $seo_keywords = "company videos, brand story, achievements, company culture, ser
         <div class="modal-body">
           <div class="director-cnt row">
             <div class="col-md-12">
-              <h2 class="text-center">Key Differentiators of Pi Cloud</h2>
+              <h3 class="text-center" style="font-size:20px; line-height: 1.6rem;">Key Differentiators of Pi Cloud</h3>
               <iframe class="youtube-al" src="https://www.youtube.com/embed/7kLjRZ04z7A">
               </iframe>
 
@@ -883,7 +883,7 @@ $seo_keywords = "company videos, brand story, achievements, company culture, ser
         <div class="modal-body">
           <div class="director-cnt row">
             <div class="col-md-12">
-              <h2 class="text-center" style="font-size:20px; line-height: 1.6rem;">Kalyan Muppaneni, Founder & CEO, Pi at International Annual Tech Fest VIT University, AP</h2>
+              <h3 class="text-center" style="font-size:20px; line-height: 1.6rem;">Kalyan Muppaneni, Founder & CEO, Pi at International Annual Tech Fest VIT University, AP</h3>
               <iframe class="youtube-al" src="https://www.youtube.com/embed/aDjnMwJDz38">
               </iframe>
 
