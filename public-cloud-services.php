@@ -12,6 +12,7 @@ $seo_keywords = "public cloud services, cloud computing, scalable cloud, cost-ef
     .owl-dots {
         top: 0px;
         margin: 0 auto;
+line-height: 0;
     }
 
     .owl-carousel .owl-item img {
@@ -42,7 +43,7 @@ $seo_keywords = "public cloud services, cloud computing, scalable cloud, cost-ef
 
     @media screen and (max-width: 599px) {
         .owl-carousel .owl-item img {
-            height: 265px;
+            height: 270px;
         }
     }
 </style>
