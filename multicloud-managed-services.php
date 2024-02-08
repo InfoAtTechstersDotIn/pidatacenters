@@ -1154,7 +1154,7 @@ $seo_keywords = "Multi cloud managed services, multi cloud management, multi clo
 				<picture>
 					<source media="(max-width: 768px)" srcset="https://pidatacenters.com/pi-cloud/images/banners/Multi-cloud-managed-services-models-banner.jpg">
 					<img src="https://pidatacenters.com/pi-cloud/images/banners/Multi-cloud-managed-services-models-banner.jpg" alt="pi cloud Cloud Backup as a Service Banner" style="width:100%">
-					<h1>Multi Cloud Managed Services </h1>
+					<h1>Multi Cloud</h1>
 				</picture>
 			</div>
 		</div>

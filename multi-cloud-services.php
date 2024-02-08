@@ -18,7 +18,7 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
     <div class="tabs-content">
         <div class="row">
             <div class="col-md-6 mobile-view-show">
-                <img src="images/multi-cloud-copy.png" alt="multi-cloud" width="661" height="446">
+                <img src="images/multi-cloud-copy.png" alt="multi-cloud" width="661" height="446" style="box-shadow: 0 0 3px grey;">
             </div>
             <div class="col-md-6">
                 <div>
@@ -31,7 +31,7 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
                 </div>
             </div>
             <div class="col-md-6 mobile-view-hide">
-                <img src="images/multi-cloud-copy.png" alt="multi-cloud" width="661" height="446">
+                <img src="images/multi-cloud-copy.png" alt="multi-cloud" width="661" height="446" style="box-shadow: 0 0 3px grey;">
             </div>
         </div>
     </div>

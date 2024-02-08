@@ -292,7 +292,8 @@ SRR Middle East FZCO Technology Park, Mina-Jebel Ali, National Industrial Park,D
 <div class="about-banner1 knowledge111">
   <div class="container">
     <div class="about-banner-blk1">
-      <a href="https://www.google.com/maps/place/Pi+Datacenters+PVT+LTD/@16.421067,80.55841,13z/data=!4m5!3m4!1s0x0:0xdbdd8b5fc0716feb!8m2!3d16.4210672!4d80.5584101?hl=en-US" class="view-location"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;View Location</a>
+      <!-- <a href="https://www.google.com/maps/place/Pi+Datacenters+PVT+LTD/@16.421067,80.55841,13z/data=!4m5!3m4!1s0x0:0xdbdd8b5fc0716feb!8m2!3d16.4210672!4d80.5584101?hl=en-US" class="view-location"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;View Location</a> -->
+      <a href="https://maps.app.goo.gl/BxEu23VxDD6gqSXV9" class="view-location"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;View Location</a>
     </div>
   </div>
 </div>

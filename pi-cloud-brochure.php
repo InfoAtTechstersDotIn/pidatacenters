@@ -18,21 +18,19 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
     <div class="tabs-content">
         <div class="row">
             <div class="col-md-6 mobile-view-show">
-                <img src="images/it-managed-services.png" alt="it-managed-services" width="661" height="446" style="box-shadow: 0 0 3px grey;">
+                <img src="images/pi-cLoud.png" alt="pi-snapshot" width="661" height="446" style="box-shadow: 0 0 3px grey;">
             </div>
             <div class="col-md-6">
                 <div>
-                    <h2 style="line-height:48px">IT Managed Services:</h2>
-                    <p style="color:#242424 !important;" class="py-2">Ever wondered if your IT infrastructure could be a catalyst for unparalleled business growth? </p>
-                    <p style="color:#242424 !important;">
-                        Pi Care is here as your trusted partner in optimizing your IT operations for maximum efficiency and seamless performance. Our Performance & Infrastructure (Pi) Care service is not just a support system; it's a strategic approach to managing your IT environment. As pioneers in managed services, we bring you user-friendly management and reporting systems, providing heightened visibility and transparency.
-                    </p>
-                    <p style="color:#242424 !important;">Journey into the future of efficient operations with Pi Care. Click now to read our brochure and explore a world of IT management excellence.</p>
-                    <a href="images/IT-managed-services.pdf" target="_blank">Download Brochure</a>
+                    <h2 style="line-height:48px">Pi Cloud:</h2>
+                    <p style="color:#242424 !important;" class="py-2">How can your enterprise navigate the ever-evolving landscape of cloud solutions while ensuring seamless integration, robust management, and optimal cost-efficiency?</p>
+                    <p style="color:#242424 !important;">Welcome to Pi Cloud, India's pioneering Enterprise Cloud Platform, now evolved into a comprehensive Multi-Cloud Ecosystem. Our platform offers fully managed private and public cloud environments, including Oracle, AWS, Azure, and GCP, providing unparalleled flexibility, scalability, and business continuity. In today's digital economy, where efficiency and agility reign supreme, Pi Cloud stands as a beacon of innovation, empowering enterprises to harness the power of cloud-native approaches for accelerated time-to-market and streamlined operations.</p>
+                    <p style="color:#242424 !important;">Join us in reshaping possibilities and unlocking the true potential of cloud computing.</p>
+                    <a href="images/pi-cLoud-brochure.pdf" target="_blank">Download Brochure</a>
                 </div>
             </div>
             <div class="col-md-6 mobile-view-hide">
-                <img src="images/it-managed-services.png" alt="it-managed-services" width="661" height="446" style="box-shadow: 0 0 3px grey;">
+                <img src="images/pi-cLoud.png" alt="pi-snapshot" width="661" height="446" style="box-shadow: 0 0 3px grey;">
             </div>
         </div>
     </div>

@@ -46,6 +46,12 @@ $seo_keywords = "brochures, data center brochures, colocation brochure, cloud br
         <img src="images/pi-snapshot.png" alt="pi-snapshot">
         <a href="pi-snapshot.php">Know More</a>
       </div>
+
+      <div class="col-md-4 mt-4">
+        <h2>Pi Cloud</h2>
+        <img src="images/pi-cLoud.png" alt="pi-cloud">
+        <a href="pi-cloud-brochure.php">Know More</a>
+      </div>
     </div>
   </div>
 </div>

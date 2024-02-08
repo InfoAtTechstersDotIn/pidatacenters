@@ -10569,3 +10569,8 @@
         background-color: #76b543;
         color: white;
     }
+
+    .brochure-tabs img {
+        box-shadow: 0 0 2px #808080cc;
+        margin: 10px 0;
+    }
