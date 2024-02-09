@@ -10574,3 +10574,8 @@
         box-shadow: 0 0 2px #808080cc;
         margin: 10px 0;
     }
+
+    .backdround-bg1 footer {
+        position: fixed;
+        bottom: 0;
+    }

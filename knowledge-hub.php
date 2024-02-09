@@ -34,15 +34,15 @@ $seo_keywords = "articles, informative articles, datacenter articles, cloud arti
           <div class="latest-block row">
             <div class="latest-block-left col-md-12">
 
-              <a href="rent-a-rack-what-it-means.php"><img src="images/rent-a-rack.svg" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="cloud-service-providers.php"><img src="images/cloud-service-providers.svg" alt="kh-img-1" width="430" height="278"> </a>
 
               <br>
-              <a href="rent-a-rack-what-it-means.php" class="new-article-head">
+              <a href="cloud-service-providers.php" class="new-article-head">
                 <!-- article -->
-                <h2>"Rent a Rack": What It Means?</h2>
+                <h2>Cloud Service Providers in India: Driving Growth in the Digital Landscape </h2>
               </a>
 
-              <div class="readmore-btn" style="padding:20px 0 0;"><a href="rent-a-rack-what-it-means.php">Read More</a></div>
+              <div class="readmore-btn" style="padding:20px 0 0;"><a href="cloud-service-providers.php">Read More</a></div>
 
             </div>
 
@@ -130,6 +130,14 @@ $seo_keywords = "articles, informative articles, datacenter articles, cloud arti
       <div class="what-drives-vission1 row align-middle">
         <div class="what-drives-vission-left1 col-md-12">
           <ul class="slider-knowledge row">
+
+            <li class="col-md-3 articles">
+              <a href="rent-a-rack-what-it-means.php"><img src="images/rent-a-rack.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#article</span><a href="rent-a-rack-what-it-means.php" class="pres-rel">
+                <h2>"Rent a Rack": What It Means?</h2>
+              </a>
+              <div class="readmore-btn"><a href="rent-a-rack-what-it-means.php">Read More</a></div>
+            </li>
 
             <li class="col-md-3 articles">
               <a href="ideal-for-businesses-of-all-sizes.php"><img src="images/rent-a-server.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
