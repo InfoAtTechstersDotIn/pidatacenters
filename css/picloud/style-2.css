@@ -10579,3 +10579,7 @@
         position: fixed;
         bottom: 0;
     }
+
+    .new-article-head h2 {
+        line-height: 28px;
+    }
