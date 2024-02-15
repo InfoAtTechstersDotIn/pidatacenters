@@ -25,7 +25,7 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
                     <h2 style="line-height:48px">Data Center Services Portfolio:</h2>
                     <p style="color:#242424 !important;" class="py-2">Want to unlock a wealth of options for your business? </p>
                     <p style="color:#242424 !important;">Find out about Pi DATACENTERS&#174; Advisory, Colocation, Operator Design, Build, and PMC services. We have a wide range of services to meet the diverse needs of different businesses. Our state-of-the-art data center infrastructure is equipped with advanced technology to ensure zero downtime & comprehensive security needed.</p>
-                    <a href="images/new-data-center-services-portfolio-2.2.pdf" target="_blank">Download Brochure</a>
+                    <a href="images/data-center-services-portfolio.pdf" target="_blank">Download Brochure</a>
                 </div>
             </div>
             <div class="col-md-6 mobile-view-hide">

@@ -86,7 +86,7 @@
                     <h3>Worldwide Reach and Local Expertise:</h3>
                     <p>Consider an MSP with extensive global reach and capabilities, providing advantages like managing client projects across multiple nations, offering local language support, and ensuring compliance with local regulations.</p>
 
-                    <p>Furthermore, take into account the following suggestions when selecting an MSP: </p>
+                    <p><b class="font-color">Furthermore, take into account the following suggestions when selecting an MSP: </b></p>
 
                     <ul class="article-list">
                         <li>Seek out an MSP that possesses a deep understanding of your business, provides references, and boasts a strong reputation. </li>

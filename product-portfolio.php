@@ -32,7 +32,8 @@ $seo_keywords = "Product Portfolio, Data Center Services, data center infrastruc
                         <h2>Product Portfolio:</h2>
                         <p style="color:#242424 !important;" class="py-2">Are you looking for a reliable and secure datacenter and cloud provider for your business? </p>
                         <p style="color:#242424 !important;">Look no further than Pi DATACENTERS&#174;! Our team of experts has put together a comprehensive product portfolio featuring state-of-the-art datacenters and a range of cloud services. From colocation to managed services, we have a solution to fit the needs of your organization.</p>
-                        <a href="#modal-1" onclick="document.getElementById('File_Downloaded').value = '<?php echo $each ?>'" ;>Download Brochure</a>
+                        <!-- <a href="#modal-1" onclick="document.getElementById('File_Downloaded').value = '<?php echo $each ?>'" ;>Download Brochure</a> -->
+                        <a href="images/product-portfolio.pdf" target="_blank">Download Brochure</a>
                     </div>
                 </div>
                 <div class="col-md-6 mobile-view-hide">
