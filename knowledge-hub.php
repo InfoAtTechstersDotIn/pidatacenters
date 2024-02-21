@@ -34,15 +34,15 @@ $seo_keywords = "articles, informative articles, datacenter articles, cloud arti
           <div class="latest-block row">
             <div class="latest-block-left col-md-12">
 
-              <a href="what-is-managed-services-provider.php"><img src="images/what-is-msp.svg" alt="kh-img-1" width="430" height="278"> </a>
+              <a href="what-is-a-gpu.php"><img src="images/what-is-a-gpu.svg" alt="kh-img-1" width="430" height="278"> </a>
 
               <br>
-              <a href="what-is-managed-services-provider.php" class="new-article-head">
+              <a href="what-is-a-gpu.php" class="new-article-head">
                 <!-- article -->
-                <h2>What is Managed Services Provider (MSP)? Important Factors to Consider When Selecting the Ideal MSP </h2>
+                <h2>What is a GPU? Why Does It Matter in the Present Day? </h2>
               </a>
 
-              <div class="readmore-btn" style="padding:20px 0 0;"><a href="what-is-managed-services-provider.php">Read More</a></div>
+              <div class="readmore-btn" style="padding:20px 0 0;"><a href="what-is-a-gpu.php">Read More</a></div>
 
             </div>
 
@@ -130,6 +130,14 @@ $seo_keywords = "articles, informative articles, datacenter articles, cloud arti
       <div class="what-drives-vission1 row align-middle">
         <div class="what-drives-vission-left1 col-md-12">
           <ul class="slider-knowledge row">
+
+            <li class="col-md-3 articles">
+              <a href="what-is-managed-services-provider.php"><img src="images/what-is-msp.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
+              <span>#article</span><a href="what-is-managed-services-provider.php" class="pres-rel">
+                <h2>What is Managed Services Provider (MSP)? Important Factors to Consider When Selecting the Ideal MSP </h2>
+              </a>
+              <div class="readmore-btn"><a href="what-is-managed-services-provider.php">Read More</a></div>
+            </li>
 
             <li class="col-md-3 articles">
               <a href="cloud-service-providers.php"><img src="images/cloud-service-providers.svg" class="imgs" alt="kh-img-1" width="430" height="278"> </a>
